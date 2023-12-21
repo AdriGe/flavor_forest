@@ -1,0 +1,130 @@
+INSERT INTO users (user_id, username, email, hashed_password, password_hash_method, role)
+VALUES (1, 'chef_user', 'chef@example.com', 'hashed_password', 'argon2', 'admin');
+
+-- Insert units used in the recipe
+INSERT INTO units (unit_id, name)
+VALUES 
+    (1, 'gramme'), 
+    (2, 'ml'),
+    (3, 'cl'),
+    (4, 'litre')
+; -- Add more as needed
+
+
+INSERT INTO recipes (recipe_id, user_id, title, description, total_time, prep_time, difficulty, image_url)
+VALUES
+(1, 1, 'Bowl thaï végétarien & sauce cacahuètes', 'Si vous ne connaissez pas les boulettes thaï, c''est le moment de les déguster cuites au four dans cette recette totalement végétarienne. Les légumes sont sautés dans une sauce aux cacahuètes maison très gourmande pour une recette qui se veut rapide et efficace !', 25, 25, 'Facile', 'path_to_image');
+
+-- Insert each ingredient as a food item
+INSERT INTO foods (food_id, user_id, brand, name, calories, fats, saturated_fats, carbohydrates, sugars, fibers, proteins, sodium, unit_id)
+VALUES 
+    (1,     1, 'Hello Fresh',   'Boulette thaï',             228,   11.3,   1.1,    17.2,   1.6,    3.4,    13,     890,    1),
+    (2,     1, null,            'Gingembre frais',           32.9,  1.1,    0.1,    3.4,    1,      2.7,    1.1,    0,      1),
+    (3,     1, null,            'Poivron',                   31,    0.3,    0,      6,      4.2,    2.1,    1,      0.04,   1),
+    (4,     1, null,            'Huile de sésame',           884,   100,    14.8,   0,      0,      0,      0,      0,      1),
+    (5,     1, null,            'Nouilles de blé',           296,   2.5,    0.5,    56,     1.14,   0,      11.7,   0,      1),
+    (6,     1, null,            'Sauce soja',                38,    0.5,    0.1,    3.6,    1,      1.4,    5.6,    1300,   2),
+    (7,     1, null,            'Ail',                       149,   0.5,    0.09,   33.1,   1,      2.1,    6.4,    17,     1),
+    (8,     1, null,            'Cébette',                   32,    0.2,    0,      7,      2.3,    2.6,    1.8,    16,     1),
+    (9,     1, null,            'Courgette',                 17,    0.3,    0.08,   3.1,    2.5,    1,      1.2,    8,      1),
+    (10,    1, null,            'Coriandre',                 23,    0.5,    0.01,   3.7,    0.87,   2.8,    2.1,    46,     1),
+    (11,    1, null,            'Basilic thaï',              23,    0.6,    0.04,   2.6,    0.3,    1.6,    3.1,    4,      1),
+    (12,    1, null,            'Beurre de cacahuètes',      589,   49.9,   8.08,   21.6,   8.41,   8,      24.1,   0,      1),
+    (13,    1, null,            'Huile de tournesol',        900,   100,    10.9,   0,      0,      0,      0,      0,      2),
+    (14,    1, null,            'Vinaigre balsamique blanc', 111,   0.5,    0.1,    23,     22,     0,      0.5,    0,      2)
+; -- Example values
+
+INSERT INTO portions (portion_id, food_id, name, size)
+VALUES 
+    (1,  1,     'Paquet',            150),
+    (1,  2,     'cm',                10),
+    (1,  3,     'Pièce',             120),
+    (1,  7,     'Gousse',            7),
+    (1,  8,     'Pièce',             100),
+    (1,  9,     'Pièce',             150),
+    (1,  10,    'Sachet',            10),
+    (1,  11,    'Sachet',            10),
+    (1,  12,    'Tube',              30),
+    (1,  13,    'Cuillère à soupe',  15),
+    (1,  14,    'Cuillère à café',   5)
+; -- Assuming 100 grams is a standard portion
+
+
+-- Example for 'Boulette thaï'
+INSERT INTO recipe_foods (recipe_id, food_id, quantity, portion_id, unit_id)
+VALUES
+    (1, 1,   1,     1,      null),
+    (1, 2,   1,     1,      null),
+    (1, 3,   1,     1,      null),
+    (1, 4,   20,    null,   2),
+    (1, 5,   85,    null,   1),
+    (1, 6,   40,    null,   2),
+    (1, 7,   1,     1,      null),
+    (1, 8,   2,     1,      null),
+    (1, 9,   1,     1,      null),
+    (1, 10,  0.5,   1,      null),
+    (1, 11,  0.5,   1,      null),
+    (1, 12,  0.75,  1,      null),
+    (1, 13,  0.75,  1,      null),
+    (1, 14,  1,     1,      null)
+;
+
+
+INSERT INTO nutritional_values_recipes (recipe_id, calories, fats, saturated_fats, carbohydrates, sugars, fibers, proteins, sodium)
+VALUES
+(1, 623, 30.1, 4.6, 60.1, 10.9, null, 23.8, 4620);
+
+-- Insert tags used in the recipe
+INSERT INTO tags (tag_id, name)
+VALUES (1, '<650 Kcal'), (2, '<30 min'), (3, 'Végétarien'); -- Add more as needed
+
+-- Assuming tag_id for 'Thai' and 'Vegetarian' are 1 and 2
+INSERT INTO recipe_tags (recipe_id, tag_id)
+VALUES (1, 1), (1, 2), (1, 3);
+
+-- Insert utensils used in the recipe
+INSERT INTO utensils (utensil_id, name)
+VALUES 
+    (1, 'Râpe'), 
+    (2, 'Plaque de cuisson recouverte de papier sulfurisé'),
+    (3, 'Casserole'),
+    (4, 'Wok ou sauteuse'),
+    (5, 'Petit bol')
+; -- Add more as needed
+
+-- Assuming utensil_id for a specific utensil is 1
+INSERT INTO recipe_utensils (recipe_id, utensil_id)
+VALUES 
+    (1, 1),
+    (1, 2),
+    (1, 3),
+    (1, 4),
+    (1, 5)
+; -- Repeat for each utensil
+
+-- Insert each step of the recipe
+INSERT INTO steps (recipe_id, step_number, image_url, description)
+VALUES 
+    (1, 1, null, ARRAY[
+        'Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !',
+        'Préchau!ez le four à 210°C (190°C chaleur tournante).',
+        'Placez les boulettes thaï sur une plaque recouverte de papier sulfurisé. Enfournez-les directement 12-15 min, ou jusqu''à ce qu''elles soient dorées.',
+        'Râpez l''ail et le gingembre (ça pique ! Dosez-le selon votre goût). Ciselez séparément le blanc et le vert de la cébette. Coupez le poivron en fines lanières et la courgette en fines demi-lunes'
+    ]), 
+    (1, 2, null, ARRAY[
+        'Portez une grande casserole d''eau à ébullition pour les nouilles.',
+        'Dans un wok ou une sauteuse, faites chau!er un filet d''huile de tournesol et la moitié de l''huile de sésame à feu moyen-vif. Faites-y revenir le blanc de la cébette, le gingembre et la moitié de l''ail 2-3 min.',
+        'Ajoutez le poivron et la courgette et faites revenir le tout 7-10 min en remuant souvent. Poivrez.',
+        'Pendant ce temps, ciselez les herbes'
+    ]),
+    (1, 3, null, ARRAY[
+        'Faites cuire la quantité indiquée de nouilles 2 min dans la casserole. Égouttez-les.',
+        'Dans un petit bol, mélangez le beurre de cacahuètes (comptez ⅓ de pot par personne) et la sauce soja avec le reste de l''ail et de l''huile de sésame. Ajoutez 2 cs d''eau par personne et mélangez.',
+        'Déglacez le contenu du wok en versant ½ cs de vinaigre balsamique blanc (ou de riz) par personne.',
+        'Ajoutez les nouilles et la sauce cacahuètes au wok. Faites réchau!er le tout 1-3 min à feu moyen.'
+    ]),
+    (1, 4, null, ARRAY[
+        'Servez les nouilles et leurs légumes dans des assiettes creuses ou dans des bols. Placez les boulettes thaï par-dessus.',
+        'Saupoudrez avec le vert de la cébette ainsi que les herbes ciselées.'
+    ])
+; -- Add more steps as needed

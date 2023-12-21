@@ -8,15 +8,22 @@ CREATE TABLE users (
     role VARCHAR(100)
 );
 
+-- Unit Table
+CREATE TABLE units (
+    unit_id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL
+);
+
 -- Recipe Table
 CREATE TABLE recipes (
     recipe_id SERIAL PRIMARY KEY,
     user_id INT NOT NULL,
     title VARCHAR(255) NOT NULL,
     description TEXT,
+    total_time INT,
     prep_time INT,
     difficulty VARCHAR(50),
-    main_image TEXT,
+    image_url TEXT,
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
@@ -27,9 +34,13 @@ CREATE TABLE foods (
     name VARCHAR(255) NOT NULL,
     brand VARCHAR(255),
     calories DECIMAL,
-    proteins DECIMAL,
-    carbohydrates DECIMAL,
     fats DECIMAL,
+    saturated_fats DECIMAL,
+    carbohydrates DECIMAL,
+    sugars DECIMAL,
+    fibers DECIMAL,
+    proteins DECIMAL,
+    sodium DECIMAL,
     unit_id INT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(user_id),
     FOREIGN KEY (unit_id) REFERENCES units(unit_id)
@@ -37,41 +48,37 @@ CREATE TABLE foods (
 
 -- Portion Table
 CREATE TABLE portions (
-    portion_id SERIAL PRIMARY KEY,
     food_id INT NOT NULL,
+    portion_id INT NOT NULL,
+    name VARCHAR(255),
     size DECIMAL NOT NULL,
-    unit_id INT NOT NULL,
-    FOREIGN KEY (food_id) REFERENCES foods(food_id),
-    FOREIGN KEY (unit_id) REFERENCES units(unit_id)
+    PRIMARY KEY(food_id, portion_id),
+    FOREIGN KEY (food_id) REFERENCES foods(food_id)
 );
 
--- Unit Table
-CREATE TABLE units (
-    unit_id SERIAL PRIMARY KEY,
-    name VARCHAR(50) NOT NULL
-);
+
 
 -- RecipeFood Table
 CREATE TABLE recipe_foods (
     recipe_id INT,
     food_id INT,
-    portion_id INT,
     quantity DECIMAL,
+    portion_id INT,
     unit_id INT,
     PRIMARY KEY (recipe_id, food_id),
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
     FOREIGN KEY (food_id) REFERENCES foods(food_id),
-    FOREIGN KEY (portion_id) REFERENCES portions(portion_id),
+    FOREIGN KEY (food_id, portion_id) REFERENCES portions(food_id, portion_id),
     FOREIGN KEY (unit_id) REFERENCES units(unit_id)
 );
 
 -- Step Table
 CREATE TABLE steps (
-    step_id SERIAL PRIMARY KEY,
     recipe_id INT NOT NULL,
     step_number INT NOT NULL,
-    description TEXT,
-    step_image TEXT,
+    description TEXT[],
+    image_url TEXT,
+    PRIMARY KEY(recipe_id, step_number),
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
 );
 
@@ -94,9 +101,13 @@ CREATE TABLE recipe_utensils (
 CREATE TABLE nutritional_values_recipes (
     recipe_id INT PRIMARY KEY,
     calories DECIMAL,
-    proteins DECIMAL,
-    carbohydrates DECIMAL,
     fats DECIMAL,
+    saturated_fats DECIMAL,
+    carbohydrates DECIMAL,
+    sugars DECIMAL,
+    fibers DECIMAL,
+    proteins DECIMAL,
+    sodium DECIMAL,
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
 );
 

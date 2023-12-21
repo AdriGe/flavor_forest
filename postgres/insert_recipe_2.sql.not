@@ -1,0 +1,111 @@
+INSERT INTO recipes (recipe_id, user_id, title, description, total_time, prep_time, difficulty, image_url)
+VALUES
+(2, 1, 'Bowl à l''asiatique & boulettes veggie, des légumes aigre-doux & de la cébette', 'La tendance du Bowl-Food vous tente ? Si oui, vous devriez définitivement tester cette recette de bowl à l''asiatique et boulettes veggie. Outre le côté tendance, c''est un plat unique, complet et pratique puisque tous les éléments du plat se dégustent ensemble directement dans un bol (ou une assiette creuse). Fins connaisseurs ou aventuriers du bowl, bienvenue !', 25, 25, 'Facile', 'path_to_image');
+
+-- Insert each ingredient as a food item
+INSERT INTO foods (food_id, user_id, brand, name, calories, fats, saturated_fats, carbohydrates, sugars, fibers, proteins, sodium, unit_id)
+VALUES 
+    (15,    1, null,            'Concombre',                 13,    0.1,    0.02,   2.3,    1.7,    0,      0.8,    3,      1),
+    (16,    1, null,            'Riz thaï',                  348,   0.6,    0.2,    78,     0.1,    0.4,    7.5,    20,     1),
+    (17,    1, null,            'Gomasio',                   605,   55.3,   7.8,    1.7,    0.6,    12.3,   19,     8,      1),
+    (18,    1, null,            'Carotte râpée',             36,    0.1,    0.02,   6.6,    6.3,    2.4,    0.7,    30,     1),
+    (19,    1, null,            'Choux rouge râpé',          31,    0.3,    0.06,   4.3,    3.9,    2.8,    1.13,   6,      1),
+    (20,    1, null,            'Choux blanc râpé',          25,    0.3,    0.1,    2.8,    0.1,    2.53,   1.8,    18,     1),
+    (21,    1, null,            'Sauce d''huître',           136,   0.7,    0.05,   28.4,   25,     0,      3.6,    12,     1),
+    (22,    1, null,            'Bouillon de légumes',       236,   8.8,    4.41,   24.6,   12,     0,      14.9,   17050,  1),
+    (23,    1, null,            'Huile d''olive',            824,   91.6,   13.3,   0,      0,      0,      0,      0,      2),
+    (24,    1, null,            'Poivre',                    255,   3.3,    0.98,   64.8,   0.64,   26.5,   10.9,   44,     1),
+    (25,    1, null,            'Sel',                       0,     0,      0,      0,      0,      0,      0,      37600,  1),
+    (26,    1, null,            'Sucre',                     389,   0.1,    0.02,   99.6,   97.91,  0,      0,      0,      1)
+; -- Example values
+
+INSERT INTO portions (portion_id, food_id, name, size)
+VALUES 
+    (2,  8,      'Botte',               150),
+    (1,  15,     'Pièce',               500),
+    (1,  22,     'Cube',                10),
+    (1,  23,     'Cuillère à soupe',    15),
+    (1,  26,     'Cuillère à soupe',    10)
+; -- Assuming 100 grams is a standard portion
+
+
+-- Example for 'Boulette thaï'
+INSERT INTO recipe_foods (recipe_id, food_id, quantity, portion_id, unit_id)
+VALUES
+    (2, 1,   1,     1,      null),
+    (2, 2,   0.5,   1,      null),
+    (2, 7,   1,     1,      null),
+    (2, 8,   0.5,   1,      null),
+    (2, 13,  1,     1,      null),
+    (2, 14,   2,     1,      null),
+    (2, 15,   1,     1,      null),
+    (2, 16,   150,   null,   1),
+    (2, 17,   5,     null,   1),
+    (2, 18,  70,    null,   1),
+    (2, 19,  70,    null,   1),
+    (2, 20,  70,    null,   1),
+    (2, 21,  30,    null,   2),
+    (2, 22,  1,     1,      null),
+    (2, 23,  1,     1,      null),
+    (2, 24,  null,  null,   null),
+    (2, 25,  null,  null,   null),
+    (2, 26,  1,     1,      null)
+;
+
+
+INSERT INTO nutritional_values_recipes (recipe_id, calories, fats, saturated_fats, carbohydrates, sugars, fibers, proteins, sodium)
+VALUES
+(2, 763, 26.6, 3.4, 104.5, 26.4, null, 22.1, 5130);
+
+-- Insert tags used in the recipe
+INSERT INTO tags (tag_id, name)
+VALUES (4, 'Moins de CO2'); -- Add more as needed
+
+-- Assuming tag_id for 'Thai' and 'Vegetarian' are 1 and 2
+INSERT INTO recipe_tags (recipe_id, tag_id)
+VALUES (2, 2), (2, 3), (2, 4);
+
+-- Insert utensils used in the recipe
+INSERT INTO utensils (utensil_id, name)
+VALUES 
+    (6, 'Casserole avec couvercle'),
+    (7, 'Bol')
+; -- Add more as needed
+
+-- Assuming utensil_id for a specific utensil is 1
+INSERT INTO recipe_utensils (recipe_id, utensil_id)
+VALUES 
+    (2, 2),
+    (2, 3),
+    (2, 6),
+    (2, 7)
+; -- Repeat for each utensil
+
+-- Insert each step of the recipe
+INSERT INTO steps (recipe_id, step_number, image_url, description)
+VALUES 
+    (2, 1, null, ARRAY[
+        'Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !',
+        'Préchau!ez le four à 210°C (190°C chaleur tournante).',
+        'Placez les boulettes thaï sur une plaque recouverte de papier sulfurisé. Enfournez-les directement 12-15 min, ou jusqu''à ce qu''elles soient dorées.',
+        'Émincez l''ail et coupez le gingembre (ça pique ! Dosez-le selon votre goût) grossièrement en 3 morceaux.',
+        'Coupez la cébette en rondelles en réservant séparément le blanc du vert. Coupez le concombre en rondelles.'
+    ]), 
+    (2, 2, null, ARRAY[
+        'Faites chauffer un filet d''huile d''olive par personne dans une casserole à feu moyen-vif.',
+        'Ajoutez-y l''ail et le blanc de la cébette. Faites cuire 1-2 min.',
+        'Ajoutez le riz, 180 ml d''eau chaude par personne et les morceaux de gingembre',
+        'Émiettez-y ¼ de cube de bouillon de légumes par personne, puis portez à ébullition. Baissez le feu et faites cuire le riz 10-12 min à couvert.',
+        'Retirez la casserole du feu et réservez à couvert jusqu''au service.'
+    ]),
+    (2, 3, null, ARRAY[
+        'Dans un bol, mélangez par personne : ½ cs de sucre avec un filet de vinaigre balsamique. Ajoutez le mélange de carotte, chou rouge et blanc au bol et mélangez bien. Réservez au frais jusqu''au service.',
+        'Faites chauffer la sauce asiatique sucrée avec 50 ml d''eau par personne dans une petite casserole à feu moyen-vif.',
+        'Émiettez-y le reste du cube de bouillon et laissez réduire 3-4 min.'
+    ]),
+    (2, 4, null, ARRAY[
+        'Retirez les morceaux de gingembre du riz avec une cuillère. Servez le riz à l''ail et au gingembre dans des assiettes creuses.',
+        'Disposez les boulettes thaï sur le riz. Garnissez avec la sauce asiatique sucrée et du vert de la cébette (selon votre goût).',
+        'Servez les crudités à l’aigre-douce et le concombre à côté du riz. Garnissez le concombre avec le gomasio.'
+    ])
+; -- Add more steps as needed
