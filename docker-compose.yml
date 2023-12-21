@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  vuejs:
+    build: ./frontend
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    #depends_on:
+    #  - fastapi
+#
+#  fastapi:
+#    build: ./backend/app
+#    volumes:
+#      - ./path_to_fastapi_app:/usr/src/app
+#    ports:
+#      - "8000:8000"
+#    depends_on:
+#      - db
+#
+  db:
+    image: postgres:13
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: flavor_forest
+
+volumes:
+  postgres_data:
