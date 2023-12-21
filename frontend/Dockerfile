@@ -13,4 +13,4 @@ RUN npm install
 EXPOSE 5173
 
 # Start the app using the Vue CLI
-CMD ["npm", "run", "serve"]
+CMD ["npm", "run", "dev"]
