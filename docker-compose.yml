@@ -10,29 +10,29 @@ services:
 #      - "5173:5173"
 #    depends_on:
 #      - fastapi
-#
-#  fastapi:
-#    container_name: backend_fastapi
-#    build: ./backend/app
-#    volumes:
-#      - ./path_to_fastapi_app:/usr/src/app
-#    ports:
-#      - "8000:8000"
+
+  fastapi:
+    container_name: backend_fastapi
+    build: ./backend
+    volumes:
+      - ./backend/app:/usr/src/app
+    ports:
+      - "8000:8000"
 #    depends_on:
 #      - db
-#
-  db:
-    container_name: db_postgres
-    build: ./postgres
-    restart: always
-    ports:
-      - 5432:5432
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_USER: username
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: flavor_forest
 
-volumes:
-  postgres_data:
+#  db:
+#    container_name: db_postgres
+#    build: ./postgres
+#    restart: always
+#    ports:
+#      - 5432:5432
+#    volumes:
+#      - postgres_data:/var/lib/postgresql/data
+#    environment:
+#      POSTGRES_USER: username
+#      POSTGRES_PASSWORD: password
+#      POSTGRES_DB: flavor_forest
+#
+#volumes:
+#  postgres_data:
