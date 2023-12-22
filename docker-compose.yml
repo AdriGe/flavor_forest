@@ -14,26 +14,33 @@ services:
   fastapi:
     container_name: backend_fastapi
     build: ./backend
-    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    command: bash -c 'while !</dev/tcp/db/5432; do sleep 1; done; uvicorn main:app --host 0.0.0.0 --port 8000 --reload'
     volumes:
       - ./backend/app:/app
     ports:
       - "8000:8000"
-#    depends_on:
-#      - db
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: flavor_forest
+      POSTGRES_URL: localhost
+      POSTGRES_PORT: 5432
+    depends_on:
+      - db
 
-#  db:
-#    container_name: db_postgres
-#    build: ./postgres
-#    restart: always
-#    ports:
-#      - 5432:5432
-#    volumes:
-#      - postgres_data:/var/lib/postgresql/data
-#    environment:
-#      POSTGRES_USER: username
-#      POSTGRES_PASSWORD: password
-#      POSTGRES_DB: flavor_forest
-#
-#volumes:
-#  postgres_data:
+  db:
+    container_name: db_postgres
+    build: ./postgres
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      - ./postgres/init_tables:/docker-entrypoint-initdb.d/
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: flavor_forest
+
+volumes:
+  postgres_data:

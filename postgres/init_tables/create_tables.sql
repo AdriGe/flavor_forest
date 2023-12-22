@@ -4,8 +4,18 @@ CREATE TABLE users (
     username VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     hashed_password TEXT NOT NULL,
-    password_hash_method VARCHAR(50),
     role VARCHAR(100)
+);
+
+CREATE TABLE refresh_tokens (
+    id SERIAL PRIMARY KEY,
+    token VARCHAR(255) NOT NULL,
+    user_id INTEGER NOT NULL,
+    revoked BOOLEAN DEFAULT FALSE,
+    expires_at TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+    CONSTRAINT fk_user
+        FOREIGN KEY(user_id) REFERENCES users(user_id)
+        ON DELETE CASCADE
 );
 
 -- Unit Table
