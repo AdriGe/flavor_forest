@@ -14,8 +14,9 @@ services:
   fastapi:
     container_name: backend_fastapi
     build: ./backend
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
     volumes:
-      - ./backend/app:/usr/src/app
+      - ./backend/app:/app
     ports:
       - "8000:8000"
 #    depends_on:
