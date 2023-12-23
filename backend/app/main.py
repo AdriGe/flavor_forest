@@ -1,9 +1,9 @@
-# main.py
+import uuid
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from models import User, UserCreate, RefreshToken, RefreshTokenRequest, SessionLocal
-from security import create_access_token, create_refresh_token, hash_password, verify_password, decode_token, REFRESH_TOKEN_EXPIRE_DAYS
+from security import create_access_token, create_refresh_token, hash_password, verify_password, decode_token, extract_jti, REFRESH_TOKEN_EXPIRE_DAYS
 from datetime import datetime, timedelta
 
 app = FastAPI()
@@ -53,9 +53,10 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
             headers={"WWW-Authenticate": "Bearer"},
         )
     access_token = create_access_token(data={"sub": user.email})
-    refresh_token = create_refresh_token(data={"sub": user.email})
+    jti = str(uuid.uuid4())
+    refresh_token = create_refresh_token(data={"sub": user.email, "jti": jti})
     # Enregistrer le refresh_token dans la base de données
-    db_refresh_token = RefreshToken(token=refresh_token, user_id=user.user_id, expires_at=datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS))
+    db_refresh_token = RefreshToken(jti=jti, user_id=user.user_id, expires_at=datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS))
     db.add(db_refresh_token)
     db.commit()
     return {"access_token": access_token, "token_type": "bearer", "refresh_token": refresh_token}
@@ -64,7 +65,8 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
 @app.post("/refresh-token")
 async def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_db)):
     refresh_token = request.refresh_token
-    stored_token = db.query(RefreshToken).filter(RefreshToken.token == refresh_token).first()
+    jti = extract_jti(refresh_token)
+    stored_token = db.query(RefreshToken).filter(RefreshToken.jti == jti).first()
     
     if not stored_token or stored_token.revoked or stored_token.expires_at < datetime.utcnow():
         raise HTTPException(status_code=401, detail="Invalid or revoked refresh token")

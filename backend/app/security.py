@@ -1,4 +1,3 @@
-# security.py
 from datetime import timedelta, datetime
 from jose import JWTError, jwt
 from passlib.context import CryptContext
@@ -39,5 +38,14 @@ def decode_token(token: str):
         decoded_token = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         current_time = int(datetime.timestamp(datetime.utcnow()))
         return decoded_token if decoded_token["exp"] >= current_time else None
+    except JWTError:
+        return None
+
+
+def extract_jti(token: str):
+    try:
+        # Décodez le token sans vérifier la signature (puisque nous n'avons besoin que du JTI)
+        payload = jwt.decode(token, SECRET_KEY, options={"verify_signature": False})
+        return payload.get("jti")
     except JWTError:
         return None

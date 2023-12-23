@@ -1,7 +1,6 @@
-# models.py
 from sqlalchemy import create_engine, Column, Integer, String, Boolean, ForeignKey, DateTime
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker, relationship
+from sqlalchemy.orm import sessionmaker
 from pydantic import BaseModel
 from datetime import datetime
 
@@ -23,7 +22,7 @@ class User(Base):
 class RefreshToken(Base):
     __tablename__ = "refresh_tokens"
     id = Column(Integer, primary_key=True, index=True)
-    token = Column(String, index=True)
+    jti = Column(String, index=True)
     user_id = Column(Integer, ForeignKey('users.user_id'))
     revoked = Column(Boolean, default=False)
     expires_at = Column(DateTime)
@@ -33,6 +32,7 @@ class UserCreate(BaseModel):
     username: str
     email: str
     password: str
+
 
 class RefreshTokenRequest(BaseModel):
     refresh_token: str

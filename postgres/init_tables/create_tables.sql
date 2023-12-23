@@ -9,7 +9,7 @@ CREATE TABLE users (
 
 CREATE TABLE refresh_tokens (
     id SERIAL PRIMARY KEY,
-    token VARCHAR(255) NOT NULL,
+    jti VARCHAR(255) NOT NULL,
     user_id INTEGER NOT NULL,
     revoked BOOLEAN DEFAULT FALSE,
     expires_at TIMESTAMP WITHOUT TIME ZONE NOT NULL,
