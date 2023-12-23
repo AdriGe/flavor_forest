@@ -23,6 +23,7 @@ def create_access_token(data: dict):
     to_encode = data.copy()
     expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     to_encode.update({"exp": expire})
+    to_encode["sub"] = str(to_encode["sub"])
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
 
@@ -30,15 +31,20 @@ def create_refresh_token(data: dict):
     to_encode = data.copy()
     expire = datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)
     to_encode.update({"exp": expire})
+    to_encode["sub"] = str(to_encode["sub"])
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
 
 def decode_token(token: str):
     try:
+        print("2222222222222222222222222")
         decoded_token = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        print("11111111111111111")
+        print(decoded_token)
         current_time = int(datetime.timestamp(datetime.utcnow()))
         return decoded_token if decoded_token["exp"] >= current_time else None
-    except JWTError:
+    except JWTError as e:
+        print(e)
         return None
 
 

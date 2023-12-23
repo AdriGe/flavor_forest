@@ -29,7 +29,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
     token_data = decode_token(token)
     if token_data is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-    user = db.query(User).filter(User.email == token_data["sub"]).first()
+    user = db.query(User).filter(User.user_id == token_data["sub"]).first()
     if user is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="User not found")
     return user
@@ -62,9 +62,9 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
             detail="Incorrect username or password",
             headers={"WWW-Authenticate": "Bearer"},
         )
-    access_token = create_access_token(data={"sub": user.email})
+    access_token = create_access_token(data={"sub": user.user_id})
     jti = str(uuid.uuid4())
-    refresh_token = create_refresh_token(data={"sub": user.email, "jti": jti})
+    refresh_token = create_refresh_token(data={"sub": user.user_id, "jti": jti})
     # Enregistrer le refresh_token dans la base de données
     db_refresh_token = RefreshToken(jti=jti, user_id=user.user_id, expires_at=datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS))
     db.add(db_refresh_token)
@@ -89,7 +89,7 @@ async def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_
     if not user:
         raise HTTPException(status_code=401, detail="User not found")
 
-    new_access_token = create_access_token(data={"sub": user.email})
+    new_access_token = create_access_token(data={"sub": user.user_id})
     return {"access_token": new_access_token}
 
 
