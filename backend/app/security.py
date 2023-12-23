@@ -37,14 +37,10 @@ def create_refresh_token(data: dict):
 
 def decode_token(token: str):
     try:
-        print("2222222222222222222222222")
         decoded_token = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-        print("11111111111111111")
-        print(decoded_token)
         current_time = int(datetime.timestamp(datetime.utcnow()))
         return decoded_token if decoded_token["exp"] >= current_time else None
     except JWTError as e:
-        print(e)
         return None
 
 
