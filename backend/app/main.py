@@ -1,5 +1,5 @@
 import uuid
-from fastapi import FastAPI, Depends, HTTPException, status
+from fastapi import FastAPI, Depends, HTTPException, status, APIRouter, Response
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from models import User, UserCreate, UserResponse, UserUpdate, RefreshToken, RefreshTokenRequest, SessionLocal
@@ -7,8 +7,12 @@ from security import create_access_token, create_refresh_token, hash_password, v
 from datetime import datetime, timedelta
 
 app = FastAPI()
+router = APIRouter()
+
+
+
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="users/login")
-#
+
 
 def get_db():
     db = SessionLocal()
@@ -35,7 +39,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
     return user
 
 
-@app.post("/users/register", status_code=status.HTTP_201_CREATED)
+@router.post("/users/register", status_code=status.HTTP_201_CREATED)
 async def create_user(user: UserCreate, db: Session = Depends(get_db)):
     # Vérifier si l'utilisateur existe déjà
     db_user = db.query(User).filter(User.email == user.email).first()
@@ -53,7 +57,7 @@ async def create_user(user: UserCreate, db: Session = Depends(get_db)):
     return {"id": db_user.user_id, "username": db_user.username, "email": db_user.email}
 
 
-@app.post("/users/login")
+@router.post("/users/login")
 async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     user = authenticate_user(form_data.username, form_data.password, db)
     if not user:
@@ -72,7 +76,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
     return {"access_token": access_token, "token_type": "bearer", "refresh_token": refresh_token}
 
 
-@app.post("/users/refresh-token")
+@router.post("/users/refresh-token")
 async def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_db)):
     refresh_token = request.refresh_token
     jti = extract_jti(refresh_token)
@@ -93,7 +97,18 @@ async def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_
     return {"access_token": new_access_token}
 
 
-@app.put("/users/{user_id}")
+@router.get("/users/{user_id}", response_model=UserResponse)
+async def read_user(user_id: int, current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if current_user.user_id != user_id and not current_user.is_admin:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to access this user's information")
+
+    db_user = db.query(User).filter(User.user_id == user_id).first()
+    if db_user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return UserResponse(**db_user.__dict__)
+
+
+@router.put("/users/{user_id}")
 async def update_user(user_id: int, user_update: UserUpdate, current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
     if current_user.user_id != user_id:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to update this user")
@@ -122,6 +137,22 @@ async def update_user(user_id: int, user_update: UserUpdate, current_user: User 
     return {"msg": "User updated successfully"}
 
 
+@router.delete("/users/{user_id}", status_code=status.HTTP_204_NO_CONTENT)
+async def delete_user(user_id: int, current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if current_user.user_id != user_id and not current_user.is_admin:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to delete this user")
+
+    db_user = db.query(User).filter(User.user_id == user_id).first()
+    if db_user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    db.delete(db_user)
+    db.commit()
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
 @app.get("/users/me")
 async def read_users_me(current_user: User = Depends(get_current_user)):
     return {"username": current_user.username, "email": current_user.email}
+
+app.include_router(router)

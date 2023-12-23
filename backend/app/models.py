@@ -16,7 +16,7 @@ class User(Base):
     username = Column(String, unique=True, index=True)
     email = Column(String, unique=True, index=True)
     hashed_password = Column(String)
-    role = Column(String, default="user")
+    is_admin = Column(Boolean, default=False)
 
 
 class RefreshToken(Base):
@@ -39,15 +39,17 @@ class RefreshTokenRequest(BaseModel):
 
 
 class UserResponse(BaseModel):
+    user_id: int
     username: str
     email: str
-    role: str
 
 
 class UserUpdate(BaseModel):
     email: EmailStr = None
     username: str = None
     password: str = None
+
+
 
 
 Base.metadata.create_all(bind=engine)

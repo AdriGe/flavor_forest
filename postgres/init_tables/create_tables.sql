@@ -4,7 +4,7 @@ CREATE TABLE users (
     username VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     hashed_password TEXT NOT NULL,
-    role VARCHAR(100)
+    is_admin BOOLEAN
 );
 
 CREATE TABLE refresh_tokens (

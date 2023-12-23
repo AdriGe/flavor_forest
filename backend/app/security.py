@@ -11,6 +11,7 @@ REFRESH_TOKEN_EXPIRE_DAYS = 7
 
 pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
+
 def hash_password(password: str):
     return pwd_context.hash(password)
 
@@ -40,7 +41,7 @@ def decode_token(token: str):
         decoded_token = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         current_time = int(datetime.timestamp(datetime.utcnow()))
         return decoded_token if decoded_token["exp"] >= current_time else None
-    except JWTError as e:
+    except JWTError:
         return None
 
 
