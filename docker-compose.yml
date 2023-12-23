@@ -25,6 +25,7 @@ services:
       POSTGRES_DB: flavor_forest
       POSTGRES_URL: localhost
       POSTGRES_PORT: 5432
+      SECRET_KEY: SePEu1vMoDyVUSsmhB9Ruq_bGXdQejOF6b50H1TIW58
     depends_on:
       - db
 

@@ -1,15 +1,15 @@
+import os
 from datetime import timedelta, datetime
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 import secrets
 
-SECRET_KEY = secrets.token_urlsafe(32)
+SECRET_KEY = os.environ['SECRET_KEY']
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
 REFRESH_TOKEN_EXPIRE_DAYS = 7
 
 pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
-
 
 def hash_password(password: str):
     return pwd_context.hash(password)
