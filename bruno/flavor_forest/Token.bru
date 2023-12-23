@@ -5,8 +5,8 @@ meta {
 }
 
 post {
-  url: 127.0.0.1:8000/signup
-  body: json
+  url: 127.0.0.1:8000/token
+  body: multipartForm
   auth: none
 }
 
@@ -16,4 +16,9 @@ body:json {
       "email": "johndoe@example.com",
       "password": "mypassword123"
   }
+}
+
+body:multipart-form {
+  username: johndoe@example.com
+  password: mypassword123
 }

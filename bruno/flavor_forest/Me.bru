@@ -5,7 +5,11 @@ meta {
 }
 
 get {
-  url: http://127.0.0.1:8000/items/
+  url: http://127.0.0.1:8000/users/me
   body: none
-  auth: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoxNzAzMzQ5MjM2fQ.yYRwgyM0yellDLq4egwbP3ERvkUuqNq1IMABDk5MSPg
 }
