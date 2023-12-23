@@ -5,16 +5,18 @@ meta {
 }
 
 put {
-  url: 127.0.0.1:8000/users/1
+  url: 127.0.0.1:8000/users/7
   body: json
   auth: bearer
 }
 
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3IiwiZXhwIjoxNzAzMzYyOTExfQ.h332ocZ_E-KcK9xvZ7bASB4pKA9_uF2rbhfdWvoBhmg
+}
+
 body:json {
   {
-      "username": "johndoe",
-      "email": "johndoe@example.com",
-      "password": "mypassword123"
+      "email": "johndoe@example.com"
   }
   
 }

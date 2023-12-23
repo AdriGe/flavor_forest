@@ -1,16 +1,3 @@
-INSERT INTO users (user_id, username, email, hashed_password, password_hash_method, role)
-VALUES (1, 'chef_user', 'chef@example.com', 'hashed_password', 'argon2', 'admin');
-
--- Insert units used in the recipe
-INSERT INTO units (unit_id, name)
-VALUES 
-    (1, 'gramme'), 
-    (2, 'ml'),
-    (3, 'cl'),
-    (4, 'litre')
-; -- Add more as needed
-
-
 INSERT INTO recipes (recipe_id, user_id, title, description, total_time, prep_time, difficulty, image_url)
 VALUES
 (1, 1, 'Bowl thaï végétarien & sauce cacahuètes', 'Si vous ne connaissez pas les boulettes thaï, c''est le moment de les déguster cuites au four dans cette recette totalement végétarienne. Les légumes sont sautés dans une sauce aux cacahuètes maison très gourmande pour une recette qui se veut rapide et efficace !', 25, 25, 'Facile', 'path_to_image');

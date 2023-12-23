@@ -1,0 +1,23 @@
+meta {
+  name: Update
+  type: http
+  seq: 6
+}
+
+put {
+  url: 127.0.0.1:8000/foods/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Boulette thaï améliorée",
+      "brand": "Hello Fresh",
+      "calories": 230.0,
+      "fats": 11.5,
+      "carbohydrates": 17.5,
+      "unit_id": 1
+  }
+  
+}

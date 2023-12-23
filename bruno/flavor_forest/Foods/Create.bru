@@ -1,0 +1,29 @@
+meta {
+  name: Create
+  type: http
+  seq: 1
+}
+
+post {
+  url: 127.0.0.1:8000/foods
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "user_id": 1,
+      "name": "Lasagnes",
+      "brand": "Hello Fresh",
+      "calories": 228.0,
+      "fats": 11.3,
+      "saturated_fats": 1.1,
+      "carbohydrates": 17.2,
+      "sugars": 1.6,
+      "fibers": 3.4,
+      "proteins": 13.0,
+      "sodium": 890.0,
+      "unit_id": 1
+  }
+  
+}

@@ -1,0 +1,19 @@
+meta {
+  name: Portion Create
+  type: http
+  seq: 5
+}
+
+post {
+  url: 127.0.0.1:8000/foods/42/portions
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Portion standard",
+      "size": 120.0
+  }
+  
+}

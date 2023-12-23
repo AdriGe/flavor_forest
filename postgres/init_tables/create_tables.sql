@@ -40,7 +40,7 @@ CREATE TABLE recipes (
 -- Food Table
 CREATE TABLE foods (
     food_id SERIAL PRIMARY KEY,
-    user_id INT NOT NULL,
+    user_id INT,
     name VARCHAR(255) NOT NULL,
     brand VARCHAR(255),
     calories DECIMAL,
@@ -52,17 +52,16 @@ CREATE TABLE foods (
     proteins DECIMAL,
     sodium DECIMAL,
     unit_id INT NOT NULL,
-    FOREIGN KEY (user_id) REFERENCES users(user_id),
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE SET NULL,
     FOREIGN KEY (unit_id) REFERENCES units(unit_id)
 );
 
 -- Portion Table
 CREATE TABLE portions (
+    portion_id SERIAL PRIMARY KEY,
     food_id INT NOT NULL,
-    portion_id INT NOT NULL,
     name VARCHAR(255),
     size DECIMAL NOT NULL,
-    PRIMARY KEY(food_id, portion_id),
     FOREIGN KEY (food_id) REFERENCES foods(food_id)
 );
 
@@ -78,7 +77,7 @@ CREATE TABLE recipe_foods (
     PRIMARY KEY (recipe_id, food_id),
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
     FOREIGN KEY (food_id) REFERENCES foods(food_id),
-    FOREIGN KEY (food_id, portion_id) REFERENCES portions(food_id, portion_id),
+    FOREIGN KEY (portion_id) REFERENCES portions(portion_id),
     FOREIGN KEY (unit_id) REFERENCES units(unit_id)
 );
 
@@ -135,3 +134,15 @@ CREATE TABLE recipe_tags (
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
     FOREIGN KEY (tag_id) REFERENCES tags(tag_id)
 );
+
+INSERT INTO users (user_id, username, email, hashed_password, is_admin)
+VALUES (1, 'Foor Bar', 'food@bar.com', 'hashed_password', true);
+
+-- Insert units used in the recipe
+INSERT INTO units (unit_id, name)
+VALUES 
+    (1, 'gramme'), 
+    (2, 'ml'),
+    (3, 'cl'),
+    (4, 'litre')
+; -- Add more as needed

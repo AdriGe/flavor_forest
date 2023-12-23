@@ -1,0 +1,19 @@
+meta {
+  name: Portion Update
+  type: http
+  seq: 3
+}
+
+put {
+  url: 127.0.0.1:8000/foods/2/portions/3
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Portion moyenne",
+      "size": 150.0
+  }
+  
+}
