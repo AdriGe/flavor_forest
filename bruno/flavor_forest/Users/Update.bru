@@ -1,0 +1,20 @@
+meta {
+  name: Update
+  type: http
+  seq: 5
+}
+
+put {
+  url: 127.0.0.1:8000/users/1
+  body: json
+  auth: bearer
+}
+
+body:json {
+  {
+      "username": "johndoe",
+      "email": "johndoe@example.com",
+      "password": "mypassword123"
+  }
+  
+}

@@ -1,0 +1,18 @@
+meta {
+  name: Refresh-Token
+  type: http
+  seq: 3
+}
+
+post {
+  url: 127.0.0.1:8000/users/refresh-token
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwianRpIjoiZDBkMWM5YTktNDNjZS00NzE3LTg1OTQtMzFjOTU0YjU4OTMzIiwiZXhwIjoxNzAzOTUzNjIwfQ.fyD7vU1ESioexrEEi0o9XGGE_kYLh_XNx15E1PxqxxM"
+  }
+  
+}

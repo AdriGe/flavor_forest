@@ -1,11 +1,11 @@
 meta {
-  name: Token
+  name: Login
   type: http
-  seq: 4
+  seq: 2
 }
 
 post {
-  url: 127.0.0.1:8000/token
+  url: 127.0.0.1:8000/users/login
   body: multipartForm
   auth: none
 }
