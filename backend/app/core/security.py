@@ -2,7 +2,7 @@ import os
 from datetime import timedelta, datetime
 from jose import JWTError, jwt
 from passlib.context import CryptContext
-import secrets
+from fastapi.security import OAuth2PasswordBearer
 
 SECRET_KEY = os.environ['SECRET_KEY']
 ALGORITHM = "HS256"
@@ -11,6 +11,7 @@ REFRESH_TOKEN_EXPIRE_DAYS = 7
 
 pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="users/login")
 
 def hash_password(password: str):
     return pwd_context.hash(password)
@@ -51,3 +52,5 @@ def extract_jti(token: str):
         return payload.get("jti")
     except JWTError:
         return None
+    
+    
