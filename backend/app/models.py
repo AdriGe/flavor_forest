@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, Column, Integer, String, Boolean, ForeignKey, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 from datetime import datetime
 
 SQLALCHEMY_DATABASE_URL = "postgresql://username:password@db_postgres/flavor_forest"
@@ -36,6 +36,18 @@ class UserCreate(BaseModel):
 
 class RefreshTokenRequest(BaseModel):
     refresh_token: str
+
+
+class UserResponse(BaseModel):
+    username: str
+    email: str
+    role: str
+
+
+class UserUpdate(BaseModel):
+    email: EmailStr = None
+    username: str = None
+    password: str = None
 
 
 Base.metadata.create_all(bind=engine)
