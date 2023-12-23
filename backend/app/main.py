@@ -66,6 +66,10 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
 async def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_db)):
     refresh_token = request.refresh_token
     jti = extract_jti(refresh_token)
+
+    if not jti:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid or expired token")
+
     stored_token = db.query(RefreshToken).filter(RefreshToken.jti == jti).first()
     
     if not stored_token or stored_token.revoked or stored_token.expires_at < datetime.utcnow():
@@ -92,6 +96,3 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
 @app.get("/users/me")
 async def read_users_me(current_user: User = Depends(get_current_user)):
     return {"username": current_user.username, "email": current_user.email}
-
-
-

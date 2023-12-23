@@ -45,7 +45,7 @@ def decode_token(token: str):
 def extract_jti(token: str):
     try:
         # Décodez le token sans vérifier la signature (puisque nous n'avons besoin que du JTI)
-        payload = jwt.decode(token, SECRET_KEY, options={"verify_signature": False})
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         return payload.get("jti")
     except JWTError:
         return None
