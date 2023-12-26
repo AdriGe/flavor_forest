@@ -1,0 +1,52 @@
+from pydantic import BaseModel
+from typing import List, Optional
+
+class StepCreate(BaseModel):
+    step_number: int
+    description: List[str]
+
+class RecipeFoodCreate(BaseModel):
+    food_id: int
+    quantity: float
+    portion_id: Optional[int] = None
+
+class RecipeCreate(BaseModel):
+    title: str
+    description: Optional[str] = None
+    total_time: Optional[int] = None
+    prep_time: Optional[int] = None
+    difficulty: Optional[str] = None
+    ustensils: Optional[List[str]] = None
+    image_url: Optional[str] = None
+    user_id: Optional[int] = None
+    steps: List[StepCreate]
+    tags: List[int]
+    foods: List[RecipeFoodCreate]
+
+class StepDetail(BaseModel):
+    step_number: int
+    description: List[str]
+    image_url: Optional[str] = None
+
+class RecipeFoodDetail(BaseModel):
+    food_id: int
+    quantity: float
+    portion_id: Optional[int]
+
+class TagDetail(BaseModel):
+    tag_id: int
+    name: str
+
+class RecipeDetail(BaseModel):
+    recipe_id: int
+    user_id: int
+    title: str
+    description: Optional[str]
+    total_time: Optional[int]
+    prep_time: Optional[int]
+    difficulty: Optional[str]
+    ustensils: Optional[List[str]]
+    image_url: Optional[str]
+    steps: List[StepDetail]
+    foods: List[RecipeFoodDetail]
+    tags: List[TagDetail]

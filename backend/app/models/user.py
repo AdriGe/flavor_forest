@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, DateTime
-
+from sqlalchemy.orm import relationship
 from dependencies import Base
 
 class User(Base):
@@ -9,7 +9,7 @@ class User(Base):
     email = Column(String, unique=True, index=True)
     hashed_password = Column(String)
     is_admin = Column(Boolean, default=False)
-
+    recipes = relationship("Recipe", back_populates="user")
 
 class RefreshToken(Base):
     __tablename__ = "refresh_tokens"

@@ -9,7 +9,7 @@ from dependencies import get_db
 
 router = APIRouter()
 
-@router.post("/", response_model=FoodCreate)
+@router.post("", response_model=FoodCreate)
 async def create_food(food: FoodCreate, db: Session = Depends(get_db)):
     try:
         new_food = Food(

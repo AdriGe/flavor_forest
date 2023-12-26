@@ -20,3 +20,4 @@ class Food(Base):
     sodium = Column(DECIMAL)
     unit_id = Column(Integer, ForeignKey('units.unit_id'), nullable=False)
     portions = relationship("Portion", back_populates="food")
+    recipes = relationship("RecipeFood", back_populates="food")

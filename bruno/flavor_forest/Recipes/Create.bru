@@ -1,0 +1,52 @@
+meta {
+  name: Create
+  type: http
+  seq: 1
+}
+
+post {
+  url: 127.0.0.1:8000/recipes
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "user_id": 1,
+      "title": "Salade César",
+      "description": "Une salade classique avec du poulet, de la laitue et des croutons",
+      "total_time": 25,
+      "prep_time": 10,
+      "difficulty": "Facile",
+      "ustensils": ["Couteau", "Poele"],
+      "image_url": "Some Path",
+      "steps": [
+          {
+            "step_number": 1, 
+            "description": [
+              "Couper la laitue", 
+              "Cuire le poulet"]
+          },
+          {
+            "step_number": 2, 
+            "description": [
+              "Assembler les ingrédients", 
+              "Ajouter la sauce"
+            ]
+          }
+      ],
+      "tags": [1, 2],
+      "foods": [
+          {
+            "food_id": 1, 
+            "quantity": 100
+          },
+          {
+            "food_id": 2, 
+            "quantity": 150, 
+            "portion_id": 4
+          }
+      ]
+  }
+  
+}

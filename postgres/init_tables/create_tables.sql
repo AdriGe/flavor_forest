@@ -27,12 +27,13 @@ CREATE TABLE units (
 -- Recipe Table
 CREATE TABLE recipes (
     recipe_id SERIAL PRIMARY KEY,
-    user_id INT NOT NULL,
+    user_id INT,
     title VARCHAR(255) NOT NULL,
     description TEXT,
     total_time INT,
     prep_time INT,
     difficulty VARCHAR(50),
+    ustensils VARCHAR(255)[],
     image_url TEXT,
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
@@ -73,12 +74,10 @@ CREATE TABLE recipe_foods (
     food_id INT,
     quantity DECIMAL,
     portion_id INT,
-    unit_id INT,
     PRIMARY KEY (recipe_id, food_id),
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
     FOREIGN KEY (food_id) REFERENCES foods(food_id),
     FOREIGN KEY (portion_id) REFERENCES portions(portion_id),
-    FOREIGN KEY (unit_id) REFERENCES units(unit_id)
 );
 
 -- Step Table
@@ -91,34 +90,6 @@ CREATE TABLE steps (
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
 );
 
--- Utensil Table
-CREATE TABLE utensils (
-    utensil_id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
-);
-
--- RecipeUtensil Table
-CREATE TABLE recipe_utensils (
-    recipe_id INT,
-    utensil_id INT,
-    PRIMARY KEY (recipe_id, utensil_id),
-    FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
-    FOREIGN KEY (utensil_id) REFERENCES utensils(utensil_id)
-);
-
--- NutritionalValueRecipe Table
-CREATE TABLE nutritional_values_recipes (
-    recipe_id INT PRIMARY KEY,
-    calories DECIMAL,
-    fats DECIMAL,
-    saturated_fats DECIMAL,
-    carbohydrates DECIMAL,
-    sugars DECIMAL,
-    fibers DECIMAL,
-    proteins DECIMAL,
-    sodium DECIMAL,
-    FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
-);
 
 -- Tag Table
 CREATE TABLE tags (
