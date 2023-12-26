@@ -1,0 +1,20 @@
+meta {
+  name: Update
+  type: http
+  seq: 2
+}
+
+put {
+  url: 127.0.0.1:8000/recipes/21
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "total_time": 300,
+      "difficulty": "Difficile",
+      "ustensils": ["Couteau", "Poele", "Baguettes"]
+  }
+  
+}

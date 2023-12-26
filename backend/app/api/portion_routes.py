@@ -1,15 +1,14 @@
 # main.py ou dans un fichier approprié dans votre dossier api
 from fastapi import APIRouter, HTTPException, Depends, status, Response
-from sqlalchemy.orm import Session
 from models.foods import Food
 from models.portions import Portion
 from schemas.portions import PortionCreate, PortionUpdate, PortionResponse
-from dependencies import get_db
+from dependencies import get_db, SessionLocal
 
 router = APIRouter()
 
 @router.post("/{food_id}/portions", response_model=PortionResponse)
-async def add_portion(food_id: int, portion_data: PortionCreate, db: Session = Depends(get_db)):
+async def add_portion(food_id: int, portion_data: PortionCreate, db: SessionLocal = Depends(get_db)):
     # Vérifiez d'abord si l'aliment existe
     food = db.query(Food).filter(Food.food_id == food_id).first()
     if not food:
@@ -25,7 +24,7 @@ async def add_portion(food_id: int, portion_data: PortionCreate, db: Session = D
 
 
 @router.put("/{food_id}/portions/{portion_id}", response_model=PortionResponse)
-async def update_portion(food_id: int, portion_id: int, portion_data: PortionUpdate, db: Session = Depends(get_db)):
+async def update_portion(food_id: int, portion_id: int, portion_data: PortionUpdate, db: SessionLocal = Depends(get_db)):
     db_portion = db.query(Portion).filter(Portion.food_id == food_id, Portion.portion_id == portion_id).first()
     if not db_portion:
         raise HTTPException(status_code=404, detail="Portion not found")
@@ -42,7 +41,7 @@ async def update_portion(food_id: int, portion_id: int, portion_data: PortionUpd
 
 
 @router.delete("/{food_id}/portions/{portion_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def delete_portion(food_id: int, portion_id: int, db: Session = Depends(get_db)):
+async def delete_portion(food_id: int, portion_id: int, db: SessionLocal = Depends(get_db)):
     db.query(Portion).filter(Portion.food_id == food_id, Portion.portion_id == portion_id).delete()
     db.commit()
     return Response(status_code=status.HTTP_204_NO_CONTENT)

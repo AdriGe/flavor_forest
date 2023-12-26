@@ -1,8 +1,7 @@
-from fastapi import APIRouter, Depends
-from sqlalchemy.orm import Session
-from dependencies import get_db
-from models.recipes import Recipe, RecipeFood, Step, Tag
-from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail
+from fastapi import APIRouter, Depends, HTTPException
+from dependencies import get_db, SessionLocal
+from models.recipes import Recipe, RecipeFood, Step, Tag, RecipeTag
+from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail, RecipeUpdate
 
 def model_to_dict(obj):
     return {c.name: getattr(obj, c.name) for c in obj.__table__.columns}
@@ -10,7 +9,7 @@ def model_to_dict(obj):
 router = APIRouter()
 
 @router.post("", response_model=RecipeDetail)
-def create_recipe(recipe: RecipeCreate, db: Session = Depends(get_db)):
+def create_recipe(recipe: RecipeCreate, db: SessionLocal = Depends(get_db)):
     new_recipe = Recipe(
         title=recipe.title,
         description=recipe.description,
@@ -44,3 +43,38 @@ def create_recipe(recipe: RecipeCreate, db: Session = Depends(get_db)):
     )
 
     return recipe_detail
+
+
+@router.put("/{recipe_id}", response_model=RecipeDetail)
+def update_recipe(recipe_id: int, recipe_data: RecipeUpdate, db: SessionLocal = Depends(get_db)):
+    # Trouver la recette par ID
+    db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
+    if not db_recipe:
+        raise HTTPException(status_code=404, detail="Recipe not found")
+
+    # Mise à jour des champs de la recette
+    for key, value in recipe_data.dict(exclude_unset=True).items():
+        setattr(db_recipe, key, value)
+
+    db.commit()
+    db.refresh(db_recipe)
+
+    # Retourner la recette mise à jour
+    return db_recipe
+
+
+@router.delete("/{recipe_id}")
+def delete_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
+    db.query(RecipeTag).filter(RecipeTag.recipe_id == recipe_id).delete(synchronize_session=False)
+    db.query(RecipeFood).filter(RecipeFood.recipe_id == recipe_id).delete(synchronize_session=False)
+    db.query(Step).filter(Step.recipe_id == recipe_id).delete(synchronize_session=False)
+    
+    # Supprimer la recette
+    db_recipe = db.query(Recipe).get(recipe_id)
+    if db_recipe is None:
+        raise HTTPException(status_code=404, detail="Recipe not found")
+    
+    db.delete(db_recipe)
+    db.commit()
+
+    return {"detail": "Recipe successfully deleted"}

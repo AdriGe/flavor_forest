@@ -1,16 +1,15 @@
 # main.py ou dans un fichier approprié dans votre dossier api
 from fastapi import APIRouter, HTTPException, Depends, status, Response
-from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
 from models.foods import Food
 from models.portions import Portion
 from schemas.foods import FoodCreate, FoodResponse, FoodUpdate
-from dependencies import get_db
+from dependencies import get_db, SessionLocal
 
 router = APIRouter()
 
 @router.post("", response_model=FoodCreate)
-async def create_food(food: FoodCreate, db: Session = Depends(get_db)):
+async def create_food(food: FoodCreate, db: SessionLocal = Depends(get_db)):
     try:
         new_food = Food(
             user_id=food.user_id,
@@ -43,7 +42,7 @@ async def create_food(food: FoodCreate, db: Session = Depends(get_db)):
 
 
 @router.put("/{food_id}", response_model=FoodResponse)
-async def update_food(food_id: int, food_data: FoodUpdate, db: Session = Depends(get_db)):
+async def update_food(food_id: int, food_data: FoodUpdate, db: SessionLocal = Depends(get_db)):
     db_food = db.query(Food).filter(Food.food_id == food_id).first()
     if not db_food:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Food not found")
@@ -59,7 +58,7 @@ async def update_food(food_id: int, food_data: FoodUpdate, db: Session = Depends
 
 
 @router.get("/{food_id}", response_model=FoodResponse)
-async def get_food(food_id: int, db: Session = Depends(get_db)):
+async def get_food(food_id: int, db: SessionLocal = Depends(get_db)):
     db_food = db.query(Food).filter(Food.food_id == food_id).first()
     if db_food is None:
         raise HTTPException(status_code=404, detail="Food not found")

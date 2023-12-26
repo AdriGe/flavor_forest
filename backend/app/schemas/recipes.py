@@ -50,3 +50,13 @@ class RecipeDetail(BaseModel):
     steps: List[StepDetail]
     foods: List[RecipeFoodDetail]
     tags: List[TagDetail]
+
+class RecipeUpdate(BaseModel):
+    user_id: Optional[int] = None
+    title: Optional[str] = None
+    description: Optional[str] = None
+    total_time: Optional[int] = None
+    prep_time: Optional[int] = None
+    difficulty: Optional[str] = None
+    ustensils: Optional[List[str]] = None
+    image_url: Optional[str] = None

@@ -1,9 +1,8 @@
 import uuid
 from fastapi import Depends, HTTPException, status, APIRouter, Response
 from fastapi.security import OAuth2PasswordRequestForm
-from sqlalchemy.orm import Session
 from models.user import User, RefreshToken
-from dependencies import get_db
+from dependencies import get_db, SessionLocal
 from schemas.users import UserCreate, UserResponse, UserUpdate, RefreshTokenRequest
 from core.security import create_access_token, create_refresh_token, hash_password, verify_password, decode_token, extract_jti, REFRESH_TOKEN_EXPIRE_DAYS
 from datetime import datetime, timedelta
@@ -21,7 +20,7 @@ def authenticate_user(email: str, password: str, db):
     return user
 
 
-async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
+async def get_current_user(token: str = Depends(oauth2_scheme), db: SessionLocal = Depends(get_db)):
     token_data = decode_token(token)
     if token_data is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
@@ -31,7 +30,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
     return user
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
-async def create_user(user: UserCreate, db: Session = Depends(get_db)):
+async def create_user(user: UserCreate, db: SessionLocal = Depends(get_db)):
     # Vérifier si l'utilisateur existe déjà
     db_user = db.query(User).filter(User.email == user.email).first()
     if db_user:
@@ -49,7 +48,7 @@ async def create_user(user: UserCreate, db: Session = Depends(get_db)):
 
 
 @router.post("/login")
-async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
+async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: SessionLocal = Depends(get_db)):
     user = authenticate_user(form_data.username, form_data.password, db)
     if not user:
         raise HTTPException(
@@ -68,7 +67,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
 
 
 @router.post("/refresh-token")
-async def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_db)):
+async def refresh_token(request: RefreshTokenRequest, db: SessionLocal = Depends(get_db)):
     refresh_token = request.refresh_token
     jti = extract_jti(refresh_token)
 
@@ -89,7 +88,7 @@ async def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_
 
 
 @router.get("/{user_id}", response_model=UserResponse)
-async def read_user(user_id: int, current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+async def read_user(user_id: int, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
     if current_user.user_id != user_id and not current_user.is_admin:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to access this user's information")
 
@@ -100,7 +99,7 @@ async def read_user(user_id: int, current_user: User = Depends(get_current_user)
 
 
 @router.put("/{user_id}")
-async def update_user(user_id: int, user_update: UserUpdate, current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+async def update_user(user_id: int, user_update: UserUpdate, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
     if current_user.user_id != user_id:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to update this user")
 
@@ -129,7 +128,7 @@ async def update_user(user_id: int, user_update: UserUpdate, current_user: User 
 
 
 @router.delete("/{user_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def delete_user(user_id: int, current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+async def delete_user(user_id: int, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
     if current_user.user_id != user_id and not current_user.is_admin:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to delete this user")
 
