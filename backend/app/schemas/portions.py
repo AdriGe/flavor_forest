@@ -14,3 +14,8 @@ class PortionResponse(BaseModel):
 class PortionUpdate(BaseModel):
     name: Optional[str] = None
     size: Optional[float] = None
+    
+class PortionDetail(BaseModel):
+    portion_id: int
+    name: str
+    size: float

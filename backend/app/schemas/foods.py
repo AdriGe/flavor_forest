@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, List
-from schemas.portions import PortionCreate, PortionResponse
+from schemas.portions import PortionCreate, PortionResponse, PortionDetail
 
 class FoodBase(BaseModel):
     name: str
@@ -36,3 +36,18 @@ class FoodUpdate(BaseModel):
     proteins: Optional[float] = None
     sodium: Optional[float] = None
     unit_id: Optional[int] = None
+
+class FoodDetail(BaseModel):
+    food_id: int
+    name: str
+    brand: Optional[str] = None
+    calories: Optional[float] = None
+    fats: Optional[float] = None
+    saturated_fats: Optional[float] = None
+    carbohydrates: Optional[float] = None
+    sugars: Optional[float] = None
+    fibers: Optional[float] = None
+    proteins: Optional[float] = None
+    sodium: Optional[float] = None
+    unit_id: int
+    portions: List[PortionDetail]

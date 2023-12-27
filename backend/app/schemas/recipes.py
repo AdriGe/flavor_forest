@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import List, Optional
+from schemas.foods import FoodDetail
 
 class StepCreate(BaseModel):
     step_number: int
@@ -30,8 +31,9 @@ class StepDetail(BaseModel):
 
 class RecipeFoodDetail(BaseModel):
     food_id: int
+    food_name: str
     quantity: float
-    portion_id: Optional[int]
+    measurement: str
 
 class TagDetail(BaseModel):
     tag_id: int
@@ -60,3 +62,8 @@ class RecipeUpdate(BaseModel):
     difficulty: Optional[str] = None
     ustensils: Optional[List[str]] = None
     image_url: Optional[str] = None
+
+class RecipeTagsUpdate(BaseModel):
+    tags: List[int]
+
+

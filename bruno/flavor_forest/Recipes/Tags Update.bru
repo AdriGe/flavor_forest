@@ -1,0 +1,18 @@
+meta {
+  name: Tags Update
+  type: http
+  seq: 4
+}
+
+put {
+  url: 127.0.0.1:8000/recipes/24/tags
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "tags": [4, 1]
+  }
+  
+}
