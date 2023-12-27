@@ -3,10 +3,40 @@ from dependencies import get_db, SessionLocal
 from models.recipes import Recipe, RecipeFood, Step, Tag, RecipeTag
 from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail, RecipeUpdate, RecipeTagsUpdate, FoodDetail
 from sqlalchemy import text
-import json
 
 def model_to_dict(obj):
     return {c.name: getattr(obj, c.name) for c in obj.__table__.columns}
+
+
+def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
+    # Traitement des détails de chaque ingrédient de la recette
+    enriched_foods = []
+    for food in recipe.foods:
+        enriched_food = RecipeFoodDetail(
+            food_id=food.food_id,
+            food_name=food.food.name,
+            quantity=food.quantity,
+            measurement=food.portion.name if food.portion else food.food.unit.name
+        )
+        enriched_foods.append(enriched_food)
+
+    # Construction de l'objet RecipeDetail pour la réponse
+    recipe_detail = RecipeDetail(
+        recipe_id=recipe.recipe_id,
+        user_id=recipe.user_id,
+        title=recipe.title,
+        description=recipe.description,
+        total_time=recipe.total_time,
+        prep_time=recipe.prep_time,
+        difficulty=recipe.difficulty,
+        ustensils=recipe.ustensils,
+        image_url=recipe.image_url,
+        steps=[StepDetail(**model_to_dict(step)) for step in recipe.steps],
+        foods=enriched_foods,
+        tags=[TagDetail(tag_id=tag.tag_id, name=tag.name) for tag in recipe.tags]
+    )
+
+    return recipe_detail
 
 router = APIRouter()
 
@@ -38,32 +68,7 @@ def create_recipe(recipe: RecipeCreate, db: SessionLocal = Depends(get_db)):
     db.commit()
     db.refresh(new_recipe)
 
-    # Traitement des détails de chaque ingrédient de la recette
-    enriched_foods = []
-    for food in new_recipe.foods:
-        enriched_food = RecipeFoodDetail(
-            food_id=food.food_id,
-            food_name=food.food.name,
-            quantity=food.quantity,
-            measurement=food.portion.name if food.portion else food.food.unit.name
-        )
-        enriched_foods.append(enriched_food)
-
-    # Construction de l'objet RecipeDetail pour la réponse
-    recipe_detail = RecipeDetail(
-        recipe_id=new_recipe.recipe_id,
-        user_id=new_recipe.user_id,
-        title=new_recipe.title,
-        description=new_recipe.description,
-        total_time=new_recipe.total_time,
-        prep_time=new_recipe.prep_time,
-        difficulty=new_recipe.difficulty,
-        ustensils=new_recipe.ustensils,
-        image_url=new_recipe.image_url,
-        steps=[StepDetail(**model_to_dict(step)) for step in new_recipe.steps],
-        foods=enriched_foods,
-        tags=[TagDetail(tag_id=tag.tag_id, name=tag.name) for tag in new_recipe.tags]
-    )
+    recipe_detail = cast_recipe_to_recipe_detail(new_recipe)
 
     return recipe_detail
 
@@ -82,33 +87,8 @@ def update_recipe(recipe_id: int, recipe_data: RecipeUpdate, db: SessionLocal = 
     db.commit()
     db.refresh(db_recipe)
 
-    # Traitement des détails de chaque ingrédient de la recette
-    enriched_foods = []
-    for food in db_recipe.foods:
-        enriched_food = RecipeFoodDetail(
-            food_id=food.food_id,
-            food_name=food.food.name,
-            quantity=food.quantity,
-            measurement=food.portion.name if food.portion else food.food.unit.name
-        )
-        enriched_foods.append(enriched_food)
+    recipe_detail = cast_recipe_to_recipe_detail(db_recipe)
 
-    recipe_detail = RecipeDetail(
-        recipe_id=db_recipe.recipe_id,
-        user_id=db_recipe.user_id,
-        title=db_recipe.title,
-        description=db_recipe.description,
-        total_time=db_recipe.total_time,
-        prep_time=db_recipe.prep_time,
-        difficulty=db_recipe.difficulty,
-        ustensils=db_recipe.ustensils,
-        image_url=db_recipe.image_url,
-        steps=[StepDetail(**model_to_dict(step)) for step in db_recipe.steps],
-        foods=enriched_foods,
-        tags=[TagDetail(tag_id=tag.tag_id, name=tag.name) for tag in db_recipe.tags]
-    )
-
-    # Retourner la recette mise à jour
     return recipe_detail
 
 
