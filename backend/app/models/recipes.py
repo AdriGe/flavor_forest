@@ -21,27 +21,12 @@ class Recipe(Base):
     tags = relationship("Tag", secondary="recipe_tags", back_populates="recipes")
     foods = relationship("RecipeFood", back_populates="recipe")
 
-class Tag(Base):
-    __tablename__ = "tags"
-    tag_id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(100), nullable=False)
-    recipes = relationship("Recipe", secondary="recipe_tags", back_populates="tags")
-
 
 class RecipeTag(Base):
     __tablename__ = "recipe_tags"
     recipe_id = Column(Integer, ForeignKey('recipes.recipe_id'), primary_key=True)
     tag_id = Column(Integer, ForeignKey('tags.tag_id'), primary_key=True)
 
-    
-class Step(Base):
-    __tablename__ = "steps"
-    step_number = Column(Integer, primary_key=True, index=True)
-    recipe_id = Column(Integer, ForeignKey('recipes.recipe_id'), primary_key=True)
-    description = Column(ARRAY(Text))
-    image_url = Column(Text)
-
-    recipe = relationship("Recipe", back_populates="steps")
 
 class RecipeFood(Base):
     __tablename__ = "recipe_foods"
