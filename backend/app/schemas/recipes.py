@@ -2,14 +2,17 @@ from pydantic import BaseModel
 from typing import List, Optional
 from schemas.tags import TagDetail
 
+
 class StepCreate(BaseModel):
     step_number: int
     description: List[str]
+
 
 class RecipeFoodCreate(BaseModel):
     food_id: int
     quantity: float
     portion_id: Optional[int] = None
+
 
 class RecipeCreate(BaseModel):
     title: str
@@ -24,16 +27,19 @@ class RecipeCreate(BaseModel):
     tags: List[int]
     foods: List[RecipeFoodCreate]
 
+
 class StepDetail(BaseModel):
     step_number: int
     description: List[str]
     image_url: Optional[str] = None
+
 
 class RecipeFoodDetail(BaseModel):
     food_id: int
     food_name: str
     quantity: float
     measurement: str
+
 
 class RecipeDetail(BaseModel):
     recipe_id: int
@@ -48,6 +54,7 @@ class RecipeDetail(BaseModel):
     steps: List[StepDetail]
     foods: List[RecipeFoodDetail]
     tags: List[TagDetail]
+
 
 class RecipeUpdate(BaseModel):
     user_id: Optional[int] = None
@@ -68,8 +75,12 @@ class StepUpdate(BaseModel):
     description: List[str]
     image_url: Optional[str] = None
 
+
 class RecipeStepsUpdate(BaseModel):
     steps: List[StepUpdate]
 
 
-
+class RecipeListResponse(BaseModel):
+    total_recipes: int
+    total_pages: int
+    recipes: List[RecipeDetail]

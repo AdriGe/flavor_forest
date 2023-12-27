@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, Depends, status, Response
-from models.recipes import Tag
+from models.tags import Tag
 from schemas.tags import TagDetail, TagCreate, TagUpdate
 from dependencies import get_db, SessionLocal
 from typing import List

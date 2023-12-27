@@ -1,8 +1,12 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from dependencies import get_db, SessionLocal
-from models.recipes import Recipe, RecipeFood, Step, Tag, RecipeTag
-from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail, RecipeUpdate, RecipeTagsUpdate, RecipeStepsUpdate
-from sqlalchemy import text
+from models.recipes import Recipe, RecipeFood, RecipeTag
+from models.tags import Tag
+from models.steps import Step
+from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail, RecipeUpdate, RecipeTagsUpdate, RecipeStepsUpdate, RecipeListResponse
+from sqlalchemy import func
+import unidecode
+from typing import List, Optional
 
 def model_to_dict(obj):
     return {c.name: getattr(obj, c.name) for c in obj.__table__.columns}
@@ -39,6 +43,53 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
     return recipe_detail
 
 router = APIRouter()
+
+@router.get("", response_model=RecipeListResponse)
+def get_recipes(
+    tags: Optional[List[str]] = Query(None),
+    difficulty: Optional[str] = None,
+    preparation_time: Optional[int] = None,
+    title: Optional[str] = None,
+    page: int = 1,
+    page_size: int = 10,
+    db: SessionLocal = Depends(get_db)
+):
+    if page < 1 or page_size < 1 or page_size > 100:
+        raise HTTPException(status_code=400, detail="Invalid page or page_size parameters")
+
+    query = db.query(Recipe)
+
+    if tags:
+        for tag in tags:
+            query = query.filter(Recipe.tags.any(Tag.name == tag))
+    if difficulty:
+        query = query.filter(Recipe.difficulty == difficulty)
+    if preparation_time:
+        query = query.filter(Recipe.preparation_time <= preparation_time)
+    if title:
+        search_words = title.split()
+        for word in search_words:
+            normalized_word = unidecode.unidecode(word)  # Normalisation des accents
+            query = query.filter(func.lower(Recipe.title).like(f"%{normalized_word.lower()}%"))
+
+
+    recipes = query.all()
+
+    
+
+    total_recipes = query.count()  # Nombre total de recettes répondant aux filtres
+    total_pages = (total_recipes + page_size - 1) // page_size  # Calcul du nombre total de pages
+
+    skip = (page - 1) * page_size
+    recipes = query.offset(skip).limit(page_size).all()
+    recipes_casted = [cast_recipe_to_recipe_detail(new_recipe) for new_recipe in recipes]
+
+    return RecipeListResponse(
+        total_recipes=total_recipes,
+        total_pages=total_pages,
+        recipes=recipes_casted
+    )
+
 
 @router.get("/{recipe_id}", response_model=RecipeDetail)
 def get_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
