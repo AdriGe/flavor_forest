@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from dependencies import get_db, SessionLocal
 from models.recipes import Recipe, RecipeFood, Step, Tag, RecipeTag
-from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail, RecipeUpdate, RecipeTagsUpdate, FoodDetail
+from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail, RecipeUpdate, RecipeTagsUpdate, RecipeStepsUpdate
 from sqlalchemy import text
 
 def model_to_dict(obj):
@@ -45,7 +45,9 @@ def get_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
 
     db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
 
-    return db_recipe
+    recipe_detail = cast_recipe_to_recipe_detail(db_recipe)
+
+    return recipe_detail
 
 
 @router.post("", response_model=RecipeDetail)
@@ -127,3 +129,22 @@ def update_recipe_tags(recipe_id: int, tags_data: RecipeTagsUpdate, db: SessionL
     db.commit()
 
     return {"detail": "Recipe tags updated successfully"}
+
+
+@router.put("/{recipe_id}/steps")
+def update_recipe_steps(recipe_id: int, steps_data: RecipeStepsUpdate, db: SessionLocal = Depends(get_db)):
+    # Trouver la recette par son ID
+    recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
+    if not recipe:
+        raise HTTPException(status_code=404, detail="Recipe not found")
+
+    # Supprimer les anciennes étapes
+    db.query(Step).filter(Step.recipe_id == recipe_id).delete()
+
+    # Ajouter les nouvelles étapes
+    new_steps = [Step(recipe_id=recipe_id, **step.dict()) for step in steps_data.steps]
+    db.add_all(new_steps)
+
+    db.commit()
+
+    return {"detail": "Recipe steps updated successfully"}

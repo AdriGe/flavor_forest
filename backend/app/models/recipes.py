@@ -39,7 +39,7 @@ class Step(Base):
     step_number = Column(Integer, primary_key=True, index=True)
     recipe_id = Column(Integer, ForeignKey('recipes.recipe_id'), primary_key=True)
     description = Column(ARRAY(Text))
-    # autres champs...
+    image_url = Column(Text)
 
     recipe = relationship("Recipe", back_populates="steps")
 

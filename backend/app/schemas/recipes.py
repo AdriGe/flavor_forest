@@ -67,3 +67,13 @@ class RecipeTagsUpdate(BaseModel):
     tags: List[int]
 
 
+class StepUpdate(BaseModel):
+    step_number: int
+    description: List[str]
+    image_url: Optional[str] = None
+
+class RecipeStepsUpdate(BaseModel):
+    steps: List[StepUpdate]
+
+
+
