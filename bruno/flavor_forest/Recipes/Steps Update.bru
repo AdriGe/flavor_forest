@@ -1,18 +1,39 @@
 meta {
   name: Steps Update
   type: http
-  seq: 6
+  seq: 4
 }
 
 put {
-  url: 127.0.0.1:8000/recipes/24/tags
+  url: 127.0.0.1:8000/recipes/45/steps
   body: json
   auth: none
 }
 
 body:json {
   {
-    "tags": [4, 1]
+      "steps": [
+          {
+              "step_number": 1,
+              "description": ["Mélanger la farine, le sucre, le sel et la levure dans un grand bol", "Ceci est une autre étape"],
+              "image_url": "https://example.com/images/step1.jpg"
+          },
+          {
+              "step_number": 2,
+              "description": ["Ajouter lentement de l'eau tiède tout en mélangeant"],
+              "image_url": "https://example.com/images/step2.jpg"
+          },
+          {
+              "step_number": 3,
+              "description": ["Pétrir la pâte jusqu'à ce qu'elle soit lisse", "etape2", "etape3"],
+              "image_url": "https://example.com/images/step3.jpg"
+          },
+          {
+              "step_number": 4,
+              "description": ["Laisser la pâte reposer pendant une heure"],
+              "image_url": null
+          }
+      ]
   }
   
 }

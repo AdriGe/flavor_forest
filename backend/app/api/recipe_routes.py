@@ -161,13 +161,19 @@ def delete_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
 
     return {"detail": "Recipe successfully deleted"}
 
-#### TODO Fix case when tag_id does not exist
+
 @router.put("/{recipe_id}/tags")
 def update_recipe_tags(recipe_id: int, tags_data: RecipeTagsUpdate, db: SessionLocal = Depends(get_db)):
     # Trouver la recette
     db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
     if not db_recipe:
         raise HTTPException(status_code=404, detail="Recipe not found")
+
+    # Vérifier l'existence de chaque tag
+    for tag_id in tags_data.tags:
+        existing_tag = db.query(Tag).filter(Tag.tag_id == tag_id).first()
+        if not existing_tag:
+            raise HTTPException(status_code=404, detail=f"Tag with id {tag_id} not found")
 
     # Mise à jour des tags associés à la recette
     # Supprimer tous les enregistrements existants de recipe_tags pour cette recette
