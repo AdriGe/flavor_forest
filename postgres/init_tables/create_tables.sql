@@ -90,10 +90,12 @@ CREATE TABLE steps (
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
 );
 
+CREATE TYPE tag_category_enum AS ENUM ('Durée de préparation', 'Type de cuisine', 'Régime alimentaire', 'Saison');
 
 -- Tag Table
 CREATE TABLE tags (
     tag_id SERIAL PRIMARY KEY,
+    category tag_category_enum,
     name VARCHAR(100) NOT NULL
 );
 
