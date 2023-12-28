@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
-from dependencies import get_db, SessionLocal
+from dependencies import get_db, SessionLocal, model_to_dict
 from models.recipes import Recipe, RecipeFood, RecipeTag
 from models.tags import Tag
 from models.steps import Step
@@ -7,9 +7,6 @@ from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDet
 from sqlalchemy import func
 import unidecode
 from typing import List, Optional
-
-def model_to_dict(obj):
-    return {c.name: getattr(obj, c.name) for c in obj.__table__.columns}
 
 
 def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:

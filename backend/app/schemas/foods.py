@@ -51,3 +51,8 @@ class FoodDetail(BaseModel):
     sodium: Optional[float] = None
     unit_id: int
     portions: List[PortionDetail]
+
+class FoodListResponse(BaseModel):
+    total_foods: int
+    total_pages: int
+    foods: List[FoodDetail]

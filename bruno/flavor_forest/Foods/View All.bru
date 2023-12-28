@@ -1,0 +1,43 @@
+meta {
+  name: View All
+  type: http
+  seq: 4
+}
+
+get {
+  url: 127.0.0.1:8000/foods?brand=hello fresh
+  body: none
+  auth: none
+}
+
+query {
+  brand: hello fresh
+}
+
+body:json {
+  {
+      "user_id": 10,
+      "name": "Boulette thaï",
+      "brand": "Hello Fresh",
+      "calories": 228.0,
+      "fats": 11.3,
+      "saturated_fats": 1.1,
+      "carbohydrates": 17.2,
+      "sugars": 1.6,
+      "fibers": 3.4,
+      "proteins": 13.0,
+      "sodium": 890.0,
+      "unit_id": 1,
+      "portions": [
+          {
+              "name": "Petite portion",
+              "size": 100.0
+          },
+          {
+              "name": "Grande portion",
+              "size": 200.0
+          }
+      ]
+  }
+  
+}
