@@ -1,15 +1,15 @@
 version: '3'
 services:
-#  vuejs:
-#    container_name: frontend_vuejs
-#    build: ./frontend
-#    volumes:
-#      - ./frontend:/app
-#      - /app/node_modules
-#    ports:
-#      - "5173:5173"
-#    depends_on:
-#      - fastapi
+  vuejs:
+    container_name: frontend_vuejs
+    build: ./frontend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    depends_on:
+      - fastapi
 
   fastapi:
     container_name: backend_fastapi
