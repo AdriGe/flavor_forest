@@ -1,0 +1,30 @@
+<template>
+    <div>
+        <h1>Recipes List</h1>
+        <ul>
+            <li v-for="recipe in recipes" :key="recipe.id">{{ recipe.name }}</li>
+        </ul>
+    </div>
+</template>
+
+<script>
+import { ref } from 'vue';
+
+export default {
+    name: 'RecipesList',
+    setup() {
+        const recipes = ref([]);
+
+        // Fetch recipes from API or any other data source
+        // You can use lifecycle hooks like onMounted or onBeforeMount here
+
+        return {
+            recipes,
+        };
+    },
+};
+</script>
+
+<style scoped>
+/* Add your component-specific styles here */
+</style>
