@@ -3,7 +3,11 @@
     <v-layout>
       <the-menu></the-menu>
 
-      <v-main style="height: 100%">Hello</v-main>
+      <v-main style="height: 100%">
+        <router-view v-slot="slotProps">
+          <component :is="slotProps.Component"></component>
+        </router-view>
+      </v-main>
     </v-layout>
   </v-card>
 </template>

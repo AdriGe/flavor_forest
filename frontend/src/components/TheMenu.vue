@@ -14,9 +14,14 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-carrot" title="Aliments" value="foods"></v-list-item>
-          <v-list-item prepend-icon="mdi-chef-hat" title="Recettes" value="recipes"></v-list-item>
-          <v-list-item prepend-icon="mdi-book-open-variant-outline" title="Suivi" value="tracking"></v-list-item>
+            <v-list-item to="/foods" link prepend-icon="mdi-carrot" title="Aliments" value="foods"></v-list-item>
+            <v-list-item to="/recipes" link prepend-icon="mdi-chef-hat" title="Recettes" value="recipes"></v-list-item>
+            <v-list-item to="/tracking" link prepend-icon="mdi-book-open-variant-outline" title="Suivi" value="tracking"></v-list-item>
+
         </v-list>
       </v-navigation-drawer>
 </template>
+
+<style scoped>
+
+</style>
