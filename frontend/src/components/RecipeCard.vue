@@ -1,5 +1,5 @@
 <template>
-    <v-card class="mx-auto my-8" max-width="20vw" elevation="16" href="/recipe/1">
+    <v-card class="mx-auto my-8" max-width="20vw" elevation="16" href="/recipes/1">
         <v-img class="align-end text-white" height="200" src="/src/assets/images/recipes/1.png" cover>
 
         </v-img>

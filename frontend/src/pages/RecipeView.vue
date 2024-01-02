@@ -323,8 +323,6 @@ const headers = [
     font-weight: bold;
 }
 
-.basic-info-value {}
-
 .food-quantity {
     font-weight: bold;
     display: block;
@@ -334,15 +332,13 @@ const headers = [
     font-style: italic;
 }
 
-.horizontal-list {}
-
 .horizontal-list li {
     display: inline-block;
     margin-right: 3rem;
 }
 
 .step-number-box {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(100, 100, 100, 0.25);
     position: absolute;
     padding: 5px;
     border-bottom-right-radius: 5px;
