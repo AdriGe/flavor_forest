@@ -12,14 +12,9 @@
                 <v-col cols="12" sm="3" class="align-self-center">
                 </v-col>
             </v-row>
-            <v-file-input
-            variant="underlined"
-      label="Upload Image"
-      v-model="file"
-      accept="image/*"
-    ></v-file-input>
-    <v-img v-if="imageUrl" :src="imageUrl" aspect-ratio="1.7"></v-img>
-  
+
+            <image-upload-with-preview></image-upload-with-preview>
+
             <v-textarea variant="outlined" label="Description"></v-textarea>
             <v-row>
                 <v-col cols="12" sm="3">
@@ -47,26 +42,14 @@ import { ref, watch } from 'vue';
 import RecipeFilters from '../components/RecipeFilters.vue';
 import RecipeTypeTags from '../components/ui/tags/RecipeTypeTags.vue';
 import DietaryRegimeTags from '../components/ui/tags/DietaryRegimeTags.vue';
+import ImageUploadWithPreview from '../components/ui/tags/ImageUploadWithPreview.vue';
 
 let title = ref('');
 let subtitle = ref('');
 let totalTime = ref(0);
 let prepTime = ref(0);
 let rules = ref([]);
-let imageUrl = ref(null); // Reactive reference for the image URL
-let file = ref(null); // Reactive reference for the file object
 
-watch(file, (newValue) => {
-    if (newValue && newValue.length > 0) {
-        const reader = new FileReader();
-        reader.onload = (e) => {
-            imageUrl.value = e.target.result; // Update the imageUrl
-        };
-        reader.readAsDataURL(newValue[0]); // Read the first file in the array
-    } else {
-        imageUrl.value = null; // Clear the imageUrl if file is cleared
-    }
-});
 
 </script>
 
