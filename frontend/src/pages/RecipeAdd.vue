@@ -1,76 +1,75 @@
 <template>
-    <div id="content">
+    <div id="content" class="mb-4">
         <h1>Ajouter une recette</h1>
         <v-form @submit.prevent>
             <v-row>
-                <v-col cols="12" sm="3" class="align-self-center">
-                    <v-file-input prepend-icon="mdi-camera" label="Image d'illustration"></v-file-input>
-                </v-col>
                 <v-col cols="12" sm="9">
-                    <v-text-field v-model="title" :rules="rules" label="Titre de la recette"></v-text-field>
-                    <v-text-field v-model="subtitle" :rules="rules" label="Sous titre"></v-text-field>
+                    <v-text-field variant="underlined" v-model="title" :rules="rules"
+                        label="Titre de la recette"></v-text-field>
+                    <v-text-field variant="underlined" v-model="subtitle" :rules="rules" label="Sous titre"></v-text-field>
+                </v-col>
+
+                <v-col cols="12" sm="3" class="align-self-center">
                 </v-col>
             </v-row>
-
-            <v-textarea label="Description"></v-textarea>
+            <v-file-input
+            variant="underlined"
+      label="Upload Image"
+      v-model="file"
+      accept="image/*"
+    ></v-file-input>
+    <v-img v-if="imageUrl" :src="imageUrl" aspect-ratio="1.7"></v-img>
+  
+            <v-textarea variant="outlined" label="Description"></v-textarea>
             <v-row>
                 <v-col cols="12" sm="3">
-                    <v-text-field v-model="totalTime" :rules="rules" label="Temps total" type="number" min="0"></v-text-field>
+                    <v-text-field variant="underlined" v-model="totalTime" :rules="rules" label="Temps total" type="number"
+                        min="0"></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="3">
-                    <v-text-field v-model="prepTime" :rules="rules" label="Temps de préparation" type="number" min="0"></v-text-field>
+                    <v-text-field variant="underlined" v-model="prepTime" :rules="rules" label="Temps de préparation"
+                        type="number" min="0"></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="6">
-                    <v-select label="Difficulté" :items="['Facile', 'Intermédiaire', 'Difficile']"></v-select>
+                    <v-select variant="underlined" label="Difficulté"
+                        :items="['Facile', 'Intermédiaire', 'Difficile']"></v-select>
                 </v-col>
             </v-row>
 
-            <v-btn type="submit" block class="mt-2">Submit</v-btn>
+            <v-btn type="submit" block class="mt-2">Ajouter la recette</v-btn>
         </v-form>
-        <!--
-        <v-row class="mt-2">
-            <v-col cols="12" sm="10">
-            </v-col>
-            <v-col cols="12" sm="2" class="align-self-center">
-            </v-col>
-        </v-row>
-        -->
+
     </div>
 </template>
 
-<script>
+<script setup>
 import { ref, watch } from 'vue';
 import RecipeFilters from '../components/RecipeFilters.vue';
-import RecipeCard from '../components/RecipeCard.vue';
-import RecipeView from '../pages/RecipeView.vue';
+import RecipeTypeTags from '../components/ui/tags/RecipeTypeTags.vue';
+import DietaryRegimeTags from '../components/ui/tags/DietaryRegimeTags.vue';
 
-export default {
-    name: 'RecipesList',
-    components: {
-        RecipeFilters,
-        RecipeCard,
-        RecipeView
-    },
-    setup() {
-        const recipes = ref([
-            { id: 1, title: 'Recipe 1' },
-            { id: 2, title: 'Recipe 2' },
-            { id: 3, title: 'Recipe 3' },
-            { id: 4, title: 'Recipe 4' },
-            { id: 5, title: 'Recipe 5' },
-            { id: 6, title: 'Recipe 6' },
-            { id: 7, title: 'Recipe 7' },
-            { id: 8, title: 'Recipe 8' },
-            { id: 9, title: 'Recipe 9' },
-            { id: 10, title: 'Recipe 10' }
-        ]);
+let title = ref('');
+let subtitle = ref('');
+let totalTime = ref(0);
+let prepTime = ref(0);
+let rules = ref([]);
+let imageUrl = ref(null); // Reactive reference for the image URL
+let file = ref(null); // Reactive reference for the file object
 
-        return {
-            recipes
+watch(file, (newValue) => {
+    if (newValue && newValue.length > 0) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            imageUrl.value = e.target.result; // Update the imageUrl
         };
+        reader.readAsDataURL(newValue[0]); // Read the first file in the array
+    } else {
+        imageUrl.value = null; // Clear the imageUrl if file is cleared
     }
-};
+});
+
 </script>
+
 
 <style scoped>
 #content {
