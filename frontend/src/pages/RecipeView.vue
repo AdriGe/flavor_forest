@@ -1,4 +1,6 @@
 <template>
+
+<recipe-filters></recipe-filters>
     <div>
         <v-card class="mx-auto my-8" max-width="60vw" elevation="16">
             <v-img gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,.33), rgba(0,0,0,.7)"
@@ -289,6 +291,12 @@
 </template>
 
 <script setup>
+
+import RecipeFilters from '../components/RecipeFilters.vue';
+
+components: {
+    RecipeFilters
+}
 const items = [
     { nutrient: "Énergie (kJ)", perPortion: "3335kJ", per100g: "1174kJ" },
     { nutrient: "Énergie (kcal)", perPortion: "797kcal", per100g: "281kcal" },

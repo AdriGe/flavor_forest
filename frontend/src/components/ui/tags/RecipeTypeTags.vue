@@ -1,6 +1,15 @@
 
 <template>
-    <v-select density="compact" clearable chips label="Type de cuisine" :items="recipeTypes" multiple></v-select>
+    <v-select 
+        rounded 
+        variant="outlined" 
+        density="compact" 
+        clearable 
+        chips 
+        label="Type de cuisine" 
+        :items="recipeTypes" 
+        multiple
+    ></v-select>
 </template>
 
 <script>

@@ -1,7 +1,14 @@
 <template>
-    <recipe-filters></recipe-filters>
-
     <div id="content">
+        <v-row class="ma-2">
+            <v-col cols="12" sm="10">
+                <h1>Rechercher une recette</h1>
+            </v-col>
+            <v-col cols="12" sm="2" class="align-self-center">
+                <v-btn prepend-icon="mdi-plus" size="x-large" rounded="xl" variant="tonal" color="#056835" href="recipes/add">Ajouter</v-btn>
+            </v-col>
+        </v-row>
+        <recipe-filters></recipe-filters>
         <v-row no-gutters>
             <v-col cols="12" sm="4" class="pa-2" v-for="recipe in recipes" :key="recipe.id" :recipe="recipe">
                 <recipe-card></recipe-card>
@@ -21,8 +28,7 @@ export default {
     components: {
         RecipeFilters,
         RecipeCard,
-        RecipeView,
-
+        RecipeView
     },
     setup() {
         const recipes = ref([
@@ -37,9 +43,6 @@ export default {
             { id: 9, title: 'Recipe 9' },
             { id: 10, title: 'Recipe 10' }
         ]);
-
-        
-
 
         return {
             recipes

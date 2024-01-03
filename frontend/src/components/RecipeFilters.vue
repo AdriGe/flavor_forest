@@ -1,26 +1,44 @@
 <template>
-    <div>
-        <v-row>
-            <v-col cols="12" sm="10" class="mt-6 pl-5">
-                <v-text-field density="compact" v-model="searchText" :rules="rules" label="Rechercher"></v-text-field>
-                <v-row>
-                    <v-col cols="12" sm="4">
-                        <recipe-type-tags></recipe-type-tags>
-                    </v-col>
-                    <v-col cols="12" sm="4">
-                        <dietary-regime-tags></dietary-regime-tags>
-                    </v-col>
-                    <v-col cols="12" sm="4">
-                        <v-select density="compact" clearable label="Durée max" :items="maxPrepTime"></v-select>
-                    </v-col>
-                </v-row>
-            </v-col>
-            <v-col cols="12" sm="2" align="right" width="100" class="align-self-center pr-5">
-                <v-btn icon="mdi-magnify" size="x-large" class="w-100" rounded="xl" stacked></v-btn>
-            </v-col>
+    <v-app-bar>
+        <v-row align="center" no-gutters>
+            <v-spacer></v-spacer>
+            <v-col cols="10" sm="6">
+                <v-text-field rounded density="compact" variant="outlined" v-model="searchText"
+                    label="Rechercher une recette" hide-details="true">
+                    <template v-slot:append>
+                        <v-btn icon="mdi-magnify"></v-btn>
+                        <v-btn prepend-icon="mdi-filter-variant" @click="handleAppBarExtended">Filtrer</v-btn>
+                    </template>
 
+                </v-text-field>
+            </v-col>
+            <v-col cols="10" sm="2" class="d-flex">
+                <v-spacer />
+                <router-link to="/recipes/add">
+                    <v-btn prepend-icon="mdi-plus" variant="outlined" rounded color="green">Ajouter</v-btn>
+                </router-link>
+            </v-col>
+            <v-spacer></v-spacer>
         </v-row>
-    </div>
+        <template v-if="isAppBarExtended" v-slot:extension>
+            <v-row align="center" class="mt-4" no-gutters>
+                <v-spacer></v-spacer>
+                <v-col cols="10" sm="2" class="pr-2">
+                    <recipe-type-tags></recipe-type-tags>
+                </v-col>
+                <v-col cols="10" sm="2" class="pr-2">
+                    <dietary-regime-tags></dietary-regime-tags>
+                </v-col>
+                <v-col cols="10" sm="2">
+                    <v-select rounded variant="outlined" density="compact" clearable label="Durée max"
+                        :items="maxPrepTime"></v-select>
+                </v-col>
+                <v-col cols="10" sm="2">
+                </v-col>
+                <v-spacer></v-spacer>
+            </v-row>
+        </template>
+    </v-app-bar>
 </template>
 
 <script>
@@ -42,8 +60,16 @@ export default {
             '60 minutes',
         ]);
 
+        let isAppBarExtended = ref(false);
+        function handleAppBarExtended() {
+            isAppBarExtended.value = !isAppBarExtended.value;
+            console.log(isAppBarExtended.value);
+        }
+
         return {
-            maxPrepTime
+            maxPrepTime,
+            isAppBarExtended,
+            handleAppBarExtended
         };
     },
 };

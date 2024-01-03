@@ -1,5 +1,6 @@
 <template>
-    <v-card class="mx-auto my-8" max-width="20vw" elevation="16" href="/recipes/1">
+    <router-link to="/recipes/1">
+    <v-card class="mx-auto my-8" max-width="20vw" elevation="16">
         <v-img class="align-end text-white" height="200" src="/src/assets/images/recipes/1.png" cover>
 
         </v-img>
@@ -20,6 +21,7 @@
             <v-chip color="green" class="mr-2 mt-2">Végétarien</v-chip>
         </v-card-text>
     </v-card>
+</router-link>
 </template>
 
 <script>
@@ -38,5 +40,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add your component-specific styles here */
+a {
+    text-decoration: none;
+}
 </style>

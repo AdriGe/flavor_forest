@@ -1,6 +1,15 @@
 
 <template>
-    <v-select density="compact" clearable chips label="Régime alimentaire" :items="dietaryRegimes" multiple></v-select>
+    <v-select 
+        rounded 
+        variant="outlined"
+        density="compact" 
+        clearable 
+        chips 
+        label="Régime alimentaire" 
+        :items="dietaryRegimes"
+        multiple
+    ></v-select>
 </template>
 
 <script>
