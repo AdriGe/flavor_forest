@@ -11,7 +11,7 @@
 
                 <v-col cols="12" sm="4">
                     <v-spacer></v-spacer>
-                    <image-upload-with-preview></image-upload-with-preview>
+                    <image-upload-with-preview width="150" height="150"></image-upload-with-preview>
                 </v-col>
             </v-row>
 

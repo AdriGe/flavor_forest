@@ -1,7 +1,7 @@
 <template>
-    <v-img :src="imageUrl" width="150" height="150" class="mx-auto" cover>
+    <v-img :src="imageUrl" :width="width" :height="height" class="mx-auto" cover>
         <div id="fileInput" v-if="!imageUrl">
-            <div id="inspire">
+            <div id="inspire" :style="inspireStyle">
                 <v-file-input prepend-icon="mdi-camera-plus-outline" v-model="file" accept="image/*">
                 </v-file-input>
             </div>
@@ -13,7 +13,18 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, computed } from 'vue';
+
+const props = defineProps({
+  width: {
+    type: [Number, String],
+    default: 150
+  },
+  height: {
+    type: [Number, String],
+    default: 150
+  }
+});
 
 let imageUrl = ref(null);
 let file = ref(null);
@@ -35,11 +46,21 @@ const clearImage = () => {
     imageUrl.value = null;
 };
 
+const inspireStyle = computed(() => {
+  const top = parseInt(props.height) / 2 - 16 + 'px';
+  const left = parseInt(props.width) / 2 - 16 + 'px';
+  return { top, left };
+});
+
 </script>
 
 <style scoped>
 #inspire :deep() .v-input__control {
     display: none;
+}
+
+#inspire {
+    position: absolute;
 }
 
 #fileInput {
@@ -49,11 +70,6 @@ const clearImage = () => {
     height: 100%;
 }
 
-#inspire {
-    position: absolute;
-    top: 59px;
-    left: 59px;
-}
 
 #clearButton {
     position: absolute;
