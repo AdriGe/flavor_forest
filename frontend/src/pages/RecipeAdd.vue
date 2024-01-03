@@ -9,7 +9,7 @@
                     <v-text-field variant="underlined" v-model="subtitle" :rules="rules" label="Sous titre"></v-text-field>
                 </v-col>
 
-                <v-col cols="12" sm="4" class="d-flex">
+                <v-col cols="12" sm="4">
                     <v-spacer></v-spacer>
                     <image-upload-with-preview></image-upload-with-preview>
                 </v-col>
