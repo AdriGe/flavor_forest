@@ -2,18 +2,20 @@
     <div id="content" class="mb-4">
         <h1>Ajouter une recette</h1>
         <v-form @submit.prevent>
-            <v-row>
-                <v-col cols="12" sm="9">
+            <v-row class="mb-3">
+                <v-col cols="12" sm="8">
                     <v-text-field variant="underlined" v-model="title" :rules="rules"
                         label="Titre de la recette"></v-text-field>
                     <v-text-field variant="underlined" v-model="subtitle" :rules="rules" label="Sous titre"></v-text-field>
                 </v-col>
 
-                <v-col cols="12" sm="3" class="align-self-center">
+                <v-col cols="12" sm="4" class="d-flex">
+                    <v-spacer></v-spacer>
+                    <image-upload-with-preview></image-upload-with-preview>
                 </v-col>
             </v-row>
 
-            <image-upload-with-preview></image-upload-with-preview>
+
 
             <v-textarea variant="outlined" label="Description"></v-textarea>
             <v-row>
@@ -49,7 +51,7 @@ let subtitle = ref('');
 let totalTime = ref(0);
 let prepTime = ref(0);
 let rules = ref([]);
-
+let steps = ref([]);
 
 </script>
 

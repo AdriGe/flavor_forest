@@ -1,20 +1,14 @@
 <template>
-    <v-card class="px-5 pt-2 pb-2" width="300" height="300">
-        <v-file-input prepend-icon="mdi-camera-plus-outline" variant="underlined" label="Image d'illustration"
-            v-model="file" class="mx-auto" accept="image/*" density="compact">
-
-            <template v-slot:selection="{ fileNames }">
-                {{ truncateFileName(fileNames[0]) }}
-            </template>
-        </v-file-input>
-        <v-img :src="imageUrl" width="300" height="200" class="mx-auto" cover>
-            <template v-slot:placeholder>
-                <div class="d-flex align-center justify-center fill-height" id="imagePlaceholder">
-                    Aucune image sélectionnée
-                </div>
-            </template>
+        <v-img :src="imageUrl" width="150" height="150" class="mx-auto" cover value="rounded-xl">
+            <div id="fileInput" v-if="!imageUrl">
+                <v-file-input prepend-icon="mdi-camera-plus-outline" variant="underlined"
+                    label="&nbsp;&nbsp;&nbsp;&nbsp;Image" v-model="file" class="mx-auto" accept="image/*" density="compact">
+                </v-file-input>
+            </div>
+            <div id="clearButton" v-if="imageUrl">
+                <v-btn class="mt-5" icon="mdi-close-circle" variant="text" @click="clearImage"></v-btn>
+            </div>
         </v-img>
-    </v-card>
 </template>
 
 <script setup>
@@ -35,13 +29,11 @@ watch(file, (newValue) => {
     }
 });
 
-const truncateFileName = (fileName) => {
-    const maxLength = 15; // Define the maximum length of the file name
-    if (fileName.length > maxLength) {
-        return fileName.substring(0, maxLength) + '...'; // Truncate and add ellipsis
-    }
-    return fileName;
+const clearImage = () => {
+    file.value = null;
+    imageUrl.value = null;
 };
+
 </script>
 
 <style scoped>
@@ -54,4 +46,20 @@ const truncateFileName = (fileName) => {
     border-radius: 20px;
     text-align: center;
 }
+
+#clearButton {
+    text-align: right;
+    margin-top: -7%;
+}
+
+#fileInput {
+    border: 1px dashed gray;
+    border-radius: 20px;
+    padding: 1vw;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+}
+
 </style>
