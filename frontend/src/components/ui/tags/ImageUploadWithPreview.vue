@@ -7,7 +7,7 @@
             </div>
         </div>
         <div id="clearButton" v-else>
-            <v-btn class="mt-5" icon="mdi-close-circle" variant="text" @click="clearImage"></v-btn>
+            <v-btn class="mt-5" icon="mdi-close-circle" density="compact" @click="clearImage"></v-btn>
         </div>
     </v-img>
 </template>
