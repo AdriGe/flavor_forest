@@ -24,16 +24,17 @@
             <v-row align="center" class="mt-4" no-gutters>
                 <v-spacer></v-spacer>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <recipe-type-tags></recipe-type-tags>
+                    <culinary-styles-tags></culinary-styles-tags>
                 </v-col>
                 <v-col cols="10" sm="2" class="pr-2">
                     <dietary-regime-tags></dietary-regime-tags>
                 </v-col>
+                <v-col cols="10" sm="2" class="pr-2">
+                    <meal-type-tags></meal-type-tags>
+                </v-col>
                 <v-col cols="10" sm="2">
                     <v-select rounded variant="outlined" density="compact" clearable label="Durée max"
                         :items="maxPrepTime"></v-select>
-                </v-col>
-                <v-col cols="10" sm="2">
                 </v-col>
                 <v-spacer></v-spacer>
             </v-row>
@@ -43,14 +44,16 @@
 
 <script>
 import { ref } from 'vue';
-import RecipeTypeTags from './ui/tags/RecipeTypeTags.vue';
+import CulinaryStylesTags from './ui/tags/CulinaryStylesTags.vue';
 import DietaryRegimeTags from './ui/tags/DietaryRegimeTags.vue';
+import MealTypeTags from './ui/tags/MealTypeTags.vue';
 
 export default {
     name: 'MyComponent',
     components: {
-        RecipeTypeTags,
-        DietaryRegimeTags
+        CulinaryStylesTags,
+        DietaryRegimeTags,
+        MealTypeTags
     },
     setup() {
         const maxPrepTime = ref([

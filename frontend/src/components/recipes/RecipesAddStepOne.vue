@@ -12,7 +12,7 @@
     </v-row>
     <v-textarea variant="outlined" label="Description"></v-textarea>
     <v-row>
-        <v-col cols="12" sm="3">
+        <v-col cols="12" sm="3" class="ml-3">
             <v-text-field variant="underlined" v-model="totalTime" :rules="rules" label="Temps total" type="number"
                 min="0"></v-text-field>
         </v-col>
@@ -21,9 +21,20 @@
                 min="0"></v-text-field>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col cols="12" sm="4">
+        <v-col cols="12" sm="5" class="mr-3">
             <v-slider :ticks="difficulties" :max="2" step="1" show-ticks="always" tick-size="3" :color="color"
                 v-model="difficulty"></v-slider>
+        </v-col>
+    </v-row>
+    <v-row>
+        <v-col cols="12" sm="4">
+            <culinary-styles-tags></culinary-styles-tags>
+        </v-col>
+        <v-col cols="12" sm="4">
+            <dietary-regime-tags></dietary-regime-tags>
+        </v-col>
+        <v-col cols="12" sm="4">
+            <meal-type-tags></meal-type-tags>
         </v-col>
     </v-row>
 </template>
@@ -31,8 +42,9 @@
 <script setup>
 import { ref, reactive, computed, watch } from 'vue';
 
-import RecipeTypeTags from './ui/tags/RecipeTypeTags.vue';
+import CulinaryStylesTags from './ui/tags/CulinaryStylesTags.vue';
 import DietaryRegimeTags from './ui/tags/DietaryRegimeTags.vue';
+import MealTypeTags from './ui/tags/MealTypeTags.vue';
 import ImageUploadWithPreview from './ui/ImageUploadWithPreview.vue';
 
 let title = ref('');

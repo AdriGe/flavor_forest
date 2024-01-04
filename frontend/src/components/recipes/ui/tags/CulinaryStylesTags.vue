@@ -7,7 +7,7 @@
         clearable 
         chips 
         label="Type de cuisine" 
-        :items="recipeTypes" 
+        :items="culinaryStyles" 
         multiple
     ></v-select>
 </template>
@@ -17,7 +17,7 @@ import { ref } from 'vue';
 
 export default {
     setup() {
-        const recipeTypes = ref([
+        const culinaryStyles = ref([
             "Asiatique",
             "Américaine",
             "Italienne",
@@ -39,7 +39,7 @@ export default {
         ]);
 
         return {
-            recipeTypes
+            culinaryStyles
         };
     }
 };
