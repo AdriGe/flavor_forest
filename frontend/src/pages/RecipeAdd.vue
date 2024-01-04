@@ -27,32 +27,82 @@
                     <v-text-field variant="underlined" v-model="prepTime" :rules="rules" label="Temps de préparation"
                         type="number" min="0"></v-text-field>
                 </v-col>
-                <v-col cols="12" sm="6">
-                    <v-select variant="underlined" label="Difficulté"
-                        :items="['Facile', 'Intermédiaire', 'Difficile']"></v-select>
+                <v-spacer></v-spacer>
+                <v-col cols="12" sm="4">
+                    <v-slider :ticks="difficulties" :max="2" step="1" show-ticks="always" tick-size="3" :color="color"
+                        v-model="difficulty"></v-slider>
                 </v-col>
             </v-row>
 
-            <v-btn type="submit" block class="mt-2">Ajouter la recette</v-btn>
+            <v-row class="mb-3">
+                <v-col cols="12" sm="6">
+                    <h2>Etapes</h2>
+                </v-col>
+                <v-col cols="12" sm="6" class="d-flex">
+                    <v-spacer></v-spacer>
+                    <v-btn prepend-icon="mdi-plus" variant="outlined" rounded color="green" @click="addStep">Ajouter une
+                        étape</v-btn>
+                </v-col>
+            </v-row>
+            <create-step v-for="step in steps" :key="step.id" :step-number="step.stepNumber" :id="step.id" class="mb-2"
+                @delete="handleDeleteStep"></create-step>
+            <v-snackbar v-model="snackbar" :color="snackbarColor" :timeout="snackbarTimeout">{{ snackbarMessage }}</v-snackbar>
+            <v-btn block rounded color="green">Ajouter la recette</v-btn>
         </v-form>
-
     </div>
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, computed } from 'vue';
 import RecipeFilters from '../components/RecipeFilters.vue';
 import RecipeTypeTags from '../components/ui/tags/RecipeTypeTags.vue';
 import DietaryRegimeTags from '../components/ui/tags/DietaryRegimeTags.vue';
-import ImageUploadWithPreview from '../components/ui/tags/ImageUploadWithPreview.vue';
+import ImageUploadWithPreview from '../components/ui/ImageUploadWithPreview.vue';
+import CreateStep from '../components/ui/CreateStep.vue';
 
 let title = ref('');
 let subtitle = ref('');
 let totalTime = ref(0);
 let prepTime = ref(0);
+let difficulty = ref(0);
 let rules = ref([]);
-let steps = ref([]);
+let steps = ref([
+    { id: self.crypto.randomUUID(), stepNumber: 1 }
+]);
+let snackbar = ref(false);
+let snackbarMessage = ref('');
+let snackbarTimeout = ref(5000);
+let snackbarColor = ref('gray');
 
+const color = computed(() => {
+    if (difficulty.value == 0) return 'green'
+    if (difficulty.value == 1) return 'orange'
+    if (difficulty.value == 2) return 'red'
+});
+
+const addStep = () => {
+    steps.value.push({ id: self.crypto.randomUUID(), stepNumber: steps.value.length + 1 });
+}
+
+function handleDeleteStep(stepNumber) {
+    if (steps.value.length == 1) {
+        snackbarMessage.value = 'Au moins une étape est nécessaire';
+        snackbarColor.value = 'red';
+        snackbar.value = true;
+        return
+    };
+    steps.value = steps.value.filter(step => step.id != stepNumber);
+    steps.value.forEach((step, index) => {
+        step.stepNumber = index + 1;
+    });
+}
+
+
+let difficulties = ref({
+    0: 'Facile',
+    1: 'Intermédiaire',
+    2: 'Difficile'
+});
 </script>
 
 
