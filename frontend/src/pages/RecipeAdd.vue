@@ -33,8 +33,9 @@
                         v-model="difficulty"></v-slider>
                 </v-col>
             </v-row>
+            <v-divider></v-divider>
 
-            <v-row class="mb-3">
+            <v-row class="my-3">
                 <v-col cols="12" sm="6">
                     <h2>Etapes</h2>
                 </v-col>
@@ -46,19 +47,36 @@
             </v-row>
             <create-step v-for="step in steps" :key="step.id" :step-number="step.stepNumber" :id="step.id" class="mb-2"
                 @delete="handleDeleteStep"></create-step>
+            <v-divider></v-divider>
+            
+            <v-row class="my-3">
+                <v-col cols="12" sm="6">
+                    <h2>Ingrédients</h2>
+                </v-col>
+                <v-col cols="12" sm="6" class="d-flex">
+                    <v-spacer></v-spacer>
+                    <v-btn prepend-icon="mdi-plus" variant="outlined" rounded color="green" @click="addIngredient">Ajouter un
+                        ingrédient</v-btn>
+                </v-col>
+            </v-row>
+            <v-card class="pa-5">
+            <recipe-ingredient-select v-for="ingredient in ingredients" :key="ingredient.id" :id="ingredient.id" class="mb-2"
+                @delete="handleDeleteIngredient"></recipe-ingredient-select>
             <v-snackbar v-model="snackbar" :color="snackbarColor" :timeout="snackbarTimeout">{{ snackbarMessage }}</v-snackbar>
             <v-btn block rounded color="green">Ajouter la recette</v-btn>
+        </v-card>
         </v-form>
     </div>
 </template>
 
 <script setup>
 import { ref, watch, computed } from 'vue';
-import RecipeFilters from '../components/RecipeFilters.vue';
-import RecipeTypeTags from '../components/ui/tags/RecipeTypeTags.vue';
-import DietaryRegimeTags from '../components/ui/tags/DietaryRegimeTags.vue';
-import ImageUploadWithPreview from '../components/ui/ImageUploadWithPreview.vue';
-import CreateStep from '../components/ui/CreateStep.vue';
+import RecipeFilters from '../components/recipes/RecipeFilters.vue';
+import RecipeTypeTags from '../components/recipes/ui/tags/RecipeTypeTags.vue';
+import DietaryRegimeTags from '../components/recipes/ui/tags/DietaryRegimeTags.vue';
+import ImageUploadWithPreview from '../components/recipes/ui/ImageUploadWithPreview.vue';
+import CreateStep from '../components/recipes/ui/CreateStep.vue';
+import RecipeIngredientSelect from '../components/recipes/ui/RecipeIngredientSelect.vue';
 
 let title = ref('');
 let subtitle = ref('');
@@ -69,6 +87,11 @@ let rules = ref([]);
 let steps = ref([
     { id: self.crypto.randomUUID(), stepNumber: 1 }
 ]);
+
+let ingredients = ref([
+    { id: self.crypto.randomUUID(), name: '', quantity: '', unit: '', portion: '' }
+]);
+
 let snackbar = ref(false);
 let snackbarMessage = ref('');
 let snackbarTimeout = ref(5000);
@@ -84,18 +107,36 @@ const addStep = () => {
     steps.value.push({ id: self.crypto.randomUUID(), stepNumber: steps.value.length + 1 });
 }
 
-function handleDeleteStep(stepNumber) {
+function handleDeleteStep(id) {
     if (steps.value.length == 1) {
         snackbarMessage.value = 'Au moins une étape est nécessaire';
         snackbarColor.value = 'red';
         snackbar.value = true;
         return
     };
-    steps.value = steps.value.filter(step => step.id != stepNumber);
+    steps.value = steps.value.filter(step => step.id != id);
     steps.value.forEach((step, index) => {
-        step.stepNumber = index + 1;
+        step.id = index + 1;
     });
 }
+
+const addIngredient = () => {
+    ingredients.value.push({ id: self.crypto.randomUUID(), name: '', quantity: '', unit: '', portion: '' });
+}
+
+function handleDeleteIngredient(id) {
+    if (ingredients.value.length == 1) {
+        snackbarMessage.value = 'Au moins un ingrédient est nécessaire';
+        snackbarColor.value = 'red';
+        snackbar.value = true;
+        return
+    };
+    ingredients.value = ingredients.value.filter(ingredient => ingredient.id != id);
+    ingredients.value.forEach((ingredient, index) => {
+        ingredient.id = index + 1;
+    });
+}
+
 
 
 let difficulties = ref({

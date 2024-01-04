@@ -292,7 +292,7 @@
 
 <script setup>
 
-import RecipeFilters from '../components/RecipeFilters.vue';
+import RecipeFilters from '../components/recipes/RecipeFilters.vue';
 
 components: {
     RecipeFilters

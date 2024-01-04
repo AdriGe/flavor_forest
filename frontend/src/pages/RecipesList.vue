@@ -12,8 +12,8 @@
 
 <script>
 import { ref, watch } from 'vue';
-import RecipeFilters from '../components/RecipeFilters.vue';
-import RecipeCard from '../components/RecipeCard.vue';
+import RecipeFilters from '../components/recipes/RecipeFilters.vue';
+import RecipeCard from '../components/recipes/RecipeCard.vue';
 import RecipeView from '../pages/RecipeView.vue';
 
 export default {
