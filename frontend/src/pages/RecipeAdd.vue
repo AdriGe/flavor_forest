@@ -2,17 +2,17 @@
     <div id="content" class="mb-4">
         <h1>Ajouter une recette</h1>
 
-        <v-stepper  alt-labels v-model="step" :items="items" show-actions>
+        <v-stepper alt-labels v-model="step" :items="items" show-actions>
             <template v-slot:item.1>
                 <recipes-add-step-one></recipes-add-step-one>
             </template>
 
             <template v-slot:item.2>
-                <recipes-add-step-two></recipes-add-step-two>
+                <recipes-add-step-two @snackbar="handleSnackbar"></recipes-add-step-two>
             </template>
 
             <template v-slot:item.3>
-                <recipes-add-step-three></recipes-add-step-three>
+                <recipes-add-step-three @snackbar="handleSnackbar"></recipes-add-step-three>
             </template>
             <template v-slot:actions.prev>
                 Prev
@@ -26,8 +26,9 @@
             </template>
         </v-stepper>
 
-        <v-snackbar v-model="snackbar" :color="snackbarColor" :timeout="snackbarTimeout">{{ snackbarMessage
-        }}</v-snackbar>
+        <v-snackbar v-model="snackbar" :color="snackbarColor" :timeout="snackbarTimeout" min-width="0">
+                {{ snackbarMessage }}
+        </v-snackbar>
 
     </div>
 </template>
@@ -46,14 +47,14 @@ const step = ref(1);
 const items = ref([
     'Description',
     'Ingrédients',
-    'Etapes',
+    'Étapes',
 ]);
 
 const isFinalStep = computed(() => step.value === items.value.length);
 
 let snackbar = ref(false);
 let snackbarMessage = ref('');
-let snackbarTimeout = ref(5000);
+let snackbarTimeout = ref(50000);
 let snackbarColor = ref('gray');
 
 function prev() {
@@ -83,5 +84,9 @@ function handleSnackbar({ message, color }) {
 #content {
     max-width: 60vw;
     margin: auto;
+}
+
+#snackbar {
+    text-align: center;
 }
 </style>

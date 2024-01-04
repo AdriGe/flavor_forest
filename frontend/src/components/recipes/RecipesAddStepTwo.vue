@@ -28,11 +28,9 @@ let ingredients = ref([
 
 const addIngredient = () => {
     ingredients.value.push({ id: self.crypto.randomUUID(), name: '', quantity: '', unit: '', portion: '' });
-    console.log(ingredients.value);
 }
 
 function handleDeleteIngredient(id) {
-    console.log(id);
     if (ingredients.value.length == 1) {
         emit('snackbar', { message: 'Au moins un ingrédient est nécessaire', color: 'red' })
         return

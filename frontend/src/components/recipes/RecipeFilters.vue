@@ -21,20 +21,19 @@
             <v-spacer></v-spacer>
         </v-row>
         <template v-if="isAppBarExtended" v-slot:extension>
-            <v-row align="center" class="mt-4" no-gutters>
+            <v-row align="center" class="mt-6" no-gutters>
                 <v-spacer></v-spacer>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <culinary-styles-tags></culinary-styles-tags>
+                    <culinary-styles-tags :max-elements="1"></culinary-styles-tags>
                 </v-col>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <dietary-regime-tags></dietary-regime-tags>
+                    <dietary-regime-tags :max-elements="1"></dietary-regime-tags>
                 </v-col>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <meal-type-tags></meal-type-tags>
+                    <meal-type-tags :max-elements="1"></meal-type-tags>
                 </v-col>
                 <v-col cols="10" sm="2">
-                    <v-select rounded variant="outlined" density="compact" clearable label="Durée max"
-                        :items="maxPrepTime"></v-select>
+                    <total-time-tags></total-time-tags>
                 </v-col>
                 <v-spacer></v-spacer>
             </v-row>
@@ -42,38 +41,19 @@
     </v-app-bar>
 </template>
 
-<script>
+<script setup>
 import { ref } from 'vue';
 import CulinaryStylesTags from './ui/tags/CulinaryStylesTags.vue';
 import DietaryRegimeTags from './ui/tags/DietaryRegimeTags.vue';
 import MealTypeTags from './ui/tags/MealTypeTags.vue';
+import TotalTimeTags from './ui/tags/TotalTimeTags.vue';
 
-export default {
-    name: 'MyComponent',
-    components: {
-        CulinaryStylesTags,
-        DietaryRegimeTags,
-        MealTypeTags
-    },
-    setup() {
-        const maxPrepTime = ref([
-            '15 minutes',
-            '30 minutes',
-            '45 minutes',
-            '60 minutes',
-        ]);
+let searchText = ref('');
 
-        let isAppBarExtended = ref(false);
-        function handleAppBarExtended() {
-            isAppBarExtended.value = !isAppBarExtended.value;
-            console.log(isAppBarExtended.value);
-        }
+let isAppBarExtended = ref(false);
+function handleAppBarExtended() {
+    isAppBarExtended.value = !isAppBarExtended.value;
 
-        return {
-            maxPrepTime,
-            isAppBarExtended,
-            handleAppBarExtended
-        };
-    },
-};
+}
+
 </script>

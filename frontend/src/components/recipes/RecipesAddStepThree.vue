@@ -1,8 +1,6 @@
 <template>
     <v-row class="my-3">
-        <v-col cols="12" sm="6">
-            <h2>Etapes</h2>
-        </v-col>
+        <v-spacer></v-spacer>
         <v-col cols="12" sm="6" class="d-flex">
             <v-spacer></v-spacer>
             <v-btn prepend-icon="mdi-plus" variant="outlined" rounded color="green" @click="addStep">Ajouter une
