@@ -1,15 +1,25 @@
 <template>
     <div id="content" class="mb-4">
         <h1>Ajouter une recette</h1>
-        <v-form @submit.prevent>
-            <recipes-add-step-one></recipes-add-step-one>
-            <v-divider></v-divider>
-            <recipes-add-step-two @snackbar="handleSnackbar"></recipes-add-step-two>
-            <v-divider></v-divider>
-            <recipes-add-step-three @snackbar="handleSnackbar"></recipes-add-step-three>
-            <v-snackbar v-model="snackbar" :color="snackbarColor" :timeout="snackbarTimeout">{{ snackbarMessage }}</v-snackbar>
+
+            <v-stepper alt-labels :items="['Description', 'Ingrédients', 'Etapes']">
+                <template v-slot:item.1>
+                    <recipes-add-step-one></recipes-add-step-one>
+                </template>
+
+                <template v-slot:item.2>
+                    <recipes-add-step-two @snackbar="handleSnackbar"></recipes-add-step-two>
+                </template>
+
+                <template v-slot:item.3>
+                    <recipes-add-step-three @snackbar="handleSnackbar"></recipes-add-step-three>
+                </template>
+            </v-stepper>
+
+            <v-snackbar v-model="snackbar" :color="snackbarColor" :timeout="snackbarTimeout">{{ snackbarMessage
+            }}</v-snackbar>
             <v-btn block rounded color="green">Ajouter la recette</v-btn>
-        </v-form>
+
     </div>
 </template>
 
