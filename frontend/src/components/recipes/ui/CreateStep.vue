@@ -1,6 +1,9 @@
 <template>
     <v-card class="pa-5">
         <v-row align="center">
+            <v-col cols="12" sm="2">
+                <h3>Etape {{ stepNumber }}</h3>
+            </v-col>
             <v-spacer></v-spacer>
             <v-col cols="12" sm="1">
                 <v-btn icon="mdi-delete" @click="onDeleteButtonClicked"></v-btn>
