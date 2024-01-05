@@ -23,6 +23,7 @@ let steps = ref([
 ]);
 
 const addStep = () => {
+    console.log(steps.value);
     steps.value.push({ id: self.crypto.randomUUID(), stepNumber: steps.value.length + 1 });
 }
 

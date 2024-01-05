@@ -1,16 +1,4 @@
 <template>
-    <v-row class="mb-3">
-        <v-col cols="12" sm="8">
-            <v-text-field variant="underlined" v-model="title" :rules="rules" label="Titre de la recette"></v-text-field>
-            <v-text-field variant="underlined" v-model="subtitle" :rules="rules" label="Sous titre"></v-text-field>
-        </v-col>
-
-        <v-col cols="12" sm="4">
-            <v-spacer></v-spacer>
-            <image-upload-with-preview width="150" height="150"></image-upload-with-preview>
-        </v-col>
-    </v-row>
-    <v-textarea variant="outlined" label="Description"></v-textarea>
     <v-row>
         <v-col cols="12" sm="3" class="ml-3">
             <v-text-field variant="underlined" v-model="totalTime" :rules="rules" label="Temps total" type="number"
@@ -37,6 +25,13 @@
             <meal-type-tags></meal-type-tags>
         </v-col>
     </v-row>
+    <v-divider></v-divider>
+    <v-row>
+        <v-col cols="12" sm="12">
+            <add-usentils></add-usentils>
+        </v-col>
+    </v-row>
+    <v-divider></v-divider>
 </template>
 
 <script setup>
@@ -46,9 +41,8 @@ import CulinaryStylesTags from './ui/tags/CulinaryStylesTags.vue';
 import DietaryRegimeTags from './ui/tags/DietaryRegimeTags.vue';
 import MealTypeTags from './ui/tags/MealTypeTags.vue';
 import ImageUploadWithPreview from './ui/ImageUploadWithPreview.vue';
+import AddUsentils from './ui/AddUstentils.vue';
 
-let title = ref('');
-let subtitle = ref('');
 let totalTime = ref(0);
 let prepTime = ref(0);
 let difficulty = ref(0);
