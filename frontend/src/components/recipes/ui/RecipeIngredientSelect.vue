@@ -5,7 +5,7 @@
                 <v-text-field label="Ingrédient" variant="underlined"></v-text-field>
             </v-col>
             <v-col cols="12" sm="2">
-                <v-text-field label="Quantité" variant="underlined"></v-text-field>
+                <v-text-field type="number" step="0.1" min="0" label="Quantité" variant="underlined"></v-text-field>
             </v-col>
             <v-col cols="12" sm="3">
                 <v-text-field label="Unité ou Portion" variant="underlined"></v-text-field>

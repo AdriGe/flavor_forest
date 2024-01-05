@@ -9,7 +9,8 @@
                 min="0"></v-text-field>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col cols="12" sm="5" class="mr-3">
+        <v-col cols="12" sm="5" class="mr-3" align="center">
+            <label>Difficulté</label>
             <v-slider :ticks="difficulties" :max="2" step="1" show-ticks="always" tick-size="3" :color="color"
                 v-model="difficulty"></v-slider>
         </v-col>
@@ -43,8 +44,8 @@ import MealTypeTags from './ui/tags/MealTypeTags.vue';
 import ImageUploadWithPreview from './ui/ImageUploadWithPreview.vue';
 import AddUsentils from './ui/AddUstentils.vue';
 
-let totalTime = ref(0);
-let prepTime = ref(0);
+let totalTime = ref(null);
+let prepTime = ref(null);
 let difficulty = ref(0);
 let rules = ref([]);
 
@@ -61,4 +62,8 @@ let difficulties = ref({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+label {
+    font-weight: bold;
+}
+</style>
