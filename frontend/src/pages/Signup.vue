@@ -1,20 +1,27 @@
 <template>
     <v-sheet class="pa-12" rounded>
-        <v-card class="mx-auto px-6 py-8" max-width="344">
+        <v-card class="mx-auto px-6 py-8" max-width="500px">
+            <h2>Inscription</h2>
+            <br>
             <v-form v-model="form" @submit.prevent="onSubmit">
-                <v-text-field variant="outlined" v-model="email" :readonly="loading" :rules="[required]" class="mb-2"
-                    clearable label="Email"></v-text-field>
+                <v-text-field variant="outlined" v-model="email" :error-messages="emailError" @blur="validateEmail"
+                    :readonly="loading" :rules="[required]" class="mb-2" label="Email"></v-text-field>
+                <br>
 
-                <v-text-field variant="outlined" v-model="password" :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
-                    :type="showPassword ? 'text' : 'password'" @click:append="showPassword = !showPassword"
-                    :error-messages="passwordError" :readonly="loading" :rules="[required]" clearable label="Mot de passe"
-                    @input="validatePassword" placeholder="Choisissez votre mot de passe"></v-text-field>
+                <v-text-field variant="outlined" label="Nom d'utilisateur" v-model="username" :error-messages="usernameError"
+                    @blur="validateUsername"></v-text-field>
+                <br>
+                <v-text-field variant="outlined" v-model="password"
+                    :append-inner-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" :type="showPassword ? 'text' : 'password'"
+                    @click:append-inner="showPassword = !showPassword" :error-messages="passwordError" :readonly="loading"
+                    :rules="[required]" label="Mot de passe" @input="validatePassword"
+                    placeholder="Choisissez votre mot de passe"></v-text-field>
                 <br>
 
                 <v-text-field variant="outlined" v-model="passwordConfirmation"
-                    :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" :type="showPassword ? 'text' : 'password'"
-                    @click:append="showPassword = !showPassword" :readonly="loading" :rules="[required]"
-                    :error-messages="passwordConfirmationError" @blur="validatePasswordConfirmation" clearable
+                    :append-inner-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" :type="showPassword ? 'text' : 'password'"
+                    @click:append-inner="showPassword = !showPassword" :readonly="loading" :rules="[required]"
+                    :error-messages="passwordConfirmationError" @blur="validatePasswordConfirmation"
                     label="Confirmation du mot de passe" placeholder="Validez votre mot de passe"></v-text-field>
                 <br>
 
@@ -33,10 +40,13 @@ import { ref, computed } from 'vue';
 
 let form = ref(false);
 let email = ref(null);
+let username = ref(null);
 let password = ref(null);
 let passwordConfirmation = ref(null);
 let loading = ref(false);
 const showPassword = ref(false);
+const emailError = ref('');
+const usernameError = ref('');
 const passwordError = ref('');
 const passwordConfirmationError = ref('');
 
@@ -51,6 +61,22 @@ function onSubmit() {
 function required(v) {
     return !!v || 'Ce champ est requis'
 }
+
+const validateEmail = () => {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    emailError.value = emailRegex.test(email.value) ? '' : 'Adresse email invalide';
+};
+
+const validateUsername = () => {
+    const minLength = 3;
+    const usernameRegex = /^[a-zA-Z0-9_-]+$/; // Adjust regex based on your requirements
+    usernameError.value = '';
+    if (username.value.length < minLength) {
+        usernameError.value = `Le nom d'utilisateur doit contenir au moins ${minLength} caractères`;
+    } else if (!usernameRegex.test(username.value)) {
+        usernameError.value = 'Le nom d\'utilisateur ne doit contenir que des lettres, des chiffres, des tirets et des underscores';
+    }
+};
 
 const validatePassword = () => {
     const regex = {
@@ -81,4 +107,14 @@ function validatePasswordConfirmation() {
 
 </script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+</style>

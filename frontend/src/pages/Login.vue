@@ -1,6 +1,8 @@
 <template>
     <v-sheet class="pa-12" rounded>
-        <v-card class="mx-auto px-6 py-8" max-width="344">
+        <v-card class="mx-auto px-6 py-8" max-width="344px">
+            <h2>Connexion</h2>
+            <br>
             <v-form v-model="form" @submit.prevent="onSubmit">
                 <v-text-field variant="outlined" v-model="email" :readonly="loading" :rules="[required]" class="mb-2" clearable
                     label="Email"></v-text-field>
@@ -44,5 +46,13 @@ function required(v) {
 </script>
 
 <style scoped>
-
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 </style>
