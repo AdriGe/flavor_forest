@@ -3,8 +3,8 @@
 <recipe-filters></recipe-filters>
     <div>
         <v-card class="mx-auto my-8" max-width="60vw" elevation="16">
-            <v-img gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,.33), rgba(0,0,0,.7)"
-                class="align-end text-white" src="/src/assets/images/recipes/1.png" cover height="45vh">
+            <v-parallax gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,.33), rgba(0,0,0,.7)"
+                class="align-end text-white" src="/src/assets/images/recipes/1.png" :scale="0.9" height="45vh">
                 <v-card-item>
                     <v-card-title id="recipeTitle">
                         Conchiglie al pesto rosso
@@ -13,7 +13,7 @@
                         saupoudrées de fromage & persil
                     </v-card-subtitle>
                 </v-card-item>
-            </v-img>
+            </v-parallax>
             <v-card-item>
                 <v-row no-gutters class="ma-2">
                     <v-col cols="12" sm="3">

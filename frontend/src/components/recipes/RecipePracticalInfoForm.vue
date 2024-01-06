@@ -64,6 +64,6 @@ let difficulties = ref({
 
 <style scoped>
 label {
-    font-weight: bold;
+    font-size: 1.1rem;
 }
 </style>
