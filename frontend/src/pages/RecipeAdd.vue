@@ -1,5 +1,6 @@
 <template>
     <div id="content" class="mb-4">
+        <h1 class="mt-5 mb-8">Ajouter une recette</h1>
         <v-stepper alt-labels v-model="step" :items="items" show-actions>
             <template v-slot:item.1>
                 <recipe-presentation-form @snackbar="handleSnackbar"></recipe-presentation-form>
@@ -85,6 +86,15 @@ function handleSnackbar({ message, color }) {
 
 
 <style scoped>
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}
+
+
 #content {
     max-width: 60vw;
     margin: auto;
