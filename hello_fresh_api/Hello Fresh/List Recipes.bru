@@ -1,0 +1,24 @@
+meta {
+  name: List Recipes
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://www.hellofresh.fr/gw/my-deliveries/menu?locale=fr-FR&postcode=75019&servings=2&subscription=1304935&week=2024-W02&product-sku=FR-CBT3-3-2-0
+  body: none
+  auth: bearer
+}
+
+query {
+  locale: fr-FR
+  postcode: 75019
+  servings: 2
+  subscription: 1304935
+  week: 2024-W02
+  product-sku: FR-CBT3-3-2-0
+}
+
+auth:bearer {
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im0zTXVfbkJVMmFDaW9ZNTV4aDRkTiJ9.eyJodHRwczovL2hlbGxvZnJlc2guY29tL2N1c3RvbWVyX3V1aWQiOiI0YmZiNTZlNC00YmMzLTQ2YTAtOWRmYS1iZTRhOGExNTJkZTAiLCJodHRwczovL2hlbGxvZnJlc2guY29tL2NvdW50cnkiOiJmciIsImh0dHBzOi8vaGVsbG9mcmVzaC5jb20vZW1haWwiOiJhZHJpZW4uZ2VpZ2VyQGdtYWlsLmNvbSIsImh0dHBzOi8vaGVsbG9mcmVzaC5jb20vdXNlcm5hbWUiOiJhZHJpZW4uZ2VpZ2VyQGdtYWlsLmNvbSIsImlzcyI6Imh0dHBzOi8vaGVsbG9mcmVzaC1saXZlLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2M2JmZDczMTkyYmMyZGJhMTU0YmI3NTkiLCJhdWQiOiJodHRwczovL2hlbGxvZnJlc2guY29tIiwiaWF0IjoxNzA0NzM2NjEyLCJleHAiOjE3MDQ3Mzg0MTIsImF6cCI6IkIxbjBRMjRodjdlNEFIYzd5RzFXd1F5dU12cENBSXlhIiwic2NvcGUiOiJvZmZsaW5lX2FjY2VzcyIsImd0eSI6WyJyZWZyZXNoX3Rva2VuIiwicGFzc3dvcmQiXX0.nQokMMatt92PD3p6VkgYR_eF24LiJO18zjVJYyyhLqDVdxUTizyjfs3AQtlqoLAyQglmkDIMd_YFpiZZcKZEHZ0NhpW_Yl5-B-3kqUZIfKW7X_pJwMBCvmCG8jFrJzo0Ccy7Tyoj15IUcDzseqqh4WtbnEhIxYWZD0cis-DUHFO_a_2zFLVR_gSKp8ElyBrHzELZ1Ou4mejjhIzgUt_ddIzFX7FYzcz54_O0riUChP6F87FQAcLbtjoLuYvJgMyaGkvLIGHJOi-7xE2EzHPKUoWlaC9DpDthEUTdXx9e_g4CMNCGJp1MxtkTPlMAJyjZVOdtudkBObWuT0Dy_PQLSg
+}

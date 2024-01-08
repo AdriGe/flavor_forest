@@ -1,0 +1,44 @@
+meta {
+  name: Refresh Token
+  type: http
+  seq: 3
+}
+
+post {
+  url: www.hellofresh.fr/gw/refresh?country=fr&locale=fr-FR
+  body: json
+  auth: none
+}
+
+query {
+  country: fr
+  locale: fr-FR
+}
+
+headers {
+  User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+  Accept: application/json, text/plain, */*
+  Accept-Language: en-US,en;q=0.5
+  Accept-Encoding: gzip, deflate, br
+  Referer: https://www.hellofresh.fr/my-account/deliveries/menu?locale=fr-FR&subscriptionId=1304935&week=2024-W02&recipePreviewId=64fb2dce786cce2df0e019b8
+  Content-Type: text/plain;charset=UTF-8
+  Content-Length: 110
+  Origin: https://www.hellofresh.fr
+  Alt-Used: www.hellofresh.fr
+  Connection: keep-alive
+  Cookie: hf_landing_page=FR - Homepage - Sustainability Test; hf_public_id=26645f70-5529-4efa-8030-db9bd573460f; locale=fr-FR; hf_initial_page=/my-account/deliveries/menu; cf_clearance=_g61TTbwzYref6Ohj7Knuxpmd4W9WXdZEZD9jF6ac3k-1704736612-0-2-ad6b69f9.dfc2eeda.f743abfb-0.2.1704736612; apiV2Auth={%22access_token%22:%22eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im0zTXVfbkJVMmFDaW9ZNTV4aDRkTiJ9.eyJodHRwczovL2hlbGxvZnJlc2guY29tL2N1c3RvbWVyX3V1aWQiOiI0YmZiNTZlNC00YmMzLTQ2YTAtOWRmYS1iZTRhOGExNTJkZTAiLCJodHRwczovL2hlbGxvZnJlc2guY29tL2NvdW50cnkiOiJmciIsImh0dHBzOi8vaGVsbG9mcmVzaC5jb20vZW1haWwiOiJhZHJpZW4uZ2VpZ2VyQGdtYWlsLmNvbSIsImh0dHBzOi8vaGVsbG9mcmVzaC5jb20vdXNlcm5hbWUiOiJhZHJpZW4uZ2VpZ2VyQGdtYWlsLmNvbSIsImlzcyI6Imh0dHBzOi8vaGVsbG9mcmVzaC1saXZlLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2M2JmZDczMTkyYmMyZGJhMTU0YmI3NTkiLCJhdWQiOiJodHRwczovL2hlbGxvZnJlc2guY29tIiwiaWF0IjoxNzA0NzM2NjEyLCJleHAiOjE3MDQ3Mzg0MTIsImF6cCI6IkIxbjBRMjRodjdlNEFIYzd5RzFXd1F5dU12cENBSXlhIiwic2NvcGUiOiJvZmZsaW5lX2FjY2VzcyIsImd0eSI6WyJyZWZyZXNoX3Rva2VuIiwicGFzc3dvcmQiXX0.nQokMMatt92PD3p6VkgYR_eF24LiJO18zjVJYyyhLqDVdxUTizyjfs3AQtlqoLAyQglmkDIMd_YFpiZZcKZEHZ0NhpW_Yl5-B-3kqUZIfKW7X_pJwMBCvmCG8jFrJzo0Ccy7Tyoj15IUcDzseqqh4WtbnEhIxYWZD0cis-DUHFO_a_2zFLVR_gSKp8ElyBrHzELZ1Ou4mejjhIzgUt_ddIzFX7FYzcz54_O0riUChP6F87FQAcLbtjoLuYvJgMyaGkvLIGHJOi-7xE2EzHPKUoWlaC9DpDthEUTdXx9e_g4CMNCGJp1MxtkTPlMAJyjZVOdtudkBObWuT0Dy_PQLSg%22%2C%22expires_in%22:1800%2C%22refresh_token%22:%22v1.NFkcCdL4e3l7EWBGnsvCHhhI33pdTyMeUgBwsOuDGxIZbF6ixOqB1tM1Cf-7GuUX_nD16Xf-v20DHrjWjbNarJM%22%2C%22token_type%22:%22Bearer%22%2C%22user_data%22:{%22blocked%22:false%2C%22country%22:%22fr%22%2C%22email%22:%22adrien.geiger@gmail.com%22%2C%22id%22:%224bfb56e4-4bc3-46a0-9dfa-be4a8a152de0%22%2C%22metadata%22:{}%2C%22roles%22:[]%2C%22source_system%22:{%22String%22:%22customer%22%2C%22Valid%22:true}%2C%22user_id%22:%22%22%2C%22username%22:%22adrien.geiger@gmail.com%22}%2C%22refresh_expires_in%22:5184000%2C%22issued_at%22:1704736612}; _cfuvid=8I_RWL.MqcKRyRNdLs6sjbTVafxAfFvCl6ilac7fC4w-1704736611266-0-604800000; hf_system_country=FR; __cf_bm=5G1pQwtJD4faqt8LfiQEofXtB2dFK2zsCvZHAJmWC2E-1704739318-1-AY+4QLWjIReEiW0DcfTrfxdP8La0lTzs+JC+zK3B6ryDG+PfHWb0ZWxGqcO5vjin7daaxMQkLEPYxEd+9KZJT28=
+  Sec-Fetch-Dest: empty
+  Sec-Fetch-Mode: cors
+  Sec-Fetch-Site: same-origin
+  TE: trailers
+}
+
+auth:bearer {
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im0zTXVfbkJVMmFDaW9ZNTV4aDRkTiJ9.eyJodHRwczovL2hlbGxvZnJlc2guY29tL2N1c3RvbWVyX3V1aWQiOiI0YmZiNTZlNC00YmMzLTQ2YTAtOWRmYS1iZTRhOGExNTJkZTAiLCJodHRwczovL2hlbGxvZnJlc2guY29tL2NvdW50cnkiOiJmciIsImh0dHBzOi8vaGVsbG9mcmVzaC5jb20vZW1haWwiOiJhZHJpZW4uZ2VpZ2VyQGdtYWlsLmNvbSIsImh0dHBzOi8vaGVsbG9mcmVzaC5jb20vdXNlcm5hbWUiOiJhZHJpZW4uZ2VpZ2VyQGdtYWlsLmNvbSIsImlzcyI6Imh0dHBzOi8vaGVsbG9mcmVzaC1saXZlLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2M2JmZDczMTkyYmMyZGJhMTU0YmI3NTkiLCJhdWQiOiJodHRwczovL2hlbGxvZnJlc2guY29tIiwiaWF0IjoxNzA0NzM2NjEyLCJleHAiOjE3MDQ3Mzg0MTIsImF6cCI6IkIxbjBRMjRodjdlNEFIYzd5RzFXd1F5dU12cENBSXlhIiwic2NvcGUiOiJvZmZsaW5lX2FjY2VzcyIsImd0eSI6WyJyZWZyZXNoX3Rva2VuIiwicGFzc3dvcmQiXX0.nQokMMatt92PD3p6VkgYR_eF24LiJO18zjVJYyyhLqDVdxUTizyjfs3AQtlqoLAyQglmkDIMd_YFpiZZcKZEHZ0NhpW_Yl5-B-3kqUZIfKW7X_pJwMBCvmCG8jFrJzo0Ccy7Tyoj15IUcDzseqqh4WtbnEhIxYWZD0cis-DUHFO_a_2zFLVR_gSKp8ElyBrHzELZ1Ou4mejjhIzgUt_ddIzFX7FYzcz54_O0riUChP6F87FQAcLbtjoLuYvJgMyaGkvLIGHJOi-7xE2EzHPKUoWlaC9DpDthEUTdXx9e_g4CMNCGJp1MxtkTPlMAJyjZVOdtudkBObWuT0Dy_PQLSg
+}
+
+body:json {
+  {
+    "refresh_token": "v1.NFkcCdL4e3l7EWBGnsvCHhhI33pdTyMeUgBwsOuDGxIZbF6ixOqB1tM1Cf-7GuUX_nD16Xf-v20DHrjWjbNarJM"
+  }
+}
