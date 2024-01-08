@@ -41,7 +41,7 @@ import { ref, reactive, computed, watch } from 'vue';
 import CulinaryStylesTags from './ui/tags/CulinaryStylesTags.vue';
 import DietaryRegimeTags from './ui/tags/DietaryRegimeTags.vue';
 import MealTypeTags from './ui/tags/MealTypeTags.vue';
-import ImageUploadWithPreview from './ui/ImageUploadWithPreview.vue';
+import ImageUploadWithPreview from '../common/ui/ImageUploadWithPreview.vue';
 import AddUsentils from './ui/AddUstentils.vue';
 
 let totalTime = ref(null);

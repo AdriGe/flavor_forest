@@ -22,7 +22,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 
-import ImageUploadWithPreview from './ui/ImageUploadWithPreview.vue';
+import ImageUploadWithPreview from '../common/ui/ImageUploadWithPreview.vue';
 
 
 let title = ref('');

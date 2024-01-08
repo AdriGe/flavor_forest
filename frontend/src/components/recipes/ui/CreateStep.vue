@@ -23,7 +23,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import ImageUploadWithPreview from './ImageUploadWithPreview.vue';
+import ImageUploadWithPreview from '../../common/ui/ImageUploadWithPreview.vue';
 
 const props = defineProps({
     id: {

@@ -1,25 +1,21 @@
 <template>
-    <div>
-        <h1>Foods List</h1>
+    <food-filters></food-filters>
+
+    <div id="content">
+        <h1>Food List</h1>
+        <v-row no-gutters>
+            <v-col cols="12" sm="4" class="pa-2" v-for="food in foods" :key="food.id" :food="food">
+
+            </v-col>
+        </v-row>
     </div>
 </template>
 
-<script>
+<script setup>
 import { ref } from 'vue';
+import FoodFilters from '../components/foods/FoodFilters.vue';
 
-export default {
-    name: 'RecipesList',
-    setup() {
-        const recipes = ref([]);
-
-        // Fetch recipes from API or any other data source
-        // You can use lifecycle hooks like onMounted or onBeforeMount here
-
-        return {
-            recipes,
-        };
-    },
-};
+const foods = ref([])
 </script>
 
 <style scoped>
