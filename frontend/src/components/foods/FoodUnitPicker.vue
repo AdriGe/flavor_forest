@@ -1,6 +1,6 @@
 
 <template>
-    <v-select rounded variant="outlined" v-model="value" :items="items" label="Unité" density="compact">
+    <v-select rounded variant="underlined" v-model="value" :items="items" label="Unité" density="compact">
     </v-select>
 </template>
 

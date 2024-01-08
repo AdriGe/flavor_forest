@@ -1,6 +1,6 @@
 <template>
     <v-row>
-        <v-col cols="12" sm="3" class="ml-3">
+        <v-col cols="12" sm="3">
             <v-text-field variant="underlined" v-model="totalTime" :rules="rules" label="Temps total" type="number"
                 min="0"></v-text-field>
         </v-col>
@@ -15,7 +15,7 @@
                 v-model="difficulty"></v-slider>
         </v-col>
     </v-row>
-    <v-row>
+    <v-row class="">
         <v-col cols="12" sm="4">
             <culinary-styles-tags></culinary-styles-tags>
         </v-col>

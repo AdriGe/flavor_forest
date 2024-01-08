@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-row align="center">
-      <v-col cols="12" sm="8">
+      <v-col cols="12" sm="7">
         <v-text-field variant="underlined" label="Ustensiles" @keyup.enter="addChip" v-model="textInput" :error-messages="errorMessages"></v-text-field>
       </v-col>
-      <v-col cols="12" sm="4" class="d-flex">
+      <v-col cols="12" sm="5" class="d-flex">
         <v-spacer></v-spacer>
         <v-btn prepend-icon="mdi-plus" variant="outlined" rounded color="green" @click="addChip">Ajouter un
           ustensile</v-btn>

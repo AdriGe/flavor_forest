@@ -2,7 +2,7 @@
 <template>
     <v-select 
         rounded
-        variant="outlined"
+        variant="underlined"
         clearable
         v-model="value" 
         :items="items" 

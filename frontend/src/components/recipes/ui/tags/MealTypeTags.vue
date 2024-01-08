@@ -1,6 +1,6 @@
 
 <template>
-    <v-select rounded variant="outlined" clearable v-model="value" :items="items" label="Type de plat" density="compact"
+    <v-select rounded variant="underlined" clearable v-model="value" :items="items" label="Type de plat" density="compact"
         multiple>
         <template v-slot:selection="{ item, index }">
             <v-chip v-if="index < maxElements">
