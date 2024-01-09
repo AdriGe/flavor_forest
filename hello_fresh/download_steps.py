@@ -43,7 +43,7 @@ def download_image_step(json_file, step, base_url="https://img.hellofresh.com/f_
         else:
             print(f"Error downloading image for step {step_number} of recipe {recipe_id}: {image_response.status_code}")
 
-def download_step_images(json_files, max_workers=10):
+def download_step_images(json_files, max_workers=30):
     """
     Download step images from each recipe JSON file using parallel execution.
 
