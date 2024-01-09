@@ -24,24 +24,25 @@ def extract_unique_ingredient_names(json_files):
             recipe_data = json.load(file)
             for ingredient in recipe_data.get("ingredients", []):
                 ingredient_name = ingredient.get("name")
-                family = "okok"
+                ingredient_id = ingredient.get("id")
                 try:
-                    family = ingredient.get("family").get("name")
+                    ingredient_family = ingredient.get("family").get("name")
                 except:
-                    family = "okok"
+                    ingredient_family = ""
 
-                if ingredient_name and family == "okok":
-                    ingredient_names.add(f"{ingredient_name}")
-                else:
-                    ingredient_names.add(f"{ingredient_name} de la famille {family}")
+                if ingredient_family.lower() == "none":
+                    ingredient_family = ""
+
+                ingredient_names.add(f"\"{ingredient_id}\",\"{ingredient_name}\",\"{ingredient_family}\"")
+                
 
     return ingredient_names
 
 # Replace '/path/to/json/folder' with the actual path where your JSON files are stored
-json_folder_path = 'recipes'
+json_folder_path = '/home/adrien/git/flavor_forest/hello_fresh/data/recipes'
 json_files = list_json_files(json_folder_path)
 unique_ingredient_names = extract_unique_ingredient_names(json_files)
 
 # Example action with extracted ingredient names
 for name in unique_ingredient_names:
-    print(name)
+    print(f"{name}")
