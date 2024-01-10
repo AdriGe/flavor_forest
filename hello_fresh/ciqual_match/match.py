@@ -20,7 +20,6 @@ def load_data(hellofresh_csv_path, ciqual_csv_path):
 
 
 def find_probable_matches_levenshtein(ingredient, ciqual_data):
-    print(ingredient)
     ciqual_data['similarity'] = ciqual_data['alim_nom_fr'].apply(lambda x: ratio(ingredient.lower(), x.lower()))
     probable_matches = ciqual_data.sort_values(by='similarity', ascending=False).head(20)
     return probable_matches
@@ -36,7 +35,7 @@ def find_probable_matches_tfidf(ingredient, ciqual_data, vectorizer, tfidf_matri
     # Extract the matching rows and their similarity scores
     matches = ciqual_data.iloc[top_indices]
     matches['similarity'] = cosine_scores[0, top_indices]
-    return matches[['alim_code', 'alim_nom_fr', 'similarity']].reset_index(drop=True)
+    return matches[['alim_code', 'alim_nom_fr', 'similarity', 'id']].reset_index(drop=True)
 
 
 def bert_embeddings(sentences, model, tokenizer):
@@ -97,7 +96,7 @@ def find_probable_matches_word_embeddings(ingredient, ciqual_data, model):
 
     ciqual_data['similarity'] = similarities
     probable_matches = ciqual_data.sort_values(by='similarity', ascending=False).head(20)
-    return probable_matches[['alim_code', 'alim_nom_fr', 'similarity']]
+    return probable_matches[['alim_code', 'alim_nom_fr', 'similarity', 'id']]
 
 
 def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='levenshtein', fasttext_model_path=None):
@@ -169,4 +168,4 @@ output_filename = f"match_{os.path.basename(hellofresh_csv_path)}" # This is an 
 ciqual_csv_path = f"{base_path}/../ciqual.csv" # This is an example path
 fasttext_model_path = f"{base_path}/../../dependencies/cc.fr.300.bin" # This is an example path
 
-matches_df = interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='word_embeddings', fasttext_model_path=fasttext_model_path)
+matches_df = interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='tfidf', fasttext_model_path=fasttext_model_path)
