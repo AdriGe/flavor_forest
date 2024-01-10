@@ -3,7 +3,10 @@ import pandas as pd
 from Levenshtein import ratio
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+from PIL import Image, ImageTk
+import tkinter as tk
+import os
+import threading
 
 def load_data(hellofresh_csv_path, ciqual_csv_path):
     try:
@@ -36,10 +39,31 @@ def find_probable_matches_tfidf(ingredient, ciqual_data, vectorizer, tfidf_matri
 
 def display_matches(matches):
     for i, match in enumerate(matches.itertuples(), 1):
-        print(f"{i}: {match.alim_nom_fr} (Score: {match.similarity:.2f})")
+        print(f"{i:02d}: {match.alim_nom_fr} (Score: {match.similarity:.2f})")
 
 
-def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename):
+def display_image(image_path):
+    def open_image():
+        if os.path.exists(image_path):
+            root = tk.Tk()
+            img = Image.open(image_path)
+            img = ImageTk.PhotoImage(img)
+            panel = tk.Label(root, image=img)
+            panel.pack(side="bottom", fill="both", expand="yes")
+
+            # Fermer automatiquement après 1 seconde
+            root.after(1000, lambda: root.destroy())
+
+            root.mainloop()
+        else:
+            print("Image not found.")
+
+    thread = threading.Thread(target=open_image)
+    thread.start()
+
+    
+
+def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, images_directory):
     hellofresh_data, ciqual_data = load_data(hellofresh_csv_path, ciqual_csv_path)
     if hellofresh_data is None or ciqual_data is None:
         return "Failed to load data."
@@ -50,39 +74,54 @@ def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename):
     matches = []
 
     for index, row in hellofresh_data.iterrows():
-        print(f"\nProcessing ingredient {index+1}/{len(hellofresh_data)}: {row['name']}")
+        print(f"\n\"{row['name']}\" ({index+1}/{len(hellofresh_data)}) (tf-idf method))\n_____________________________")
 
         tfidf_matches = find_probable_matches_tfidf(row['name'], ciqual_data, vectorizer, tfidf_matrix)
         display_matches(tfidf_matches)
 
-        chosen_match_index = input("Enter the number of the chosen match (enter '0' if none): ")
-        while not chosen_match_index.isdigit() or int(chosen_match_index) < 0 or int(chosen_match_index) > len(tfidf_matches):
-            print("Invalid input. Please enter a valid number.")
-            chosen_match_index = input("Enter the number of the chosen match (enter '0' if none): ")
+        while True:
+            user_input = input("Enter the number of the chosen match or 'a' to show image: ")
 
-        chosen_match_index = int(chosen_match_index)
-        if chosen_match_index == 0:
-            print("No suitable TF-IDF match. Trying Levenshtein method...")
-            levenshtein_matches = find_probable_matches_levenshtein(row['name'], ciqual_data)
-            display_matches(levenshtein_matches)
+            if user_input.lower() == 'a':
+                image_path = os.path.join(images_directory, f"{row['id']}.jpg")
+                display_image(image_path)
+            elif user_input.isdigit():
+                chosen_match_index = int(user_input)
+                if chosen_match_index == 0:
+                    print("No suitable TF-IDF match. Trying Levenshtein method...")
 
-            chosen_match_index = input("Enter the number of the chosen Levenshtein match (enter '0' if none): ")
-            while not chosen_match_index.isdigit() or int(chosen_match_index) < 0 or int(chosen_match_index) > len(levenshtein_matches):
-                print("Invalid input. Please enter a valid number.")
-                chosen_match_index = input("Enter the number of the chosen Levenshtein match (enter '0' if none): ")
-
-            chosen_match_index = int(chosen_match_index)
-            if chosen_match_index == 0:
-                chosen_match_name = "Pas de correspondance"
-                chosen_match_id = ''
+                    print(f"\n\"{row['name']}\" ({index+1}/{len(hellofresh_data)}) (Levenshtein method))\n_____________________________")
+                    levenshtein_matches = find_probable_matches_levenshtein(row['name'], ciqual_data)
+                    display_matches(levenshtein_matches)
+                    chosen_match_index = input("Enter the number of the chosen Levenshtein match or 'a' to show image: ")
+                    if chosen_match_index.isdigit():
+                        chosen_match_index = int(chosen_match_index)
+                        if 0 < chosen_match_index <= len(levenshtein_matches):
+                            chosen_match = levenshtein_matches.iloc[chosen_match_index - 1]
+                            chosen_match_name = chosen_match['alim_nom_fr']
+                            chosen_match_id = chosen_match['id']
+                            break
+                        elif chosen_match_index == 0:
+                            print("No suitable Levenshtein match.")
+                            chosen_match_name = 'Pas de correspondance'
+                            chosen_match_id = ''
+                            break
+                        else:
+                            print("Invalid number. Please try again.")
+                    elif chosen_match_index.lower() == 'a':
+                        image_path = os.path.join(images_directory, f"{row['id']}.jpg")
+                        display_image(image_path)
+                    else:
+                        print("Invalid input. Please enter a number or 'i' to show image.")
+                elif 0 < chosen_match_index <= len(tfidf_matches):
+                    chosen_match = tfidf_matches.iloc[chosen_match_index - 1]
+                    chosen_match_name = chosen_match['alim_nom_fr']
+                    chosen_match_id = chosen_match['id']
+                    break
+                else:
+                    print("Invalid number. Please try again.")
             else:
-                chosen_match = levenshtein_matches.iloc[chosen_match_index - 1]
-                chosen_match_name = chosen_match['alim_nom_fr']
-                chosen_match_id = chosen_match['id']
-        else:
-            chosen_match = tfidf_matches.iloc[chosen_match_index - 1]
-            chosen_match_name = chosen_match['alim_nom_fr']
-            chosen_match_id = chosen_match['id']
+                print("Invalid input. Please enter a number or 'i' to show image.")
 
         matches.append({
             'hellofresh_id': row['id'],
@@ -100,6 +139,5 @@ base_path = '~/git/flavor_forest/hello_fresh/ciqual_match/hellofresh_generic'
 hellofresh_csv_path = f"{base_path}/generic_hellofresh_99.csv" # This is an example path
 output_filename = f"match_{os.path.basename(hellofresh_csv_path)}" # This is an example path
 ciqual_csv_path = f"{base_path}/../ciqual.csv" # This is an example path
-fasttext_model_path = f"{base_path}/../../dependencies/fasttext_models/cc.fr.300.bin" # This is an example path
-
-matches_df = interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename)
+image_dir = f"/home/adrien/git/flavor_forest/hello_fresh/data/ingredients/" # This is an example path
+matches_df = interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, image_dir)
