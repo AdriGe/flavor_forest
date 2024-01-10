@@ -167,6 +167,6 @@ base_path = '~/git/flavor_forest/hello_fresh/ciqual_match/hellofresh_generic'
 hellofresh_csv_path = f"{base_path}/generic_hellofresh_11.csv" # This is an example path
 output_filename = f"match_{os.path.basename(hellofresh_csv_path)}" # This is an example path
 ciqual_csv_path = f"{base_path}/../ciqual.csv" # This is an example path
-fasttext_model_path = f"{base_path}/../../dependencies/cc.fr.300.bin" # This is an example path
+fasttext_model_path = f"{base_path}/../../dependencies/fasttext_models/cc.fr.300.bin" # This is an example path
 
 matches_df = interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='word_embeddings', fasttext_model_path=fasttext_model_path)
