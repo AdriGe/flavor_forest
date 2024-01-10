@@ -3,7 +3,11 @@ import pandas as pd
 from Levenshtein import ratio
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+import torch
+from transformers import BertTokenizer, BertModel
+import numpy as np
+from gensim.models import KeyedVectors
+from gensim.models.fasttext import load_facebook_model
 
 def load_data(hellofresh_csv_path, ciqual_csv_path):
     try:
@@ -35,7 +39,68 @@ def find_probable_matches_tfidf(ingredient, ciqual_data, vectorizer, tfidf_matri
     return matches[['alim_code', 'alim_nom_fr', 'similarity']].reset_index(drop=True)
 
 
-def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='levenshtein'):
+def bert_embeddings(sentences, model, tokenizer):
+    """ Generate BERT embeddings for a list of sentences. """
+    encoded_input = tokenizer(sentences, padding=True, truncation=True, return_tensors='pt')
+    with torch.no_grad():
+        model_output = model(**encoded_input)
+    embeddings = model_output.last_hidden_state
+    attention_mask = encoded_input['attention_mask']
+    embeddings = embeddings * attention_mask.unsqueeze(-1)
+    mask_sum = torch.clamp(attention_mask.sum(dim=1, keepdim=True), min=1e-9)
+    return (embeddings.sum(dim=1) / mask_sum).numpy()
+
+
+def find_probable_matches_bert(ingredient, ciqual_data, model, tokenizer):
+    # Generate embeddings for the ingredient and all Ciqual food names
+    ingredient_embedding = bert_embeddings([ingredient], model, tokenizer)
+    ciqual_embeddings = bert_embeddings(ciqual_data['alim_nom_fr'].tolist(), model, tokenizer)
+
+    # Compute cosine similarity scores
+    cosine_scores = cosine_similarity(ingredient_embedding, ciqual_embeddings)
+
+    # Get the top 20 matches
+    top_indices = cosine_scores.argsort()[0][-20:][::-1]
+    matches = ciqual_data.iloc[top_indices]
+    matches['similarity'] = cosine_scores[0, top_indices]
+    return matches[['alim_code', 'alim_nom_fr', 'similarity']].reset_index(drop=True)
+
+
+def load_fasttext_model(fasttext_model_path):
+    """ Load the pre-trained FastText model. """
+    #model = KeyedVectors.load_word2vec_format(fasttext_model_path, binary=False)
+    #return model
+    model = load_facebook_model(fasttext_model_path)
+    return model.wv
+
+
+def sentence_embedding(sentence, model):
+    """ Generate sentence embedding as the mean of word embeddings. """
+    words = sentence.split()
+    word_embeddings = [model[word] for word in words if word in model]
+    if not word_embeddings:
+        return np.zeros(model.vector_size)
+    sentence_embedding = np.mean(word_embeddings, axis=0)
+    return sentence_embedding
+
+
+def find_probable_matches_word_embeddings(ingredient, ciqual_data, model):
+    # Generate embeddings for the ingredient
+    ingredient_embedding = sentence_embedding(ingredient, model)
+
+    # Generate embeddings for each ciqual food name and compute cosine similarity
+    similarities = []
+    for food_name in ciqual_data['alim_nom_fr']:
+        food_embedding = sentence_embedding(food_name, model)
+        sim_score = cosine_similarity([ingredient_embedding], [food_embedding])[0][0]
+        similarities.append(sim_score)
+
+    ciqual_data['similarity'] = similarities
+    probable_matches = ciqual_data.sort_values(by='similarity', ascending=False).head(20)
+    return probable_matches[['alim_code', 'alim_nom_fr', 'similarity']]
+
+
+def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='levenshtein', fasttext_model_path=None):
     hellofresh_data, ciqual_data = load_data(hellofresh_csv_path, ciqual_csv_path)
     if hellofresh_data is None or ciqual_data is None:
         return "Failed to load data."
@@ -43,6 +108,13 @@ def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, 
     if method == 'tfidf':
         vectorizer = TfidfVectorizer()
         tfidf_matrix = vectorizer.fit_transform(ciqual_data['alim_nom_fr'].dropna().astype(str))
+    elif method == 'bert':
+        tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        model = BertModel.from_pretrained('bert-base-uncased')
+    elif method == 'word_embeddings':
+        if not fasttext_model_path:
+            raise ValueError("FastText model path must be provided for word embeddings method.")
+        model = load_fasttext_model(fasttext_model_path)
     
     matches = []
 
@@ -51,6 +123,10 @@ def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, 
             probable_matches = find_probable_matches_levenshtein(row['name'], ciqual_data)
         elif method == 'tfidf':
             probable_matches = find_probable_matches_tfidf(row['name'], ciqual_data, vectorizer, tfidf_matrix)
+        elif method == 'bert':
+            probable_matches = find_probable_matches_bert(row['name'], ciqual_data, model, tokenizer)
+        elif method == 'word_embeddings':
+            probable_matches = find_probable_matches_word_embeddings(row['name'], ciqual_data, model)
         else:
             raise ValueError("Unknown method. Choose 'levenshtein' or 'tfidf'.")
 
@@ -87,9 +163,10 @@ def interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, 
     return matches_df
     
 
-base_path = '/Users/adriengeiger/git/flavor_forest/hello_fresh/ciqual_match/hellofresh_generic/done'
-hellofresh_csv_path = f"{base_path}/generic_hellofresh_10.csv" # This is an example path
+base_path = '~/git/flavor_forest/hello_fresh/ciqual_match/hellofresh_generic'
+hellofresh_csv_path = f"{base_path}/generic_hellofresh_11.csv" # This is an example path
 output_filename = f"match_{os.path.basename(hellofresh_csv_path)}" # This is an example path
-ciqual_csv_path = f"{base_path}/../../ciqual.csv" # This is an example path
+ciqual_csv_path = f"{base_path}/../ciqual.csv" # This is an example path
+fasttext_model_path = f"{base_path}/../../dependencies/cc.fr.300.bin" # This is an example path
 
-matches_df = interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='tfidf')
+matches_df = interactive_matching(hellofresh_csv_path, ciqual_csv_path, output_filename, method='word_embeddings', fasttext_model_path=fasttext_model_path)
