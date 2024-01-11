@@ -84,7 +84,7 @@ CREATE TABLE recipe_foods (
 CREATE TABLE steps (
     recipe_id INT NOT NULL,
     step_number INT NOT NULL,
-    description TEXT[],
+    description TEXT,
     image_url TEXT,
     PRIMARY KEY(recipe_id, step_number),
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
