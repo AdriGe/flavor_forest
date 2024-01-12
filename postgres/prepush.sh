@@ -37,7 +37,16 @@ echo "Creating database dump..."
 docker exec -t $CONTAINER_NAME pg_dumpall -c -U $DB_USER > "$DUMP_FILE"
 
 # Add the dump file to the commit
-git add "$DUMP_FILE"
+#git add "$DUMP_FILE"
+
+# Check if there are changes in the dump file
+if git diff --exit-code --quiet -- "$DUMP_FILE"; then
+    echo "No changes in the database dump."
+else
+    echo "Changes detected in the database dump. Creating a new commit..."
+    git add "$DUMP_FILE"
+    git commit -m "Update database dump"
+fi
 
 # Stop the container if it was not running before the script
 if [ "$CONTAINER_WAS_RUNNING" = "false" ]; then
