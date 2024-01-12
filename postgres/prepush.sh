@@ -11,49 +11,45 @@ is_container_running() {
     [ "$(docker inspect -f '{{.State.Running}}' $CONTAINER_NAME)" = "true" ]
 }
 
-# Start the container if not running
-CONTAINER_WAS_RUNNING=true
-if ! is_container_running; then
-    CONTAINER_WAS_RUNNING=false
-    echo "Starting Docker container..."
-    docker start $CONTAINER_NAME
-    
-    # Check every 2 seconds if the container is up, for a maximum of 5 tries
-    MAX_TRIES=5
-    TRIES=0
-    while ! is_container_running && [ $TRIES -lt $MAX_TRIES ]; do
-        sleep 2
-        TRIES=$((TRIES+1))
-    done
-
+# Function to start the container if not running and return it to its initial state afterwards
+handle_container_state() {
+    CONTAINER_WAS_RUNNING=true
     if ! is_container_running; then
-        echo "Error: Docker container failed to start."
-        exit 1
+        CONTAINER_WAS_RUNNING=false
+        echo "Starting Docker container..."
+        docker start $CONTAINER_NAME
+        while ! is_container_running; do sleep 2; done
     fi
-fi
+}
+
+# Function to stop the container if it was not initially running
+stop_container_if_needed() {
+    if [ "$CONTAINER_WAS_RUNNING" = "false" ]; then
+        echo "Stopping Docker container..."
+        docker stop $CONTAINER_NAME
+    fi
+}
+
+# Start the container if not running
+handle_container_state
 
 # Perform the database dump
 echo "Creating database dump..."
 docker exec -t $CONTAINER_NAME pg_dumpall -c -U $DB_USER > "$DUMP_FILE"
 
-# Add the dump file to the commit
-#git add "$DUMP_FILE"
-
 # Check if there are changes in the dump file
-if git diff --exit-code --quiet -- "$DUMP_FILE"; then
-    echo "No changes in the database dump."
-else
+if ! git diff --exit-code --quiet -- "$DUMP_FILE"; then
     echo "Changes detected in the database dump. Creating a new commit..."
     git add "$DUMP_FILE"
     git commit -m "Update database dump"
+
+    # Inform the user and exit with a non-zero status
+    echo "Push rejected because a new commit containing the pg dum was added. Please re-run 'git push'."
+    exit 1
 fi
 
 # Stop the container if it was not running before the script
-if [ "$CONTAINER_WAS_RUNNING" = "false" ]; then
-    echo "Stopping Docker container..."
-    docker stop $CONTAINER_NAME
-fi
+stop_container_if_needed
 
-# Continue with the push
+# Continue with the push if no new commit was created
 exit 0
-#test10
