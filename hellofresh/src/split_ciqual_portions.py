@@ -26,3 +26,5 @@ input = '/home/adrien/git/flavor_forest/hellofresh/src/ciqual_portions_wrk.csv'
 output = '/home/adrien/git/flavor_forest/hellofresh/src/ciqual_portions_output.csv'
 
 split_csv_portions(input, output)
+
+#
