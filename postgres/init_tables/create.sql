@@ -64,6 +64,7 @@ CREATE TABLE foods (
     protein DECIMAL,
     sodium DECIMAL,
     unit_id UUID NOT NULL,
+    image_url TEXT,
     FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE SET NULL,
     FOREIGN KEY (unit_id) REFERENCES units(unit_id)
 );
