@@ -11,6 +11,7 @@ SET standard_conforming_strings = on;
 -- Drop databases (except postgres and template1)
 --
 
+DROP DATABASE datamodel;
 DROP DATABASE dataprocess;
 DROP DATABASE flavor_forest;
 
@@ -119,6 +120,452 @@ SET row_security = off;
 
 REVOKE CONNECT,TEMPORARY ON DATABASE template1 FROM PUBLIC;
 GRANT CONNECT ON DATABASE template1 TO PUBLIC;
+
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "datamodel" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 13.13 (Debian 13.13-1.pgdg120+1)
+-- Dumped by pg_dump version 13.13 (Debian 13.13-1.pgdg120+1)
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- Name: datamodel; Type: DATABASE; Schema: -; Owner: username
+--
+
+CREATE DATABASE datamodel WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'en_US.utf8';
+
+
+ALTER DATABASE datamodel OWNER TO username;
+
+\connect datamodel
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- Name: tag_category_enum; Type: TYPE; Schema: public; Owner: username
+--
+
+CREATE TYPE public.tag_category_enum AS ENUM (
+    'Durée de préparation',
+    'Type de cuisine',
+    'Régime alimentaire',
+    'Saison'
+);
+
+
+ALTER TYPE public.tag_category_enum OWNER TO username;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: foods; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.foods (
+    food_id uuid DEFAULT gen_random_uuid() NOT NULL,
+    user_id uuid,
+    name character varying(255) NOT NULL,
+    brand character varying(255),
+    kcal numeric,
+    fat numeric,
+    saturated_fat numeric,
+    carbohydrate numeric,
+    sugars numeric,
+    fiber numeric,
+    protein numeric,
+    sodium numeric,
+    unit_id uuid NOT NULL
+);
+
+
+ALTER TABLE public.foods OWNER TO username;
+
+--
+-- Name: portions; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.portions (
+    portion_id uuid DEFAULT gen_random_uuid() NOT NULL,
+    food_id uuid NOT NULL,
+    name character varying(255),
+    size double precision NOT NULL
+);
+
+
+ALTER TABLE public.portions OWNER TO username;
+
+--
+-- Name: recipe_foods; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.recipe_foods (
+    recipe_id uuid NOT NULL,
+    food_id uuid NOT NULL,
+    quantity double precision,
+    portion_id uuid
+);
+
+
+ALTER TABLE public.recipe_foods OWNER TO username;
+
+--
+-- Name: recipe_tags; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.recipe_tags (
+    recipe_id uuid NOT NULL,
+    tag_id uuid NOT NULL
+);
+
+
+ALTER TABLE public.recipe_tags OWNER TO username;
+
+--
+-- Name: recipes; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.recipes (
+    recipe_id uuid DEFAULT gen_random_uuid() NOT NULL,
+    user_id uuid,
+    name character varying(255) NOT NULL,
+    headline character varying(255),
+    description text,
+    total_time integer,
+    prep_time integer,
+    difficulty integer,
+    utensils character varying(255)[],
+    image_url text,
+    favorites_count integer,
+    kcal integer,
+    fat double precision,
+    saturated_fat double precision,
+    carbohydrate double precision,
+    sugars double precision,
+    protein double precision,
+    fiber double precision,
+    sodium double precision,
+    steps text[]
+);
+
+
+ALTER TABLE public.recipes OWNER TO username;
+
+--
+-- Name: refresh_tokens; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.refresh_tokens (
+    id uuid DEFAULT gen_random_uuid() NOT NULL,
+    jti character varying(255) NOT NULL,
+    user_id uuid NOT NULL,
+    revoked boolean DEFAULT false,
+    expires_at timestamp without time zone NOT NULL
+);
+
+
+ALTER TABLE public.refresh_tokens OWNER TO username;
+
+--
+-- Name: tags; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.tags (
+    tag_id uuid DEFAULT gen_random_uuid() NOT NULL,
+    category public.tag_category_enum,
+    name character varying(100) NOT NULL
+);
+
+
+ALTER TABLE public.tags OWNER TO username;
+
+--
+-- Name: units; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.units (
+    unit_id uuid DEFAULT gen_random_uuid() NOT NULL,
+    name character varying(50) NOT NULL
+);
+
+
+ALTER TABLE public.units OWNER TO username;
+
+--
+-- Name: users; Type: TABLE; Schema: public; Owner: username
+--
+
+CREATE TABLE public.users (
+    user_id uuid DEFAULT gen_random_uuid() NOT NULL,
+    username character varying(255) NOT NULL,
+    email character varying(255) NOT NULL,
+    hashed_password text NOT NULL,
+    is_admin boolean
+);
+
+
+ALTER TABLE public.users OWNER TO username;
+
+--
+-- Data for Name: foods; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.foods (food_id, user_id, name, brand, kcal, fat, saturated_fat, carbohydrate, sugars, fiber, protein, sodium, unit_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: portions; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.portions (portion_id, food_id, name, size) FROM stdin;
+\.
+
+
+--
+-- Data for Name: recipe_foods; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.recipe_foods (recipe_id, food_id, quantity, portion_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: recipe_tags; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.recipe_tags (recipe_id, tag_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: recipes; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.recipes (recipe_id, user_id, name, headline, description, total_time, prep_time, difficulty, utensils, image_url, favorites_count, kcal, fat, saturated_fat, carbohydrate, sugars, protein, fiber, sodium, steps) FROM stdin;
+\.
+
+
+--
+-- Data for Name: refresh_tokens; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.refresh_tokens (id, jti, user_id, revoked, expires_at) FROM stdin;
+\.
+
+
+--
+-- Data for Name: tags; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.tags (tag_id, category, name) FROM stdin;
+\.
+
+
+--
+-- Data for Name: units; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.units (unit_id, name) FROM stdin;
+\.
+
+
+--
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: username
+--
+
+COPY public.users (user_id, username, email, hashed_password, is_admin) FROM stdin;
+\.
+
+
+--
+-- Name: foods foods_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.foods
+    ADD CONSTRAINT foods_pkey PRIMARY KEY (food_id);
+
+
+--
+-- Name: portions portions_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.portions
+    ADD CONSTRAINT portions_pkey PRIMARY KEY (portion_id);
+
+
+--
+-- Name: recipe_foods recipe_foods_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipe_foods
+    ADD CONSTRAINT recipe_foods_pkey PRIMARY KEY (recipe_id, food_id);
+
+
+--
+-- Name: recipe_tags recipe_tags_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipe_tags
+    ADD CONSTRAINT recipe_tags_pkey PRIMARY KEY (recipe_id, tag_id);
+
+
+--
+-- Name: recipes recipes_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipes
+    ADD CONSTRAINT recipes_pkey PRIMARY KEY (recipe_id);
+
+
+--
+-- Name: refresh_tokens refresh_tokens_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.refresh_tokens
+    ADD CONSTRAINT refresh_tokens_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: tags tags_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.tags
+    ADD CONSTRAINT tags_pkey PRIMARY KEY (tag_id);
+
+
+--
+-- Name: units units_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.units
+    ADD CONSTRAINT units_pkey PRIMARY KEY (unit_id);
+
+
+--
+-- Name: users users_email_key; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.users
+    ADD CONSTRAINT users_email_key UNIQUE (email);
+
+
+--
+-- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.users
+    ADD CONSTRAINT users_pkey PRIMARY KEY (user_id);
+
+
+--
+-- Name: refresh_tokens fk_user; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.refresh_tokens
+    ADD CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES public.users(user_id) ON DELETE CASCADE;
+
+
+--
+-- Name: foods foods_unit_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.foods
+    ADD CONSTRAINT foods_unit_id_fkey FOREIGN KEY (unit_id) REFERENCES public.units(unit_id);
+
+
+--
+-- Name: foods foods_user_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.foods
+    ADD CONSTRAINT foods_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(user_id) ON DELETE SET NULL;
+
+
+--
+-- Name: portions portions_food_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.portions
+    ADD CONSTRAINT portions_food_id_fkey FOREIGN KEY (food_id) REFERENCES public.foods(food_id);
+
+
+--
+-- Name: recipe_foods recipe_foods_food_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipe_foods
+    ADD CONSTRAINT recipe_foods_food_id_fkey FOREIGN KEY (food_id) REFERENCES public.foods(food_id);
+
+
+--
+-- Name: recipe_foods recipe_foods_portion_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipe_foods
+    ADD CONSTRAINT recipe_foods_portion_id_fkey FOREIGN KEY (portion_id) REFERENCES public.portions(portion_id);
+
+
+--
+-- Name: recipe_foods recipe_foods_recipe_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipe_foods
+    ADD CONSTRAINT recipe_foods_recipe_id_fkey FOREIGN KEY (recipe_id) REFERENCES public.recipes(recipe_id);
+
+
+--
+-- Name: recipe_tags recipe_tags_recipe_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipe_tags
+    ADD CONSTRAINT recipe_tags_recipe_id_fkey FOREIGN KEY (recipe_id) REFERENCES public.recipes(recipe_id);
+
+
+--
+-- Name: recipe_tags recipe_tags_tag_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipe_tags
+    ADD CONSTRAINT recipe_tags_tag_id_fkey FOREIGN KEY (tag_id) REFERENCES public.tags(tag_id);
+
+
+--
+-- Name: recipes recipes_user_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: username
+--
+
+ALTER TABLE ONLY public.recipes
+    ADD CONSTRAINT recipes_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(user_id);
 
 
 --
@@ -262,7 +709,7 @@ CREATE TABLE public.match_portions_ids (
     ingredient_id uuid,
     ingredient_id_old text,
     portion_id uuid,
-    name text
+    portion text
 );
 
 
@@ -9933,901 +10380,901 @@ eb735c95-50e9-4b7b-940a-8e02430b576d	5c950d7ac445fa28926e8835
 -- Data for Name: match_portions_ids; Type: TABLE DATA; Schema: public; Owner: username
 --
 
-COPY public.match_portions_ids (ingredient_id, ingredient_id_old, portion_id, name) FROM stdin;
-421e015a-bde1-48c3-9f9b-68f0371256be	5af2be24ae08b5194415a1c9	817454fa-9b8b-4b82-b093-125a8fc11f4b	Baharat
-10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02	5c8bcd9ce3f3397358648c95	110c9f58-1b2d-4169-a0f6-cca8fc628bc5	Beurre
-50b05986-40c9-4736-a8c9-0f0b51b8247f	63e5122181b4b295e66f0258	1aa6700b-1846-4d4d-aca2-1ddb3f362a10	Beurre
-459333a3-1f44-4f4a-94cf-a1796b86d644	5c8bcda5e3f33973013052b2	9ced7c39-6cd1-4c47-901e-aa2efa4c9def	Cannelle en poudre
-a4f86f11-af07-4057-bd56-bc8f4c95e834	6405bf6aaf4af6d531d50b9c	1ead8fe8-aac9-4526-a3cc-6287baa5acf4	Cannelle en poudre
-dc0eda4c-a871-4a29-825b-18a1c243da1f	5fbe2dd103cb4c62ac01428c	64ece6cb-1422-4fa1-9516-5d45ea92d0a6	Cassonade
-a1021713-ae59-44e5-a855-c171837e293e	63e5122dbc1d64f7b96e270c	61782b7f-090b-4597-b697-9b5071397f73	Cassonade
-16a2926b-632c-44a7-acff-826134ffabd5	5af2c14fae08b51b804e58b6	908edaab-7af0-463b-9206-9f655258da39	Citronnelle moulue
-9451e7cb-fb61-4d0b-ada8-cf29ae517c92	5c8bcdace3f339730507bc43	aa956d94-2256-4ba2-af50-8a49e4be533b	Coriandre moulue
-65ab139d-2dcc-46f8-bc2d-663387e6872c	5c8bcda2e3f339735c318342	4066b1dd-0237-46e2-868f-ea1873bef9cf	Cumin en poudre
-a2da5303-9592-43ee-a22e-31fea986a6a3	5c950d77c445fa28926e8833	f4e6a2eb-8b1d-480e-8d22-f40e16607211	Curcuma en poudre
-5caec1f2-23fc-4533-b191-fde818382d81	6405bf8bb9d07cd5d38d7b0d	70fc7a02-c617-4cda-b067-3c6ae7b336cb	Curcuma en poudre
-128fd6df-8ebe-4c2a-85ff-4e664ca78e74	5af2c14aae08b51b804e58ab	d07b1ba8-e5e3-4c10-ba08-4501692bb6bc	Curry en poudre
-c4aadb59-bd05-42c4-ae50-3a86e414e7d7	5d2c50039de58100111e3d87	5c412c17-24a5-4bc0-9819-6fa7d26ed820	Épices italiennes
-854eefbc-1899-4e9a-86bc-cba53fd5fcf8	5c8bcda9e3f339735561c2c4	237d7fa8-088a-42b5-a955-bc16bd0bf97a	Épices mexicaines
-adb7cc43-4ebb-4c6c-b336-2ff1e9782da7	5af2be60ae08b5194415a2a0	2b7b5eef-756f-4f91-81b5-f47ecb63ea97	Farine
-878ecdd9-1b9c-43d5-a866-45a6634c1d51	5c8bcda0e3f33973675d57e3	2397cc1d-7595-4c7f-8ff1-31915d93cbd6	Flocons de chili
-e744475f-20da-448d-934d-472eb4284906	5eaa742d4d1313374d494f33	e182a5d2-b8b7-4164-9079-bee2bc8a32de	Galanga
-f88f6ce5-50ed-402e-a4bf-139b2e147e14	5b9f8d9430006c69a4393853	f5dbb305-5562-4b63-a36f-ca2153d400f3	Garam masala
-71dcf86d-05f2-4457-a69e-fc7df423f81d	5af2be15ae08b5194415a193	0215fa35-ce44-4eb5-a5f9-16d87e0fb350	Gingembre frais
-cce6636d-af2c-4a6d-9463-243866e1abc7	6405bf3aaf4af6d531d50acd	9296ccf5-d26b-4822-8203-c2260fcc3eb1	Gingembre frais
-d7ab24b2-520f-4c84-bd34-0cd500b81609	5cfa73b1d8a87100142eb5b2	bce6f3e5-36d6-4bf1-97b5-ccb0b9fe7040	Gomasio
-78a7069d-758b-4e2e-b65a-058f6a663f19	5e020b099c1aaa0c191a7858	d7d3c78e-1919-4d5b-89c8-af62802dc5fa	Gomasio aux herbes de Provence
-445371e7-ddcb-43a0-806d-cdce444675ff	5af2bdfbae08b5194415a12d	1b08dc8d-fa31-40a3-8b31-f18eac6c4ab8	Graine de carvi
-0a16086c-5aad-4160-b6a3-2f2c58abd528	5af2be91ae08b5194415a367	60ebb263-5a3c-40e6-8e6e-59084b9b2317	Graine de moutarde jaune
-70657021-a080-4ce0-96d1-237725fe4c21	5e417e37c48f1e689e419877	77d604bb-a12f-4e7b-9095-6c0a6066f892	Graines de cumin moulues
-c1f81497-99df-4899-9486-c2a1f36fb845	5af2be67ae08b5194415a2bd	b69c87a6-9e3b-45c2-a5c9-ea51333947c1	Graines de fenouil
-d9ab9ff9-160e-4338-ae01-c15ade3d423d	5e304aef7022991e096f4fc9	668eecde-bfbe-4555-bb49-3229371f12c8	Graines de fenouil moulues
-2b88c373-db6b-4699-95c3-cab84cd9844b	5af2be40ae08b5194415a22e	8e90c8ec-8dfe-4009-b59d-73ae9c703b2c	Harissa
-11243e87-bb14-41c6-bb8e-f245ecae931a	5af2be41ae08b5194415a234	26004bd3-9627-4832-be6e-78bdbbefb003	Huile de sésame
-3349f743-b1b3-439d-b711-7a1eb0b08114	5af2be0bae08b5194415a175	12699a35-6dc3-4b42-be8d-f6fe9772da3e	Huile de tournesol
-412ec846-4d12-49d1-9a92-ebc6378e4c8e	63e51218bc1d64f7b96e2702	83ebb8af-e4a6-420f-aca4-80d07de5a645	Huile de tournesol
-4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	fb521e37-2e9d-4ead-9f44-769ea7b29c90	Huile d'olive
-3ff00dcc-4a35-48ab-868b-d6def39e1b38	63e5122ba0a0603e5708dcc1	78da6c91-96a9-423e-b5b1-40d9f70c8a5c	Huile d'olive
-00bc7b65-a43d-4c0b-b5a6-b797dc44375f	63e51232a0a0603e5708dcc7	f0ea7cd2-3249-4f3f-a617-7e314047e1d1	Huile d'olive
-754f3da3-6524-4e75-9561-dc2807c9348e	5ca75c90e3f339258a36e9f2	44b91672-c656-4d84-ba5b-c40d3a3fe80d	Huile d'olive vierge extra
-fd5ed068-c9f0-4736-b2a4-1b0022f2c0a9	5e78c9043d99834ee3629c72	ab51f06e-d4d7-4ba3-9915-b43cff7dea61	Mélange d'épices du Moyen-Orient
-7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	832f807c-bba4-45ab-bb66-ccec50aaf66b	Miel
-9c141b09-8579-40b2-8721-eaa348f7cbb5	63e5122fbc1d64f7b96e270d	99a0ede9-f22a-49e5-ba41-3fefe8088132	Miel
-5633114e-7198-4a79-9c9f-92cd54cdc351	5af2be5aae08b5194415a28a	04fc5d92-30c2-4645-bbe7-71c4a660d6b9	Moutarde
-5efa45e3-90eb-4aa8-be5d-6cb5abd2514b	63e51230a0a0603e5708dcc5	5240e83f-eedb-4921-9336-3318de481c14	Moutarde
-a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	6fa37ce1-b3e9-415c-a562-014a2ad204d2	Noix de muscade
-1bfe522b-141b-4e90-8106-34f8ced11a6a	5af2c14dae08b51b804e58b0	10fd94f0-8c48-4214-9b56-b7ecbedcac30	Origan séché
-c7843f47-705d-4166-bbb3-4f0ad5715ea6	5c8bcda7e3f339735a76c462	ee0393a7-98fe-4390-9de5-9995853c2bbd	Paprika en poudre
-696b285c-6d8f-4ecc-a623-908a7dc78ee5	6405bf4db0da194777986203	5ce2c663-ec17-4af4-8a71-2ddefe133cd2	Paprika en poudre
-c81d4c0d-820f-471d-a370-6a4f54fcfb69	5c8bcdafe3f3397358648c97	9797cf2a-52c0-4bf2-86bc-1ba6d607438b	Paprika fumé en poudre
-9f4534ee-1831-4d20-ac81-a63afa413875	6405c00cb0da194777986485	b118e0c4-0f1a-4928-8abf-fbbf4ed0bfdd	Paprika fumé en poudre
-b7ca2d80-4ea7-4bbd-8d3d-88495d5879f8	5c45992ee3f33920591fcf63	922d0266-be08-43bf-ac11-725bcf4b2873	Piment de cayenne moulu
-9fb573b0-a04d-4b9b-b286-ab77ab9c5ee7	5cfa73afd8a8710009168b14	e3e6d158-fb6a-4bf0-bfed-494acbdc1140	Piri-piri
-a1b30088-136d-4234-b63c-42e4e3837afe	6405bf28b0da194777986183	403766c1-5c87-4e27-a1ad-c50d0a406a4b	Piri-piri
-d2c0f60c-11f9-4c40-8750-3e8eed5513c9	5af2be8aae08b5194415a34d	ee6e7478-7c58-493f-9f44-c3c8f068752a	Poivre de Cayenne
-6e61ac53-0002-4ba4-84fb-4e3157839b35	5b03d0b9ae08b5095315f752	d864c182-1e3c-4a6f-af4d-37b3fcea0e1e	Ras el-hanout
-8360d7ff-6b1e-4608-b9f1-3196fc53941d	5d80e4027ea50740232aca7f	8e643ffd-a0cb-4ff7-9454-b9f7321738fa	Romarin moulu
-ebd9911f-5fa2-48aa-b810-1bf45fe9afa2	5af2bdf5ae08b5194415a113	ca9c9fd6-239d-4416-83b3-2cb7b7431fcb	Romarin séché
-1a5854a0-9a68-4ea8-ae23-1cbc2fd240e4	5d78aadf965c9800131222ab	73d68f85-fdc5-4828-99a0-16b4992e9efd	Sauce poisson
-9a3bf93b-38ff-4f7c-92ba-00b942940834	5af2bde6ae08b5194415a0d2	8bb15b57-8d5d-43bd-89c5-b483a9522ff6	Sel
-c82bf6ca-baca-4130-8338-17a0ffe6b929	63e5121781b4b295e66f0250	8648cb89-52dd-48db-b18c-984eeec72bf8	Sel
-6c8f92cd-ec84-41b5-8f08-d7e52d929464	5c8bcdace3f339730507bc42	bc99416c-9fb4-4d16-bfb2-4032962f89f9	Sucre
-7e696fda-84ed-4ca4-9a21-0c8514b6977b	64062eb8b9d07cd5d38d7cd9	bb82b442-8d2c-4eeb-91a7-678af187635a	Sucre
-662f7422-132f-4e6c-a1fb-c628bc5cbb3b	6405bfd5b9d07cd5d38d7c09	ca2f54ed-e7d0-4e48-b359-89be8325e415	Sumac
-94fc3f93-504f-4546-834f-e1145359be4f	5af2bdf8ae08b5194415a11c	876c0f63-410e-4f3c-bcab-c5c5ed25200f	Thym séché
-a0f3312f-f556-4eb2-8b28-d299faccd4cd	5bdc60d3ae08b57bc06363d2	7facf714-38cb-4783-84a6-37fc236b9442	Vadouvan
-0bce1396-9568-48cf-a767-93d258f77f50	5af2be6fae08b5194415a2db	5b7d7f3a-55c5-433f-8728-14e89f28be08	Vinaigre balsamique blanc ou de riz
-76cdb2b3-cc71-49fc-b84a-025481030bb0	63e5122da0a0603e5708dcc3	d61e0c94-88d0-4977-b479-b3239d3573c1	Vinaigre balsamique blanc ou de riz
-3e4bc5c2-6c1d-4680-b221-62add7b58baa	5c8bcda5e3f33973013052b3	3f39b43f-a508-4209-8fac-e451424c379a	Vinaigre balsamique noir
-92a22779-f4ab-44d9-9776-9bcccb473587	63e5121c81b4b295e66f0253	fe1c23f7-a1fa-4309-acb7-1985201c4403	Vinaigre balsamique noir
-1ae04fcb-afed-41d4-9f8d-a0e50ebd9db8	5c950d84c445fa289769b624	0a81a6ef-9451-46a6-b2e5-afde8cf18eb2	Vinaigre de vin blanc
-10cd97e4-3773-42b6-9da4-8b6260f1fc71	63e5121abc1d64f7b96e2703	0c44c896-35b6-40ce-8afc-1d171821add9	Vinaigre de vin blanc
-72163e2c-c9ed-47ec-a3b0-67151b0f9fec	5c8654f9e3f33953b40b23b3	b619d49c-e1cd-40c8-a39e-1173904ec6c6	Vinaigre de vin blanc ou de riz
-3cb10ddd-22ca-4c20-8071-04a433a9ab36	5af2c14aae08b51b804e58ac	6740c2e6-efba-43bc-af38-3800366d68d8	Vinaigre de vin rouge ou de cidre
-1b964d57-61fe-4bb0-8bf7-237b29cb476b	63e51234bc1d64f7b96e270f	c9104a39-f2ae-4c15-9ccb-78df20cef937	Vinaigre de vin rouge ou de cidre
-9bbbe661-d81a-445f-875b-53353319e58d	5af2be52ae08b5194415a26d	9688be62-9644-430e-8527-90fa7052e8ba	Sauce soja
-0c35f237-ce93-4924-811f-9155e79ec543	5af2c157ae08b51b804e58cc	a6ac2bb6-c8af-4029-b7c8-56e5338d7533	Aïoli
-4eec3e92-3b8b-4406-96d5-b3206c21a6d9	63e51223bc1d64f7b96e2707	06d5007b-cfca-4c95-8e50-2bd51e47a039	Babeurre
-10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02	5c8bcd9ce3f3397358648c95	4c0e14e1-a159-4138-aa12-f9ce440d3a23	Beurre
-6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62	63e5121cbc1d64f7b96e2705	de3763a3-9d7c-451a-9a15-267a3165bf13	Beurre
-be1324fd-8fe0-4d08-9446-0dff7ea90eb6	5af2be1eae08b5194415a1b2	c81b602f-7ddd-4e74-a7f3-ebc24d74d1e0	Beurre doux non salé
-5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	14e517c0-5d9e-42b8-8e3c-78ee322f1c24	Câpres et dés de cornichons
-dc0eda4c-a871-4a29-825b-18a1c243da1f	5fbe2dd103cb4c62ac01428c	c99beabf-6e3c-4ed8-9d86-8dd076543b4a	Cassonade
-379e9913-920f-4c61-afb1-daf8cdc2b5c4	63e5120da0a0603e5708dcb9	81710a1e-bcea-4b3e-b2fe-82c83fbebfd4	Cassonade
-3ad7ce90-359c-40d7-ab6a-8485923caa71	5af2be42ae08b5194415a239	38896047-b20c-4e3c-aa24-71de1a2116e5	Chutney de cranberries
-2fb054a4-0815-42fb-b452-8448ec7b6d2f	5dde798296ae8413041df142	76ad0e55-0634-469f-8792-426edf022498	Ciboulette
-00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	d8086024-0c98-4d2c-af02-8e7fe349e85f	Concentré de tomates
-c4599235-74be-443d-853c-729ac3a5d538	5af2c149ae08b51b804e58a8	cab369bb-10a8-43fc-a06c-1a09b92785f6	Crème aigre
-37f081a4-911b-4a0a-a848-d599135e577e	5af2bdecae08b5194415a0f0	01eefd5a-1e6d-464f-9c78-5df93295db33	Crème fraîche
-5c6dec05-715f-42f2-8082-807479e86e80	5af2be29ae08b5194415a1dc	d28e4cdf-c65f-4d20-8697-c571b906883a	Cresson
-128fd6df-8ebe-4c2a-85ff-4e664ca78e74	5af2c14aae08b51b804e58ab	33962135-4337-47f5-94ab-1fd6939ac031	Curry en poudre
-854eefbc-1899-4e9a-86bc-cba53fd5fcf8	5c8bcda9e3f339735561c2c4	d377a7fd-8c35-44dc-bdca-7ee23a8e284e	Épices mexicaines
-adb7cc43-4ebb-4c6c-b336-2ff1e9782da7	5af2be60ae08b5194415a2a0	e40749ff-8234-428b-bbd7-6644535df63c	Farine
-9be5f238-91b9-43ef-9654-5e4a8976e90f	63e5123581b4b295e66f0261	7d49eeda-c831-40be-bf44-3b8d5006773e	Farine
-3349f743-b1b3-439d-b711-7a1eb0b08114	5af2be0bae08b5194415a175	2c595c0d-be15-42d9-b2b0-bbd1e498fc8b	Huile de tournesol
-a06e5c2f-acd2-4770-8fac-0bdb4343cae2	63e5120f81b4b295e66f024c	4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad	Huile de tournesol
-4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	d41c3d6a-8812-46d6-9e43-7327b8440275	Huile d'olive
-1e1f5c80-29de-4a46-9be1-d80189a66667	63e5121881b4b295e66f0251	d313427a-efc6-4e5c-8d67-2241abe13a6f	Huile d'olive
-413155cf-2a70-434d-b671-b44fe46200b8	63e51230bc1d64f7b96e270e	384dfdd2-69c8-4787-8214-f42569e3ec77	Huile d'olive
-aed72706-9746-4a10-b877-7610c3d9184c	5d933d4d01649711f920ce9f	c1deb922-ffac-484a-80f6-841ef0b3d6c6	Huile d'olive du thon
-c9ef2530-ce43-461a-b192-ee504e1d8612	63e5122981b4b295e66f025c	7440a221-28e5-41bd-b14c-3a7cfdb25579	Huile d'olive du thon
-754f3da3-6524-4e75-9561-dc2807c9348e	5ca75c90e3f339258a36e9f2	0881c6a6-8c33-43d0-b095-fdb38ae3b274	Huile d'olive vierge extra
-b5300252-714e-4bb7-a5cf-63bf06e4b356	5af2be55ae08b5194415a27a	98098ed4-1406-4f5b-9501-1cc4e7517fc9	Lait
-021a0d77-3693-48b6-880c-c5e6a5e751d0	63e51222bc1d64f7b96e2706	968b3171-4a0c-439f-a05f-870af1b3153b	Lait
-4c1eef61-a891-4d52-bdf5-8f862c7ec647	5af2be3cae08b5194415a21e	3ba4b974-48ca-44a1-a387-fa3c600533af	Lait battu
-a2da5303-9592-43ee-a22e-31fea986a6a3	5c950d77c445fa28926e8833	04293cf9-30d0-4948-91e4-bd6a13cacae0	Curcuma en poudre
-9033c853-d25a-4cc3-8cec-035d6b4700f2	63e5122781b4b295e66f025a	3282b8f4-c280-4de1-8aaf-cf6ed26986b4	L'huile d'olive de l'anchois
-6fdfbef4-5ea8-4413-b87e-044786bb66db	6405bf7ab9d07cd5d38d7ad4	578cbc38-e3df-409b-8892-683b5a7dfeea	Curcuma frais
-08b920ca-826d-4b17-81a3-70e0dee55f60	5af2c14eae08b51b804e58b3	f7fa3f02-ef85-4a88-b5a8-843403687691	Mayonnaise
-73f4c6fb-ecec-4e35-9394-b82a477e3efe	5dd79e9b24881d4bc5315faf	92102055-e5db-43ff-aa76-d344149e60bf	Mélange de mâche, roquette et jeunes pousses d'épinards
-7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	fdd582c4-0636-4c04-a764-207f1086c23f	Miel
-522704ce-3e30-49c3-ac68-51a1c1080c03	63e51213a0a0603e5708dcbb	f0ad500d-f46e-4d5f-b988-55fcc0246ec8	Miel
-bbfe9c15-929b-4ddb-960f-fe614d0abf07	6405bfe4b9d07cd5d38d7c39	13ff46e9-4b8a-4ebc-92c9-111053265ef3	Miel de fleurs
-5633114e-7198-4a79-9c9f-92cd54cdc351	5af2be5aae08b5194415a28a	d51b31ec-3606-4395-9b02-bc29f10341e0	Moutarde
-09668d2a-d1e2-4ec9-898a-c679ee660162	63e51224bc1d64f7b96e2709	c323e027-b5c1-4459-9088-1f7d5622ce2a	Moutarde
-eefe9e8f-ba45-4e25-9729-8892b4ab06c3	5c950d82c445fa28d02a8da2	91064ca0-bcf1-4dcd-9aaf-e35fcf461c6b	Passata de tomates
-4fb95990-4b0e-4936-8a28-8e209e8b661b	5c8bcd9be3f3397358648c93	c0c4ef9a-7364-46dc-80d0-b2b6c58fe0f8	Poivre et sel
-6e61ac53-0002-4ba4-84fb-4e3157839b35	5b03d0b9ae08b5095315f752	96127b0a-7b2e-46df-8e24-9ff3477c07a6	Ras el-hanout
-1d0453c5-508d-4c48-bc5e-eb5c22c3851a	5e0e0d291337673263799834	30d30aca-78db-4d94-9424-855100fc44b2	Sauce vietnamienne
-6c8f92cd-ec84-41b5-8f08-d7e52d929464	5c8bcdace3f339730507bc42	2de259a8-b74e-4464-8bb5-c899e7c5bce8	Sucre
-8c8fd536-034f-4f11-a50b-0b68732dd051	64062ea8af4af6d531d50df6	28ff0095-bb80-4951-b2de-3fb961bd3ff6	Sucre
-0bce1396-9568-48cf-a767-93d258f77f50	5af2be6fae08b5194415a2db	fde212b9-e0a4-4261-ac1d-231150c260f8	Vinaigre balsamique blanc ou de riz
-e4cf131d-09f9-4dae-8e86-3f257fc85798	63e5122a81b4b295e66f025d	d8622ca3-e1a1-4167-a187-2701994617a0	Vinaigre balsamique blanc ou de riz
-3e4bc5c2-6c1d-4680-b221-62add7b58baa	5c8bcda5e3f33973013052b3	a83bac45-fedf-4a78-850c-7ab9e3ed0d5d	Vinaigre balsamique noir
-2c058c4d-c70a-4bb0-b00d-8d7518367db7	63e5123281b4b295e66f025f	b4a8bde1-c111-4e53-9bad-b935ba096597	Vinaigre balsamique noir
-1ae04fcb-afed-41d4-9f8d-a0e50ebd9db8	5c950d84c445fa289769b624	1dd45e14-a030-4a71-88c7-0aaf8e73f40c	Vinaigre de vin blanc
-6b8a7ee4-2b73-44f4-94c2-74027993111c	63e5123381b4b295e66f0260	7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0	Vinaigre de vin blanc
-72163e2c-c9ed-47ec-a3b0-67151b0f9fec	5c8654f9e3f33953b40b23b3	477e732c-e863-4412-8d42-9bae7b5698a6	Vinaigre de vin blanc ou de riz
-3cb10ddd-22ca-4c20-8071-04a433a9ab36	5af2c14aae08b51b804e58ac	4a3c3636-f4b2-4678-ae36-dc7d99ce97be	Vinaigre de vin rouge ou de cidre
-0c31878c-82e8-457c-a231-63113e45336e	63e51223bc1d64f7b96e2708	397810c8-a209-49ce-9d61-0c0c54f05ca2	Vinaigre de vin rouge ou de cidre
-63cc6c23-088f-4f4b-9301-e20161d26fc0	5af2be4bae08b5194415a257	4e16c2e3-68a4-4437-9e0d-dfb4fe708967	Yaourt entier
-24b8d4fc-d905-45d1-8d73-4bbb60472008	5af2be43ae08b5194415a23c	6849d237-c7ba-4bbc-8180-1a2c96f31176	Yaourt léger
-0ecac5d8-a1a6-4924-a235-1873d216da0a	5af2be62ae08b5194415a2ac	1bd99b88-7059-4eac-b1de-bfaf5b47949a	Yaourt nature
-f2f67beb-a268-44ed-b735-14908e975514	5af2bde9ae08b5194415a0e0	91bc6e78-8539-4b3e-8005-2eac0a4c0e8f	Crème de cuisson
-9bbbe661-d81a-445f-875b-53353319e58d	5af2be52ae08b5194415a26d	3cdb3012-2974-4115-ab69-0ac37281e44e	Sauce soja
-a874df5c-4974-485f-bfb7-dc26d00a7ce9	5ea2c7d68dee423f3a615ca6	b3ff774f-d4cb-4279-b6c3-17c1075e9d9c	Crème liquide
-4f030996-6693-46d1-8a75-aceaaa7b497a	5c8bcd9de3f33973480ec963	bbc8ac64-d73a-4a70-aba9-1a4cd96349fa	Cube de bouillon de légumes
-459333a3-1f44-4f4a-94cf-a1796b86d644	5c8bcda5e3f33973013052b2	5471b568-3242-4c65-b13b-f7e2a987553e	Cannelle en poudre
-4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	843da06a-8cc5-4ad4-a064-a10b5f9b66be	Huile d'olive
-8317a256-5927-4dca-aba9-76106640950d	63e5121681b4b295e66f024f	2344b812-f639-478a-9cec-9ba683a22e97	Huile d'olive
-b853fe97-35c9-45fe-bf24-818461489408	63e5122ea0a0603e5708dcc4	5c913e2b-bbac-4b45-9059-a8bf27c7fe13	Huile d'olive
-754f3da3-6524-4e75-9561-dc2807c9348e	5ca75c90e3f339258a36e9f2	89cee54a-d615-4e06-afcd-0ded439f42ff	Huile d'olive vierge extra
-b5300252-714e-4bb7-a5cf-63bf06e4b356	5af2be55ae08b5194415a27a	1cdadf92-054e-4507-827d-9281aa37406b	Lait
-188e4237-4f2b-4618-8e5e-602b5b8b4407	5e3bf6849ce22818eb199f8e	063a7077-978a-4db7-945c-583d745e34b0	Mélange cranberries et graines
-7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	90272f72-17df-4d6d-b65e-7d4d489d0d92	Miel
-5633114e-7198-4a79-9c9f-92cd54cdc351	5af2be5aae08b5194415a28a	f8ac71a2-f1fa-4573-be69-260c5032daa7	Moutarde
-4fb95990-4b0e-4936-8a28-8e209e8b661b	5c8bcd9be3f3397358648c93	e62945f2-5dce-4a02-b82d-5cbfb499109b	Poivre et sel
-fe238304-c9c6-47c4-b9f1-e2f4215e2a8c	63e5122b81b4b295e66f025e	f91e44d5-8ab6-4cee-832b-ff3b2e1f3590	Poivre et sel
-948684a5-c4d8-4c8b-aff0-690963166a63	5af2c171ae08b51b804e5925	80486c3c-34a1-4424-938a-8b92689b34d5	Poivre noir
-9a3bf93b-38ff-4f7c-92ba-00b942940834	5af2bde6ae08b5194415a0d2	e79bf079-5709-485d-9608-265f35b2869e	Sel
-6c8f92cd-ec84-41b5-8f08-d7e52d929464	5c8bcdace3f339730507bc42	a33c2654-8620-49d2-b84c-319f76f75ec3	Sucre
-1ae04fcb-afed-41d4-9f8d-a0e50ebd9db8	5c950d84c445fa289769b624	10ba5485-0359-4b47-821d-318992c84cad	Vinaigre de vin blanc
-71dcf86d-05f2-4457-a69e-fc7df423f81d	5af2be15ae08b5194415a193	e55a1955-ac2a-4b9c-ae78-66f067235bfc	Gingembre frais
-cce6636d-af2c-4a6d-9463-243866e1abc7	6405bf3aaf4af6d531d50acd	4f76cd6c-50a4-4899-a67b-51c2b6791808	Gingembre frais
-f2f67beb-a268-44ed-b735-14908e975514	5af2bde9ae08b5194415a0e0	11998a6a-3a3e-4698-9868-36a0cc131f6b	Crème de cuisson
-16a87439-bf32-4ece-b7a6-424ecfe7df5a	6407391f9c6d10cd16eab607	ef664434-fb2e-44d7-9741-c0556f79dc44	Sauce asiatique sucrée
-a874df5c-4974-485f-bfb7-dc26d00a7ce9	5ea2c7d68dee423f3a615ca6	94a8e77f-9517-409d-a443-28e7b3e93933	Crème liquide
-1a4cac92-06cf-4aad-a5bb-7235c07fbc17	5af2bdf7ae08b5194415a11a	c966bdbb-f439-4fa9-b43e-9d5284aaa07b	Oignon rouge
-750b0c67-0fc4-43e4-bcab-32437024bc29	6405bfccb0da1947779863b2	cec5b394-9e9b-4c64-b322-32f20e297024	Pâte à tarte
-523d760f-8f77-4338-accd-ed30a7d48a2b	64073bff683721c9a32b079e	efcf8f82-0f8c-4034-9d3a-ce637ec16c49	Pâte à tarte
-d62d93ac-b8e4-4e4d-829d-5b725662ca6b	5c0109bfe3f33939791482f5	589959dc-3ab3-4725-aa45-03ec8385815f	Pâte feuilletée
-0e949016-a305-4d3f-9adb-fae85f35a4bf	5af2be9cae08b5194415a381	8b41f398-13bf-4310-8c99-e336fe0aa3b7	Anchois
-00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	698311af-2b62-46e7-b4c4-810e7b4d6d18	Concentré de tomates
-a012edb7-2da3-4ced-b303-2b45855f7c07	5bc9de6330006c594864b1c2	d0e6175f-6e4f-46ff-9286-4076a2cb85d0	Cubes de tomates à l'oignon
-75d0431d-1e49-4aee-b67b-92c60c9490e0	5bceef3a30006c2b0d5d7232	c636df95-9391-4fbf-a094-939c53ccff2d	Haricots blancs
-8eda98f8-829b-43c4-9c83-3373910c0d14	5af2be1fae08b5194415a1b7	387206ba-96f9-49d7-9a15-d95c5425db0b	Haricots en boîte
-568c0def-8ebc-4cae-8147-62524dc67409	5c66d2a3e3f3395bc35f7315	d13657f7-9157-440c-a7c5-b126fe5d687f	Haricots rouges
-49ad49c1-a1ff-4b70-81f4-0145d29e1ca7	5af2be0fae08b5194415a182	3b6be32a-0ce7-4527-948d-cc49452a27e2	Lentilles
-eb126bd8-6dc4-407f-885a-6033cedaf639	6405bfe9b0da194777986410	576acfaf-f488-4eba-af9c-b132dce09d7c	Maïs en conserve
-37b4eb78-34c4-43f2-9e87-60e35e1f01af	5c9e3f05c445fa5e430ba4a2	938efeae-7710-4694-a685-a1e8203b6bc2	Maïs en conserve
-b2ac8e7b-72e3-4007-8e6e-8966d21bbb29	5d725d970dcef1000e487d7a	ac795edf-ce7c-4ee4-95d1-e12e27cd9170	Pesto vert alla genovese
-fd0d9a39-1fed-4f2c-b5bd-ed0d8f4257c8	6405bfcdb9d07cd5d38d7be7	f55fa818-9fec-4bbf-9d1e-55ab7e4efc3a	Pois chiches
-f1c9af7a-a155-40bd-89a8-fcda2b09d52d	5af2be4dae08b5194415a261	070e3368-0962-47f0-ab7e-1ddcf97d797b	Pois chiches
-b14dc22e-c9e6-4247-bfdb-0f17a7d87a06	5b55866fae08b5444c794962	76f15f78-da6b-4798-afed-0c5abe6321ff	Thon à l'huile d'olive
-27a15286-5b46-40ae-a5ca-63c9f826995d	64073ba8683721c9a32b0735	f05eadbb-36f6-462a-8de4-42cd09af1e5a	Thon à l'huile d'olive
-347207ee-f79a-4a0a-8f99-e2f8499eab44	5af2c167ae08b51b804e5903	d15bc386-eb20-454c-9e42-c744fddc647c	Thon au naturel
-5f58da4e-392d-4763-b637-7f389796b274	64073be1683721c9a32b077d	4925fdce-f889-478f-8ac6-3c9eb55d0617	Thon au naturel
-a9327305-e851-446f-8090-d94b11225a40	5cfa73a8d8a8710016415ac4	e0a9950b-412c-4d5a-ab5b-bf7530297dc4	Tomates cerises en conserve
-dd1ba37c-b186-41f1-8d71-f1d0cf92d302	6405bf9db0da194777986312	991481f5-d7e2-424c-b300-9a661c08d4b8	Tomates cerises en conserve
-f48d31ae-5a38-4f54-ae30-5cc48d3d44b5	5ca75c9ae3f33926060c1fc2	a4ea4f63-b7d2-49dc-a09b-eeb65bd05b85	Tomates concassées
-2acbd5cf-f099-402d-b0b4-45d5e5c61235	5bdc60d1ae08b57bc5462dd2	baad1a8a-1370-41d2-87e2-21270f06ebd2	Tomates concassées au basilic
-b4d06358-5f97-41a0-9a65-4c866d174072	5b76db66ae08b523ce09d3f2	7dbf60fc-b800-48d1-a09e-53279b2763f4	Aneth
-97605c54-803d-4b67-9905-201b9eb5f7f2	5af2bde2ae08b5194415a0c8	80e139aa-a994-4031-ae49-78ea06e19bd8	Basilic
-929668c5-f7d3-44ee-9cf8-824fe384fb8f	6405bf3db9d07cd5d38d79e4	3949add0-751e-44e6-8ebf-3543cbb5191d	Carottes en botte
-61aa522a-cd3f-44fa-a698-243ed78aa4ba	6405bfe6b9d07cd5d38d7c3f	7bcad6b0-4153-42db-8b3b-ba11fdc9e3eb	Cébette
-f1b03f3b-93a7-4ff7-ac1e-b35b16dcf84d	5af2bea1ae08b5194415a392	138b162b-29de-44fc-bc6b-0b2b9b655f51	Cerfeuil
-38606bdc-3e01-4690-b052-1bf3c8927d58	5af2be42ae08b5194415a237	609efe38-9ba3-4598-9569-02ab51d7ed56	Coriandre
-d35b8a80-4b5c-4067-8e11-dc3763ff0d48	5af2be5bae08b5194415a290	88a70f85-5a71-43eb-b182-4302131e754d	Estragon
-790e75a2-2731-4de9-910c-e083538d246e	5ed50d63cb7a11723807e097	e04c3d5d-b3ee-4fcd-bfa0-2457628af6c2	Mélisse citronnelle
-b905f909-9710-4c59-b4e8-fe9c3f15b94d	5c3c5714c445fa5b2f11d713	914b7b30-a546-4c33-9230-b12930cb4e66	Origan
-0bbf4377-a6cf-448e-a5e9-78b238da7d55	5af2be6dae08b5194415a2d4	89d19126-ab20-47b5-a35b-0dbe34363d40	Persil plat
-02c789bb-321e-4f0e-a8ff-8032a869aaae	6405bfeab0da194777986416	d7814c5e-5ecc-466d-ae52-b744a095337c	Radis
-3e782ca1-a5ef-44f0-9e6d-31f505c15918	5af2c156ae08b51b804e58c9	5d316b1b-8f94-445b-b248-1c307d71c7c7	Romarin
-30397759-eadc-4104-a3ef-e38a602da950	5af2bde1ae08b5194415a0c6	30eea9a9-cb39-4066-aa53-7374d294553f	Thym
-f3796525-d6de-4129-b8bc-8a44108aab14	5af2be3dae08b5194415a222	567bbaab-a2fd-40e1-966a-4f78f294beeb	Thym citron
-c5c00773-28aa-4ebf-921d-31a31639c45f	6405bf64b0da19477798624b	d80f1cd6-5621-4ee9-8865-aa9713eeb8e6	Burrata
-74eb4da5-5ce8-4d55-bfd5-345909e50805	64073bda683721c9a32b0776	61bb761e-2fe9-46e6-9a8a-a12d20807eb5	Burrata
-e8c5fc02-9ba3-4add-9973-bc91b9b297d1	64073ba59c6d10cd16eab614	b21afd7e-fec6-44e0-9587-53f29329b01f	Mozzarella
-7f4a6f7e-6f14-4b04-a281-4dc497db0aaf	6405bfd2b0da1947779863c6	24581d4e-9a96-4839-b7f6-18415cfbf760	Mozzarella
-2a57c506-9981-4c5d-8523-caa67a5ef3b4	64073bb9683721c9a32b074d	b8cd8712-a480-46e6-aa9b-e2b6c716565f	Mozzarella di Bufala
-a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	d69770b1-ed4f-45a3-8505-a75e37260b3f	Noix de muscade
-a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	f8b77023-453d-4922-9d14-d4add1303382	Noix de muscade
-b4d06358-5f97-41a0-9a65-4c866d174072	5b76db66ae08b523ce09d3f2	0050c7c4-1714-44ef-935a-0ab5427858b6	Aneth
-f1b03f3b-93a7-4ff7-ac1e-b35b16dcf84d	5af2bea1ae08b5194415a392	b37340ee-dc33-4f8d-a5d3-106bc6d39caa	Cerfeuil
-38606bdc-3e01-4690-b052-1bf3c8927d58	5af2be42ae08b5194415a237	0978622a-dd7c-4e01-8f83-e881b0da2a87	Coriandre
-d35b8a80-4b5c-4067-8e11-dc3763ff0d48	5af2be5bae08b5194415a290	4701bb15-00c3-4f87-9954-e16897c17dcf	Estragon
-790e75a2-2731-4de9-910c-e083538d246e	5ed50d63cb7a11723807e097	6aa93d63-6d31-4acf-8547-4722dacef216	Mélisse citronnelle
-b905f909-9710-4c59-b4e8-fe9c3f15b94d	5c3c5714c445fa5b2f11d713	e9b41343-8b61-4b69-b6bf-4f229a114e4c	Origan
-0bbf4377-a6cf-448e-a5e9-78b238da7d55	5af2be6dae08b5194415a2d4	cc698206-b467-45ff-ac66-5b7839f2deaa	Persil plat
-1a032402-f82a-4f17-9452-28127b0c0bbf	6405bf54b0da194777986216	e4f1a19e-63a2-4023-a0f0-21930c893c84	Romarin
-3e782ca1-a5ef-44f0-9e6d-31f505c15918	5af2c156ae08b51b804e58c9	d3504826-4fd6-4653-a0a2-f5d323a34cb2	Romarin
-5dcb8253-c5ad-414e-96fb-7b8e79e99bc8	6405bff5b9d07cd5d38d7c76	19dae211-4d11-448e-8873-7cf520bb93e6	Thym
-30397759-eadc-4104-a3ef-e38a602da950	5af2bde1ae08b5194415a0c6	a3d44d24-7410-4bd3-88b1-e654bd9d87c6	Thym
-f3796525-d6de-4129-b8bc-8a44108aab14	5af2be3dae08b5194415a222	1cc07982-1fc6-4801-b269-e232dbaa91da	Thym citron
-33af1be0-6450-46bb-bd7b-59982ac7a050	5c9e3f00c445fa5e1e745da2	f4783f85-07ad-4b8e-afe3-5068df3adfd2	Carottes en botte
-ae2857cd-ab51-45c3-8a20-edfb3fd4d806	5af2be0eae08b5194415a17e	64b9f0b1-fafa-41ba-a1d7-983797a01cad	Radis
-a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	fdcc75bb-7fb9-4d71-b1a3-50812d6ec502	Noix de muscade
-97605c54-803d-4b67-9905-201b9eb5f7f2	5af2bde2ae08b5194415a0c8	b9e49453-1e9f-4b83-9fd7-0c8a5a6776c8	Basilic
-d45b9b46-db06-44a2-8221-68195c03f949	5af2be04ae08b5194415a152	92cae2ef-557b-46c6-bfaa-3df23340d84c	Feuille de laurier
-3282bd2d-b7a6-4266-b08d-563a8cc57e38	5c794b05e3f3396cd34fd754	67201c51-9466-42f8-b4d1-cb0d6c4138e2	Feuilles de lasagne fraîches
-404a4433-24c3-4ae5-9cfe-42b3bd96b576	5af2bde3ae08b5194415a0cb	3d37d03e-b309-468d-a0bc-8cf7fa14087d	Menthe
-defc8d51-80ad-4516-8265-10d0a75899e8	5af2bdeeae08b5194415a0fa	f901919a-2137-4508-be0f-237ea51834fb	Sauge
-4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	1ad4c631-11f7-4ab9-95da-8a01c921756d	Huile d'olive
-b5300252-714e-4bb7-a5cf-63bf06e4b356	5af2be55ae08b5194415a27a	e2863c31-9693-442c-b403-a33e6d99e37d	Lait
-3e570082-6acd-4332-966e-2fb814aa11ab	63e51216bc1d64f7b96e2701	e50ec12b-0066-486c-a294-d86f7f2a8198	Lait
-27ba42ea-bd98-4627-9839-99bb2ec6e44b	5b928b3fae08b553974324f2	eb6cbb79-5f7e-40c4-9ab6-90d0aef608cc	Alpro Cuisine
-d40178b6-63cf-4e07-bab6-91bb6b3e4639	64073bf6df6297bb5beef169	a2b348d3-a8c4-48dd-9cc2-a60b9b260d5c	Bouchées de blé panées
-70394392-813a-48a8-af4e-66f4deb9bfc3	64073bdedf6297bb5beef149	66fd8151-cc0a-4a28-bfa7-11ff4e210578	Boulette thaï
-d1d9c648-1d96-428b-8010-1f8136dfe501	6405bf41b0da1947779861d8	1156e279-1ff0-4cf0-a546-b736826a03be	Chair de tomates
-594d9d1d-f73a-426b-826c-83e454a561ab	6405bfdcaf4af6d531d50d0e	a325f635-8528-43d2-a098-e1951a78b738	Chair de tomates
-37f081a4-911b-4a0a-a848-d599135e577e	5af2bdecae08b5194415a0f0	d957faf4-188f-4edf-9ae6-40a0e8a44085	Crème fraîche
-c34bb923-53a4-4e47-b321-c6d637d1ce1a	6405bf70b9d07cd5d38d7aab	9e902636-972f-40ad-a0df-fcd3e6982078	Cube de tomate à l'ail et oignon
-a012edb7-2da3-4ced-b303-2b45855f7c07	5bc9de6330006c594864b1c2	9850cf1a-aa1f-45ff-aa9b-8bde10f1f66b	Cubes de tomates à l'oignon
-ff34ce3d-beed-4409-bfc5-76fc33f2abf2	6405bf5ab9d07cd5d38d7a62	9a45fa11-6ec0-4255-bdb6-1a7a78ad32e2	Cubes de tomates au basilic
-c8c5c487-710d-4c08-87ca-64a96d4c8594	5af2be66ae08b5194415a2b7	3f56a98f-7507-4e7b-99a7-c0156eaf4639	Falafels
-970f20f4-d925-4340-b6d7-ca4548e8abc9	64073bc99c6d10cd16eab642	0229db9b-50cf-40b9-a1b3-c6731133e30b	Falafels et sauce yaourt-menthe
-fe636ff6-204a-470f-9a15-f42ab8ea0dd5	6405bf50b0da194777986209	a4b7979f-ca74-47e1-8e24-81973d3abffe	haricot de Lima
-75d0431d-1e49-4aee-b67b-92c60c9490e0	5bceef3a30006c2b0d5d7232	dc21043d-07fc-4090-89eb-70e8bf4974e0	Haricots blancs
-7eb761d2-2217-46a8-9c3e-8757b406a84c	6405bf3baf4af6d531d50ad2	2cb2071e-e6f0-47fb-b8ed-b251be1af667	Haricots blancs
-8f38f329-35ba-46d7-947d-ea7c1eb36111	5af2bdf9ae08b5194415a120	b51d1a97-6541-4509-b4b1-8800ecb83773	Haricots noirs
-480a1f2e-098a-4cc4-b7a7-20f4580cd12d	6405bfc9b0da1947779863a7	50d5ce96-11af-4246-96f6-5d7710802c75	Haricots noirs
-568c0def-8ebc-4cae-8147-62524dc67409	5c66d2a3e3f3395bc35f7315	cacbb189-2d57-45a9-9789-89ae0511338c	Haricots rouges
-7c68a0b9-dd2b-44f2-87e5-b56d486a0134	6405bffdb0da194777986456	ceb54fd9-9539-4e19-a744-5d71de1fbe09	Haricots rouges
-a874df5c-4974-485f-bfb7-dc26d00a7ce9	5ea2c7d68dee423f3a615ca6	b83f09f0-963a-4f91-a50d-db64dacdc8e5	Crème liquide
-e2372b1e-aa27-4b51-a5d4-1f32af4b5425	5af2be2cae08b5194415a1e4	d6aa70b0-8d39-42d8-a7b1-35f104838d91	Lait demi-écrémé
-49ad49c1-a1ff-4b70-81f4-0145d29e1ca7	5af2be0fae08b5194415a182	ef0a1f2b-121f-43cc-a327-d581a48b1048	Lentilles
-cb98b770-3d22-46ed-a327-16ade4474ef1	5c876c76e3f3392ed3516c92	802da018-a821-4352-b551-197f5fddde06	Lentilles, cuites
-02668c9f-5fbe-444f-8498-844101942fa0	64f199da71b62ce128332348	af1c57dc-1988-4958-a615-7e0795f26ceb	Marrons
-cae2e16e-4fb0-4264-a1d3-7ddbb6850297	6405bfe1b9d07cd5d38d7c31	06c722fb-725a-47be-8106-50e0b8b44a79	Mini carottes
-957fb7a1-6c57-4c60-9a46-c4f75a9e752a	64073ba5df6297bb5beef0f1	20441156-3aea-46bf-aa5f-1447e5dd32a7	Mini nems au poulet et sauce poisson
-277aa658-fa27-4e6c-910d-fc6901753ee1	5af2bdf4ae08b5194415a10e	df6ce7ab-b6a3-493f-a058-43ff29dd8787	Nouilles udon fraîches
-eefe9e8f-ba45-4e25-9729-8892b4ab06c3	5c950d82c445fa28d02a8da2	7d8f57b2-0e65-4996-a944-f566ace42c33	Passata de tomates
-d62d93ac-b8e4-4e4d-829d-5b725662ca6b	5c0109bfe3f33939791482f5	39f7a50b-dea4-4774-9b6a-81ecd788f860	Pâte feuilletée
-792af469-66c7-4f9a-a390-62f3458f36e4	5c700022e3f3396c2e00db14	3539d845-6c2b-48c2-bcc0-95491b7f5b37	Persil plat et coriandre
-7586c401-33eb-4014-a7c1-d2cd3758ab26	5e8ddf96e1c4d4221762f1e5	ff3c31e6-968a-44a3-87a8-cb579526914c	Pilons et ailes de poulet marinés aux épices
-f1c9af7a-a155-40bd-89a8-fcda2b09d52d	5af2be4dae08b5194415a261	44ab71cd-f05c-4c52-8802-cfcd9aae5b9a	Pois chiches
-fd0d9a39-1fed-4f2c-b5bd-ed0d8f4257c8	6405bfcdb9d07cd5d38d7be7	d7f41b70-f2e7-4d49-ba9f-9778b368635f	Pois chiches
-ce8a2e41-e3e3-407b-b98b-6e9f1933bc23	64073c519c6d10cd16eab6c0	7f9ee60b-6fb5-4411-92f2-326f303ac8ef	Pommes dauphine
-6dd36b29-6b45-4736-811c-5a6b86058c04	64073bc2df6297bb5beef128	8f2575ad-9b18-4e52-8954-655189b222db	Samossas bœuf
-6ce6cd6a-ea86-47ea-94c0-1098453f74c3	64073bd4df6297bb5beef141	8ff49914-bf34-48a9-ba40-2a512f705db9	Samossas légumes et sauce aigre-douce
-f9c28e2d-78d3-440e-b5a6-f8e36a8d86e1	5af2be45ae08b5194415a241	2f5a7eb3-5870-4adb-8345-226f62b0a881	Tofu
-5f23c4b0-6e1a-4953-831b-49d992a13e72	5b928b4dae08b55383267f82	816fb53b-9a80-4d62-a6d6-58d2334c3390	Tofu peu épicé en dés
-f48d31ae-5a38-4f54-ae30-5cc48d3d44b5	5ca75c9ae3f33926060c1fc2	e721649b-7899-475a-9ba9-1c0de853d17d	Tomates concassées
-2acbd5cf-f099-402d-b0b4-45d5e5c61235	5bdc60d1ae08b57bc5462dd2	5226e46f-956e-4b0e-86e3-e63836dbb90f	Tomates concassées au basilic
-8a46d57d-5a69-424f-be00-d99b311d644a	5c950d88c445fa28f67f6be3	39c5e33f-cce0-49fc-9c15-514d9f2cf751	Aiguillettes de poulet
-92c7b983-a456-4e61-ba45-f35357446a6a	5af2bde3ae08b5194415a0cd	5d3bb496-cb30-424b-9989-d1ddf82884d9	Amandes effilées
-38fd699e-01a3-49c6-b413-dab6392093db	5c264206c445fa3bd93ba752	823fea13-b57f-4e6a-bbc3-5b8f3bf1697b	Ananas
-0e949016-a305-4d3f-9adb-fae85f35a4bf	5af2be9cae08b5194415a381	68cf01dd-386e-41b5-ba43-3e5723f99283	Anchois
-49f23c12-f105-4a91-a792-98776effee13	6405bfb6b9d07cd5d38d7ba5	90467ede-b759-483d-bb82-125c61960b1a	Anis étoilé
-b4cb42ec-99a4-4a97-af0b-fe8241ce721d	5af2bdfcae08b5194415a12f	c41d2c10-1b0b-4ae8-be6b-5dbd96fb33e4	Anis étoilé
-fc6aeec8-b896-4795-a292-dafaf5fa0987	5af2be12ae08b5194415a18e	a4d51f52-04ce-4a46-a390-85be279a12ce	Aubergine
-6ab85628-44c7-4a23-8301-e82d2758ba47	6405bf8eb9d07cd5d38d7b13	6ec28c95-4a5c-478c-9240-e8ce90cc3135	Aubergine
-6b8e6560-a4cd-4dae-bb41-25d38d8bdb4c	6405bf9fb9d07cd5d38d7b57	673a042b-e8bd-447e-b9b5-8edc4ad2da58	Avocat
-6470c9e8-5068-4414-92c2-129b4798dcd8	5af2be5aae08b5194415a28d	4716a1a7-55bb-4c4e-a60a-9ff469ef2b58	Avocat
-df36ef38-dc6b-4148-9ca7-989a3223bf1e	6495be683bcb0c05c0584177	dccca601-32ec-4dc1-99ac-abf31c725365	Bagel
-661d9c50-3dcf-435c-80bb-f80568807aa0	6493fd38f855bec59c8fd365	a8de8bf7-32f3-43cb-b66c-c6c096af81d4	Bagel
-e65ef1b6-cd55-44e0-b065-22e7fef29a09	64073ccfdf6297bb5beef1eb	a747b26d-1334-40ae-b5b2-925d245ac3bd	Bagel
-1948f200-8332-4674-b072-59bd34a7c2ce	6405bf33b0da1947779861a9	6c6db460-fde2-4aff-a173-c2e02aa60ed8	Bagel sésame-pavot
-e67fb285-8dec-4291-a0e0-8d1836d375fb	5d19d7e4fca63a000f6a263a	79eae43d-4c9b-4620-ab51-b2e0d197d747	Baguette
-e4247fc4-2cc3-4831-954e-70bcf8c6305a	64073ba79c6d10cd16eab618	bd36bea7-cef0-469a-b6eb-d488bda772c2	Baguette
-9256a4e2-8cb5-4d01-a293-9af95893b549	5af2be7cae08b5194415a30a	89ad37ac-bef0-457d-83bb-9fabdcc5e12b	Baguette multicéréales
-544d05e7-6151-442c-8100-8507b6b5df3e	6405bfffb9d07cd5d38d7c95	166b18e2-44e0-4343-bb88-8ed0f0c09f5b	Banane
-2d06c390-7eaf-480f-aeed-0de078edd909	5c0109bbe3f339397c2ba5b3	31f8a6a0-8fce-4654-8303-7fef8e5280d6	Basilic thaï
-8a65fdd5-ae3f-4d2c-b974-bc8d5fbe91d4	5d03abf4d2d35b00122f5377	b6143620-af7f-470e-b1e4-836651c10c4b	Bâtard aux figues
-e98c42ba-ec97-4e6d-9bcc-4bc99a723b64	64073bd4683721c9a32b076e	637aa754-bd81-4268-9753-7225334d3281	Bavette de bœuf
-386c8b04-9934-43c8-b7c8-17fc1c5703bf	6405bf97af4af6d531d50c29	66c78723-d5e0-498b-92e2-ba989c656773	Bavette de bœuf
-1ffe4acf-8a44-4991-b317-60cb8c627a3d	5d53dde30f071b001579bac7	fab24769-7700-4a6e-8f30-c15a04bfcda2	Bavette de bœuf
-6dcfb3ce-97c2-4e9c-9717-a85b75783897	644c60f3e915ac78ee7c6776	c76e80db-bf66-4fbf-8569-fd166884e67e	Bavette de bœuf
-aa58517e-0166-439c-90ad-e37d4da0d2c5	5bdc60dbae08b57bc06363d4	95fcc179-67f4-4e98-87d1-c24a05edbeec	Betterave
-0feede62-de7c-489a-8497-8e0470d07a75	6405bfe8b0da19477798640e	4212eefa-094e-427d-aced-4ad5cf41f2d1	Betterave de chioggia
-8c49626f-3bf6-4a62-9501-ea52fe68058f	6405bf4eb9d07cd5d38d7a32	5238b98d-05a5-4025-bc2a-ad917dcfc89f	Betterave jaune
-ed20d059-39fa-4e7b-b93f-21dd6013a410	5af2be5cae08b5194415a295	dc41ae80-c1f4-4419-ac74-9eb6477b7126	Betterave jaune
-436e09fb-dc34-4bbd-b672-e4232f256072	64073c75683721c9a32b07e4	362e41be-c1d8-40ab-847b-a15b0fe110fb	Blinis
-4742a6c6-26f8-4784-939d-8fee9335b52a	64073d179c6d10cd16eab71a	fb6de05f-81ad-4398-bf30-2e1ac1fd08cf	Boudin blanc
-eb735c95-50e9-4b7b-940a-8e02430b576d	5c950d7ac445fa28926e8835	8aa4efeb-825b-4a07-a459-ef51d4d1126f	Bouillon de poisson
-0672f35d-346e-4ac0-b941-709c5866d90b	6405bf72b0da194777986283	858a83bd-2506-4680-8fd0-3ac26c5d682f	Boulettes de bœuf et de porc assaisonnées à l'espagnole
-9c7ee495-66fb-4db5-abb1-a6189ff6dc45	5cfa73b6d8a871000e5b1634	d990cbb9-7fe4-40e3-80b6-86bfe35eb69f	Boulettes de boeuf et de porc épicées à l'italienne
-6a81b5c1-0629-4132-b819-b31c208318a8	6405bffab9d07cd5d38d7c84	95e4b069-53dc-4c0d-9995-f07d08a49858	Boulettes de bœuf haché assaisonnées aux épices Kefta
-e946128e-2c28-473e-bbb2-2a511f725398	5af2c171ae08b51b804e5924	3370be01-fc22-4939-90f0-a25a93d0abd5	Boulettes de boeuf haché épicé
-0f6a9154-8a5d-4f78-b881-9c65ea2b7090	6405bf73af4af6d531d50bba	677cf7f7-740d-4c49-a4d6-d0e95c4d9ac6	Boulettes de poulet haché aux épices italiennes
-c2627a86-e0af-496d-970e-7fa0d501ca68	5c950d20e3f33950f837c012	74847cd5-f533-4890-9fb3-b2df16a1ae73	Boulettes de poulet haché aux épices italiennes
-b8300c69-4dbf-4fa9-9198-5564d3f6ac0f	5c794b0ae3f3396d0b09a2b5	6ef221c3-59ac-41e3-b6d6-535e27e40c91	Boulettes de viande à l'italienne (porc et bœuf)
-359a9c6d-e636-450d-9438-bfadeb23d3c0	5cf144a8806177000e019d26	3502e407-b551-48b2-a10b-09a97c2149cb	Brie
-a718c65d-901c-460e-8122-4198743726c1	5d3f1560265a5e000f76a20b	05be2bf7-acdf-4a9f-9279-8a2e2272d646	Brioche
-ca20de25-75fe-4e72-a329-a6de548abee1	6405bf80af4af6d531d50be4	c1456d7d-7f8c-4ae8-b1fa-e29989d1c52c	Brocoli
-bda2cb14-1594-41b9-9dea-4d6619e70295	5d53d9740f071b00083c90a7	984b04e0-397d-455e-9663-765ef18d3f67	Brocoli
-a693b005-627a-434b-a5ff-8a16f3a692ba	64073d7c9c6d10cd16eab746	db225f59-e859-4c94-a595-11dcac5a1c23	Burger de carotte et de courge
-a89391ef-5350-428a-b934-fda9bbe95ff5	6405bfa4b9d07cd5d38d7b6a	963d9cd1-e896-465a-b909-12dfc7e0dd67	Burger de veau
-0f7a67e2-4004-498c-b289-e329d7347b49	5af2bdf6ae08b5194415a114	ae2d7fb9-547f-4548-b73e-cf4d1ef63053	Burger de veau
-5783c434-8496-4cff-ab86-a1147356bcf5	5c70001be3f3396c2a47cd26	f391becb-75f5-4f0a-a64c-e25072e7c8c2	Burger végétarien
-1da81635-acab-400e-85d5-bc519dbaf390	5dcd727af283181a300ab126	a7e987ee-50b9-41e2-8d5d-c447a0cffd7d	Burgers de sanglier
-74eb4da5-5ce8-4d55-bfd5-345909e50805	64073bda683721c9a32b0776	116402d8-d88b-478c-aca0-abe6a33432a0	Burrata
-c5c00773-28aa-4ebf-921d-31a31639c45f	6405bf64b0da19477798624b	e9e0c3b2-d716-4992-9d38-987f0c36dfd4	Burrata
-22b671c8-a138-4304-863e-2ceef1b83808	5d1b4fca2bd5c6000a2151fc	e4529b91-058b-4c6a-ba14-05379ccdd63b	Camembert
-b8ecc04f-8034-4ecc-bdec-63d8c67be539	5af2be68ae08b5194415a2c0	0e9db366-3142-4907-93c6-84d094823f21	Carotte
-0e363991-67ac-48c2-91f3-5a39eab419ab	6405bfbfb0da194777986386	ca6eebcb-1833-4faf-af1b-b4b95eb15ef0	Carotte
-be2dc8eb-daa7-4678-8b2c-627e976178f8	5af2be29ae08b5194415a1de	e1b52f65-ed5b-4ef8-aab7-0837c41b58ca	Carotte jaune
-536ccda7-3ac5-458d-8bec-abb94b2d8c61	6405bf6daf4af6d531d50ba3	fd0749f4-935d-43f8-ba98-90dd3d5c6e21	Carotte jaune
-20c83d2d-6bd2-4002-85b2-204bd073e206	6405bff4b9d07cd5d38d7c6c	919e1d1b-f8f5-4122-9111-f2689c116436	Carotte violette
-c5bbb54f-9c17-44b3-be7b-318e2b5610a7	5af2be86ae08b5194415a33b	525df6d2-bc38-4019-8f62-1352bae52166	Carotte violette
-33af1be0-6450-46bb-bd7b-59982ac7a050	5c9e3f00c445fa5e1e745da2	6733f86f-d586-4806-a163-0d8046ba656c	Carottes en botte
-0f3c83e3-2a6b-4f2a-925e-4572f6aea0c7	5ba8a96630006c3c346c38b4	2ca72a2c-3f72-425c-be4d-6d9ba6df88cf	Carré de côtes
-61aa522a-cd3f-44fa-a698-243ed78aa4ba	6405bfe6b9d07cd5d38d7c3f	6d283187-ba0f-409b-ad0a-a99a604556d8	Cébette
-d278e7e5-d8c2-4b64-9e44-1f4e6421d210	5c9e3f07c445fa5e4f2059d2	9d54e232-03ad-4751-b865-5a3f6cd664fb	Céleri branche
-3d037201-c822-420a-a8f6-c90e2d681aab	5af2be22ae08b5194415a1c2	7654b2c0-7e33-4471-96b1-9806de44167b	Céleri vert
-3dac3c4d-7614-44bb-9ef9-1ef0f301b578	64073c2edf6297bb5beef192	23b93f31-d500-4e65-8e0d-be8dcd81ffa2	Céleri-branche
-8a8cc335-fec6-4a9b-a80a-2376f7c20c53	64073bee9c6d10cd16eab66f	92811e98-6623-49fa-a418-b65ed11a85da	Céleri-rave
-5f7e84a9-36d5-4b59-b12f-79de6b55aff1	5af2be28ae08b5194415a1d9	ff45e533-fac9-417b-845e-d647093e1dc9	Céleri-rave
-2de07d1b-9d78-4662-860a-20098a74ee6c	64073e939c6d10cd16eab7b8	e951b861-9180-4016-8c4e-e7631c434d16	Chapati
-db2acb44-3211-43e2-a76f-26d82c43a2fe	6405bfd3b9d07cd5d38d7c02	6b43dd8f-b148-4e12-ae4a-78d3e65d0239	Chipolata
-5fb0cd15-f09e-45e6-97ae-d316ef891aa4	5af2be5eae08b5194415a29c	a5131feb-8040-4c97-a4dd-6a6cfcf75c01	Chipolatas de bœuf
-9f6f5fa2-9551-42f5-af30-b91cb1083fdd	5af2be5fae08b5194415a29d	5b45f4b8-49dd-4719-a6ef-4a77fa78ba00	Chou chinois
-508c30aa-ce62-4e15-ae6c-d59c55304fae	6405bf71b0da194777986282	d5193824-801a-48d3-8da3-6c93724a0e5a	Chou chinois
-1ac58fe2-f96f-4211-a9e4-ff851f30c8de	5e1f0278e2e6d65ec87f8933	5c4d8e11-463d-4d6a-b358-7733fdfc483b	Chou pointu
-ba46a541-4d7e-4585-a389-bdbe5cffcb44	6405bf85af4af6d531d50bef	72e2c747-fe20-46fe-bb82-1f67203c3810	Chou pointu
-02d26cb1-e6e7-4cda-818d-106216835cc4	64073f16df6297bb5beef2b7	8b20c47c-3f66-449a-90b1-b8dba7e04aa5	Chou vert frisé
-3eef31d0-29c8-4e61-81b0-e9c3a0ea4012	6405bf89af4af6d531d50bfb	40d19aec-2c18-408a-a1ba-ab6fb0d9dfdb	Chou-fleur
-854eb97e-76dd-48e6-8fe2-f0d1df1d33d2	5af2bdeaae08b5194415a0e8	31655f00-a74e-43a2-9869-a05bb5865238	Chou-rave
-ba68fc49-5dd0-4d8f-aa02-e000487bb494	6405bf26b0da19477798617a	de19a5f6-6f9e-47b6-8ec6-8bf899d03718	Chou-rave
-9805fe35-b4ea-4acc-b8ef-6b41a19193e2	6405bf7aaf4af6d531d50bd5	763b28ab-a50f-4ea3-817c-59328b6cdee5	Choux de Bruxelles
-226ff02f-a8e8-4383-943c-9285537d16d6	5c794b0be3f3396cd0285662	ddf3e00a-6c66-40dd-9f38-51374c22ba8d	Ciabatta
-e2487ad9-9dae-43c0-b20d-81d6aed6848b	5af2c152ae08b51b804e58be	b1a15837-ba6e-46d9-9338-f663750798c8	Ciabatta aux olives
-818e70c7-cca0-4c54-8dc3-030ee0570a7b	5c865506e3f33953c57bce32	5b83e656-4695-4843-9754-7ff630affc95	Ciabatta blanche
-99a147ed-08bc-4ef5-bcb2-69cccb970d2c	5c8bcda7e3f339735a76c464	1d74cc9b-a68f-4235-b11c-9039d81e148c	Ciabatta complète
-ba760888-fc66-4433-a6a4-a2d233f0e47d	5c0e2cbce3f33937c643dfa2	5009f392-5ab2-4d52-b935-f383dc2e974b	Ciabatta grise
-96da2233-b11e-42ae-b852-0816e20dc821	64073bbedf6297bb5beef120	0e0ef131-fe51-44d5-93d5-05cea1b567eb	Ciabatta grise aux graines de tournesol
-bc220d25-6725-4fbe-9084-918e77d13cdc	5af2be97ae08b5194415a373	1c1cc477-c317-40e6-a145-fce9754d80cc	Ciabatta grise aux graines de tournesol
-1e677eec-4673-45d6-9250-521215cae3bc	5af2c14fae08b51b804e58b5	6bdefe13-5e7d-442a-bf4f-31caea7c04c1	Ciboule
-b6c4bf85-606b-4a66-bf9c-487e0eddd44b	6405c011af4af6d531d50dcd	1624f247-523f-46e7-97dc-5fa21872865b	Citron
-abf8438c-b53a-4f3c-8d92-1a524d4783ab	5c950d77c445fa28926e8832	512b1513-0f41-4aef-a7bd-53efe928281b	Citron jaune
-146601bd-c1e2-43ec-a4d6-bde0dca50d61	6405bf30af4af6d531d50aac	0dbee63d-ec1f-46df-81a4-eb177bb7efa7	Citron vert
-bf9dfa9d-e7d1-4149-8c88-4db3ba01c0d2	5af2be6cae08b5194415a2cf	401997e9-a952-4e40-af85-9ebfb7d5e3a9	Citron vert
-f9ed2cbe-397c-46e3-92ed-8fbae7025c10	6405bf52b0da19477798620d	8474bc85-b98c-4bd0-a583-fe4b048963a7	Citronnelle fraîche
-5f860e8f-a314-45d0-b884-651ea156855e	5c950d7cc445fa288372a893	cfdf7b79-eb14-46fc-b33b-e9bc2331d5a9	Citronnelle fraîche
-16a2926b-632c-44a7-acff-826134ffabd5	5af2c14fae08b51b804e58b6	ff95fd54-b829-4a2c-9c38-374e2f42e476	Citronnelle moulue
-8f233f4a-113c-4261-b02b-bec80fc8fa7e	5ba8a96430006c3c441c9ff2	a51705a0-e5fb-4c5a-ba27-8c73fde3cd6c	Colin mariné
-00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	802890a0-5ca7-4ee0-b13c-2c5dc38a6cec	Concentré de tomates
-05ab4bde-220c-4f3f-9bc9-9ac835a3e95a	5e4a42ab179521032f127c34	525b47bc-fdaa-47df-b228-750c0896c81e	Concombre
-0e99d760-baaf-4b5c-9e1c-49f68b5bf087	6405c000af4af6d531d50d96	19db8b21-3173-4d0e-80d6-a62dd49efc9d	Concombre
-74a64d86-ff7f-4b12-bea6-eb501207663f	648905f30635a1e9befbb436	72985d33-df25-4ece-9386-06cd2c4f4c0a	Confit de canard
-2cc682b9-7908-42c7-b150-a8c3c02c860b	5b928b59ae08b5536f17e522	503eb891-be25-4b0e-86c8-268e46377e0a	Confit de canard
-1977dd53-232b-4809-b310-c295dccb55d5	6405bf8baf4af6d531d50c00	cc0db64c-c119-4743-8934-e61751cc1393	Confit de canard
-85cce412-ad07-49e2-bbf8-20d3cbb98f01	5af2c164ae08b51b804e58fb	d18b75e8-0955-41f7-8361-611f6a184ca1	Confit de pintade
-cedda1dc-11fc-403b-b525-7d9afd8d2842	5d9d97a76f3ff25eb7598b4e	533bb7a8-b6f7-467c-b3a9-1799f6a6ddc4	Confiture de fraises
-ec597548-ff5d-439e-b0bd-db01939b0209	6405bf88b9d07cd5d38d7b06	47dcf063-571c-417c-b4e0-56878965f8a3	Contre-filet de bœuf
-38606bdc-3e01-4690-b052-1bf3c8927d58	5af2be42ae08b5194415a237	58ada7f0-7e09-4f27-a2f8-9709cd0d2ab9	Coriandre
-b5e2e44d-cc55-4dd0-90e8-484525fbc8cb	64073ba9683721c9a32b0738	73cd1547-6aae-44f9-9d44-ed123d9d1f9b	Courge butternut
-2d3fe883-d746-43bb-8f0b-e82b5441cabe	6405bf25af4af6d531d50a75	08ecbf84-baef-4053-80bb-7674732209d8	Courge butternut
-4a204d78-81e5-4170-9a53-95ca7938035f	5af2be61ae08b5194415a2a6	115f9af4-01bd-4865-b16f-c35f43f5aec5	Courge butternut
-8f42aa6b-b0ba-44c9-bb2b-07e94007c6fa	5af2be85ae08b5194415a33a	a5847b1b-21dc-4b0d-93f4-cc5194e8e856	Courge Hokkaido
-def92d54-d083-4648-aa6d-8937115eec50	6405bfbeaf4af6d531d50cb9	51b0b267-70ba-46a6-9835-732b47209c77	Courge Kabocha
-7f544171-3726-4479-8764-8a45dbbb7fe2	64073c1a683721c9a32b07af	b7cfc0ca-bc05-481e-8686-bf1e44180a38	Courge spaghetti tranchée
-e32aa012-a822-4ee2-b710-904dd001de92	6405bf8bb9d07cd5d38d7b0c	c10ecad4-abae-4fff-a410-4bbcabbc1abd	Courgette
-744e8c08-59d3-4ce1-9ffb-13049e883eba	5af2be53ae08b5194415a272	7f7c6391-c384-4ef7-bbb1-22884f383cc4	Courgette
-67112807-bab7-437a-ab65-2f6762304888	5af2be0bae08b5194415a174	aa2bbaf0-9682-4da5-9927-df8c0daeb230	Courgette blanche
-bc0c50b0-50c0-41b5-a980-fecd439f7ff1	5af2bea6ae08b5194415a3a4	854c4a52-eec1-40b7-bbdc-3b49359690ef	Courgette jaune
-63eb23f3-5689-4d4d-952e-dbb0b0c5f80d	5d9d97a21354614ba164bdb3	077fe896-8f49-4970-8819-5a44d150b572	Courgette ronde
-6861d8f6-724f-46d7-a8f6-8ef103b4e541	6405bfd0b0da1947779863bf	d8677d53-7b1c-4681-a7fc-45b42996fa12	Cresson
-5c6dec05-715f-42f2-8082-807479e86e80	5af2be29ae08b5194415a1dc	d9d0c053-4d9b-4b3f-aec9-9755c9b60748	Cresson
-43290529-e0cd-459c-8431-06b44a470f04	63e51235a0a0603e5708dcc8	9f442c92-8c75-4d74-becb-063550b46458	Cube de bouillon de bœuf
-0afb6e02-0d51-4bd1-8119-0129354380bb	5e1f0277cc6609041441227e	898c392f-e1d1-40d5-81d7-53d1534a5aaa	Cube de bouillon de bœuf
-3aafe58c-08ac-4852-a295-c8d535703ed9	63e5122081b4b295e66f0256	b0e9b65b-a307-4d4a-ba3f-9cbbfa505df6	Cube de bouillon de légumes
-43a05f47-98d1-4f42-9f33-db1844dfdcf2	5af2be25ae08b5194415a1cc	e0d461e6-1b70-4ba2-b5d6-b081c1aae7c5	Cube de bouillon de poisson
-bb314273-bc1c-4587-9881-9e9ec14c65d9	63e51213a0a0603e5708dcbc	60125f5c-84df-48ab-a729-fdad0a82d1ac	Cube de bouillon de poisson
-a1ad4000-e319-402e-9e32-74712a5dc0f1	5e4cf7fc389bc238c3507fce	ecce4e68-efd6-4e1c-be2e-984f9aeb903c	Cube de bouillon de volaille
-cb53b85f-d51b-4235-9ccf-8c25295ec222	63e5120ebc1d64f7b96e26ff	e8e45ab2-68c6-45ba-b180-204b640e1be2	Cube de bouillon de volaille
-d7a87168-09ef-4fe9-93ec-4b43c71b1532	6405bff4af4af6d531d50d5b	f02bda0f-661c-40fa-9c21-51bd898de470	Cuisse de poulet
-cbe8b8b5-38fe-4fb5-b6ce-52c85b43227d	6405bf67b0da194777986258	b07c1906-0278-4efa-b5e7-8b0bfd07d4e1	Cuisse de poulet
-554ed87f-ab89-4597-a956-2e5732744434	5af2c162ae08b51b804e58f3	0a2a1fc2-804f-4430-afe8-e97e541126ba	Cuisse de poulet
-03796ebc-b638-46c5-9538-aa28af0a2105	5b3f7996ae08b5535d162163	37223b56-8258-4502-a843-86a680d88f6d	Cuisse de poulet confite
-0abc9653-e23e-4b40-9762-fd092b92f601	6405bfd5b0da1947779863d3	b191c9c8-1e16-4de8-ba09-409753dc0f7d	Cuisse de poulet confite
-e56af137-5600-41cc-89ac-f5b393892df2	6405bf18b9d07cd5d38d7962	e6ded1b6-55d4-45ab-bb9a-d561c2375931	Cuisses de poulet
-3c009768-1bad-4185-9a31-55a241d5d38a	64073bcc9c6d10cd16eab649	4e53120d-0e93-4a13-91d8-eee1ab315186	Demi-baguette
-c89a5f8a-4fa8-4e6d-b6da-e7fa004815d3	64e38514a2c417189e0da947	ed90d97f-bea0-4aa6-9b63-1800b9e943ed	Demi-baguette
-cff7b5cf-4a2b-426c-8dfc-ca022b11f694	5af2c16bae08b51b804e5912	f58ce75d-3a4b-40b4-8564-6c5346d4a6ac	Demi-baguette
-c95680f1-8141-46de-8620-6f8d1b874d2d	6405bfd9b0da1947779863dc	89da2cd9-0800-456c-85d3-24d5a1c65e07	Dés de filet de porc
-0db9720f-b412-4b56-80ba-a960bda7b80b	6405bfceb9d07cd5d38d7bea	1274c7e0-0d9d-47e9-ad7f-dd9921a14cb2	Dip d'avocat
-162863a2-88a4-41a8-8083-7adf892d3eb0	6405bfc5b9d07cd5d38d7bce	c050fe94-e69a-488d-9032-0cb7fc0fe7b7	Échalote
-594bdc0a-3f5c-4e45-9e71-4403d2d5d933	5c8bcd9be3f3397358648c94	b201710f-86a2-44b8-898c-1f415acb8f68	Échalote
-ba8511e1-ddb3-48db-bf95-0a789295fa8d	6405bf7bb0da19477798629e	88ea691d-1415-4e4d-a757-af4ae14c2e03	Échine de porc désossée
-1a9d7432-c240-40b1-83ee-a0cf1c32118b	6405bf82af4af6d531d50be9	63139436-35ce-489d-bcd8-c0b7a3ebc4ba	Échine de porc désossée
-d7783e0b-d433-41e5-b457-eb9b43966b91	5bdc60dbae08b57bc06363d5	59117b00-94f6-4c78-925a-b8876caba57a	Échine de porc désossée
-5961d99a-d83f-4cc5-91a4-63fa0509bdab	5af2be6aae08b5194415a2c7	ff254d79-f02c-48f5-835e-006102fc857e	Endive
-eda8ad0e-46a6-4a01-b025-a24d6b8ffac5	6405bf49b0da1947779861ee	89d7626b-d02b-4bd8-97be-795760e2b512	Endive
-4f030996-6693-46d1-8a75-aceaaa7b497a	5c8bcd9de3f33973480ec963	88597f18-de94-4c9a-9297-5d529e120e21	Cube de bouillon de légumes
-f06cb2b6-a817-4912-8dc6-8130f96d1057	6405bf91b9d07cd5d38d7b1c	11917c09-e128-428d-b70f-1a61ce70edc1	Endive
-79d6a1b7-027b-48e4-9eaf-294367796139	6405bf9fb9d07cd5d38d7b54	cfdb0889-57ef-4715-b466-dcc694f4bb4f	Entrecôte de bœuf
-1dec43e5-2672-4f7e-a80e-9a2af7a941ca	5ca75c8fe3f33925b82ec686	17edb5fd-74b1-41e7-b2ef-47d9d7ee1199	Épi de maïs
-9587c43d-78f0-4c72-910f-6088e3ed158c	6405bfa0af4af6d531d50c4f	9e7a0fb4-4611-4832-9763-9163e4af0d6d	Épi de maïs
-1d57e44a-bcc6-4537-b6ac-4132d1876cec	5af2be60ae08b5194415a2a2	8d468c77-a49a-46de-a3e9-9dd1817803fe	Épinards
-a4eb3e2a-882c-4c79-95b8-614c543c4765	6405bf5eb0da19477798622e	4b3561b8-c671-4af0-9c42-7fa30e1dbbbf	Escalope de dinde
-e9e55add-462e-40c8-ae06-ac570d00bf86	6405c021b0da1947779864d7	696a738a-1576-4b4b-98e0-325152b9b358	Escalope de jambon
-6bd29578-b3ec-4ba9-acc7-f776cb7c6c4f	5e81e04e65d0084a291b703a	c7784db1-6833-4de4-a8d6-11055a005360	Escalope de poisson pané aux céréales
-970cb3b4-467e-45b2-b0ce-6708ee34e64b	64073d7c9c6d10cd16eab747	19122aac-3aff-4c6d-abd7-c52130440ed8	Escalope végétarienne
-e1258527-e1bf-42e2-bfce-edb53c5045ab	6405bf49af4af6d531d50b0f	1863e2f0-eab0-4032-b973-9ce00f62bd3a	Faux filet de bœuf
-a2ffa436-7019-40fe-bbd6-1431d8525b63	6405bfe5af4af6d531d50d2c	ea9abbcc-0b63-43c2-b06c-982591f8a520	Fenouil
-9260e6d7-b923-4b88-9f4e-be1ad92ef5d6	5af2be11ae08b5194415a18b	fd77bcda-a2dd-4928-aa53-958e2a5a8391	Fenouil
-4a8e7e59-40e6-47d3-8f85-f2e72cbfd740	64073ce69c6d10cd16eab6ff	379d942d-686e-45e9-bcb8-a1e5059f6a10	Feuille de brick
-d45b9b46-db06-44a2-8221-68195c03f949	5af2be04ae08b5194415a152	02893e1c-c07c-4cbc-9e39-c9b86974883b	Feuille de laurier
-2f762dc0-4910-4e4e-986e-41b1004ccccf	6405bf23b0da19477798616a	4d270119-381f-4870-9b6e-d15415df946c	Feuille de laurier
-0ab202dc-8004-49b1-be4f-bf3917eb94c9	5af2bdecae08b5194415a0ee	e366b8fa-62cc-4723-971e-3173dc6d8221	Feuilles de lasagne
-3282bd2d-b7a6-4266-b08d-563a8cc57e38	5c794b05e3f3396cd34fd754	091f0933-8ba3-4c21-9124-7ff89089d6d6	Feuilles de lasagne fraîches
-7df686ec-c8dd-4b35-ad53-6ed2b43dfec4	5b8022a830006c3a643a4e62	78bd035c-3ed8-43c0-ab7a-895f730e0fba	Figues
-0c3db9b1-5d68-48fa-ad08-8a0272ee31b1	5cfa73a3d8a871000b700302	2fc1daed-34cc-44ea-885e-268a452cb1b3	Filet d'églefin
-73bf90ff-62c5-4764-a5ec-599977f9b1dc	5af2be9aae08b5194415a37c	d03443b9-d40b-45b4-b820-c8448f674ace	Filet d'églefin sans peau
-02997f3e-b9e0-4fad-a735-f90d3abd13c1	64073bbf683721c9a32b0756	fe01aadf-e04a-4198-b9d3-ca2c4c471c72	Filet d'églefin sans peau
-8500c395-14bf-43ee-b836-344704977e1b	6405bf6caf4af6d531d50ba2	07751940-f966-4856-a45f-9e985a961e61	Filet d'églefin sans peau
-c6b0abd1-9cd0-4f1d-b956-f235955d3c4a	5af2be07ae08b5194415a165	24c0953b-85f6-46ca-b130-17f7f219dbb6	Filet de bar avec peau
-c2d529ff-29c1-4283-a426-bb20ab7514d7	6405bf81b9d07cd5d38d7aeb	5a231ac9-371a-4c03-87dc-90e43f000978	Filet de bar avec peau
-4520855f-2632-4876-bb5f-d3818719363d	5cdea5d0bfc591000c342572	7e184da5-c0d3-4a2f-9c5d-cb526507b072	Filet de cabillaud
-287f63b7-5af7-44e1-b6f1-f5c7adbb4f00	5c794afee3f3396cd34fd752	a7203ff8-25bf-4641-9e62-f7f3d139137c	Filet de cabillaud (100 g)
-b065934d-3924-4333-ab03-69322f342ad7	5af2be72ae08b5194415a2e3	5ec1f153-24c6-4e40-be07-1a7b28c176be	Filet de cabillaud sans peau
-7d878d3f-66e0-43d4-bbfd-6d0bd6c9794c	6405bf5db0da19477798622d	43b7404c-ee62-44e7-950f-ac4f441192be	Filet de cabillaud sans peau
-2673ad6a-d50e-4363-a7d8-d31278b39d59	64073baadf6297bb5beef101	1b459eaa-6d36-41db-ba9b-6bf426693ab0	Filet de cabillaud sans peau
-612fb2ee-e8e5-4397-abc9-8f2100a2c135	6405bf83b9d07cd5d38d7aee	eac3d46e-54fe-4003-b400-c3e10071f624	Filet de canard
-5845a453-6d5d-46a1-aa5e-1d0bc890fc36	6405bf4faf4af6d531d50b2a	c8f3b2ff-aa62-445d-a665-4fdcbb89869e	Filet de canette
-32483b6e-8ea4-4706-ac96-3901eac35cb9	5b1a8f6eae08b5414802e882	d055901a-7c9e-45a7-b54a-ffc2d1b929d6	Filet de colin sans peau
-2914f06e-6b47-4ae6-9bd4-6f515b97e3d6	5af2be85ae08b5194415a337	5da1deaf-9745-42a7-b557-21ba538275d0	Filet de daurade avec peau
-eff19db3-7810-4450-a323-d6b80e6fd7c1	64073bb6683721c9a32b074c	e9b75a08-7566-40e2-b525-26ba899c509f	Filet de daurade avec peau
-450d2a16-da3f-479f-aca1-b3bde019fa06	6405bf36af4af6d531d50ac3	5a223f6c-0f21-4e7d-98f2-cd4d1d7386f4	Filet de daurade avec peau
-00dc9fc3-3692-487f-a61a-ba1634d18618	5c66d29be3f3395bc35f7312	b700cf97-9281-4fd6-a463-1d51468b7027	Filet de lieu jaune
-93285e7b-f3da-4d0e-9260-c7c7a8b164a1	64073fc2683721c9a32b0908	c576ebc2-837f-484f-8f4b-faa8a0be828e	Filet de lieu jaune
-044d3121-ed88-40a2-9dd1-16a7d2c6b095	64073bab9c6d10cd16eab61c	4240bed6-0c28-4b7a-825e-1be9df2f7da1	Filet de lieu noir
-88faac7a-030d-4ed6-b498-c513828fd813	6405bfb1b0da194777986354	5297cff5-57da-4fcb-be1b-f34c8debd565	Filet de lieu noir
-ff57b7f5-0f30-486b-8d9f-1db22013d49e	64073bb19c6d10cd16eab625	0d507d44-548d-4a70-b270-da61674968cd	Filet de merlu avec peau
-b52e990a-c4f5-48f2-91e3-f8ad113b0efe	5af2c154ae08b51b804e58c4	1c26e500-ba91-45d3-8d5a-82f0fcee5e21	Filet de merlu avec peau
-c9aefc15-a17e-4428-9a1a-9e35430798b6	6405bf2cb0da194777986191	de729da2-1a3f-4af5-9aaf-e3e1e78c4d84	Filet de merlu avec peau
-049970b3-ec09-4c2a-83fe-1f49080d6704	6405bf1ab9d07cd5d38d7967	c4d89c98-3ab3-4446-9b43-1dde67bd970d	Filet de merlu en croûte de pétales de maïs
-0761c693-0c0b-4d8e-9836-ad9ed99c636e	5d2456026bca36000c51c1cc	07f3e6f1-c6fe-47a8-af38-f915d58cce0d	Filet de merlu en croûte de pétales de maïs
-cb6cebf7-ddef-4933-a874-f8c66205b603	6405bf8fb0da1947779862e8	19cc3d30-1433-45b3-9869-f60d485d3049	Filet de perche du Nil
-34eb9803-c749-4be1-90b0-39ee800cee46	5d03aaabe6881d00144e98d3	89a0e367-97f7-4a16-b13c-9cb7b7d30617	Filet de perche du Nil
-dd6db2af-9abf-47ff-8ce4-b9e508e52304	5af2be38ae08b5194415a20d	f798300a-5f2c-4cf6-b68f-080ad4311907	Filet de perche du Nil sans peau
-70631a7c-5223-4d1a-9bdf-aef75623562d	6405bf3eb0da1947779861d0	5819054e-dd9b-451d-b6d5-e2ad790fc818	Filet de porc
-b6d0e905-2de7-4159-a7fd-0ce60299b600	5e3bf6859ce22818eb199f8f	4bbd87eb-0880-48a1-afa3-3ba8da17f3c8	Filet de porc
-ef324d5e-d3a5-4e86-81f7-7bfbf00dcc55	5e9063c95ecacd749e661d51	5455fac0-9457-49d9-9f1d-5fbf4b83fca7	Filet de poulet
-2eea9903-b29d-496e-8162-acf10295f8d1	6405bf28b9d07cd5d38d799c	3ed4c2a8-6adc-463d-9896-7f3589f3024d	Filet de poulet
-bb7fea40-a448-408d-822f-4ca1c9ce78cc	64073ba7df6297bb5beef0ff	0d9e7911-da10-4172-8390-468c093e34a0	Filet de poulet
-aa019cc8-7e64-4da0-9b13-44ac52af654e	5e735f9577e50120590c05a5	8b3c5c0b-2a94-4c87-8bdf-f137976942de	Filet de poulet à la méditerranéenne
-f41c9b09-f307-43f1-87f1-0b06a63e1ef8	6405bf32b9d07cd5d38d79bd	45ad82ff-4e37-440b-952e-a1647285333e	Filet de poulet à la méditerranéenne et à l'ail
-ca42cb69-fcab-4d34-8573-c796437c87a2	5c6ffcdbc445fa23d4707943	ace8cf94-e9fe-4053-8769-3dd50c25a7f3	Filet de poulet aux épices méditerrannéenes
-cc583a1f-a1ca-497a-a99b-df3c72858c83	5af2be9cae08b5194415a384	5b3da950-8dcc-4f19-ba2e-0cb16530eabe	Filet de poulet mariné aux fines herbes
-2f3bf0ec-8db5-4ff8-9d7b-65e2641d7515	5d3f155f265a5e000f76a20a	796bb1e0-b095-490d-880f-9a427489625f	Filet de saumon
-feff3be9-e856-4db7-8b7b-da21a1130b38	6405bfd8b9d07cd5d38d7c10	e21ba828-d0a1-4f75-bc29-79702361203b	Filet de saumon avec peau
-29137ed0-9e7e-400c-b901-d5df24b01fb5	64073bd29c6d10cd16eab652	e9e9530c-06f8-4b72-b082-9f5c4bdcd964	Filet de saumon avec peau
-12481e97-ddda-49e5-bd77-a9ec59b109a4	5af2c173ae08b51b804e592b	0cd0e9b6-21af-4318-8e6e-c63cc6ecddf6	Filet de saumon avec peau
-05d84c79-f320-474f-bed2-6e45fa3c5a42	64073ef99c6d10cd16eab7d9	f3544194-2d85-4e5c-8dc9-303cfffcf84f	Filet de sébaste
-d209d786-6396-4779-865f-145a38d6efbe	5b362c9430006c53516f4852	7888a192-2497-4f53-9225-ceebf8af83fc	Filet de sébaste avec peau
-6accca76-7631-476c-bdd1-cc17fa0374af	5af2be48ae08b5194415a24d	cc36078d-35ec-4d98-b4de-5e698cbc9c7d	Filet de skrei sans peau
-83bf5a8a-4ffd-4232-ace1-6ee015ede316	64073c9b9c6d10cd16eab6e2	cd545073-3aa3-42e7-a2d6-fca914b7bdf3	Filet de truite fumée à chaud
-f3573a8f-8e9a-49b7-b661-b47b65241560	5af2be6aae08b5194415a2c8	30f4e7ab-65db-48b7-93c5-abb630c829b1	Filet de truite fumée à chaud
-ef37f7b2-3963-4b84-8e6a-67aba69f69c1	6405bf43b9d07cd5d38d79fa	302789d0-8f91-4f9d-9e7a-9059c93664f7	Filet mignon de bœuf
-a582dd1a-3ded-4a1c-8dee-4eb3c445eea9	5af2c163ae08b51b804e58f6	8519d517-6b56-48ef-b6e8-3eb65b3f53fd	Filet mignon de porc
-40e62375-dab8-463d-940b-308652f73bbc	6405bfc0af4af6d531d50cc0	ad8722a5-0544-4bbf-9564-75c74bdf0e3d	Filet mignon de porc
-c6864931-dc2e-4d30-9d83-05801b145afe	6514c2c1aab557d393d8cbee	3b97302b-fde9-4f86-b8f6-05819627291f	Filet mignon de porc
-a8686734-e02f-49f2-9cc9-89f82f31aada	6405bf74b9d07cd5d38d7ac0	c4c656cc-fd36-4454-9214-de15c77f5de8	Fleur de pensée
-e4078b2e-01b2-484b-b722-e26de7e1e9a4	5af2be2fae08b5194415a1ed	caa83bfe-6a2e-44d6-b84c-8337a6cf5c07	Fromage de chèvre frais
-91946bd7-97e0-473f-b166-75858351cd79	6405bffdaf4af6d531d50d86	e53b10ba-0bdf-432e-ab24-b879d5e1b584	Fromage pour tartiflette RichesMonts
-937cc101-94c3-4d21-87cf-70bd80e2d458	64073bbbdf6297bb5beef116	742fa40b-362a-431e-9598-137452629b11	Galette de blé noir
-48975434-9906-46ee-94b2-777e32c79b7b	6405bf47b9d07cd5d38d7a13	8181d4f9-b915-409d-9bb6-f214493e259b	Galette quinoa et tomates
-fb1584fd-b13f-42de-b6e2-4e2e68f4ab67	6405bf56b9d07cd5d38d7a4f	48c3d321-e985-4189-9f9d-71e8d33ae8fd	Galettes d'épeautre
-603029b9-571c-4b16-a024-0d515be78ad2	5cdea15cbfc591000d02b434	8c75ebc3-1c7b-41bd-b352-0bf1e8b45618	Gouda Mi-Vieux râpé
-c62b89dc-d875-4d73-9b9a-9c0e9071c52b	6405bf62b9d07cd5d38d7a7d	a8058dce-b626-4b1e-bd22-b59775ce5268	Gousse d'ail
-7b4e9ae1-f33a-4935-9557-720bcdd0ac89	5c8bcd9de3f33973480ec962	74d6ed1b-2dda-4433-8a59-436a479a028d	Gousse d'ail
-3f8c1122-10ed-4dff-90c2-cbf20899c124	6405bf7ab0da19477798629a	eda456c7-efd6-46cb-b04d-503fcc204e33	Grenade
-9bec5464-7b3a-41c6-b293-db3339bb0168	5af2be21ae08b5194415a1c0	5a3eca0e-838f-478f-8f7b-6e22fdd29860	Grenade
-a281e92c-54d9-4bb2-9648-3c47ba1b4b7b	5d725d970dcef1000e487d79	0ad8f787-b487-4a1a-9740-367ed6c94649	Grenailles
-f0f465a3-7b2a-43be-8a29-0c7996e13b53	5b0bb2b730006c47d07bd8b2	986420cb-020b-421f-aa31-bd1712ef2a61	Hamburger
-e0daebd2-0710-4539-880f-3c5737ab0377	5af2c170ae08b51b804e5922	e4482bc7-2296-45f1-a78b-defa1c32fcd7	Hamburger aux épices thaïes
-7eb761d2-2217-46a8-9c3e-8757b406a84c	6405bf3baf4af6d531d50ad2	7b73171d-a003-4110-9988-cd289b10fcc1	Haricots blancs
-8f38f329-35ba-46d7-947d-ea7c1eb36111	5af2bdf9ae08b5194415a120	c6614deb-7caf-4091-9120-6cdb444a2574	Haricots noirs
-480a1f2e-098a-4cc4-b7a7-20f4580cd12d	6405bfc9b0da1947779863a7	c3ac70c9-4588-4630-be17-faf3e0ae1e41	Haricots noirs
-b4e73b35-a677-489d-a03b-52351905f386	5cdea15fbfc59100161288d2	a22fbb81-4eb1-42b6-866e-111659c41fa7	Haricots plats coupés
-568c0def-8ebc-4cae-8147-62524dc67409	5c66d2a3e3f3395bc35f7315	2fa2908b-9ab2-4125-93cf-08f5689c90e3	Haricots rouges
-3a6af7a0-9d6f-4215-955d-02f63b6bb050	6405bf81b0da1947779862b1	ed76703c-8049-42e2-af9d-b32e89a62eff	Hauts de cuisses de poulet
-c96326f5-0c81-4408-ab4e-a0c671760f08	5e4a47fa1841fb3d373ae1ab	1efaef8f-3060-4beb-90c2-700bcb7cc977	Jambon à l'os mariné au miel et à la moutarde
-3c8abf5f-c970-4861-9f22-edfba3fe0231	6405bf69b9d07cd5d38d7a92	271b52b3-3625-4a99-8844-546fd176f3d7	Kiwi
-232e0e3b-5195-4206-836c-e6df7127a6b9	64e606082d4398dd759153a5	97d4f91e-5d40-433f-8668-92008d09dd5d	Kiwi
-2287185b-541b-47bd-b509-ca05267eeb94	5af2be65ae08b5194415a2b4	91104bd7-4bbc-4064-a985-684e94f79864	Laitue
-b769b6b4-d7b6-4540-9c20-46d2f3fafbc2	5af2c149ae08b51b804e58a7	376c178a-62d8-4ca0-88a0-cd50ac096ff2	Lamelles de cuisse de poulet
-49ad49c1-a1ff-4b70-81f4-0145d29e1ca7	5af2be0fae08b5194415a182	3f447386-22ca-47f6-a6d8-89c4f9eba637	Lentilles
-9049ecf1-233b-4c55-84f0-335afb574a4e	5cfa73b4d8a87100113ef314	2b1154ee-09bc-465a-bc26-f0824c9780ea	Loup de mer
-37b4eb78-34c4-43f2-9e87-60e35e1f01af	5c9e3f05c445fa5e430ba4a2	cee41b41-8b33-412b-acd7-75e4d4177835	Maïs en conserve
-f5156a30-07ef-4c79-8253-690da8cc9dae	6405bff6b0da19477798643f	c973a39f-beff-4aa9-8b40-d49d2e38e96f	Mangue
-c109768c-17a9-4c1a-b443-d04d17a88eee	5cfa7529167362000e761a39	88f0fa37-586e-41a7-bb8e-c8a47588b49a	Mangue
-08d85b22-e8ab-4a2f-b12a-dd42218efbdd	5af2be5dae08b5194415a296	6157eaa3-6e12-4920-bad3-2ddda2d2bd67	Mélange de jeunes pousses
-579e4dfd-ad42-4f7f-8d92-be1faad6d6c5	6405bfeeb0da19477798641f	5d9883a0-67eb-446a-96a3-6beddb9e1bed	Melon cantaloup
-20463965-236e-4b9c-97a0-5e8868609f2d	6405bf9aaf4af6d531d50c3b	30d81baf-5c14-43bb-91db-acd43418a7a6	Melon charentais
-a318d3a8-e194-4663-993e-f81dc84d69d3	6405bfdab9d07cd5d38d7c16	2802fbd4-c7b6-4b0f-99d4-5713e3d8f456	Melon galia
-3fd1659d-ef9d-435a-a081-ab947e1757ad	5d2c50009de581000e37f6cd	ecda55b1-d2f3-4974-b011-0d777756fac6	Melon galia
-a5f63914-d671-4901-929f-625fbb6d258a	5cb44922e3f339395e60f252	40230058-db21-4d24-b902-58a57bdb6a04	Merguez de bœuf
-264a8fc2-9f85-428a-a611-8f1af5690dc6	6405bf77b0da194777986294	3c7ed099-85fd-4538-a8ad-edfb5a54636d	Merguez de bœuf
-b56593c3-3619-4d21-bdcd-67f9e989f982	5d2c50059de581000c3e29ec	3c20dbd5-575f-4a1e-a534-6b7e2f1f31ad	Merguez de poulet
-afd0e35f-9c00-4b4e-9030-d2be7c4b1910	5d03aab9e6881d000d696ab6	a10d33ff-8710-4b45-8318-91d53315c61c	Mini pastèque
-b0f97436-86a7-433a-80a9-1c8b16daacc4	64073bd4df6297bb5beef143	e61f1d4f-5e1a-41af-a908-175e0e01dc3c	Mini tortillas
-e86eaa35-5a65-47af-b79b-8e3b15c6ee56	5d5d5fb8cafe9a00085ebbdd	3a39ea1a-2864-4947-b5f2-b823ecd3581c	Mini tortillas
-df2e00ba-3a96-4194-8ae0-5184cc9f00f0	6494e16b2417a80cb660bac1	13dad2f2-33ac-4c12-a29a-4f6895259cc4	Mini tortillas
-2cb4061b-b83e-4267-be1c-8e0bd184ec40	5e4a42ab179521032f127c36	50ea2fbb-9ebd-40f7-963a-edc88922058e	Mini-pain à hamburger complet
-d383faec-b366-4c3d-8868-3b3caf3c88d4	5af2be2aae08b5194415a1e0	0f7a141f-84c3-4c2d-979e-af0db8afa5f0	Mini-pains pita
-e8c5fc02-9ba3-4add-9973-bc91b9b297d1	64073ba59c6d10cd16eab614	7cb63b03-9b3b-48ac-98a9-360ea0a4b3cf	Mozzarella
-d9b8c680-971a-4cb9-bf00-5e62a116df36	6405c004b0da19477798646f	7935aa30-b225-4b3c-b6b9-ea29e6e0c5ad	Mozzarella di Bufala
-c99f41af-576f-4d71-8101-42fcfc570907	5af2bdf4ae08b5194415a10d	2871bac3-7f09-44c8-86d1-bf1adb17682a	Mozzarella di Bufala
-2a57c506-9981-4c5d-8523-caa67a5ef3b4	64073bb9683721c9a32b074d	2ac0e375-ffd1-4425-9c68-e77fd7dc05f8	Mozzarella di Bufala
-9a597009-70ca-44cf-acb4-18688b30c057	6405bf65b9d07cd5d38d7a85	cb884d1c-a3f8-4711-a485-b7d84b32d42f	Nectarine
-017b48a2-e885-4ef7-a0ec-d6ac045c3676	5d2455ff6bca36000d28ed33	e1050d87-05f2-42ac-ac16-3aa194add566	Nectarine
-bf92f298-cff6-4139-8818-e7b679a8b484	5cdea16abfc591000d02b436	3e68a569-1148-4590-8fac-8f60b05def3b	Nectarine jaune
-36512f8c-18f4-4edc-b7f9-6c85ebe48be3	6405bf64af4af6d531d50b8a	ecf3a7bd-80d0-4ee2-8b57-cd0215524448	Nectarine jaune
-01a363ce-074b-4974-9c18-337f145029b0	5af2be52ae08b5194415a26e	8290c79e-7e77-403d-b096-98d1e9f692f2	Noisettes grillées
-a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	ef9d60c7-39ca-4020-9c46-7fde34143a44	Noix de muscade
-a2fb3bb2-067c-41e7-9a08-fb268230c9a8	6405bf95af4af6d531d50c1f	16ede016-2f1c-4753-89a7-4bae10560f6f	Nuggets de légumes
-f4cd6532-6489-4e10-800c-059694a0063b	6405bf55b0da194777986218	2de512b6-127f-4933-a3d8-77f1977324d4	Œuf
-9c2e39a8-8fc0-49a0-9a1a-4b5448e1fe1a	63e5121d81b4b295e66f0254	939cf6d0-beb9-4e89-9829-565fee32f52c	Œuf
-3293c7f5-db27-4a77-966d-c74f5f67a004	5c8bcda7e3f339735a76c463	736e5074-5a60-4e99-a298-c9b2784a3f7b	Œuf
-4dade0ee-5e3c-488e-a20b-d764d2f2b6d1	6405bfafaf4af6d531d50c89	a0c365a6-1eb0-4c12-96d3-b53f374279c2	Œuf de poule élevée en plein air
-8ebcd743-b0c9-4f9a-9e8e-d3337d21f237	5af2bdf1ae08b5194415a104	972a26d4-2707-478c-8ab8-4d86662a9d62	Œuf de poule élevée en plein air
-5eed7f31-5b46-4772-b1a2-60a9d914b1f5	5ea3187761c44b3f723c1bfc	155867d1-c593-4c3b-a32d-55f654dfbb5c	Œufs
-f0ef4881-e75f-4a70-8b9c-41e95d629887	6405bff8b0da194777986443	05f315d0-ffac-45bc-a419-ce6b2ed3c74d	Oignon
-a0d592fb-656a-47ac-9c02-0a6b7755ba29	5af2be31ae08b5194415a1f6	6b8325d0-2a36-4a16-9160-2374ad50b133	Oignon jaune
-32121d52-3472-4e0c-a4b0-eb1f093e8278	5c8bcd9ee3f33973480ec966	823b41ea-06c9-499a-aff6-e1c8dca47a1d	Oignon nouveau
-1a4cac92-06cf-4aad-a5bb-7235c07fbc17	5af2bdf7ae08b5194415a11a	b53aa60d-fa63-4972-8111-b6de90e12a9b	Oignon rouge
-a54e4958-cfe2-4c32-ab86-e731ccc8b6d4	6405bfceb0da1947779863ba	f6874caa-27a1-4fe4-a617-f1280c865700	Oignon rouge
-26350040-dc49-44da-ae0b-9c3e5bc241ae	5af2be2eae08b5194415a1e9	af846e04-f0c2-4dd6-a05a-d6445d599dd2	Orange
-db4ab06c-043e-4aab-a6db-e2e718f3b989	6405bf35b0da1947779861ae	2e8bb09d-3329-4000-8443-acc780e46514	Orange
-ab1d2931-842d-411d-be58-5e423d84b03c	5d80e40b99ea5a049e5cc468	7a958103-8e2d-48af-a0b5-114323ad4aa3	Orange sanguine
-28fe14e2-031f-4230-96f2-c5578ebb99ec	5af2be3eae08b5194415a226	b41424ea-8c5c-48de-b6a5-c9b1ef505edb	Pain au curcuma
-b04db1fa-2fb6-4060-b06d-a57e14a94f46	5af2be1aae08b5194415a1a5	822de108-6531-4b0f-8661-b85b61c2ca25	Pain au levain
-597b1a54-47de-43c6-91cb-a473dc9648a9	5e68de0c03c57802fc06c6ab	2b2c536b-ce48-4046-9c25-4d03ead572bc	Pain bao
-16a18e06-e945-49b7-ad06-ae87c41068c5	64945b3c2417a80cb660ba7b	ee3abbe1-7b2d-4d31-b2c5-f2825c134799	Pain bao
-d598891d-005b-499b-a457-70098f43bd22	64073c7d9c6d10cd16eab6d4	bdee3e0d-0109-4570-99cd-3d3062605d03	Pain bao
-dfe16d1e-41d0-462a-84a2-90a50f3dbfba	64073d69683721c9a32b083e	957cfcf9-4d8e-4c0a-8b15-7dacfb4463ac	Pain bio au levain de seigle
-fac61bd0-d267-4ab0-80f5-353d04a06fd4	64073c75683721c9a32b07e3	2fd31686-aa62-44c8-829a-c06ef4498500	Pain brioché
-62d994f9-4449-4d3f-8fb7-43b89e433528	5df9f3bbe373522ec63de501	b7c24021-6cf8-4497-8ae6-f94ff23d7b44	Pain brioché complet
-6f9a9a0c-4fdd-4f0b-8239-2915447e718d	64073befdf6297bb5beef15e	414b7480-ee04-4e66-a82e-59c82388a5e2	Pain burger
-fe058a4d-1995-45a6-b92f-8bc4992b1451	64073bc8df6297bb5beef133	fe99e613-2af8-4227-ae94-8e4ba76eea31	Pain burger au sésame
-5f3361a0-db48-4015-b7ff-efb3f796e140	5af2c14eae08b51b804e58b2	39f8bde3-2eb5-4b8d-b6e5-03086d81df2f	Pain burger au sésame
-3ce59ede-b563-483e-9e57-df3ee6f9fb46	64073bcd683721c9a32b076b	d8098ebc-14b3-4748-a2f5-26e445c9d40d	Pain burger aux graines
-fe2a39fb-8df1-4b93-b8da-7cbd7dc0792d	6405bf79af4af6d531d50bd2	bb6072a7-e19f-4134-81ae-ab5c066ca77e	Pain d'épice bio
-b3229999-cd98-45e3-8fd4-cf97328d5857	5d3f1563265a5e0009517285	42ac2493-aa76-47e5-8a83-b53bc1c9534e	Pain d'épices BIO
-d4b4b9c1-6540-4b32-b955-aefd9c16e8a3	5cb44981c445fa72dd0dffe2	4d9e9dce-3283-47b7-b0b7-3f387232c35f	Pain gris
-6080ffed-998e-4952-9458-afba74da8e57	6405bf5eb9d07cd5d38d7a72	32c2c11b-dea1-42d4-9dd2-92a500c7dfd6	Pain libanais complet
-0edccd05-a4b2-449c-9fd1-ab6887a0c5a1	5cfa73b2d8a871000d34cac7	c2ff693a-01d1-401b-aea5-91bc7fff6968	Pain libanais complet
-417be128-bf1e-4a0f-bf28-bad5e3783bf3	6405bfdbb9d07cd5d38d7c1b	866f05cb-e663-4ee7-89aa-0fe61ea98590	Pain naan
-ffd2526e-4ac1-4784-b063-05de3a660734	64073be69c6d10cd16eab660	71d6d654-fb75-4f7b-b28b-6e42bc55c1bf	Pain naan
-46e05ab6-e72a-4d51-876d-8542d208b68b	5af2be00ae08b5194415a145	de963be6-60cd-4bed-81f2-afe4d4e1bebc	Pain naan
-130c1e54-9d72-40b1-b9ee-bf1da42cfee2	6494e1765f6a5ed9af3caf57	237826c7-1755-4e43-ba7b-2200202b2be2	Pain naan
-d528b5aa-50b3-48b8-8e0b-81c8662c12e8	6405bfd7af4af6d531d50d03	88c230de-6558-441e-bfac-fcb6d0cc74a5	Poitrine de porc
-f748403a-9ca2-47e8-9f51-55b41eb1365d	6405bfeeb9d07cd5d38d7c57	54b29938-1e74-43a6-a7fd-b8f32e4fd8cb	Pain naan à l'ail et aux épices
-61650eda-6072-45a4-a124-8cfa353842c8	5af2c16eae08b51b804e591a	719253ae-589b-48cf-ba83-48fcbbf89bfd	Pain pistolet aux raisins
-3324201f-369a-4078-8b86-1328604a780b	6405bf6cb0da19477798626b	2b016026-d186-491f-b791-709f1bcb2e79	Pain pistolet gris
-fce1aeda-68c4-4548-a820-72d610c927df	6405bf41af4af6d531d50aec	f4255794-38a3-435a-bb5a-3603823446b1	Pain pita
-5d7f0df0-65f6-4a12-82ed-7d0cbf3a2ed3	64073bc4df6297bb5beef12f	82cf9a8a-bca1-429a-aa7e-b76e8bb057d1	Pain pita
-4b0fbbe0-b12b-4d8c-bf05-2b30eb0c0edf	5cebf6d91ce852000e1825af	bfc2976b-487e-4154-a087-849a0dc25aa1	Pain pita
-4673a8ad-13da-4b37-a8fa-e92175004746	64946e4f2417a80cb660baa1	9e93b584-8483-4beb-a73c-7b754efc3005	Pain pita
-8559691b-3957-4fed-8d26-03aa204d9bb6	6405bfc9b0da1947779863a8	b2e5a1ed-4518-4754-a2b7-9557cc99e6b7	Pain pita complet
-3c2e1450-bdd7-4a93-80af-bdbb697fa053	5cf1438fb9565e000f6d310a	65774456-9613-418e-acfc-108d51a4f6c2	Pain pita complet
-bf4a19f0-3945-4098-8925-10296dc2544a	6405bf48b0da1947779861ea	e2f52b6d-620f-4433-83ae-9cf4c5529a7f	Pain plat libanais
-bfea25f4-447c-41bf-878e-fd4f7e7c5e65	5e304af3071555431110c815	5f7c6ec3-8c22-4dbb-981b-a7b38612530b	Pain plat libanais
-45b2bc57-7e33-41f8-b041-183e50d09ac3	64073cc39c6d10cd16eab6ee	ead7c39b-a2de-4257-986f-508daad8cfea	Pain turc
-8f0f83d5-8c26-4f2e-bc97-acc251876716	5e5f567c3e455f755d4c0184	40205c57-8504-46b9-bdbb-8a0bc78bc0ff	Pain turc
-076d9455-c2cc-42e4-92e5-86c15ad13284	6405bfecb9d07cd5d38d7c52	1c0ef948-563b-4746-bbb9-b2e708d6264d	Pain turc
-70615f92-8c8a-4a70-b524-a952e54a3daf	64073c24df6297bb5beef186	95f45cfb-20bd-4708-b38e-863f2c65819e	Pak choï
-f336daf2-5831-4e4c-ad1c-22d90ea30598	5af2be0fae08b5194415a180	7ff4fea9-0280-4be1-8712-f680b9852d5b	Pak choï
-84df8f8f-bcf4-45b2-bb10-521e39ac14f7	6405c006af4af6d531d50da8	2b14984c-8287-4107-a858-54986d810f46	Pak choï
-50e5eae2-e98f-4d8e-b25f-30e607e2e717	6405bfe8af4af6d531d50d34	1d0bde87-6575-416e-82b9-336b4f2fca68	Panais
-d154a79b-5635-4fee-9d45-31c52103638d	64073bba683721c9a32b074e	03c6d457-3b59-45a1-a004-4b41b542bbd6	Parmigiano Reggiano AOP
-eefe9e8f-ba45-4e25-9729-8892b4ab06c3	5c950d82c445fa28d02a8da2	c09f32ea-48c3-42ad-a5b0-36573d7d484c	Passata de tomates
-fc203d5e-2336-4d3e-80c8-e27c2fdb9899	6405bf6fb9d07cd5d38d7aa9	8d4e6dc8-b792-4513-9629-ebc601883780	Patate douce
-f5f3edff-b82e-478f-bc9a-72268395ba28	5af2be5dae08b5194415a299	9907be1c-57f5-429c-bc05-ed88a1d4a428	Patate douce
-a3b64f8c-d69a-4797-9885-22d4e25fc4b4	64073c51df6297bb5beef1a8	358f0614-b6ef-44e2-8d9c-4b898bd0d685	Pâte à pizza
-50b24c5d-9560-4b9e-8703-4691a81e1973	6503359232e9107c6db92035	46ef818e-a43d-49dd-8fc9-4e00c56faabb	Pâte à pizza
-3a022423-2a11-4afd-8da1-78c2f8ae0fee	6405bf65b0da19477798624e	72bad404-34f9-47cd-82c6-63cc4d296859	Pâte à pizza
-38e24982-7037-44c9-900a-0c197756527e	64073bc8683721c9a32b0762	dd5b5cd1-9203-4bc6-863c-cb0ef2ce0371	Pâte à tarte
-750b0c67-0fc4-43e4-bcab-32437024bc29	6405bfccb0da1947779863b2	7e3da94a-009b-4ed8-863f-04fee6d157ba	Pâte à tarte
-3735185d-c10b-4504-8a5c-df18a86fbf5e	64073c039c6d10cd16eab686	52795abb-3b3b-4400-8cbc-d432fc2a31be	Pâte à tarte
-53b09a11-8369-437a-baba-15b77e78cede	5db8499971086468f669b615	5cf86e57-309e-4522-831c-e70e7063178f	Pâte de condiments thaïs pour wok
-5384fc62-1910-43a6-a324-aca27f0f1967	5af2bdf3ae08b5194415a10a	e6e46a4c-3767-4721-8010-7cb864659b4a	Pâte de curry vert
-f33dd91b-daec-4bd7-8a41-fae26686390a	5cfa73b1d8a87100142eb5b3	b6773401-3372-4902-a753-bf203c3f3335	Pâte épicée balinaise
-d62d93ac-b8e4-4e4d-829d-5b725662ca6b	5c0109bfe3f33939791482f5	64df2aeb-d643-458a-bf5e-007077574c47	Pâte feuilletée
-6b0796ad-d27f-4dbb-96e2-1a80524c6a21	6405bf30b9d07cd5d38d79b9	ad5ed382-bc4f-42a3-b8c1-3397807b100f	Pâte filo
-e9f50b49-e884-4beb-8a84-db68f2d07c30	64073c059c6d10cd16eab687	3e625231-5b54-432a-bc8f-3c542a41a4e1	Pâte pour flammekueche
-b07ec335-cbcb-40dd-a8b5-da47d11745b3	6405bf39b0da1947779861be	093b9900-4724-49ab-a498-a6b117372544	Pâte pour flammekueche
-49b7d63b-ffec-42a3-a29f-c7c3c8ada9b9	6494e1755f6a5ed9af3caf56	c649aca4-4dfe-452e-ba38-1196b9ddc196	Pâte pour flammekueche
-1263d732-3df6-4274-9f91-ded27492d85a	5c8bce19c445fa62b21ba034	9be1a705-e2cd-44f5-8f21-1f232ccefe15	Pâte pour flammekueche
-cc259f92-3b0e-4868-a5cd-7d01325fdc12	5d3f1564265a5e000b6055dd	1d322547-7f96-46dd-a40e-8f1379aebbe5	Paupiette de veau
-263b9285-2287-4898-9113-b03515731efa	64073cb8683721c9a32b07fc	571e248e-ed8e-4227-b24a-826e57169d0b	Paupiette de veau
-2a12f8bd-9167-4710-b028-97ecfde7a839	64073ba5683721c9a32b072f	9db39063-ea52-41d0-b24b-5e032ef63375	Pavé de bœuf mariné
-6df4db96-c318-4087-94fc-f0accb6566dd	6405bf46b9d07cd5d38d7a0b	fb455d9a-b856-4f8b-b3a8-a0efec5c638c	Pavé de bœuf mariné
-56ce04bc-bed2-45b8-83f0-2ee88b4b5cfa	6405bf34b0da1947779861ac	36d79dbb-f3c3-43a4-82c6-be6e232881b6	Pêche
-d82a0700-84cc-415a-964a-3fed33d9fef3	6405bf4ab0da1947779861f3	a9e05450-2a7d-4530-90aa-acf360e44771	Pêche jaune
-484073bb-055b-4fac-ad2e-56b546ef4dba	64073bdd9c6d10cd16eab657	d418ce42-16d7-4a9d-a355-f823600ad650	Petit pain
-77474d13-dd1b-4a8a-a76a-72e983c9d4a9	64073ba69c6d10cd16eab615	7c8bf018-e6ab-41d8-a208-9ad84affb0f7	Petit pain
-74282d74-55d4-471e-8455-95ea2069bcc5	6405c01eb0da1947779864ca	cbb88277-7233-43cc-bcc9-e3f48d628efd	Petit pain
-8a11a028-be63-45be-a671-6bee7f40d5c5	6405bfa9af4af6d531d50c69	d5f0488a-7ed7-4219-b9b1-ce5ca16e82a5	Petit pain
-22c49a41-78b6-4324-bb9d-41a1d4501f07	64073c399c6d10cd16eab6ab	25523693-1d13-43d3-84f0-411fd69d4c0f	Petit pain
-594e93ea-b115-4687-8089-c44706e379bf	64073bbfdf6297bb5beef124	07e0dd2b-32a7-44d3-a6f3-21b90e9881bc	Petit pain
-75eb8b06-7c88-47e5-8ddd-587a90385d74	64073bd9df6297bb5beef146	90dd9b79-569f-47a6-a23a-5096f3952dff	Petit pain
-884dc643-fc48-463c-acb7-ffcb43082e3a	6489060a7b6a161d101f75a1	7a2542da-901c-4479-8feb-73fcaac5446e	Petit pain au pavot
-a95a14a0-3564-4044-8bd4-719383f4e580	64073d29df6297bb5beef20d	0d29efac-e744-4c76-bb59-16a8c3590325	Petit pain au pavot
-609a5bff-0de2-40e4-9cfe-3f1467904d16	6405bfe1b0da1947779863f5	3e765e7f-20bd-4b2e-8c98-8359f0e88c76	Petit pain au pavot
-f960e8a1-309b-42ee-9ae9-6aa45aa20072	6405bfe6af4af6d531d50d2d	41317289-c1e9-4c56-95c8-9d704dda1805	Petit pain aux drêches
-755a6819-e7bd-4b54-8a08-beb8e55e08a0	64073d64df6297bb5beef223	ce1bd4c7-39b7-4a2b-8929-4a0653e7fd4e	Petit pain aux drêches
-1f5bd789-8938-4a0e-9aec-f992b84054a5	5ec507e21a33de639e6e8192	092e9053-fc24-407d-b245-ddc417fc8203	Petit pain aux drêches
-284e8fb7-4d1f-440e-b283-bb9d16a26078	6405bfe5b9d07cd5d38d7c3e	271d7c1b-3939-4562-8b24-97c0fccc5f05	Petit pain aux figues
-57cae4d5-509f-49ef-9a26-e2ea64c2f0b1	6405bf4cb0da1947779861fc	f04fdd04-e7f8-4cf5-8975-cbc526158b35	Petit pain aux graines de sésame
-e7547a0f-17cc-4a2f-9aa8-f0b9a6a5e2a7	64073bad9c6d10cd16eab61d	d912afdd-9dfc-418f-abe1-a3cff9517701	Petit pain aux noix
-a371f774-909a-4252-bf62-9e504b6eca42	5f4914a8feac474fa568779f	746ece7c-9513-48c7-858c-e742821578f2	Petit pain aux raisins
-d06d4cad-1274-4cc9-b428-eb10fbdaf38c	5cd56855729fc2001003da4b	5fe811e4-2c6d-4f7e-957f-4a0aa579f500	Petit pain aux raisins et aux noix
-b2878fa2-f2c7-4675-8884-1a11fcc63ce3	5c8bcdafe3f3397358648c98	32ffa310-a649-47f0-8a1b-e9cab3bdb556	Petit pain tradition
-b48c4e9b-3e2f-44b7-a6a7-713a63490bad	5c9e3f02c445fa5e1018cbc2	4e52900b-bb02-4c15-9d4a-b3c060a5231e	Petite baguette à l'épeautre
-b6e37ad4-a34b-49fc-ac01-9093c545f6fb	5af2be85ae08b5194415a339	92958e41-0b53-4d3c-8027-4c44d6fe12ca	Piccalilly
-f97b842d-2f77-4d09-ac76-d69d4d38927f	6405bf1eb9d07cd5d38d797a	59021e7b-9707-439c-996a-23f80ab1fde1	Pilons de poulet
-61d76f54-ff06-4385-9136-f84a1cefb8fc	5d53d9820f071b00121da481	3ec37142-8abe-4da0-a59c-9994978b1772	Pilons de poulet
-5ef6e383-90a7-462e-9c83-5ba4caeddc13	5cebf7dbee5388000d27602a	790e8a1d-d412-49ce-b348-a99076bd63f4	Pilons de poulet au pili-pili
-63661dbd-f601-4e6f-9ba9-75db6617a79a	5cd56853729fc2001a1b4bf0	6a15b838-f569-4344-8112-d57d87797d34	Pilons de poulet marinés aux herbes
-967afc20-7dce-4a8e-88dd-c03e141e1098	6405c001b0da194777986460	6d3f7ebc-8fc2-4153-b19e-6fef4989ea3b	Piment
-b3e2427a-0187-42c5-9a56-f0f81b1d82fb	6405bf99b9d07cd5d38d7b3c	7c5c6fac-32ff-4ab9-9651-a07d249d398e	Piment
-66363977-fd7c-403c-a311-92c1120d5bf0	5af2c164ae08b51b804e58fa	b0293e52-0bd4-46eb-8fdb-413ea96b30a8	Piment jaune
-ae5f0a1f-4201-4ea9-9011-717fb95a7c0a	5c8bcda9e3f339735561c2c3	566efd62-e410-4e6a-a956-4a14258ebd7c	Piment rouge
-f8f8b3ff-e665-4a77-bff1-bc7d76915ef2	5bceef3630006c2af868e602	ae945abb-bff6-4b66-91c3-90f0b8c79436	Piment vert
-6e78ea30-1e1d-49eb-a973-aa0cb96c26a6	6405bfb5b0da194777986363	4626f6d7-f516-4411-a8fd-13d23d39eb93	Piment vert turc doux
-c1571a53-2418-4832-98ce-57638ef1a4a6	5af2be3fae08b5194415a22c	28368e82-52c7-4d3c-b50f-8fb64c66f70e	Piments rouges turcs
-5459cb75-fca9-4841-96b9-3278d1ef864a	5cb4497ec445fa72c4440bb2	b81c6e28-70c9-4537-b9c0-5ae01a560b1f	Piments verts turcs
-78f85dd3-30d9-4331-ab33-6f8728086584	5bc449de30006c63ef5b8096	818fc601-b680-4ac3-bc32-a2e84d50d983	Pleurotes
-920589e5-168e-4a7e-88a3-afce8a496028	6405c00ab9d07cd5d38d7cb7	097c178e-1ca5-46c3-aa10-70d42f4f997e	Poire
-111fdb1e-269a-4054-862d-88172ca0dc2c	5af2bdf6ae08b5194415a115	4023c5a3-6778-4d63-a0fe-e8c919e491b2	Poire
-121a4815-934f-499d-9780-2e3af5162cfc	5af2be69ae08b5194415a2c5	78267979-3647-4a83-9ce2-75a1a93925d3	Poireau
-2c289dab-e0cb-434f-b8e3-47b94e35fa00	6405bf76af4af6d531d50bc7	8311090f-0268-4be9-a779-a806b1dfd6c3	Poireau
-eb34b602-8a11-4ad1-85ad-1cd57e143a89	6405bfd2b9d07cd5d38d7bfd	942a4e74-0f5b-475e-8b31-d0a0d9d0b6c5	Poitrine de porc
-596306de-5c4b-404a-9c88-a4dc8b23e939	6405bfc3b9d07cd5d38d7bcb	22dc3706-2da5-40ab-a09e-40e071b98ab8	Poivron
-83b30e3e-9b02-4343-850f-1ceeae14c587	6405bfdbb9d07cd5d38d7c1a	d7bf12dc-ffbf-4a00-bd33-e870a4426240	Poivron
-50b0709b-9821-4df3-8e5d-85ee19cdf8b2	6405bff3b9d07cd5d38d7c6b	030858e1-ea9f-4f3a-a243-5a0b66fa341b	Poivron
-38eeda8d-892e-4eeb-aaf1-a1b0b3ee3b69	6405bf2caf4af6d531d50a9c	76e4f5c4-bb8b-4eb7-9239-99af5cecc157	Poivron jaune
-e1d866ab-c5a9-43de-a191-78e100c92fdf	5af2be5eae08b5194415a29b	d73ba42b-1f6a-4cff-9331-30813bc3adbc	Poivron jaune
-43abcae6-4c9e-4616-9d8b-f29cce02436e	5af2be77ae08b5194415a2f9	32eec2b3-3de7-4814-b23b-3250b0044721	Poivron pointu rouge
-ce08a49c-a040-449b-aa04-82b1ac667e7e	5af2c161ae08b51b804e58f1	4424e41d-48b1-446a-bbd9-35c7dd9977d2	Poivron rouge
-d9370a6a-0327-43ae-867d-6bffcdab563a	6405bf77b0da194777986291	4d35f7d2-9fbd-45df-8436-58d546534e81	Poivron rouge
-579fd186-7175-4ae1-832d-8c1760f45eee	5af2be23ae08b5194415a1c7	a770ec85-0472-4c12-9aa2-9a4815250bd3	Poivron vert
-2cb499f0-a564-47de-a718-5e662df17948	5d7bb03a3457f042d043649b	09b08c46-567c-4488-a10b-19406b28b566	Poivron vert pointu
-d1b0b353-4cae-45e8-bc17-feb6ff36053c	5e4a42ab179521032f127c37	675a8fe2-b4ac-4082-bab7-eadebdd4b320	Pomme
-7b1c7fbe-a264-42aa-9adb-10f01d937799	64e611c42d4763a07ee94806	745ee511-eb3a-43d6-ae30-3ded14bd514c	Pomme
-20b12871-770d-41cc-849d-6072ef92399a	6405bf35b9d07cd5d38d79d1	1b65be96-76a1-4679-a72e-d716f00cdbf7	Pomme
-ed94c7ab-cbe7-4235-815c-6d2393906f46	5d03aab9e6881d000d696ab5	9413f0ca-974a-4124-bb98-99d5561322d4	Pomme de terre
-924dc423-c97c-4ed9-8387-dd9d50d628c2	6405bffcb0da194777986452	52aaa296-e313-4f6a-b277-f6e03430329b	Pomme de terre en robe des champs
-26bc84fd-7394-4c44-a9be-fc66ae1f6c17	6405bf34b0da1947779861aa	3b6895c4-d6c1-464b-9fde-f7c7d401a529	Portobello
-959c2e4c-f57a-48ea-9250-c08dbc43f865	5d725d970dcef1000e487d7b	c215c036-8afe-4814-a63b-820b84055c87	Portobello
-520da39b-b27d-44c2-a6aa-73360ec0439b	6405bf1ab0da194777986149	78f31609-0fb8-44fc-80b3-75149c1eeb54	Potimarron
-ff39c13c-5903-4e28-8606-0bf5e97556cb	64073c269c6d10cd16eab69e	63c3110d-408a-4168-b54f-f7b259a55b6b	Potimarron
-a971cf7d-0692-4765-821f-ff02ce9f0840	6405bfa2af4af6d531d50c57	34111388-675b-4283-bb0f-bb4d51f80c4a	Poulet entier
-5163ee42-4dfb-47d6-bf81-1d583d7e00c3	6405bfefaf4af6d531d50d49	59710710-738d-449f-b4ae-ed37384ecc05	Prunes
-ae2857cd-ab51-45c3-8a20-edfb3fd4d806	5af2be0eae08b5194415a17e	98701f74-b507-4470-b394-50a41a3ec98a	Radis
-11bff03a-8d79-47e6-b745-c5a8f9c188cf	6405c008b9d07cd5d38d7cb0	b11709b2-d5ab-4505-ba75-6a1f097a814a	Radis noir
-6bdd9511-a96e-471e-9df6-77fb6531949e	6405c000b0da19477798645b	1c92ca42-cd0c-4e4d-82ec-6a002c5ecd46	Radis Red Meat
-3e782ca1-a5ef-44f0-9e6d-31f505c15918	5af2c156ae08b51b804e58c9	6fe3bc74-a63d-4577-9e67-48d3e10c313b	Romarin
-d3be258c-d4f0-4a33-b7a3-99376005ca3d	5af2be67ae08b5194415a2bb	f291d59b-3467-44c9-a4fc-4196bc55df21	Roulade de boeur farcie
-98974ffb-4c18-4212-b5b8-86a930565c9d	6405bfbdb0da194777986380	9feedbd8-72f8-41b8-a391-47a20370e0c4	Rumsteak
-b02068e2-cb3d-41b5-ad6c-cbbc28a0e040	5af2c171ae08b51b804e5926	7c6bdcce-d218-4ce5-918a-e580b10cb973	Rumsteak
-3fc40bf6-c9d6-49e8-9814-1779d4d9c743	5af2bde6ae08b5194415a0d3	2e5ed7cc-bbfd-447c-8a57-4681bd2101da	Salade iceberg
-8fda3021-d2b8-4d2b-a21c-64f9e1b8282b	5af2bde2ae08b5194415a0ca	4a8c6859-3354-468a-8b9c-7d21452b5303	Salade romaine
-3f31eca9-5b9d-438f-ad5e-e87a005b4d09	6405bf3daf4af6d531d50ad9	af961a99-aea9-4656-bbb4-15a16fa5358a	Saucisse aux herbes
-737f3931-5f8e-4792-9c92-6291eef9ade5	5bdc60d7ae08b57bbd306b22	4d4319aa-66cc-4c19-9b4f-cca638e13135	Saucisse de boeuf aux épices italiennes
-10a775a9-5f22-4c9c-81b7-798c4674cbed	6405bf96b0da1947779862fd	889e597d-51cb-440c-b8a6-3f1891f8a18e	Saucisse de porc
-7829b345-45fe-4380-ba03-05e2239d8053	5c794b02e3f3396d0b09a2b3	9489a270-3ad3-4bf2-be50-a68c6fa3cd31	Saucisse de porc à l'orange et ras el hanout
-4c4cee22-efe3-415c-9c3a-ca15c8031218	5d725d9a0dcef10009125ba8	5ccd2414-5939-4dbd-99f0-dad6ae93b993	Saucisse de porc à la bière Westmalle
-879703b2-b4fe-47ce-a349-0fc1b45614d0	6405bf9faf4af6d531d50c4c	4560ac05-2ec7-4126-b864-71c1800fa1a8	Saucisse de porc au citron et thym
-d61da206-7f87-4acb-9756-6257a21dd4d4	5d3f1562265a5e0009517284	ae0d8622-0312-47db-9b35-093ad7805f8c	Saucisse de porc au fromage Chimay et aux oignons caramélisés
-39e64ed6-fc06-40d3-9960-58b75c7236b3	6405bf6bb9d07cd5d38d7aa0	7626c3ae-8e76-46d2-8427-4d9af3d27e92	Saucisse de porc au fromage Chimay et aux oignons caramélisés
-e3c451a2-fe82-40a9-a6be-56b2ad303b33	5b48b69eae08b57567038402	797e1307-1192-4e6e-a5b8-af4f995eec37	Saucisse de porc aux épices laotiennes
-0a4448b2-c40f-45d9-b915-3b08c201f198	5dcd7272b2285877f1209db6	eca22a34-476c-47cd-aeb1-4e7780fa002c	Saucisse de porc aux graines de moutarde à l'estragon
-65adad96-8527-46cd-a543-03bbcb143709	6405bf7eaf4af6d531d50be0	2a02f72f-847a-4d78-84a5-6a9566da4c7b	Saucisse de porc fumée
-6e065302-86ca-4df9-8e08-4c751f6576c4	5c0109c1e3f339399a313812	0a019bbc-da51-44dc-b55e-31a0c8b413ff	Saucisse de porc fumée
-799f39c9-0799-4882-babc-ec0e295b09ec	5af2be9dae08b5194415a387	546ed772-6fe9-4cf9-aa0d-6452d49a1908	Saucisse de porc, citron et thym
-e85a484b-98d1-41ca-a2c1-87f58db378f2	6405bf68af4af6d531d50b98	6d4e47c4-60c8-4233-8901-5e4fee84e93f	Saucisse de porc, marjolaine et ail
-80e5d84b-9699-4ab1-b8af-71c0bb43935a	5b76db62ae08b523822d2952	56752201-f589-4881-bc3d-4c6904f8d42e	Saucisse de porc, marjolaine et ail
-7dca3c0c-8b31-43ed-8b01-2764a7c2fbc4	5cc6ca73945b190013288b4c	f2bb892c-c338-4c86-b5a4-ae8ef757641b	Saucisse de porc, paprika et amande
-7d2ecf19-613e-4313-93a4-c1cf26417b90	5af2be96ae08b5194415a370	4c2b0a7c-74c5-479d-949f-a6fa8712fa02	Saucisse de porc, persil et ail
-2549f157-a0cb-4e55-8345-49c7fac399eb	5c2f6639e3f3394f955fac33	0aa5ff33-9258-4a84-9631-06b3ff353fe5	Saucisse de porc, pommes et poivre noir
-bdfbb238-a3b5-41e7-ae69-91328a50d4ca	5bbb0a7eae08b506f1706f93	adda4aff-dc51-40a3-844a-80250959dcfe	Saucisse de porc, sauge et vin blanc
-11618fcf-ff58-43d2-b44b-e09e0f2a3e75	5d1326aef67e68001137678c	0f2df520-5703-4a5f-be81-34fc978ec465	Saucisse de poulet, poivron, thym & origan
-9e72b72f-30f1-4d78-97b6-e03d589edc2e	5e578a029a493d7e507765c1	2e2c4ba6-027d-4771-a014-164f76f74921	Saucisse de sanglier
-f2090e24-5453-42ff-8f5d-27034fa2c847	6405c01fb0da1947779864ce	0f72e465-6902-4c13-af97-9d183d49128e	Saucisse de Toulouse
-02eca72f-bc2e-47ed-9ade-bebddc72feb7	5c7e9d88c445fa0bae3c7f62	d93bb7bb-9be2-4393-b2da-aa3f03cf3e9d	Saucisse paysanne
-86694253-dbea-4750-95fb-307a0921b158	6405bfe0b9d07cd5d38d7c30	1efbeab6-1de5-47e4-b933-64c1495cb623	Saucisses de poulet
-df592a27-8159-47e8-96da-ce66b23b740b	5e44f83e30c11e59da3d99ca	ac6ae68a-61b4-491d-b3fc-0ada13d90e25	Saucisses de poulet assaisonnées
-0e492104-4152-4a65-8617-76a8334de28b	6405bf63af4af6d531d50b87	ab03635a-24b1-4130-b23f-d5e556323f6b	Saumon fumé
-70129b56-7007-4fcf-bae2-b2510ed35175	64073c9b683721c9a32b07ef	9b974f2e-9821-4b94-85f6-dadb3cf0d570	Saumon fumé à chaud
-3a96065b-22f0-4ef1-a670-50cb97ac369d	6405bfdbb0da1947779863e1	db5018da-4f05-4362-8a79-88c4b826b8d1	Saumon fumé à froid
-a8d1cf50-93a6-4f0f-bba9-841819f20b53	5d725d960dcef10014436f6c	bcfde8e6-0f13-4333-97c3-d4c06cab87e3	Schnitzel de poisson
-d55161cf-3a65-45f4-9bf4-f85916fdbbcc	5af2be3aae08b5194415a215	e577fa29-5f11-4eee-bd2d-16ccf9922ba7	Steak de poulet épicé
-f2c0568e-8948-42a8-a4f8-7597e4478223	5c8bcdf0c445fa62b21ba032	382a708c-44f3-4d1e-befa-3818d6551110	Steak haché de bœuf
-9e377233-54b6-4e41-8bb8-9d4e575c557a	6405c00bb0da194777986482	68ee8489-4a8e-4d6d-b02b-f60434e5e933	Steak haché de bœuf
-da7eccb1-d689-440c-a6ad-32cb751c9cbb	5c950d89c445fa289a180ac2	2b4b1a95-ee6b-4440-b249-6162b49985c2	Steak haché de bœuf et de porc
-1ef87ce0-ab87-439a-a11d-c608a7267466	6405c021b0da1947779864d6	6815e02a-894d-460f-bf37-9aa3943b20ae	Steak haché de bœuf et de porc
-90905da4-9da0-4277-8eed-678749eae904	5e78c7ef6b3c8459df5b14ba	edfacbab-7d97-49f6-94ba-3b9ace3e2099	Steak végétal
-a181e202-542f-4f8a-8677-b8cb3594e685	6503196932e9107c6db91d95	2e0e1bf9-1d93-4d94-8353-d6c5edcf34bd	Steak végétal
-02aa7c0c-cd4c-418a-9f6b-ea6ccfed0e96	5ea812d7cf958e23e4660867	fa635e25-755d-4c23-b27a-5b689b689142	Sucrine
-cf167744-2e17-45bc-8978-e95422199a7e	6405bfaeaf4af6d531d50c81	77c8941b-eb86-4ec8-b81d-f198019ae359	Sucrine
-7469d280-be43-49ef-a421-02734689ef29	6405bfb4af4af6d531d50c9a	4ebc46be-400b-4e0c-af27-c11a05a27635	Suprême de pintade
-f210ca93-c05a-4ea9-a267-4159cb87f273	5b1a8f71ae08b541163beaf2	59de1b31-a3ac-46e8-8960-5ba3699ba35e	Tabasco
-fd5a289f-a34d-4ce1-979b-fbb463be585e	5af2be95ae08b5194415a36c	c06ec293-7dfc-48e0-a40d-dcfda0ab6c56	Tacos
-2743c61f-4cfb-473b-9467-6301b337c534	64073be9df6297bb5beef155	67693ec6-3f91-458e-9e49-fb9acd54a1df	Tofu nature BIO
-c03af4e4-c778-4515-b28f-6f8104d4afec	6405bf95af4af6d531d50c21	fa9af0f7-c4af-4b99-a3a4-28250fd656c6	Tofu nature BIO
-3a59005f-4649-49c7-9be4-1c2ca22d9f1a	6405bff3b0da194777986433	0c1f557a-3079-42ee-b32c-f0c552fe9730	Tomate
-5cdd452e-588c-406c-a378-93ca85346178	5af2be50ae08b5194415a267	07f947f6-61be-46ad-b8ff-2023624d048c	Tomate
-6669bbf4-35c1-4cbd-bc86-8bbe6c14eb9b	6405bf31b0da1947779861a1	88ed9ed8-e82f-466b-80e1-6739cca50d6e	Tomate allongée
-cb0e872d-4836-4b9e-94fd-024df9dfcbaf	5c9e3f03c445fa5e1e745da4	4a003208-6c77-40bb-881f-f5cebbd503b9	Tomate allongée
-c3443623-1f73-4d62-b1d9-a3658717fedd	5ea2c2320eb83314933e5bca	43f06e5c-9caf-471c-b85c-5be433e74c04	Tomate aumônière
-ff2c84c4-2af9-4704-a8ec-c50ce0ae1828	6405bfafb0da194777986351	2fc04ea8-58da-42a1-bf39-81ee3d0e1350	Tomate aumônière
-a9327305-e851-446f-8090-d94b11225a40	5cfa73a8d8a8710016415ac4	ab12acae-210e-47f5-9647-ffc7d74b4a41	Tomates cerises en conserve
-d84db467-eac1-4651-b96b-33e15ed684b4	5af2be5aae08b5194415a28b	380b0749-f49b-4b80-b92b-f911a67cd065	Tomates cerises rouges
-f48d31ae-5a38-4f54-ae30-5cc48d3d44b5	5ca75c9ae3f33926060c1fc2	2b833d38-7887-4fcc-88de-b36965f78077	Tomates concassées
-52a43fc0-fcde-4230-876b-c6b4f1c38693	6405bf51b0da19477798620c	9866c09a-eab8-4d77-8a81-e6dc0b105407	Tomates concassées à l'ail et à l'oignon
-2acbd5cf-f099-402d-b0b4-45d5e5c61235	5bdc60d1ae08b57bc5462dd2	e15a0d7a-49f3-494c-89b8-39d6b9bad61b	Tomates concassées au basilic
-17ae6f43-07c7-471a-ba6f-fdbfeaed01d2	64073be19c6d10cd16eab65e	3972d53e-2b6d-4d5d-a375-bbbfde8c173e	Tortilla à la carotte No Fairytales
-c0fa4659-ed12-4afa-b8af-e794c96f4792	6405bf92b0da1947779862f3	53307d78-6a22-4a59-9f98-b7b639da9bb0	Tortillas
-ad9a6b74-7094-403d-8f4c-a3ac25b1f7b8	64073ba6683721c9a32b0732	0e5f3a52-6c56-4cc5-ab96-8e7e904984e4	Tortillas
-66acde39-c95c-41f2-a386-d724591a89e7	5af2c151ae08b51b804e58ba	7711132e-b993-4cc0-889c-35e8aedafaf6	Tortillas
-e1942dba-603f-4058-9f64-2adab119a1f9	649463052417a80cb660ba9e	a5a79fe3-2238-45fa-a8fc-939c53b869d7	Tortillas
-aa72aed9-8bcd-4888-9410-4f960f3a357a	6405bf27af4af6d531d50a81	6b639d44-8310-4d88-bfb5-fd75aca218c9	Tortillas
-cb76ac0c-22fc-4b81-84ef-2e20ae3bcff2	6405c01cb0da1947779864c4	06be8ac4-5b3f-4dbf-a7e2-9dbd9523ce8a	Tortillas à tacos
-7661f14e-664c-4124-8019-c509f2b2a4ce	64073bad683721c9a32b0741	2a6c4098-ed45-4b1f-8d82-f60c1cb72f90	Tortillas au blé complet
-9a1242da-91d4-4a25-ae4a-02a40f56d16e	6405bf32b0da1947779861a5	ced5ae10-e437-4179-8f8f-0a4045cb5545	Tortillas au blé complet
-c5575d50-73ed-428f-8127-ff89000a30c4	5b3f799a30006c34c902bf82	8d02f8a3-7515-4109-8e3d-eb01f875645e	Tranches de carré de porc
-c2717aaa-e7ef-4f6c-9b47-75244113d3ea	640afb09cda96bb6528b8fc3	0c6ac189-b62d-4db7-8a1f-72e8b746ac36	Tranches de carré de porc
-eb7bb842-7cda-4ec4-b3b5-88f03a13b338	5d19d6fafca63a001731e4b1	4277c955-224d-41bd-8770-c2c0485273ef	Tranches de poitrine fumée
-24b12f45-b6fd-4859-8637-addf595e4560	5d03aab9e6881d000d696ab7	b07ce464-359a-48e8-a7dd-383a8b646d5c	Travers de porc précuits aux herbes épicées
-f2d58bdc-e116-4158-b88a-5775d46b1185	5c8bcda2e3f339735c318343	5176a167-bc46-464d-a1c3-4c5ef7c5b7fb	Viande hachée de bœuf et de porc
-5f984e2b-78eb-4f86-9f89-cf98135fd86c	5c950d88c445fa28f67f6be4	1dff9aa4-b367-45dc-bf15-e5786d19c846	Vol-au-vent
-7f3acbd5-9c8f-4d7e-b19c-a71939d10c8e	5ba8a96830006c3bf2202e42	8b86d3ca-3c81-469d-8834-63b0c84133a2	Yaourt au lait de bufflonne
-63cc6c23-088f-4f4b-9301-e20161d26fc0	5af2be4bae08b5194415a257	cb42abd3-7a7d-406f-9723-f71620ecab04	Yaourt entier
-fe7727b1-b137-4bcb-b95f-1615285feabc	6405bfeab0da194777986413	128a9e47-4d16-409a-b4c0-04aba9af65be	Flocons de chili
-a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	bc79f1ca-5003-4ded-b413-751650b161cd	Noix de muscade
-eea37b97-9ba3-47db-89eb-d00559899bdc	6405bfb6b9d07cd5d38d7ba3	35093b46-fecb-4158-b41d-3579166bb027	Noix de muscade
-d071d417-4bc9-4379-8de2-cbf9c48bd837	64073bd39c6d10cd16eab653	51407ddf-5637-4fd7-b183-4bf800ec5ee9	Beurre de cacahuètes
-5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	0d23abc0-0605-428e-9f2c-0665cb58a7fd	Câpres et dés de cornichons
-d959f7a2-294c-498a-94f3-bc4a4b490d93	6405bfefb9d07cd5d38d7c59	0da30959-c785-43dc-9138-9b35fd2901e9	Concentré de tomates
-cb86f87c-eb2f-473d-a6c8-b5f7e12cbc98	64073e6f683721c9a32b088d	32196899-aa18-44be-965f-d9a163dcec98	Confiture de figues
-db0673e2-5243-4c27-8303-434de3b02814	64132d2d6b23cefedf01c8cf	f1b62ad2-85d7-4057-b46b-b1ddaf857e2a	Confiture de fraises
-794ca1b9-d903-4e43-99b9-e29381e5a265	64073bc1683721c9a32b0757	01901ff0-e8f0-49dd-91af-d2fe49608b5d	Confiture de fraises
-bc37be5e-6677-41e0-8731-34a554849d01	64073ba5683721c9a32b0730	2bd20717-2bbe-4705-8c80-f36486974785	Crème épaisse
-0db9720f-b412-4b56-80ba-a960bda7b80b	6405bfceb9d07cd5d38d7bea	b8e380fd-9f9e-4ded-a6d9-5029c3e47e0f	Dip d'avocat
-fe8e765a-22d8-4459-af71-12ae1f02e86c	6461e0c1d8259131b372d903	cc7403e9-f856-49a7-8b89-e8331eba4016	Fromage blanc
-2e9bdb71-e2a7-4ee7-8194-9df56a8be406	6405bf1faf4af6d531d50a5e	f0e0e040-5719-421f-b538-01218624fb2b	Fromage blanc
-37b4eb78-34c4-43f2-9e87-60e35e1f01af	5c9e3f05c445fa5e430ba4a2	d350b747-9063-40a1-b647-620deace34c5	Maïs en conserve
-7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	6c75a267-69c0-4a23-9bcc-0f8b3cdcf462	Miel
-819b4ec6-070a-47ae-a056-b0265e3c7adc	64073bcb683721c9a32b0769	6f51ff14-577d-420e-9ad9-8b0106a021b0	Miel de fleurs
-605299e6-315f-4665-9847-8209d3715dff	64073bad9c6d10cd16eab61e	dee92919-9ab7-4a5c-b2b5-0fff007e2fe1	Ricotta
-107478ae-efe4-4776-9dba-0f0481e3dc68	64073ba8df6297bb5beef100	185229fb-6004-485d-a622-e5f3207f3aa0	Yaourt à la grecque
-f47b03c3-1f38-446a-8153-28d559b12d86	6405bf60b0da194777986235	735262a5-90b9-4acc-b734-448dc1b39e1e	Ail des ours
-7fa9a49a-103b-4af5-b60e-38813e92b5df	64073ba7df6297bb5beef0f8	223f6d4a-18e8-4a76-80a1-715aeea686d1	Amandes effilées
-a8fbc1c7-2f18-4818-a33c-05111306fc5e	646388c36ced9aa0d6353bc6	176e51ba-e501-4bec-b3f7-1cfff6394300	Amandes entières grillées non salées
-27d7d31d-8e13-484e-938f-18033b7cc829	6405bf84b0da1947779862b9	bcb76f82-dead-4317-8801-0bf317b12803	Aneth
-e577f995-8e35-4fe4-b881-2e350ce1f85e	6405bf22af4af6d531d50a6e	65b47cd3-c0d8-4230-b124-f90b2cd60b14	Aneth et ciboulette
-e240677f-4e29-4302-9951-7cdacdfe1224	6405bf51b0da19477798620b	c954f43c-bbca-4460-a5fc-77638511038f	Aneth et persil plat
-4ffe32e2-aa5f-4b83-98a6-24135231541f	6405bf95af4af6d531d50c1e	19c4a3ad-42c8-44cb-b841-61ec687ba12c	Baharat
-e29e9e3f-9daf-4dff-b252-287381f45620	6405bff4b0da194777986437	239befa5-3228-4ea4-9f70-e542697b66e0	Basilic
-d6885c76-fcb5-49b1-b370-4bc60078d015	64d2428ab199bd79fa716c69	66bac013-8f36-4c3c-a3b9-6a3114dc13e4	Broccolini
-9d90cb29-75e3-46b9-b05c-ab5344e19c8b	64073bb6df6297bb5beef10e	830c9597-5560-46be-9e14-082b505c9dc5	Cacahuètes non salées
-459333a3-1f44-4f4a-94cf-a1796b86d644	5c8bcda5e3f33973013052b2	143b3f68-b4c0-43b9-b8e5-f69054f88f5b	Cannelle en poudre
-deeac111-7224-43c2-98cb-161f54b3c44b	5af2bdffae08b5194415a13e	1384f1d9-3928-45f0-b5e7-9ec9f095241d	Cardamome moulue
-7b1a3029-78d7-4a6d-9ff3-7a81796500c0	6405bffbb9d07cd5d38d7c85	ddd2c168-c420-465a-b473-3238cd08f2c8	Carotte râpée
-c0d5ee62-fc6c-4b87-bc91-9f3af98c2779	6405bf35af4af6d531d50ab9	56213108-e10b-44ca-b63b-3f3313f8788b	Cerfeuil
-76818676-4b98-4dad-b5ca-7ab2268d1062	6405bf3caf4af6d531d50ad3	9f886649-f4bb-450d-9462-4e658e62e5c8	Ciboulette
-219bbd47-d055-4956-91b9-a6a800f042c3	6405bf5daf4af6d531d50b71	eca50c29-442f-4f1c-8484-ac4d410ad16a	Citronnelle moulue
-8516cfaa-1729-4f1f-936a-86756878946d	6405bf35af4af6d531d50ab8	3b32de7a-03ea-407b-895a-197efd4cb91f	Coriandre
-61a2b6da-0f6c-45a1-9a94-79143206c1ac	6405bf71b0da194777986281	e6ddda3f-07ab-45dd-898e-ff47cb31a45e	Coriandre et basilic thaï
-fa6fb7bc-a2cb-4717-baf6-242f088017ba	6405bf45b9d07cd5d38d7a09	eb114627-89be-49a9-a3f0-5bec6595a396	Coriandre et menthe
-9451e7cb-fb61-4d0b-ada8-cf29ae517c92	5c8bcdace3f339730507bc43	11d31fa6-637a-489f-a2e2-77bb3ff53b5e	Coriandre moulue
-2da8689e-7b7b-45ab-b981-14a7f49cfb17	6405bfc0b0da194777986389	161ba00c-6717-41bd-ab94-27697083d4f7	Coriandre moulue
-a63ccc94-ca2d-4976-a0db-137f9bef5748	6405bf7daf4af6d531d50bdd	2a689171-8df3-47e4-963e-8db1909b18a7	Cumin en poudre
-5caec1f2-23fc-4533-b191-fde818382d81	6405bf8bb9d07cd5d38d7b0d	2904547c-9601-4eb4-8b53-cba06c778219	Curcuma en poudre
-e37c0848-cf1d-4b01-84dc-97288386673b	64073bb59c6d10cd16eab62e	ce39338b-2d0b-4740-ba37-deac26a34281	Curry en poudre
-128fd6df-8ebe-4c2a-85ff-4e664ca78e74	5af2c14aae08b51b804e58ab	370893be-583e-42ca-9f1c-bf9b9cdf1103	Curry en poudre
-64fa3cac-4921-43b2-99df-03997e11d2f1	6405bf29af4af6d531d50a90	33823b83-912e-4269-8d46-72cd27113eba	Curry jaune
-c0bb2211-5d40-46c4-8d2c-487c513b181f	6405bf7aaf4af6d531d50bd6	43757fd6-cb78-4e3b-8ac3-36a69133109d	Curry rouge
-ddf57631-1a99-4e7f-98d5-b9495460d597	6405c013b0da19477798649e	7015632f-1649-4389-bf0c-15b1320e1ae9	Curry vert
-d5958aa8-994d-4377-9ce4-a6f9e0f24dbc	6405bfa5af4af6d531d50c60	a96b16d1-b9b0-4f6d-b7ae-bc07282a7584	Épices italiennes
-854eefbc-1899-4e9a-86bc-cba53fd5fcf8	5c8bcda9e3f339735561c2c4	7ee848c2-a3eb-4088-9e96-9365345c00e9	Épices mexicaines
-ae75e647-2ef5-4079-a851-ebba5dcc2f18	6405bfd0b0da1947779863c0	0cd9e5cd-396b-4f6d-afe0-5435899f4adb	Épices mexicaines
-bc85a87e-d578-42a9-892f-877ca1d6c94a	6405bf3aaf4af6d531d50acf	e73e7b25-d256-4981-994b-08a1a312bbfd	Épinards
-f3cc0484-0dec-46b8-9178-4e50cc132f4a	6405bfd8b0da1947779863d8	d221ad64-3c5d-4842-bb51-be92f05963c6	Estragon
-6d1b3767-3869-436d-9d93-345bf40c1e4b	6405bfd2af4af6d531d50cf8	e3c5cf9e-af2e-4c4a-98ca-6be312097490	Fenouil moulu
-03b9f650-92e1-4b3f-9e5d-0d216a29df0d	6405bfa3b0da194777986329	27c587ab-1801-4205-a675-df65a7d0656e	Galanga
-b9d6d8bd-e5a0-4e94-a095-b761499a26e2	6405bff9b0da19477798644a	754b3053-7d5b-49a5-a53c-bda6c59d1310	Garam masala
-79b80dc0-7fab-43c1-adac-36021348cd50	64073bb4df6297bb5beef10c	f9cf7e2a-40e0-448d-a731-1a649cfb912a	Gomasio
-f1ba10c8-082a-42dc-b96c-57949d7da2a8	64073c3edf6297bb5beef1a0	88bb48a5-91d0-4700-9201-9309fc7ddb74	Gomasio aux herbes de Provence
-399e5c0a-8000-4a6c-a420-abcf0f15d848	64073c8a9c6d10cd16eab6da	5e49918a-d142-42ec-ad2f-50cb2fcca377	Graines de moutarde
-128f0fec-5249-4582-8803-9a0accbe4dce	64073c8b9c6d10cd16eab6db	06f04366-2c4e-4d5b-b6f7-596e639fdd9d	Graines de sésame noir
-d6ceabec-3e15-4260-98ce-befbfe076ef8	64073c61683721c9a32b07da	61f422bf-a2d6-443f-9146-60a304e123dd	Graines de tournesol
-8eda98f8-829b-43c4-9c83-3373910c0d14	5af2be1fae08b5194415a1b7	2ac8b5a9-631b-4d7f-a807-2f6668e59c11	Haricots en boîte
-935ae4cf-4ffd-4e58-bf66-5fd92136cf6f	5bc449da30006c640941a2a3	5e2308e5-7349-42ff-b0f9-b8e818a93268	Haricots noirs HAK
-c4751484-3181-42aa-b892-1a264b8a078b	64396863c26f2e77c4a9e545	4ed79bb6-1333-4d1d-832a-f1005bada636	Herbes de Provence
-f7e0011b-dbb2-4187-8a78-9a9f557fbc99	5b0bb2bd30006c47d2648ac3	877d7109-3e66-4bb1-848e-05f42b4cee1f	Lentilles HAK
-6571a8b3-e6a9-472b-8728-80a42e8bbd34	6405bf48b0da1947779861eb	c8ea88c4-fa04-47f5-a968-478d655cca04	Mélange d'épices africaines
-d80e34e3-2b9b-40ba-9242-53b6fe163979	6462c7fd6ced9aa0d6353b2f	54076655-c3cc-4dda-88c1-7956b640e731	Mélange d'épices africaines
-c808c407-2d55-444e-a0cd-6b94194be76a	64073d89df6297bb5beef234	bb596a19-ce81-418f-a510-2982fb1c7fb0	Mélange d’épices coréennes
-11c2569b-aa6c-4c71-867a-937e86576666	6405c017b0da1947779864a9	7168f3dd-431d-4696-906f-7821359a93dc	Mélange d'épices du Moyen-Orient
-9299250e-12a9-465a-8629-a7b618d1e689	6405bf26b9d07cd5d38d7996	bef6f3c4-9b63-4420-9c8c-5a5434fb969a	Mélange d'épices péruviennes
-a732b13a-5052-4d62-8c6d-b8dfd5e6adab	6462c7f88c393b044d7447ca	0ff8d062-c8b5-4c7e-9389-a2e51c8e1cee	Mélange d'épices pour BBQ
-26580613-f938-483b-9ab1-35a8a6fe9092	6405bf7db9d07cd5d38d7adc	481a1e57-11f1-4de2-a810-89d3858487b0	Mélange d'épices pour BBQ
-ab15b4dd-a222-447a-b24b-4e316e18faa4	6405bf64b9d07cd5d38d7a81	3d15967c-54d1-46da-8dc8-9080eeff1607	Mélange d’épices siciliennes
-636dd1a2-94b8-4d4c-a6fa-d35707be3a22	6405bf49b0da1947779861ed	0d5372d4-4285-4998-9cde-5e3f052b7c51	Mélange de carotte, chou rouge et blanc
-310f0411-471c-4a33-8a92-227195fa3ae9	6405bfadb9d07cd5d38d7b8a	0f3bb821-d90b-4810-8d34-d8463a0e2fe6	Menthe
-5470a7b2-4e5a-4f0c-ba4a-6860588d4922	64073bcb683721c9a32b0768	78d21a8b-b08e-47f4-b280-d9627422a821	Noisettes
-3c980f22-462a-44b9-8052-5d909dc5d655	641855d6fd99775f18f75ce1	ac7c8d64-8ac5-4c82-9173-f21b20a93d8f	Noisettes grillées
-b8f45b22-6f90-4bb2-b0c5-a5bd80ef7be5	645bc3d0a116286892337383	c6c239f9-0f85-4205-be11-fa102f083174	Noix concassées
-5d2f563f-afaf-4ec1-9c98-0f37956ba01e	64535d80572079217b737d07	787dd8d5-9a1f-471e-ac6b-f6d0ee2bc889	Noix concassées
-5f63e121-35db-464e-933b-47d2be0a697c	64073bb59c6d10cd16eab62c	5e6eb7a2-d832-435d-acce-4d2f3922d530	Noix de cajou concassées
-8e364d3d-714d-47b8-8973-831d21ccc861	64073bb59c6d10cd16eab62d	a3860a3b-d978-400b-9544-bd4ac0f308ad	Noix de coco râpée
-c8556324-cf3c-42b5-b38c-20d2dfa95299	5af2be5fae08b5194415a29e	4efb75d3-881f-418d-a29f-8839d79decc9	Noix de coco râpée
-c632e1f4-1e59-45b1-80e8-a2dd38649a82	64073ba69c6d10cd16eab617	a10b8c9d-40dd-46e8-a19d-a05ee9387a70	Noix de pécan concassées
-841cbf88-fc69-4e1c-8ed3-1a6f37f1ab0c	6405bfb7b9d07cd5d38d7ba8	31403a97-2df4-483d-943d-69b64804bd6d	Origan
-5c1bfef0-e1ef-4288-91b0-ad92145ba534	6405bff0af4af6d531d50d4b	4138cead-4f14-41a8-8461-d76994a954b4	Origan séché
-a6d4fc01-8d94-4ce9-9165-3baf323fbbe0	6462c7f58c393b044d7447c9	dec6b541-d010-4587-8c83-54758f798d58	Paprika en poudre
-9f4534ee-1831-4d20-ac81-a63afa413875	6405c00cb0da194777986485	e1ef5fef-7bcb-404f-8ebe-ad9c5537a292	Paprika fumé en poudre
-2c922c0a-db9b-4f45-90f9-dc732d3b4c2b	6405bfe7b0da19477798640d	2dfb064d-d7a2-465b-b336-c60be23f2747	Pâte épicée balinaise
-c538fbfb-7758-4d29-8c79-32bf505bc4ec	5d53d97c0f071b00083c90aa	46884d05-1914-4adc-a7bc-4e4d304a9301	Pâte épicée javanaise
-dda600d4-f571-4f02-8495-a61af01e0dd9	64a362b4d1915b06b70acce4	ff167e57-a16e-4aa4-834e-97e4534b9ec1	Pâte épicée javanaise
-ee082d05-0458-426f-9491-c3f49c6f1ce9	64073c3f683721c9a32b07c2	bfc1352e-15be-4cde-ab7e-a93dbca84f40	Pâte épicée javanaise
-6c31fdcb-bec9-4b81-aafb-88242b45475e	6405bfbab9d07cd5d38d7bae	6895ea27-65ba-40d7-b3ca-6cf371565253	Persil
-4e0da705-5d5e-4e70-a595-83e43cce7d2e	6405bf95b0da1947779862f8	15d1cae6-b30a-4469-896b-e112d76a6119	Persil
-512847d6-ed4c-4327-b1e2-c0727fb6a839	6405bfd7b0da1947779863d6	d6755807-6b95-4c0f-95e7-8d97fa15364b	Persil plat et basilic
-2144d6f8-8576-423f-9e95-4a1fef87ed68	6405bfa4b0da19477798632c	1e7ed4f0-5a98-4654-b2ee-ddd2982673bf	Persil plat et ciboulette
-ae91d015-116a-41e2-9251-53502d756ece	6405bfecb9d07cd5d38d7c51	88294888-8097-46a3-9005-f111e9cbf0df	Persil plat et menthe
-0527fc1e-7333-4f15-9ac5-af83aeb85feb	5af2c158ae08b51b804e58cf	da9be7a8-6e6f-47c1-8e6f-a9baa702026e	Petits haricots Kidneys rouges HAK
-a1b30088-136d-4234-b63c-42e4e3837afe	6405bf28b0da194777986183	814d5f3e-3c37-4cb0-af04-442c8ceed7b2	Piri-piri
-1fea3e62-b47d-4697-978c-91b96a6adb0f	64073be7df6297bb5beef152	b067934e-e130-41e2-9651-35ba7d9a01ae	Pistaches décortiquées
-121a4815-934f-499d-9780-2e3af5162cfc	5af2be69ae08b5194415a2c5	3766a830-dbfd-4460-8231-296d6ba652c4	Poireau
-7d04700a-3076-4dc4-a9af-b63405da73ad	6405bf7cb0da1947779862a5	ef768406-1854-4875-a233-b217d66be0eb	Purée de gingembre
-a9848c6f-a486-44c9-a07c-d96e19746c1b	6405bf66af4af6d531d50b8f	2ae577eb-e981-4797-8322-bf2216518e32	Quatre épices
-5678ae81-87e5-4804-a403-51e09314593f	6405bf1daf4af6d531d50a57	de9c457f-33c7-4f32-88d5-662106968f57	Ras el-hanout
-795c2242-ba9b-440f-9cd5-463928ad154f	6405bf29b9d07cd5d38d799d	e1bcfe46-256b-4bfb-9ee5-2a8d427906e0	Romarin séché
-51803d3b-1634-47f6-8ef0-e6291dc2b112	6405bf36b0da1947779861b1	0d2111ea-29b5-4a2f-b6a2-745c9cba33b6	Salade
-d1be9be5-3bfd-43fc-b66e-c5a002ff44f0	6405c008b0da19477798647b	59cdbad7-9b21-4ae7-8ec3-4a5332d8c7fb	Sauce au chili sucrée et épicée
-849283af-3f35-4321-9444-0309d347bea1	6405bfdbb0da1947779863df	d7703c1e-c292-4d91-934d-b713503458db	Sauge
-2c3977d4-a9c0-44d5-9edc-db5856a2c6bd	6405bf48b9d07cd5d38d7a14	53b48a62-b026-4d46-8b15-5b913151a9d3	Thym séché
-6876c122-470c-43ab-a21b-ab5d04fa27b0	64073d9d9c6d10cd16eab758	8bc84712-3a31-49ce-b257-904d1373b561	Vadouvan
-96c8a695-988e-4089-9814-3bf4a7960730	64073c63df6297bb5beef1b0	4dfb1862-3f30-4e87-bfa2-6d626a500976	Vinaigrette de pesto
-6afc0905-c32a-4931-9a23-17a4029c4b54	5e578a0a7c09dc3b6b1d3304	36e528d4-3886-4414-a9b1-a0817ae988ed	Vinaigrette de pesto
-ee922ba4-b7eb-4ddd-9bf4-e0090b51fbf2	64073bf2683721c9a32b078e	c3191bff-cba9-424f-9740-6ced4dc70e3f	Zaatar
-5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	df50286b-bf01-4331-b503-e6794cf55f00	Câpres et dés de cornichons
-37f081a4-911b-4a0a-a848-d599135e577e	5af2bdecae08b5194415a0f0	0de02de0-a25c-456f-ba89-08c38d275566	Crème fraîche
-017859b3-ff40-4a81-b5df-4662d940fa68	5af2be2dae08b5194415a1e5	93b22327-643d-4ee3-a3c2-47df9ec58b89	Cresson de roquette
-9f6f5fa2-9551-42f5-af30-b91cb1083fdd	5af2be5fae08b5194415a29d	43dd063c-90ab-46d2-a4a1-ed9f3e8c0089	Chou chinois
-2fb054a4-0815-42fb-b452-8448ec7b6d2f	5dde798296ae8413041df142	e5651ca9-543b-4f3c-a881-4e0415262d95	Ciboulette
-c560300c-3961-4ab6-a53d-f0d98f7ac0e7	6405bff2b0da19477798642e	024f202f-b085-4ffe-8087-e51ad632f802	Laitue
-2287185b-541b-47bd-b509-ca05267eeb94	5af2be65ae08b5194415a2b4	d736f9d4-782d-4a87-b2fd-6b4b02251607	Laitue
-2c700320-16c8-4390-a513-40a4bf9a615c	6405bf85b0da1947779862c2	1bf45040-68f7-46e4-9f23-e11f2f35d474	Lollo bionda
-fd80ea03-cec0-4b62-b699-70a2f923883f	6405bf6ab9d07cd5d38d7a95	72c60478-bd70-4aef-9d77-c100eff82507	Mini laitue romaine
-3fc40bf6-c9d6-49e8-9814-1779d4d9c743	5af2bde6ae08b5194415a0d3	3ccd5c6d-c02a-49f5-944e-2dfa81666c07	Salade iceberg
-c6c0dfe2-5c1d-42c7-bbf8-3bade6d98f6c	6405bfe7af4af6d531d50d31	1041cac5-927f-4f47-8e93-9543651850c2	Salade romaine
-8fda3021-d2b8-4d2b-a21c-64f9e1b8282b	5af2bde2ae08b5194415a0ca	dac0ca32-35c0-49e8-ba7e-7bfc4ba3f168	Salade romaine
-02aa7c0c-cd4c-418a-9f6b-ea6ccfed0e96	5ea812d7cf958e23e4660867	09a5da0c-6b93-41eb-99f1-c99171f12cc2	Sucrine
-2505383d-7765-4545-8c57-5068e4f6694a	64073bcb9c6d10cd16eab644	602e9e55-c4cc-41a0-a106-b4decfdea2c6	Céleri-branche
-2fb054a4-0815-42fb-b452-8448ec7b6d2f	5dde798296ae8413041df142	278a0f90-9fde-483b-a98a-ce4c850005cf	Ciboulette
-7d9318b0-b6a1-4700-9992-03052de2e293	64d0f4dc317ec2bf51927577	b5b2d4b9-3bf3-49d9-ac9d-b5d4c5afae85	Biscotte multicéréales
-dd236d9b-7c21-49f5-a877-7bb0a9d04412	6438256b184668ed677d9e31	a4195566-1e25-4b09-94dd-f65f386a0af2	Coppa di Parma
-17c13c5d-103a-45cc-aef3-fc45dcfb5b5c	6405bf9caf4af6d531d50c45	e7348f56-f1c2-431a-9349-752166c42b53	Jambon blanc
-3fae3f5c-d232-40e5-a753-aa1d4b420a90	5af2be27ae08b5194415a1d5	6e98531c-70b9-45f3-8673-66322a3b1097	Jambon blanc fumé
-b2c5a246-cd83-4bfd-85ff-e73387054559	642553472e8f18047b34f223	c6fd719d-e3b0-4742-be8f-9026d4cf0a5b	Jambon sec
-01dbf904-632b-46a6-a18c-d50e10f5bd68	5af2be9dae08b5194415a386	30ad7a5f-a3ef-440d-b7cf-18aa21920391	Lard
-2d04e991-e0c7-4499-b0ed-173d4770b9e8	5b0bb2b730006c47d07bd8b3	c4c67d41-10dd-483d-9def-88b1c66e829c	Old Amsterdam
-b3229999-cd98-45e3-8fd4-cf97328d5857	5d3f1563265a5e0009517285	1d7689d2-4edd-42b9-9dbc-67ecc730a4d5	Pain d'épices BIO
-588da9e4-7f6c-44e2-8cf7-2025cf7947d0	64073bc89c6d10cd16eab641	71b8a457-68da-4352-823e-c5ee1b2d16a4	Pain de campagne tranché
-c64367d3-4d3d-4467-9708-d0b5467fc186	64995662461c4ddf32309847	e2bfaa89-1f93-4dd1-9922-96bf79e45dab	Sauce asiatique sucrée
-9bbbe661-d81a-445f-875b-53353319e58d	5af2be52ae08b5194415a26d	73d42225-6009-4054-bc91-676308d8aa22	Sauce soja
-b94a7647-8819-41b2-a65b-b0d3cbb29be0	64073db1df6297bb5beef242	c1fc5753-b55a-4536-acb6-1528ad532f53	Sauce vietnamienne
-534495b1-afb8-4652-aab6-335f6b262138	648906150635a1e9befbb439	9e659cd6-d2d2-4806-89c0-05e35d242a60	Pain de mie
-e68177e6-8f6c-40aa-a4dd-7dde2080002c	64073beb683721c9a32b0781	3b7dc291-1faf-4fd5-9e37-abba804494cf	Pain de mie
-74fb4566-fdcc-4133-b313-c23d3507cddf	6405bf4ab9d07cd5d38d7a1f	0ec9ec7f-1b9b-4ecb-be2b-3306d66f2acb	Pain de mie
-fdfedef7-f105-4ab9-b842-86ecf7e1d6aa	6405bf26af4af6d531d50a7f	bd53beef-d8da-47e5-871c-d03511d53c37	Tranches de poitrine fumée
-051ffba4-a039-4cd1-ae79-eec8f7bb3259	5af2be05ae08b5194415a15c	31e472e5-0597-4d1c-8f5e-1d9398413943	Beurre de cacahuètes
-d071d417-4bc9-4379-8de2-cbf9c48bd837	64073bd39c6d10cd16eab653	82fdf897-ed7c-4c32-9bfe-9feb825c342d	Beurre de cacahuètes
-5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	4b933cbe-b06e-49b0-9ce7-2b74bc2a5dc6	Câpres et dés de cornichons
-00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	f05f5343-3ec3-422d-8b78-d3fe0ad637ce	Concentré de tomates
-e17f7a07-eff3-4d4b-912e-3b9d9d19323f	5beeea4130006c19492ac425	7d2ea775-266a-4310-a35f-c082b4331073	Crème de basilic
-017859b3-ff40-4a81-b5df-4662d940fa68	5af2be2dae08b5194415a1e5	7d20adb6-d077-4775-8aae-d859a5c8ad2a	Cresson de roquette
-08d85b22-e8ab-4a2f-b12a-dd42218efbdd	5af2be5dae08b5194415a296	888dee53-7bd2-40d2-83d9-ab6647bca18f	Mélange de jeunes pousses
-3fc40bf6-c9d6-49e8-9814-1779d4d9c743	5af2bde6ae08b5194415a0d3	9c8f0936-9f78-4dfe-82de-34ad5330eea7	Salade iceberg
-8fda3021-d2b8-4d2b-a21c-64f9e1b8282b	5af2bde2ae08b5194415a0ca	c1a21e9d-7314-4b6f-a1de-ce054d9aa074	Salade romaine
+COPY public.match_portions_ids (ingredient_id, ingredient_id_old, portion_id, portion) FROM stdin;
+421e015a-bde1-48c3-9f9b-68f0371256be	5af2be24ae08b5194415a1c9	817454fa-9b8b-4b82-b093-125a8fc11f4b	cc
+10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02	5c8bcd9ce3f3397358648c95	110c9f58-1b2d-4169-a0f6-cca8fc628bc5	cc
+50b05986-40c9-4736-a8c9-0f0b51b8247f	63e5122181b4b295e66f0258	1aa6700b-1846-4d4d-aca2-1ddb3f362a10	cc
+459333a3-1f44-4f4a-94cf-a1796b86d644	5c8bcda5e3f33973013052b2	9ced7c39-6cd1-4c47-901e-aa2efa4c9def	cc
+a4f86f11-af07-4057-bd56-bc8f4c95e834	6405bf6aaf4af6d531d50b9c	1ead8fe8-aac9-4526-a3cc-6287baa5acf4	cc
+dc0eda4c-a871-4a29-825b-18a1c243da1f	5fbe2dd103cb4c62ac01428c	64ece6cb-1422-4fa1-9516-5d45ea92d0a6	cc
+a1021713-ae59-44e5-a855-c171837e293e	63e5122dbc1d64f7b96e270c	61782b7f-090b-4597-b697-9b5071397f73	cc
+16a2926b-632c-44a7-acff-826134ffabd5	5af2c14fae08b51b804e58b6	908edaab-7af0-463b-9206-9f655258da39	cc
+9451e7cb-fb61-4d0b-ada8-cf29ae517c92	5c8bcdace3f339730507bc43	aa956d94-2256-4ba2-af50-8a49e4be533b	cc
+65ab139d-2dcc-46f8-bc2d-663387e6872c	5c8bcda2e3f339735c318342	4066b1dd-0237-46e2-868f-ea1873bef9cf	cc
+a2da5303-9592-43ee-a22e-31fea986a6a3	5c950d77c445fa28926e8833	f4e6a2eb-8b1d-480e-8d22-f40e16607211	cc
+5caec1f2-23fc-4533-b191-fde818382d81	6405bf8bb9d07cd5d38d7b0d	70fc7a02-c617-4cda-b067-3c6ae7b336cb	cc
+128fd6df-8ebe-4c2a-85ff-4e664ca78e74	5af2c14aae08b51b804e58ab	d07b1ba8-e5e3-4c10-ba08-4501692bb6bc	cc
+c4aadb59-bd05-42c4-ae50-3a86e414e7d7	5d2c50039de58100111e3d87	5c412c17-24a5-4bc0-9819-6fa7d26ed820	cc
+854eefbc-1899-4e9a-86bc-cba53fd5fcf8	5c8bcda9e3f339735561c2c4	237d7fa8-088a-42b5-a955-bc16bd0bf97a	cc
+adb7cc43-4ebb-4c6c-b336-2ff1e9782da7	5af2be60ae08b5194415a2a0	2b7b5eef-756f-4f91-81b5-f47ecb63ea97	cc
+878ecdd9-1b9c-43d5-a866-45a6634c1d51	5c8bcda0e3f33973675d57e3	2397cc1d-7595-4c7f-8ff1-31915d93cbd6	cc
+e744475f-20da-448d-934d-472eb4284906	5eaa742d4d1313374d494f33	e182a5d2-b8b7-4164-9079-bee2bc8a32de	cc
+f88f6ce5-50ed-402e-a4bf-139b2e147e14	5b9f8d9430006c69a4393853	f5dbb305-5562-4b63-a36f-ca2153d400f3	cc
+71dcf86d-05f2-4457-a69e-fc7df423f81d	5af2be15ae08b5194415a193	0215fa35-ce44-4eb5-a5f9-16d87e0fb350	cc
+cce6636d-af2c-4a6d-9463-243866e1abc7	6405bf3aaf4af6d531d50acd	9296ccf5-d26b-4822-8203-c2260fcc3eb1	cc
+d7ab24b2-520f-4c84-bd34-0cd500b81609	5cfa73b1d8a87100142eb5b2	bce6f3e5-36d6-4bf1-97b5-ccb0b9fe7040	cc
+78a7069d-758b-4e2e-b65a-058f6a663f19	5e020b099c1aaa0c191a7858	d7d3c78e-1919-4d5b-89c8-af62802dc5fa	cc
+445371e7-ddcb-43a0-806d-cdce444675ff	5af2bdfbae08b5194415a12d	1b08dc8d-fa31-40a3-8b31-f18eac6c4ab8	cc
+0a16086c-5aad-4160-b6a3-2f2c58abd528	5af2be91ae08b5194415a367	60ebb263-5a3c-40e6-8e6e-59084b9b2317	cc
+70657021-a080-4ce0-96d1-237725fe4c21	5e417e37c48f1e689e419877	77d604bb-a12f-4e7b-9095-6c0a6066f892	cc
+c1f81497-99df-4899-9486-c2a1f36fb845	5af2be67ae08b5194415a2bd	b69c87a6-9e3b-45c2-a5c9-ea51333947c1	cc
+d9ab9ff9-160e-4338-ae01-c15ade3d423d	5e304aef7022991e096f4fc9	668eecde-bfbe-4555-bb49-3229371f12c8	cc
+2b88c373-db6b-4699-95c3-cab84cd9844b	5af2be40ae08b5194415a22e	8e90c8ec-8dfe-4009-b59d-73ae9c703b2c	cc
+11243e87-bb14-41c6-bb8e-f245ecae931a	5af2be41ae08b5194415a234	26004bd3-9627-4832-be6e-78bdbbefb003	cc
+3349f743-b1b3-439d-b711-7a1eb0b08114	5af2be0bae08b5194415a175	12699a35-6dc3-4b42-be8d-f6fe9772da3e	cc
+412ec846-4d12-49d1-9a92-ebc6378e4c8e	63e51218bc1d64f7b96e2702	83ebb8af-e4a6-420f-aca4-80d07de5a645	cc
+4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	fb521e37-2e9d-4ead-9f44-769ea7b29c90	cc
+3ff00dcc-4a35-48ab-868b-d6def39e1b38	63e5122ba0a0603e5708dcc1	78da6c91-96a9-423e-b5b1-40d9f70c8a5c	cc
+00bc7b65-a43d-4c0b-b5a6-b797dc44375f	63e51232a0a0603e5708dcc7	f0ea7cd2-3249-4f3f-a617-7e314047e1d1	cc
+754f3da3-6524-4e75-9561-dc2807c9348e	5ca75c90e3f339258a36e9f2	44b91672-c656-4d84-ba5b-c40d3a3fe80d	cc
+fd5ed068-c9f0-4736-b2a4-1b0022f2c0a9	5e78c9043d99834ee3629c72	ab51f06e-d4d7-4ba3-9915-b43cff7dea61	cc
+7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	832f807c-bba4-45ab-bb66-ccec50aaf66b	cc
+9c141b09-8579-40b2-8721-eaa348f7cbb5	63e5122fbc1d64f7b96e270d	99a0ede9-f22a-49e5-ba41-3fefe8088132	cc
+5633114e-7198-4a79-9c9f-92cd54cdc351	5af2be5aae08b5194415a28a	04fc5d92-30c2-4645-bbe7-71c4a660d6b9	cc
+5efa45e3-90eb-4aa8-be5d-6cb5abd2514b	63e51230a0a0603e5708dcc5	5240e83f-eedb-4921-9336-3318de481c14	cc
+a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	6fa37ce1-b3e9-415c-a562-014a2ad204d2	cc
+1bfe522b-141b-4e90-8106-34f8ced11a6a	5af2c14dae08b51b804e58b0	10fd94f0-8c48-4214-9b56-b7ecbedcac30	cc
+c7843f47-705d-4166-bbb3-4f0ad5715ea6	5c8bcda7e3f339735a76c462	ee0393a7-98fe-4390-9de5-9995853c2bbd	cc
+696b285c-6d8f-4ecc-a623-908a7dc78ee5	6405bf4db0da194777986203	5ce2c663-ec17-4af4-8a71-2ddefe133cd2	cc
+c81d4c0d-820f-471d-a370-6a4f54fcfb69	5c8bcdafe3f3397358648c97	9797cf2a-52c0-4bf2-86bc-1ba6d607438b	cc
+9f4534ee-1831-4d20-ac81-a63afa413875	6405c00cb0da194777986485	b118e0c4-0f1a-4928-8abf-fbbf4ed0bfdd	cc
+b7ca2d80-4ea7-4bbd-8d3d-88495d5879f8	5c45992ee3f33920591fcf63	922d0266-be08-43bf-ac11-725bcf4b2873	cc
+9fb573b0-a04d-4b9b-b286-ab77ab9c5ee7	5cfa73afd8a8710009168b14	e3e6d158-fb6a-4bf0-bfed-494acbdc1140	cc
+a1b30088-136d-4234-b63c-42e4e3837afe	6405bf28b0da194777986183	403766c1-5c87-4e27-a1ad-c50d0a406a4b	cc
+d2c0f60c-11f9-4c40-8750-3e8eed5513c9	5af2be8aae08b5194415a34d	ee6e7478-7c58-493f-9f44-c3c8f068752a	cc
+6e61ac53-0002-4ba4-84fb-4e3157839b35	5b03d0b9ae08b5095315f752	d864c182-1e3c-4a6f-af4d-37b3fcea0e1e	cc
+8360d7ff-6b1e-4608-b9f1-3196fc53941d	5d80e4027ea50740232aca7f	8e643ffd-a0cb-4ff7-9454-b9f7321738fa	cc
+ebd9911f-5fa2-48aa-b810-1bf45fe9afa2	5af2bdf5ae08b5194415a113	ca9c9fd6-239d-4416-83b3-2cb7b7431fcb	cc
+1a5854a0-9a68-4ea8-ae23-1cbc2fd240e4	5d78aadf965c9800131222ab	73d68f85-fdc5-4828-99a0-16b4992e9efd	cc
+9a3bf93b-38ff-4f7c-92ba-00b942940834	5af2bde6ae08b5194415a0d2	8bb15b57-8d5d-43bd-89c5-b483a9522ff6	cc
+c82bf6ca-baca-4130-8338-17a0ffe6b929	63e5121781b4b295e66f0250	8648cb89-52dd-48db-b18c-984eeec72bf8	cc
+6c8f92cd-ec84-41b5-8f08-d7e52d929464	5c8bcdace3f339730507bc42	bc99416c-9fb4-4d16-bfb2-4032962f89f9	cc
+7e696fda-84ed-4ca4-9a21-0c8514b6977b	64062eb8b9d07cd5d38d7cd9	bb82b442-8d2c-4eeb-91a7-678af187635a	cc
+662f7422-132f-4e6c-a1fb-c628bc5cbb3b	6405bfd5b9d07cd5d38d7c09	ca2f54ed-e7d0-4e48-b359-89be8325e415	cc
+94fc3f93-504f-4546-834f-e1145359be4f	5af2bdf8ae08b5194415a11c	876c0f63-410e-4f3c-bcab-c5c5ed25200f	cc
+a0f3312f-f556-4eb2-8b28-d299faccd4cd	5bdc60d3ae08b57bc06363d2	7facf714-38cb-4783-84a6-37fc236b9442	cc
+0bce1396-9568-48cf-a767-93d258f77f50	5af2be6fae08b5194415a2db	5b7d7f3a-55c5-433f-8728-14e89f28be08	cc
+76cdb2b3-cc71-49fc-b84a-025481030bb0	63e5122da0a0603e5708dcc3	d61e0c94-88d0-4977-b479-b3239d3573c1	cc
+3e4bc5c2-6c1d-4680-b221-62add7b58baa	5c8bcda5e3f33973013052b3	3f39b43f-a508-4209-8fac-e451424c379a	cc
+92a22779-f4ab-44d9-9776-9bcccb473587	63e5121c81b4b295e66f0253	fe1c23f7-a1fa-4309-acb7-1985201c4403	cc
+1ae04fcb-afed-41d4-9f8d-a0e50ebd9db8	5c950d84c445fa289769b624	0a81a6ef-9451-46a6-b2e5-afde8cf18eb2	cc
+10cd97e4-3773-42b6-9da4-8b6260f1fc71	63e5121abc1d64f7b96e2703	0c44c896-35b6-40ce-8afc-1d171821add9	cc
+72163e2c-c9ed-47ec-a3b0-67151b0f9fec	5c8654f9e3f33953b40b23b3	b619d49c-e1cd-40c8-a39e-1173904ec6c6	cc
+3cb10ddd-22ca-4c20-8071-04a433a9ab36	5af2c14aae08b51b804e58ac	6740c2e6-efba-43bc-af38-3800366d68d8	cc
+1b964d57-61fe-4bb0-8bf7-237b29cb476b	63e51234bc1d64f7b96e270f	c9104a39-f2ae-4c15-9ccb-78df20cef937	cc
+9bbbe661-d81a-445f-875b-53353319e58d	5af2be52ae08b5194415a26d	9688be62-9644-430e-8527-90fa7052e8ba	cc
+0c35f237-ce93-4924-811f-9155e79ec543	5af2c157ae08b51b804e58cc	a6ac2bb6-c8af-4029-b7c8-56e5338d7533	cs
+4eec3e92-3b8b-4406-96d5-b3206c21a6d9	63e51223bc1d64f7b96e2707	06d5007b-cfca-4c95-8e50-2bd51e47a039	cs
+10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02	5c8bcd9ce3f3397358648c95	4c0e14e1-a159-4138-aa12-f9ce440d3a23	cs
+6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62	63e5121cbc1d64f7b96e2705	de3763a3-9d7c-451a-9a15-267a3165bf13	cs
+be1324fd-8fe0-4d08-9446-0dff7ea90eb6	5af2be1eae08b5194415a1b2	c81b602f-7ddd-4e74-a7f3-ebc24d74d1e0	cs
+5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	14e517c0-5d9e-42b8-8e3c-78ee322f1c24	cs
+dc0eda4c-a871-4a29-825b-18a1c243da1f	5fbe2dd103cb4c62ac01428c	c99beabf-6e3c-4ed8-9d86-8dd076543b4a	cs
+379e9913-920f-4c61-afb1-daf8cdc2b5c4	63e5120da0a0603e5708dcb9	81710a1e-bcea-4b3e-b2fe-82c83fbebfd4	cs
+3ad7ce90-359c-40d7-ab6a-8485923caa71	5af2be42ae08b5194415a239	38896047-b20c-4e3c-aa24-71de1a2116e5	cs
+2fb054a4-0815-42fb-b452-8448ec7b6d2f	5dde798296ae8413041df142	76ad0e55-0634-469f-8792-426edf022498	cs
+00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	d8086024-0c98-4d2c-af02-8e7fe349e85f	cs
+c4599235-74be-443d-853c-729ac3a5d538	5af2c149ae08b51b804e58a8	cab369bb-10a8-43fc-a06c-1a09b92785f6	cs
+37f081a4-911b-4a0a-a848-d599135e577e	5af2bdecae08b5194415a0f0	01eefd5a-1e6d-464f-9c78-5df93295db33	cs
+5c6dec05-715f-42f2-8082-807479e86e80	5af2be29ae08b5194415a1dc	d28e4cdf-c65f-4d20-8697-c571b906883a	cs
+128fd6df-8ebe-4c2a-85ff-4e664ca78e74	5af2c14aae08b51b804e58ab	33962135-4337-47f5-94ab-1fd6939ac031	cs
+854eefbc-1899-4e9a-86bc-cba53fd5fcf8	5c8bcda9e3f339735561c2c4	d377a7fd-8c35-44dc-bdca-7ee23a8e284e	cs
+adb7cc43-4ebb-4c6c-b336-2ff1e9782da7	5af2be60ae08b5194415a2a0	e40749ff-8234-428b-bbd7-6644535df63c	cs
+9be5f238-91b9-43ef-9654-5e4a8976e90f	63e5123581b4b295e66f0261	7d49eeda-c831-40be-bf44-3b8d5006773e	cs
+3349f743-b1b3-439d-b711-7a1eb0b08114	5af2be0bae08b5194415a175	2c595c0d-be15-42d9-b2b0-bbd1e498fc8b	cs
+a06e5c2f-acd2-4770-8fac-0bdb4343cae2	63e5120f81b4b295e66f024c	4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad	cs
+4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	d41c3d6a-8812-46d6-9e43-7327b8440275	cs
+1e1f5c80-29de-4a46-9be1-d80189a66667	63e5121881b4b295e66f0251	d313427a-efc6-4e5c-8d67-2241abe13a6f	cs
+413155cf-2a70-434d-b671-b44fe46200b8	63e51230bc1d64f7b96e270e	384dfdd2-69c8-4787-8214-f42569e3ec77	cs
+aed72706-9746-4a10-b877-7610c3d9184c	5d933d4d01649711f920ce9f	c1deb922-ffac-484a-80f6-841ef0b3d6c6	cs
+c9ef2530-ce43-461a-b192-ee504e1d8612	63e5122981b4b295e66f025c	7440a221-28e5-41bd-b14c-3a7cfdb25579	cs
+754f3da3-6524-4e75-9561-dc2807c9348e	5ca75c90e3f339258a36e9f2	0881c6a6-8c33-43d0-b095-fdb38ae3b274	cs
+b5300252-714e-4bb7-a5cf-63bf06e4b356	5af2be55ae08b5194415a27a	98098ed4-1406-4f5b-9501-1cc4e7517fc9	cs
+021a0d77-3693-48b6-880c-c5e6a5e751d0	63e51222bc1d64f7b96e2706	968b3171-4a0c-439f-a05f-870af1b3153b	cs
+4c1eef61-a891-4d52-bdf5-8f862c7ec647	5af2be3cae08b5194415a21e	3ba4b974-48ca-44a1-a387-fa3c600533af	cs
+a2da5303-9592-43ee-a22e-31fea986a6a3	5c950d77c445fa28926e8833	04293cf9-30d0-4948-91e4-bd6a13cacae0	cm
+9033c853-d25a-4cc3-8cec-035d6b4700f2	63e5122781b4b295e66f025a	3282b8f4-c280-4de1-8aaf-cf6ed26986b4	cs
+6fdfbef4-5ea8-4413-b87e-044786bb66db	6405bf7ab9d07cd5d38d7ad4	578cbc38-e3df-409b-8892-683b5a7dfeea	cm
+08b920ca-826d-4b17-81a3-70e0dee55f60	5af2c14eae08b51b804e58b3	f7fa3f02-ef85-4a88-b5a8-843403687691	cs
+73f4c6fb-ecec-4e35-9394-b82a477e3efe	5dd79e9b24881d4bc5315faf	92102055-e5db-43ff-aa76-d344149e60bf	cs
+7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	fdd582c4-0636-4c04-a764-207f1086c23f	cs
+522704ce-3e30-49c3-ac68-51a1c1080c03	63e51213a0a0603e5708dcbb	f0ad500d-f46e-4d5f-b988-55fcc0246ec8	cs
+bbfe9c15-929b-4ddb-960f-fe614d0abf07	6405bfe4b9d07cd5d38d7c39	13ff46e9-4b8a-4ebc-92c9-111053265ef3	cs
+5633114e-7198-4a79-9c9f-92cd54cdc351	5af2be5aae08b5194415a28a	d51b31ec-3606-4395-9b02-bc29f10341e0	cs
+09668d2a-d1e2-4ec9-898a-c679ee660162	63e51224bc1d64f7b96e2709	c323e027-b5c1-4459-9088-1f7d5622ce2a	cs
+eefe9e8f-ba45-4e25-9729-8892b4ab06c3	5c950d82c445fa28d02a8da2	91064ca0-bcf1-4dcd-9aaf-e35fcf461c6b	cs
+4fb95990-4b0e-4936-8a28-8e209e8b661b	5c8bcd9be3f3397358648c93	c0c4ef9a-7364-46dc-80d0-b2b6c58fe0f8	cs
+6e61ac53-0002-4ba4-84fb-4e3157839b35	5b03d0b9ae08b5095315f752	96127b0a-7b2e-46df-8e24-9ff3477c07a6	cs
+1d0453c5-508d-4c48-bc5e-eb5c22c3851a	5e0e0d291337673263799834	30d30aca-78db-4d94-9424-855100fc44b2	cs
+6c8f92cd-ec84-41b5-8f08-d7e52d929464	5c8bcdace3f339730507bc42	2de259a8-b74e-4464-8bb5-c899e7c5bce8	cs
+8c8fd536-034f-4f11-a50b-0b68732dd051	64062ea8af4af6d531d50df6	28ff0095-bb80-4951-b2de-3fb961bd3ff6	cs
+0bce1396-9568-48cf-a767-93d258f77f50	5af2be6fae08b5194415a2db	fde212b9-e0a4-4261-ac1d-231150c260f8	cs
+e4cf131d-09f9-4dae-8e86-3f257fc85798	63e5122a81b4b295e66f025d	d8622ca3-e1a1-4167-a187-2701994617a0	cs
+3e4bc5c2-6c1d-4680-b221-62add7b58baa	5c8bcda5e3f33973013052b3	a83bac45-fedf-4a78-850c-7ab9e3ed0d5d	cs
+2c058c4d-c70a-4bb0-b00d-8d7518367db7	63e5123281b4b295e66f025f	b4a8bde1-c111-4e53-9bad-b935ba096597	cs
+1ae04fcb-afed-41d4-9f8d-a0e50ebd9db8	5c950d84c445fa289769b624	1dd45e14-a030-4a71-88c7-0aaf8e73f40c	cs
+6b8a7ee4-2b73-44f4-94c2-74027993111c	63e5123381b4b295e66f0260	7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0	cs
+72163e2c-c9ed-47ec-a3b0-67151b0f9fec	5c8654f9e3f33953b40b23b3	477e732c-e863-4412-8d42-9bae7b5698a6	cs
+3cb10ddd-22ca-4c20-8071-04a433a9ab36	5af2c14aae08b51b804e58ac	4a3c3636-f4b2-4678-ae36-dc7d99ce97be	cs
+0c31878c-82e8-457c-a231-63113e45336e	63e51223bc1d64f7b96e2708	397810c8-a209-49ce-9d61-0c0c54f05ca2	cs
+63cc6c23-088f-4f4b-9301-e20161d26fc0	5af2be4bae08b5194415a257	4e16c2e3-68a4-4437-9e0d-dfb4fe708967	cs
+24b8d4fc-d905-45d1-8d73-4bbb60472008	5af2be43ae08b5194415a23c	6849d237-c7ba-4bbc-8180-1a2c96f31176	cs
+0ecac5d8-a1a6-4924-a235-1873d216da0a	5af2be62ae08b5194415a2ac	1bd99b88-7059-4eac-b1de-bfaf5b47949a	cs
+f2f67beb-a268-44ed-b735-14908e975514	5af2bde9ae08b5194415a0e0	91bc6e78-8539-4b3e-8005-2eac0a4c0e8f	cs
+9bbbe661-d81a-445f-875b-53353319e58d	5af2be52ae08b5194415a26d	3cdb3012-2974-4115-ab69-0ac37281e44e	cs
+a874df5c-4974-485f-bfb7-dc26d00a7ce9	5ea2c7d68dee423f3a615ca6	b3ff774f-d4cb-4279-b6c3-17c1075e9d9c	cs
+4f030996-6693-46d1-8a75-aceaaa7b497a	5c8bcd9de3f33973480ec963	bbc8ac64-d73a-4a70-aba9-1a4cd96349fa	cs
+459333a3-1f44-4f4a-94cf-a1796b86d644	5c8bcda5e3f33973013052b2	5471b568-3242-4c65-b13b-f7e2a987553e	selon le goût
+4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	843da06a-8cc5-4ad4-a064-a10b5f9b66be	selon le goût
+8317a256-5927-4dca-aba9-76106640950d	63e5121681b4b295e66f024f	2344b812-f639-478a-9cec-9ba683a22e97	selon le goût
+b853fe97-35c9-45fe-bf24-818461489408	63e5122ea0a0603e5708dcc4	5c913e2b-bbac-4b45-9059-a8bf27c7fe13	selon le goût
+754f3da3-6524-4e75-9561-dc2807c9348e	5ca75c90e3f339258a36e9f2	89cee54a-d615-4e06-afcd-0ded439f42ff	selon le goût
+b5300252-714e-4bb7-a5cf-63bf06e4b356	5af2be55ae08b5194415a27a	1cdadf92-054e-4507-827d-9281aa37406b	selon le goût
+188e4237-4f2b-4618-8e5e-602b5b8b4407	5e3bf6849ce22818eb199f8e	063a7077-978a-4db7-945c-583d745e34b0	selon le goût
+7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	90272f72-17df-4d6d-b65e-7d4d489d0d92	selon le goût
+5633114e-7198-4a79-9c9f-92cd54cdc351	5af2be5aae08b5194415a28a	f8ac71a2-f1fa-4573-be69-260c5032daa7	selon le goût
+4fb95990-4b0e-4936-8a28-8e209e8b661b	5c8bcd9be3f3397358648c93	e62945f2-5dce-4a02-b82d-5cbfb499109b	selon le goût
+fe238304-c9c6-47c4-b9f1-e2f4215e2a8c	63e5122b81b4b295e66f025e	f91e44d5-8ab6-4cee-832b-ff3b2e1f3590	selon le goût
+948684a5-c4d8-4c8b-aff0-690963166a63	5af2c171ae08b51b804e5925	80486c3c-34a1-4424-938a-8b92689b34d5	selon le goût
+9a3bf93b-38ff-4f7c-92ba-00b942940834	5af2bde6ae08b5194415a0d2	e79bf079-5709-485d-9608-265f35b2869e	selon le goût
+6c8f92cd-ec84-41b5-8f08-d7e52d929464	5c8bcdace3f339730507bc42	a33c2654-8620-49d2-b84c-319f76f75ec3	selon le goût
+1ae04fcb-afed-41d4-9f8d-a0e50ebd9db8	5c950d84c445fa289769b624	10ba5485-0359-4b47-821d-318992c84cad	selon le goût
+71dcf86d-05f2-4457-a69e-fc7df423f81d	5af2be15ae08b5194415a193	e55a1955-ac2a-4b9c-ae78-66f067235bfc	cm
+cce6636d-af2c-4a6d-9463-243866e1abc7	6405bf3aaf4af6d531d50acd	4f76cd6c-50a4-4899-a67b-51c2b6791808	cm
+f2f67beb-a268-44ed-b735-14908e975514	5af2bde9ae08b5194415a0e0	11998a6a-3a3e-4698-9868-36a0cc131f6b	paquet(s)
+16a87439-bf32-4ece-b7a6-424ecfe7df5a	6407391f9c6d10cd16eab607	ef664434-fb2e-44d7-9741-c0556f79dc44	sachet(s)
+a874df5c-4974-485f-bfb7-dc26d00a7ce9	5ea2c7d68dee423f3a615ca6	94a8e77f-9517-409d-a443-28e7b3e93933	pièce(s)
+1a4cac92-06cf-4aad-a5bb-7235c07fbc17	5af2bdf7ae08b5194415a11a	c966bdbb-f439-4fa9-b43e-9d5284aaa07b	cm
+750b0c67-0fc4-43e4-bcab-32437024bc29	6405bfccb0da1947779863b2	cec5b394-9e9b-4c64-b322-32f20e297024	rouleau(x)
+523d760f-8f77-4338-accd-ed30a7d48a2b	64073bff683721c9a32b079e	efcf8f82-0f8c-4034-9d3a-ce637ec16c49	rouleau(x)
+d62d93ac-b8e4-4e4d-829d-5b725662ca6b	5c0109bfe3f33939791482f5	589959dc-3ab3-4725-aa45-03ec8385815f	rouleau(x)
+0e949016-a305-4d3f-9adb-fae85f35a4bf	5af2be9cae08b5194415a381	8b41f398-13bf-4310-8c99-e336fe0aa3b7	boîte(s)
+00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	698311af-2b62-46e7-b4c4-810e7b4d6d18	boîte(s)
+a012edb7-2da3-4ced-b303-2b45855f7c07	5bc9de6330006c594864b1c2	d0e6175f-6e4f-46ff-9286-4076a2cb85d0	boîte(s)
+75d0431d-1e49-4aee-b67b-92c60c9490e0	5bceef3a30006c2b0d5d7232	c636df95-9391-4fbf-a094-939c53ccff2d	boîte(s)
+8eda98f8-829b-43c4-9c83-3373910c0d14	5af2be1fae08b5194415a1b7	387206ba-96f9-49d7-9a15-d95c5425db0b	boîte(s)
+568c0def-8ebc-4cae-8147-62524dc67409	5c66d2a3e3f3395bc35f7315	d13657f7-9157-440c-a7c5-b126fe5d687f	boîte(s)
+49ad49c1-a1ff-4b70-81f4-0145d29e1ca7	5af2be0fae08b5194415a182	3b6be32a-0ce7-4527-948d-cc49452a27e2	boîte(s)
+eb126bd8-6dc4-407f-885a-6033cedaf639	6405bfe9b0da194777986410	576acfaf-f488-4eba-af9c-b132dce09d7c	boîte(s)
+37b4eb78-34c4-43f2-9e87-60e35e1f01af	5c9e3f05c445fa5e430ba4a2	938efeae-7710-4694-a685-a1e8203b6bc2	boîte(s)
+b2ac8e7b-72e3-4007-8e6e-8966d21bbb29	5d725d970dcef1000e487d7a	ac795edf-ce7c-4ee4-95d1-e12e27cd9170	boîte(s)
+fd0d9a39-1fed-4f2c-b5bd-ed0d8f4257c8	6405bfcdb9d07cd5d38d7be7	f55fa818-9fec-4bbf-9d1e-55ab7e4efc3a	boîte(s)
+f1c9af7a-a155-40bd-89a8-fcda2b09d52d	5af2be4dae08b5194415a261	070e3368-0962-47f0-ab7e-1ddcf97d797b	boîte(s)
+b14dc22e-c9e6-4247-bfdb-0f17a7d87a06	5b55866fae08b5444c794962	76f15f78-da6b-4798-afed-0c5abe6321ff	boîte(s)
+27a15286-5b46-40ae-a5ca-63c9f826995d	64073ba8683721c9a32b0735	f05eadbb-36f6-462a-8de4-42cd09af1e5a	boîte(s)
+347207ee-f79a-4a0a-8f99-e2f8499eab44	5af2c167ae08b51b804e5903	d15bc386-eb20-454c-9e42-c744fddc647c	boîte(s)
+5f58da4e-392d-4763-b637-7f389796b274	64073be1683721c9a32b077d	4925fdce-f889-478f-8ac6-3c9eb55d0617	boîte(s)
+a9327305-e851-446f-8090-d94b11225a40	5cfa73a8d8a8710016415ac4	e0a9950b-412c-4d5a-ab5b-bf7530297dc4	boîte(s)
+dd1ba37c-b186-41f1-8d71-f1d0cf92d302	6405bf9db0da194777986312	991481f5-d7e2-424c-b300-9a661c08d4b8	boîte(s)
+f48d31ae-5a38-4f54-ae30-5cc48d3d44b5	5ca75c9ae3f33926060c1fc2	a4ea4f63-b7d2-49dc-a09b-eeb65bd05b85	boîte(s)
+2acbd5cf-f099-402d-b0b4-45d5e5c61235	5bdc60d1ae08b57bc5462dd2	baad1a8a-1370-41d2-87e2-21270f06ebd2	boîte(s)
+b4d06358-5f97-41a0-9a65-4c866d174072	5b76db66ae08b523ce09d3f2	7dbf60fc-b800-48d1-a09e-53279b2763f4	botte(s)
+97605c54-803d-4b67-9905-201b9eb5f7f2	5af2bde2ae08b5194415a0c8	80e139aa-a994-4031-ae49-78ea06e19bd8	botte(s)
+929668c5-f7d3-44ee-9cf8-824fe384fb8f	6405bf3db9d07cd5d38d79e4	3949add0-751e-44e6-8ebf-3543cbb5191d	botte(s)
+61aa522a-cd3f-44fa-a698-243ed78aa4ba	6405bfe6b9d07cd5d38d7c3f	7bcad6b0-4153-42db-8b3b-ba11fdc9e3eb	botte(s)
+f1b03f3b-93a7-4ff7-ac1e-b35b16dcf84d	5af2bea1ae08b5194415a392	138b162b-29de-44fc-bc6b-0b2b9b655f51	botte(s)
+38606bdc-3e01-4690-b052-1bf3c8927d58	5af2be42ae08b5194415a237	609efe38-9ba3-4598-9569-02ab51d7ed56	botte(s)
+d35b8a80-4b5c-4067-8e11-dc3763ff0d48	5af2be5bae08b5194415a290	88a70f85-5a71-43eb-b182-4302131e754d	botte(s)
+790e75a2-2731-4de9-910c-e083538d246e	5ed50d63cb7a11723807e097	e04c3d5d-b3ee-4fcd-bfa0-2457628af6c2	botte(s)
+b905f909-9710-4c59-b4e8-fe9c3f15b94d	5c3c5714c445fa5b2f11d713	914b7b30-a546-4c33-9230-b12930cb4e66	botte(s)
+0bbf4377-a6cf-448e-a5e9-78b238da7d55	5af2be6dae08b5194415a2d4	89d19126-ab20-47b5-a35b-0dbe34363d40	botte(s)
+02c789bb-321e-4f0e-a8ff-8032a869aaae	6405bfeab0da194777986416	d7814c5e-5ecc-466d-ae52-b744a095337c	botte(s)
+3e782ca1-a5ef-44f0-9e6d-31f505c15918	5af2c156ae08b51b804e58c9	5d316b1b-8f94-445b-b248-1c307d71c7c7	botte(s)
+30397759-eadc-4104-a3ef-e38a602da950	5af2bde1ae08b5194415a0c6	30eea9a9-cb39-4066-aa53-7374d294553f	botte(s)
+f3796525-d6de-4129-b8bc-8a44108aab14	5af2be3dae08b5194415a222	567bbaab-a2fd-40e1-966a-4f78f294beeb	botte(s)
+c5c00773-28aa-4ebf-921d-31a31639c45f	6405bf64b0da19477798624b	d80f1cd6-5621-4ee9-8865-aa9713eeb8e6	boule(s)
+74eb4da5-5ce8-4d55-bfd5-345909e50805	64073bda683721c9a32b0776	61bb761e-2fe9-46e6-9a8a-a12d20807eb5	boule(s)
+e8c5fc02-9ba3-4add-9973-bc91b9b297d1	64073ba59c6d10cd16eab614	b21afd7e-fec6-44e0-9587-53f29329b01f	boule(s)
+7f4a6f7e-6f14-4b04-a281-4dc497db0aaf	6405bfd2b0da1947779863c6	24581d4e-9a96-4839-b7f6-18415cfbf760	boule(s)
+2a57c506-9981-4c5d-8523-caa67a5ef3b4	64073bb9683721c9a32b074d	b8cd8712-a480-46e6-aa9b-e2b6c716565f	boule(s)
+a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	d69770b1-ed4f-45a3-8505-a75e37260b3f	boule(s)
+a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	f8b77023-453d-4922-9d14-d4add1303382	bouteille(s)
+b4d06358-5f97-41a0-9a65-4c866d174072	5b76db66ae08b523ce09d3f2	0050c7c4-1714-44ef-935a-0ab5427858b6	brin(s)
+f1b03f3b-93a7-4ff7-ac1e-b35b16dcf84d	5af2bea1ae08b5194415a392	b37340ee-dc33-4f8d-a5d3-106bc6d39caa	brin(s)
+38606bdc-3e01-4690-b052-1bf3c8927d58	5af2be42ae08b5194415a237	0978622a-dd7c-4e01-8f83-e881b0da2a87	brin(s)
+d35b8a80-4b5c-4067-8e11-dc3763ff0d48	5af2be5bae08b5194415a290	4701bb15-00c3-4f87-9954-e16897c17dcf	brin(s)
+790e75a2-2731-4de9-910c-e083538d246e	5ed50d63cb7a11723807e097	6aa93d63-6d31-4acf-8547-4722dacef216	brin(s)
+b905f909-9710-4c59-b4e8-fe9c3f15b94d	5c3c5714c445fa5b2f11d713	e9b41343-8b61-4b69-b6bf-4f229a114e4c	brin(s)
+0bbf4377-a6cf-448e-a5e9-78b238da7d55	5af2be6dae08b5194415a2d4	cc698206-b467-45ff-ac66-5b7839f2deaa	brin(s)
+1a032402-f82a-4f17-9452-28127b0c0bbf	6405bf54b0da194777986216	e4f1a19e-63a2-4023-a0f0-21930c893c84	brin(s)
+3e782ca1-a5ef-44f0-9e6d-31f505c15918	5af2c156ae08b51b804e58c9	d3504826-4fd6-4653-a0a2-f5d323a34cb2	brin(s)
+5dcb8253-c5ad-414e-96fb-7b8e79e99bc8	6405bff5b9d07cd5d38d7c76	19dae211-4d11-448e-8873-7cf520bb93e6	brin(s)
+30397759-eadc-4104-a3ef-e38a602da950	5af2bde1ae08b5194415a0c6	a3d44d24-7410-4bd3-88b1-e654bd9d87c6	brin(s)
+f3796525-d6de-4129-b8bc-8a44108aab14	5af2be3dae08b5194415a222	1cc07982-1fc6-4801-b269-e232dbaa91da	brin(s)
+33af1be0-6450-46bb-bd7b-59982ac7a050	5c9e3f00c445fa5e1e745da2	f4783f85-07ad-4b8e-afe3-5068df3adfd2	bun(s)
+ae2857cd-ab51-45c3-8a20-edfb3fd4d806	5af2be0eae08b5194415a17e	64b9f0b1-fafa-41ba-a1d7-983797a01cad	bun(s)
+a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	fdcc75bb-7fb9-4d71-b1a3-50812d6ec502	cube(s)
+97605c54-803d-4b67-9905-201b9eb5f7f2	5af2bde2ae08b5194415a0c8	b9e49453-1e9f-4b83-9fd7-0c8a5a6776c8	feuille(s)
+d45b9b46-db06-44a2-8221-68195c03f949	5af2be04ae08b5194415a152	92cae2ef-557b-46c6-bfaa-3df23340d84c	feuille(s)
+3282bd2d-b7a6-4266-b08d-563a8cc57e38	5c794b05e3f3396cd34fd754	67201c51-9466-42f8-b4d1-cb0d6c4138e2	feuille(s)
+404a4433-24c3-4ae5-9cfe-42b3bd96b576	5af2bde3ae08b5194415a0cb	3d37d03e-b309-468d-a0bc-8cf7fa14087d	feuille(s)
+defc8d51-80ad-4516-8265-10d0a75899e8	5af2bdeeae08b5194415a0fa	f901919a-2137-4508-be0f-237ea51834fb	feuille(s)
+4ad6ce62-92c2-4612-8824-4fa5ed85fb05	5c8bcd9be3f3397358648c92	1ad4c631-11f7-4ab9-95da-8a01c921756d	filet(s)
+b5300252-714e-4bb7-a5cf-63bf06e4b356	5af2be55ae08b5194415a27a	e2863c31-9693-442c-b403-a33e6d99e37d	filet(s)
+3e570082-6acd-4332-966e-2fb814aa11ab	63e51216bc1d64f7b96e2701	e50ec12b-0066-486c-a294-d86f7f2a8198	filet(s)
+27ba42ea-bd98-4627-9839-99bb2ec6e44b	5b928b3fae08b553974324f2	eb6cbb79-5f7e-40c4-9ab6-90d0aef608cc	paquet(s)
+d40178b6-63cf-4e07-bab6-91bb6b3e4639	64073bf6df6297bb5beef169	a2b348d3-a8c4-48dd-9cc2-a60b9b260d5c	paquet(s)
+70394392-813a-48a8-af4e-66f4deb9bfc3	64073bdedf6297bb5beef149	66fd8151-cc0a-4a28-bfa7-11ff4e210578	paquet(s)
+d1d9c648-1d96-428b-8010-1f8136dfe501	6405bf41b0da1947779861d8	1156e279-1ff0-4cf0-a546-b736826a03be	paquet(s)
+594d9d1d-f73a-426b-826c-83e454a561ab	6405bfdcaf4af6d531d50d0e	a325f635-8528-43d2-a098-e1951a78b738	paquet(s)
+37f081a4-911b-4a0a-a848-d599135e577e	5af2bdecae08b5194415a0f0	d957faf4-188f-4edf-9ae6-40a0e8a44085	paquet(s)
+c34bb923-53a4-4e47-b321-c6d637d1ce1a	6405bf70b9d07cd5d38d7aab	9e902636-972f-40ad-a0df-fcd3e6982078	paquet(s)
+a012edb7-2da3-4ced-b303-2b45855f7c07	5bc9de6330006c594864b1c2	9850cf1a-aa1f-45ff-aa9b-8bde10f1f66b	paquet(s)
+ff34ce3d-beed-4409-bfc5-76fc33f2abf2	6405bf5ab9d07cd5d38d7a62	9a45fa11-6ec0-4255-bdb6-1a7a78ad32e2	paquet(s)
+c8c5c487-710d-4c08-87ca-64a96d4c8594	5af2be66ae08b5194415a2b7	3f56a98f-7507-4e7b-99a7-c0156eaf4639	paquet(s)
+970f20f4-d925-4340-b6d7-ca4548e8abc9	64073bc99c6d10cd16eab642	0229db9b-50cf-40b9-a1b3-c6731133e30b	paquet(s)
+fe636ff6-204a-470f-9a15-f42ab8ea0dd5	6405bf50b0da194777986209	a4b7979f-ca74-47e1-8e24-81973d3abffe	paquet(s)
+75d0431d-1e49-4aee-b67b-92c60c9490e0	5bceef3a30006c2b0d5d7232	dc21043d-07fc-4090-89eb-70e8bf4974e0	paquet(s)
+7eb761d2-2217-46a8-9c3e-8757b406a84c	6405bf3baf4af6d531d50ad2	2cb2071e-e6f0-47fb-b8ed-b251be1af667	paquet(s)
+8f38f329-35ba-46d7-947d-ea7c1eb36111	5af2bdf9ae08b5194415a120	b51d1a97-6541-4509-b4b1-8800ecb83773	paquet(s)
+480a1f2e-098a-4cc4-b7a7-20f4580cd12d	6405bfc9b0da1947779863a7	50d5ce96-11af-4246-96f6-5d7710802c75	paquet(s)
+568c0def-8ebc-4cae-8147-62524dc67409	5c66d2a3e3f3395bc35f7315	cacbb189-2d57-45a9-9789-89ae0511338c	paquet(s)
+7c68a0b9-dd2b-44f2-87e5-b56d486a0134	6405bffdb0da194777986456	ceb54fd9-9539-4e19-a744-5d71de1fbe09	paquet(s)
+a874df5c-4974-485f-bfb7-dc26d00a7ce9	5ea2c7d68dee423f3a615ca6	b83f09f0-963a-4f91-a50d-db64dacdc8e5	paquet(s)
+e2372b1e-aa27-4b51-a5d4-1f32af4b5425	5af2be2cae08b5194415a1e4	d6aa70b0-8d39-42d8-a7b1-35f104838d91	paquet(s)
+49ad49c1-a1ff-4b70-81f4-0145d29e1ca7	5af2be0fae08b5194415a182	ef0a1f2b-121f-43cc-a327-d581a48b1048	paquet(s)
+cb98b770-3d22-46ed-a327-16ade4474ef1	5c876c76e3f3392ed3516c92	802da018-a821-4352-b551-197f5fddde06	paquet(s)
+02668c9f-5fbe-444f-8498-844101942fa0	64f199da71b62ce128332348	af1c57dc-1988-4958-a615-7e0795f26ceb	paquet(s)
+cae2e16e-4fb0-4264-a1d3-7ddbb6850297	6405bfe1b9d07cd5d38d7c31	06c722fb-725a-47be-8106-50e0b8b44a79	paquet(s)
+957fb7a1-6c57-4c60-9a46-c4f75a9e752a	64073ba5df6297bb5beef0f1	20441156-3aea-46bf-aa5f-1447e5dd32a7	paquet(s)
+277aa658-fa27-4e6c-910d-fc6901753ee1	5af2bdf4ae08b5194415a10e	df6ce7ab-b6a3-493f-a058-43ff29dd8787	paquet(s)
+eefe9e8f-ba45-4e25-9729-8892b4ab06c3	5c950d82c445fa28d02a8da2	7d8f57b2-0e65-4996-a944-f566ace42c33	paquet(s)
+d62d93ac-b8e4-4e4d-829d-5b725662ca6b	5c0109bfe3f33939791482f5	39f7a50b-dea4-4774-9b6a-81ecd788f860	paquet(s)
+792af469-66c7-4f9a-a390-62f3458f36e4	5c700022e3f3396c2e00db14	3539d845-6c2b-48c2-bcc0-95491b7f5b37	paquet(s)
+7586c401-33eb-4014-a7c1-d2cd3758ab26	5e8ddf96e1c4d4221762f1e5	ff3c31e6-968a-44a3-87a8-cb579526914c	paquet(s)
+f1c9af7a-a155-40bd-89a8-fcda2b09d52d	5af2be4dae08b5194415a261	44ab71cd-f05c-4c52-8802-cfcd9aae5b9a	paquet(s)
+fd0d9a39-1fed-4f2c-b5bd-ed0d8f4257c8	6405bfcdb9d07cd5d38d7be7	d7f41b70-f2e7-4d49-ba9f-9778b368635f	paquet(s)
+ce8a2e41-e3e3-407b-b98b-6e9f1933bc23	64073c519c6d10cd16eab6c0	7f9ee60b-6fb5-4411-92f2-326f303ac8ef	paquet(s)
+6dd36b29-6b45-4736-811c-5a6b86058c04	64073bc2df6297bb5beef128	8f2575ad-9b18-4e52-8954-655189b222db	paquet(s)
+6ce6cd6a-ea86-47ea-94c0-1098453f74c3	64073bd4df6297bb5beef141	8ff49914-bf34-48a9-ba40-2a512f705db9	paquet(s)
+f9c28e2d-78d3-440e-b5a6-f8e36a8d86e1	5af2be45ae08b5194415a241	2f5a7eb3-5870-4adb-8345-226f62b0a881	paquet(s)
+5f23c4b0-6e1a-4953-831b-49d992a13e72	5b928b4dae08b55383267f82	816fb53b-9a80-4d62-a6d6-58d2334c3390	paquet(s)
+f48d31ae-5a38-4f54-ae30-5cc48d3d44b5	5ca75c9ae3f33926060c1fc2	e721649b-7899-475a-9ba9-1c0de853d17d	paquet(s)
+2acbd5cf-f099-402d-b0b4-45d5e5c61235	5bdc60d1ae08b57bc5462dd2	5226e46f-956e-4b0e-86e3-e63836dbb90f	paquet(s)
+8a46d57d-5a69-424f-be00-d99b311d644a	5c950d88c445fa28f67f6be3	39c5e33f-cce0-49fc-9c15-514d9f2cf751	pièce(s)
+92c7b983-a456-4e61-ba45-f35357446a6a	5af2bde3ae08b5194415a0cd	5d3bb496-cb30-424b-9989-d1ddf82884d9	pièce(s)
+38fd699e-01a3-49c6-b413-dab6392093db	5c264206c445fa3bd93ba752	823fea13-b57f-4e6a-bbc3-5b8f3bf1697b	pièce(s)
+0e949016-a305-4d3f-9adb-fae85f35a4bf	5af2be9cae08b5194415a381	68cf01dd-386e-41b5-ba43-3e5723f99283	pièce(s)
+49f23c12-f105-4a91-a792-98776effee13	6405bfb6b9d07cd5d38d7ba5	90467ede-b759-483d-bb82-125c61960b1a	pièce(s)
+b4cb42ec-99a4-4a97-af0b-fe8241ce721d	5af2bdfcae08b5194415a12f	c41d2c10-1b0b-4ae8-be6b-5dbd96fb33e4	pièce(s)
+fc6aeec8-b896-4795-a292-dafaf5fa0987	5af2be12ae08b5194415a18e	a4d51f52-04ce-4a46-a390-85be279a12ce	pièce(s)
+6ab85628-44c7-4a23-8301-e82d2758ba47	6405bf8eb9d07cd5d38d7b13	6ec28c95-4a5c-478c-9240-e8ce90cc3135	pièce(s)
+6b8e6560-a4cd-4dae-bb41-25d38d8bdb4c	6405bf9fb9d07cd5d38d7b57	673a042b-e8bd-447e-b9b5-8edc4ad2da58	pièce(s)
+6470c9e8-5068-4414-92c2-129b4798dcd8	5af2be5aae08b5194415a28d	4716a1a7-55bb-4c4e-a60a-9ff469ef2b58	pièce(s)
+df36ef38-dc6b-4148-9ca7-989a3223bf1e	6495be683bcb0c05c0584177	dccca601-32ec-4dc1-99ac-abf31c725365	pièce(s)
+661d9c50-3dcf-435c-80bb-f80568807aa0	6493fd38f855bec59c8fd365	a8de8bf7-32f3-43cb-b66c-c6c096af81d4	pièce(s)
+e65ef1b6-cd55-44e0-b065-22e7fef29a09	64073ccfdf6297bb5beef1eb	a747b26d-1334-40ae-b5b2-925d245ac3bd	pièce(s)
+1948f200-8332-4674-b072-59bd34a7c2ce	6405bf33b0da1947779861a9	6c6db460-fde2-4aff-a173-c2e02aa60ed8	pièce(s)
+e67fb285-8dec-4291-a0e0-8d1836d375fb	5d19d7e4fca63a000f6a263a	79eae43d-4c9b-4620-ab51-b2e0d197d747	pièce(s)
+e4247fc4-2cc3-4831-954e-70bcf8c6305a	64073ba79c6d10cd16eab618	bd36bea7-cef0-469a-b6eb-d488bda772c2	pièce(s)
+9256a4e2-8cb5-4d01-a293-9af95893b549	5af2be7cae08b5194415a30a	89ad37ac-bef0-457d-83bb-9fabdcc5e12b	pièce(s)
+544d05e7-6151-442c-8100-8507b6b5df3e	6405bfffb9d07cd5d38d7c95	166b18e2-44e0-4343-bb88-8ed0f0c09f5b	pièce(s)
+2d06c390-7eaf-480f-aeed-0de078edd909	5c0109bbe3f339397c2ba5b3	31f8a6a0-8fce-4654-8303-7fef8e5280d6	pièce(s)
+8a65fdd5-ae3f-4d2c-b974-bc8d5fbe91d4	5d03abf4d2d35b00122f5377	b6143620-af7f-470e-b1e4-836651c10c4b	pièce(s)
+e98c42ba-ec97-4e6d-9bcc-4bc99a723b64	64073bd4683721c9a32b076e	637aa754-bd81-4268-9753-7225334d3281	pièce(s)
+386c8b04-9934-43c8-b7c8-17fc1c5703bf	6405bf97af4af6d531d50c29	66c78723-d5e0-498b-92e2-ba989c656773	pièce(s)
+1ffe4acf-8a44-4991-b317-60cb8c627a3d	5d53dde30f071b001579bac7	fab24769-7700-4a6e-8f30-c15a04bfcda2	pièce(s)
+6dcfb3ce-97c2-4e9c-9717-a85b75783897	644c60f3e915ac78ee7c6776	c76e80db-bf66-4fbf-8569-fd166884e67e	pièce(s)
+aa58517e-0166-439c-90ad-e37d4da0d2c5	5bdc60dbae08b57bc06363d4	95fcc179-67f4-4e98-87d1-c24a05edbeec	pièce(s)
+0feede62-de7c-489a-8497-8e0470d07a75	6405bfe8b0da19477798640e	4212eefa-094e-427d-aced-4ad5cf41f2d1	pièce(s)
+8c49626f-3bf6-4a62-9501-ea52fe68058f	6405bf4eb9d07cd5d38d7a32	5238b98d-05a5-4025-bc2a-ad917dcfc89f	pièce(s)
+ed20d059-39fa-4e7b-b93f-21dd6013a410	5af2be5cae08b5194415a295	dc41ae80-c1f4-4419-ac74-9eb6477b7126	pièce(s)
+436e09fb-dc34-4bbd-b672-e4232f256072	64073c75683721c9a32b07e4	362e41be-c1d8-40ab-847b-a15b0fe110fb	pièce(s)
+4742a6c6-26f8-4784-939d-8fee9335b52a	64073d179c6d10cd16eab71a	fb6de05f-81ad-4398-bf30-2e1ac1fd08cf	pièce(s)
+eb735c95-50e9-4b7b-940a-8e02430b576d	5c950d7ac445fa28926e8835	8aa4efeb-825b-4a07-a459-ef51d4d1126f	pièce(s)
+0672f35d-346e-4ac0-b941-709c5866d90b	6405bf72b0da194777986283	858a83bd-2506-4680-8fd0-3ac26c5d682f	pièce(s)
+9c7ee495-66fb-4db5-abb1-a6189ff6dc45	5cfa73b6d8a871000e5b1634	d990cbb9-7fe4-40e3-80b6-86bfe35eb69f	pièce(s)
+6a81b5c1-0629-4132-b819-b31c208318a8	6405bffab9d07cd5d38d7c84	95e4b069-53dc-4c0d-9995-f07d08a49858	pièce(s)
+e946128e-2c28-473e-bbb2-2a511f725398	5af2c171ae08b51b804e5924	3370be01-fc22-4939-90f0-a25a93d0abd5	pièce(s)
+0f6a9154-8a5d-4f78-b881-9c65ea2b7090	6405bf73af4af6d531d50bba	677cf7f7-740d-4c49-a4d6-d0e95c4d9ac6	pièce(s)
+c2627a86-e0af-496d-970e-7fa0d501ca68	5c950d20e3f33950f837c012	74847cd5-f533-4890-9fb3-b2df16a1ae73	pièce(s)
+b8300c69-4dbf-4fa9-9198-5564d3f6ac0f	5c794b0ae3f3396d0b09a2b5	6ef221c3-59ac-41e3-b6d6-535e27e40c91	pièce(s)
+359a9c6d-e636-450d-9438-bfadeb23d3c0	5cf144a8806177000e019d26	3502e407-b551-48b2-a10b-09a97c2149cb	pièce(s)
+a718c65d-901c-460e-8122-4198743726c1	5d3f1560265a5e000f76a20b	05be2bf7-acdf-4a9f-9279-8a2e2272d646	pièce(s)
+ca20de25-75fe-4e72-a329-a6de548abee1	6405bf80af4af6d531d50be4	c1456d7d-7f8c-4ae8-b1fa-e29989d1c52c	pièce(s)
+bda2cb14-1594-41b9-9dea-4d6619e70295	5d53d9740f071b00083c90a7	984b04e0-397d-455e-9663-765ef18d3f67	pièce(s)
+a693b005-627a-434b-a5ff-8a16f3a692ba	64073d7c9c6d10cd16eab746	db225f59-e859-4c94-a595-11dcac5a1c23	pièce(s)
+a89391ef-5350-428a-b934-fda9bbe95ff5	6405bfa4b9d07cd5d38d7b6a	963d9cd1-e896-465a-b909-12dfc7e0dd67	pièce(s)
+0f7a67e2-4004-498c-b289-e329d7347b49	5af2bdf6ae08b5194415a114	ae2d7fb9-547f-4548-b73e-cf4d1ef63053	pièce(s)
+5783c434-8496-4cff-ab86-a1147356bcf5	5c70001be3f3396c2a47cd26	f391becb-75f5-4f0a-a64c-e25072e7c8c2	pièce(s)
+1da81635-acab-400e-85d5-bc519dbaf390	5dcd727af283181a300ab126	a7e987ee-50b9-41e2-8d5d-c447a0cffd7d	pièce(s)
+74eb4da5-5ce8-4d55-bfd5-345909e50805	64073bda683721c9a32b0776	116402d8-d88b-478c-aca0-abe6a33432a0	pièce(s)
+c5c00773-28aa-4ebf-921d-31a31639c45f	6405bf64b0da19477798624b	e9e0c3b2-d716-4992-9d38-987f0c36dfd4	pièce(s)
+22b671c8-a138-4304-863e-2ceef1b83808	5d1b4fca2bd5c6000a2151fc	e4529b91-058b-4c6a-ba14-05379ccdd63b	pièce(s)
+b8ecc04f-8034-4ecc-bdec-63d8c67be539	5af2be68ae08b5194415a2c0	0e9db366-3142-4907-93c6-84d094823f21	pièce(s)
+0e363991-67ac-48c2-91f3-5a39eab419ab	6405bfbfb0da194777986386	ca6eebcb-1833-4faf-af1b-b4b95eb15ef0	pièce(s)
+be2dc8eb-daa7-4678-8b2c-627e976178f8	5af2be29ae08b5194415a1de	e1b52f65-ed5b-4ef8-aab7-0837c41b58ca	pièce(s)
+536ccda7-3ac5-458d-8bec-abb94b2d8c61	6405bf6daf4af6d531d50ba3	fd0749f4-935d-43f8-ba98-90dd3d5c6e21	pièce(s)
+20c83d2d-6bd2-4002-85b2-204bd073e206	6405bff4b9d07cd5d38d7c6c	919e1d1b-f8f5-4122-9111-f2689c116436	pièce(s)
+c5bbb54f-9c17-44b3-be7b-318e2b5610a7	5af2be86ae08b5194415a33b	525df6d2-bc38-4019-8f62-1352bae52166	pièce(s)
+33af1be0-6450-46bb-bd7b-59982ac7a050	5c9e3f00c445fa5e1e745da2	6733f86f-d586-4806-a163-0d8046ba656c	pièce(s)
+0f3c83e3-2a6b-4f2a-925e-4572f6aea0c7	5ba8a96630006c3c346c38b4	2ca72a2c-3f72-425c-be4d-6d9ba6df88cf	pièce(s)
+61aa522a-cd3f-44fa-a698-243ed78aa4ba	6405bfe6b9d07cd5d38d7c3f	6d283187-ba0f-409b-ad0a-a99a604556d8	pièce(s)
+d278e7e5-d8c2-4b64-9e44-1f4e6421d210	5c9e3f07c445fa5e4f2059d2	9d54e232-03ad-4751-b865-5a3f6cd664fb	pièce(s)
+3d037201-c822-420a-a8f6-c90e2d681aab	5af2be22ae08b5194415a1c2	7654b2c0-7e33-4471-96b1-9806de44167b	pièce(s)
+3dac3c4d-7614-44bb-9ef9-1ef0f301b578	64073c2edf6297bb5beef192	23b93f31-d500-4e65-8e0d-be8dcd81ffa2	pièce(s)
+8a8cc335-fec6-4a9b-a80a-2376f7c20c53	64073bee9c6d10cd16eab66f	92811e98-6623-49fa-a418-b65ed11a85da	pièce(s)
+5f7e84a9-36d5-4b59-b12f-79de6b55aff1	5af2be28ae08b5194415a1d9	ff45e533-fac9-417b-845e-d647093e1dc9	pièce(s)
+2de07d1b-9d78-4662-860a-20098a74ee6c	64073e939c6d10cd16eab7b8	e951b861-9180-4016-8c4e-e7631c434d16	pièce(s)
+db2acb44-3211-43e2-a76f-26d82c43a2fe	6405bfd3b9d07cd5d38d7c02	6b43dd8f-b148-4e12-ae4a-78d3e65d0239	pièce(s)
+5fb0cd15-f09e-45e6-97ae-d316ef891aa4	5af2be5eae08b5194415a29c	a5131feb-8040-4c97-a4dd-6a6cfcf75c01	pièce(s)
+9f6f5fa2-9551-42f5-af30-b91cb1083fdd	5af2be5fae08b5194415a29d	5b45f4b8-49dd-4719-a6ef-4a77fa78ba00	pièce(s)
+508c30aa-ce62-4e15-ae6c-d59c55304fae	6405bf71b0da194777986282	d5193824-801a-48d3-8da3-6c93724a0e5a	pièce(s)
+1ac58fe2-f96f-4211-a9e4-ff851f30c8de	5e1f0278e2e6d65ec87f8933	5c4d8e11-463d-4d6a-b358-7733fdfc483b	pièce(s)
+ba46a541-4d7e-4585-a389-bdbe5cffcb44	6405bf85af4af6d531d50bef	72e2c747-fe20-46fe-bb82-1f67203c3810	pièce(s)
+02d26cb1-e6e7-4cda-818d-106216835cc4	64073f16df6297bb5beef2b7	8b20c47c-3f66-449a-90b1-b8dba7e04aa5	pièce(s)
+3eef31d0-29c8-4e61-81b0-e9c3a0ea4012	6405bf89af4af6d531d50bfb	40d19aec-2c18-408a-a1ba-ab6fb0d9dfdb	pièce(s)
+854eb97e-76dd-48e6-8fe2-f0d1df1d33d2	5af2bdeaae08b5194415a0e8	31655f00-a74e-43a2-9869-a05bb5865238	pièce(s)
+ba68fc49-5dd0-4d8f-aa02-e000487bb494	6405bf26b0da19477798617a	de19a5f6-6f9e-47b6-8ec6-8bf899d03718	pièce(s)
+9805fe35-b4ea-4acc-b8ef-6b41a19193e2	6405bf7aaf4af6d531d50bd5	763b28ab-a50f-4ea3-817c-59328b6cdee5	pièce(s)
+226ff02f-a8e8-4383-943c-9285537d16d6	5c794b0be3f3396cd0285662	ddf3e00a-6c66-40dd-9f38-51374c22ba8d	pièce(s)
+e2487ad9-9dae-43c0-b20d-81d6aed6848b	5af2c152ae08b51b804e58be	b1a15837-ba6e-46d9-9338-f663750798c8	pièce(s)
+818e70c7-cca0-4c54-8dc3-030ee0570a7b	5c865506e3f33953c57bce32	5b83e656-4695-4843-9754-7ff630affc95	pièce(s)
+99a147ed-08bc-4ef5-bcb2-69cccb970d2c	5c8bcda7e3f339735a76c464	1d74cc9b-a68f-4235-b11c-9039d81e148c	pièce(s)
+ba760888-fc66-4433-a6a4-a2d233f0e47d	5c0e2cbce3f33937c643dfa2	5009f392-5ab2-4d52-b935-f383dc2e974b	pièce(s)
+96da2233-b11e-42ae-b852-0816e20dc821	64073bbedf6297bb5beef120	0e0ef131-fe51-44d5-93d5-05cea1b567eb	pièce(s)
+bc220d25-6725-4fbe-9084-918e77d13cdc	5af2be97ae08b5194415a373	1c1cc477-c317-40e6-a145-fce9754d80cc	pièce(s)
+1e677eec-4673-45d6-9250-521215cae3bc	5af2c14fae08b51b804e58b5	6bdefe13-5e7d-442a-bf4f-31caea7c04c1	pièce(s)
+b6c4bf85-606b-4a66-bf9c-487e0eddd44b	6405c011af4af6d531d50dcd	1624f247-523f-46e7-97dc-5fa21872865b	pièce(s)
+abf8438c-b53a-4f3c-8d92-1a524d4783ab	5c950d77c445fa28926e8832	512b1513-0f41-4aef-a7bd-53efe928281b	pièce(s)
+146601bd-c1e2-43ec-a4d6-bde0dca50d61	6405bf30af4af6d531d50aac	0dbee63d-ec1f-46df-81a4-eb177bb7efa7	pièce(s)
+bf9dfa9d-e7d1-4149-8c88-4db3ba01c0d2	5af2be6cae08b5194415a2cf	401997e9-a952-4e40-af85-9ebfb7d5e3a9	pièce(s)
+f9ed2cbe-397c-46e3-92ed-8fbae7025c10	6405bf52b0da19477798620d	8474bc85-b98c-4bd0-a583-fe4b048963a7	pièce(s)
+5f860e8f-a314-45d0-b884-651ea156855e	5c950d7cc445fa288372a893	cfdf7b79-eb14-46fc-b33b-e9bc2331d5a9	pièce(s)
+16a2926b-632c-44a7-acff-826134ffabd5	5af2c14fae08b51b804e58b6	ff95fd54-b829-4a2c-9c38-374e2f42e476	pièce(s)
+8f233f4a-113c-4261-b02b-bec80fc8fa7e	5ba8a96430006c3c441c9ff2	a51705a0-e5fb-4c5a-ba27-8c73fde3cd6c	pièce(s)
+00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	802890a0-5ca7-4ee0-b13c-2c5dc38a6cec	pièce(s)
+05ab4bde-220c-4f3f-9bc9-9ac835a3e95a	5e4a42ab179521032f127c34	525b47bc-fdaa-47df-b228-750c0896c81e	pièce(s)
+0e99d760-baaf-4b5c-9e1c-49f68b5bf087	6405c000af4af6d531d50d96	19db8b21-3173-4d0e-80d6-a62dd49efc9d	pièce(s)
+74a64d86-ff7f-4b12-bea6-eb501207663f	648905f30635a1e9befbb436	72985d33-df25-4ece-9386-06cd2c4f4c0a	pièce(s)
+2cc682b9-7908-42c7-b150-a8c3c02c860b	5b928b59ae08b5536f17e522	503eb891-be25-4b0e-86c8-268e46377e0a	pièce(s)
+1977dd53-232b-4809-b310-c295dccb55d5	6405bf8baf4af6d531d50c00	cc0db64c-c119-4743-8934-e61751cc1393	pièce(s)
+85cce412-ad07-49e2-bbf8-20d3cbb98f01	5af2c164ae08b51b804e58fb	d18b75e8-0955-41f7-8361-611f6a184ca1	pièce(s)
+cedda1dc-11fc-403b-b525-7d9afd8d2842	5d9d97a76f3ff25eb7598b4e	533bb7a8-b6f7-467c-b3a9-1799f6a6ddc4	pièce(s)
+ec597548-ff5d-439e-b0bd-db01939b0209	6405bf88b9d07cd5d38d7b06	47dcf063-571c-417c-b4e0-56878965f8a3	pièce(s)
+38606bdc-3e01-4690-b052-1bf3c8927d58	5af2be42ae08b5194415a237	58ada7f0-7e09-4f27-a2f8-9709cd0d2ab9	pièce(s)
+b5e2e44d-cc55-4dd0-90e8-484525fbc8cb	64073ba9683721c9a32b0738	73cd1547-6aae-44f9-9d44-ed123d9d1f9b	pièce(s)
+2d3fe883-d746-43bb-8f0b-e82b5441cabe	6405bf25af4af6d531d50a75	08ecbf84-baef-4053-80bb-7674732209d8	pièce(s)
+4a204d78-81e5-4170-9a53-95ca7938035f	5af2be61ae08b5194415a2a6	115f9af4-01bd-4865-b16f-c35f43f5aec5	pièce(s)
+8f42aa6b-b0ba-44c9-bb2b-07e94007c6fa	5af2be85ae08b5194415a33a	a5847b1b-21dc-4b0d-93f4-cc5194e8e856	pièce(s)
+def92d54-d083-4648-aa6d-8937115eec50	6405bfbeaf4af6d531d50cb9	51b0b267-70ba-46a6-9835-732b47209c77	pièce(s)
+7f544171-3726-4479-8764-8a45dbbb7fe2	64073c1a683721c9a32b07af	b7cfc0ca-bc05-481e-8686-bf1e44180a38	pièce(s)
+e32aa012-a822-4ee2-b710-904dd001de92	6405bf8bb9d07cd5d38d7b0c	c10ecad4-abae-4fff-a410-4bbcabbc1abd	pièce(s)
+744e8c08-59d3-4ce1-9ffb-13049e883eba	5af2be53ae08b5194415a272	7f7c6391-c384-4ef7-bbb1-22884f383cc4	pièce(s)
+67112807-bab7-437a-ab65-2f6762304888	5af2be0bae08b5194415a174	aa2bbaf0-9682-4da5-9927-df8c0daeb230	pièce(s)
+bc0c50b0-50c0-41b5-a980-fecd439f7ff1	5af2bea6ae08b5194415a3a4	854c4a52-eec1-40b7-bbdc-3b49359690ef	pièce(s)
+63eb23f3-5689-4d4d-952e-dbb0b0c5f80d	5d9d97a21354614ba164bdb3	077fe896-8f49-4970-8819-5a44d150b572	pièce(s)
+6861d8f6-724f-46d7-a8f6-8ef103b4e541	6405bfd0b0da1947779863bf	d8677d53-7b1c-4681-a7fc-45b42996fa12	pièce(s)
+5c6dec05-715f-42f2-8082-807479e86e80	5af2be29ae08b5194415a1dc	d9d0c053-4d9b-4b3f-aec9-9755c9b60748	pièce(s)
+43290529-e0cd-459c-8431-06b44a470f04	63e51235a0a0603e5708dcc8	9f442c92-8c75-4d74-becb-063550b46458	pièce(s)
+0afb6e02-0d51-4bd1-8119-0129354380bb	5e1f0277cc6609041441227e	898c392f-e1d1-40d5-81d7-53d1534a5aaa	pièce(s)
+3aafe58c-08ac-4852-a295-c8d535703ed9	63e5122081b4b295e66f0256	b0e9b65b-a307-4d4a-ba3f-9cbbfa505df6	pièce(s)
+43a05f47-98d1-4f42-9f33-db1844dfdcf2	5af2be25ae08b5194415a1cc	e0d461e6-1b70-4ba2-b5d6-b081c1aae7c5	pièce(s)
+bb314273-bc1c-4587-9881-9e9ec14c65d9	63e51213a0a0603e5708dcbc	60125f5c-84df-48ab-a729-fdad0a82d1ac	pièce(s)
+a1ad4000-e319-402e-9e32-74712a5dc0f1	5e4cf7fc389bc238c3507fce	ecce4e68-efd6-4e1c-be2e-984f9aeb903c	pièce(s)
+cb53b85f-d51b-4235-9ccf-8c25295ec222	63e5120ebc1d64f7b96e26ff	e8e45ab2-68c6-45ba-b180-204b640e1be2	pièce(s)
+d7a87168-09ef-4fe9-93ec-4b43c71b1532	6405bff4af4af6d531d50d5b	f02bda0f-661c-40fa-9c21-51bd898de470	pièce(s)
+cbe8b8b5-38fe-4fb5-b6ce-52c85b43227d	6405bf67b0da194777986258	b07c1906-0278-4efa-b5e7-8b0bfd07d4e1	pièce(s)
+554ed87f-ab89-4597-a956-2e5732744434	5af2c162ae08b51b804e58f3	0a2a1fc2-804f-4430-afe8-e97e541126ba	pièce(s)
+03796ebc-b638-46c5-9538-aa28af0a2105	5b3f7996ae08b5535d162163	37223b56-8258-4502-a843-86a680d88f6d	pièce(s)
+0abc9653-e23e-4b40-9762-fd092b92f601	6405bfd5b0da1947779863d3	b191c9c8-1e16-4de8-ba09-409753dc0f7d	pièce(s)
+e56af137-5600-41cc-89ac-f5b393892df2	6405bf18b9d07cd5d38d7962	e6ded1b6-55d4-45ab-bb9a-d561c2375931	pièce(s)
+3c009768-1bad-4185-9a31-55a241d5d38a	64073bcc9c6d10cd16eab649	4e53120d-0e93-4a13-91d8-eee1ab315186	pièce(s)
+c89a5f8a-4fa8-4e6d-b6da-e7fa004815d3	64e38514a2c417189e0da947	ed90d97f-bea0-4aa6-9b63-1800b9e943ed	pièce(s)
+cff7b5cf-4a2b-426c-8dfc-ca022b11f694	5af2c16bae08b51b804e5912	f58ce75d-3a4b-40b4-8564-6c5346d4a6ac	pièce(s)
+c95680f1-8141-46de-8620-6f8d1b874d2d	6405bfd9b0da1947779863dc	89da2cd9-0800-456c-85d3-24d5a1c65e07	pièce(s)
+0db9720f-b412-4b56-80ba-a960bda7b80b	6405bfceb9d07cd5d38d7bea	1274c7e0-0d9d-47e9-ad7f-dd9921a14cb2	pièce(s)
+162863a2-88a4-41a8-8083-7adf892d3eb0	6405bfc5b9d07cd5d38d7bce	c050fe94-e69a-488d-9032-0cb7fc0fe7b7	pièce(s)
+594bdc0a-3f5c-4e45-9e71-4403d2d5d933	5c8bcd9be3f3397358648c94	b201710f-86a2-44b8-898c-1f415acb8f68	pièce(s)
+ba8511e1-ddb3-48db-bf95-0a789295fa8d	6405bf7bb0da19477798629e	88ea691d-1415-4e4d-a757-af4ae14c2e03	pièce(s)
+1a9d7432-c240-40b1-83ee-a0cf1c32118b	6405bf82af4af6d531d50be9	63139436-35ce-489d-bcd8-c0b7a3ebc4ba	pièce(s)
+d7783e0b-d433-41e5-b457-eb9b43966b91	5bdc60dbae08b57bc06363d5	59117b00-94f6-4c78-925a-b8876caba57a	pièce(s)
+5961d99a-d83f-4cc5-91a4-63fa0509bdab	5af2be6aae08b5194415a2c7	ff254d79-f02c-48f5-835e-006102fc857e	pièce(s)
+eda8ad0e-46a6-4a01-b025-a24d6b8ffac5	6405bf49b0da1947779861ee	89d7626b-d02b-4bd8-97be-795760e2b512	pièce(s)
+4f030996-6693-46d1-8a75-aceaaa7b497a	5c8bcd9de3f33973480ec963	88597f18-de94-4c9a-9297-5d529e120e21	pièce(s)
+f06cb2b6-a817-4912-8dc6-8130f96d1057	6405bf91b9d07cd5d38d7b1c	11917c09-e128-428d-b70f-1a61ce70edc1	pièce(s)
+79d6a1b7-027b-48e4-9eaf-294367796139	6405bf9fb9d07cd5d38d7b54	cfdb0889-57ef-4715-b466-dcc694f4bb4f	pièce(s)
+1dec43e5-2672-4f7e-a80e-9a2af7a941ca	5ca75c8fe3f33925b82ec686	17edb5fd-74b1-41e7-b2ef-47d9d7ee1199	pièce(s)
+9587c43d-78f0-4c72-910f-6088e3ed158c	6405bfa0af4af6d531d50c4f	9e7a0fb4-4611-4832-9763-9163e4af0d6d	pièce(s)
+1d57e44a-bcc6-4537-b6ac-4132d1876cec	5af2be60ae08b5194415a2a2	8d468c77-a49a-46de-a3e9-9dd1817803fe	pièce(s)
+a4eb3e2a-882c-4c79-95b8-614c543c4765	6405bf5eb0da19477798622e	4b3561b8-c671-4af0-9c42-7fa30e1dbbbf	pièce(s)
+e9e55add-462e-40c8-ae06-ac570d00bf86	6405c021b0da1947779864d7	696a738a-1576-4b4b-98e0-325152b9b358	pièce(s)
+6bd29578-b3ec-4ba9-acc7-f776cb7c6c4f	5e81e04e65d0084a291b703a	c7784db1-6833-4de4-a8d6-11055a005360	pièce(s)
+970cb3b4-467e-45b2-b0ce-6708ee34e64b	64073d7c9c6d10cd16eab747	19122aac-3aff-4c6d-abd7-c52130440ed8	pièce(s)
+e1258527-e1bf-42e2-bfce-edb53c5045ab	6405bf49af4af6d531d50b0f	1863e2f0-eab0-4032-b973-9ce00f62bd3a	pièce(s)
+a2ffa436-7019-40fe-bbd6-1431d8525b63	6405bfe5af4af6d531d50d2c	ea9abbcc-0b63-43c2-b06c-982591f8a520	pièce(s)
+9260e6d7-b923-4b88-9f4e-be1ad92ef5d6	5af2be11ae08b5194415a18b	fd77bcda-a2dd-4928-aa53-958e2a5a8391	pièce(s)
+4a8e7e59-40e6-47d3-8f85-f2e72cbfd740	64073ce69c6d10cd16eab6ff	379d942d-686e-45e9-bcb8-a1e5059f6a10	pièce(s)
+d45b9b46-db06-44a2-8221-68195c03f949	5af2be04ae08b5194415a152	02893e1c-c07c-4cbc-9e39-c9b86974883b	pièce(s)
+2f762dc0-4910-4e4e-986e-41b1004ccccf	6405bf23b0da19477798616a	4d270119-381f-4870-9b6e-d15415df946c	pièce(s)
+0ab202dc-8004-49b1-be4f-bf3917eb94c9	5af2bdecae08b5194415a0ee	e366b8fa-62cc-4723-971e-3173dc6d8221	pièce(s)
+3282bd2d-b7a6-4266-b08d-563a8cc57e38	5c794b05e3f3396cd34fd754	091f0933-8ba3-4c21-9124-7ff89089d6d6	pièce(s)
+7df686ec-c8dd-4b35-ad53-6ed2b43dfec4	5b8022a830006c3a643a4e62	78bd035c-3ed8-43c0-ab7a-895f730e0fba	pièce(s)
+0c3db9b1-5d68-48fa-ad08-8a0272ee31b1	5cfa73a3d8a871000b700302	2fc1daed-34cc-44ea-885e-268a452cb1b3	pièce(s)
+73bf90ff-62c5-4764-a5ec-599977f9b1dc	5af2be9aae08b5194415a37c	d03443b9-d40b-45b4-b820-c8448f674ace	pièce(s)
+02997f3e-b9e0-4fad-a735-f90d3abd13c1	64073bbf683721c9a32b0756	fe01aadf-e04a-4198-b9d3-ca2c4c471c72	pièce(s)
+8500c395-14bf-43ee-b836-344704977e1b	6405bf6caf4af6d531d50ba2	07751940-f966-4856-a45f-9e985a961e61	pièce(s)
+c6b0abd1-9cd0-4f1d-b956-f235955d3c4a	5af2be07ae08b5194415a165	24c0953b-85f6-46ca-b130-17f7f219dbb6	pièce(s)
+c2d529ff-29c1-4283-a426-bb20ab7514d7	6405bf81b9d07cd5d38d7aeb	5a231ac9-371a-4c03-87dc-90e43f000978	pièce(s)
+4520855f-2632-4876-bb5f-d3818719363d	5cdea5d0bfc591000c342572	7e184da5-c0d3-4a2f-9c5d-cb526507b072	pièce(s)
+287f63b7-5af7-44e1-b6f1-f5c7adbb4f00	5c794afee3f3396cd34fd752	a7203ff8-25bf-4641-9e62-f7f3d139137c	pièce(s)
+b065934d-3924-4333-ab03-69322f342ad7	5af2be72ae08b5194415a2e3	5ec1f153-24c6-4e40-be07-1a7b28c176be	pièce(s)
+7d878d3f-66e0-43d4-bbfd-6d0bd6c9794c	6405bf5db0da19477798622d	43b7404c-ee62-44e7-950f-ac4f441192be	pièce(s)
+2673ad6a-d50e-4363-a7d8-d31278b39d59	64073baadf6297bb5beef101	1b459eaa-6d36-41db-ba9b-6bf426693ab0	pièce(s)
+612fb2ee-e8e5-4397-abc9-8f2100a2c135	6405bf83b9d07cd5d38d7aee	eac3d46e-54fe-4003-b400-c3e10071f624	pièce(s)
+5845a453-6d5d-46a1-aa5e-1d0bc890fc36	6405bf4faf4af6d531d50b2a	c8f3b2ff-aa62-445d-a665-4fdcbb89869e	pièce(s)
+32483b6e-8ea4-4706-ac96-3901eac35cb9	5b1a8f6eae08b5414802e882	d055901a-7c9e-45a7-b54a-ffc2d1b929d6	pièce(s)
+2914f06e-6b47-4ae6-9bd4-6f515b97e3d6	5af2be85ae08b5194415a337	5da1deaf-9745-42a7-b557-21ba538275d0	pièce(s)
+eff19db3-7810-4450-a323-d6b80e6fd7c1	64073bb6683721c9a32b074c	e9b75a08-7566-40e2-b525-26ba899c509f	pièce(s)
+450d2a16-da3f-479f-aca1-b3bde019fa06	6405bf36af4af6d531d50ac3	5a223f6c-0f21-4e7d-98f2-cd4d1d7386f4	pièce(s)
+00dc9fc3-3692-487f-a61a-ba1634d18618	5c66d29be3f3395bc35f7312	b700cf97-9281-4fd6-a463-1d51468b7027	pièce(s)
+93285e7b-f3da-4d0e-9260-c7c7a8b164a1	64073fc2683721c9a32b0908	c576ebc2-837f-484f-8f4b-faa8a0be828e	pièce(s)
+044d3121-ed88-40a2-9dd1-16a7d2c6b095	64073bab9c6d10cd16eab61c	4240bed6-0c28-4b7a-825e-1be9df2f7da1	pièce(s)
+88faac7a-030d-4ed6-b498-c513828fd813	6405bfb1b0da194777986354	5297cff5-57da-4fcb-be1b-f34c8debd565	pièce(s)
+ff57b7f5-0f30-486b-8d9f-1db22013d49e	64073bb19c6d10cd16eab625	0d507d44-548d-4a70-b270-da61674968cd	pièce(s)
+b52e990a-c4f5-48f2-91e3-f8ad113b0efe	5af2c154ae08b51b804e58c4	1c26e500-ba91-45d3-8d5a-82f0fcee5e21	pièce(s)
+c9aefc15-a17e-4428-9a1a-9e35430798b6	6405bf2cb0da194777986191	de729da2-1a3f-4af5-9aaf-e3e1e78c4d84	pièce(s)
+049970b3-ec09-4c2a-83fe-1f49080d6704	6405bf1ab9d07cd5d38d7967	c4d89c98-3ab3-4446-9b43-1dde67bd970d	pièce(s)
+0761c693-0c0b-4d8e-9836-ad9ed99c636e	5d2456026bca36000c51c1cc	07f3e6f1-c6fe-47a8-af38-f915d58cce0d	pièce(s)
+cb6cebf7-ddef-4933-a874-f8c66205b603	6405bf8fb0da1947779862e8	19cc3d30-1433-45b3-9869-f60d485d3049	pièce(s)
+34eb9803-c749-4be1-90b0-39ee800cee46	5d03aaabe6881d00144e98d3	89a0e367-97f7-4a16-b13c-9cb7b7d30617	pièce(s)
+dd6db2af-9abf-47ff-8ce4-b9e508e52304	5af2be38ae08b5194415a20d	f798300a-5f2c-4cf6-b68f-080ad4311907	pièce(s)
+70631a7c-5223-4d1a-9bdf-aef75623562d	6405bf3eb0da1947779861d0	5819054e-dd9b-451d-b6d5-e2ad790fc818	pièce(s)
+b6d0e905-2de7-4159-a7fd-0ce60299b600	5e3bf6859ce22818eb199f8f	4bbd87eb-0880-48a1-afa3-3ba8da17f3c8	pièce(s)
+ef324d5e-d3a5-4e86-81f7-7bfbf00dcc55	5e9063c95ecacd749e661d51	5455fac0-9457-49d9-9f1d-5fbf4b83fca7	pièce(s)
+2eea9903-b29d-496e-8162-acf10295f8d1	6405bf28b9d07cd5d38d799c	3ed4c2a8-6adc-463d-9896-7f3589f3024d	pièce(s)
+bb7fea40-a448-408d-822f-4ca1c9ce78cc	64073ba7df6297bb5beef0ff	0d9e7911-da10-4172-8390-468c093e34a0	pièce(s)
+aa019cc8-7e64-4da0-9b13-44ac52af654e	5e735f9577e50120590c05a5	8b3c5c0b-2a94-4c87-8bdf-f137976942de	pièce(s)
+f41c9b09-f307-43f1-87f1-0b06a63e1ef8	6405bf32b9d07cd5d38d79bd	45ad82ff-4e37-440b-952e-a1647285333e	pièce(s)
+ca42cb69-fcab-4d34-8573-c796437c87a2	5c6ffcdbc445fa23d4707943	ace8cf94-e9fe-4053-8769-3dd50c25a7f3	pièce(s)
+cc583a1f-a1ca-497a-a99b-df3c72858c83	5af2be9cae08b5194415a384	5b3da950-8dcc-4f19-ba2e-0cb16530eabe	pièce(s)
+2f3bf0ec-8db5-4ff8-9d7b-65e2641d7515	5d3f155f265a5e000f76a20a	796bb1e0-b095-490d-880f-9a427489625f	pièce(s)
+feff3be9-e856-4db7-8b7b-da21a1130b38	6405bfd8b9d07cd5d38d7c10	e21ba828-d0a1-4f75-bc29-79702361203b	pièce(s)
+29137ed0-9e7e-400c-b901-d5df24b01fb5	64073bd29c6d10cd16eab652	e9e9530c-06f8-4b72-b082-9f5c4bdcd964	pièce(s)
+12481e97-ddda-49e5-bd77-a9ec59b109a4	5af2c173ae08b51b804e592b	0cd0e9b6-21af-4318-8e6e-c63cc6ecddf6	pièce(s)
+05d84c79-f320-474f-bed2-6e45fa3c5a42	64073ef99c6d10cd16eab7d9	f3544194-2d85-4e5c-8dc9-303cfffcf84f	pièce(s)
+d209d786-6396-4779-865f-145a38d6efbe	5b362c9430006c53516f4852	7888a192-2497-4f53-9225-ceebf8af83fc	pièce(s)
+6accca76-7631-476c-bdd1-cc17fa0374af	5af2be48ae08b5194415a24d	cc36078d-35ec-4d98-b4de-5e698cbc9c7d	pièce(s)
+83bf5a8a-4ffd-4232-ace1-6ee015ede316	64073c9b9c6d10cd16eab6e2	cd545073-3aa3-42e7-a2d6-fca914b7bdf3	pièce(s)
+f3573a8f-8e9a-49b7-b661-b47b65241560	5af2be6aae08b5194415a2c8	30f4e7ab-65db-48b7-93c5-abb630c829b1	pièce(s)
+ef37f7b2-3963-4b84-8e6a-67aba69f69c1	6405bf43b9d07cd5d38d79fa	302789d0-8f91-4f9d-9e7a-9059c93664f7	pièce(s)
+a582dd1a-3ded-4a1c-8dee-4eb3c445eea9	5af2c163ae08b51b804e58f6	8519d517-6b56-48ef-b6e8-3eb65b3f53fd	pièce(s)
+40e62375-dab8-463d-940b-308652f73bbc	6405bfc0af4af6d531d50cc0	ad8722a5-0544-4bbf-9564-75c74bdf0e3d	pièce(s)
+c6864931-dc2e-4d30-9d83-05801b145afe	6514c2c1aab557d393d8cbee	3b97302b-fde9-4f86-b8f6-05819627291f	pièce(s)
+a8686734-e02f-49f2-9cc9-89f82f31aada	6405bf74b9d07cd5d38d7ac0	c4c656cc-fd36-4454-9214-de15c77f5de8	pièce(s)
+e4078b2e-01b2-484b-b722-e26de7e1e9a4	5af2be2fae08b5194415a1ed	caa83bfe-6a2e-44d6-b84c-8337a6cf5c07	pièce(s)
+91946bd7-97e0-473f-b166-75858351cd79	6405bffdaf4af6d531d50d86	e53b10ba-0bdf-432e-ab24-b879d5e1b584	pièce(s)
+937cc101-94c3-4d21-87cf-70bd80e2d458	64073bbbdf6297bb5beef116	742fa40b-362a-431e-9598-137452629b11	pièce(s)
+48975434-9906-46ee-94b2-777e32c79b7b	6405bf47b9d07cd5d38d7a13	8181d4f9-b915-409d-9bb6-f214493e259b	pièce(s)
+fb1584fd-b13f-42de-b6e2-4e2e68f4ab67	6405bf56b9d07cd5d38d7a4f	48c3d321-e985-4189-9f9d-71e8d33ae8fd	pièce(s)
+603029b9-571c-4b16-a024-0d515be78ad2	5cdea15cbfc591000d02b434	8c75ebc3-1c7b-41bd-b352-0bf1e8b45618	pièce(s)
+c62b89dc-d875-4d73-9b9a-9c0e9071c52b	6405bf62b9d07cd5d38d7a7d	a8058dce-b626-4b1e-bd22-b59775ce5268	pièce(s)
+7b4e9ae1-f33a-4935-9557-720bcdd0ac89	5c8bcd9de3f33973480ec962	74d6ed1b-2dda-4433-8a59-436a479a028d	pièce(s)
+3f8c1122-10ed-4dff-90c2-cbf20899c124	6405bf7ab0da19477798629a	eda456c7-efd6-46cb-b04d-503fcc204e33	pièce(s)
+9bec5464-7b3a-41c6-b293-db3339bb0168	5af2be21ae08b5194415a1c0	5a3eca0e-838f-478f-8f7b-6e22fdd29860	pièce(s)
+a281e92c-54d9-4bb2-9648-3c47ba1b4b7b	5d725d970dcef1000e487d79	0ad8f787-b487-4a1a-9740-367ed6c94649	pièce(s)
+f0f465a3-7b2a-43be-8a29-0c7996e13b53	5b0bb2b730006c47d07bd8b2	986420cb-020b-421f-aa31-bd1712ef2a61	pièce(s)
+e0daebd2-0710-4539-880f-3c5737ab0377	5af2c170ae08b51b804e5922	e4482bc7-2296-45f1-a78b-defa1c32fcd7	pièce(s)
+7eb761d2-2217-46a8-9c3e-8757b406a84c	6405bf3baf4af6d531d50ad2	7b73171d-a003-4110-9988-cd289b10fcc1	pièce(s)
+8f38f329-35ba-46d7-947d-ea7c1eb36111	5af2bdf9ae08b5194415a120	c6614deb-7caf-4091-9120-6cdb444a2574	pièce(s)
+480a1f2e-098a-4cc4-b7a7-20f4580cd12d	6405bfc9b0da1947779863a7	c3ac70c9-4588-4630-be17-faf3e0ae1e41	pièce(s)
+b4e73b35-a677-489d-a03b-52351905f386	5cdea15fbfc59100161288d2	a22fbb81-4eb1-42b6-866e-111659c41fa7	pièce(s)
+568c0def-8ebc-4cae-8147-62524dc67409	5c66d2a3e3f3395bc35f7315	2fa2908b-9ab2-4125-93cf-08f5689c90e3	pièce(s)
+3a6af7a0-9d6f-4215-955d-02f63b6bb050	6405bf81b0da1947779862b1	ed76703c-8049-42e2-af9d-b32e89a62eff	pièce(s)
+c96326f5-0c81-4408-ab4e-a0c671760f08	5e4a47fa1841fb3d373ae1ab	1efaef8f-3060-4beb-90c2-700bcb7cc977	pièce(s)
+3c8abf5f-c970-4861-9f22-edfba3fe0231	6405bf69b9d07cd5d38d7a92	271b52b3-3625-4a99-8844-546fd176f3d7	pièce(s)
+232e0e3b-5195-4206-836c-e6df7127a6b9	64e606082d4398dd759153a5	97d4f91e-5d40-433f-8668-92008d09dd5d	pièce(s)
+2287185b-541b-47bd-b509-ca05267eeb94	5af2be65ae08b5194415a2b4	91104bd7-4bbc-4064-a985-684e94f79864	pièce(s)
+b769b6b4-d7b6-4540-9c20-46d2f3fafbc2	5af2c149ae08b51b804e58a7	376c178a-62d8-4ca0-88a0-cd50ac096ff2	pièce(s)
+49ad49c1-a1ff-4b70-81f4-0145d29e1ca7	5af2be0fae08b5194415a182	3f447386-22ca-47f6-a6d8-89c4f9eba637	pièce(s)
+9049ecf1-233b-4c55-84f0-335afb574a4e	5cfa73b4d8a87100113ef314	2b1154ee-09bc-465a-bc26-f0824c9780ea	pièce(s)
+37b4eb78-34c4-43f2-9e87-60e35e1f01af	5c9e3f05c445fa5e430ba4a2	cee41b41-8b33-412b-acd7-75e4d4177835	pièce(s)
+f5156a30-07ef-4c79-8253-690da8cc9dae	6405bff6b0da19477798643f	c973a39f-beff-4aa9-8b40-d49d2e38e96f	pièce(s)
+c109768c-17a9-4c1a-b443-d04d17a88eee	5cfa7529167362000e761a39	88f0fa37-586e-41a7-bb8e-c8a47588b49a	pièce(s)
+08d85b22-e8ab-4a2f-b12a-dd42218efbdd	5af2be5dae08b5194415a296	6157eaa3-6e12-4920-bad3-2ddda2d2bd67	pièce(s)
+579e4dfd-ad42-4f7f-8d92-be1faad6d6c5	6405bfeeb0da19477798641f	5d9883a0-67eb-446a-96a3-6beddb9e1bed	pièce(s)
+20463965-236e-4b9c-97a0-5e8868609f2d	6405bf9aaf4af6d531d50c3b	30d81baf-5c14-43bb-91db-acd43418a7a6	pièce(s)
+a318d3a8-e194-4663-993e-f81dc84d69d3	6405bfdab9d07cd5d38d7c16	2802fbd4-c7b6-4b0f-99d4-5713e3d8f456	pièce(s)
+3fd1659d-ef9d-435a-a081-ab947e1757ad	5d2c50009de581000e37f6cd	ecda55b1-d2f3-4974-b011-0d777756fac6	pièce(s)
+a5f63914-d671-4901-929f-625fbb6d258a	5cb44922e3f339395e60f252	40230058-db21-4d24-b902-58a57bdb6a04	pièce(s)
+264a8fc2-9f85-428a-a611-8f1af5690dc6	6405bf77b0da194777986294	3c7ed099-85fd-4538-a8ad-edfb5a54636d	pièce(s)
+b56593c3-3619-4d21-bdcd-67f9e989f982	5d2c50059de581000c3e29ec	3c20dbd5-575f-4a1e-a534-6b7e2f1f31ad	pièce(s)
+afd0e35f-9c00-4b4e-9030-d2be7c4b1910	5d03aab9e6881d000d696ab6	a10d33ff-8710-4b45-8318-91d53315c61c	pièce(s)
+b0f97436-86a7-433a-80a9-1c8b16daacc4	64073bd4df6297bb5beef143	e61f1d4f-5e1a-41af-a908-175e0e01dc3c	pièce(s)
+e86eaa35-5a65-47af-b79b-8e3b15c6ee56	5d5d5fb8cafe9a00085ebbdd	3a39ea1a-2864-4947-b5f2-b823ecd3581c	pièce(s)
+df2e00ba-3a96-4194-8ae0-5184cc9f00f0	6494e16b2417a80cb660bac1	13dad2f2-33ac-4c12-a29a-4f6895259cc4	pièce(s)
+2cb4061b-b83e-4267-be1c-8e0bd184ec40	5e4a42ab179521032f127c36	50ea2fbb-9ebd-40f7-963a-edc88922058e	pièce(s)
+d383faec-b366-4c3d-8868-3b3caf3c88d4	5af2be2aae08b5194415a1e0	0f7a141f-84c3-4c2d-979e-af0db8afa5f0	pièce(s)
+e8c5fc02-9ba3-4add-9973-bc91b9b297d1	64073ba59c6d10cd16eab614	7cb63b03-9b3b-48ac-98a9-360ea0a4b3cf	pièce(s)
+d9b8c680-971a-4cb9-bf00-5e62a116df36	6405c004b0da19477798646f	7935aa30-b225-4b3c-b6b9-ea29e6e0c5ad	pièce(s)
+c99f41af-576f-4d71-8101-42fcfc570907	5af2bdf4ae08b5194415a10d	2871bac3-7f09-44c8-86d1-bf1adb17682a	pièce(s)
+2a57c506-9981-4c5d-8523-caa67a5ef3b4	64073bb9683721c9a32b074d	2ac0e375-ffd1-4425-9c68-e77fd7dc05f8	pièce(s)
+9a597009-70ca-44cf-acb4-18688b30c057	6405bf65b9d07cd5d38d7a85	cb884d1c-a3f8-4711-a485-b7d84b32d42f	pièce(s)
+017b48a2-e885-4ef7-a0ec-d6ac045c3676	5d2455ff6bca36000d28ed33	e1050d87-05f2-42ac-ac16-3aa194add566	pièce(s)
+bf92f298-cff6-4139-8818-e7b679a8b484	5cdea16abfc591000d02b436	3e68a569-1148-4590-8fac-8f60b05def3b	pièce(s)
+36512f8c-18f4-4edc-b7f9-6c85ebe48be3	6405bf64af4af6d531d50b8a	ecf3a7bd-80d0-4ee2-8b57-cd0215524448	pièce(s)
+01a363ce-074b-4974-9c18-337f145029b0	5af2be52ae08b5194415a26e	8290c79e-7e77-403d-b096-98d1e9f692f2	pièce(s)
+a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	ef9d60c7-39ca-4020-9c46-7fde34143a44	pièce(s)
+a2fb3bb2-067c-41e7-9a08-fb268230c9a8	6405bf95af4af6d531d50c1f	16ede016-2f1c-4753-89a7-4bae10560f6f	pièce(s)
+f4cd6532-6489-4e10-800c-059694a0063b	6405bf55b0da194777986218	2de512b6-127f-4933-a3d8-77f1977324d4	pièce(s)
+9c2e39a8-8fc0-49a0-9a1a-4b5448e1fe1a	63e5121d81b4b295e66f0254	939cf6d0-beb9-4e89-9829-565fee32f52c	pièce(s)
+3293c7f5-db27-4a77-966d-c74f5f67a004	5c8bcda7e3f339735a76c463	736e5074-5a60-4e99-a298-c9b2784a3f7b	pièce(s)
+4dade0ee-5e3c-488e-a20b-d764d2f2b6d1	6405bfafaf4af6d531d50c89	a0c365a6-1eb0-4c12-96d3-b53f374279c2	pièce(s)
+8ebcd743-b0c9-4f9a-9e8e-d3337d21f237	5af2bdf1ae08b5194415a104	972a26d4-2707-478c-8ab8-4d86662a9d62	pièce(s)
+5eed7f31-5b46-4772-b1a2-60a9d914b1f5	5ea3187761c44b3f723c1bfc	155867d1-c593-4c3b-a32d-55f654dfbb5c	pièce(s)
+f0ef4881-e75f-4a70-8b9c-41e95d629887	6405bff8b0da194777986443	05f315d0-ffac-45bc-a419-ce6b2ed3c74d	pièce(s)
+a0d592fb-656a-47ac-9c02-0a6b7755ba29	5af2be31ae08b5194415a1f6	6b8325d0-2a36-4a16-9160-2374ad50b133	pièce(s)
+32121d52-3472-4e0c-a4b0-eb1f093e8278	5c8bcd9ee3f33973480ec966	823b41ea-06c9-499a-aff6-e1c8dca47a1d	pièce(s)
+1a4cac92-06cf-4aad-a5bb-7235c07fbc17	5af2bdf7ae08b5194415a11a	b53aa60d-fa63-4972-8111-b6de90e12a9b	pièce(s)
+a54e4958-cfe2-4c32-ab86-e731ccc8b6d4	6405bfceb0da1947779863ba	f6874caa-27a1-4fe4-a617-f1280c865700	pièce(s)
+26350040-dc49-44da-ae0b-9c3e5bc241ae	5af2be2eae08b5194415a1e9	af846e04-f0c2-4dd6-a05a-d6445d599dd2	pièce(s)
+db4ab06c-043e-4aab-a6db-e2e718f3b989	6405bf35b0da1947779861ae	2e8bb09d-3329-4000-8443-acc780e46514	pièce(s)
+ab1d2931-842d-411d-be58-5e423d84b03c	5d80e40b99ea5a049e5cc468	7a958103-8e2d-48af-a0b5-114323ad4aa3	pièce(s)
+28fe14e2-031f-4230-96f2-c5578ebb99ec	5af2be3eae08b5194415a226	b41424ea-8c5c-48de-b6a5-c9b1ef505edb	pièce(s)
+b04db1fa-2fb6-4060-b06d-a57e14a94f46	5af2be1aae08b5194415a1a5	822de108-6531-4b0f-8661-b85b61c2ca25	pièce(s)
+597b1a54-47de-43c6-91cb-a473dc9648a9	5e68de0c03c57802fc06c6ab	2b2c536b-ce48-4046-9c25-4d03ead572bc	pièce(s)
+16a18e06-e945-49b7-ad06-ae87c41068c5	64945b3c2417a80cb660ba7b	ee3abbe1-7b2d-4d31-b2c5-f2825c134799	pièce(s)
+d598891d-005b-499b-a457-70098f43bd22	64073c7d9c6d10cd16eab6d4	bdee3e0d-0109-4570-99cd-3d3062605d03	pièce(s)
+dfe16d1e-41d0-462a-84a2-90a50f3dbfba	64073d69683721c9a32b083e	957cfcf9-4d8e-4c0a-8b15-7dacfb4463ac	pièce(s)
+fac61bd0-d267-4ab0-80f5-353d04a06fd4	64073c75683721c9a32b07e3	2fd31686-aa62-44c8-829a-c06ef4498500	pièce(s)
+62d994f9-4449-4d3f-8fb7-43b89e433528	5df9f3bbe373522ec63de501	b7c24021-6cf8-4497-8ae6-f94ff23d7b44	pièce(s)
+6f9a9a0c-4fdd-4f0b-8239-2915447e718d	64073befdf6297bb5beef15e	414b7480-ee04-4e66-a82e-59c82388a5e2	pièce(s)
+fe058a4d-1995-45a6-b92f-8bc4992b1451	64073bc8df6297bb5beef133	fe99e613-2af8-4227-ae94-8e4ba76eea31	pièce(s)
+5f3361a0-db48-4015-b7ff-efb3f796e140	5af2c14eae08b51b804e58b2	39f8bde3-2eb5-4b8d-b6e5-03086d81df2f	pièce(s)
+3ce59ede-b563-483e-9e57-df3ee6f9fb46	64073bcd683721c9a32b076b	d8098ebc-14b3-4748-a2f5-26e445c9d40d	pièce(s)
+fe2a39fb-8df1-4b93-b8da-7cbd7dc0792d	6405bf79af4af6d531d50bd2	bb6072a7-e19f-4134-81ae-ab5c066ca77e	pièce(s)
+b3229999-cd98-45e3-8fd4-cf97328d5857	5d3f1563265a5e0009517285	42ac2493-aa76-47e5-8a83-b53bc1c9534e	pièce(s)
+d4b4b9c1-6540-4b32-b955-aefd9c16e8a3	5cb44981c445fa72dd0dffe2	4d9e9dce-3283-47b7-b0b7-3f387232c35f	pièce(s)
+6080ffed-998e-4952-9458-afba74da8e57	6405bf5eb9d07cd5d38d7a72	32c2c11b-dea1-42d4-9dd2-92a500c7dfd6	pièce(s)
+0edccd05-a4b2-449c-9fd1-ab6887a0c5a1	5cfa73b2d8a871000d34cac7	c2ff693a-01d1-401b-aea5-91bc7fff6968	pièce(s)
+417be128-bf1e-4a0f-bf28-bad5e3783bf3	6405bfdbb9d07cd5d38d7c1b	866f05cb-e663-4ee7-89aa-0fe61ea98590	pièce(s)
+ffd2526e-4ac1-4784-b063-05de3a660734	64073be69c6d10cd16eab660	71d6d654-fb75-4f7b-b28b-6e42bc55c1bf	pièce(s)
+46e05ab6-e72a-4d51-876d-8542d208b68b	5af2be00ae08b5194415a145	de963be6-60cd-4bed-81f2-afe4d4e1bebc	pièce(s)
+130c1e54-9d72-40b1-b9ee-bf1da42cfee2	6494e1765f6a5ed9af3caf57	237826c7-1755-4e43-ba7b-2200202b2be2	pièce(s)
+d528b5aa-50b3-48b8-8e0b-81c8662c12e8	6405bfd7af4af6d531d50d03	88c230de-6558-441e-bfac-fcb6d0cc74a5	pièce(s)
+f748403a-9ca2-47e8-9f51-55b41eb1365d	6405bfeeb9d07cd5d38d7c57	54b29938-1e74-43a6-a7fd-b8f32e4fd8cb	pièce(s)
+61650eda-6072-45a4-a124-8cfa353842c8	5af2c16eae08b51b804e591a	719253ae-589b-48cf-ba83-48fcbbf89bfd	pièce(s)
+3324201f-369a-4078-8b86-1328604a780b	6405bf6cb0da19477798626b	2b016026-d186-491f-b791-709f1bcb2e79	pièce(s)
+fce1aeda-68c4-4548-a820-72d610c927df	6405bf41af4af6d531d50aec	f4255794-38a3-435a-bb5a-3603823446b1	pièce(s)
+5d7f0df0-65f6-4a12-82ed-7d0cbf3a2ed3	64073bc4df6297bb5beef12f	82cf9a8a-bca1-429a-aa7e-b76e8bb057d1	pièce(s)
+4b0fbbe0-b12b-4d8c-bf05-2b30eb0c0edf	5cebf6d91ce852000e1825af	bfc2976b-487e-4154-a087-849a0dc25aa1	pièce(s)
+4673a8ad-13da-4b37-a8fa-e92175004746	64946e4f2417a80cb660baa1	9e93b584-8483-4beb-a73c-7b754efc3005	pièce(s)
+8559691b-3957-4fed-8d26-03aa204d9bb6	6405bfc9b0da1947779863a8	b2e5a1ed-4518-4754-a2b7-9557cc99e6b7	pièce(s)
+3c2e1450-bdd7-4a93-80af-bdbb697fa053	5cf1438fb9565e000f6d310a	65774456-9613-418e-acfc-108d51a4f6c2	pièce(s)
+bf4a19f0-3945-4098-8925-10296dc2544a	6405bf48b0da1947779861ea	e2f52b6d-620f-4433-83ae-9cf4c5529a7f	pièce(s)
+bfea25f4-447c-41bf-878e-fd4f7e7c5e65	5e304af3071555431110c815	5f7c6ec3-8c22-4dbb-981b-a7b38612530b	pièce(s)
+45b2bc57-7e33-41f8-b041-183e50d09ac3	64073cc39c6d10cd16eab6ee	ead7c39b-a2de-4257-986f-508daad8cfea	pièce(s)
+8f0f83d5-8c26-4f2e-bc97-acc251876716	5e5f567c3e455f755d4c0184	40205c57-8504-46b9-bdbb-8a0bc78bc0ff	pièce(s)
+076d9455-c2cc-42e4-92e5-86c15ad13284	6405bfecb9d07cd5d38d7c52	1c0ef948-563b-4746-bbb9-b2e708d6264d	pièce(s)
+70615f92-8c8a-4a70-b524-a952e54a3daf	64073c24df6297bb5beef186	95f45cfb-20bd-4708-b38e-863f2c65819e	pièce(s)
+f336daf2-5831-4e4c-ad1c-22d90ea30598	5af2be0fae08b5194415a180	7ff4fea9-0280-4be1-8712-f680b9852d5b	pièce(s)
+84df8f8f-bcf4-45b2-bb10-521e39ac14f7	6405c006af4af6d531d50da8	2b14984c-8287-4107-a858-54986d810f46	pièce(s)
+50e5eae2-e98f-4d8e-b25f-30e607e2e717	6405bfe8af4af6d531d50d34	1d0bde87-6575-416e-82b9-336b4f2fca68	pièce(s)
+d154a79b-5635-4fee-9d45-31c52103638d	64073bba683721c9a32b074e	03c6d457-3b59-45a1-a004-4b41b542bbd6	pièce(s)
+eefe9e8f-ba45-4e25-9729-8892b4ab06c3	5c950d82c445fa28d02a8da2	c09f32ea-48c3-42ad-a5b0-36573d7d484c	pièce(s)
+fc203d5e-2336-4d3e-80c8-e27c2fdb9899	6405bf6fb9d07cd5d38d7aa9	8d4e6dc8-b792-4513-9629-ebc601883780	pièce(s)
+f5f3edff-b82e-478f-bc9a-72268395ba28	5af2be5dae08b5194415a299	9907be1c-57f5-429c-bc05-ed88a1d4a428	pièce(s)
+a3b64f8c-d69a-4797-9885-22d4e25fc4b4	64073c51df6297bb5beef1a8	358f0614-b6ef-44e2-8d9c-4b898bd0d685	pièce(s)
+50b24c5d-9560-4b9e-8703-4691a81e1973	6503359232e9107c6db92035	46ef818e-a43d-49dd-8fc9-4e00c56faabb	pièce(s)
+3a022423-2a11-4afd-8da1-78c2f8ae0fee	6405bf65b0da19477798624e	72bad404-34f9-47cd-82c6-63cc4d296859	pièce(s)
+38e24982-7037-44c9-900a-0c197756527e	64073bc8683721c9a32b0762	dd5b5cd1-9203-4bc6-863c-cb0ef2ce0371	pièce(s)
+750b0c67-0fc4-43e4-bcab-32437024bc29	6405bfccb0da1947779863b2	7e3da94a-009b-4ed8-863f-04fee6d157ba	pièce(s)
+3735185d-c10b-4504-8a5c-df18a86fbf5e	64073c039c6d10cd16eab686	52795abb-3b3b-4400-8cbc-d432fc2a31be	pièce(s)
+53b09a11-8369-437a-baba-15b77e78cede	5db8499971086468f669b615	5cf86e57-309e-4522-831c-e70e7063178f	pièce(s)
+5384fc62-1910-43a6-a324-aca27f0f1967	5af2bdf3ae08b5194415a10a	e6e46a4c-3767-4721-8010-7cb864659b4a	pièce(s)
+f33dd91b-daec-4bd7-8a41-fae26686390a	5cfa73b1d8a87100142eb5b3	b6773401-3372-4902-a753-bf203c3f3335	pièce(s)
+d62d93ac-b8e4-4e4d-829d-5b725662ca6b	5c0109bfe3f33939791482f5	64df2aeb-d643-458a-bf5e-007077574c47	pièce(s)
+6b0796ad-d27f-4dbb-96e2-1a80524c6a21	6405bf30b9d07cd5d38d79b9	ad5ed382-bc4f-42a3-b8c1-3397807b100f	pièce(s)
+e9f50b49-e884-4beb-8a84-db68f2d07c30	64073c059c6d10cd16eab687	3e625231-5b54-432a-bc8f-3c542a41a4e1	pièce(s)
+b07ec335-cbcb-40dd-a8b5-da47d11745b3	6405bf39b0da1947779861be	093b9900-4724-49ab-a498-a6b117372544	pièce(s)
+49b7d63b-ffec-42a3-a29f-c7c3c8ada9b9	6494e1755f6a5ed9af3caf56	c649aca4-4dfe-452e-ba38-1196b9ddc196	pièce(s)
+1263d732-3df6-4274-9f91-ded27492d85a	5c8bce19c445fa62b21ba034	9be1a705-e2cd-44f5-8f21-1f232ccefe15	pièce(s)
+cc259f92-3b0e-4868-a5cd-7d01325fdc12	5d3f1564265a5e000b6055dd	1d322547-7f96-46dd-a40e-8f1379aebbe5	pièce(s)
+263b9285-2287-4898-9113-b03515731efa	64073cb8683721c9a32b07fc	571e248e-ed8e-4227-b24a-826e57169d0b	pièce(s)
+2a12f8bd-9167-4710-b028-97ecfde7a839	64073ba5683721c9a32b072f	9db39063-ea52-41d0-b24b-5e032ef63375	pièce(s)
+6df4db96-c318-4087-94fc-f0accb6566dd	6405bf46b9d07cd5d38d7a0b	fb455d9a-b856-4f8b-b3a8-a0efec5c638c	pièce(s)
+56ce04bc-bed2-45b8-83f0-2ee88b4b5cfa	6405bf34b0da1947779861ac	36d79dbb-f3c3-43a4-82c6-be6e232881b6	pièce(s)
+d82a0700-84cc-415a-964a-3fed33d9fef3	6405bf4ab0da1947779861f3	a9e05450-2a7d-4530-90aa-acf360e44771	pièce(s)
+484073bb-055b-4fac-ad2e-56b546ef4dba	64073bdd9c6d10cd16eab657	d418ce42-16d7-4a9d-a355-f823600ad650	pièce(s)
+77474d13-dd1b-4a8a-a76a-72e983c9d4a9	64073ba69c6d10cd16eab615	7c8bf018-e6ab-41d8-a208-9ad84affb0f7	pièce(s)
+74282d74-55d4-471e-8455-95ea2069bcc5	6405c01eb0da1947779864ca	cbb88277-7233-43cc-bcc9-e3f48d628efd	pièce(s)
+8a11a028-be63-45be-a671-6bee7f40d5c5	6405bfa9af4af6d531d50c69	d5f0488a-7ed7-4219-b9b1-ce5ca16e82a5	pièce(s)
+22c49a41-78b6-4324-bb9d-41a1d4501f07	64073c399c6d10cd16eab6ab	25523693-1d13-43d3-84f0-411fd69d4c0f	pièce(s)
+594e93ea-b115-4687-8089-c44706e379bf	64073bbfdf6297bb5beef124	07e0dd2b-32a7-44d3-a6f3-21b90e9881bc	pièce(s)
+75eb8b06-7c88-47e5-8ddd-587a90385d74	64073bd9df6297bb5beef146	90dd9b79-569f-47a6-a23a-5096f3952dff	pièce(s)
+884dc643-fc48-463c-acb7-ffcb43082e3a	6489060a7b6a161d101f75a1	7a2542da-901c-4479-8feb-73fcaac5446e	pièce(s)
+a95a14a0-3564-4044-8bd4-719383f4e580	64073d29df6297bb5beef20d	0d29efac-e744-4c76-bb59-16a8c3590325	pièce(s)
+609a5bff-0de2-40e4-9cfe-3f1467904d16	6405bfe1b0da1947779863f5	3e765e7f-20bd-4b2e-8c98-8359f0e88c76	pièce(s)
+f960e8a1-309b-42ee-9ae9-6aa45aa20072	6405bfe6af4af6d531d50d2d	41317289-c1e9-4c56-95c8-9d704dda1805	pièce(s)
+755a6819-e7bd-4b54-8a08-beb8e55e08a0	64073d64df6297bb5beef223	ce1bd4c7-39b7-4a2b-8929-4a0653e7fd4e	pièce(s)
+1f5bd789-8938-4a0e-9aec-f992b84054a5	5ec507e21a33de639e6e8192	092e9053-fc24-407d-b245-ddc417fc8203	pièce(s)
+284e8fb7-4d1f-440e-b283-bb9d16a26078	6405bfe5b9d07cd5d38d7c3e	271d7c1b-3939-4562-8b24-97c0fccc5f05	pièce(s)
+57cae4d5-509f-49ef-9a26-e2ea64c2f0b1	6405bf4cb0da1947779861fc	f04fdd04-e7f8-4cf5-8975-cbc526158b35	pièce(s)
+e7547a0f-17cc-4a2f-9aa8-f0b9a6a5e2a7	64073bad9c6d10cd16eab61d	d912afdd-9dfc-418f-abe1-a3cff9517701	pièce(s)
+a371f774-909a-4252-bf62-9e504b6eca42	5f4914a8feac474fa568779f	746ece7c-9513-48c7-858c-e742821578f2	pièce(s)
+d06d4cad-1274-4cc9-b428-eb10fbdaf38c	5cd56855729fc2001003da4b	5fe811e4-2c6d-4f7e-957f-4a0aa579f500	pièce(s)
+b2878fa2-f2c7-4675-8884-1a11fcc63ce3	5c8bcdafe3f3397358648c98	32ffa310-a649-47f0-8a1b-e9cab3bdb556	pièce(s)
+b48c4e9b-3e2f-44b7-a6a7-713a63490bad	5c9e3f02c445fa5e1018cbc2	4e52900b-bb02-4c15-9d4a-b3c060a5231e	pièce(s)
+b6e37ad4-a34b-49fc-ac01-9093c545f6fb	5af2be85ae08b5194415a339	92958e41-0b53-4d3c-8027-4c44d6fe12ca	pièce(s)
+f97b842d-2f77-4d09-ac76-d69d4d38927f	6405bf1eb9d07cd5d38d797a	59021e7b-9707-439c-996a-23f80ab1fde1	pièce(s)
+61d76f54-ff06-4385-9136-f84a1cefb8fc	5d53d9820f071b00121da481	3ec37142-8abe-4da0-a59c-9994978b1772	pièce(s)
+5ef6e383-90a7-462e-9c83-5ba4caeddc13	5cebf7dbee5388000d27602a	790e8a1d-d412-49ce-b348-a99076bd63f4	pièce(s)
+63661dbd-f601-4e6f-9ba9-75db6617a79a	5cd56853729fc2001a1b4bf0	6a15b838-f569-4344-8112-d57d87797d34	pièce(s)
+967afc20-7dce-4a8e-88dd-c03e141e1098	6405c001b0da194777986460	6d3f7ebc-8fc2-4153-b19e-6fef4989ea3b	pièce(s)
+b3e2427a-0187-42c5-9a56-f0f81b1d82fb	6405bf99b9d07cd5d38d7b3c	7c5c6fac-32ff-4ab9-9651-a07d249d398e	pièce(s)
+66363977-fd7c-403c-a311-92c1120d5bf0	5af2c164ae08b51b804e58fa	b0293e52-0bd4-46eb-8fdb-413ea96b30a8	pièce(s)
+ae5f0a1f-4201-4ea9-9011-717fb95a7c0a	5c8bcda9e3f339735561c2c3	566efd62-e410-4e6a-a956-4a14258ebd7c	pièce(s)
+f8f8b3ff-e665-4a77-bff1-bc7d76915ef2	5bceef3630006c2af868e602	ae945abb-bff6-4b66-91c3-90f0b8c79436	pièce(s)
+6e78ea30-1e1d-49eb-a973-aa0cb96c26a6	6405bfb5b0da194777986363	4626f6d7-f516-4411-a8fd-13d23d39eb93	pièce(s)
+c1571a53-2418-4832-98ce-57638ef1a4a6	5af2be3fae08b5194415a22c	28368e82-52c7-4d3c-b50f-8fb64c66f70e	pièce(s)
+5459cb75-fca9-4841-96b9-3278d1ef864a	5cb4497ec445fa72c4440bb2	b81c6e28-70c9-4537-b9c0-5ae01a560b1f	pièce(s)
+78f85dd3-30d9-4331-ab33-6f8728086584	5bc449de30006c63ef5b8096	818fc601-b680-4ac3-bc32-a2e84d50d983	pièce(s)
+920589e5-168e-4a7e-88a3-afce8a496028	6405c00ab9d07cd5d38d7cb7	097c178e-1ca5-46c3-aa10-70d42f4f997e	pièce(s)
+111fdb1e-269a-4054-862d-88172ca0dc2c	5af2bdf6ae08b5194415a115	4023c5a3-6778-4d63-a0fe-e8c919e491b2	pièce(s)
+121a4815-934f-499d-9780-2e3af5162cfc	5af2be69ae08b5194415a2c5	78267979-3647-4a83-9ce2-75a1a93925d3	pièce(s)
+2c289dab-e0cb-434f-b8e3-47b94e35fa00	6405bf76af4af6d531d50bc7	8311090f-0268-4be9-a779-a806b1dfd6c3	pièce(s)
+eb34b602-8a11-4ad1-85ad-1cd57e143a89	6405bfd2b9d07cd5d38d7bfd	942a4e74-0f5b-475e-8b31-d0a0d9d0b6c5	pièce(s)
+596306de-5c4b-404a-9c88-a4dc8b23e939	6405bfc3b9d07cd5d38d7bcb	22dc3706-2da5-40ab-a09e-40e071b98ab8	pièce(s)
+83b30e3e-9b02-4343-850f-1ceeae14c587	6405bfdbb9d07cd5d38d7c1a	d7bf12dc-ffbf-4a00-bd33-e870a4426240	pièce(s)
+50b0709b-9821-4df3-8e5d-85ee19cdf8b2	6405bff3b9d07cd5d38d7c6b	030858e1-ea9f-4f3a-a243-5a0b66fa341b	pièce(s)
+38eeda8d-892e-4eeb-aaf1-a1b0b3ee3b69	6405bf2caf4af6d531d50a9c	76e4f5c4-bb8b-4eb7-9239-99af5cecc157	pièce(s)
+e1d866ab-c5a9-43de-a191-78e100c92fdf	5af2be5eae08b5194415a29b	d73ba42b-1f6a-4cff-9331-30813bc3adbc	pièce(s)
+43abcae6-4c9e-4616-9d8b-f29cce02436e	5af2be77ae08b5194415a2f9	32eec2b3-3de7-4814-b23b-3250b0044721	pièce(s)
+ce08a49c-a040-449b-aa04-82b1ac667e7e	5af2c161ae08b51b804e58f1	4424e41d-48b1-446a-bbd9-35c7dd9977d2	pièce(s)
+d9370a6a-0327-43ae-867d-6bffcdab563a	6405bf77b0da194777986291	4d35f7d2-9fbd-45df-8436-58d546534e81	pièce(s)
+579fd186-7175-4ae1-832d-8c1760f45eee	5af2be23ae08b5194415a1c7	a770ec85-0472-4c12-9aa2-9a4815250bd3	pièce(s)
+2cb499f0-a564-47de-a718-5e662df17948	5d7bb03a3457f042d043649b	09b08c46-567c-4488-a10b-19406b28b566	pièce(s)
+d1b0b353-4cae-45e8-bc17-feb6ff36053c	5e4a42ab179521032f127c37	675a8fe2-b4ac-4082-bab7-eadebdd4b320	pièce(s)
+7b1c7fbe-a264-42aa-9adb-10f01d937799	64e611c42d4763a07ee94806	745ee511-eb3a-43d6-ae30-3ded14bd514c	pièce(s)
+20b12871-770d-41cc-849d-6072ef92399a	6405bf35b9d07cd5d38d79d1	1b65be96-76a1-4679-a72e-d716f00cdbf7	pièce(s)
+ed94c7ab-cbe7-4235-815c-6d2393906f46	5d03aab9e6881d000d696ab5	9413f0ca-974a-4124-bb98-99d5561322d4	pièce(s)
+924dc423-c97c-4ed9-8387-dd9d50d628c2	6405bffcb0da194777986452	52aaa296-e313-4f6a-b277-f6e03430329b	pièce(s)
+26bc84fd-7394-4c44-a9be-fc66ae1f6c17	6405bf34b0da1947779861aa	3b6895c4-d6c1-464b-9fde-f7c7d401a529	pièce(s)
+959c2e4c-f57a-48ea-9250-c08dbc43f865	5d725d970dcef1000e487d7b	c215c036-8afe-4814-a63b-820b84055c87	pièce(s)
+520da39b-b27d-44c2-a6aa-73360ec0439b	6405bf1ab0da194777986149	78f31609-0fb8-44fc-80b3-75149c1eeb54	pièce(s)
+ff39c13c-5903-4e28-8606-0bf5e97556cb	64073c269c6d10cd16eab69e	63c3110d-408a-4168-b54f-f7b259a55b6b	pièce(s)
+a971cf7d-0692-4765-821f-ff02ce9f0840	6405bfa2af4af6d531d50c57	34111388-675b-4283-bb0f-bb4d51f80c4a	pièce(s)
+5163ee42-4dfb-47d6-bf81-1d583d7e00c3	6405bfefaf4af6d531d50d49	59710710-738d-449f-b4ae-ed37384ecc05	pièce(s)
+ae2857cd-ab51-45c3-8a20-edfb3fd4d806	5af2be0eae08b5194415a17e	98701f74-b507-4470-b394-50a41a3ec98a	pièce(s)
+11bff03a-8d79-47e6-b745-c5a8f9c188cf	6405c008b9d07cd5d38d7cb0	b11709b2-d5ab-4505-ba75-6a1f097a814a	pièce(s)
+6bdd9511-a96e-471e-9df6-77fb6531949e	6405c000b0da19477798645b	1c92ca42-cd0c-4e4d-82ec-6a002c5ecd46	pièce(s)
+3e782ca1-a5ef-44f0-9e6d-31f505c15918	5af2c156ae08b51b804e58c9	6fe3bc74-a63d-4577-9e67-48d3e10c313b	pièce(s)
+d3be258c-d4f0-4a33-b7a3-99376005ca3d	5af2be67ae08b5194415a2bb	f291d59b-3467-44c9-a4fc-4196bc55df21	pièce(s)
+98974ffb-4c18-4212-b5b8-86a930565c9d	6405bfbdb0da194777986380	9feedbd8-72f8-41b8-a391-47a20370e0c4	pièce(s)
+b02068e2-cb3d-41b5-ad6c-cbbc28a0e040	5af2c171ae08b51b804e5926	7c6bdcce-d218-4ce5-918a-e580b10cb973	pièce(s)
+3fc40bf6-c9d6-49e8-9814-1779d4d9c743	5af2bde6ae08b5194415a0d3	2e5ed7cc-bbfd-447c-8a57-4681bd2101da	pièce(s)
+8fda3021-d2b8-4d2b-a21c-64f9e1b8282b	5af2bde2ae08b5194415a0ca	4a8c6859-3354-468a-8b9c-7d21452b5303	pièce(s)
+3f31eca9-5b9d-438f-ad5e-e87a005b4d09	6405bf3daf4af6d531d50ad9	af961a99-aea9-4656-bbb4-15a16fa5358a	pièce(s)
+737f3931-5f8e-4792-9c92-6291eef9ade5	5bdc60d7ae08b57bbd306b22	4d4319aa-66cc-4c19-9b4f-cca638e13135	pièce(s)
+10a775a9-5f22-4c9c-81b7-798c4674cbed	6405bf96b0da1947779862fd	889e597d-51cb-440c-b8a6-3f1891f8a18e	pièce(s)
+7829b345-45fe-4380-ba03-05e2239d8053	5c794b02e3f3396d0b09a2b3	9489a270-3ad3-4bf2-be50-a68c6fa3cd31	pièce(s)
+4c4cee22-efe3-415c-9c3a-ca15c8031218	5d725d9a0dcef10009125ba8	5ccd2414-5939-4dbd-99f0-dad6ae93b993	pièce(s)
+879703b2-b4fe-47ce-a349-0fc1b45614d0	6405bf9faf4af6d531d50c4c	4560ac05-2ec7-4126-b864-71c1800fa1a8	pièce(s)
+d61da206-7f87-4acb-9756-6257a21dd4d4	5d3f1562265a5e0009517284	ae0d8622-0312-47db-9b35-093ad7805f8c	pièce(s)
+39e64ed6-fc06-40d3-9960-58b75c7236b3	6405bf6bb9d07cd5d38d7aa0	7626c3ae-8e76-46d2-8427-4d9af3d27e92	pièce(s)
+e3c451a2-fe82-40a9-a6be-56b2ad303b33	5b48b69eae08b57567038402	797e1307-1192-4e6e-a5b8-af4f995eec37	pièce(s)
+0a4448b2-c40f-45d9-b915-3b08c201f198	5dcd7272b2285877f1209db6	eca22a34-476c-47cd-aeb1-4e7780fa002c	pièce(s)
+65adad96-8527-46cd-a543-03bbcb143709	6405bf7eaf4af6d531d50be0	2a02f72f-847a-4d78-84a5-6a9566da4c7b	pièce(s)
+6e065302-86ca-4df9-8e08-4c751f6576c4	5c0109c1e3f339399a313812	0a019bbc-da51-44dc-b55e-31a0c8b413ff	pièce(s)
+799f39c9-0799-4882-babc-ec0e295b09ec	5af2be9dae08b5194415a387	546ed772-6fe9-4cf9-aa0d-6452d49a1908	pièce(s)
+e85a484b-98d1-41ca-a2c1-87f58db378f2	6405bf68af4af6d531d50b98	6d4e47c4-60c8-4233-8901-5e4fee84e93f	pièce(s)
+80e5d84b-9699-4ab1-b8af-71c0bb43935a	5b76db62ae08b523822d2952	56752201-f589-4881-bc3d-4c6904f8d42e	pièce(s)
+7dca3c0c-8b31-43ed-8b01-2764a7c2fbc4	5cc6ca73945b190013288b4c	f2bb892c-c338-4c86-b5a4-ae8ef757641b	pièce(s)
+7d2ecf19-613e-4313-93a4-c1cf26417b90	5af2be96ae08b5194415a370	4c2b0a7c-74c5-479d-949f-a6fa8712fa02	pièce(s)
+2549f157-a0cb-4e55-8345-49c7fac399eb	5c2f6639e3f3394f955fac33	0aa5ff33-9258-4a84-9631-06b3ff353fe5	pièce(s)
+bdfbb238-a3b5-41e7-ae69-91328a50d4ca	5bbb0a7eae08b506f1706f93	adda4aff-dc51-40a3-844a-80250959dcfe	pièce(s)
+11618fcf-ff58-43d2-b44b-e09e0f2a3e75	5d1326aef67e68001137678c	0f2df520-5703-4a5f-be81-34fc978ec465	pièce(s)
+9e72b72f-30f1-4d78-97b6-e03d589edc2e	5e578a029a493d7e507765c1	2e2c4ba6-027d-4771-a014-164f76f74921	pièce(s)
+f2090e24-5453-42ff-8f5d-27034fa2c847	6405c01fb0da1947779864ce	0f72e465-6902-4c13-af97-9d183d49128e	pièce(s)
+02eca72f-bc2e-47ed-9ade-bebddc72feb7	5c7e9d88c445fa0bae3c7f62	d93bb7bb-9be2-4393-b2da-aa3f03cf3e9d	pièce(s)
+86694253-dbea-4750-95fb-307a0921b158	6405bfe0b9d07cd5d38d7c30	1efbeab6-1de5-47e4-b933-64c1495cb623	pièce(s)
+df592a27-8159-47e8-96da-ce66b23b740b	5e44f83e30c11e59da3d99ca	ac6ae68a-61b4-491d-b3fc-0ada13d90e25	pièce(s)
+0e492104-4152-4a65-8617-76a8334de28b	6405bf63af4af6d531d50b87	ab03635a-24b1-4130-b23f-d5e556323f6b	pièce(s)
+70129b56-7007-4fcf-bae2-b2510ed35175	64073c9b683721c9a32b07ef	9b974f2e-9821-4b94-85f6-dadb3cf0d570	pièce(s)
+3a96065b-22f0-4ef1-a670-50cb97ac369d	6405bfdbb0da1947779863e1	db5018da-4f05-4362-8a79-88c4b826b8d1	pièce(s)
+a8d1cf50-93a6-4f0f-bba9-841819f20b53	5d725d960dcef10014436f6c	bcfde8e6-0f13-4333-97c3-d4c06cab87e3	pièce(s)
+d55161cf-3a65-45f4-9bf4-f85916fdbbcc	5af2be3aae08b5194415a215	e577fa29-5f11-4eee-bd2d-16ccf9922ba7	pièce(s)
+f2c0568e-8948-42a8-a4f8-7597e4478223	5c8bcdf0c445fa62b21ba032	382a708c-44f3-4d1e-befa-3818d6551110	pièce(s)
+9e377233-54b6-4e41-8bb8-9d4e575c557a	6405c00bb0da194777986482	68ee8489-4a8e-4d6d-b02b-f60434e5e933	pièce(s)
+da7eccb1-d689-440c-a6ad-32cb751c9cbb	5c950d89c445fa289a180ac2	2b4b1a95-ee6b-4440-b249-6162b49985c2	pièce(s)
+1ef87ce0-ab87-439a-a11d-c608a7267466	6405c021b0da1947779864d6	6815e02a-894d-460f-bf37-9aa3943b20ae	pièce(s)
+90905da4-9da0-4277-8eed-678749eae904	5e78c7ef6b3c8459df5b14ba	edfacbab-7d97-49f6-94ba-3b9ace3e2099	pièce(s)
+a181e202-542f-4f8a-8677-b8cb3594e685	6503196932e9107c6db91d95	2e0e1bf9-1d93-4d94-8353-d6c5edcf34bd	pièce(s)
+02aa7c0c-cd4c-418a-9f6b-ea6ccfed0e96	5ea812d7cf958e23e4660867	fa635e25-755d-4c23-b27a-5b689b689142	pièce(s)
+cf167744-2e17-45bc-8978-e95422199a7e	6405bfaeaf4af6d531d50c81	77c8941b-eb86-4ec8-b81d-f198019ae359	pièce(s)
+7469d280-be43-49ef-a421-02734689ef29	6405bfb4af4af6d531d50c9a	4ebc46be-400b-4e0c-af27-c11a05a27635	pièce(s)
+f210ca93-c05a-4ea9-a267-4159cb87f273	5b1a8f71ae08b541163beaf2	59de1b31-a3ac-46e8-8960-5ba3699ba35e	pièce(s)
+fd5a289f-a34d-4ce1-979b-fbb463be585e	5af2be95ae08b5194415a36c	c06ec293-7dfc-48e0-a40d-dcfda0ab6c56	pièce(s)
+2743c61f-4cfb-473b-9467-6301b337c534	64073be9df6297bb5beef155	67693ec6-3f91-458e-9e49-fb9acd54a1df	pièce(s)
+c03af4e4-c778-4515-b28f-6f8104d4afec	6405bf95af4af6d531d50c21	fa9af0f7-c4af-4b99-a3a4-28250fd656c6	pièce(s)
+3a59005f-4649-49c7-9be4-1c2ca22d9f1a	6405bff3b0da194777986433	0c1f557a-3079-42ee-b32c-f0c552fe9730	pièce(s)
+5cdd452e-588c-406c-a378-93ca85346178	5af2be50ae08b5194415a267	07f947f6-61be-46ad-b8ff-2023624d048c	pièce(s)
+6669bbf4-35c1-4cbd-bc86-8bbe6c14eb9b	6405bf31b0da1947779861a1	88ed9ed8-e82f-466b-80e1-6739cca50d6e	pièce(s)
+cb0e872d-4836-4b9e-94fd-024df9dfcbaf	5c9e3f03c445fa5e1e745da4	4a003208-6c77-40bb-881f-f5cebbd503b9	pièce(s)
+c3443623-1f73-4d62-b1d9-a3658717fedd	5ea2c2320eb83314933e5bca	43f06e5c-9caf-471c-b85c-5be433e74c04	pièce(s)
+ff2c84c4-2af9-4704-a8ec-c50ce0ae1828	6405bfafb0da194777986351	2fc04ea8-58da-42a1-bf39-81ee3d0e1350	pièce(s)
+a9327305-e851-446f-8090-d94b11225a40	5cfa73a8d8a8710016415ac4	ab12acae-210e-47f5-9647-ffc7d74b4a41	pièce(s)
+d84db467-eac1-4651-b96b-33e15ed684b4	5af2be5aae08b5194415a28b	380b0749-f49b-4b80-b92b-f911a67cd065	pièce(s)
+f48d31ae-5a38-4f54-ae30-5cc48d3d44b5	5ca75c9ae3f33926060c1fc2	2b833d38-7887-4fcc-88de-b36965f78077	pièce(s)
+52a43fc0-fcde-4230-876b-c6b4f1c38693	6405bf51b0da19477798620c	9866c09a-eab8-4d77-8a81-e6dc0b105407	pièce(s)
+2acbd5cf-f099-402d-b0b4-45d5e5c61235	5bdc60d1ae08b57bc5462dd2	e15a0d7a-49f3-494c-89b8-39d6b9bad61b	pièce(s)
+17ae6f43-07c7-471a-ba6f-fdbfeaed01d2	64073be19c6d10cd16eab65e	3972d53e-2b6d-4d5d-a375-bbbfde8c173e	pièce(s)
+c0fa4659-ed12-4afa-b8af-e794c96f4792	6405bf92b0da1947779862f3	53307d78-6a22-4a59-9f98-b7b639da9bb0	pièce(s)
+ad9a6b74-7094-403d-8f4c-a3ac25b1f7b8	64073ba6683721c9a32b0732	0e5f3a52-6c56-4cc5-ab96-8e7e904984e4	pièce(s)
+66acde39-c95c-41f2-a386-d724591a89e7	5af2c151ae08b51b804e58ba	7711132e-b993-4cc0-889c-35e8aedafaf6	pièce(s)
+e1942dba-603f-4058-9f64-2adab119a1f9	649463052417a80cb660ba9e	a5a79fe3-2238-45fa-a8fc-939c53b869d7	pièce(s)
+aa72aed9-8bcd-4888-9410-4f960f3a357a	6405bf27af4af6d531d50a81	6b639d44-8310-4d88-bfb5-fd75aca218c9	pièce(s)
+cb76ac0c-22fc-4b81-84ef-2e20ae3bcff2	6405c01cb0da1947779864c4	06be8ac4-5b3f-4dbf-a7e2-9dbd9523ce8a	pièce(s)
+7661f14e-664c-4124-8019-c509f2b2a4ce	64073bad683721c9a32b0741	2a6c4098-ed45-4b1f-8d82-f60c1cb72f90	pièce(s)
+9a1242da-91d4-4a25-ae4a-02a40f56d16e	6405bf32b0da1947779861a5	ced5ae10-e437-4179-8f8f-0a4045cb5545	pièce(s)
+c5575d50-73ed-428f-8127-ff89000a30c4	5b3f799a30006c34c902bf82	8d02f8a3-7515-4109-8e3d-eb01f875645e	pièce(s)
+c2717aaa-e7ef-4f6c-9b47-75244113d3ea	640afb09cda96bb6528b8fc3	0c6ac189-b62d-4db7-8a1f-72e8b746ac36	pièce(s)
+eb7bb842-7cda-4ec4-b3b5-88f03a13b338	5d19d6fafca63a001731e4b1	4277c955-224d-41bd-8770-c2c0485273ef	pièce(s)
+24b12f45-b6fd-4859-8637-addf595e4560	5d03aab9e6881d000d696ab7	b07ce464-359a-48e8-a7dd-383a8b646d5c	pièce(s)
+f2d58bdc-e116-4158-b88a-5775d46b1185	5c8bcda2e3f339735c318343	5176a167-bc46-464d-a1c3-4c5ef7c5b7fb	pièce(s)
+5f984e2b-78eb-4f86-9f89-cf98135fd86c	5c950d88c445fa28f67f6be4	1dff9aa4-b367-45dc-bf15-e5786d19c846	pièce(s)
+7f3acbd5-9c8f-4d7e-b19c-a71939d10c8e	5ba8a96830006c3bf2202e42	8b86d3ca-3c81-469d-8834-63b0c84133a2	pièce(s)
+63cc6c23-088f-4f4b-9301-e20161d26fc0	5af2be4bae08b5194415a257	cb42abd3-7a7d-406f-9723-f71620ecab04	pièce(s)
+fe7727b1-b137-4bcb-b95f-1615285feabc	6405bfeab0da194777986413	128a9e47-4d16-409a-b4c0-04aba9af65be	pincée(s)
+a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927	5af2be53ae08b5194415a273	bc79f1ca-5003-4ded-b413-751650b161cd	pincée(s)
+eea37b97-9ba3-47db-89eb-d00559899bdc	6405bfb6b9d07cd5d38d7ba3	35093b46-fecb-4158-b41d-3579166bb027	pincée(s)
+d071d417-4bc9-4379-8de2-cbf9c48bd837	64073bd39c6d10cd16eab653	51407ddf-5637-4fd7-b183-4bf800ec5ee9	pot(s)
+5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	0d23abc0-0605-428e-9f2c-0665cb58a7fd	pot(s)
+d959f7a2-294c-498a-94f3-bc4a4b490d93	6405bfefb9d07cd5d38d7c59	0da30959-c785-43dc-9138-9b35fd2901e9	pot(s)
+cb86f87c-eb2f-473d-a6c8-b5f7e12cbc98	64073e6f683721c9a32b088d	32196899-aa18-44be-965f-d9a163dcec98	pot(s)
+db0673e2-5243-4c27-8303-434de3b02814	64132d2d6b23cefedf01c8cf	f1b62ad2-85d7-4057-b46b-b1ddaf857e2a	pot(s)
+794ca1b9-d903-4e43-99b9-e29381e5a265	64073bc1683721c9a32b0757	01901ff0-e8f0-49dd-91af-d2fe49608b5d	pot(s)
+bc37be5e-6677-41e0-8731-34a554849d01	64073ba5683721c9a32b0730	2bd20717-2bbe-4705-8c80-f36486974785	pot(s)
+0db9720f-b412-4b56-80ba-a960bda7b80b	6405bfceb9d07cd5d38d7bea	b8e380fd-9f9e-4ded-a6d9-5029c3e47e0f	pot(s)
+fe8e765a-22d8-4459-af71-12ae1f02e86c	6461e0c1d8259131b372d903	cc7403e9-f856-49a7-8b89-e8331eba4016	pot(s)
+2e9bdb71-e2a7-4ee7-8194-9df56a8be406	6405bf1faf4af6d531d50a5e	f0e0e040-5719-421f-b538-01218624fb2b	pot(s)
+37b4eb78-34c4-43f2-9e87-60e35e1f01af	5c9e3f05c445fa5e430ba4a2	d350b747-9063-40a1-b647-620deace34c5	pot(s)
+7a7f7d4d-6d3e-4011-a0cc-342b44a47e16	5b1681b5ae08b5730d55ed62	6c75a267-69c0-4a23-9bcc-0f8b3cdcf462	pot(s)
+819b4ec6-070a-47ae-a056-b0265e3c7adc	64073bcb683721c9a32b0769	6f51ff14-577d-420e-9ad9-8b0106a021b0	pot(s)
+605299e6-315f-4665-9847-8209d3715dff	64073bad9c6d10cd16eab61e	dee92919-9ab7-4a5c-b2b5-0fff007e2fe1	pot(s)
+107478ae-efe4-4776-9dba-0f0481e3dc68	64073ba8df6297bb5beef100	185229fb-6004-485d-a622-e5f3207f3aa0	pot(s)
+f47b03c3-1f38-446a-8153-28d559b12d86	6405bf60b0da194777986235	735262a5-90b9-4acc-b734-448dc1b39e1e	sachet(s)
+7fa9a49a-103b-4af5-b60e-38813e92b5df	64073ba7df6297bb5beef0f8	223f6d4a-18e8-4a76-80a1-715aeea686d1	sachet(s)
+a8fbc1c7-2f18-4818-a33c-05111306fc5e	646388c36ced9aa0d6353bc6	176e51ba-e501-4bec-b3f7-1cfff6394300	sachet(s)
+27d7d31d-8e13-484e-938f-18033b7cc829	6405bf84b0da1947779862b9	bcb76f82-dead-4317-8801-0bf317b12803	sachet(s)
+e577f995-8e35-4fe4-b881-2e350ce1f85e	6405bf22af4af6d531d50a6e	65b47cd3-c0d8-4230-b124-f90b2cd60b14	sachet(s)
+e240677f-4e29-4302-9951-7cdacdfe1224	6405bf51b0da19477798620b	c954f43c-bbca-4460-a5fc-77638511038f	sachet(s)
+4ffe32e2-aa5f-4b83-98a6-24135231541f	6405bf95af4af6d531d50c1e	19c4a3ad-42c8-44cb-b841-61ec687ba12c	sachet(s)
+e29e9e3f-9daf-4dff-b252-287381f45620	6405bff4b0da194777986437	239befa5-3228-4ea4-9f70-e542697b66e0	sachet(s)
+d6885c76-fcb5-49b1-b370-4bc60078d015	64d2428ab199bd79fa716c69	66bac013-8f36-4c3c-a3b9-6a3114dc13e4	sachet(s)
+9d90cb29-75e3-46b9-b05c-ab5344e19c8b	64073bb6df6297bb5beef10e	830c9597-5560-46be-9e14-082b505c9dc5	sachet(s)
+459333a3-1f44-4f4a-94cf-a1796b86d644	5c8bcda5e3f33973013052b2	143b3f68-b4c0-43b9-b8e5-f69054f88f5b	sachet(s)
+deeac111-7224-43c2-98cb-161f54b3c44b	5af2bdffae08b5194415a13e	1384f1d9-3928-45f0-b5e7-9ec9f095241d	sachet(s)
+7b1a3029-78d7-4a6d-9ff3-7a81796500c0	6405bffbb9d07cd5d38d7c85	ddd2c168-c420-465a-b473-3238cd08f2c8	sachet(s)
+c0d5ee62-fc6c-4b87-bc91-9f3af98c2779	6405bf35af4af6d531d50ab9	56213108-e10b-44ca-b63b-3f3313f8788b	sachet(s)
+76818676-4b98-4dad-b5ca-7ab2268d1062	6405bf3caf4af6d531d50ad3	9f886649-f4bb-450d-9462-4e658e62e5c8	sachet(s)
+219bbd47-d055-4956-91b9-a6a800f042c3	6405bf5daf4af6d531d50b71	eca50c29-442f-4f1c-8484-ac4d410ad16a	sachet(s)
+8516cfaa-1729-4f1f-936a-86756878946d	6405bf35af4af6d531d50ab8	3b32de7a-03ea-407b-895a-197efd4cb91f	sachet(s)
+61a2b6da-0f6c-45a1-9a94-79143206c1ac	6405bf71b0da194777986281	e6ddda3f-07ab-45dd-898e-ff47cb31a45e	sachet(s)
+fa6fb7bc-a2cb-4717-baf6-242f088017ba	6405bf45b9d07cd5d38d7a09	eb114627-89be-49a9-a3f0-5bec6595a396	sachet(s)
+9451e7cb-fb61-4d0b-ada8-cf29ae517c92	5c8bcdace3f339730507bc43	11d31fa6-637a-489f-a2e2-77bb3ff53b5e	sachet(s)
+2da8689e-7b7b-45ab-b981-14a7f49cfb17	6405bfc0b0da194777986389	161ba00c-6717-41bd-ab94-27697083d4f7	sachet(s)
+a63ccc94-ca2d-4976-a0db-137f9bef5748	6405bf7daf4af6d531d50bdd	2a689171-8df3-47e4-963e-8db1909b18a7	sachet(s)
+5caec1f2-23fc-4533-b191-fde818382d81	6405bf8bb9d07cd5d38d7b0d	2904547c-9601-4eb4-8b53-cba06c778219	sachet(s)
+e37c0848-cf1d-4b01-84dc-97288386673b	64073bb59c6d10cd16eab62e	ce39338b-2d0b-4740-ba37-deac26a34281	sachet(s)
+128fd6df-8ebe-4c2a-85ff-4e664ca78e74	5af2c14aae08b51b804e58ab	370893be-583e-42ca-9f1c-bf9b9cdf1103	sachet(s)
+64fa3cac-4921-43b2-99df-03997e11d2f1	6405bf29af4af6d531d50a90	33823b83-912e-4269-8d46-72cd27113eba	sachet(s)
+c0bb2211-5d40-46c4-8d2c-487c513b181f	6405bf7aaf4af6d531d50bd6	43757fd6-cb78-4e3b-8ac3-36a69133109d	sachet(s)
+ddf57631-1a99-4e7f-98d5-b9495460d597	6405c013b0da19477798649e	7015632f-1649-4389-bf0c-15b1320e1ae9	sachet(s)
+d5958aa8-994d-4377-9ce4-a6f9e0f24dbc	6405bfa5af4af6d531d50c60	a96b16d1-b9b0-4f6d-b7ae-bc07282a7584	sachet(s)
+854eefbc-1899-4e9a-86bc-cba53fd5fcf8	5c8bcda9e3f339735561c2c4	7ee848c2-a3eb-4088-9e96-9365345c00e9	sachet(s)
+ae75e647-2ef5-4079-a851-ebba5dcc2f18	6405bfd0b0da1947779863c0	0cd9e5cd-396b-4f6d-afe0-5435899f4adb	sachet(s)
+bc85a87e-d578-42a9-892f-877ca1d6c94a	6405bf3aaf4af6d531d50acf	e73e7b25-d256-4981-994b-08a1a312bbfd	sachet(s)
+f3cc0484-0dec-46b8-9178-4e50cc132f4a	6405bfd8b0da1947779863d8	d221ad64-3c5d-4842-bb51-be92f05963c6	sachet(s)
+6d1b3767-3869-436d-9d93-345bf40c1e4b	6405bfd2af4af6d531d50cf8	e3c5cf9e-af2e-4c4a-98ca-6be312097490	sachet(s)
+03b9f650-92e1-4b3f-9e5d-0d216a29df0d	6405bfa3b0da194777986329	27c587ab-1801-4205-a675-df65a7d0656e	sachet(s)
+b9d6d8bd-e5a0-4e94-a095-b761499a26e2	6405bff9b0da19477798644a	754b3053-7d5b-49a5-a53c-bda6c59d1310	sachet(s)
+79b80dc0-7fab-43c1-adac-36021348cd50	64073bb4df6297bb5beef10c	f9cf7e2a-40e0-448d-a731-1a649cfb912a	sachet(s)
+f1ba10c8-082a-42dc-b96c-57949d7da2a8	64073c3edf6297bb5beef1a0	88bb48a5-91d0-4700-9201-9309fc7ddb74	sachet(s)
+399e5c0a-8000-4a6c-a420-abcf0f15d848	64073c8a9c6d10cd16eab6da	5e49918a-d142-42ec-ad2f-50cb2fcca377	sachet(s)
+128f0fec-5249-4582-8803-9a0accbe4dce	64073c8b9c6d10cd16eab6db	06f04366-2c4e-4d5b-b6f7-596e639fdd9d	sachet(s)
+d6ceabec-3e15-4260-98ce-befbfe076ef8	64073c61683721c9a32b07da	61f422bf-a2d6-443f-9146-60a304e123dd	sachet(s)
+8eda98f8-829b-43c4-9c83-3373910c0d14	5af2be1fae08b5194415a1b7	2ac8b5a9-631b-4d7f-a807-2f6668e59c11	sachet(s)
+935ae4cf-4ffd-4e58-bf66-5fd92136cf6f	5bc449da30006c640941a2a3	5e2308e5-7349-42ff-b0f9-b8e818a93268	sachet(s)
+c4751484-3181-42aa-b892-1a264b8a078b	64396863c26f2e77c4a9e545	4ed79bb6-1333-4d1d-832a-f1005bada636	sachet(s)
+f7e0011b-dbb2-4187-8a78-9a9f557fbc99	5b0bb2bd30006c47d2648ac3	877d7109-3e66-4bb1-848e-05f42b4cee1f	sachet(s)
+6571a8b3-e6a9-472b-8728-80a42e8bbd34	6405bf48b0da1947779861eb	c8ea88c4-fa04-47f5-a968-478d655cca04	sachet(s)
+d80e34e3-2b9b-40ba-9242-53b6fe163979	6462c7fd6ced9aa0d6353b2f	54076655-c3cc-4dda-88c1-7956b640e731	sachet(s)
+c808c407-2d55-444e-a0cd-6b94194be76a	64073d89df6297bb5beef234	bb596a19-ce81-418f-a510-2982fb1c7fb0	sachet(s)
+11c2569b-aa6c-4c71-867a-937e86576666	6405c017b0da1947779864a9	7168f3dd-431d-4696-906f-7821359a93dc	sachet(s)
+9299250e-12a9-465a-8629-a7b618d1e689	6405bf26b9d07cd5d38d7996	bef6f3c4-9b63-4420-9c8c-5a5434fb969a	sachet(s)
+a732b13a-5052-4d62-8c6d-b8dfd5e6adab	6462c7f88c393b044d7447ca	0ff8d062-c8b5-4c7e-9389-a2e51c8e1cee	sachet(s)
+26580613-f938-483b-9ab1-35a8a6fe9092	6405bf7db9d07cd5d38d7adc	481a1e57-11f1-4de2-a810-89d3858487b0	sachet(s)
+ab15b4dd-a222-447a-b24b-4e316e18faa4	6405bf64b9d07cd5d38d7a81	3d15967c-54d1-46da-8dc8-9080eeff1607	sachet(s)
+636dd1a2-94b8-4d4c-a6fa-d35707be3a22	6405bf49b0da1947779861ed	0d5372d4-4285-4998-9cde-5e3f052b7c51	sachet(s)
+310f0411-471c-4a33-8a92-227195fa3ae9	6405bfadb9d07cd5d38d7b8a	0f3bb821-d90b-4810-8d34-d8463a0e2fe6	sachet(s)
+5470a7b2-4e5a-4f0c-ba4a-6860588d4922	64073bcb683721c9a32b0768	78d21a8b-b08e-47f4-b280-d9627422a821	sachet(s)
+3c980f22-462a-44b9-8052-5d909dc5d655	641855d6fd99775f18f75ce1	ac7c8d64-8ac5-4c82-9173-f21b20a93d8f	sachet(s)
+b8f45b22-6f90-4bb2-b0c5-a5bd80ef7be5	645bc3d0a116286892337383	c6c239f9-0f85-4205-be11-fa102f083174	sachet(s)
+5d2f563f-afaf-4ec1-9c98-0f37956ba01e	64535d80572079217b737d07	787dd8d5-9a1f-471e-ac6b-f6d0ee2bc889	sachet(s)
+5f63e121-35db-464e-933b-47d2be0a697c	64073bb59c6d10cd16eab62c	5e6eb7a2-d832-435d-acce-4d2f3922d530	sachet(s)
+8e364d3d-714d-47b8-8973-831d21ccc861	64073bb59c6d10cd16eab62d	a3860a3b-d978-400b-9544-bd4ac0f308ad	sachet(s)
+c8556324-cf3c-42b5-b38c-20d2dfa95299	5af2be5fae08b5194415a29e	4efb75d3-881f-418d-a29f-8839d79decc9	sachet(s)
+c632e1f4-1e59-45b1-80e8-a2dd38649a82	64073ba69c6d10cd16eab617	a10b8c9d-40dd-46e8-a19d-a05ee9387a70	sachet(s)
+841cbf88-fc69-4e1c-8ed3-1a6f37f1ab0c	6405bfb7b9d07cd5d38d7ba8	31403a97-2df4-483d-943d-69b64804bd6d	sachet(s)
+5c1bfef0-e1ef-4288-91b0-ad92145ba534	6405bff0af4af6d531d50d4b	4138cead-4f14-41a8-8461-d76994a954b4	sachet(s)
+a6d4fc01-8d94-4ce9-9165-3baf323fbbe0	6462c7f58c393b044d7447c9	dec6b541-d010-4587-8c83-54758f798d58	sachet(s)
+9f4534ee-1831-4d20-ac81-a63afa413875	6405c00cb0da194777986485	e1ef5fef-7bcb-404f-8ebe-ad9c5537a292	sachet(s)
+2c922c0a-db9b-4f45-90f9-dc732d3b4c2b	6405bfe7b0da19477798640d	2dfb064d-d7a2-465b-b336-c60be23f2747	sachet(s)
+c538fbfb-7758-4d29-8c79-32bf505bc4ec	5d53d97c0f071b00083c90aa	46884d05-1914-4adc-a7bc-4e4d304a9301	sachet(s)
+dda600d4-f571-4f02-8495-a61af01e0dd9	64a362b4d1915b06b70acce4	ff167e57-a16e-4aa4-834e-97e4534b9ec1	sachet(s)
+ee082d05-0458-426f-9491-c3f49c6f1ce9	64073c3f683721c9a32b07c2	bfc1352e-15be-4cde-ab7e-a93dbca84f40	sachet(s)
+6c31fdcb-bec9-4b81-aafb-88242b45475e	6405bfbab9d07cd5d38d7bae	6895ea27-65ba-40d7-b3ca-6cf371565253	sachet(s)
+4e0da705-5d5e-4e70-a595-83e43cce7d2e	6405bf95b0da1947779862f8	15d1cae6-b30a-4469-896b-e112d76a6119	sachet(s)
+512847d6-ed4c-4327-b1e2-c0727fb6a839	6405bfd7b0da1947779863d6	d6755807-6b95-4c0f-95e7-8d97fa15364b	sachet(s)
+2144d6f8-8576-423f-9e95-4a1fef87ed68	6405bfa4b0da19477798632c	1e7ed4f0-5a98-4654-b2ee-ddd2982673bf	sachet(s)
+ae91d015-116a-41e2-9251-53502d756ece	6405bfecb9d07cd5d38d7c51	88294888-8097-46a3-9005-f111e9cbf0df	sachet(s)
+0527fc1e-7333-4f15-9ac5-af83aeb85feb	5af2c158ae08b51b804e58cf	da9be7a8-6e6f-47c1-8e6f-a9baa702026e	sachet(s)
+a1b30088-136d-4234-b63c-42e4e3837afe	6405bf28b0da194777986183	814d5f3e-3c37-4cb0-af04-442c8ceed7b2	sachet(s)
+1fea3e62-b47d-4697-978c-91b96a6adb0f	64073be7df6297bb5beef152	b067934e-e130-41e2-9651-35ba7d9a01ae	sachet(s)
+121a4815-934f-499d-9780-2e3af5162cfc	5af2be69ae08b5194415a2c5	3766a830-dbfd-4460-8231-296d6ba652c4	sachet(s)
+7d04700a-3076-4dc4-a9af-b63405da73ad	6405bf7cb0da1947779862a5	ef768406-1854-4875-a233-b217d66be0eb	sachet(s)
+a9848c6f-a486-44c9-a07c-d96e19746c1b	6405bf66af4af6d531d50b8f	2ae577eb-e981-4797-8322-bf2216518e32	sachet(s)
+5678ae81-87e5-4804-a403-51e09314593f	6405bf1daf4af6d531d50a57	de9c457f-33c7-4f32-88d5-662106968f57	sachet(s)
+795c2242-ba9b-440f-9cd5-463928ad154f	6405bf29b9d07cd5d38d799d	e1bcfe46-256b-4bfb-9ee5-2a8d427906e0	sachet(s)
+51803d3b-1634-47f6-8ef0-e6291dc2b112	6405bf36b0da1947779861b1	0d2111ea-29b5-4a2f-b6a2-745c9cba33b6	sachet(s)
+d1be9be5-3bfd-43fc-b66e-c5a002ff44f0	6405c008b0da19477798647b	59cdbad7-9b21-4ae7-8ec3-4a5332d8c7fb	sachet(s)
+849283af-3f35-4321-9444-0309d347bea1	6405bfdbb0da1947779863df	d7703c1e-c292-4d91-934d-b713503458db	sachet(s)
+2c3977d4-a9c0-44d5-9edc-db5856a2c6bd	6405bf48b9d07cd5d38d7a14	53b48a62-b026-4d46-8b15-5b913151a9d3	sachet(s)
+6876c122-470c-43ab-a21b-ab5d04fa27b0	64073d9d9c6d10cd16eab758	8bc84712-3a31-49ce-b257-904d1373b561	sachet(s)
+96c8a695-988e-4089-9814-3bf4a7960730	64073c63df6297bb5beef1b0	4dfb1862-3f30-4e87-bfa2-6d626a500976	sachet(s)
+6afc0905-c32a-4931-9a23-17a4029c4b54	5e578a0a7c09dc3b6b1d3304	36e528d4-3886-4414-a9b1-a0817ae988ed	sachet(s)
+ee922ba4-b7eb-4ddd-9bf4-e0090b51fbf2	64073bf2683721c9a32b078e	c3191bff-cba9-424f-9740-6ced4dc70e3f	sachet(s)
+5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	df50286b-bf01-4331-b503-e6794cf55f00	sac(s)
+37f081a4-911b-4a0a-a848-d599135e577e	5af2bdecae08b5194415a0f0	0de02de0-a25c-456f-ba89-08c38d275566	sac(s)
+017859b3-ff40-4a81-b5df-4662d940fa68	5af2be2dae08b5194415a1e5	93b22327-643d-4ee3-a3c2-47df9ec58b89	sac(s)
+9f6f5fa2-9551-42f5-af30-b91cb1083fdd	5af2be5fae08b5194415a29d	43dd063c-90ab-46d2-a4a1-ed9f3e8c0089	tête(s)
+2fb054a4-0815-42fb-b452-8448ec7b6d2f	5dde798296ae8413041df142	e5651ca9-543b-4f3c-a881-4e0415262d95	tête(s)
+c560300c-3961-4ab6-a53d-f0d98f7ac0e7	6405bff2b0da19477798642e	024f202f-b085-4ffe-8087-e51ad632f802	tête(s)
+2287185b-541b-47bd-b509-ca05267eeb94	5af2be65ae08b5194415a2b4	d736f9d4-782d-4a87-b2fd-6b4b02251607	tête(s)
+2c700320-16c8-4390-a513-40a4bf9a615c	6405bf85b0da1947779862c2	1bf45040-68f7-46e4-9f23-e11f2f35d474	tête(s)
+fd80ea03-cec0-4b62-b699-70a2f923883f	6405bf6ab9d07cd5d38d7a95	72c60478-bd70-4aef-9d77-c100eff82507	tête(s)
+3fc40bf6-c9d6-49e8-9814-1779d4d9c743	5af2bde6ae08b5194415a0d3	3ccd5c6d-c02a-49f5-944e-2dfa81666c07	tête(s)
+c6c0dfe2-5c1d-42c7-bbf8-3bade6d98f6c	6405bfe7af4af6d531d50d31	1041cac5-927f-4f47-8e93-9543651850c2	tête(s)
+8fda3021-d2b8-4d2b-a21c-64f9e1b8282b	5af2bde2ae08b5194415a0ca	dac0ca32-35c0-49e8-ba7e-7bfc4ba3f168	tête(s)
+02aa7c0c-cd4c-418a-9f6b-ea6ccfed0e96	5ea812d7cf958e23e4660867	09a5da0c-6b93-41eb-99f1-c99171f12cc2	tête(s)
+2505383d-7765-4545-8c57-5068e4f6694a	64073bcb9c6d10cd16eab644	602e9e55-c4cc-41a0-a106-b4decfdea2c6	tige(s)
+2fb054a4-0815-42fb-b452-8448ec7b6d2f	5dde798296ae8413041df142	278a0f90-9fde-483b-a98a-ce4c850005cf	tige(s)
+7d9318b0-b6a1-4700-9992-03052de2e293	64d0f4dc317ec2bf51927577	b5b2d4b9-3bf3-49d9-ac9d-b5d4c5afae85	tranche(s)
+dd236d9b-7c21-49f5-a877-7bb0a9d04412	6438256b184668ed677d9e31	a4195566-1e25-4b09-94dd-f65f386a0af2	tranche(s)
+17c13c5d-103a-45cc-aef3-fc45dcfb5b5c	6405bf9caf4af6d531d50c45	e7348f56-f1c2-431a-9349-752166c42b53	tranche(s)
+3fae3f5c-d232-40e5-a753-aa1d4b420a90	5af2be27ae08b5194415a1d5	6e98531c-70b9-45f3-8673-66322a3b1097	tranche(s)
+b2c5a246-cd83-4bfd-85ff-e73387054559	642553472e8f18047b34f223	c6fd719d-e3b0-4742-be8f-9026d4cf0a5b	tranche(s)
+01dbf904-632b-46a6-a18c-d50e10f5bd68	5af2be9dae08b5194415a386	30ad7a5f-a3ef-440d-b7cf-18aa21920391	tranche(s)
+2d04e991-e0c7-4499-b0ed-173d4770b9e8	5b0bb2b730006c47d07bd8b3	c4c67d41-10dd-483d-9def-88b1c66e829c	tranche(s)
+b3229999-cd98-45e3-8fd4-cf97328d5857	5d3f1563265a5e0009517285	1d7689d2-4edd-42b9-9dbc-67ecc730a4d5	tranche(s)
+588da9e4-7f6c-44e2-8cf7-2025cf7947d0	64073bc89c6d10cd16eab641	71b8a457-68da-4352-823e-c5ee1b2d16a4	tranche(s)
+c64367d3-4d3d-4467-9708-d0b5467fc186	64995662461c4ddf32309847	e2bfaa89-1f93-4dd1-9922-96bf79e45dab	sachet(s)
+9bbbe661-d81a-445f-875b-53353319e58d	5af2be52ae08b5194415a26d	73d42225-6009-4054-bc91-676308d8aa22	sachet(s)
+b94a7647-8819-41b2-a65b-b0d3cbb29be0	64073db1df6297bb5beef242	c1fc5753-b55a-4536-acb6-1528ad532f53	sachet(s)
+534495b1-afb8-4652-aab6-335f6b262138	648906150635a1e9befbb439	9e659cd6-d2d2-4806-89c0-05e35d242a60	tranche(s)
+e68177e6-8f6c-40aa-a4dd-7dde2080002c	64073beb683721c9a32b0781	3b7dc291-1faf-4fd5-9e37-abba804494cf	tranche(s)
+74fb4566-fdcc-4133-b313-c23d3507cddf	6405bf4ab9d07cd5d38d7a1f	0ec9ec7f-1b9b-4ecb-be2b-3306d66f2acb	tranche(s)
+fdfedef7-f105-4ab9-b842-86ecf7e1d6aa	6405bf26af4af6d531d50a7f	bd53beef-d8da-47e5-871c-d03511d53c37	tranche(s)
+051ffba4-a039-4cd1-ae79-eec8f7bb3259	5af2be05ae08b5194415a15c	31e472e5-0597-4d1c-8f5e-1d9398413943	tube(s)
+d071d417-4bc9-4379-8de2-cbf9c48bd837	64073bd39c6d10cd16eab653	82fdf897-ed7c-4c32-9bfe-9feb825c342d	tube(s)
+5870818d-c909-4ff8-a599-53cc868fea58	5cb44984c445fa72e10f4ba2	4b933cbe-b06e-49b0-9ce7-2b74bc2a5dc6	tube(s)
+00d694dc-3884-400a-8383-4c7859ac0224	5c8bcda5e3f33973013052b4	f05f5343-3ec3-422d-8b78-d3fe0ad637ce	tube(s)
+e17f7a07-eff3-4d4b-912e-3b9d9d19323f	5beeea4130006c19492ac425	7d2ea775-266a-4310-a35f-c082b4331073	tube(s)
+017859b3-ff40-4a81-b5df-4662d940fa68	5af2be2dae08b5194415a1e5	7d20adb6-d077-4775-8aae-d859a5c8ad2a	tube(s)
+08d85b22-e8ab-4a2f-b12a-dd42218efbdd	5af2be5dae08b5194415a296	888dee53-7bd2-40d2-83d9-ab6647bca18f	tube(s)
+3fc40bf6-c9d6-49e8-9814-1779d4d9c743	5af2bde6ae08b5194415a0d3	9c8f0936-9f78-4dfe-82de-34ad5330eea7	tube(s)
+8fda3021-d2b8-4d2b-a21c-64f9e1b8282b	5af2bde2ae08b5194415a0ca	c1a21e9d-7314-4b6f-a1de-ce054d9aa074	tube(s)
 \.
 
 
