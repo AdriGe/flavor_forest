@@ -1,800 +1,101 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b1",
-        "name": "Seafood",
-        "type": "seafood",
-        "slug": "Seafood"
-    },
-    "clonedFrom": null,
-    "comment": "QFR16681736-2",
-    "country": "FR",
-    "createdAt": "2020-11-17T14:28:33+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bf",
-            "type": "european",
-            "name": "European",
-            "slug": "european",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bf-ae882118.jpg"
-        }
+        "European"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 1,
     "favoritesCount": 252,
     "headline": "servie avec une vinaigrette au citron vert et de la ciboulette",
-    "id": "5fb3de101a59b93e9336181c",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200713_R211_W35_FR_QFR16681736-1_KB_Main_low-cf4aaab4.jpg",
-    "imagePath": "/image/HF200713_R211_W35_FR_QFR16681736-1_KB_Main_low-cf4aaab4.jpg",
+    "name": "Salade de truite fumée, avocat et grenailles",
+    "prepTime": 20,
+    "totalTime": 15,
+    "image_id": "5fb3de101a59b93e9336181c",
+    "id": "ada2e51f-1fa7-40ee-931a-7c0160689235",
+    "nutrition": {
+        "kcal": 506,
+        "fat": 42,
+        "saturated_fat": 7.9,
+        "carbohydrate": 7.9,
+        "sugars": 4.1,
+        "protein": 22.3,
+        "sodium": 1.44
+    },
+    "tags": [
+        "À faire rapidement",
+        "Rapido"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf5faf4af6d531d50b75",
-            "uuid": "017ac3c8-4d38-465e-b403-183db3270831",
-            "name": "Grenailles",
-            "type": "baby-potatoes",
-            "slug": "grenailles",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5faf4af6d531d50b75-0f7c6432.png",
-            "imagePath": "/ingredient/6405bf5faf4af6d531d50b75-0f7c6432.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "ed84f2f0-6872-4336-a13d-55c9bebaf1b7"
         },
         {
-            "id": "6405bf9eaf4af6d531d50c49",
-            "uuid": "f2c1fd2c-09eb-5225-8e69-6070ed268f60",
-            "name": "Grenailles rouges",
-            "type": "red-potato",
-            "slug": "grenailles-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "imagePath": "/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "g",
+            "ingredient_id": "f26d87de-b670-4e79-89ae-5609f60a16a8"
         },
         {
-            "id": "6405bf9fb9d07cd5d38d7b57",
-            "uuid": "4842611c-bce4-5a00-9f96-af40c63b6310",
-            "name": "Avocat",
-            "type": "avocado",
-            "slug": "avocat",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "imagePath": "/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "6b8e6560-a4cd-4dae-bb41-25d38d8bdb4c",
+            "portion_id": "673a042b-e8bd-447e-b9b5-8edc4ad2da58",
+            "image_id": "6405bf9fb9d07cd5d38d7b57"
         },
         {
-            "id": "6405bfe6b9d07cd5d38d7c3f",
-            "uuid": "0669dd0d-49ca-4e6d-a144-75632b22b136",
-            "name": "Cébette",
-            "type": "spring-onions",
-            "slug": "cebette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "imagePath": "/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "61aa522a-cd3f-44fa-a698-243ed78aa4ba",
+            "portion_id": "6d283187-ba0f-409b-ad0a-a99a604556d8",
+            "image_id": "6405bfe6b9d07cd5d38d7c3f"
         },
         {
-            "id": "64073c9b9c6d10cd16eab6e2",
-            "uuid": "49f559de-7f6e-4ede-8ae6-89acdae9f0ee",
-            "name": "Filet de truite fumée à chaud",
-            "type": "smoked-trout-fillet",
-            "slug": "filet-de-truite-fumee-a-chaud",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb2af4af6d531d50c95-757d81a2.png",
-            "imagePath": "/ingredient/6405bfb2af4af6d531d50c95-757d81a2.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "83bf5a8a-4ffd-4232-ace1-6ee015ede316",
+            "portion_id": "cd545073-3aa3-42e7-a2d6-fca914b7bdf3",
+            "image_id": "64073c9b9c6d10cd16eab6e2"
         },
         {
-            "id": "64073ba7df6297bb5beef0f9",
-            "uuid": "b443c50a-b3b3-510c-93ac-01d6610777a3",
-            "name": "Ciboulette",
-            "type": "chives",
-            "slug": "ciboulette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "imagePath": "/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "436539af-4b0c-46d6-9134-1d83699b82ef"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "6405bfb6b0da194777986365",
-            "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
-            "name": "Salade",
-            "type": "rocket",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b0da194777986365-23aed5fc.png",
-            "imagePath": "/ingredient/6405bfb6b0da194777986365-23aed5fc.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "61707057-dd9c-4fff-b21e-c8bc1aad80a9"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5fb3de101a59b93e9336181c",
-    "name": "Salade de truite fumée, avocat et grenailles",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 506,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2117,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 42,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 7.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 7.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 4.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 22.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.44,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT20M",
-    "promotion": null,
-    "ratingsCount": 198,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 303,
-    "slug": "salade-de-truite-fumee-avocat-et-grenailles",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Nettoyez les grenailles et coupez-les en deux.Ajoutez les grenailles dans une casserole avec couvercle et versez de l’eau à hauteur, puis portez à ébullition.Faites-les cuire à couvert 13 à 15 minutes. CONSEIL: Pour contrôler la cuisson des grenailles, utilisez la pointe d'un couteau. Si elle s'enfonce sans forcer, les pommes de terre sont cuites.",
-            "instructionsHTML": "<ul><li>Nettoyez les grenailles et coupez-les en deux.</li><li>Ajoutez les grenailles dans une casserole avec couvercle et versez de l’eau à hauteur, puis portez à ébullition.</li><li>Faites-les cuire à couvert 13 à 15 minutes. </li></ul><p>CONSEIL: Pour contrôler la cuisson des grenailles, utilisez la pointe d&#39;un couteau. Si elle s&#39;enfonce sans forcer, les pommes de terre sont cuites.</li>",
-            "instructionsMarkdown": "<ul><li>Nettoyez les grenailles et coupez-les en deux.</li><li>Ajoutez les grenailles dans une casserole avec couvercle et versez de l’eau à hauteur, puis portez à ébullition.</li><li>Faites-les cuire à couvert 13 à 15 minutes. </li></ul><p>CONSEIL: Pour contrôler la cuisson des grenailles, utilisez la pointe d&#39;un couteau. Si elle s&#39;enfonce sans forcer, les pommes de terre sont cuites.</li>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fb3de101a59b93e9336181c/step-67972200.jpg",
-                    "path": "/5fb3de101a59b93e9336181c/step-67972200.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Pendant ce temps, coupez l'avocat en deux et retirez la peau et le noyau, puis coupez-le en cubes.Retirez les extrémités puis taillez l'oignon nouveau en rondelles. Émiettez la truite fumée à l’aide de deux fourchettes.Ciselez la ciboulette.Coupez le citron vert en quartiers.CONSEIL: Pour récupérer encore plus de jus de citron vert faites-le d'abord rouler sur le plan de travail avec votre main avant de le couper. Cette technique permet de le ramollir et de rompre la pulpe.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, coupez l&#39;avocat en deux et retirez la peau et le noyau, puis coupez-le en cubes.</li><li>Retirez les extrémités puis taillez l&#39;oignon nouveau en rondelles. </li><li>Émiettez la truite fumée à l’aide de deux fourchettes.</li><li>Ciselez la ciboulette.</li><li>Coupez le citron vert en quartiers.</li></ul><p>CONSEIL: Pour récupérer encore plus de jus de citron vert faites-le d&#39;abord rouler sur le plan de travail avec votre main avant de le couper. Cette technique permet de le ramollir et de rompre la pulpe.</li>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, coupez l&#39;avocat en deux et retirez la peau et le noyau, puis coupez-le en cubes.</li><li>Retirez les extrémités puis taillez l&#39;oignon nouveau en rondelles. </li><li>Émiettez la truite fumée à l’aide de deux fourchettes.</li><li>Ciselez la ciboulette.</li><li>Coupez le citron vert en quartiers.</li></ul><p>CONSEIL: Pour récupérer encore plus de jus de citron vert faites-le d&#39;abord rouler sur le plan de travail avec votre main avant de le couper. Cette technique permet de le ramollir et de rompre la pulpe.</li>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fb3de101a59b93e9336181c/step-335c0110.jpg",
-                    "path": "/5fb3de101a59b93e9336181c/step-335c0110.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans un saladier, préparez la vinaigrette en mélangeant, par personne, 1,5 cs d’huile d’olive vierge extra et le jus d'un quartier de citron vert. Salez et poivrez. Lorsque les grenailles sont cuites, rincez-les à l'eau froide et égouttez-les. Elles peuvent rester tièdes.",
-            "instructionsHTML": "<ul><li><span>Dans un saladier, préparez la vinaigrette en mélangeant, par personne, 1,5 cs d’huile d’olive vierge extra et le jus d&#39;un quartier de citron vert. Salez et poivrez. </span></li><li>Lorsque les grenailles sont cuites, rincez-les à l&#39;eau froide et égouttez-les. Elles peuvent rester tièdes.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Dans un saladier, préparez la vinaigrette en mélangeant, par personne, 1,5 cs d’huile d’olive vierge extra et le jus d&#39;un quartier de citron vert. Salez et poivrez. </span></li><li>Lorsque les grenailles sont cuites, rincez-les à l&#39;eau froide et égouttez-les. Elles peuvent rester tièdes.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fb3de101a59b93e9336181c/step-6ba9a420.jpg",
-                    "path": "/5fb3de101a59b93e9336181c/step-6ba9a420.jpg",
-                    "caption": "Faire la vinaigrette"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Juste avant de servir, ajoutez la ciboulette et l'oignon nouveau au saladier et mélangez. Incorporez ensuite les grenailles, la roquette, la truite fumée et l'avocat, puis mélangez doucement pour que tous les ingrédients soient imprégnés de la vinaigrette.Servez la salade avec les quartiers de citron vert restants.",
-            "instructionsHTML": "<ul><li>Juste avant de servir, ajoutez la ciboulette et l&#39;oignon nouveau au saladier et mélangez. </li><li>Incorporez ensuite les grenailles, la roquette, la truite fumée et l&#39;avocat, puis mélangez doucement pour que tous les ingrédients soient imprégnés de la vinaigrette.</li><li>Servez la salade avec les quartiers de citron vert restants.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Juste avant de servir, ajoutez la ciboulette et l&#39;oignon nouveau au saladier et mélangez. </li><li>Incorporez ensuite les grenailles, la roquette, la truite fumée et l&#39;avocat, puis mélangez doucement pour que tous les ingrédients soient imprégnés de la vinaigrette.</li><li>Servez la salade avec les quartiers de citron vert restants.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fb3de101a59b93e9336181c/step-05572f30.jpg",
-                    "path": "/5fb3de101a59b93e9336181c/step-05572f30.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "QFR16681736-2",
-    "updatedAt": "2023-10-13T10:40:20+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "31d36b27-b448-4619-b716-8ba508d1673d",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/salade-de-truite-fumee-avocat-et-grenailles-5fb3de101a59b93e9336181c",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c9b9c6d10cd16eab6e2",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c9b9c6d10cd16eab6e2",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c9b9c6d10cd16eab6e2",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 4.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c9b9c6d10cd16eab6e2",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c9b9c6d10cd16eab6e2",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c9b9c6d10cd16eab6e2",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Nettoyez les grenailles et coupez-les en deux.Ajoutez les grenailles dans une casserole avec couvercle et versez de l’eau à hauteur, puis portez à ébullition.Faites-les cuire à couvert 13 à 15 minutes. CONSEIL: Pour contrôler la cuisson des grenailles, utilisez la pointe d'un couteau. Si elle s'enfonce sans forcer, les pommes de terre sont cuites.",
+        "Pendant ce temps, coupez l'avocat en deux et retirez la peau et le noyau, puis coupez-le en cubes.Retirez les extrémités puis taillez l'oignon nouveau en rondelles. Émiettez la truite fumée à l’aide de deux fourchettes.Ciselez la ciboulette.Coupez le citron vert en quartiers.CONSEIL: Pour récupérer encore plus de jus de citron vert faites-le d'abord rouler sur le plan de travail avec votre main avant de le couper. Cette technique permet de le ramollir et de rompre la pulpe.",
+        "Dans un saladier, préparez la vinaigrette en mélangeant, par personne, 1,5 cs d’huile d’olive vierge extra et le jus d'un quartier de citron vert. Salez et poivrez. Lorsque les grenailles sont cuites, rincez-les à l'eau froide et égouttez-les. Elles peuvent rester tièdes.",
+        "Juste avant de servir, ajoutez la ciboulette et l'oignon nouveau au saladier et mélangez. Incorporez ensuite les grenailles, la roquette, la truite fumée et l'avocat, puis mélangez doucement pour que tous les ingrédients soient imprégnés de la vinaigrette.Servez la salade avec les quartiers de citron vert restants."
     ]
 }

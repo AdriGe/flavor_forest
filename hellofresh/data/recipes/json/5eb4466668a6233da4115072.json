@@ -1,1000 +1,126 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b1",
-        "name": "Seafood",
-        "type": "seafood",
-        "slug": "Seafood"
-    },
-    "clonedFrom": null,
-    "comment": "RNL1903-1",
-    "country": "FR",
-    "createdAt": "2020-05-07T17:33:28+00:00",
     "cuisines": [
-        {
-            "id": "623d9c9e5bdfb809438c0db6",
-            "type": "belgian",
-            "name": "Belgisk",
-            "slug": "belgisk",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/no-image.jpg"
-        }
+        "Belgisk"
     ],
     "description": "Ce soir, vous allez préparer une cassolette de poisson. Ce plat au four permet de conserver tout le fondant, l’onctuosité et la saveur du poisson et des légumes. La chair délicate et la saveur douce du cabillaud se marient parfaitement à un grand nombre d’ingrédients. Cuit avec des tomates cerises, du poireau, de la crème et du fromage il en absorbe les saveurs.",
-    "descriptionHTML": "<p>Ce soir, vous allez préparer une cassolette de poisson. Ce plat au four permet de conserver tout le fondant, l’onctuosité et la saveur du poisson et des légumes. La chair délicate et la saveur douce du cabillaud se marient parfaitement à un grand nombre d’ingrédients. Cuit avec des tomates cerises, du poireau, de la crème et du fromage il en absorbe les saveurs.</p>",
-    "descriptionMarkdown": "Ce soir, vous allez préparer une cassolette de poisson. Ce plat au four permet de conserver tout le fondant, l’onctuosité et la saveur du poisson et des légumes. La chair délicate et la saveur douce du cabillaud se marient parfaitement à un grand nombre d’ingrédients. Cuit avec des tomates cerises, du poireau, de la crème et du fromage il en absorbe les saveurs.",
     "difficulty": 2,
     "favoritesCount": 305,
     "headline": "avec du cabillaud et une purée de pommes de terre saveur moutarde",
-    "id": "5eb4466668a6233da4115072",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF191016_R09_W47_NL_R1903_main_Stew_low-e59ac4e5.jpg",
-    "imagePath": "/image/HF191016_R09_W47_NL_R1903_main_Stew_low-e59ac4e5.jpg",
+    "name": "Cassolette de poisson aux poireaux et à la crème",
+    "prepTime": 45,
+    "totalTime": 30,
+    "image_id": "5eb4466668a6233da4115072",
+    "id": "c5140ef6-3d4c-4d9e-b52a-aaf847824d5f",
+    "nutrition": {
+        "kcal": 340,
+        "fat": 20.73,
+        "saturated_fat": 12.49,
+        "carbohydrate": 13.26,
+        "sugars": 10.86,
+        "protein": 22.44,
+        "sodium": 0.38
+    },
+    "tags": [],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Presse-purée"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "6405bf4db0da194777986203",
-            "uuid": "c6f01c0f-80bc-5508-b1a4-e2cfaf78557e",
-            "name": "Paprika en poudre",
-            "type": "mild-paprika",
-            "slug": "paprika-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "imagePath": "/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.01,
+            "unit": "cc",
+            "ingredient_id": "696b285c-6d8f-4ecc-a623-908a7dc78ee5",
+            "portion_id": "5ce2c663-ec17-4af4-8a71-2ddefe133cd2",
+            "image_id": "6405bf4db0da194777986203"
         },
         {
-            "id": "6405bfc1b0da19477798638c",
-            "uuid": "1900d2d4-2bd6-5097-a7bb-a815555b5b14",
-            "name": "Crème liquide",
-            "type": "cooking-cream",
-            "slug": "creme-liquide",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "imagePath": "/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "1b7371ba-3a94-4a04-a1ab-f38b6ccbd569"
         },
         {
-            "id": "64073baadf6297bb5beef101",
-            "uuid": "d02ecdf9-19de-5f36-be2e-2f0f80383265",
-            "name": "Filet de cabillaud sans peau",
-            "type": "cod-fillets",
-            "slug": "filet-de-cabillaud-sans-peau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5db0da19477798622d-8874667b.png",
-            "imagePath": "/ingredient/6405bf5db0da19477798622d-8874667b.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "2673ad6a-d50e-4363-a7d8-d31278b39d59",
+            "portion_id": "1b459eaa-6d36-41db-ba9b-6bf426693ab0",
+            "image_id": "64073baadf6297bb5beef101"
         },
         {
-            "id": "6405bf1cb9d07cd5d38d796e",
-            "uuid": "53a96a7f-0a28-58a9-bccd-f846bf404e1a",
-            "name": "Tomates cerises rouges",
-            "type": "cherry-tomatoes",
-            "slug": "tomates-cerises-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "imagePath": "/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 125,
+            "unit": "g",
+            "ingredient_id": "f0989f17-f1fc-47a1-9546-d84cd6bd6179"
         },
         {
-            "id": "6405bf55b9d07cd5d38d7a49",
-            "uuid": "af88993d-f4ff-436e-9a41-bcf39ece5a46",
-            "name": "Gruyère et emmental râpé",
-            "type": "grated-gruyere-and-emmentaler",
-            "slug": "gruyere-et-emmental-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf55b9d07cd5d38d7a49-b46bf086.png",
-            "imagePath": "/ingredient/6405bf55b9d07cd5d38d7a49-b46bf086.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 25,
+            "unit": "g",
+            "ingredient_id": "38aa993c-8fed-40fa-b654-c646449f7dbf"
         },
         {
-            "id": "6405bf9eaf4af6d531d50c49",
-            "uuid": "f2c1fd2c-09eb-5225-8e69-6070ed268f60",
-            "name": "Grenailles rouges",
-            "type": "red-potato",
-            "slug": "grenailles-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "imagePath": "/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "f26d87de-b670-4e79-89ae-5609f60a16a8"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5123381b4b295e66f0260",
-            "uuid": "06cc03c2-cb53-410a-b25b-6f183a4ccaf0",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cs",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "imagePath": "/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b8a7ee4-2b73-44f4-94c2-74027993111c",
+            "portion_id": "7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0",
+            "image_id": "63e5123381b4b295e66f0260"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e51216bc1d64f7b96e2701",
-            "uuid": "15494ef4-44f7-40b4-bdef-138dc55b1e79",
-            "name": "Lait",
-            "type": "lait-filet",
-            "slug": "lait",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51216bc1d64f7b96e2701-7c0ceb10.png",
-            "imagePath": "/ingredient/63e51216bc1d64f7b96e2701-7c0ceb10.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "ml",
+            "ingredient_id": "3e570082-6acd-4332-966e-2fb814aa11ab"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5eb4466668a6233da4115072",
-    "name": "Cassolette de poisson aux poireaux et à la crème",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 340,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1421,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 20.73,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 12.49,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 13.26,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 10.86,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 22.44,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.38,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 198,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 377,
-    "slug": "cassolette-de-poisson-aux-poireaux-et-a-la-creme",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 180 degrés. Coupez l’oignon en deux, puis en demi-rondelles. Coupez le poireau en fines rondelles. À l’aide d’une râpe fine, râpez une pointe de noix de muscade par personne. Faites chauffer 1⁄2 cs de beurre à feu moyen-vif dans une poêle. Faites cuire les poireaux 4 à 6 minutes, retirez-les de la poêle et étalez-les dans un plat à four.",
-            "instructionsHTML": "<p>Préchauffez le four à 180 degrés. Coupez l’oignon en deux, puis en demi-rondelles. Coupez le poireau en fines rondelles. À l’aide d’une râpe fine, râpez une pointe de noix de muscade par personne. Faites chauffer 1⁄2 cs de beurre à feu moyen-vif dans une poêle. Faites cuire les poireaux 4 à 6 minutes, retirez-les de la poêle et étalez-les dans un plat à four.</p>",
-            "instructionsMarkdown": "<p>Préchauffez le four à 180 degrés. Coupez l’oignon en deux, puis en demi-rondelles. Coupez le poireau en fines rondelles. À l’aide d’une râpe fine, râpez une pointe de noix de muscade par personne. Faites chauffer 1⁄2 cs de beurre à feu moyen-vif dans une poêle. Faites cuire les poireaux 4 à 6 minutes, retirez-les de la poêle et étalez-les dans un plat à four.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5eb4466668a6233da4115072/step-ff492400.jpg",
-                    "path": "/5eb4466668a6233da4115072/step-ff492400.jpg",
-                    "caption": "Préparation"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites à nouveau chauffer 1/2 cs de beurre par personne à feu moyen dans la même poêle et faites revenir l’oignon 1 à 2 minutes. Ajoutez le paprika en poudre et faites cuire le tout 1 à 2 minutes. Déglacez l’oignon avec 1/2 cs de vinaigre de vin blanc par personne et la crème liquide. Mélangez bien et laissez réduire 4 à 5 minutes. Assaisonnez à votre goût avec du sel, du poivre et de la noix de muscade.",
-            "instructionsHTML": "<p>Faites à nouveau chauffer 1/2 cs de beurre par personne à feu moyen dans la même poêle et faites revenir l’oignon 1 à 2 minutes. Ajoutez le paprika en poudre et faites cuire le tout 1 à 2 minutes. Déglacez l’oignon avec 1/2 cs de vinaigre de vin blanc par personne et la crème liquide. Mélangez bien et laissez réduire 4 à 5 minutes. Assaisonnez à votre goût avec du sel, du poivre et de la noix de muscade.</p>",
-            "instructionsMarkdown": "<p>Faites à nouveau chauffer 1/2 cs de beurre par personne à feu moyen dans la même poêle et faites revenir l’oignon 1 à 2 minutes. Ajoutez le paprika en poudre et faites cuire le tout 1 à 2 minutes. Déglacez l’oignon avec 1/2 cs de vinaigre de vin blanc par personne et la crème liquide. Mélangez bien et laissez réduire 4 à 5 minutes. Assaisonnez à votre goût avec du sel, du poivre et de la noix de muscade.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5eb4466668a6233da4115072/step-40801910.jpg",
-                    "path": "/5eb4466668a6233da4115072/step-40801910.jpg",
-                    "caption": "Faire mijoter"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Entre temps, épongez les morceaux de cabillaud à l’aide d’un essuie-tout et assaisonnez-les de sel et de poivre. Coupez les tomates cerises en deux. Placez le cabillaud dans le plat à four avec les poireaux et ajoutez les tomates cerises. Versez la crème liquide par dessus et saupoudrez avec l'emmental et le gruyère râpé. Enfournez la cassolette 20 à 25 minutes, jusqu’à ce que le cabillaud soit cuit.",
-            "instructionsHTML": "<p>Entre temps, épongez les morceaux de cabillaud à l’aide d’un essuie-tout et assaisonnez-les de sel et de poivre. Coupez les tomates cerises en deux. Placez le cabillaud dans le plat à four avec les poireaux et ajoutez les tomates cerises. Versez la crème liquide par dessus et saupoudrez avec l&#39;emmental et le gruyère râpé. Enfournez la cassolette 20 à 25 minutes, jusqu’à ce que le cabillaud soit cuit.</p>",
-            "instructionsMarkdown": "<p>Entre temps, épongez les morceaux de cabillaud à l’aide d’un essuie-tout et assaisonnez-les de sel et de poivre. Coupez les tomates cerises en deux. Placez le cabillaud dans le plat à four avec les poireaux et ajoutez les tomates cerises. Versez la crème liquide par dessus et saupoudrez avec l&#39;emmental et le gruyère râpé. Enfournez la cassolette 20 à 25 minutes, jusqu’à ce que le cabillaud soit cuit.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5eb4466668a6233da4115072/step-025c5c20.jpg",
-                    "path": "/5eb4466668a6233da4115072/step-025c5c20.jpg",
-                    "caption": "Enfourner la cassolette"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Portez une bonne quantité d’eau à ébullition dans une casserole avec couvercle pour les pommes de terre. Épluchez ou lavez-les, puis taillez-les grossièrement en morceaux. Faites- les cuire à couvert 12 à 15 minutes. Égouttez-les et réservez-les sans couvercle.",
-            "instructionsHTML": "<p>Portez une bonne quantité d’eau à ébullition dans une casserole avec couvercle pour les pommes de terre. Épluchez ou lavez-les, puis taillez-les grossièrement en morceaux. Faites- les cuire à couvert 12 à 15 minutes. Égouttez-les et réservez-les sans couvercle.</p>",
-            "instructionsMarkdown": "<p>Portez une bonne quantité d’eau à ébullition dans une casserole avec couvercle pour les pommes de terre. Épluchez ou lavez-les, puis taillez-les grossièrement en morceaux. Faites- les cuire à couvert 12 à 15 minutes. Égouttez-les et réservez-les sans couvercle.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5eb4466668a6233da4115072/step-9d7b9230.jpg",
-                    "path": "/5eb4466668a6233da4115072/step-9d7b9230.jpg",
-                    "caption": "Cuire les pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Écrasez les pommes de terre à l’aide d’un presse-purée. Ajoutez 1/2 cs de beurre par personne et un filet de lait ou de liquide de cuisson pour l’onctuosité. Ajoutez 1 cc de moutarde par personne et assaisonnez selon votre goût avec du sel, du poivre et de la noix de muscade.",
-            "instructionsHTML": "<p>Écrasez les pommes de terre à l’aide d’un presse-purée. Ajoutez 1/2 cs de beurre par personne et un filet de lait ou de liquide de cuisson pour l’onctuosité. Ajoutez 1 cc de moutarde par personne et assaisonnez selon votre goût avec du sel, du poivre et de la noix de muscade.</p>",
-            "instructionsMarkdown": "<p>Écrasez les pommes de terre à l’aide d’un presse-purée. Ajoutez 1/2 cs de beurre par personne et un filet de lait ou de liquide de cuisson pour l’onctuosité. Ajoutez 1 cc de moutarde par personne et assaisonnez selon votre goût avec du sel, du poivre et de la noix de muscade.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305393"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5eb4466668a6233da4115072/step-a1b1c440.jpg",
-                    "path": "/5eb4466668a6233da4115072/step-a1b1c440.jpg",
-                    "caption": "Préparer la purée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Disposez la cassolette de poisson dans les assiettes et servez avec la purée de pommes de terre.",
-            "instructionsHTML": "<p>Disposez la cassolette de poisson dans les assiettes et servez avec la purée de pommes de terre.</p>",
-            "instructionsMarkdown": "<p>Disposez la cassolette de poisson dans les assiettes et servez avec la purée de pommes de terre.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5eb4466668a6233da4115072/step-3d6e0d50.jpg",
-                    "path": "/5eb4466668a6233da4115072/step-3d6e0d50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": "PT30M",
-    "uniqueRecipeCode": "RNL1903-1",
-    "updatedAt": "2023-12-03T18:04:39+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305393",
-            "type": "potato-masher",
-            "name": "Presse-purée"
-        }
-    ],
-    "uuid": "d57914fd-d56c-4c18-a611-e8610ef4cddb",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/cassolette-de-poisson-aux-poireaux-et-a-la-creme-5eb4466668a6233da4115072",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 0.99,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baadf6297bb5beef101",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": 1,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 2.01,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baadf6297bb5beef101",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": 2,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baadf6297bb5beef101",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 190,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": 3,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 3.99,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baadf6297bb5beef101",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": 4,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 5.01,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baadf6297bb5beef101",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 315,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": 5,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baadf6297bb5beef101",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 380,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": 6,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 180 degrés. Coupez l’oignon en deux, puis en demi-rondelles. Coupez le poireau en fines rondelles. À l’aide d’une râpe fine, râpez une pointe de noix de muscade par personne. Faites chauffer 1⁄2 cs de beurre à feu moyen-vif dans une poêle. Faites cuire les poireaux 4 à 6 minutes, retirez-les de la poêle et étalez-les dans un plat à four.",
+        "Faites à nouveau chauffer 1/2 cs de beurre par personne à feu moyen dans la même poêle et faites revenir l’oignon 1 à 2 minutes. Ajoutez le paprika en poudre et faites cuire le tout 1 à 2 minutes. Déglacez l’oignon avec 1/2 cs de vinaigre de vin blanc par personne et la crème liquide. Mélangez bien et laissez réduire 4 à 5 minutes. Assaisonnez à votre goût avec du sel, du poivre et de la noix de muscade.",
+        "Entre temps, épongez les morceaux de cabillaud à l’aide d’un essuie-tout et assaisonnez-les de sel et de poivre. Coupez les tomates cerises en deux. Placez le cabillaud dans le plat à four avec les poireaux et ajoutez les tomates cerises. Versez la crème liquide par dessus et saupoudrez avec l'emmental et le gruyère râpé. Enfournez la cassolette 20 à 25 minutes, jusqu’à ce que le cabillaud soit cuit.",
+        "Portez une bonne quantité d’eau à ébullition dans une casserole avec couvercle pour les pommes de terre. Épluchez ou lavez-les, puis taillez-les grossièrement en morceaux. Faites- les cuire à couvert 12 à 15 minutes. Égouttez-les et réservez-les sans couvercle.",
+        "Écrasez les pommes de terre à l’aide d’un presse-purée. Ajoutez 1/2 cs de beurre par personne et un filet de lait ou de liquide de cuisson pour l’onctuosité. Ajoutez 1 cc de moutarde par personne et assaisonnez selon votre goût avec du sel, du poivre et de la noix de muscade.",
+        "Disposez la cassolette de poisson dans les assiettes et servez avec la purée de pommes de terre."
     ]
 }

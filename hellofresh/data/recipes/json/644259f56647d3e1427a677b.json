@@ -1,1090 +1,136 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "64073cb59c6d10cd16eab6e9",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-04-21T09:40:05+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a9",
-            "type": "greek",
-            "name": "Grecque",
-            "slug": "greek",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a9-66a3ad00.jpg"
-        }
+        "Grecque"
     ],
     "description": "Connaissez-vous le Gigantes Plaki ? Prêt en moins d’une heure, ce plat grec « one-pot » regorge de saveurs fraîches. Préparé avec des haricots dans une sauce tomate maison, nous vous en proposons une version garnie de feta et de persil pour une touche d’éclat ! Le fromage utilisé dans ce plat contient de la présure animale.",
-    "descriptionHTML": "<p>Connaissez-vous le Gigantes Plaki ? Prêt en moins d’une heure, ce plat grec « one-pot » regorge de saveurs fraîches. Préparé avec des haricots dans une sauce tomate maison, nous vous en proposons une version garnie de feta et de persil pour une touche d’éclat ! Le fromage utilisé dans ce plat contient de la présure animale.</p>",
-    "descriptionMarkdown": "Connaissez-vous le Gigantes Plaki ? Prêt en moins d’une heure, ce plat grec « one-pot » regorge de saveurs fraîches. Préparé avec des haricots dans une sauce tomate maison, nous vous en proposons une version garnie de feta et de persil pour une touche d’éclat ! Le fromage utilisé dans ce plat contient de la présure animale.",
     "difficulty": 2,
     "favoritesCount": 59,
     "headline": "servis avec des crudités & une pita",
-    "id": "644259f56647d3e1427a677b",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220325_R210_W19_FR_RFR29804142-1_MB_Main_white_pita_high-d23c999f.jpg",
-    "imagePath": "/image/HF220325_R210_W19_FR_RFR29804142-1_MB_Main_white_pita_high-d23c999f.jpg",
+    "name": "Haricots à la grecque façon gigantes plaki",
+    "prepTime": 30,
+    "totalTime": 15,
+    "image_id": "644259f56647d3e1427a677b",
+    "id": "fe297ea9-5848-4a6e-ab74-3584e5d142a4",
+    "nutrition": {
+        "kcal": 337,
+        "fat": 11,
+        "saturated_fat": 6.6,
+        "carbohydrate": 43.4,
+        "sugars": 16.1,
+        "protein": 14.1,
+        "sodium": 2.75
+    },
+    "tags": [
+        "<650 Kcal",
+        "Peu de cuisine",
+        "Végétarien",
+        "Worldwide",
+        "Moins de CO2",
+        "<30 min"
+    ],
+    "utensils": [
+        "Passoire",
+        "Marmite à soupe ou grande casserole avec couvercle",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf3baf4af6d531d50ad2",
-            "uuid": "180dba5b-4f37-51f9-80a9-efb9c27c5351",
-            "name": "Haricots blancs",
-            "type": "cannellini-beans",
-            "slug": "haricots-blancs",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "imagePath": "/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "7eb761d2-2217-46a8-9c3e-8757b406a84c",
+            "portion_id": "2cb2071e-e6f0-47fb-b8ed-b251be1af667",
+            "image_id": "6405bf3baf4af6d531d50ad2"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": null,
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "64073bbcdf6297bb5beef118",
-            "uuid": "3c5be447-5e3f-58a5-9805-3014c201b918",
-            "name": "Fromage à la grecque",
-            "type": "greek-white-cheese",
-            "slug": "fromage-a-la-grecque",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf2cb9d07cd5d38d79a9-9a4e7490.png",
-            "imagePath": "/ingredient/6405bf2cb9d07cd5d38d79a9-9a4e7490.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 70,
+            "unit": "g",
+            "ingredient_id": "025eb780-54d1-4c71-adfd-99a425cc40e9"
         },
         {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "id": "6405bf1cb9d07cd5d38d796e",
-            "uuid": "53a96a7f-0a28-58a9-bccd-f846bf404e1a",
-            "name": "Tomates cerises rouges",
-            "type": "cherry-tomatoes",
-            "slug": "tomates-cerises-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "imagePath": "/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "f0989f17-f1fc-47a1-9546-d84cd6bd6179"
         },
         {
-            "id": "6405bf95b0da1947779862f8",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "4e0da705-5d5e-4e70-a595-83e43cce7d2e",
+            "portion_id": "15d1cae6-b30a-4469-896b-e112d76a6119",
+            "image_id": "6405bf95b0da1947779862f8"
         },
         {
-            "id": "64946e4f2417a80cb660baa1",
-            "uuid": "d727dac9-25b4-5d73-9417-ad3f0ca215fd",
-            "name": "Pain pita",
-            "type": "pita-bread",
-            "slug": "pain-pita",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41af4af6d531d50aec-eed641b7.png",
-            "imagePath": "/ingredient/6405bf41af4af6d531d50aec-eed641b7.png",
-            "shipped": true,
-            "allergens": [
-                "60368d89cdbdf450236ad8cd"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "4673a8ad-13da-4b37-a8fa-e92175004746",
+            "portion_id": "9e93b584-8483-4beb-a73c-7b754efc3005",
+            "image_id": "64946e4f2417a80cb660baa1"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5122ea0a0603e5708dcc4",
-            "uuid": "d11348fc-54f2-4b29-888f-74c7e98d78bf",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-au-gout",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122ea0a0603e5708dcc4-008d8068.png",
-            "imagePath": "/ingredient/63e5122ea0a0603e5708dcc4-008d8068.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "selon le goût",
+            "ingredient_id": "b853fe97-35c9-45fe-bf24-818461489408",
+            "portion_id": "5c913e2b-bbac-4b45-9059-a8bf27c7fe13",
+            "image_id": "63e5122ea0a0603e5708dcc4"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/644259f56647d3e1427a677b",
-    "name": "Haricots à la grecque façon gigantes plaki",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 337,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1408,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 11,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 6.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 43.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 16.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 14.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.75,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 175,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 473,
-    "slug": "haricots-a-la-grecque-facon-gigantes-plaki",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nSi vous n’avez pas de grille-pain, préchauffez le four à 180°C (160°C chaleur tournante). \nPréparez le bouillon avec de l’eau chaude.\nÉgouttez ½ boîte d'haricots blancs par personne et rincez-les.\nHachez finement l’oignon et l’ail.\n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li><span>Si vous n’avez pas de grille-pain, préchauffez le four à 180°C (160°C chaleur tournante). </span></li>\n<li>Préparez le bouillon avec de l’eau chaude.</li>\n<li>Égouttez ½ boîte d&#39;haricots blancs par personne et rincez-les.</li>\n<li>Hachez finement l’oignon et l’ail.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li><span>Si vous n’avez pas de grille-pain, préchauffez le four à 180°C (160°C chaleur tournante). </span></li>\n<li>Préparez le bouillon avec de l’eau chaude.</li>\n<li>Égouttez ½ boîte d&#39;haricots blancs par personne et rincez-les.</li>\n<li>Hachez finement l’oignon et l’ail.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/644259f56647d3e1427a677b/step-9664a600.jpg",
-                    "path": "/644259f56647d3e1427a677b/step-9664a600.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites chauffer l'huile d’olive dans une marmite ou une grande casserole à feu moyen-vif. Faites-y dorer l'oignon et l'ail 3-5 min.\nIncorporez le concentré de tomates avec le sucre et faites cuire 1 min.\nAjoutez ensuite ½ cc d’origan séché par personne et le bouillon. Portez à ébullition et laissez réduire 10-15 min à feu moyen, ou jusqu'à ce que le mélange épaississe.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer l&#39;huile d’olive dans une marmite ou une grande casserole à feu moyen-vif. Faites-y dorer l&#39;oignon et l&#39;ail 3-5 min.</li>\n<li>Incorporez le concentré de tomates avec le sucre et faites cuire 1 min.</li>\n<li>Ajoutez ensuite ½ cc d’origan séché par personne et le bouillon. Portez à ébullition et laissez réduire 10-15 min à feu moyen, ou jusqu&#39;à ce que le mélange épaississe.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer l&#39;huile d’olive dans une marmite ou une grande casserole à feu moyen-vif. Faites-y dorer l&#39;oignon et l&#39;ail 3-5 min.</li>\n<li>Incorporez le concentré de tomates avec le sucre et faites cuire 1 min.</li>\n<li>Ajoutez ensuite ½ cc d’origan séché par personne et le bouillon. Portez à ébullition et laissez réduire 10-15 min à feu moyen, ou jusqu&#39;à ce que le mélange épaississe.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff537"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/644259f56647d3e1427a677b/step-50ea3710.jpg",
-                    "path": "/644259f56647d3e1427a677b/step-50ea3710.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nÉmiettez la feta. Lavez le concombre et coupez-le en fines demi-rondelles.\nCoupez les tomates cerises en deux.\nEffeuillez et ciselez le persil. \nDans un saladier, mélangez le concombre avec les tomates cerises et le reste d'origan séché. Assaisonnez d'huile d'olive, de sel et de poivre. Mélangez à nouveau.\n",
-            "instructionsHTML": "<ul>\n<li>Émiettez la feta. Lavez le concombre et coupez-le en fines demi-rondelles.</li>\n<li>Coupez les tomates cerises en deux.</li>\n<li>Effeuillez et ciselez le persil. </li>\n<li>Dans un saladier, mélangez le concombre avec les tomates cerises et le reste d&#39;origan séché. Assaisonnez d&#39;huile d&#39;olive, de sel et de poivre. Mélangez à nouveau.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Émiettez la feta. Lavez le concombre et coupez-le en fines demi-rondelles.</li>\n<li>Coupez les tomates cerises en deux.</li>\n<li>Effeuillez et ciselez le persil. </li>\n<li>Dans un saladier, mélangez le concombre avec les tomates cerises et le reste d&#39;origan séché. Assaisonnez d&#39;huile d&#39;olive, de sel et de poivre. Mélangez à nouveau.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/644259f56647d3e1427a677b/step-a58b9920.jpg",
-                    "path": "/644259f56647d3e1427a677b/step-a58b9920.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nLorsque la sauce a fini de réduire (voir CONSEIL), ajoutez-y les haricots blancs égouttés et mélangez. Salez et poivrez.\nCouvrez et conservez au chaud jusqu'au service.\n\nCONSEIL : Ajoutez un trait d'eau si la sauce réduit trop.",
-            "instructionsHTML": "<ul>\n<li>Lorsque la sauce a fini de réduire (voir CONSEIL), ajoutez-y les haricots blancs égouttés et mélangez. Salez et poivrez.</li>\n<li>Couvrez et conservez au chaud jusqu&#39;au service.</li>\n</ul>\n<p>CONSEIL : Ajoutez un trait d&#39;eau si la sauce réduit trop.</p>",
-            "instructionsMarkdown": "<ul>\n<li>Lorsque la sauce a fini de réduire (voir CONSEIL), ajoutez-y les haricots blancs égouttés et mélangez. Salez et poivrez.</li>\n<li>Couvrez et conservez au chaud jusqu&#39;au service.</li>\n</ul>\n<p>CONSEIL : Ajoutez un trait d&#39;eau si la sauce réduit trop.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/644259f56647d3e1427a677b/step-1d99a930.jpg",
-                    "path": "/644259f56647d3e1427a677b/step-1d99a930.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nEnfournez les pitas 4-6 min sur une grille ou toastez-les au grille-pain.\nCoupez-les en deux en faisant attention à ne pas vous brûler !\n",
-            "instructionsHTML": "<ul>\n<li>Enfournez les pitas 4-6 min sur une grille ou toastez-les au grille-pain.</li>\n<li>Coupez-les en deux en faisant attention à ne pas vous brûler !</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Enfournez les pitas 4-6 min sur une grille ou toastez-les au grille-pain.</li>\n<li>Coupez-les en deux en faisant attention à ne pas vous brûler !</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/644259f56647d3e1427a677b/step-180c2640.jpg",
-                    "path": "/644259f56647d3e1427a677b/step-180c2640.jpg",
-                    "caption": "Enfourner les pitas"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nServez les haricots en sauce et la salade dans les assiettes.\nSaupoudrez le tout de persil et de feta.\nPrésentez les pitas en accompagnement.\n",
-            "instructionsHTML": "<ul>\n<li>Servez les haricots en sauce et la salade dans les assiettes.</li>\n<li>Saupoudrez le tout de persil et de feta.</li>\n<li>Présentez les pitas en accompagnement.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Servez les haricots en sauce et la salade dans les assiettes.</li>\n<li>Saupoudrez le tout de persil et de feta.</li>\n<li>Présentez les pitas en accompagnement.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/644259f56647d3e1427a677b/step-96607b50.jpg",
-                    "path": "/644259f56647d3e1427a677b/step-96607b50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "62163c70143a35226e03d85e",
-            "type": "super-quick",
-            "name": "Peu de cuisine",
-            "slug": "peu-de-cuisine",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "63651421ff03d610fe0d2ae0",
-            "type": "worldwide",
-            "name": "Worldwide",
-            "slug": "worldwide",
-            "colorHandle": "text",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": false
-        },
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "RFR29804142-5",
-    "updatedAt": "2023-11-11T13:51:30+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff537",
-            "type": null,
-            "name": "Marmite à soupe ou grande casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "3e9e3afc-123f-445b-833e-c17ec00e0453",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/haricots-a-la-grecque-facon-gigantes-plaki-644259f56647d3e1427a677b",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 0.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.33,
-                    "unit": null
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bbcdf6297bb5beef118",
-                    "amount": 35,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64946e4f2417a80cb660baa1",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": 1,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.66,
-                    "unit": null
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bbcdf6297bb5beef118",
-                    "amount": 70,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64946e4f2417a80cb660baa1",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": 1,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": null
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bbcdf6297bb5beef118",
-                    "amount": 105,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64946e4f2417a80cb660baa1",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 350,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": 1,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.33,
-                    "unit": null
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bbcdf6297bb5beef118",
-                    "amount": 155,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64946e4f2417a80cb660baa1",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 450,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": 1,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 2.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.66,
-                    "unit": null
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bbcdf6297bb5beef118",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64946e4f2417a80cb660baa1",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": 2,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 2,
-                    "unit": null
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bbcdf6297bb5beef118",
-                    "amount": 210,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64946e4f2417a80cb660baa1",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": 2,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nSi vous n’avez pas de grille-pain, préchauffez le four à 180°C (160°C chaleur tournante). \nPréparez le bouillon avec de l’eau chaude.\nÉgouttez ½ boîte d'haricots blancs par personne et rincez-les.\nHachez finement l’oignon et l’ail.\n",
+        "\nFaites chauffer l'huile d’olive dans une marmite ou une grande casserole à feu moyen-vif. Faites-y dorer l'oignon et l'ail 3-5 min.\nIncorporez le concentré de tomates avec le sucre et faites cuire 1 min.\nAjoutez ensuite ½ cc d’origan séché par personne et le bouillon. Portez à ébullition et laissez réduire 10-15 min à feu moyen, ou jusqu'à ce que le mélange épaississe.\n",
+        "\nÉmiettez la feta. Lavez le concombre et coupez-le en fines demi-rondelles.\nCoupez les tomates cerises en deux.\nEffeuillez et ciselez le persil. \nDans un saladier, mélangez le concombre avec les tomates cerises et le reste d'origan séché. Assaisonnez d'huile d'olive, de sel et de poivre. Mélangez à nouveau.\n",
+        "\nLorsque la sauce a fini de réduire (voir CONSEIL), ajoutez-y les haricots blancs égouttés et mélangez. Salez et poivrez.\nCouvrez et conservez au chaud jusqu'au service.\n\nCONSEIL : Ajoutez un trait d'eau si la sauce réduit trop.",
+        "\nEnfournez les pitas 4-6 min sur une grille ou toastez-les au grille-pain.\nCoupez-les en deux en faisant attention à ne pas vous brûler !\n",
+        "\nServez les haricots en sauce et la salade dans les assiettes.\nSaupoudrez le tout de persil et de feta.\nPrésentez les pitas en accompagnement.\n"
     ]
 }

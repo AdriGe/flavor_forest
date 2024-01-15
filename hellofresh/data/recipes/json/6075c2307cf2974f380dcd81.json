@@ -1,815 +1,103 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QFR20161978-1",
-    "country": "FR",
-    "createdAt": "2021-04-13T16:09:21+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 1,
     "favoritesCount": 466,
     "headline": "avec une salade aux noix et tomates séchées",
-    "id": "6075c2307cf2974f380dcd81",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210325_R214_W19_FR_QFR20161978-1_MB_main_low-a4845277.jpg",
-    "imagePath": "/image/HF210325_R214_W19_FR_QFR20161978-1_MB_main_low-a4845277.jpg",
+    "name": "Ravioles du Dauphiné, crème ciboulette",
+    "prepTime": 15,
+    "totalTime": 10,
+    "image_id": "6075c2307cf2974f380dcd81",
+    "id": "92f02a76-9a12-40c7-844a-bd8126d455ee",
+    "nutrition": {
+        "kcal": 192,
+        "fat": 16.43,
+        "saturated_fat": 4.94,
+        "carbohydrate": 5.61,
+        "sugars": 4.89,
+        "protein": 4.28,
+        "sodium": 0.36
+    },
+    "tags": [
+        "Rapido",
+        "Végétarien",
+        "Famille",
+        "Calorie Smart"
+    ],
+    "utensils": [
+        "Passoire",
+        "Spatule",
+        "Casserole",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bfcdb0da1947779863b5",
-            "uuid": "3043dd51-a3be-4952-9fea-af2f10541fd9",
-            "name": "Ravioles du Dauphiné",
-            "type": "dauphine-ravioli",
-            "slug": "ravioles-du-dauphine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfcdb0da1947779863b5-2f7e5bba.png",
-            "imagePath": "/ingredient/6405bfcdb0da1947779863b5-2f7e5bba.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 240,
+            "unit": "g",
+            "ingredient_id": "d8656f73-eca8-4a70-aaad-925f152ebe1e"
         },
         {
-            "id": "6405bf3caf4af6d531d50ad3",
-            "uuid": "b443c50a-b3b3-510c-93ac-01d6610777a3",
-            "name": "Ciboulette",
-            "type": "chives",
-            "slug": "ciboulette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "imagePath": "/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "g",
+            "ingredient_id": "76818676-4b98-4dad-b5ca-7ab2268d1062"
         },
         {
-            "id": "6405bff3b0da194777986433",
-            "uuid": "2a486e38-5998-51dd-b175-8383b12a3ec3",
-            "name": "Tomate",
-            "type": "tomato",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b0da194777986433-af108835.png",
-            "imagePath": "/ingredient/6405bff3b0da194777986433-af108835.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "3a59005f-4649-49c7-9be4-1c2ca22d9f1a",
+            "portion_id": "0c1f557a-3079-42ee-b32c-f0c552fe9730",
+            "image_id": "6405bff3b0da194777986433"
         },
         {
-            "id": "6405bf42af4af6d531d50aed",
-            "uuid": "5886b747-f090-478f-a9a3-f5e05f29cec7",
-            "name": "Tomates semi-séchées",
-            "type": "semi-dried-tomatoes",
-            "slug": "tomates-semi-sechees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf42af4af6d531d50aed-ba544bfd.png",
-            "imagePath": "/ingredient/6405bf42af4af6d531d50aed-ba544bfd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 35,
+            "unit": "g",
+            "ingredient_id": "922959cb-a5c0-4539-b21f-9b77d32e3a7d"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bf43b0da1947779861da",
-            "uuid": "7bd888d7-a12a-4156-b0bb-bf8d7a4d806f",
-            "name": "Noix concassées",
-            "type": "walnuts-pieces",
-            "slug": "noix-concassees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "imagePath": "/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "a73fa724-5d5b-4c90-99e5-5d9b95e9bd88"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.75,
+            "unit": "pot(s)",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01",
+            "portion_id": "2bd20717-2bbe-4705-8c80-f36486974785",
+            "image_id": "64073ba5683721c9a32b0730"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5121abc1d64f7b96e2703",
-            "uuid": "992bdbaa-769c-4a52-b731-ce297a918575",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cc",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "imagePath": "/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "10cd97e4-3773-42b6-9da4-8b6260f1fc71",
+            "portion_id": "0c44c896-35b6-40ce-8afc-1d171821add9",
+            "image_id": "63e5121abc1d64f7b96e2703"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6075c2307cf2974f380dcd81",
-    "name": "Ravioles du Dauphiné, crème ciboulette",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 192,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 803,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 16.43,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 4.94,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 5.61,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 4.89,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 4.28,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.36,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT15M",
-    "promotion": null,
-    "ratingsCount": 918,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 158,
-    "slug": "ravioles-du-dauphine-creme-ciboulette",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Portez à ébullition une casserole d'eau salée, puis baissez le feu sous la casserole pour que l’eau soit frémissante (avec des petites bulles). Détachez les plaques de ravioles de leur papier et plongez-les entièrement dans l’eau. L’eau ne doit pas bouillir. Remuez doucement avec une spatule pour les séparer. Faites cuire les ravioles 30-45 secondes seulement ou jusqu'à ce qu'elles remontent à la surface. Egouttez-les délicatement.",
-            "instructionsHTML": "<ul><li><span>Portez à ébullition une casserole d&#39;eau salée, puis b</span>aissez le feu sous la casserole pour que l’eau soit frémissante (avec des petites bulles). </li><li>Détachez les plaques de ravioles de leur papier et plongez-les entièrement dans l’eau. L’eau ne doit pas bouillir. Remuez doucement avec une spatule pour les séparer. </li><li>Faites cuire les ravioles 30-45 secondes seulement ou jusqu&#39;à ce qu&#39;elles remontent à la surface. Egouttez-les délicatement.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Portez à ébullition une casserole d&#39;eau salée, puis b</span>aissez le feu sous la casserole pour que l’eau soit frémissante (avec des petites bulles). </li><li>Détachez les plaques de ravioles de leur papier et plongez-les entièrement dans l’eau. L’eau ne doit pas bouillir. Remuez doucement avec une spatule pour les séparer. </li><li>Faites cuire les ravioles 30-45 secondes seulement ou jusqu&#39;à ce qu&#39;elles remontent à la surface. Egouttez-les délicatement.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382",
-                "57e2674fb7e8697d4b305396",
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6075c2307cf2974f380dcd81/step-998acd00.jpg",
-                    "path": "/6075c2307cf2974f380dcd81/step-998acd00.jpg",
-                    "caption": "Cuire les ravioles"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Ciselez la ciboulette. Coupez la tomate en dés.Coupez les tomates semi-séchées en petits dés et réservez leur huile pour la vinaigrette.Dans un saladier, mélangez, par personne : ½ cc de moutarde, ½ cc de vinaigre de vin blanc et ½ cs d'huile des tomates. Salez et poivrez.Ajoutez les jeunes pousses, les noix concassées et les tomates puis mélangez bien.CONSEIL: S'il y a trop peu d'huile avec les tomates semi-séchées, ajoutez de l'huile d'olive ou de noix.",
-            "instructionsHTML": "<ul><li>Ciselez la ciboulette. Coupez la tomate en dés.</li><li><span>Coupez les tomates semi-séchées en petits dés et réservez leur huile pour la vinaigrette.</span></li><li><span>Dans un saladier, mélangez, par personne : ½ cc de moutarde, ½ cc de vinaigre de vin blanc et ½ cs d&#39;huile des tomates. Salez et poivrez.</span></li><li><span>Ajoutez les jeunes pousses, les noix concassées et les tomates puis mélangez bien.</span></li></ul><p>CONSEIL: S&#39;il y a trop peu d&#39;huile avec les tomates semi-séchées, ajoutez de l&#39;huile d&#39;olive ou de noix.</p>",
-            "instructionsMarkdown": "<ul><li>Ciselez la ciboulette. Coupez la tomate en dés.</li><li><span>Coupez les tomates semi-séchées en petits dés et réservez leur huile pour la vinaigrette.</span></li><li><span>Dans un saladier, mélangez, par personne : ½ cc de moutarde, ½ cc de vinaigre de vin blanc et ½ cs d&#39;huile des tomates. Salez et poivrez.</span></li><li><span>Ajoutez les jeunes pousses, les noix concassées et les tomates puis mélangez bien.</span></li></ul><p>CONSEIL: S&#39;il y a trop peu d&#39;huile avec les tomates semi-séchées, ajoutez de l&#39;huile d&#39;olive ou de noix.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6075c2307cf2974f380dcd81/step-e935e910.jpg",
-                    "path": "/6075c2307cf2974f380dcd81/step-e935e910.jpg",
-                    "caption": "Préparer la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Une fois les ravioles cuites, faites chauffer la même casserole à feu moyen-vif.Ajoutez-y la crème fraîche, la moitié de la ciboulette, les tomates semi-séchées et délicatement les ravioles. Salez, poivrez et faites réchauffer 1-2 minutes.",
-            "instructionsHTML": "<ul><li>Une fois les ravioles cuites, faites chauffer la même casserole à feu moyen-vif.</li><li>Ajoutez-y la crème fraîche, la moitié de la ciboulette, les tomates semi-séchées et <span>délicatement </span>les ravioles. Salez, poivrez et faites réchauffer 1-2 minutes.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Une fois les ravioles cuites, faites chauffer la même casserole à feu moyen-vif.</li><li>Ajoutez-y la crème fraîche, la moitié de la ciboulette, les tomates semi-séchées et <span>délicatement </span>les ravioles. Salez, poivrez et faites réchauffer 1-2 minutes.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6075c2307cf2974f380dcd81/step-3237ea20.jpg",
-                    "path": "/6075c2307cf2974f380dcd81/step-3237ea20.jpg",
-                    "caption": "Faire la sauce des pâtes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Disposez la salade dans les assiettes. Servez les ravioles à la crème par-dessus et saupoudrez avec la ciboulette restante.",
-            "instructionsHTML": "<ul><li>Disposez la salade dans les assiettes. Servez les ravioles à la crème par-dessus et saupoudrez avec la ciboulette restante.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Disposez la salade dans les assiettes. Servez les ravioles à la crème par-dessus et saupoudrez avec la ciboulette restante.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6075c2307cf2974f380dcd81/step-62f9ac30.jpg",
-                    "path": "/6075c2307cf2974f380dcd81/step-62f9ac30.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b30531a",
-            "type": "calorie-smart",
-            "name": "Calorie Smart",
-            "slug": "calorie-smart",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT10M",
-    "uniqueRecipeCode": "QFR20161978-1",
-    "updatedAt": "2023-12-21T21:39:47+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305396",
-            "type": "spatula",
-            "name": "Spatule"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "bd1e7749-58aa-4c52-90b1-d4501706f2c7",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/ravioles-du-dauphine-creme-ciboulette-6075c2307cf2974f380dcd81",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb0da1947779863b5",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 1.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb0da1947779863b5",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 35,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.75,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb0da1947779863b5",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 3.75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 45,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb0da1947779863b5",
-                    "amount": 480,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb0da1947779863b5",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 6.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1.75,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb0da1947779863b5",
-                    "amount": 720,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Portez à ébullition une casserole d'eau salée, puis baissez le feu sous la casserole pour que l’eau soit frémissante (avec des petites bulles). Détachez les plaques de ravioles de leur papier et plongez-les entièrement dans l’eau. L’eau ne doit pas bouillir. Remuez doucement avec une spatule pour les séparer. Faites cuire les ravioles 30-45 secondes seulement ou jusqu'à ce qu'elles remontent à la surface. Egouttez-les délicatement.",
+        "Ciselez la ciboulette. Coupez la tomate en dés.Coupez les tomates semi-séchées en petits dés et réservez leur huile pour la vinaigrette.Dans un saladier, mélangez, par personne : ½ cc de moutarde, ½ cc de vinaigre de vin blanc et ½ cs d'huile des tomates. Salez et poivrez.Ajoutez les jeunes pousses, les noix concassées et les tomates puis mélangez bien.CONSEIL: S'il y a trop peu d'huile avec les tomates semi-séchées, ajoutez de l'huile d'olive ou de noix.",
+        "Une fois les ravioles cuites, faites chauffer la même casserole à feu moyen-vif.Ajoutez-y la crème fraîche, la moitié de la ciboulette, les tomates semi-séchées et délicatement les ravioles. Salez, poivrez et faites réchauffer 1-2 minutes.",
+        "Disposez la salade dans les assiettes. Servez les ravioles à la crème par-dessus et saupoudrez avec la ciboulette restante."
     ]
 }

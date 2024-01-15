@@ -1,1075 +1,130 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b305303",
-            "name": "Œuf",
-            "type": "traces-of-egg",
-            "slug": "traces-of-oeuf",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5de91d27f4c17e42c17aef94",
-            "name": "Moutarde",
-            "type": "traces-of-mustard",
-            "slug": "traces-of-moutarde",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804179-1",
-    "country": "FR",
-    "createdAt": "2022-08-23T22:41:42+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bb",
-            "type": "Moroccan",
-            "name": "Moroccan",
-            "slug": "moroccan",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bb-07eccc51.jpg"
-        }
+        "Moroccan"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 355,
     "headline": "avec du boulgour & des amandes",
-    "id": "630557a5c0b9dd1630096bc1",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220803_R213_W38_FR_RFR29804179-1_KB_Main_high-c0e02f83.jpg",
-    "imagePath": "/image/HF220803_R213_W38_FR_RFR29804179-1_KB_Main_high-c0e02f83.jpg",
+    "name": "Bœuf sucré-salé à la marocaine",
+    "prepTime": 30,
+    "totalTime": 20,
+    "image_id": "630557a5c0b9dd1630096bc1",
+    "id": "519ab203-f1a0-410e-a771-d0545e2162d2",
+    "nutrition": {
+        "kcal": 254,
+        "fat": 12.85,
+        "saturated_fat": 2.48,
+        "carbohydrate": 11.24,
+        "sugars": 7.69,
+        "protein": 22.89,
+        "sodium": 2.62
+    },
+    "tags": [
+        "Épicé",
+        "<650 Kcal"
+    ],
+    "utensils": [
+        "Casserole",
+        "Sauteuse avec couvercle",
+        "Spatule"
+    ],
     "ingredients": [
         {
-            "id": "6405bfefb0da194777986422",
-            "uuid": "954b168a-3447-5f63-b0c8-5d7e3b284aae",
-            "name": "Amandes",
-            "type": "almonds",
-            "slug": "amandes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb0da194777986422-508342a5.png",
-            "imagePath": "/ingredient/6405bfefb0da194777986422-508342a5.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "f4f7ef67-753f-4b05-a99d-35455e338081"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff3b0da194777986433",
-            "uuid": "2a486e38-5998-51dd-b175-8383b12a3ec3",
-            "name": "Tomate",
-            "type": "tomato",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b0da194777986433-af108835.png",
-            "imagePath": "/ingredient/6405bff3b0da194777986433-af108835.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "3a59005f-4649-49c7-9be4-1c2ca22d9f1a",
+            "portion_id": "0c1f557a-3079-42ee-b32c-f0c552fe9730",
+            "image_id": "6405bff3b0da194777986433"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d"
         },
         {
-            "id": "6405c01bb0da1947779864c2",
-            "uuid": "b3347b9d-a516-5604-b609-7d76c9df17ad",
-            "name": "Boulgour",
-            "type": "bulgur",
-            "slug": "boulgour",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c01bb0da1947779864c2-33aaa842.png",
-            "imagePath": "/ingredient/6405c01bb0da1947779864c2-33aaa842.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 130,
+            "unit": "g",
+            "ingredient_id": "731ef3d1-bec7-46a5-905b-e61cb4e56d5d"
         },
         {
-            "id": "64073bdc683721c9a32b0779",
-            "uuid": "83421b3b-176d-539b-8dea-764364ada922",
-            "name": "Émincés de bœuf",
-            "type": "beef-strips",
-            "slug": "eminces-de-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf48b9d07cd5d38d7a16-e63425ce.png",
-            "imagePath": "/ingredient/6405bf48b9d07cd5d38d7a16-e63425ce.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b305303",
-                "5de91d27f4c17e42c17aef94",
-                "5de91db7c7d1a818111194b2",
-                "62cc417a2f15d58ec3559423",
-                "5acf97b7ae08b54d88061162",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "40c4e159-c414-4160-b05d-c4207c308751"
         },
         {
-            "id": "6405bff8b9d07cd5d38d7c7e",
-            "uuid": "f1f65b3c-9a39-4562-8322-0c2c44d048c0",
-            "name": "Raisins secs Sultanines",
-            "type": "sultana-raisins",
-            "slug": "raisins-secs-sultanines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b9d07cd5d38d7c7e-5436e64d.png",
-            "imagePath": "/ingredient/6405bff8b9d07cd5d38d7c7e-5436e64d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "be7984bc-a722-4ec9-9d98-7f5dc71eafcb"
         },
         {
-            "id": "6405c017b0da1947779864a9",
-            "uuid": "30ed0e56-b62d-4efe-bf0b-d8fb0c16a208",
-            "name": "Mélange d'épices du Moyen-Orient",
-            "type": "middle-eastern-spice-blend",
-            "slug": "melange-depices-du-moyen-orient",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c017b0da1947779864a9-4af21308.png",
-            "imagePath": "/ingredient/6405c017b0da1947779864a9-4af21308.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "11c2569b-aa6c-4c71-867a-937e86576666",
+            "portion_id": "7168f3dd-431d-4696-906f-7821359a93dc",
+            "image_id": "6405c017b0da1947779864a9"
         },
         {
-            "id": "6405bf8bb9d07cd5d38d7b0d",
-            "uuid": "7f47267d-fc48-5b48-bab5-e0930fdfd296",
-            "name": "Curcuma en poudre",
-            "type": "ground-turmeric",
-            "slug": "curcuma-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8bb9d07cd5d38d7b0d-dd3d0a4d.png",
-            "imagePath": "/ingredient/6405bf8bb9d07cd5d38d7b0d-dd3d0a4d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "5caec1f2-23fc-4533-b191-fde818382d81",
+            "portion_id": "2904547c-9601-4eb4-8b53-cba06c778219",
+            "image_id": "6405bf8bb9d07cd5d38d7b0d"
         },
         {
-            "id": "63e5122081b4b295e66f0256",
-            "uuid": "0ee900c4-2e9a-437c-84b4-76826b234637",
-            "name": "Cube de bouillon de légumes",
-            "type": "cube-de-bouillon-de-legumes-pc",
-            "slug": "cube-de-bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "imagePath": "/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "3aafe58c-08ac-4852-a295-c8d535703ed9",
+            "portion_id": "b0e9b65b-a307-4d4a-ba3f-9cbbfa505df6",
+            "image_id": "63e5122081b4b295e66f0256"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122fbc1d64f7b96e270d",
-            "uuid": "d7163bce-490a-4de3-949e-e8c7ffde4c40",
-            "name": "Miel",
-            "type": "miel-cc",
-            "slug": "miel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122fbc1d64f7b96e270d-90fca0fe.png",
-            "imagePath": "/ingredient/63e5122fbc1d64f7b96e270d-90fca0fe.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "9c141b09-8579-40b2-8721-eaa348f7cbb5",
+            "portion_id": "99a0ede9-f22a-49e5-ba41-3fefe8088132",
+            "image_id": "63e5122fbc1d64f7b96e270d"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/630557a5c0b9dd1630096bc1",
-    "name": "Bœuf sucré-salé à la marocaine",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 254,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1063,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 12.85,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 2.48,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 11.24,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 7.69,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 22.89,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.62,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 951,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 271,
-    "slug": "boeuf-sucre-sale-a-la-marocaine",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d’eau à ébullition et émiettez le cube de bouillon par-dessus.Concassez grossièrement les amandes.Ciselez l'ail et l'oignon.Coupez les tomates en dés.Effeuillez la coriandre.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span>P</span>ortez une casserole d’eau à ébullition et émiettez le cube de bouillon par-dessus.</li><li>Concassez grossièrement les amandes.</li><li>Ciselez l&#39;ail et l&#39;oignon.</li><li>Coupez les tomates en dés.</li><li>Effeuillez la coriandre.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span>P</span>ortez une casserole d’eau à ébullition et émiettez le cube de bouillon par-dessus.</li><li>Concassez grossièrement les amandes.</li><li>Ciselez l&#39;ail et l&#39;oignon.</li><li>Coupez les tomates en dés.</li><li>Effeuillez la coriandre.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/630557a5c0b9dd1630096bc1/step-55dbba00.jpg",
-                    "path": "/630557a5c0b9dd1630096bc1/step-55dbba00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Ajoutez le boulgour dans la casserole et faites-le cuire 15-17 min. Remuez régulièrement, puis égrainez-le avec une fourchette et réservez-le.CONSEIL: Vous pouvez ajouter une noisette de beurre dans le boulgour, mais la recette sera alors plus calorique.",
-            "instructionsHTML": "<ul><li><span>Ajoutez le boulgour dans la casserole et faites-le cuire 15-17 min. </span></li><li><span>Remuez régulièrement, puis égrainez-le avec une fourchette et réservez-le.</span></li></ul><p>CONSEIL: Vous pouvez ajouter une noisette de beurre dans le boulgour, mais la recette sera alors plus calorique.</p>",
-            "instructionsMarkdown": "<ul><li><span>Ajoutez le boulgour dans la casserole et faites-le cuire 15-17 min. </span></li><li><span>Remuez régulièrement, puis égrainez-le avec une fourchette et réservez-le.</span></li></ul><p>CONSEIL: Vous pouvez ajouter une noisette de beurre dans le boulgour, mais la recette sera alors plus calorique.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/630557a5c0b9dd1630096bc1/step-f6295110.jpg",
-                    "path": "/630557a5c0b9dd1630096bc1/step-f6295110.jpg",
-                    "caption": "Cuire le boulgour"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites chauffer un filet d'huile d'olive dans une sauteuse à feu vif. Une fois chaude, ajoutez-y le bœuf, salez et poivrez, et faites-le revenir 2-3 min ou jusqu'à ce qu'il soit légèrement doré mais encore tendre.Réservez-le hors de la sauteuse à couvert dans une assiette.",
-            "instructionsHTML": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une sauteuse à feu vif. Une fois chaude, ajoutez-y le <span>bœuf, salez et poivrez, et faites-le revenir 2-3 min ou jusqu&#39;à ce qu&#39;il soit légèrement doré mais encore tendre.</span></li><li><span>Réservez-le hors de la sauteuse à couvert dans une assiette.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une sauteuse à feu vif. Une fois chaude, ajoutez-y le <span>bœuf, salez et poivrez, et faites-le revenir 2-3 min ou jusqu&#39;à ce qu&#39;il soit légèrement doré mais encore tendre.</span></li><li><span>Réservez-le hors de la sauteuse à couvert dans une assiette.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/630557a5c0b9dd1630096bc1/step-54674620.jpg",
-                    "path": "/630557a5c0b9dd1630096bc1/step-54674620.jpg",
-                    "caption": "Saisir la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Remettez la sauteuse à feu moyen-vif et ajoutez-y l'oignon et l'ail. Faites-les revenir 2-3 min. Ajoutez les tomates, les raisins secs et, par personne : 1 cc de mélange d'épices du Moyen-Orient (ça pique ! Dosez-les selon votre goût), 1 cc de curcuma, ½ cc de miel et 100 ml d'eau. Grattez bien les sucs de cuisson avec une spatule en bois.Portez à ébullition, couvrez et laisser mijoter 15 min à feu doux ou jusqu'à ce que la sauce ait bien épaissi. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Remettez la sauteuse à feu moyen-vif et ajoutez-y l&#39;oignon et l&#39;ail. Faites-les revenir 2-3 min. </li><li>Ajoutez les tomates, les raisins secs et, par personne : 1 cc de mélange d&#39;épices du Moyen-Orient (ça pique ! Dosez-les selon votre goût), 1 cc de curcuma, <span>½</span> cc de miel et 100 ml d&#39;eau. Grattez bien les sucs de cuisson avec une spatule en bois.</li><li>Portez à ébullition, couvrez et laisser mijoter 15 min à feu doux ou jusqu&#39;à ce que la sauce ait bien épaissi. Salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Remettez la sauteuse à feu moyen-vif et ajoutez-y l&#39;oignon et l&#39;ail. Faites-les revenir 2-3 min. </li><li>Ajoutez les tomates, les raisins secs et, par personne : 1 cc de mélange d&#39;épices du Moyen-Orient (ça pique ! Dosez-les selon votre goût), 1 cc de curcuma, <span>½</span> cc de miel et 100 ml d&#39;eau. Grattez bien les sucs de cuisson avec une spatule en bois.</li><li>Portez à ébullition, couvrez et laisser mijoter 15 min à feu doux ou jusqu&#39;à ce que la sauce ait bien épaissi. Salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305396"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/630557a5c0b9dd1630096bc1/step-6a75bb30.jpg",
-                    "path": "/630557a5c0b9dd1630096bc1/step-6a75bb30.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Ajoutez la viande dans la sauteuse.Mélangez le tout pendant 1 min. ",
-            "instructionsHTML": "<ul><li>Ajoutez la viande dans la sauteuse.</li><li>Mélangez le tout pendant 1 min. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Ajoutez la viande dans la sauteuse.</li><li>Mélangez le tout pendant 1 min. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/630557a5c0b9dd1630096bc1/step-c7972b40.jpg",
-                    "path": "/630557a5c0b9dd1630096bc1/step-c7972b40.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le boulgour dans des assiettes creuses. Ajoutez la viande et sa sauce par-dessus. Parsemez d'amandes concassées et de feuilles de coriandre.",
-            "instructionsHTML": "<ul><li>Servez le boulgour dans des assiettes creuses. </li><li>Ajoutez la viande et sa sauce par-dessus. </li><li>Parsemez d&#39;amandes concassées et de feuilles de coriandre.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez le boulgour dans des assiettes creuses. </li><li>Ajoutez la viande et sa sauce par-dessus. </li><li>Parsemez d&#39;amandes concassées et de feuilles de coriandre.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/630557a5c0b9dd1630096bc1/step-8692c950.jpg",
-                    "path": "/630557a5c0b9dd1630096bc1/step-8692c950.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR29804179-1",
-    "updatedAt": "2023-12-22T16:25:00+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305396",
-            "type": "spatula",
-            "name": "Spatule"
-        }
-    ],
-    "uuid": "74c7e455-425d-48bf-bbd6-9820f37ffafd",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/boeuf-sucre-sale-a-la-marocaine-630557a5c0b9dd1630096bc1",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bdc683721c9a32b0779",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b9d07cd5d38d7c7e",
-                    "amount": 9.9,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0d",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 130,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bdc683721c9a32b0779",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b9d07cd5d38d7c7e",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0d",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 190,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bdc683721c9a32b0779",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b9d07cd5d38d7c7e",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0d",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 255,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bdc683721c9a32b0779",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b9d07cd5d38d7c7e",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0d",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 320,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bdc683721c9a32b0779",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b9d07cd5d38d7c7e",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0d",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 380,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bdc683721c9a32b0779",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b9d07cd5d38d7c7e",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0d",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d’eau à ébullition et émiettez le cube de bouillon par-dessus.Concassez grossièrement les amandes.Ciselez l'ail et l'oignon.Coupez les tomates en dés.Effeuillez la coriandre.",
+        "Ajoutez le boulgour dans la casserole et faites-le cuire 15-17 min. Remuez régulièrement, puis égrainez-le avec une fourchette et réservez-le.CONSEIL: Vous pouvez ajouter une noisette de beurre dans le boulgour, mais la recette sera alors plus calorique.",
+        "Faites chauffer un filet d'huile d'olive dans une sauteuse à feu vif. Une fois chaude, ajoutez-y le bœuf, salez et poivrez, et faites-le revenir 2-3 min ou jusqu'à ce qu'il soit légèrement doré mais encore tendre.Réservez-le hors de la sauteuse à couvert dans une assiette.",
+        "Remettez la sauteuse à feu moyen-vif et ajoutez-y l'oignon et l'ail. Faites-les revenir 2-3 min. Ajoutez les tomates, les raisins secs et, par personne : 1 cc de mélange d'épices du Moyen-Orient (ça pique ! Dosez-les selon votre goût), 1 cc de curcuma, ½ cc de miel et 100 ml d'eau. Grattez bien les sucs de cuisson avec une spatule en bois.Portez à ébullition, couvrez et laisser mijoter 15 min à feu doux ou jusqu'à ce que la sauce ait bien épaissi. Salez et poivrez.",
+        "Ajoutez la viande dans la sauteuse.Mélangez le tout pendant 1 min. ",
+        "Servez le boulgour dans des assiettes creuses. Ajoutez la viande et sa sauce par-dessus. Parsemez d'amandes concassées et de feuilles de coriandre."
     ]
 }

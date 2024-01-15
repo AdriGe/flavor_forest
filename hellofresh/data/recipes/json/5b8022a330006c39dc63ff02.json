@@ -1,1087 +1,138 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "620bbd7171da8e2c740d97f5",
-            "name": "Gluten/Gluten",
-            "type": "traces-of-gluten-non-is",
-            "slug": "gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 2.2,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": "https://hellofresh.com/recipecards/card/tomaat-paprikasoep-met-gepocheerde-kipfilet-5b8022a330006c39dc63ff02-f4dfeeb2.pdf",
-    "category": null,
-    "clonedFrom": "5b7d7c4c30006c1e3c3ce1f2",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2018-08-24T15:22:11+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bc",
-            "type": "traditional",
-            "name": "Traditional",
-            "slug": "traditional",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bc-19c014e3.jpg"
-        }
+        "Traditional"
     ],
     "description": "Pratique et rapide, la préparation d'une soupe nécessite peu d'ustensiles. Aviez-vous déjà pensé à y ajouter de la viande ? Pas de panique, cela ne demande pas plus de travail car le filet de poulet est poché dans le bouillon. En un tour de main, vous obtenez une soupe complète pleine de vitamines et de protéines et sans trop de matières grasses.",
-    "descriptionHTML": "<p>Pratique et rapide, la préparation d'une soupe nécessite peu d'ustensiles. Aviez-vous déjà pensé à y ajouter de la viande ? Pas de panique, cela ne demande pas plus de travail car le filet de poulet est poché dans le bouillon. En un tour de main, vous obtenez une soupe complète pleine de vitamines et de protéines et sans trop de matières grasses.</p>",
-    "descriptionMarkdown": "Pratique et rapide, la préparation d'une soupe nécessite peu d'ustensiles. Aviez-vous déjà pensé à y ajouter de la viande ? Pas de panique, cela ne demande pas plus de travail car le filet de poulet est poché dans le bouillon. En un tour de main, vous obtenez une soupe complète pleine de vitamines et de protéines et sans trop de matières grasses.",
     "difficulty": 2,
     "favoritesCount": 24,
     "headline": "Avec du persil et un pain rosette",
-    "id": "5b8022a330006c39dc63ff02",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5b8022a330006c39dc63ff02-c769c3d3.jpg",
-    "imagePath": "/image/5b8022a330006c39dc63ff02-c769c3d3.jpg",
+    "name": "Soupe de tomate et de poivron au filet de poulet poché",
+    "prepTime": 30,
+    "totalTime": null,
+    "image_id": "5b8022a330006c39dc63ff02",
+    "id": "a72769e4-6190-4c7d-ae02-8cae916cdeb8",
+    "nutrition": {
+        "kcal": 583,
+        "fat": 19,
+        "saturated_fat": 3.9,
+        "carbohydrate": 66,
+        "sugars": 17.1,
+        "protein": 34,
+        "sodium": 3.2
+    },
+    "tags": [
+        "À faire rapidement"
+    ],
+    "utensils": [
+        "Planche à découper",
+        "Couteau à fruits",
+        "Four",
+        "Casserole avec couvercle",
+        "Mixeur plongeant",
+        "Bol"
+    ],
     "ingredients": [
         {
-            "id": "5f4914a8feac474fa568779f",
-            "uuid": "ff9a5555-5f0f-599f-b211-009163f505be",
-            "name": "Petit pain aux raisins",
-            "type": "petits-pains-aux-raisins",
-            "slug": "petits-pains-aux-raisins",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5f4914a8feac474fa568779f-5e4184fe.png",
-            "imagePath": "/ingredient/5f4914a8feac474fa568779f-5e4184fe.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f5"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb54",
-                "uuid": "3d0e6d2e-79f6-5aa1-ae2c-52c38a401193",
-                "name": "pâte à pain",
-                "slug": "pâte-à-pain",
-                "type": "bread",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "a371f774-909a-4252-bf62-9e504b6eca42",
+            "portion_id": "746ece7c-9513-48c7-858c-e742821578f2",
+            "image_id": "5f4914a8feac474fa568779f"
         },
         {
-            "id": "5af2c161ae08b51b804e58f1",
-            "uuid": "ab5e57e3-ec82-5e47-b509-2e47ac2c6db9",
-            "name": "Poivron rouge",
-            "type": "qdoc-phf-10-16054-4",
-            "slug": "poivron-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2c161ae08b51b804e58f1-bbc507de.png",
-            "imagePath": "/ingredient/5af2c161ae08b51b804e58f1-bbc507de.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc06",
-                "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
-                "name": "poivre",
-                "slug": "poivre",
-                "type": "pepper-vegetable",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "ce08a49c-a040-449b-aa04-82b1ac667e7e",
+            "portion_id": "4424e41d-48b1-446a-bbd9-35c7dd9977d2",
+            "image_id": "5af2c161ae08b51b804e58f1"
         },
         {
-            "id": "5af2bdf7ae08b5194415a11a",
-            "uuid": "df2c2c33-f1aa-5484-a788-60713fa48e42",
-            "name": "Oignon rouge",
-            "type": "QDOC-PHF-10-16055-4",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5b913f0c30006c33133c3442-a7ec92d5.png",
-            "imagePath": "/ingredient/5b913f0c30006c33133c3442-a7ec92d5.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "1a4cac92-06cf-4aad-a5bb-7235c07fbc17",
+            "portion_id": "b53aa60d-fa63-4972-8111-b6de90e12a9b",
+            "image_id": "5af2bdf7ae08b5194415a11a"
         },
         {
-            "id": "5c8bcd9de3f33973480ec962",
-            "uuid": "2a70261c-ee65-514b-9142-7e4e6d9035d9",
-            "name": "Gousse d'ail",
-            "type": "qdoc-phf-10-16851-4",
-            "slug": "ail-gousse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "imagePath": "/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fba4",
-                "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
-                "name": "ail",
-                "slug": "ail",
-                "type": "garlic",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "7b4e9ae1-f33a-4935-9557-720bcdd0ac89",
+            "portion_id": "74d6ed1b-2dda-4433-8a59-436a479a028d",
+            "image_id": "5c8bcd9de3f33973480ec962"
         },
         {
-            "id": "5af2be69ae08b5194415a2c5",
-            "uuid": "6cd84ddb-c9c4-5025-a8f4-f48aa5499e34",
-            "name": "Poireau",
-            "type": "remps-phf-10-16053-4",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "imagePath": "/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbc4",
-                "uuid": "9689a917-d30a-5486-bbdf-01ce173a3ce2",
-                "name": "poireau",
-                "slug": "poireau",
-                "type": "leek",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "121a4815-934f-499d-9780-2e3af5162cfc",
+            "portion_id": "78267979-3647-4a83-9ce2-75a1a93925d3",
+            "image_id": "5af2be69ae08b5194415a2c5"
         },
         {
-            "id": "5af2be50ae08b5194415a267",
-            "uuid": "0703e2e3-6c52-5210-b3d2-85df634f1445",
-            "name": "Tomate",
-            "type": "QDOC-PHF-10-16081-4",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a55334dab71626c8b4570.png",
-            "imagePath": "/image/554a55334dab71626c8b4570.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "5cdd452e-588c-406c-a378-93ca85346178",
+            "portion_id": "07f947f6-61be-46ad-b8ff-2023624d048c",
+            "image_id": "5af2be50ae08b5194415a267"
         },
         {
-            "id": "5c8bcdafe3f3397358648c97",
-            "uuid": "5a016e99-a383-5d66-88f9-0ca9fea845b3",
-            "name": "Paprika fumé en poudre",
-            "type": "qdoc-spi-10-45402-4",
-            "slug": "poudre-de-paprika-fume",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcdafe3f3397358648c97-2ac0a518.png",
-            "imagePath": "/ingredient/5c8bcdafe3f3397358648c97-2ac0a518.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbb9",
-                "uuid": "65030c49-dc01-5785-ae9e-3a92f8548009",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "indian-spices",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "cc",
+            "ingredient_id": "c81d4c0d-820f-471d-a370-6a4f54fcfb69",
+            "portion_id": "9797cf2a-52c0-4bf2-86bc-1ba6d607438b",
+            "image_id": "5c8bcdafe3f3397358648c97"
         },
         {
-            "id": "5e9063c95ecacd749e661d51",
-            "uuid": "89dc42db-e88e-5051-af3d-7271cd711f91",
-            "name": "Filet de poulet",
-            "type": "qdoc-ptn-10-10109-4",
-            "slug": "filet-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5e9063c95ecacd749e661d51-f3c13014.png",
-            "imagePath": "/ingredient/5e9063c95ecacd749e661d51-f3c13014.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "620bbd7171da8e2c740d97f5",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb6b",
-                "uuid": "4223c63e-b2be-528b-a00a-2079bca36885",
-                "name": "poulet",
-                "slug": "poulet",
-                "type": "chicken",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "g",
+            "ingredient_id": "ef324d5e-d3a5-4e86-81f7-7bfbf00dcc55"
         },
         {
-            "id": "5af2be6dae08b5194415a2d4",
-            "uuid": "bc2aa080-4c4c-51d5-a5d6-abfde98df2ad",
-            "name": "Persil plat",
-            "type": "remps-phf-11-16129-4",
-            "slug": "persil-plat-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/56019908f8b25e417b8b4567.png",
-            "imagePath": "/image/56019908f8b25e417b8b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbf9",
-                "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
-                "name": "persil",
-                "slug": "persil",
-                "type": "parsley",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "botte(s)",
+            "ingredient_id": "0bbf4377-a6cf-448e-a5e9-78b238da7d55",
+            "portion_id": "89d19126-ab20-47b5-a35b-0dbe34363d40",
+            "image_id": "5af2be6dae08b5194415a2d4"
         },
         {
-            "id": "5e4cf7fc389bc238c3507fce",
-            "uuid": "9b82540d-f0a7-5637-9125-53e2c7ff4c10",
-            "name": "Cube de bouillon de volaille",
-            "type": "zt",
-            "slug": "cube-de-bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5e4cf7fc389bc238c3507fce-e8af262d.png",
-            "imagePath": "/ingredient/5e4cf7fc389bc238c3507fce-e8af262d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc39",
-                "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
-                "name": "bouillon cube",
-                "slug": "bouillon-cube",
-                "type": "stock",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "ml",
+            "ingredient_id": "a1ad4000-e319-402e-9e32-74712a5dc0f1"
         },
         {
-            "id": "5c8bcd9be3f3397358648c92",
-            "uuid": "9ee0d86f-1a50-54cc-9108-8ac7ea81a416",
-            "name": "Huile d'olive",
-            "type": "zt-olijfolie",
-            "slug": "huile-d-olive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbeb",
-                "uuid": "7c98f5ea-c7e6-530f-a8f7-837099e95a74",
-                "name": "huile",
-                "slug": "huile",
-                "type": "olive-oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "4ad6ce62-92c2-4612-8824-4fa5ed85fb05",
+            "portion_id": "d41c3d6a-8812-46d6-9e43-7327b8440275",
+            "image_id": "5c8bcd9be3f3397358648c92"
         },
         {
-            "id": "5c8bcdace3f339730507bc42",
-            "uuid": "492a3070-39c4-5508-99e2-0198b5663172",
-            "name": "Sucre",
-            "type": "zt-suiker",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcdace3f339730507bc42-20b617ed.png",
-            "imagePath": "/ingredient/5c8bcdace3f339730507bc42-20b617ed.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc3b",
-                "uuid": "6f31f49a-e368-5bbc-b82e-9e801b957293",
-                "name": "seule épice",
-                "slug": "seule-épice",
-                "type": "sugar",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "6c8f92cd-ec84-41b5-8f08-d7e52d929464",
+            "portion_id": "bc99416c-9fb4-4d16-bfb2-4032962f89f9",
+            "image_id": "5c8bcdace3f339730507bc42"
         },
         {
-            "id": "5ca75c90e3f339258a36e9f2",
-            "uuid": "a36b3941-dd55-5a83-b575-bc270f878041",
-            "name": "Huile d'olive vierge extra",
-            "type": "zt-extra-vierge-olijfolie",
-            "slug": "huile-d-olive-extra-vierge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5ca75c90e3f339258a36e9f2-2e1bc6b6.png",
-            "imagePath": "/ingredient/5ca75c90e3f339258a36e9f2-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbe8",
-                "uuid": "40e34e55-5e6b-5d7d-bc35-bf898efa8c03",
-                "name": "huile",
-                "slug": "huile",
-                "type": "oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "754f3da3-6524-4e75-9561-dc2807c9348e",
+            "portion_id": "89cee54a-d615-4e06-afcd-0ded439f42ff",
+            "image_id": "5ca75c90e3f339258a36e9f2"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5b8022a330006c39dc63ff02",
-    "name": "Soupe de tomate et de poivron au filet de poulet poché",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2439,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 583,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 19,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 3.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 66,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 17.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 34,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.2,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 6,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 757,
-    "slug": "soupe-de-tomate-et-de-poivron-au-filet-de-poulet-poche",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200 degrés et enfournez le pain rosette 6 à 8 minutes. Préparez le bouillon. Épépinez le piment rouge, puis taillez-le en gros morceaux ainsi que l’oignon rouge, l’ail, le poivron et la tomate.",
-            "instructionsHTML": "<p>Préchauffez le four à 200 degrés et enfournez le pain rosette 6 à 8 minutes. Préparez le bouillon. Épépinez le piment rouge, puis taillez-le en gros morceaux ainsi que l’oignon rouge, l’ail, le poivron et la tomate.</p>",
-            "instructionsMarkdown": "Préchauffez le four à 200 degrés et enfournez le pain rosette 6 à 8 minutes. Préparez le bouillon. Épépinez le piment rouge, puis taillez-le en gros morceaux ainsi que l’oignon rouge, l’ail, le poivron et la tomate.",
-            "ingredients": [
-                "5e4cf7fc389bc238c3507fce",
-                "5c8bcd9de3f33973480ec962",
-                "5af2be69ae08b5194415a2c5",
-                "5af2c161ae08b51b804e58f1",
-                "5af2bdf7ae08b5194415a11a",
-                "5af2be50ae08b5194415a267",
-                "5f4914a8feac474fa568779f"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30538f",
-                "57e2674fb7e8697d4b305378",
-                "57e2674fb7e8697d4b305374"
-            ],
-            "timers": [
-                {
-                    "name": "Enfournez le pain rosette.",
-                    "duration": "PT08M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b8022a330006c39dc63ff02/step-13b6303e.jpg",
-                    "path": "/5b8022a330006c39dc63ff02/step-13b6303e.jpg",
-                    "caption": "couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer l’huile d’olive dans la marmite à soupe à feu moyen-vif et faites revenir le paprika, l’oignon, le piment et l’ail 3 à 4 minutes. Ajoutez la tomate et le poivron, puis poursuivez la cuisson 3 à 4 minutes. Salez et poivrez.",
-            "instructionsHTML": "<p>Faites chauffer l’huile d’olive dans la marmite à soupe à feu moyen-vif et faites revenir le paprika, l’oignon, le piment et l’ail 3 à 4 minutes. Ajoutez la tomate et le poivron, puis poursuivez la cuisson 3 à 4 minutes. Salez et poivrez.</p>",
-            "instructionsMarkdown": "Faites chauffer l’huile d’olive dans la marmite à soupe à feu moyen-vif et faites revenir le paprika, l’oignon, le piment et l’ail 3 à 4 minutes. Ajoutez la tomate et le poivron, puis poursuivez la cuisson 3 à 4 minutes. Salez et poivrez.",
-            "ingredients": [
-                "5c8bcdafe3f3397358648c97",
-                "5c8bcd9be3f3397358648c92",
-                "5c8bcd9be3f3397358648c93"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [
-                {
-                    "name": "Faites cuire les légumes à feu moyen-vif.",
-                    "duration": "PT04M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b8022a330006c39dc63ff02/step-ff3d7245.jpg",
-                    "path": "/5b8022a330006c39dc63ff02/step-ff3d7245.jpg",
-                    "caption": "cuire les condiments"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Versez le bouillon dans la marmite à soupe et portez à ébullition. Ajoutez le filet de poulet et, à couvert, faites cuire (pocher) 8 à 10 minutes. Sortez le poulet pour vérifier s’il est cuit. Prolongez le temps de cuisson si nécessaire. Pendant ce temps, hachez grossièrement le persil.",
-            "instructionsHTML": "<p>Versez le bouillon dans la marmite à soupe et portez à ébullition. Ajoutez le filet de poulet et, à couvert, faites cuire (pocher) 8 à 10 minutes. Sortez le poulet pour vérifier s’il est cuit. Prolongez le temps de cuisson si nécessaire. Pendant ce temps, hachez grossièrement le persil.</p>",
-            "instructionsMarkdown": "Versez le bouillon dans la marmite à soupe et portez à ébullition. Ajoutez le filet de poulet et, à couvert, faites cuire (pocher) 8 à 10 minutes. Sortez le poulet pour vérifier s’il est cuit. Prolongez le temps de cuisson si nécessaire. Pendant ce temps, hachez grossièrement le persil.",
-            "ingredients": [
-                "5e9063c95ecacd749e661d51",
-                "5af2be6dae08b5194415a2d4"
-            ],
-            "utensils": [],
-            "timers": [
-                {
-                    "name": "Faites cuire le filet de poulet.",
-                    "duration": "PT10M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b8022a330006c39dc63ff02/step-bf1e4b27.jpg",
-                    "path": "/5b8022a330006c39dc63ff02/step-bf1e4b27.jpg",
-                    "caption": "pocher le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Ajoutez le sucre à la soupe, salez et poivrez, puis mixez à l’aide du mixeur plongeant pour obtenir une soupe épaisse ou lisse selon ce que vous préférez. Maintenez ensuite au chaud à feu doux.",
-            "instructionsHTML": "<p>Ajoutez le sucre à la soupe, salez et poivrez, puis mixez à l’aide du mixeur plongeant pour obtenir une soupe épaisse ou lisse selon ce que vous préférez. Maintenez ensuite au chaud à feu doux.</p>",
-            "instructionsMarkdown": "Ajoutez le sucre à la soupe, salez et poivrez, puis mixez à l’aide du mixeur plongeant pour obtenir une soupe épaisse ou lisse selon ce que vous préférez. Maintenez ensuite au chaud à feu doux.",
-            "ingredients": [
-                "5c8bcd9be3f3397358648c93",
-                "5c8bcdace3f339730507bc42"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b3053a0"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b8022a330006c39dc63ff02/step-d0fa4597.jpg",
-                    "path": "/5b8022a330006c39dc63ff02/step-d0fa4597.jpg",
-                    "caption": "mixer la soupe"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Effilochez ensuite le filet de poulet à la main ou en utilisant une fourchette et un couteau. Salez et poivrez.",
-            "instructionsHTML": "<p>Effilochez ensuite le filet de poulet à la main ou en utilisant une fourchette et un couteau. Salez et poivrez.</p>",
-            "instructionsMarkdown": "Effilochez ensuite le filet de poulet à la main ou en utilisant une fourchette et un couteau. Salez et poivrez.",
-            "ingredients": [
-                "5c8bcd9be3f3397358648c93"
-            ],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b8022a330006c39dc63ff02/step-e3402c8f.jpg",
-                    "path": "/5b8022a330006c39dc63ff02/step-e3402c8f.jpg",
-                    "caption": "effilocher le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez la soupe dans les bols, puis garnissez avec le filet de poulet et le persil. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez et accompagnez le tout du pain rosette.",
-            "instructionsHTML": "<p>Servez la soupe dans les bols, puis garnissez avec le filet de poulet et le persil. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez et accompagnez le tout du pain rosette.</p>",
-            "instructionsMarkdown": "Servez la soupe dans les bols, puis garnissez avec le filet de poulet et le persil. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez et accompagnez le tout du pain rosette.",
-            "ingredients": [
-                "5ca75c90e3f339258a36e9f2"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b8022a330006c39dc63ff02/step-1b35dbe6.jpg",
-                    "path": "/5b8022a330006c39dc63ff02/step-1b35dbe6.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-10T10:18:47+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538f",
-            "type": "cuttingboard",
-            "name": "Planche à découper"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305378",
-            "type": "paringknife",
-            "name": "Couteau à fruits"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305374",
-            "type": "stove",
-            "name": "Four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b3053a0",
-            "type": "immersionblender",
-            "name": "Mixeur plongeant"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/soupe-de-tomate-et-de-poivron-au-filet-de-poulet-poche-5b8022a330006c39dc63ff02",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5f4914a8feac474fa568779f",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2c161ae08b51b804e58f1",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdf7ae08b5194415a11a",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcdafe3f3397358648c97",
-                    "amount": 0.25,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5e9063c95ecacd749e661d51",
-                    "amount": 1,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 2,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5e4cf7fc389bc238c3507fce",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcdace3f339730507bc42",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5f4914a8feac474fa568779f",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2c161ae08b51b804e58f1",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdf7ae08b5194415a11a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcdafe3f3397358648c97",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5e9063c95ecacd749e661d51",
-                    "amount": 2,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 4,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5e4cf7fc389bc238c3507fce",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcdace3f339730507bc42",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5f4914a8feac474fa568779f",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2c161ae08b51b804e58f1",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdf7ae08b5194415a11a",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcdafe3f3397358648c97",
-                    "amount": 0.75,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5e9063c95ecacd749e661d51",
-                    "amount": 3,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 6,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5e4cf7fc389bc238c3507fce",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcdace3f339730507bc42",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5f4914a8feac474fa568779f",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2c161ae08b51b804e58f1",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdf7ae08b5194415a11a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcdafe3f3397358648c97",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5e9063c95ecacd749e661d51",
-                    "amount": 4,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 8,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5e4cf7fc389bc238c3507fce",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcdace3f339730507bc42",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5f4914a8feac474fa568779f",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2c161ae08b51b804e58f1",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdf7ae08b5194415a11a",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcdafe3f3397358648c97",
-                    "amount": 1.25,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5e9063c95ecacd749e661d51",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 10,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5e4cf7fc389bc238c3507fce",
-                    "amount": 1000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcdace3f339730507bc42",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5f4914a8feac474fa568779f",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2c161ae08b51b804e58f1",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdf7ae08b5194415a11a",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcdafe3f3397358648c97",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5e9063c95ecacd749e661d51",
-                    "amount": 6,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 12,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5e4cf7fc389bc238c3507fce",
-                    "amount": 1200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcdace3f339730507bc42",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200 degrés et enfournez le pain rosette 6 à 8 minutes. Préparez le bouillon. Épépinez le piment rouge, puis taillez-le en gros morceaux ainsi que l’oignon rouge, l’ail, le poivron et la tomate.",
+        "Faites chauffer l’huile d’olive dans la marmite à soupe à feu moyen-vif et faites revenir le paprika, l’oignon, le piment et l’ail 3 à 4 minutes. Ajoutez la tomate et le poivron, puis poursuivez la cuisson 3 à 4 minutes. Salez et poivrez.",
+        "Versez le bouillon dans la marmite à soupe et portez à ébullition. Ajoutez le filet de poulet et, à couvert, faites cuire (pocher) 8 à 10 minutes. Sortez le poulet pour vérifier s’il est cuit. Prolongez le temps de cuisson si nécessaire. Pendant ce temps, hachez grossièrement le persil.",
+        "Ajoutez le sucre à la soupe, salez et poivrez, puis mixez à l’aide du mixeur plongeant pour obtenir une soupe épaisse ou lisse selon ce que vous préférez. Maintenez ensuite au chaud à feu doux.",
+        "Effilochez ensuite le filet de poulet à la main ou en utilisant une fourchette et un couteau. Salez et poivrez.",
+        "Servez la soupe dans les bols, puis garnissez avec le filet de poulet et le persil. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez et accompagnez le tout du pain rosette."
     ]
 }

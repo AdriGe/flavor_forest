@@ -1,956 +1,125 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "QFR20161866-2",
-    "country": "FR",
-    "createdAt": "2022-12-13T13:00:30+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": "Aujourd'hui, c'est pizza party ! Cette version est préparée sur un pain naan avec des dés de chorizo, du portobello en tranches et est saupoudrée de fromage italien râpé. Bref, la combinaison idéale à déguster du bout des doigts.",
-    "descriptionHTML": "<p>Aujourd'hui, c'est pizza party ! Cette version est préparée sur un pain naan avec des dés de chorizo, du portobello en tranches et est saupoudrée de fromage italien râpé. Bref, la combinaison idéale à déguster du bout des doigts.</p>",
-    "descriptionMarkdown": "Aujourd'hui, c'est pizza party ! Cette version est préparée sur un pain naan avec des dés de chorizo, du portobello en tranches et est saupoudrée de fromage italien râpé. Bref, la combinaison idéale à déguster du bout des doigts.",
     "difficulty": 1,
     "favoritesCount": 183,
     "headline": "avec du fromage râpé & de la salade",
-    "id": "6398776dfca70aff3d053ea7",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF211214_R217_W05_FR_QFR20161866-1_MB_Main_high-812c413f.jpg",
-    "imagePath": "/image/HF211214_R217_W05_FR_QFR20161866-1_MB_Main_high-812c413f.jpg",
+    "name": "Naan au chorizo & épices mexicaines",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "6398776dfca70aff3d053ea7",
+    "id": "33be498b-e873-4b55-8822-95bad7b29052",
+    "nutrition": {
+        "kcal": 713,
+        "fat": 38.7,
+        "saturated_fat": 10.5,
+        "carbohydrate": 60.6,
+        "sugars": 9.1,
+        "protein": 27.8,
+        "sodium": 3.33
+    },
+    "tags": [
+        "<30 min",
+        "Famille",
+        "Épicé"
+    ],
+    "utensils": [
+        "Sauteuse",
+        "Essuie-tout",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf8db0da1947779862e2",
-            "uuid": "9bcd0897-d822-4f07-8474-e4c19bff7776",
-            "name": "Dés de chorizo",
-            "type": "chorizo-diced",
-            "slug": "des-de-chorizo",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8db0da1947779862e2-3f87eaf2.png",
-            "imagePath": "/ingredient/6405bf8db0da1947779862e2-3f87eaf2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "811850db-20dd-4568-a47f-41d4e08b2861"
         },
         {
-            "id": "6405bf34b0da1947779861aa",
-            "uuid": "87dc56ae-88e0-530d-bd62-be00baab053b",
-            "name": "Portobello",
-            "type": "portobello-mushroom",
-            "slug": "portobello",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf34b0da1947779861aa-bbb618f7.png",
-            "imagePath": "/ingredient/6405bf34b0da1947779861aa-bbb618f7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "26bc84fd-7394-4c44-a9be-fc66ae1f6c17",
+            "portion_id": "3b6895c4-d6c1-464b-9fde-f7c7d401a529",
+            "image_id": "6405bf34b0da1947779861aa"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf41b0da1947779861d8",
-            "uuid": "27bdf929-2223-5877-8919-3bd93eb85c24",
-            "name": "Chair de tomates",
-            "type": "tomato-passata",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "imagePath": "/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 130,
+            "unit": "g",
+            "ingredient_id": "d1d9c648-1d96-428b-8010-1f8136dfe501"
         },
         {
-            "id": "6405bfd0b0da1947779863c0",
-            "uuid": "a9702fdb-e742-5fe0-b221-974c1ea5db87",
-            "name": "Épices mexicaines",
-            "type": "mexican-spice",
-            "slug": "epices-mexicaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "imagePath": "/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae75e647-2ef5-4079-a851-ebba5dcc2f18",
+            "portion_id": "0cd9e5cd-396b-4f6d-afe0-5435899f4adb",
+            "image_id": "6405bfd0b0da1947779863c0"
         },
         {
-            "id": "6494e1765f6a5ed9af3caf57",
-            "uuid": "b5f66b23-564d-51d2-850c-563706e5ddcd",
-            "name": "Pain naan",
-            "type": "naan-bread",
-            "slug": "pain-naan",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "imagePath": "/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "shipped": true,
-            "allergens": [
-                "60368d89cdbdf450236ad8cd"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "130c1e54-9d72-40b1-b9ee-bf1da42cfee2",
+            "portion_id": "237826c7-1755-4e43-ba7b-2200202b2be2",
+            "image_id": "6494e1765f6a5ed9af3caf57"
         },
         {
-            "id": "6405bf39b0da1947779861bf",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "61d47fda-51f7-4500-80ec-6130cc334a70"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6398776dfca70aff3d053ea7",
-    "name": "Naan au chorizo & épices mexicaines",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 713,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2984,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 38.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 60.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 9.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 27.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.33,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 625,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 352,
-    "slug": "naan-au-chorizo-and-epices-mexicaines",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C (200°C chaleur tournante). Coupez l'oignon en demi-lunes.Faites chauffer un filet d’huile d'olive dans une sauteuse à feu vif. Faites-y revenir l'oignon et le chorizo 3-4 min. Nettoyez le portobello avec un essuie-tout humide, puis coupez-le en tranches. Ciselez l’ail.Déglacez le contenu de la sauteuse avec ½ cs de vinaigre balsamique noir par personne. ",
-            "instructionsHTML": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li><span>Préchauffez le four à 220°C (200°C chaleur tournante). </span></li><li><span>Coupez l&#39;oignon en demi-lunes.</span></li><li>Faites chauffer un filet d’huile d&#39;olive dans une sauteuse à feu vif. Faites-y revenir l&#39;oignon et le chorizo 3-4 min. </li><li><span>Nettoyez le portobello avec un essuie-tout humide, puis coupez-le en tranches. Ciselez</span><span> l’ail.</span></li><li>Déglacez le contenu de la sauteuse avec ½ cs de vinaigre balsamique noir par personne. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li><span>Préchauffez le four à 220°C (200°C chaleur tournante). </span></li><li><span>Coupez l&#39;oignon en demi-lunes.</span></li><li>Faites chauffer un filet d’huile d&#39;olive dans une sauteuse à feu vif. Faites-y revenir l&#39;oignon et le chorizo 3-4 min. </li><li><span>Nettoyez le portobello avec un essuie-tout humide, puis coupez-le en tranches. Ciselez</span><span> l’ail.</span></li><li>Déglacez le contenu de la sauteuse avec ½ cs de vinaigre balsamique noir par personne. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a",
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6398776dfca70aff3d053ea7/step-765a6800.jpg",
-                    "path": "/6398776dfca70aff3d053ea7/step-765a6800.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Ajoutez la passata de tomates, 3 cs d'eau par personne, l’ail et les épices mexicaines (ça pique ! Dosez-les selon votre goût) à la sauteuse. Salez et poivrez. Faites cuire 2-3 min de plus. Placez les naans sur une plaque recouverte de papier sulfurisé.Arrosez-les d'un filet d'huile d'olive, puis répartissez le contenu de la sauteuse dessus en laissant un bord de 5 mm. Disposez les tranches de portobello sur la sauce, puis saupoudrez de fromage râpé. Enfournez les pizzas 6-10 min, ou jusqu'à ce que le fromage soit fondu et gratiné.",
-            "instructionsHTML": "<ul><li>Ajoutez la passata de tomates, 3 cs d&#39;eau par personne, l’ail et les épices mexicaines (ça pique ! Dosez-les selon votre goût) à la sauteuse. Salez et poivrez. Faites cuire 2-3 min de plus. </li><li><span>Placez les naans sur une plaque recouverte de papier sulfurisé.</span></li><li><span>Arrosez-les d&#39;un filet d&#39;huile d&#39;olive, puis répartissez le contenu de la sauteuse dessus en laissant un bord de 5 mm. </span></li><li><span>Disposez les tranches de portobello sur la sauce, puis saupoudrez de fromage râpé. Enfournez les pizzas 6-10 min, ou jusqu&#39;à ce que le fromage soit fondu et gratiné.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Ajoutez la passata de tomates, 3 cs d&#39;eau par personne, l’ail et les épices mexicaines (ça pique ! Dosez-les selon votre goût) à la sauteuse. Salez et poivrez. Faites cuire 2-3 min de plus. </li><li><span>Placez les naans sur une plaque recouverte de papier sulfurisé.</span></li><li><span>Arrosez-les d&#39;un filet d&#39;huile d&#39;olive, puis répartissez le contenu de la sauteuse dessus en laissant un bord de 5 mm. </span></li><li><span>Disposez les tranches de portobello sur la sauce, puis saupoudrez de fromage râpé. Enfournez les pizzas 6-10 min, ou jusqu&#39;à ce que le fromage soit fondu et gratiné.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6398776dfca70aff3d053ea7/step-c709cc10.jpg",
-                    "path": "/6398776dfca70aff3d053ea7/step-c709cc10.jpg",
-                    "caption": "Enfourner les naans"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d'huile d'olive et de vinaigre balsamique dans un saladier. Salez et poivrez. Juste avant de servir, ajoutez la salade et mélangez bien.",
-            "instructionsHTML": "<ul><li><span>Pendant ce temps, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d&#39;huile d&#39;olive et de vinaigre balsamique dans un saladier. Salez et poivrez. </span></li><li><span>Juste avant de servir, ajoutez la salade et mélangez bien.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Pendant ce temps, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d&#39;huile d&#39;olive et de vinaigre balsamique dans un saladier. Salez et poivrez. </span></li><li><span>Juste avant de servir, ajoutez la salade et mélangez bien.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6398776dfca70aff3d053ea7/step-4af8de20.jpg",
-                    "path": "/6398776dfca70aff3d053ea7/step-4af8de20.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Coupez chaque pizza naan en parts et disposez-les dans les assiettes.Servez la salade à côté. CONSEIL: Pour une note de gourmandise, vous pouvez arroser la pizza d'huile d'olive à la sortie du four.",
-            "instructionsHTML": "<ul><li><span>Coupez chaque pizza naan en parts et disposez-les dans les assiettes.</span></li><li><span>Servez la salade à côté. </span></li></ul><p>CONSEIL: Pour une note de gourmandise, vous pouvez arroser la pizza d&#39;huile d&#39;olive à la sortie du four.</p>",
-            "instructionsMarkdown": "<ul><li><span>Coupez chaque pizza naan en parts et disposez-les dans les assiettes.</span></li><li><span>Servez la salade à côté. </span></li></ul><p>CONSEIL: Pour une note de gourmandise, vous pouvez arroser la pizza d&#39;huile d&#39;olive à la sortie du four.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6398776dfca70aff3d053ea7/step-cb72e130.jpg",
-                    "path": "/6398776dfca70aff3d053ea7/step-cb72e130.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR20161866-2",
-    "updatedAt": "2023-10-22T19:47:19+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "b5b2b5e6-69fe-4f0c-94cd-ad5fc299624d",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/naan-au-chorizo-and-epices-mexicaines-6398776dfca70aff3d053ea7",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6494e1765f6a5ed9af3caf57",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 130,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6494e1765f6a5ed9af3caf57",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6494e1765f6a5ed9af3caf57",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3.75,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 295,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6494e1765f6a5ed9af3caf57",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 330,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6494e1765f6a5ed9af3caf57",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6494e1765f6a5ed9af3caf57",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C (200°C chaleur tournante). Coupez l'oignon en demi-lunes.Faites chauffer un filet d’huile d'olive dans une sauteuse à feu vif. Faites-y revenir l'oignon et le chorizo 3-4 min. Nettoyez le portobello avec un essuie-tout humide, puis coupez-le en tranches. Ciselez l’ail.Déglacez le contenu de la sauteuse avec ½ cs de vinaigre balsamique noir par personne. ",
+        "Ajoutez la passata de tomates, 3 cs d'eau par personne, l’ail et les épices mexicaines (ça pique ! Dosez-les selon votre goût) à la sauteuse. Salez et poivrez. Faites cuire 2-3 min de plus. Placez les naans sur une plaque recouverte de papier sulfurisé.Arrosez-les d'un filet d'huile d'olive, puis répartissez le contenu de la sauteuse dessus en laissant un bord de 5 mm. Disposez les tranches de portobello sur la sauce, puis saupoudrez de fromage râpé. Enfournez les pizzas 6-10 min, ou jusqu'à ce que le fromage soit fondu et gratiné.",
+        "Pendant ce temps, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d'huile d'olive et de vinaigre balsamique dans un saladier. Salez et poivrez. Juste avant de servir, ajoutez la salade et mélangez bien.",
+        "Coupez chaque pizza naan en parts et disposez-les dans les assiettes.Servez la salade à côté. CONSEIL: Pour une note de gourmandise, vous pouvez arroser la pizza d'huile d'olive à la sortie du four."
     ]
 }

@@ -1,1040 +1,138 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QNL2300-3",
-    "country": "FR",
-    "createdAt": "2021-03-09T16:39:29+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053af",
-            "type": "mexican",
-            "name": "Mexicaine",
-            "slug": "mexican",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
-        }
+        "Mexicaine"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 1,
     "favoritesCount": 368,
     "headline": "avec des tortillas, de l'avocat et du chèvre frais",
-    "id": "6047a4c03a1f1b7f3951ba82",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210107_R204_W06_FR_QNL2300-2_KB_Main_low-8e259743.jpg",
-    "imagePath": "/image/HF210107_R204_W06_FR_QNL2300-2_KB_Main_low-8e259743.jpg",
+    "name": "Huevos rancheros aux haricots blancs épicés",
+    "prepTime": 20,
+    "totalTime": 20,
+    "image_id": "6047a4c03a1f1b7f3951ba82",
+    "id": "2065c2e6-fe3e-4926-bd32-79867ebd3f9c",
+    "nutrition": {
+        "kcal": 716,
+        "fat": 49.2,
+        "saturated_fat": 16.3,
+        "carbohydrate": 30.5,
+        "sugars": 10.8,
+        "protein": 31,
+        "sodium": 2.94
+    },
+    "tags": [
+        "Épicé",
+        "Rapido",
+        "Végétarien",
+        "Œuf(s) non inclu(s)",
+        "Œufs non inclus",
+        "<30 min",
+        "Végétarien"
+    ],
+    "utensils": [
+        "Poêle",
+        "Papier aluminium"
+    ],
     "ingredients": [
         {
-            "id": "6405bf3baf4af6d531d50ad2",
-            "uuid": "180dba5b-4f37-51f9-80a9-efb9c27c5351",
-            "name": "Haricots blancs",
-            "type": "cannellini-beans",
-            "slug": "haricots-blancs",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "imagePath": "/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "7eb761d2-2217-46a8-9c3e-8757b406a84c",
+            "portion_id": "2cb2071e-e6f0-47fb-b8ed-b251be1af667",
+            "image_id": "6405bf3baf4af6d531d50ad2"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d",
+            "portion_id": "3b32de7a-03ea-407b-895a-197efd4cb91f",
+            "image_id": "6405bf35af4af6d531d50ab8"
         },
         {
-            "id": "6405bfe6b9d07cd5d38d7c3f",
-            "uuid": "0669dd0d-49ca-4e6d-a144-75632b22b136",
-            "name": "Cébette",
-            "type": "spring-onions",
-            "slug": "cebette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "imagePath": "/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.33,
+            "unit": "botte(s)",
+            "ingredient_id": "61aa522a-cd3f-44fa-a698-243ed78aa4ba",
+            "portion_id": "7bcad6b0-4153-42db-8b3b-ba11fdc9e3eb",
+            "image_id": "6405bfe6b9d07cd5d38d7c3f"
         },
         {
-            "id": "6405bfd0b0da1947779863c0",
-            "uuid": "a9702fdb-e742-5fe0-b221-974c1ea5db87",
-            "name": "Épices mexicaines",
-            "type": "mexican-spice",
-            "slug": "epices-mexicaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "imagePath": "/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae75e647-2ef5-4079-a851-ebba5dcc2f18",
+            "portion_id": "0cd9e5cd-396b-4f6d-afe0-5435899f4adb",
+            "image_id": "6405bfd0b0da1947779863c0"
         },
         {
-            "id": "6405bfdcaf4af6d531d50d0e",
-            "uuid": "54f50019-1750-589b-a12c-b8f2e59a3233",
-            "name": "Chair de tomates",
-            "type": "chopped-tomatoes",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdcaf4af6d531d50d0e-8721012d.png",
-            "imagePath": "/ingredient/6405bfdcaf4af6d531d50d0e-8721012d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "594d9d1d-f73a-426b-826c-83e454a561ab",
+            "portion_id": "a325f635-8528-43d2-a098-e1951a78b738",
+            "image_id": "6405bfdcaf4af6d531d50d0e"
         },
         {
-            "id": "64073babdf6297bb5beef104",
-            "uuid": "e1c35f5d-f8e4-578e-8170-d9c7d2d4df66",
-            "name": "Fromage de chèvre frais",
-            "type": "rind-off-goats-cheese",
-            "slug": "fromage-de-chevre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb5b0da194777986364-eef55e5e.png",
-            "imagePath": "/ingredient/6405bfb5b0da194777986364-eef55e5e.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "900def38-6ae3-40fc-9055-6cb3cfc4f590"
         },
         {
-            "id": "6405bf92b0da1947779862f3",
-            "uuid": "85c45981-51eb-5688-8659-b3f9bbf4116b",
-            "name": "Tortillas",
-            "type": "flour-tortillas",
-            "slug": "tortillas",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 6,
+            "unit": "pièce(s)",
+            "ingredient_id": "c0fa4659-ed12-4afa-b8af-e794c96f4792",
+            "portion_id": "53307d78-6a22-4a59-9f98-b7b639da9bb0",
+            "image_id": "6405bf92b0da1947779862f3"
         },
         {
-            "id": "6405bf9fb9d07cd5d38d7b57",
-            "uuid": "4842611c-bce4-5a00-9f96-af40c63b6310",
-            "name": "Avocat",
-            "type": "avocado",
-            "slug": "avocat",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "imagePath": "/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "6b8e6560-a4cd-4dae-bb41-25d38d8bdb4c",
+            "portion_id": "673a042b-e8bd-447e-b9b5-8edc4ad2da58",
+            "image_id": "6405bf9fb9d07cd5d38d7b57"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01"
         },
         {
-            "id": "63e5121d81b4b295e66f0254",
-            "uuid": "0449d885-5c94-44dc-a65f-bcf23237df95",
-            "name": "Œuf",
-            "type": "oeuf",
-            "slug": "oeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "imagePath": "/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "9c2e39a8-8fc0-49a0-9a1a-4b5448e1fe1a",
+            "portion_id": "939cf6d0-beb9-4e89-9829-565fee32f52c",
+            "image_id": "63e5121d81b4b295e66f0254"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6047a4c03a1f1b7f3951ba82",
-    "name": "Huevos rancheros aux haricots blancs épicés",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 716,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2997,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 49.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 16.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 30.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 10.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 31,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.94,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT20M",
-    "promotion": null,
-    "ratingsCount": 741,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 609,
-    "slug": "huevos-rancheros-aux-haricots-blancs-epices",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200°C (ou 180°C chaleur tournante). Égouttez les haricots blancs. Coupez le citron en quartiers.Ciselez l'ail puis la coriandre.Séparez le blanc du vert de l'oignon nouveau et émincez les deux parties séparément.Faites chauffer 1 cc d'épices mexicaines par personne 1 minute dans une poêle à feu moyen. (Ça pique ! Dosez les épices selon vos goûts, ou ceux de vos enfants.)Ajoutez un filet d'huile d'olive dans la poêle et faites-y revenir le blanc de l'oignon nouveau avec l'ail et les haricots 2-3 minutes.",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 200°C (ou 180°C chaleur tournante). </li><li>Égouttez les haricots blancs. Coupez le citron en quartiers.</li><li><span>Ciselez l&#39;ail puis </span>la coriandre.</li><li>Séparez le blanc du vert de l&#39;oignon nouveau et émincez les deux parties séparément.</li><li>Faites chauffer 1 cc d&#39;épices mexicaines par personne 1 minute dans une poêle à feu moyen. (<span>Ça pique ! Dosez les épices selon vos goûts, ou ceux de vos enfants.)</span></li><li>Ajoutez un filet d&#39;huile d&#39;olive dans la poêle et faites-y revenir le blanc de l&#39;oignon nouveau avec l&#39;ail et les haricots 2-3 minutes.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 200°C (ou 180°C chaleur tournante). </li><li>Égouttez les haricots blancs. Coupez le citron en quartiers.</li><li><span>Ciselez l&#39;ail puis </span>la coriandre.</li><li>Séparez le blanc du vert de l&#39;oignon nouveau et émincez les deux parties séparément.</li><li>Faites chauffer 1 cc d&#39;épices mexicaines par personne 1 minute dans une poêle à feu moyen. (<span>Ça pique ! Dosez les épices selon vos goûts, ou ceux de vos enfants.)</span></li><li>Ajoutez un filet d&#39;huile d&#39;olive dans la poêle et faites-y revenir le blanc de l&#39;oignon nouveau avec l&#39;ail et les haricots 2-3 minutes.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6047a4c03a1f1b7f3951ba82/step-0eb7ee00.jpg",
-                    "path": "/6047a4c03a1f1b7f3951ba82/step-0eb7ee00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Ajoutez les dés de tomates et pressez le jus d'1 quartier de citron vert par personne.Mélangez bien et laissez mijoter 3-4 minutes.Cassez les œufs au-dessus de la sauce tomate. Couvrez et faites cuire 6-8 minutes. Retirez le couvercle au bout de 4 minutes, salez et poivrez. Ajoutez le fromage de chèvre frais en petits morceaux. CONSEIL: L'œuf est cuit lorsque le blanc commence à blanchir, mais que le jaune d'œuf est encore mou. Pour un jaune d'œuf dur, faites cuire l'œuf plus longtemps.",
-            "instructionsHTML": "<ul><li>Ajoutez les dés de tomates et pressez le jus d&#39;1 quartier de citron vert par personne.</li><li>Mélangez bien et laissez mijoter 3-4 minutes.</li><li>Cassez les œufs au-dessus de la sauce tomate. Couvrez et faites cuire 6-8 minutes. Retirez le couvercle au bout de 4 minutes, salez et poivrez. </li><li>Ajoutez le fromage de chèvre frais en petits morceaux. </li></ul><p>CONSEIL: L&#39;œuf est cuit lorsque le blanc commence à blanchir, mais que le jaune d&#39;œuf est encore mou. Pour un jaune d&#39;œuf dur, faites cuire l&#39;œuf plus longtemps.</p>",
-            "instructionsMarkdown": "<ul><li>Ajoutez les dés de tomates et pressez le jus d&#39;1 quartier de citron vert par personne.</li><li>Mélangez bien et laissez mijoter 3-4 minutes.</li><li>Cassez les œufs au-dessus de la sauce tomate. Couvrez et faites cuire 6-8 minutes. Retirez le couvercle au bout de 4 minutes, salez et poivrez. </li><li>Ajoutez le fromage de chèvre frais en petits morceaux. </li></ul><p>CONSEIL: L&#39;œuf est cuit lorsque le blanc commence à blanchir, mais que le jaune d&#39;œuf est encore mou. Pour un jaune d&#39;œuf dur, faites cuire l&#39;œuf plus longtemps.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6047a4c03a1f1b7f3951ba82/step-d8671f10.jpg",
-                    "path": "/6047a4c03a1f1b7f3951ba82/step-d8671f10.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Enveloppez les tortillas dans du papier d'aluminium et enfournez-les 2-3 minutes.Coupez l'avocat en deux dans le sens de la longueur. Retirez le noyau et coupez la chair en cubes. Retirez les cubes à l'aide d'une cuillère. ",
-            "instructionsHTML": "<ul><li>Enveloppez les tortillas dans du papier d&#39;aluminium et enfournez-les 2-3 minutes.</li><li>Coupez l&#39;avocat en deux dans le sens de la longueur. Retirez le noyau et coupez la chair en cubes. Retirez les cubes à l&#39;aide d&#39;une cuillère. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Enveloppez les tortillas dans du papier d&#39;aluminium et enfournez-les 2-3 minutes.</li><li>Coupez l&#39;avocat en deux dans le sens de la longueur. Retirez le noyau et coupez la chair en cubes. Retirez les cubes à l&#39;aide d&#39;une cuillère. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305366"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6047a4c03a1f1b7f3951ba82/step-c3b78920.jpg",
-                    "path": "/6047a4c03a1f1b7f3951ba82/step-c3b78920.jpg",
-                    "caption": "Découper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Placez la crème fraîche dans un petit pot.Présentez à table le mélange aux œufs, les mini tortillas, l'avocat, la crème fraîche, la coriandre, le vert de l'oignon nouveau et le reste de citron vert pour que chacun puisse garnir sa propre tortilla.CONSEIL: Commencez par répartir les œufs en sauce dans les tortillas avant d'ajouter l'avocat et la crème. Saupoudrez d'oignon nouveau et de coriandre. Arrosez d'un trait de jus de citron vert.",
-            "instructionsHTML": "<ul><li>Placez la crème fraîche dans un petit pot.</li><li>Présentez à table le mélange aux œufs, les mini tortillas, l&#39;avocat, la crème fraîche, la coriandre, le vert de l&#39;oignon nouveau et le reste de citron vert pour que chacun puisse garnir sa propre tortilla.</li></ul><p>CONSEIL: Commencez par répartir les œufs en sauce dans les tortillas avant d&#39;ajouter l&#39;avocat et la crème. Saupoudrez d&#39;oignon nouveau et de coriandre. Arrosez d&#39;un trait de jus de citron vert.</p>",
-            "instructionsMarkdown": "<ul><li>Placez la crème fraîche dans un petit pot.</li><li>Présentez à table le mélange aux œufs, les mini tortillas, l&#39;avocat, la crème fraîche, la coriandre, le vert de l&#39;oignon nouveau et le reste de citron vert pour que chacun puisse garnir sa propre tortilla.</li></ul><p>CONSEIL: Commencez par répartir les œufs en sauce dans les tortillas avant d&#39;ajouter l&#39;avocat et la crème. Saupoudrez d&#39;oignon nouveau et de coriandre. Arrosez d&#39;un trait de jus de citron vert.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6047a4c03a1f1b7f3951ba82/step-d5c20630.jpg",
-                    "path": "/6047a4c03a1f1b7f3951ba82/step-d5c20630.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5f686b0e6a6fd240db6ec3d9",
-            "type": "oeufs-non-inclus",
-            "name": "Œuf(s) non inclu(s)",
-            "slug": "oeuf-s-non-inclu-s",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b30531c",
-            "type": "egg-free",
-            "name": "Œufs non inclus",
-            "slug": "œufs-non-inclus",
-            "colorHandle": "regular",
-            "preferences": [
-                "Classique"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QNL2300-3",
-    "updatedAt": "2024-01-06T06:24:33+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        }
-    ],
-    "uuid": "343fc2c8-d39b-4557-a501-5741c4068d24",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/huevos-rancheros-aux-haricots-blancs-epices-6047a4c03a1f1b7f3951ba82",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 0.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.16,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.33,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.5,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 9,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.66,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 2.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.83,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 15,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 130,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 1,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 4,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 18,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200°C (ou 180°C chaleur tournante). Égouttez les haricots blancs. Coupez le citron en quartiers.Ciselez l'ail puis la coriandre.Séparez le blanc du vert de l'oignon nouveau et émincez les deux parties séparément.Faites chauffer 1 cc d'épices mexicaines par personne 1 minute dans une poêle à feu moyen. (Ça pique ! Dosez les épices selon vos goûts, ou ceux de vos enfants.)Ajoutez un filet d'huile d'olive dans la poêle et faites-y revenir le blanc de l'oignon nouveau avec l'ail et les haricots 2-3 minutes.",
+        "Ajoutez les dés de tomates et pressez le jus d'1 quartier de citron vert par personne.Mélangez bien et laissez mijoter 3-4 minutes.Cassez les œufs au-dessus de la sauce tomate. Couvrez et faites cuire 6-8 minutes. Retirez le couvercle au bout de 4 minutes, salez et poivrez. Ajoutez le fromage de chèvre frais en petits morceaux. CONSEIL: L'œuf est cuit lorsque le blanc commence à blanchir, mais que le jaune d'œuf est encore mou. Pour un jaune d'œuf dur, faites cuire l'œuf plus longtemps.",
+        "Enveloppez les tortillas dans du papier d'aluminium et enfournez-les 2-3 minutes.Coupez l'avocat en deux dans le sens de la longueur. Retirez le noyau et coupez la chair en cubes. Retirez les cubes à l'aide d'une cuillère. ",
+        "Placez la crème fraîche dans un petit pot.Présentez à table le mélange aux œufs, les mini tortillas, l'avocat, la crème fraîche, la coriandre, le vert de l'oignon nouveau et le reste de citron vert pour que chacun puisse garnir sa propre tortilla.CONSEIL: Commencez par répartir les œufs en sauce dans les tortillas avant d'ajouter l'avocat et la crème. Saupoudrez d'oignon nouveau et de coriandre. Arrosez d'un trait de jus de citron vert."
     ]
 }

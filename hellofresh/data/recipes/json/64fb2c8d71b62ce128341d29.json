@@ -1,924 +1,112 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 0,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "6360e7fbca8d2fbf91035f45",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-10-13T10:44:03+00:00",
     "cuisines": [
-        {
-            "id": "623d9c9e5bdfb809438c0db6",
-            "type": "belgian",
-            "name": "Belgisk",
-            "slug": "belgisk",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/no-image.jpg"
-        }
+        "Belgisk"
     ],
     "description": "L’avantage avec le gratin, c’est que tout est « gratinable » : légumes, poissons, féculents, viandes, il y en a pour tous les goûts ! On vous en propose d’ailleurs aujourd’hui une version au saumon et au poireau. À la fois pratique, réconfortant et délicieux, c’est LE plat de l’automne/hiver !",
-    "descriptionHTML": "<p>L’avantage avec le gratin, c’est que tout est « gratinable » : légumes, poissons, féculents, viandes, il y en a pour tous les goûts ! On vous en propose d’ailleurs aujourd’hui une version au saumon et au poireau. À la fois pratique, réconfortant et délicieux, c’est LE plat de l’automne/hiver !</p>",
-    "descriptionMarkdown": "L’avantage avec le gratin, c’est que tout est « gratinable » : légumes, poissons, féculents, viandes, il y en a pour tous les goûts ! On vous en propose d’ailleurs aujourd’hui une version au saumon et au poireau. À la fois pratique, réconfortant et délicieux, c’est LE plat de l’automne/hiver !",
     "difficulty": 2,
     "favoritesCount": 22,
     "headline": "avec des pommes de terre & du poireau",
-    "id": "64fb2c8d71b62ce128341d29",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF211110_R201_W52_FR_RNL16521711-3_MB_Main_low-98135187.jpg",
-    "imagePath": "/image/HF211110_R201_W52_FR_RNL16521711-3_MB_Main_low-98135187.jpg",
+    "name": "Gratin nordique au saumon & aneth",
+    "prepTime": 50,
+    "totalTime": 30,
+    "image_id": "64fb2c8d71b62ce128341d29",
+    "id": "29da619d-055c-4e06-9cc0-23b8864b1a79",
+    "nutrition": {
+        "kcal": 857,
+        "fat": 42.6,
+        "saturated_fat": 22.5,
+        "carbohydrate": 74.6,
+        "sugars": 18.3,
+        "protein": 41.5,
+        "sodium": 1.1
+    },
+    "tags": [
+        "pescatarian",
+        "Famille",
+        "Moins de CO2"
+    ],
+    "utensils": [
+        "Casserole",
+        "Éplucheur",
+        "Passoire",
+        "Poêle avec couvercle",
+        "Râpe",
+        "Fouet",
+        "Plat à four"
+    ],
     "ingredients": [
         {
-            "id": "6405bf22b0da194777986166",
-            "uuid": "d67e98f2-2774-5b94-b51a-359ed028712e",
-            "name": "Pommes de terre",
-            "type": "potato",
-            "slug": "pommes-de-terre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "imagePath": "/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "e96c155b-870a-4201-9e2f-ed3c064850d3"
         },
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405bf84b0da1947779862b9",
-            "uuid": "d6afeb8d-f6dd-5aff-af10-bb9f6fb7c0ce",
-            "name": "Aneth",
-            "type": "dill",
-            "slug": "aneth",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf84b0da1947779862b9-217d0b0b.png",
-            "imagePath": "/ingredient/6405bf84b0da1947779862b9-217d0b0b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "27d7d31d-8e13-484e-938f-18033b7cc829",
+            "portion_id": "bcb76f82-dead-4317-8801-0bf317b12803",
+            "image_id": "6405bf84b0da1947779862b9"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "64073bab683721c9a32b073d",
-            "uuid": "47bc8e70-cee7-49c4-8ec3-ca6079546d67",
-            "name": "Emmental râpé",
-            "type": "grated-emmentaler",
-            "slug": "emmental-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9fb0da194777986318-c2f82278.png",
-            "imagePath": "/ingredient/6405bf9fb0da194777986318-c2f82278.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "9a9cd6cf-4a01-4894-8123-01904dfb1bb4"
         },
         {
-            "id": "64073bad9c6d10cd16eab61f",
-            "uuid": "e78feb4a-7823-4d5d-9f75-4cd604237567",
-            "name": "Miettes de saumon fumé à chaud",
-            "type": "smoked-salmon-diced",
-            "slug": "miettes-de-saumon-fume-a-chaud",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd4b9d07cd5d38d7c04-7c431b07.png",
-            "imagePath": "/ingredient/6405bfd4b9d07cd5d38d7c04-7c431b07.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "fb8a258f-9fa8-4955-94df-99668f929117"
         },
         {
-            "id": "63e5121aa0a0603e5708dcbe",
-            "uuid": "1807d2bc-8b15-408b-80ea-6fe3eaf3ae3d",
-            "name": "Beurre",
-            "type": "beurre-g",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121aa0a0603e5708dcbe-9c2fda6a.png",
-            "imagePath": "/ingredient/63e5121aa0a0603e5708dcbe-9c2fda6a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "b2477ba6-8a0b-403b-a683-f710f0345a99"
         },
         {
-            "id": "63e5121ea0a0603e5708dcbf",
-            "uuid": "5a44df0b-5f02-4930-ac17-2958bb925a90",
-            "name": "Farine",
-            "type": "farine-g",
-            "slug": "farine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121ea0a0603e5708dcbf-2835f650.png",
-            "imagePath": "/ingredient/63e5121ea0a0603e5708dcbf-2835f650.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "5d07aeb2-477f-4671-b50c-92002892a1c8"
         },
         {
-            "id": "63e51229bc1d64f7b96e270b",
-            "uuid": "a0b0fc8e-2f68-472b-b727-cfae8306a2c4",
-            "name": "Lait",
-            "type": "lait-ml",
-            "slug": "lait",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51229bc1d64f7b96e270b-65046296.png",
-            "imagePath": "/ingredient/63e51229bc1d64f7b96e270b-65046296.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "ml",
+            "ingredient_id": "6f9e620a-3d17-42f7-a11a-e1484c355fff"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64fb2c8d71b62ce128341d29",
-    "name": "Gratin nordique au saumon & aneth",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3587,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 857,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 42.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 22.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 74.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 18.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 41.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.1,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 0,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 724,
-    "slug": "gratin-de-pommes-de-terre-and-saumon-fume",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 220°C (200°C chaleur tournante).\nPortez une grande casserole d'eau salée à ébullition pour les pommes de terre. Épluchez et coupez-les en dés d'environ 2 cm.\nCoupez le poireau en deux dans l'épaisseur, lavez-le bien, puis coupez-le en fines demi-lunes.\n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 220°C (200°C chaleur tournante).</li>\n<li>Portez une grande casserole d&#39;eau salée à ébullition pour les pommes de terre. Épluchez et coupez-les en dés d&#39;environ 2 cm.</li>\n<li>Coupez le poireau en deux dans l&#39;épaisseur, lavez-le bien, puis coupez-le en fines demi-lunes.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 220°C (200°C chaleur tournante).</li>\n<li>Portez une grande casserole d&#39;eau salée à ébullition pour les pommes de terre. Épluchez et coupez-les en dés d&#39;environ 2 cm.</li>\n<li>Coupez le poireau en deux dans l&#39;épaisseur, lavez-le bien, puis coupez-le en fines demi-lunes.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375",
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2c8d71b62ce128341d29/step-26cd1000.jpg",
-                    "path": "/64fb2c8d71b62ce128341d29/step-26cd1000.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites cuire les pommes de terre 10-13 min dans la casserole d'eau bouillante, ou jusqu'à ce que la pointe d'un couteau y rentre facilement.\nÉgouttez-les et réservez-les.\n",
-            "instructionsHTML": "<ul>\n<li>Faites cuire les pommes de terre 10-13 min dans la casserole d&#39;eau bouillante, ou jusqu&#39;à ce que la pointe d&#39;un couteau y rentre facilement.</li>\n<li>Égouttez-les et réservez-les.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites cuire les pommes de terre 10-13 min dans la casserole d&#39;eau bouillante, ou jusqu&#39;à ce que la pointe d&#39;un couteau y rentre facilement.</li>\n<li>Égouttez-les et réservez-les.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2c8d71b62ce128341d29/step-f7731010.jpg",
-                    "path": "/64fb2c8d71b62ce128341d29/step-f7731010.jpg",
-                    "caption": "Cuire les pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nFaites chauffer 1 cs de beurre par personne dans une poêle et faites-y revenir le poireau 3-4 min.\nAjoutez 2 cs d'eau par personne, couvrez et laissez mijoter 6-8 min supplémentaires. Poivrez. Remuez de temps à autre.\nPendant ce temps, effeuillez et ciselez l'aneth.\n\nCONSEIL: Le saumon fumé à chaud étant déjà assez salé, goûtez le plat avant de l'assaisonner.",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer 1 cs de beurre par personne dans une poêle et faites-y revenir le poireau 3-4 min.</li>\n<li>Ajoutez 2 cs d&#39;eau par personne, couvrez et laissez mijoter 6-8 min supplémentaires. Poivrez. Remuez de temps à autre.</li>\n<li>Pendant ce temps, effeuillez et ciselez l&#39;aneth.</li>\n</ul>\n<p>CONSEIL: Le saumon fumé à chaud étant déjà assez salé, goûtez le plat avant de l&#39;assaisonner.</p>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer 1 cs de beurre par personne dans une poêle et faites-y revenir le poireau 3-4 min.</li>\n<li>Ajoutez 2 cs d&#39;eau par personne, couvrez et laissez mijoter 6-8 min supplémentaires. Poivrez. Remuez de temps à autre.</li>\n<li>Pendant ce temps, effeuillez et ciselez l&#39;aneth.</li>\n</ul>\n<p>CONSEIL: Le saumon fumé à chaud étant déjà assez salé, goûtez le plat avant de l&#39;assaisonner.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff531"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2c8d71b62ce128341d29/step-c88fc220.jpg",
-                    "path": "/64fb2c8d71b62ce128341d29/step-c88fc220.jpg",
-                    "caption": "Faire la fondue de poireaux"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nFaites fondre 25 g de beurre par personne dans une casserole à feu moyen. Ajoutez-y la farine et faites cuire le tout 2-3 min en remuant.\nÀ feu moyen, ajoutez ⅓ du lait et remuez constamment au fouet. Une fois le lait entièrement absorbé, répétez l'opération avec le reste de lait.\nFaites bouillir doucement 3-4 min à feu moyen-vif, ou jusqu'à ce que la sauce épaississe. Râpez un peu de noix de muscade par-dessus (selon votre goût).\nAjoutez les ⅔ de l'aneth et de l'emmental râpé. Poivrez et mélangez.\n",
-            "instructionsHTML": "<ul>\n<li>Faites fondre 25 g de beurre par personne dans une casserole à feu moyen. Ajoutez-y la farine et faites cuire le tout 2-3 min en remuant.</li>\n<li>À feu moyen, ajoutez <strong>⅓</strong> du lait et remuez constamment au fouet. Une fois le lait entièrement absorbé, répétez l&#39;opération avec le reste de lait.</li>\n<li>Faites bouillir doucement 3-4 min à feu moyen-vif, ou jusqu&#39;à ce que la sauce épaississe. Râpez un peu de noix de muscade par-dessus (selon votre goût).</li>\n<li>Ajoutez les ⅔ de l&#39;aneth et de l&#39;emmental râpé. Poivrez et mélangez.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites fondre 25 g de beurre par personne dans une casserole à feu moyen. Ajoutez-y la farine et faites cuire le tout 2-3 min en remuant.</li>\n<li>À feu moyen, ajoutez <strong>⅓</strong> du lait et remuez constamment au fouet. Une fois le lait entièrement absorbé, répétez l&#39;opération avec le reste de lait.</li>\n<li>Faites bouillir doucement 3-4 min à feu moyen-vif, ou jusqu&#39;à ce que la sauce épaississe. Râpez un peu de noix de muscade par-dessus (selon votre goût).</li>\n<li>Ajoutez les ⅔ de l&#39;aneth et de l&#39;emmental râpé. Poivrez et mélangez.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375",
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b305384"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2c8d71b62ce128341d29/step-6b190030.jpg",
-                    "path": "/64fb2c8d71b62ce128341d29/step-6b190030.jpg",
-                    "caption": "Faire la béchamel"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nGraissez un plat à four avec un peu de beurre ou d’huile d’olive.\nVersez-y la fondue de poireaux, puis le saumon (voir CONSEIL). Recouvrez de pommes de terre. Salez et poivrez.\nVersez la béchamel sur le tout et saupoudrez avec le reste d'emmental râpé. Enfournez 15-25 min, ou jusqu’à ce que le gratin soit doré.\n\nCONSEIL: Pensez à retirer les arêtes du saumon s'il y en a !",
-            "instructionsHTML": "<ul>\n<li>Graissez un plat à four avec un peu de beurre ou d’huile d’olive.</li>\n<li>Versez-y la fondue de poireaux, puis le saumon (voir CONSEIL). Recouvrez de pommes de terre. Salez et poivrez.</li>\n<li>Versez la béchamel sur le tout et saupoudrez avec le reste d&#39;emmental râpé. Enfournez 15-25 min, ou jusqu’à ce que le gratin soit doré.</li>\n</ul>\n<p>CONSEIL: Pensez à retirer les arêtes du saumon s&#39;il y en a !</p>",
-            "instructionsMarkdown": "<ul>\n<li>Graissez un plat à four avec un peu de beurre ou d’huile d’olive.</li>\n<li>Versez-y la fondue de poireaux, puis le saumon (voir CONSEIL). Recouvrez de pommes de terre. Salez et poivrez.</li>\n<li>Versez la béchamel sur le tout et saupoudrez avec le reste d&#39;emmental râpé. Enfournez 15-25 min, ou jusqu’à ce que le gratin soit doré.</li>\n</ul>\n<p>CONSEIL: Pensez à retirer les arêtes du saumon s&#39;il y en a !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2c8d71b62ce128341d29/step-60f35040.jpg",
-                    "path": "/64fb2c8d71b62ce128341d29/step-60f35040.jpg",
-                    "caption": "Enfourner le gratin"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nLaissez le gratin refroidir un peu pour qu'il se tienne mieux, puis coupez-le en parts et servez-les dans les assiettes.\nGarnissez avec le reste d'aneth.\n",
-            "instructionsHTML": "<ul>\n<li>Laissez le gratin refroidir un peu pour qu&#39;il se tienne mieux, puis coupez-le en parts et servez-les dans les assiettes.</li>\n<li>Garnissez avec le reste d&#39;aneth.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Laissez le gratin refroidir un peu pour qu&#39;il se tienne mieux, puis coupez-le en parts et servez-les dans les assiettes.</li>\n<li>Garnissez avec le reste d&#39;aneth.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2c8d71b62ce128341d29/step-250b9f50.jpg",
-                    "path": "/64fb2c8d71b62ce128341d29/step-250b9f50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "62388d0e819bac74ed3067ef",
-            "type": "pescatarian",
-            "name": "pescatarian",
-            "slug": "pescatarian",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": false
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT30M",
-    "uniqueRecipeCode": "RNL16521711-5",
-    "updatedAt": "2024-01-08T19:48:26+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff531",
-            "type": null,
-            "name": "Poêle avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305384",
-            "type": "whisk",
-            "name": "Fouet"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        }
-    ],
-    "uuid": "7078b857-f8da-4f43-95b9-e78f1464e1ba",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/gratin-de-pommes-de-terre-and-saumon-fume-64fb2c8d71b62ce128341d29",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61f",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61f",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61f",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.75,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61f",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 2,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61f",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 1000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 2,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61f",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 1200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 220°C (200°C chaleur tournante).\nPortez une grande casserole d'eau salée à ébullition pour les pommes de terre. Épluchez et coupez-les en dés d'environ 2 cm.\nCoupez le poireau en deux dans l'épaisseur, lavez-le bien, puis coupez-le en fines demi-lunes.\n",
+        "\nFaites cuire les pommes de terre 10-13 min dans la casserole d'eau bouillante, ou jusqu'à ce que la pointe d'un couteau y rentre facilement.\nÉgouttez-les et réservez-les.\n",
+        "\nFaites chauffer 1 cs de beurre par personne dans une poêle et faites-y revenir le poireau 3-4 min.\nAjoutez 2 cs d'eau par personne, couvrez et laissez mijoter 6-8 min supplémentaires. Poivrez. Remuez de temps à autre.\nPendant ce temps, effeuillez et ciselez l'aneth.\n\nCONSEIL: Le saumon fumé à chaud étant déjà assez salé, goûtez le plat avant de l'assaisonner.",
+        "\nFaites fondre 25 g de beurre par personne dans une casserole à feu moyen. Ajoutez-y la farine et faites cuire le tout 2-3 min en remuant.\nÀ feu moyen, ajoutez ⅓ du lait et remuez constamment au fouet. Une fois le lait entièrement absorbé, répétez l'opération avec le reste de lait.\nFaites bouillir doucement 3-4 min à feu moyen-vif, ou jusqu'à ce que la sauce épaississe. Râpez un peu de noix de muscade par-dessus (selon votre goût).\nAjoutez les ⅔ de l'aneth et de l'emmental râpé. Poivrez et mélangez.\n",
+        "\nGraissez un plat à four avec un peu de beurre ou d’huile d’olive.\nVersez-y la fondue de poireaux, puis le saumon (voir CONSEIL). Recouvrez de pommes de terre. Salez et poivrez.\nVersez la béchamel sur le tout et saupoudrez avec le reste d'emmental râpé. Enfournez 15-25 min, ou jusqu’à ce que le gratin soit doré.\n\nCONSEIL: Pensez à retirer les arêtes du saumon s'il y en a !",
+        "\nLaissez le gratin refroidir un peu pour qu'il se tienne mieux, puis coupez-le en parts et servez-les dans les assiettes.\nGarnissez avec le reste d'aneth.\n"
     ]
 }

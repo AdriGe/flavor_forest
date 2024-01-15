@@ -1,1003 +1,119 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "BNL2649-1",
-    "country": "FR",
-    "createdAt": "2020-08-05T09:18:54+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 142,
     "headline": "accompagnés d'une salade de melon et feta",
-    "id": "5f2a797de89f5e7e285e90f5",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200729_R73_W36_NL_B2649-1_KB_Main_low-b4868682.jpg",
-    "imagePath": "/image/HF200729_R73_W36_NL_B2649-1_KB_Main_low-b4868682.jpg",
+    "name": "Bavette & pommes de terre en papillote",
+    "prepTime": 50,
+    "totalTime": 40,
+    "image_id": "5f2a797de89f5e7e285e90f5",
+    "id": "8d558c3d-de26-40ae-a47d-7e02340c87b8",
+    "nutrition": {
+        "kcal": 655,
+        "fat": 35.98,
+        "saturated_fat": 14.8,
+        "carbohydrate": 66.92,
+        "sugars": 21.38,
+        "protein": 12.53,
+        "sodium": 0.63
+    },
+    "tags": [],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Papier aluminium",
+        "Petit bol",
+        "Plat à four",
+        "Saladier",
+        "Poêle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf22b0da194777986166",
-            "uuid": "d67e98f2-2774-5b94-b51a-359ed028712e",
-            "name": "Pommes de terre",
-            "type": "potato",
-            "slug": "pommes-de-terre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "imagePath": "/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "g",
+            "ingredient_id": "e96c155b-870a-4201-9e2f-ed3c064850d3"
         },
         {
-            "id": "6405bf97af4af6d531d50c29",
-            "uuid": "e56b7cda-db40-5f4e-b707-9b37d7df6a21",
-            "name": "Bavette de bœuf",
-            "type": "flank-steak",
-            "slug": "bavette-de-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf97af4af6d531d50c29-e7a18d3c.png",
-            "imagePath": "/ingredient/6405bf97af4af6d531d50c29-e7a18d3c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "386c8b04-9934-43c8-b7c8-17fc1c5703bf",
+            "portion_id": "66c78723-d5e0-498b-92e2-ba989c656773",
+            "image_id": "6405bf97af4af6d531d50c29"
         },
         {
-            "id": "6405bfeeb0da19477798641f",
-            "uuid": "695d5701-50cd-5194-97b0-3af410139d8e",
-            "name": "Melon cantaloup",
-            "type": "cantaloupe-melon",
-            "slug": "melon-cantaloup",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfeeb0da19477798641f-f660af00.png",
-            "imagePath": "/ingredient/6405bfeeb0da19477798641f-f660af00.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "579e4dfd-ad42-4f7f-8d92-be1faad6d6c5",
+            "portion_id": "5d9883a0-67eb-446a-96a3-6beddb9e1bed",
+            "image_id": "6405bfeeb0da19477798641f"
         },
         {
-            "id": "64073ba79c6d10cd16eab61a",
-            "uuid": "b1c9793a-0cbe-5d9a-a748-d1657c7f5dd2",
-            "name": "Feta",
-            "type": "feta-cheese",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "imagePath": "/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "1ebb2ad3-510c-46f9-b2af-bc490d857206"
         },
         {
-            "id": "64073ca1df6297bb5beef1d6",
-            "uuid": "0a44368f-b20d-4907-862a-570767e2701e",
-            "name": "Menthe et ciboulette",
-            "type": "fresh-mint-and-chives",
-            "slug": "menthe-et-ciboulette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf18b9d07cd5d38d795f-7a0b80d3.png",
-            "imagePath": "/ingredient/6405bf18b9d07cd5d38d795f-7a0b80d3.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "e3351cb6-6986-4f44-a33e-be9f72b0b76c"
         },
         {
-            "id": "6405bf70af4af6d531d50baf",
-            "uuid": "c00fbece-48b7-5e14-b827-db38a6f68484",
-            "name": "Crème aigre",
-            "type": "sour-cream",
-            "slug": "creme-aigre",
-            "country": "FR",
-            "imageLink": null,
-            "imagePath": null,
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "3c5d0d1d-e59f-4aef-bf0f-154f9e142271"
         },
         {
-            "id": "6405bf73af4af6d531d50bb9",
-            "uuid": "1e3bb71b-e353-4bb4-9d32-8a39830b6eee",
-            "name": "Crème aigre BIO",
-            "type": "organic-sour-cream",
-            "slug": "creme-aigre-bio",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf73af4af6d531d50bb9-1e7edaaa.png",
-            "imagePath": "/ingredient/6405bf73af4af6d531d50bb9-1e7edaaa.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "g",
+            "ingredient_id": "84b5b52a-a29b-4109-8cd1-fffee9f7fd78"
         },
         {
-            "id": "6405bff5b9d07cd5d38d7c76",
-            "uuid": "d1df67b3-1bf7-5025-a8ae-89f05138ea15",
-            "name": "Thym",
-            "type": "thyme",
-            "slug": "thym",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff5b9d07cd5d38d7c76-1ab02374.png",
-            "imagePath": "/ingredient/6405bff5b9d07cd5d38d7c76-1ab02374.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "5dcb8253-c5ad-414e-96fb-7b8e79e99bc8"
         },
         {
-            "id": "6405bf1cb9d07cd5d38d796e",
-            "uuid": "53a96a7f-0a28-58a9-bccd-f846bf404e1a",
-            "name": "Tomates cerises rouges",
-            "type": "cherry-tomatoes",
-            "slug": "tomates-cerises-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "imagePath": "/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "f0989f17-f1fc-47a1-9546-d84cd6bd6179"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "Festin",
-        "handle": "bourgoundisch",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#b2602f",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/5f2a797de89f5e7e285e90f5",
-    "name": "Bavette & pommes de terre en papillote",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 655,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2741,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 35.98,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 14.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 66.92,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 21.38,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 12.53,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.63,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 15,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 585,
-    "slug": "bavette-and-pommes-de-terre-en-papillote",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Sortez la bavette du réfrigérateur. Préchauffez le four à 210 degrés.Lavez les pommes de terre. Coupez les petites en deux dans le sens de la longueur et les plus grosses en quatre. Déchirez une feuille d'aluminium de 30 cm sur 30 cm par personne. Disposez les pommes de terre dessus et arrosez avec la moitié de l'huile d'olive. Salez et poivrez.Refermez bien la feuille d'aluminium et enfournez les papillotes du côté droit d'une plaque de cuisson recouverte de papier sulfurisé 35 à 45 minutes.CONSEIL: Sortez-la de préférence une demi-heure à heure avant de commencer à cuisiner.",
-            "instructionsHTML": "<ul><li>Sortez la bavette du réfrigérateur. Préchauffez le four à 210 degrés.</li><li>Lavez les pommes de terre. Coupez les petites en deux dans le sens de la longueur et les plus grosses en quatre. Déchirez une feuille d&#39;aluminium de 30 cm sur 30 cm par personne. </li><li>Disposez les pommes de terre dessus et arrosez avec la moitié de l&#39;huile d&#39;olive. Salez et poivrez.</li><li>Refermez bien la feuille d&#39;aluminium et enfournez les papillotes du côté droit d&#39;une plaque de cuisson recouverte de papier sulfurisé 35 à 45 minutes.</li></ul><p>CONSEIL: Sortez-la de préférence une demi-heure à heure avant de commencer à cuisiner.</p>",
-            "instructionsMarkdown": "<ul><li>Sortez la bavette du réfrigérateur. Préchauffez le four à 210 degrés.</li><li>Lavez les pommes de terre. Coupez les petites en deux dans le sens de la longueur et les plus grosses en quatre. Déchirez une feuille d&#39;aluminium de 30 cm sur 30 cm par personne. </li><li>Disposez les pommes de terre dessus et arrosez avec la moitié de l&#39;huile d&#39;olive. Salez et poivrez.</li><li>Refermez bien la feuille d&#39;aluminium et enfournez les papillotes du côté droit d&#39;une plaque de cuisson recouverte de papier sulfurisé 35 à 45 minutes.</li></ul><p>CONSEIL: Sortez-la de préférence une demi-heure à heure avant de commencer à cuisiner.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522",
-                "57e2674fb7e8697d4b305366"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a797de89f5e7e285e90f5/step-06dc3100.jpg",
-                    "path": "/5f2a797de89f5e7e285e90f5/step-06dc3100.jpg",
-                    "caption": "Préparer les pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Ciselez la ciboulette.Dans un petit bol, mélangez la crème aigre avec la ciboulette. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Ciselez la ciboulette.</li><li>Dans un petit bol, mélangez la crème aigre avec la ciboulette. Salez et poivrez.</li></ul><p><br></p>",
-            "instructionsMarkdown": "<ul><li>Ciselez la ciboulette.</li><li>Dans un petit bol, mélangez la crème aigre avec la ciboulette. Salez et poivrez.</li></ul><p><br></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a797de89f5e7e285e90f5/step-421bd210.jpg",
-                    "path": "/5f2a797de89f5e7e285e90f5/step-421bd210.jpg",
-                    "caption": "Préparer la sauce aux herbes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans un plat à four, mélangez les tomates cerises avec le reste d'huile d'olive et 1 cc de vinaigre balsamique noir par personne. Salez et poivrez.Enfournez-les lors des 15 dernières minutes de cuisson des pommes de terre.",
-            "instructionsHTML": "<ul><li>Dans un plat à four, mélangez les tomates cerises avec le reste d&#39;huile d&#39;olive et 1 cc de vinaigre balsamique noir par personne. Salez et poivrez.</li><li>Enfournez-les lors des 15 dernières minutes de cuisson des pommes de terre.</li></ul><p><br></p>",
-            "instructionsMarkdown": "<ul><li>Dans un plat à four, mélangez les tomates cerises avec le reste d&#39;huile d&#39;olive et 1 cc de vinaigre balsamique noir par personne. Salez et poivrez.</li><li>Enfournez-les lors des 15 dernières minutes de cuisson des pommes de terre.</li></ul><p><br></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a797de89f5e7e285e90f5/step-958f0820.jpg",
-                    "path": "/5f2a797de89f5e7e285e90f5/step-958f0820.jpg",
-                    "caption": "Cuire les tomates cerises"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Coupez le melon en deux, épépinez-le à la cuillère et coupez-le en tranches. Retirez-en la peau et coupez-le en dés.Effeuillez la menthe et ciselez-en les feuilles en lanières.Dans un saladier, mélangez le melon avec la menthe puis assaisonnez avec 1 cc de vinaigre balsamique noir par personne, du sel et du poivre.Émiettez la feta par-dessus.",
-            "instructionsHTML": "<ul><li>Coupez le melon en deux, épépinez-le à la cuillère et coupez-le en tranches. Retirez-en la peau et coupez-le en dés.</li><li>Effeuillez la menthe et ciselez-en les feuilles en lanières.</li><li>Dans un saladier, mélangez le melon avec la menthe puis assaisonnez avec 1 cc de vinaigre balsamique noir par personne, du sel et du poivre.</li><li>Émiettez la feta par-dessus.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez le melon en deux, épépinez-le à la cuillère et coupez-le en tranches. Retirez-en la peau et coupez-le en dés.</li><li>Effeuillez la menthe et ciselez-en les feuilles en lanières.</li><li>Dans un saladier, mélangez le melon avec la menthe puis assaisonnez avec 1 cc de vinaigre balsamique noir par personne, du sel et du poivre.</li><li>Émiettez la feta par-dessus.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a797de89f5e7e285e90f5/step-2061fe30.jpg",
-                    "path": "/5f2a797de89f5e7e285e90f5/step-2061fe30.jpg",
-                    "caption": "Préparer la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Attendez que les pommes de terre et les tomates soient presque prêtes.Salez et poivrez généreusement la bavette. Faites chauffer une poêle à feu vif et ajoutez le beurre dès que celle-ci est très chaude.Ajoutez la bavette et les branches de thym à la poêle. Faites cuire la bavette 1 à 2 minutes par côté. Laissez-la ensuite reposer 3 minutes hors de la poêle sous une feuille d'aluminium.CONSEIL: Coupez le beurre en dés avant de l'ajouter à la poêle. Tous les morceaux fondront ainsi en même temps et vous éviterez qu'une partie du beurre ne brûle.",
-            "instructionsHTML": "<ul><li>Attendez que les pommes de terre et les tomates soient presque prêtes.</li><li>Salez et poivrez généreusement la bavette. Faites chauffer une poêle à feu vif et ajoutez le beurre dès que celle-ci est très chaude.</li><li>Ajoutez la bavette et les branches de thym à la poêle. Faites cuire la bavette 1 à 2 minutes par côté. Laissez-la ensuite reposer 3 minutes hors de la poêle sous une feuille d&#39;aluminium.</li></ul><p>CONSEIL: Coupez le beurre en dés avant de l&#39;ajouter à la poêle. Tous les morceaux fondront ainsi en même temps et vous éviterez qu&#39;une partie du beurre ne brûle.</p>",
-            "instructionsMarkdown": "<ul><li>Attendez que les pommes de terre et les tomates soient presque prêtes.</li><li>Salez et poivrez généreusement la bavette. Faites chauffer une poêle à feu vif et ajoutez le beurre dès que celle-ci est très chaude.</li><li>Ajoutez la bavette et les branches de thym à la poêle. Faites cuire la bavette 1 à 2 minutes par côté. Laissez-la ensuite reposer 3 minutes hors de la poêle sous une feuille d&#39;aluminium.</li></ul><p>CONSEIL: Coupez le beurre en dés avant de l&#39;ajouter à la poêle. Tous les morceaux fondront ainsi en même temps et vous éviterez qu&#39;une partie du beurre ne brûle.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383",
-                "57e2674fb7e8697d4b305366"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a797de89f5e7e285e90f5/step-bc751f40.jpg",
-                    "path": "/5f2a797de89f5e7e285e90f5/step-bc751f40.jpg",
-                    "caption": "Cuire la bavette"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Découpez la bavette à contrefil en fines tranches et servez-les sur les assiettes. Disposez les tomates cerises en partie dessus et en partie à côté.Placez les papillotes de pommes de terre à côté. Ouvrez-les un peu. Attention à la vapeur !Garnissez de crème aigre. Accompagnez de la salade de melon et feta.",
-            "instructionsHTML": "<ul><li>Découpez la bavette à contrefil en fines tranches et servez-les sur les assiettes. Disposez les tomates cerises en partie dessus et en partie à côté.</li><li>Placez les papillotes de pommes de terre à côté. Ouvrez-les un peu. Attention à la vapeur !</li><li>Garnissez de crème aigre. </li><li>Accompagnez de la salade de melon et feta.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Découpez la bavette à contrefil en fines tranches et servez-les sur les assiettes. Disposez les tomates cerises en partie dessus et en partie à côté.</li><li>Placez les papillotes de pommes de terre à côté. Ouvrez-les un peu. Attention à la vapeur !</li><li>Garnissez de crème aigre. </li><li>Accompagnez de la salade de melon et feta.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a797de89f5e7e285e90f5/step-6f6cc850.jpg",
-                    "path": "/5f2a797de89f5e7e285e90f5/step-6f6cc850.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": "PT40M",
-    "uniqueRecipeCode": "BNL2649-1",
-    "updatedAt": "2023-10-13T10:40:02+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        }
-    ],
-    "uuid": "ae519baa-d967-4b22-a27a-0c01c274e022",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/bavette-and-pommes-de-terre-en-papillote-5f2a797de89f5e7e285e90f5",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c29",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeeb0da19477798641f",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ca1df6297bb5beef1d6",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf73af4af6d531d50bb9",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff5b9d07cd5d38d7c76",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c29",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeeb0da19477798641f",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ca1df6297bb5beef1d6",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf73af4af6d531d50bb9",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff5b9d07cd5d38d7c76",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c29",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeeb0da19477798641f",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ca1df6297bb5beef1d6",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf73af4af6d531d50bb9",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff5b9d07cd5d38d7c76",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c29",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeeb0da19477798641f",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ca1df6297bb5beef1d6",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf73af4af6d531d50bb9",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff5b9d07cd5d38d7c76",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c29",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeeb0da19477798641f",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ca1df6297bb5beef1d6",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf73af4af6d531d50bb9",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff5b9d07cd5d38d7c76",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c29",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeeb0da19477798641f",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ca1df6297bb5beef1d6",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf73af4af6d531d50bb9",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff5b9d07cd5d38d7c76",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Sortez la bavette du réfrigérateur. Préchauffez le four à 210 degrés.Lavez les pommes de terre. Coupez les petites en deux dans le sens de la longueur et les plus grosses en quatre. Déchirez une feuille d'aluminium de 30 cm sur 30 cm par personne. Disposez les pommes de terre dessus et arrosez avec la moitié de l'huile d'olive. Salez et poivrez.Refermez bien la feuille d'aluminium et enfournez les papillotes du côté droit d'une plaque de cuisson recouverte de papier sulfurisé 35 à 45 minutes.CONSEIL: Sortez-la de préférence une demi-heure à heure avant de commencer à cuisiner.",
+        "Ciselez la ciboulette.Dans un petit bol, mélangez la crème aigre avec la ciboulette. Salez et poivrez.",
+        "Dans un plat à four, mélangez les tomates cerises avec le reste d'huile d'olive et 1 cc de vinaigre balsamique noir par personne. Salez et poivrez.Enfournez-les lors des 15 dernières minutes de cuisson des pommes de terre.",
+        "Coupez le melon en deux, épépinez-le à la cuillère et coupez-le en tranches. Retirez-en la peau et coupez-le en dés.Effeuillez la menthe et ciselez-en les feuilles en lanières.Dans un saladier, mélangez le melon avec la menthe puis assaisonnez avec 1 cc de vinaigre balsamique noir par personne, du sel et du poivre.Émiettez la feta par-dessus.",
+        "Attendez que les pommes de terre et les tomates soient presque prêtes.Salez et poivrez généreusement la bavette. Faites chauffer une poêle à feu vif et ajoutez le beurre dès que celle-ci est très chaude.Ajoutez la bavette et les branches de thym à la poêle. Faites cuire la bavette 1 à 2 minutes par côté. Laissez-la ensuite reposer 3 minutes hors de la poêle sous une feuille d'aluminium.CONSEIL: Coupez le beurre en dés avant de l'ajouter à la poêle. Tous les morceaux fondront ainsi en même temps et vous éviterez qu'une partie du beurre ne brûle.",
+        "Découpez la bavette à contrefil en fines tranches et servez-les sur les assiettes. Disposez les tomates cerises en partie dessus et en partie à côté.Placez les papillotes de pommes de terre à côté. Ouvrez-les un peu. Attention à la vapeur !Garnissez de crème aigre. Accompagnez de la salade de melon et feta."
     ]
 }

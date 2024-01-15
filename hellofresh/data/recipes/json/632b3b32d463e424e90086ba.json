@@ -1,1050 +1,139 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b1",
-        "name": "Seafood",
-        "type": "seafood",
-        "slug": "Seafood"
-    },
-    "clonedFrom": null,
-    "comment": "QFR29804276-1",
-    "country": "FR",
-    "createdAt": "2022-09-21T16:26:27+00:00",
     "cuisines": [
-        {
-            "id": "623d9c9e5bdfb809438c0db7",
-            "type": "brazilian",
-            "name": "Brasiliansk",
-            "slug": "brasiliansk",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/no-image.jpg"
-        }
+        "Brasiliansk"
     ],
     "description": "Typiquement brésilienne mais tirant ses origines de la cuisine indigène, portugaise et africaine, la moqueca est un ragoût de poisson associé à des légumes et du lait de coco. Elle est reconnaissable grâce à sa couleur jaune/orangée et est appréciée aux quatre coins du monde. Ici, nous avons remplacé le poisson par des crevettes, les fameuses \"camarão\" !",
-    "descriptionHTML": "<p>Typiquement brésilienne mais tirant ses origines de la cuisine indigène, portugaise et africaine, la moqueca est un ragoût de poisson associé à des légumes et du lait de coco. Elle est reconnaissable grâce à sa couleur jaune/orangée et est appréciée aux quatre coins du monde. Ici, nous avons remplacé le poisson par des crevettes, les fameuses &quot;camarão&quot; !</p>",
-    "descriptionMarkdown": "Typiquement brésilienne mais tirant ses origines de la cuisine indigène, portugaise et africaine, la moqueca est un ragoût de poisson associé à des légumes et du lait de coco. Elle est reconnaissable grâce à sa couleur jaune/orangée et est appréciée aux quatre coins du monde. Ici, nous avons remplacé le poisson par des crevettes, les fameuses \"camarão\" !",
     "difficulty": 2,
     "favoritesCount": 385,
     "headline": "avec du riz, du piment & du lait de coco",
-    "id": "632b3b32d463e424e90086ba",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220829_R217_W42_FR_QFR29804276-1__KB_Main_low-106e39a3.jpg",
-    "imagePath": "/image/HF220829_R217_W42_FR_QFR29804276-1__KB_Main_low-106e39a3.jpg",
+    "name": "Moqueca de camarão ou crevettes au poivron",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "632b3b32d463e424e90086ba",
+    "id": "2d294fa0-040a-4485-af63-fb4743438fa7",
+    "nutrition": {
+        "kcal": 635,
+        "fat": 30.2,
+        "saturated_fat": 21,
+        "carbohydrate": 78.48,
+        "sugars": 13.39,
+        "protein": 11.01,
+        "sodium": 1.5
+    },
+    "tags": [
+        "Famille",
+        "Épicé",
+        "Rapido"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Bol",
+        "Râpe",
+        "Sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bf80af4af6d531d50be2",
-            "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
-            "name": "Riz",
-            "type": "basmati-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "imagePath": "/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "c21a2845-afc7-40be-8240-4f67b9d7045d"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "6405bf38b9d07cd5d38d79d7",
-            "uuid": "8d7e4dc3-b08b-5c6d-854f-e969b7c86e52",
-            "name": "Crevettes",
-            "type": "shrimp",
-            "slug": "crevettes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf38b9d07cd5d38d79d7-1a63cbf1.png",
-            "imagePath": "/ingredient/6405bf38b9d07cd5d38d79d7-1a63cbf1.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "15b65058-a1ea-43d0-8d3f-98f74bec0948"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bff3b0da194777986433",
-            "uuid": "2a486e38-5998-51dd-b175-8383b12a3ec3",
-            "name": "Tomate",
-            "type": "tomato",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b0da194777986433-af108835.png",
-            "imagePath": "/ingredient/6405bff3b0da194777986433-af108835.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "3a59005f-4649-49c7-9be4-1c2ca22d9f1a",
+            "portion_id": "0c1f557a-3079-42ee-b32c-f0c552fe9730",
+            "image_id": "6405bff3b0da194777986433"
         },
         {
-            "id": "6405bf77b0da194777986291",
-            "uuid": "6b9b5891-6a0f-43b7-abac-f1d515dd2d91",
-            "name": "Poivron rouge",
-            "type": "red-bell-pepper",
-            "slug": "poivron-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "imagePath": "/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "d9370a6a-0327-43ae-867d-6bffcdab563a",
+            "portion_id": "4d35f7d2-9fbd-45df-8436-58d546534e81",
+            "image_id": "6405bf77b0da194777986291"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d"
         },
         {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.33,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pot(s)",
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93",
+            "portion_id": "0da30959-c785-43dc-9138-9b35fd2901e9",
+            "image_id": "6405bfefb9d07cd5d38d7c59"
         },
         {
-            "id": "6405bf7daf4af6d531d50bdd",
-            "uuid": "ae95225f-9805-5f92-afa8-0649e7e90122",
-            "name": "Cumin en poudre",
-            "type": "ground-cumin",
-            "slug": "cumin-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf7daf4af6d531d50bdd-999a1fac.png",
-            "imagePath": "/ingredient/6405bf7daf4af6d531d50bdd-999a1fac.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "a63ccc94-ca2d-4976-a0db-137f9bef5748",
+            "portion_id": "2a689171-8df3-47e4-963e-8db1909b18a7",
+            "image_id": "6405bf7daf4af6d531d50bdd"
         },
         {
-            "id": "6405bfdfb0da1947779863ee",
-            "uuid": "4be57e09-204f-50f6-abf5-a91e4a8099db",
-            "name": "Lait de coco",
-            "type": "coconut-milk",
-            "slug": "lait-de-coco",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "imagePath": "/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "ml",
+            "ingredient_id": "76aac1fa-8a19-4830-b297-778d46f6f9ea"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51213a0a0603e5708dcbc",
-            "uuid": "c5a74cca-d3a3-4032-ab07-d88327070a28",
-            "name": "Cube de bouillon de poisson",
-            "type": "cube-de-bouillon-de-poisson-pc",
-            "slug": "cube-de-bouillon-de-poisson",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51213a0a0603e5708dcbc-56a7f623.png",
-            "imagePath": "/ingredient/63e51213a0a0603e5708dcbc-56a7f623.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "bb314273-bc1c-4587-9881-9e9ec14c65d9",
+            "portion_id": "60125f5c-84df-48ab-a729-fdad0a82d1ac",
+            "image_id": "63e51213a0a0603e5708dcbc"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/632b3b32d463e424e90086ba",
-    "name": "Moqueca de camarão ou crevettes au poivron",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 635,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2658,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 30.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 21,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 78.48,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 13.39,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 11.01,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.5,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 727,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 461,
-    "slug": "moqueca-de-camarao-ou-crevettes-au-poivron",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une grand casserole d’eau salée à ébullition.Faites-y cuire le riz 12-14 min. Égouttez-le et réservez-le à couvert.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span>Portez une grand casserole d’eau salée à ébullition.</span></li><li><span>Faites-y cuire le riz 12-14 min. Égouttez-le et réservez-le à couvert.</span></li></ul><p><br></p>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span>Portez une grand casserole d’eau salée à ébullition.</span></li><li><span>Faites-y cuire le riz 12-14 min. Égouttez-le et réservez-le à couvert.</span></li></ul><p><br></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/632b3b32d463e424e90086ba/step-0dc7ec00.jpg",
-                    "path": "/632b3b32d463e424e90086ba/step-0dc7ec00.jpg",
-                    "caption": "Cuire le riz"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers. Dans un bol, mélangez les crevettes avec les zestes et le jus de ¼ de citron par personne (selon votre goût). Salez et poivrez, puis réservez.Ciselez finement l'ail et l'oignon. Coupez la tomate et le poivron en dés de 1 cm. Effeuillez la coriandre. Épépinez et émincez le piment (ça pique ! Dosez-le selon votre goût).",
-            "instructionsHTML": "<ul><li><span>Lavez bien le citron et prélevez-en le zeste avec une râpe fine</span><span>, puis c</span>oupez-le en quartiers. </li><li>Dans un bol, mélangez les crevettes avec les zestes et le jus <span>de ¼</span> de citron par personne (selon votre goût). Salez et poivrez, puis réservez.</li><li><span>Ciselez finement l&#39;ail et l&#39;oignon. C</span>oupez la tomate et le poivron en dés de 1 cm. </li><li><span>Effeuillez la coriandre. Épépinez et émincez le piment </span><span>(ça pique ! Dosez-le selon votre goût).</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Lavez bien le citron et prélevez-en le zeste avec une râpe fine</span><span>, puis c</span>oupez-le en quartiers. </li><li>Dans un bol, mélangez les crevettes avec les zestes et le jus <span>de ¼</span> de citron par personne (selon votre goût). Salez et poivrez, puis réservez.</li><li><span>Ciselez finement l&#39;ail et l&#39;oignon. C</span>oupez la tomate et le poivron en dés de 1 cm. </li><li><span>Effeuillez la coriandre. Épépinez et émincez le piment </span><span>(ça pique ! Dosez-le selon votre goût).</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/632b3b32d463e424e90086ba/step-a1fffa10.jpg",
-                    "path": "/632b3b32d463e424e90086ba/step-a1fffa10.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites chauffer un filet d'huile d'olive à feu moyen-vif dans une sauteuse. Faites-y revenir l'oignon, le poivron, le piment, la tomate, l'ail et le concentré de tomates 3-4 min.Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent, puis ajoutez-le à la sauteuse, avec, par personne : ½ cc de cumin, ¼ de cube de bouillon de poisson et 10 ml d'eau. Laissez réduire 2-4 min ou jusqu'à ce que la sauce épaississe un peu.À feu moyen, ajoutez les crevettes et faites-les cuire 3-4 min en mélangeant délicatement. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive à feu moyen-vif dans une sauteuse. Faites-y revenir l&#39;oignon, le poivron, le piment, la tomate, l&#39;ail et le concentré de tomates 3-4 min.</li><li>Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent, puis ajoutez-le à la sauteuse, avec, par personne : ½ cc de cumin, <span>¼</span> de cube de bouillon de poisson et 10 ml d&#39;eau. Laissez réduire 2-4 min ou jusqu&#39;à ce que la sauce épaississe un peu.</li><li>À feu moyen, ajoutez les crevettes et faites-les cuire 3-4 min en mélangeant délicatement. Salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive à feu moyen-vif dans une sauteuse. Faites-y revenir l&#39;oignon, le poivron, le piment, la tomate, l&#39;ail et le concentré de tomates 3-4 min.</li><li>Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent, puis ajoutez-le à la sauteuse, avec, par personne : ½ cc de cumin, <span>¼</span> de cube de bouillon de poisson et 10 ml d&#39;eau. Laissez réduire 2-4 min ou jusqu&#39;à ce que la sauce épaississe un peu.</li><li>À feu moyen, ajoutez les crevettes et faites-les cuire 3-4 min en mélangeant délicatement. Salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/632b3b32d463e424e90086ba/step-88a0a220.jpg",
-                    "path": "/632b3b32d463e424e90086ba/step-88a0a220.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Servez le riz dans des assiettes creuses et disposez la moqueca par-dessus. Saupoudrez de coriandre et servez avec les quartiers de citron restants. ",
-            "instructionsHTML": "<ul><li>Servez le riz dans des assiettes creuses et disposez la moqueca par-dessus. </li><li>Saupoudrez de coriandre et servez avec les quartiers de citron restants. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez le riz dans des assiettes creuses et disposez la moqueca par-dessus. </li><li>Saupoudrez de coriandre et servez avec les quartiers de citron restants. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/632b3b32d463e424e90086ba/step-b87ce430.jpg",
-                    "path": "/632b3b32d463e424e90086ba/step-b87ce430.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR29804276-1",
-    "updatedAt": "2024-01-05T21:15:32+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        }
-    ],
-    "uuid": "f8cc0840-fdbd-4600-a433-d32e1efcaedb",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/moqueca-de-camarao-ou-crevettes-au-poivron-632b3b32d463e424e90086ba",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf38b9d07cd5d38d79d7",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51213a0a0603e5708dcbc",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf38b9d07cd5d38d79d7",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51213a0a0603e5708dcbc",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf38b9d07cd5d38d79d7",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.75,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 375,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51213a0a0603e5708dcbc",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf38b9d07cd5d38d79d7",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51213a0a0603e5708dcbc",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf38b9d07cd5d38d79d7",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.83,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 625,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51213a0a0603e5708dcbc",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf38b9d07cd5d38d79d7",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 750,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51213a0a0603e5708dcbc",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une grand casserole d’eau salée à ébullition.Faites-y cuire le riz 12-14 min. Égouttez-le et réservez-le à couvert.",
+        "Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers. Dans un bol, mélangez les crevettes avec les zestes et le jus de ¼ de citron par personne (selon votre goût). Salez et poivrez, puis réservez.Ciselez finement l'ail et l'oignon. Coupez la tomate et le poivron en dés de 1 cm. Effeuillez la coriandre. Épépinez et émincez le piment (ça pique ! Dosez-le selon votre goût).",
+        "Faites chauffer un filet d'huile d'olive à feu moyen-vif dans une sauteuse. Faites-y revenir l'oignon, le poivron, le piment, la tomate, l'ail et le concentré de tomates 3-4 min.Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent, puis ajoutez-le à la sauteuse, avec, par personne : ½ cc de cumin, ¼ de cube de bouillon de poisson et 10 ml d'eau. Laissez réduire 2-4 min ou jusqu'à ce que la sauce épaississe un peu.À feu moyen, ajoutez les crevettes et faites-les cuire 3-4 min en mélangeant délicatement. Salez et poivrez.",
+        "Servez le riz dans des assiettes creuses et disposez la moqueca par-dessus. Saupoudrez de coriandre et servez avec les quartiers de citron restants. "
     ]
 }

@@ -1,937 +1,113 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f6",
-            "name": "Œuf",
-            "type": "egg",
-            "slug": "oeuf",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "620388dc45a9445ef377d614",
-            "name": "Avoine",
-            "type": "oats",
-            "slug": "avoine",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 2.9,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QNL2556-2",
-    "country": "FR",
-    "createdAt": "2020-10-20T09:22:58+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bf",
-            "type": "european",
-            "name": "European",
-            "slug": "european",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bf-ae882118.jpg"
-        }
+        "European"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 1,
     "favoritesCount": 465,
     "headline": "accompagnée de haricots plats et d'une mayonnaise à l'aneth",
-    "id": "5f8eac705e1d82689d571efe",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200528_R13_W27_NL_Q2556-1_MB_Main_low-b0761765.jpg",
-    "imagePath": "/image/HF200528_R13_W27_NL_Q2556-1_MB_Main_low-b0761765.jpg",
+    "name": "Galette panée végétarienne & pommes de terre rissolées",
+    "prepTime": 15,
+    "totalTime": 15,
+    "image_id": "5f8eac705e1d82689d571efe",
+    "id": "165bd860-d2d6-4c46-a4e4-0a08578e669e",
+    "nutrition": {
+        "kcal": 465,
+        "fat": 31.71,
+        "saturated_fat": 6.92,
+        "carbohydrate": 24.08,
+        "sugars": 3.93,
+        "protein": 16.4,
+        "sodium": 1
+    },
+    "tags": [
+        "Rapido",
+        "Végétarien",
+        "Famille"
+    ],
+    "utensils": [
+        "Poêle",
+        "Poêle avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf1db9d07cd5d38d7974",
-            "uuid": "ebbdaeb3-c34b-4b13-b03f-abdd8cba38d9",
-            "name": "Pommes de terre précuites assaisonnées",
-            "type": "pre-cooked-seasoned-potatoes",
-            "slug": "pommes-de-terre-precuites-assaisonnees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1db9d07cd5d38d7974-647fbe2d.png",
-            "imagePath": "/ingredient/6405bf1db9d07cd5d38d7974-647fbe2d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "7ae78626-02d0-4287-a72e-3e33ceba9e37"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf8db9d07cd5d38d7b11",
-            "uuid": "2623d7a4-6a79-438a-913d-1d1564ff2298",
-            "name": "Oignons rouges hachés",
-            "type": "chopped-onion",
-            "slug": "oignons-rouges-haches",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8db9d07cd5d38d7b11-e88594b4.png",
-            "imagePath": "/ingredient/6405bf8db9d07cd5d38d7b11-e88594b4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "64073cec683721c9a32b080c",
-            "uuid": "f8dd4f44-74ea-4679-909b-333db7a9bb5a",
-            "name": "Haricots plats coupés",
-            "type": "sliced-runner-beans",
-            "slug": "haricots-plats-coupes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf98b9d07cd5d38d7b3a-bf7c71fe.png",
-            "imagePath": "/ingredient/6405bf98b9d07cd5d38d7b3a-bf7c71fe.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "64073d7c9c6d10cd16eab746",
-            "uuid": "afa6e13d-aa7d-4737-b67b-09435c2b1c09",
-            "name": "Burger de carotte et de courge",
-            "type": "carrot-and-squash-burger",
-            "slug": "burger-de-carotte-et-de-courge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe4b9d07cd5d38d7c3b-e450cdd9.png",
-            "imagePath": "/ingredient/6405bfe4b9d07cd5d38d7c3b-e450cdd9.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f6",
-                "57962a07b7e8697d4b3052f5",
-                "620388dc45a9445ef377d614"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "64073d7c9c6d10cd16eab747",
-            "uuid": "558a6dde-e288-4db2-9416-24eb3011dcf7",
-            "name": "Escalope végétarienne",
-            "type": "vegetarian-schnitzel",
-            "slug": "escalope-vegetarienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c002b0da194777986468-ec399123.png",
-            "imagePath": "/ingredient/6405c002b0da194777986468-ec399123.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f6",
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "64073c159c6d10cd16eab691",
-            "uuid": "d6afeb8d-f6dd-5aff-af10-bb9f6fb7c0ce",
-            "name": "Aneth",
-            "type": "dill",
-            "slug": "aneth",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf84b0da1947779862b9-217d0b0b.png",
-            "imagePath": "/ingredient/6405bf84b0da1947779862b9-217d0b0b.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf78b9d07cd5d38d7ac9",
-            "uuid": "299fb038-5b86-57dd-95ba-4be0826d42cb",
-            "name": "Mayonnaise",
-            "type": "mayonnaise",
-            "slug": "mayonnaise",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf78b9d07cd5d38d7ac9-607ca746.png",
-            "imagePath": "/ingredient/6405bf78b9d07cd5d38d7ac9-607ca746.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5120f81b4b295e66f024c",
-            "uuid": "b4e35b51-11dd-40c7-ad89-298e1a7e2589",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cs",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "imagePath": "/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        }
-    ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5f8eac705e1d82689d571efe",
-    "name": "Galette panée végétarienne & pommes de terre rissolées",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 465,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1946,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 31.71,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 6.92,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 24.08,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 3.93,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 16.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
             "amount": 1,
-            "unit": "g"
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
+        },
+        {
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
+        },
+        {
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "7e53681f-07bf-4cbb-9981-250e66c77916"
+        },
+        {
+            "amount": 300,
+            "unit": "g",
+            "ingredient_id": "0dd9218f-827c-479d-860f-ac6ac009afc9"
+        },
+        {
+            "amount": null,
+            "unit": "pièce(s)",
+            "ingredient_id": "a693b005-627a-434b-a5ff-8a16f3a692ba",
+            "portion_id": "db225f59-e859-4c94-a595-11dcac5a1c23",
+            "image_id": "64073d7c9c6d10cd16eab746"
+        },
+        {
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "970cb3b4-467e-45b2-b0ce-6708ee34e64b",
+            "portion_id": "19122aac-3aff-4c6d-abd7-c52130440ed8",
+            "image_id": "64073d7c9c6d10cd16eab747"
+        },
+        {
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "e2edf03d-bba6-4855-9ce4-9d70235718c1"
+        },
+        {
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "841f9f9c-0755-4d85-8ed8-cea6973aa77f"
+        },
+        {
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "a06e5c2f-acd2-4770-8fac-0bdb4343cae2",
+            "portion_id": "4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad",
+            "image_id": "63e5120f81b4b295e66f024c"
+        },
+        {
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
+        },
+        {
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "prepTime": "PT15M",
-    "promotion": null,
-    "ratingsCount": 565,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 337,
-    "slug": "galette-panee-vegetarienne-and-pommes-de-terre-rissolees",
     "steps": [
-        {
-            "index": 2,
-            "instructions": "Faites chauffer 1/2 cs d'huile de tournesol par personne dans une poêle à feu moyen. Faites-y cuire les pommes de terre précuites 10 à 14 minutes. Remuez régulièrement.Pendant ce temps, pressez ou émincez l'ail. Coupez le citron en quartiers.",
-            "instructionsHTML": "<ul><li>Faites chauffer 1/2 cs d&#39;huile de tournesol par personne dans une poêle à feu moyen. </li><li>Faites-y cuire les pommes de terre précuites 10 à 14 minutes. Remuez régulièrement.</li><li>Pendant ce temps, pressez ou émincez l&#39;ail. </li><li>Coupez le citron en quartiers.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer 1/2 cs d&#39;huile de tournesol par personne dans une poêle à feu moyen. </li><li>Faites-y cuire les pommes de terre précuites 10 à 14 minutes. Remuez régulièrement.</li><li>Pendant ce temps, pressez ou émincez l&#39;ail. </li><li>Coupez le citron en quartiers.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f8eac705e1d82689d571efe/step-21860d00.jpg",
-                    "path": "/5f8eac705e1d82689d571efe/step-21860d00.jpg",
-                    "caption": "Cuire les pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans une autre poêle avec couvercle, faites chauffer 1/2 cs de beurre par personne à feu moyen-vif.Faites revenir l'ail, l'oignon et les haricots plats 10 à 12 minutes à couvert. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Dans une autre poêle avec couvercle, faites chauffer 1/2 cs de beurre par personne à feu moyen-vif.</li><li>Faites revenir l&#39;ail, l&#39;oignon et les haricots plats 10 à 12 minutes à couvert. Salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans une autre poêle avec couvercle, faites chauffer 1/2 cs de beurre par personne à feu moyen-vif.</li><li>Faites revenir l&#39;ail, l&#39;oignon et les haricots plats 10 à 12 minutes à couvert. Salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff531"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f8eac705e1d82689d571efe/step-c16b7610.jpg",
-                    "path": "/5f8eac705e1d82689d571efe/step-c16b7610.jpg",
-                    "caption": "Cuire les haricots plats"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Servez les pommes de terre et haricots plats dans des assiettes.Disposez une galette végétarienne sur chaque assiette et servez avec la mayonnaise à l'aneth et les quartiers de citron.",
-            "instructionsHTML": "<ul><li>Servez les pommes de terre et haricots plats dans des assiettes.</li><li>Disposez une galette végétarienne sur chaque assiette et servez avec la mayonnaise à l&#39;aneth et les quartiers de citron.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez les pommes de terre et haricots plats dans des assiettes.</li><li>Disposez une galette végétarienne sur chaque assiette et servez avec la mayonnaise à l&#39;aneth et les quartiers de citron.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f8eac705e1d82689d571efe/step-a35cc520.jpg",
-                    "path": "/5f8eac705e1d82689d571efe/step-a35cc520.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "QNL2556-2",
-    "updatedAt": "2024-01-03T09:32:46+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff531",
-            "type": null,
-            "name": "Poêle avec couvercle"
-        }
-    ],
-    "uuid": "dfb12faa-56bc-4544-922f-cb38ef5a2f03",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/galette-panee-vegetarienne-and-pommes-de-terre-rissolees-5f8eac705e1d82689d571efe",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf1db9d07cd5d38d7974",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db9d07cd5d38d7b11",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab746",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab747",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c159c6d10cd16eab691",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf1db9d07cd5d38d7974",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db9d07cd5d38d7b11",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab746",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab747",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c159c6d10cd16eab691",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf1db9d07cd5d38d7974",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db9d07cd5d38d7b11",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab746",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab747",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c159c6d10cd16eab691",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf1db9d07cd5d38d7974",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db9d07cd5d38d7b11",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab746",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab747",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c159c6d10cd16eab691",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf1db9d07cd5d38d7974",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db9d07cd5d38d7b11",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab746",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab747",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c159c6d10cd16eab691",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf1db9d07cd5d38d7974",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db9d07cd5d38d7b11",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab746",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073d7c9c6d10cd16eab747",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c159c6d10cd16eab691",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Faites chauffer 1/2 cs d'huile de tournesol par personne dans une poêle à feu moyen. Faites-y cuire les pommes de terre précuites 10 à 14 minutes. Remuez régulièrement.Pendant ce temps, pressez ou émincez l'ail. Coupez le citron en quartiers.",
+        "Dans une autre poêle avec couvercle, faites chauffer 1/2 cs de beurre par personne à feu moyen-vif.Faites revenir l'ail, l'oignon et les haricots plats 10 à 12 minutes à couvert. Salez et poivrez.",
+        "Servez les pommes de terre et haricots plats dans des assiettes.Disposez une galette végétarienne sur chaque assiette et servez avec la mayonnaise à l'aneth et les quartiers de citron."
     ]
 }

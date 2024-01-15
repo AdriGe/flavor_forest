@@ -1,957 +1,117 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": "5e283c00f9c2016c6767c7d2",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2020-01-22T12:25:41+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b9",
-            "type": "middleeastern",
-            "name": "Middle Eastern",
-            "slug": "middle-eastern",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b9-28649f9a.jpg"
-        }
+        "Middle Eastern"
     ],
     "description": ".",
-    "descriptionHTML": "<p>.</p>",
-    "descriptionMarkdown": ".",
     "difficulty": 2,
     "favoritesCount": 108,
     "headline": "accompagnée de persil frisé et d'une baguette d’épeautre",
-    "id": "5e283f45f9c2016c6767c7d5",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5e283f45f9c2016c6767c7d5-423878b9.jpg",
-    "imagePath": "/image/5e283f45f9c2016c6767c7d5-423878b9.jpg",
+    "name": "Chakchouka au fromage de chèvre",
+    "prepTime": 35,
+    "totalTime": null,
+    "image_id": "5e283f45f9c2016c6767c7d5",
+    "id": "3f2a9b61-82a9-4676-85db-9ba66c2dd295",
+    "nutrition": {
+        "kcal": 687,
+        "fat": 29,
+        "saturated_fat": 10.6,
+        "carbohydrate": 71,
+        "sugars": 18.4,
+        "protein": 32,
+        "sodium": 2.6
+    },
+    "tags": [
+        "Végétarien"
+    ],
+    "utensils": [
+        "Wok"
+    ],
     "ingredients": [
         {
-            "id": "5af2be31ae08b5194415a1f6",
-            "uuid": "06992613-fa3e-55ad-96fa-cdef4cb93b6c",
-            "name": "Oignon jaune",
-            "type": "qdoc-phf-10-16082-4",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/57be99fbd804b5894a8b4567-14277928.png",
-            "imagePath": "/image/57be99fbd804b5894a8b4567-14277928.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbee",
-                "uuid": "1a30a8a2-71bc-52c5-89fa-8184b99ce42c",
-                "name": "oignon",
-                "slug": "oignon",
-                "type": "onion",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a0d592fb-656a-47ac-9c02-0a6b7755ba29",
+            "portion_id": "6b8325d0-2a36-4a16-9160-2374ad50b133",
+            "image_id": "5af2be31ae08b5194415a1f6"
         },
         {
-            "id": "5c8bcd9de3f33973480ec962",
-            "uuid": "2a70261c-ee65-514b-9142-7e4e6d9035d9",
-            "name": "Gousse d'ail",
-            "type": "qdoc-phf-10-16851-4",
-            "slug": "ail-gousse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "imagePath": "/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fba4",
-                "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
-                "name": "ail",
-                "slug": "ail",
-                "type": "garlic",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "7b4e9ae1-f33a-4935-9557-720bcdd0ac89",
+            "portion_id": "74d6ed1b-2dda-4433-8a59-436a479a028d",
+            "image_id": "5c8bcd9de3f33973480ec962"
         },
         {
-            "id": "5c8bcda9e3f339735561c2c3",
-            "uuid": "ab5e57e3-ec82-5e47-b509-2e47ac2c6db9",
-            "name": "Piment rouge",
-            "type": "qdoc-phf-10-16054-4",
-            "slug": "poivron-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda9e3f339735561c2c3-e165f63c.png",
-            "imagePath": "/ingredient/5c8bcda9e3f339735561c2c3-e165f63c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb6d",
-                "uuid": "b7fdbff4-955d-578f-92e0-26786c9bc842",
-                "name": "piment",
-                "slug": "piment",
-                "type": "chili",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "ae5f0a1f-4201-4ea9-9011-717fb95a7c0a",
+            "portion_id": "566efd62-e410-4e6a-a956-4a14258ebd7c",
+            "image_id": "5c8bcda9e3f339735561c2c3"
         },
         {
-            "id": "5af2be69ae08b5194415a2c5",
-            "uuid": "6cd84ddb-c9c4-5025-a8f4-f48aa5499e34",
-            "name": "Poireau",
-            "type": "remps-phf-10-16053-4",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "imagePath": "/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbc4",
-                "uuid": "9689a917-d30a-5486-bbdf-01ce173a3ce2",
-                "name": "poireau",
-                "slug": "poireau",
-                "type": "leek",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "121a4815-934f-499d-9780-2e3af5162cfc",
+            "portion_id": "78267979-3647-4a83-9ce2-75a1a93925d3",
+            "image_id": "5af2be69ae08b5194415a2c5"
         },
         {
-            "id": "5c9e3f03c445fa5e1e745da4",
-            "uuid": "8d87959a-b182-53a0-82b0-531a7cbbe3da",
-            "name": "Tomate allongée",
-            "type": "qdoc-phf-10-41126-4",
-            "slug": "tomates-prunes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c9e3f03c445fa5e1e745da4-c7e152d3.png",
-            "imagePath": "/ingredient/5c9e3f03c445fa5e1e745da4-c7e152d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc46",
-                "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
-                "name": "tomate",
-                "slug": "tomate",
-                "type": "tomatoes",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "cb0e872d-4836-4b9e-94fd-024df9dfcbaf",
+            "portion_id": "4a003208-6c77-40bb-881f-f5cebbd503b9",
+            "image_id": "5c9e3f03c445fa5e1e745da4"
         },
         {
-            "id": "5af2be6dae08b5194415a2d4",
-            "uuid": "bc2aa080-4c4c-51d5-a5d6-abfde98df2ad",
-            "name": "Persil plat",
-            "type": "remps-phf-11-16129-4",
-            "slug": "persil-plat-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/56019908f8b25e417b8b4567.png",
-            "imagePath": "/image/56019908f8b25e417b8b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbf9",
-                "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
-                "name": "persil",
-                "slug": "persil",
-                "type": "parsley",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "0bbf4377-a6cf-448e-a5e9-78b238da7d55"
         },
         {
-            "id": "5c8bcda7e3f339735a76c463",
-            "uuid": "db327569-4554-568b-9f50-e42c558d551c",
-            "name": "Œuf",
-            "type": "qdoc-ptn-10-18001-4",
-            "slug": "oeuf-de-pour-elevee-en-plein-air",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda7e3f339735a76c463-b612d37c.png",
-            "imagePath": "/ingredient/5c8bcda7e3f339735a76c463-b612d37c.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb94",
-                "uuid": "03714c35-ec37-5062-ab80-c97adfd51696",
-                "name": "oeuf",
-                "slug": "oeuf",
-                "type": "eggs",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "3293c7f5-db27-4a77-966d-c74f5f67a004",
+            "portion_id": "736e5074-5a60-4e99-a298-c9b2784a3f7b",
+            "image_id": "5c8bcda7e3f339735a76c463"
         },
         {
-            "id": "5af2be2fae08b5194415a1ed",
-            "uuid": "661e58fc-b027-5409-8c5d-f56ac019e242",
-            "name": "Fromage de chèvre frais",
-            "type": "qdoc-dai-10-15099-4",
-            "slug": "fromage-de-chevre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredients/5627974c79a23c444b8b4567-b7e617f9.png",
-            "imagePath": "/ingredients/5627974c79a23c444b8b4567-b7e617f9.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb68",
-                "uuid": "a560b77e-37ae-5c55-82df-579a3d1d37de",
-                "name": "fromage",
-                "slug": "fromage",
-                "type": "cheese",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "e4078b2e-01b2-484b-b722-e26de7e1e9a4"
         },
         {
-            "id": "5e283f45f9c2016c6767c7d4",
-            "uuid": "bdfe9bff-c938-5bf2-a731-e7e61ec1eb7d",
-            "name": "Baguette à l'épeautre",
-            "type": "speltbaguette",
-            "slug": "speltbaguette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5e283f45f9c2016c6767c7d4-3156d88a.png",
-            "imagePath": "/ingredient/5e283f45f9c2016c6767c7d4-3156d88a.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f5",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb54",
-                "uuid": "3d0e6d2e-79f6-5aa1-ae2c-52c38a401193",
-                "name": "pâte à pain",
-                "slug": "pâte-à-pain",
-                "type": "bread",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": null,
+            "ingredient_id": "5a6b297d-a9c3-4f08-9553-dbd4652ae9f0"
         },
         {
-            "id": "5c8bcd9be3f3397358648c92",
-            "uuid": "9ee0d86f-1a50-54cc-9108-8ac7ea81a416",
-            "name": "Huile d'olive",
-            "type": "zt-olijfolie",
-            "slug": "huile-d-olive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbeb",
-                "uuid": "7c98f5ea-c7e6-530f-a8f7-837099e95a74",
-                "name": "huile",
-                "slug": "huile",
-                "type": "olive-oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "4ad6ce62-92c2-4612-8824-4fa5ed85fb05",
+            "portion_id": "d41c3d6a-8812-46d6-9e43-7327b8440275",
+            "image_id": "5c8bcd9be3f3397358648c92"
         },
         {
-            "id": "5c8bcd9de3f33973480ec963",
-            "uuid": "984f1655-1c4b-589b-a0a2-07d7b064fcdb",
-            "name": "Cube de bouillon de légumes",
-            "type": "qdoc-pro-10-45422-4",
-            "slug": "cube-de-bouillon-de-legumes-maggi",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9de3f33973480ec963-e8af262d.png",
-            "imagePath": "/ingredient/5c8bcd9de3f33973480ec963-e8af262d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc39",
-                "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
-                "name": "bouillon cube",
-                "slug": "bouillon-cube",
-                "type": "stock",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "4f030996-6693-46d1-8a75-aceaaa7b497a",
+            "portion_id": "88597f18-de94-4c9a-9297-5d529e120e21",
+            "image_id": "5c8bcd9de3f33973480ec963"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5e283f45f9c2016c6767c7d5",
-    "name": "Chakchouka au fromage de chèvre",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2872,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 687,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 29,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 71,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 18.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 32,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.6,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 66,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 625,
-    "slug": "chakchouka-au-fromage-de-chevre",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 210 degrés. Hachez l'oignon et écrasez ou émincez l'ail. Épépinez le piment rouge et le poivron rouge. Coupez les tomates prunes en petits dés et ciselez finement le persil frisé.",
-            "instructionsHTML": "<p>Préchauffez le four à 210 degrés. Hachez l'oignon et écrasez ou émincez l'ail. Épépinez le piment rouge et le poivron rouge. Coupez les tomates prunes en petits dés et ciselez finement le persil frisé.</p>",
-            "instructionsMarkdown": "Préchauffez le four à 210 degrés. Hachez l'oignon et écrasez ou émincez l'ail. Épépinez le piment rouge et le poivron rouge. Coupez les tomates prunes en petits dés et ciselez finement le persil frisé.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e283f45f9c2016c6767c7d5/step-c9c5dbc7.jpg",
-                    "path": "/5e283f45f9c2016c6767c7d5/step-c9c5dbc7.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer l’huile d’olive dans le wok ou la sauteuse et faites-y revenir l’oignon, l’ail et le piment rouge 2 minutes à feu moyen-vif. Puis, ajoutez le poivron, la tomate et la moitié du persil.",
-            "instructionsHTML": "<p>Faites chauffer l’huile d’olive dans le wok ou la sauteuse et faites-y revenir l’oignon, l’ail et le piment rouge 2 minutes à feu moyen-vif. Puis, ajoutez le poivron, la tomate et la moitié du persil.</p>",
-            "instructionsMarkdown": "Faites chauffer l’huile d’olive dans le wok ou la sauteuse et faites-y revenir l’oignon, l’ail et le piment rouge 2 minutes à feu moyen-vif. Puis, ajoutez le poivron, la tomate et la moitié du persil.",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305387"
-            ],
-            "timers": [
-                {
-                    "name": "Faire revenir l’oignon, l’ail et le piment rouge",
-                    "duration": "PT02M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e283f45f9c2016c6767c7d5/step-920c5aff.jpg",
-                    "path": "/5e283f45f9c2016c6767c7d5/step-920c5aff.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Ajoutez ensuite 30 ml d’eau par personne dans le wok ou la sauteuse, puis émiettez le cube de bouillon par-dessus. Portez à ébullition en remuant, puis laissez mijoter 5 minutes à couvert. Salez et poivrez.",
-            "instructionsHTML": "<p>Ajoutez ensuite 30 ml d’eau par personne dans le wok ou la sauteuse, puis émiettez le cube de bouillon par-dessus. Portez à ébullition en remuant, puis laissez mijoter 5 minutes à couvert. Salez et poivrez.</p>",
-            "instructionsMarkdown": "Ajoutez ensuite 30 ml d’eau par personne dans le wok ou la sauteuse, puis émiettez le cube de bouillon par-dessus. Portez à ébullition en remuant, puis laissez mijoter 5 minutes à couvert. Salez et poivrez.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [
-                {
-                    "name": "Laisser mijoter les légumes à couvert",
-                    "duration": "PT05M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e283f45f9c2016c6767c7d5/step-12df97c9.jpg",
-                    "path": "/5e283f45f9c2016c6767c7d5/step-12df97c9.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pour chaque œuf, faites un petit cratère dans le mélange de légumes, puis cassez-y les œufs. Saupoudrez-les de sel et de poivre. Disposez le chèvre frais émietté sur l’ensemble, couvrez et laissez les œufs cuire pendant 10 minutes. Lors des 4 dernières minutes, retirez le couvercle, augmentez un peu le feu et laissez l’excédent d’eau s’évaporer.",
-            "instructionsHTML": "<p>Pour chaque œuf, faites un petit cratère dans le mélange de légumes, puis cassez-y les œufs. Saupoudrez-les de sel et de poivre. Disposez le chèvre frais émietté sur l’ensemble, couvrez et laissez les œufs cuire pendant 10 minutes. Lors des 4 dernières minutes, retirez le couvercle, augmentez un peu le feu et laissez l’excédent d’eau s’évaporer.</p>",
-            "instructionsMarkdown": "Pour chaque œuf, faites un petit cratère dans le mélange de légumes, puis cassez-y les œufs. Saupoudrez-les de sel et de poivre. Disposez le chèvre frais émietté sur l’ensemble, couvrez et laissez les œufs cuire pendant 10 minutes. Lors des 4 dernières minutes, retirez le couvercle, augmentez un peu le feu et laissez l’excédent d’eau s’évaporer.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [
-                {
-                    "name": "Cuire l’œuf à couvert",
-                    "duration": "PT06M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Cuire la chakchouka sans couvercle",
-                    "duration": "PT04M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e283f45f9c2016c6767c7d5/step-09f71e71.jpg",
-                    "path": "/5e283f45f9c2016c6767c7d5/step-09f71e71.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, enfournez la baguette à l'épeautre pendant 6 à 8 minutes ou jusqu’à ce qu’elle soit dorée.",
-            "instructionsHTML": "<p>Pendant ce temps, enfournez la baguette à l'épeautre pendant 6 à 8 minutes ou jusqu’à ce qu’elle soit dorée.</p>",
-            "instructionsMarkdown": "Pendant ce temps, enfournez la baguette à l'épeautre pendant 6 à 8 minutes ou jusqu’à ce qu’elle soit dorée.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [
-                {
-                    "name": "Enfourner la baguette",
-                    "duration": "PT08M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e283f45f9c2016c6767c7d5/step-385978c9.jpg",
-                    "path": "/5e283f45f9c2016c6767c7d5/step-385978c9.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le chakchouka sur les assiettes. Garnissez du reste de persil et accompagnez de la baguette à l'épeautre.",
-            "instructionsHTML": "<p>Servez le chakchouka sur les assiettes. Garnissez du reste de persil et accompagnez de la baguette à l'épeautre.</p>",
-            "instructionsMarkdown": "Servez le chakchouka sur les assiettes. Garnissez du reste de persil et accompagnez de la baguette à l'épeautre.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e283f45f9c2016c6767c7d5/step-c0627d46.jpg",
-                    "path": "/5e283f45f9c2016c6767c7d5/step-c0627d46.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-10T10:19:05+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305387",
-            "type": "wok",
-            "name": "Wok"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/chakchouka-au-fromage-de-chevre-5e283f45f9c2016c6767c7d5",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcda9e3f339735561c2c3",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c9e3f03c445fa5e1e745da4",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be2fae08b5194415a1ed",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "5e283f45f9c2016c6767c7d4",
-                    "amount": 1,
-                    "unit": null
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcda9e3f339735561c2c3",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c9e3f03c445fa5e1e745da4",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be2fae08b5194415a1ed",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "5e283f45f9c2016c6767c7d4",
-                    "amount": 2,
-                    "unit": null
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcda9e3f339735561c2c3",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c9e3f03c445fa5e1e745da4",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be2fae08b5194415a1ed",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5e283f45f9c2016c6767c7d4",
-                    "amount": 3,
-                    "unit": null
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcda9e3f339735561c2c3",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c9e3f03c445fa5e1e745da4",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be2fae08b5194415a1ed",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "5e283f45f9c2016c6767c7d4",
-                    "amount": 4,
-                    "unit": null
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcda9e3f339735561c2c3",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c9e3f03c445fa5e1e745da4",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be2fae08b5194415a1ed",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "5e283f45f9c2016c6767c7d4",
-                    "amount": 5,
-                    "unit": null
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcda9e3f339735561c2c3",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c9e3f03c445fa5e1e745da4",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be2fae08b5194415a1ed",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5e283f45f9c2016c6767c7d4",
-                    "amount": 6,
-                    "unit": null
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 210 degrés. Hachez l'oignon et écrasez ou émincez l'ail. Épépinez le piment rouge et le poivron rouge. Coupez les tomates prunes en petits dés et ciselez finement le persil frisé.",
+        "Faites chauffer l’huile d’olive dans le wok ou la sauteuse et faites-y revenir l’oignon, l’ail et le piment rouge 2 minutes à feu moyen-vif. Puis, ajoutez le poivron, la tomate et la moitié du persil.",
+        "Ajoutez ensuite 30 ml d’eau par personne dans le wok ou la sauteuse, puis émiettez le cube de bouillon par-dessus. Portez à ébullition en remuant, puis laissez mijoter 5 minutes à couvert. Salez et poivrez.",
+        "Pour chaque œuf, faites un petit cratère dans le mélange de légumes, puis cassez-y les œufs. Saupoudrez-les de sel et de poivre. Disposez le chèvre frais émietté sur l’ensemble, couvrez et laissez les œufs cuire pendant 10 minutes. Lors des 4 dernières minutes, retirez le couvercle, augmentez un peu le feu et laissez l’excédent d’eau s’évaporer.",
+        "Pendant ce temps, enfournez la baguette à l'épeautre pendant 6 à 8 minutes ou jusqu’à ce qu’elle soit dorée.",
+        "Servez le chakchouka sur les assiettes. Garnissez du reste de persil et accompagnez de la baguette à l'épeautre."
     ]
 }

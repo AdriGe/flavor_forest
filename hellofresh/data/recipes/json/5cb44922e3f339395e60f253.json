@@ -1,1033 +1,120 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5a9614ab30006c2c026cf562",
-            "name": "Arachides",
-            "type": "traces-of-peanuts",
-            "slug": "traces-of-arachides",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5acf972fae08b54d333ac322",
-            "name": "Graines de sésame",
-            "type": "traces-of-sesame",
-            "slug": "traces-of-graines-de-sesame",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b305302",
-            "name": "Fruits à coque",
-            "type": "traces-of-nuts",
-            "slug": "traces-of-fruits-a-coque",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.2,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": "https://hellofresh.com/recipecards/card/groentestoofpotje-met-rundermerguez-5cb44922e3f339395e60f253-9587338d.pdf",
-    "category": null,
-    "clonedFrom": "5cac99c6e3f33945b2055c42",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2019-04-15T09:04:34+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b8",
-            "type": "mediterranean",
-            "name": "Mediterranean",
-            "slug": "mediterranean",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b8-f04aa19c.jpg"
-        }
+        "Mediterranean"
     ],
     "description": "Issues de la cuisine nord-africaine, les merguez sont extrêmement savoureuses grâce à l’assaisonnement utilisé, notamment de la harissa, du chili et du cumin. Des saucisses épicées que mettent bien envaleur les saveurs sucrées du plat.",
-    "descriptionHTML": "<p>Issues de la cuisine nord-africaine, les merguez sont extrêmement savoureuses grâce à l’assaisonnement utilisé, notamment de la harissa, du chili et du cumin. Des saucisses épicées que mettent bien envaleur les saveurs sucrées du plat.</p>",
-    "descriptionMarkdown": "Issues de la cuisine nord-africaine, les merguez sont extrêmement savoureuses grâce à l’assaisonnement utilisé, notamment de la harissa, du chili et du cumin. Des saucisses épicées que mettent bien envaleur les saveurs sucrées du plat.",
     "difficulty": 2,
     "favoritesCount": 54,
     "headline": "Avec des pommes de terre rissolées et des raisins secs",
-    "id": "5cb44922e3f339395e60f253",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5cb44922e3f339395e60f253-e87931a8.jpg",
-    "imagePath": "/image/5cb44922e3f339395e60f253-e87931a8.jpg",
+    "name": "Mijoté de légumes aux merguez",
+    "prepTime": 40,
+    "totalTime": null,
+    "image_id": "5cb44922e3f339395e60f253",
+    "id": "70132516-fe78-48ea-84d8-03a0b550eed7",
+    "nutrition": {
+        "kcal": 857,
+        "fat": 43,
+        "saturated_fat": 10.9,
+        "carbohydrate": 71,
+        "sugars": 29.4,
+        "protein": 40,
+        "sodium": 1.1
+    },
+    "tags": [],
+    "utensils": [
+        "Poêle",
+        "Papier aluminium",
+        "Sauteuse avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "5c6ffcfae3f33969cc00e2b2",
-            "uuid": "dbf9789e-89e2-5932-8959-74ca110385d4",
-            "name": "Pommes de terre à chair ferme",
-            "type": "qdoc-phf-10-16272-4",
-            "slug": "pomme-de-terre-a-chair-ferme",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5b23c5b6ae08b51d6f1e54f3-d5b74be4.png",
-            "imagePath": "/ingredient/5b23c5b6ae08b51d6f1e54f3-d5b74be4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc13",
-                "uuid": "ca8b304f-9b83-5252-b006-937f4cc644c2",
-                "name": "pomme de terre",
-                "slug": "pomme-de-terre",
-                "type": "potatoes",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "97b31727-79a1-4e4d-8baf-60452ad1d1d9"
         },
         {
-            "id": "5c8bcda7e3f339735a76c462",
-            "uuid": "d4c559bc-f0de-58f1-b891-b689ebb11bf0",
-            "name": "Paprika en poudre",
-            "type": "qdoc-spi-10-45401-4",
-            "slug": "poudre-de-paprika",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda7e3f339735a76c462-2ac0a518.png",
-            "imagePath": "/ingredient/5c8bcda7e3f339735a76c462-2ac0a518.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbb9",
-                "uuid": "65030c49-dc01-5785-ae9e-3a92f8548009",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "indian-spices",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "c7843f47-705d-4166-bbb3-4f0ad5715ea6",
+            "portion_id": "ee0393a7-98fe-4390-9de5-9995853c2bbd",
+            "image_id": "5c8bcda7e3f339735a76c462"
         },
         {
-            "id": "5cb44922e3f339395e60f252",
-            "uuid": "656f3f42-c0f8-5666-9806-405042e16913",
-            "name": "Merguez de bœuf",
-            "type": "qdoc-ptn-10-10425-4",
-            "slug": "merguez-de-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5cb44922e3f339395e60f252-ade1235f.png",
-            "imagePath": "/ingredient/5cb44922e3f339395e60f252-ade1235f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbda",
-                "uuid": "41994c9b-c9f3-563a-b9c8-202779014593",
-                "name": "boeuf",
-                "slug": "boeuf",
-                "type": "minced-meat",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "a5f63914-d671-4901-929f-625fbb6d258a",
+            "portion_id": "40230058-db21-4d24-b902-58a57bdb6a04",
+            "image_id": "5cb44922e3f339395e60f252"
         },
         {
-            "id": "5af2be53ae08b5194415a272",
-            "uuid": "9ac0ba90-5a11-5e26-9c96-8d7bdd03efd1",
-            "name": "Courgette",
-            "type": "QDOC-PHF-10-16027-4",
-            "slug": "courgette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredients/554a5243fd2cb9ba4f8b456f-3619aabb.png",
-            "imagePath": "/ingredients/554a5243fd2cb9ba4f8b456f-3619aabb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "744e8c08-59d3-4ce1-9ffb-13049e883eba",
+            "portion_id": "7f7c6391-c384-4ef7-bbb1-22884f383cc4",
+            "image_id": "5af2be53ae08b5194415a272"
         },
         {
-            "id": "5af2be69ae08b5194415a2c5",
-            "uuid": "6cd84ddb-c9c4-5025-a8f4-f48aa5499e34",
-            "name": "Poireau",
-            "type": "remps-phf-10-16053-4",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "imagePath": "/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbc4",
-                "uuid": "9689a917-d30a-5486-bbdf-01ce173a3ce2",
-                "name": "poireau",
-                "slug": "poireau",
-                "type": "leek",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "121a4815-934f-499d-9780-2e3af5162cfc",
+            "portion_id": "78267979-3647-4a83-9ce2-75a1a93925d3",
+            "image_id": "5af2be69ae08b5194415a2c5"
         },
         {
-            "id": "5af2be68ae08b5194415a2c0",
-            "uuid": "2c4be4cd-cdcd-5628-bcb4-becf6d42b039",
-            "name": "Carotte",
-            "type": "qdoc-phf-10-16950-4",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2be68ae08b5194415a2c0-3e32691c.png",
-            "imagePath": "/ingredient/5af2be68ae08b5194415a2c0-3e32691c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb62",
-                "uuid": "b183506b-ae5e-5689-9362-9c74e6f64079",
-                "name": "carotte",
-                "slug": "carotte",
-                "type": "carrot",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "b8ecc04f-8034-4ecc-bdec-63d8c67be539"
         },
         {
-            "id": "5c8bcda2e3f339735c318342",
-            "uuid": "26bdc29b-4b35-595e-927c-a93e5fd9ffd4",
-            "name": "Cumin en poudre",
-            "type": "qdoc-spi-10-45393-4",
-            "slug": "cumin-moulu",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda2e3f339735c318342-1e61d494.png",
-            "imagePath": "/ingredient/5c8bcda2e3f339735c318342-1e61d494.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbb9",
-                "uuid": "65030c49-dc01-5785-ae9e-3a92f8548009",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "indian-spices",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "65ab139d-2dcc-46f8-bc2d-663387e6872c",
+            "portion_id": "4066b1dd-0237-46e2-868f-ea1873bef9cf",
+            "image_id": "5c8bcda2e3f339735c318342"
         },
         {
-            "id": "5c8bcda5e3f33973013052b2",
-            "uuid": "1bb73cd1-fa11-5396-8ba4-726a7115d9bf",
-            "name": "Cannelle en poudre",
-            "type": "qdoc-spi-10-45391-4",
-            "slug": "cannelle-moulue",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda5e3f33973013052b2-d6bfeefd.png",
-            "imagePath": "/ingredient/5c8bcda5e3f33973013052b2-d6bfeefd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbb9",
-                "uuid": "65030c49-dc01-5785-ae9e-3a92f8548009",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "indian-spices",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "459333a3-1f44-4f4a-94cf-a1796b86d644",
+            "portion_id": "9ced7c39-6cd1-4c47-901e-aa2efa4c9def",
+            "image_id": "5c8bcda5e3f33973013052b2"
         },
         {
-            "id": "5af2be38ae08b5194415a210",
-            "uuid": "ef366322-4196-50fe-9edb-bc7905592448",
-            "name": "Raisins secs",
-            "type": "qdoc-spi-10-24575-4",
-            "slug": "raisins-secs",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/5723192d4dab711b568b4568.png",
-            "imagePath": "/image/5723192d4dab711b568b4568.png",
-            "shipped": true,
-            "allergens": [
-                "5a9614ab30006c2c026cf562",
-                "5acf972fae08b54d333ac322",
-                "57962a07b7e8697d4b305302",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbe6",
-                "uuid": "e42aaec5-a35e-5db3-afef-8659ad74d2f9",
-                "name": "mélange de noix",
-                "slug": "mélange-de-noix",
-                "type": "nuts",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 30,
+            "unit": "g",
+            "ingredient_id": "3e71a235-ab82-48c9-b64f-6ff0bc160b0d"
         },
         {
-            "id": "5af2be6dae08b5194415a2d4",
-            "uuid": "bc2aa080-4c4c-51d5-a5d6-abfde98df2ad",
-            "name": "Persil plat",
-            "type": "remps-phf-11-16129-4",
-            "slug": "persil-plat-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/56019908f8b25e417b8b4567.png",
-            "imagePath": "/image/56019908f8b25e417b8b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbf9",
-                "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
-                "name": "persil",
-                "slug": "persil",
-                "type": "parsley",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "0bbf4377-a6cf-448e-a5e9-78b238da7d55"
         },
         {
-            "id": "5c8bcd9de3f33973480ec963",
-            "uuid": "984f1655-1c4b-589b-a0a2-07d7b064fcdb",
-            "name": "Cube de bouillon de légumes",
-            "type": "qdoc-pro-10-45422-4",
-            "slug": "cube-de-bouillon-de-legumes-maggi",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9de3f33973480ec963-e8af262d.png",
-            "imagePath": "/ingredient/5c8bcd9de3f33973480ec963-e8af262d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc39",
-                "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
-                "name": "bouillon cube",
-                "slug": "bouillon-cube",
-                "type": "stock",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "ml",
+            "ingredient_id": "4f030996-6693-46d1-8a75-aceaaa7b497a"
         },
         {
-            "id": "5af2be0bae08b5194415a175",
-            "uuid": "eff285f8-2808-5ab4-9eff-5d6483e103b2",
-            "name": "Huile de tournesol",
-            "type": "zt-zonnebloemolie",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a56b3fd2cb959598b456d.png",
-            "imagePath": "/image/554a56b3fd2cb959598b456d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbe8",
-                "uuid": "40e34e55-5e6b-5d7d-bc35-bf898efa8c03",
-                "name": "huile",
-                "slug": "huile",
-                "type": "oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "3349f743-b1b3-439d-b711-7a1eb0b08114",
+            "portion_id": "2c595c0d-be15-42d9-b2b0-bbd1e498fc8b",
+            "image_id": "5af2be0bae08b5194415a175"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5cb44922e3f339395e60f253",
-    "name": "Mijoté de légumes aux merguez",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3586,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 857,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 43,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 71,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 29.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 40,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.1,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 25,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 765,
-    "slug": "mijote-de-legumes-aux-merguez",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préparez le bouillon. Lavez bien les pommes de terre et taillez-les en morceaux d’environ 1 cm. Dans la poêle, faites chauffer la moitié de l’huile de tournesol à feu moyen-vif. Ajoutez les morceaux de pommes de terre et le paprika, puis salez et poivrez. Faites cuire les morceaux de pommes de terre 14 à 16 minutes à couvert. Remuez régulièrement.",
-            "instructionsHTML": "<p>Préparez le bouillon. Lavez bien les pommes de terre et taillez-les en morceaux d’environ 1 cm. Dans la poêle, faites chauffer la moitié de l’huile de tournesol à feu moyen-vif. Ajoutez les morceaux de pommes de terre et le paprika, puis salez et poivrez. Faites cuire les morceaux de pommes de terre 14 à 16 minutes à couvert. Remuez régulièrement.</p>",
-            "instructionsMarkdown": "Préparez le bouillon. Lavez bien les pommes de terre et taillez-les en morceaux d’environ 1 cm. Dans la poêle, faites chauffer la moitié de l’huile de tournesol à feu moyen-vif. Ajoutez les morceaux de pommes de terre et le paprika, puis salez et poivrez. Faites cuire les morceaux de pommes de terre 14 à 16 minutes à couvert. Remuez régulièrement.",
-            "ingredients": [
-                "5c8bcd9de3f33973480ec963",
-                "5c8bcda7e3f339735a76c462",
-                "5c8bcd9be3f3397358648c93",
-                "5af2be0bae08b5194415a175"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire les pommes de terre",
-                    "duration": "PT20M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5cb44922e3f339395e60f253/step-a834ac48.jpg",
-                    "path": "/5cb44922e3f339395e60f253/step-a834ac48.jpg",
-                    "caption": "Cuire les pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Pendant ce temps, piquez les merguez à deux endroits à l’aide d’un couteau. Faites chauffer le reste d’huile de tournesol dans la poêle et faites dorer les merguez sur tous les côtés 5 minutes. Réservez ensuite dans une feuille d’aluminium. Réservez la poêle avec la graisse de cuisson.",
-            "instructionsHTML": "<p>Pendant ce temps, piquez les merguez à deux endroits à l’aide d’un couteau. Faites chauffer le reste d’huile de tournesol dans la poêle et faites dorer les merguez sur tous les côtés 5 minutes. Réservez ensuite dans une feuille d’aluminium. Réservez la poêle avec la graisse de cuisson.</p>",
-            "instructionsMarkdown": "Pendant ce temps, piquez les merguez à deux endroits à l’aide d’un couteau. Faites chauffer le reste d’huile de tournesol dans la poêle et faites dorer les merguez sur tous les côtés 5 minutes. Réservez ensuite dans une feuille d’aluminium. Réservez la poêle avec la graisse de cuisson.",
-            "ingredients": [
-                "5cb44922e3f339395e60f252",
-                "5af2be0bae08b5194415a175"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305366",
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire les merguez",
-                    "duration": "PT05M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5cb44922e3f339395e60f253/step-7ab6586f.jpg",
-                    "path": "/5cb44922e3f339395e60f253/step-7ab6586f.jpg",
-                    "caption": "Cuire les merguez"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Détaillez la courgette, le poivron rouge et la carotte. Ajoutez la carotte à la sauteuse avec la graisse de cuisson et faites cuire 3 à 4 minutes à feu moyen-vif.",
-            "instructionsHTML": "<p>Détaillez la courgette, le poivron rouge et la carotte. Ajoutez la carotte à la sauteuse avec la graisse de cuisson et faites cuire 3 à 4 minutes à feu moyen-vif.</p>",
-            "instructionsMarkdown": "Détaillez la courgette, le poivron rouge et la carotte. Ajoutez la carotte à la sauteuse avec la graisse de cuisson et faites cuire 3 à 4 minutes à feu moyen-vif.",
-            "ingredients": [
-                "5af2be53ae08b5194415a272",
-                "5af2be68ae08b5194415a2c0",
-                "5af2be69ae08b5194415a2c5"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire la carotte",
-                    "duration": "PT04M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5cb44922e3f339395e60f253/step-2a0ee6a1.jpg",
-                    "path": "/5cb44922e3f339395e60f253/step-2a0ee6a1.jpg",
-                    "caption": "Découper et cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Ajoutez ensuite la courgette, le poivron, le cumin, la cannelle et le bouillon. Baissez le feu sur moyen-doux et laissez mijoter 5 minutes à couvert. Retirez le couvercle, ajoutez les raisins secs et les merguez, puis poursuivez la cuisson 3 minutes.",
-            "instructionsHTML": "<p>Ajoutez ensuite la courgette, le poivron, le cumin, la cannelle et le bouillon. Baissez le feu sur moyen-doux et laissez mijoter 5 minutes à couvert. Retirez le couvercle, ajoutez les raisins secs et les merguez, puis poursuivez la cuisson 3 minutes.</p>",
-            "instructionsMarkdown": "Ajoutez ensuite la courgette, le poivron, le cumin, la cannelle et le bouillon. Baissez le feu sur moyen-doux et laissez mijoter 5 minutes à couvert. Retirez le couvercle, ajoutez les raisins secs et les merguez, puis poursuivez la cuisson 3 minutes.",
-            "ingredients": [
-                "5af2be53ae08b5194415a272",
-                "5c8bcda2e3f339735c318342",
-                "5c8bcd9de3f33973480ec963",
-                "5c8bcda5e3f33973013052b2",
-                "5c8bcda7e3f339735a76c462",
-                "5af2be38ae08b5194415a210",
-                "5cb44922e3f339395e60f252"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire les légumes et les épices",
-                    "duration": "PT10M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Laisser mijoter les raisins secs et les merguez",
-                    "duration": "PT03M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5cb44922e3f339395e60f253/step-40b9f81b.jpg",
-                    "path": "/5cb44922e3f339395e60f253/step-40b9f81b.jpg",
-                    "caption": "Faire mijoter les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, ciselez le persil.",
-            "instructionsHTML": "<p>Pendant ce temps, ciselez le persil.</p>",
-            "instructionsMarkdown": "Pendant ce temps, ciselez le persil.",
-            "ingredients": [
-                "5af2be6dae08b5194415a2d4"
-            ],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5cb44922e3f339395e60f253/step-0d211f8c.jpg",
-                    "path": "/5cb44922e3f339395e60f253/step-0d211f8c.jpg",
-                    "caption": "Ciseler le persil"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les morceaux de pommes de terre avec le mijoté de légumes et les merguez. Garnissez avec le persil.",
-            "instructionsHTML": "<p>Servez les morceaux de pommes de terre avec le mijoté de légumes et les merguez. Garnissez avec le persil.</p>",
-            "instructionsMarkdown": "Servez les morceaux de pommes de terre avec le mijoté de légumes et les merguez. Garnissez avec le persil.",
-            "ingredients": [
-                "5cb44922e3f339395e60f252",
-                "5af2be6dae08b5194415a2d4"
-            ],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5cb44922e3f339395e60f253/step-7c084ddb.jpg",
-                    "path": "/5cb44922e3f339395e60f253/step-7c084ddb.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-10T10:18:48+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/mijote-de-legumes-aux-merguez-5cb44922e3f339395e60f253",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c462",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5cb44922e3f339395e60f252",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a272",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda2e3f339735c318342",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b2",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be38ae08b5194415a210",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 50,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5af2be0bae08b5194415a175",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c462",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5cb44922e3f339395e60f252",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a272",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda2e3f339735c318342",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b2",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be38ae08b5194415a210",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5af2be0bae08b5194415a175",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c462",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5cb44922e3f339395e60f252",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a272",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda2e3f339735c318342",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b2",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be38ae08b5194415a210",
-                    "amount": 45,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5af2be0bae08b5194415a175",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c462",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5cb44922e3f339395e60f252",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a272",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda2e3f339735c318342",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b2",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be38ae08b5194415a210",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5af2be0bae08b5194415a175",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c462",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5cb44922e3f339395e60f252",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a272",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda2e3f339735c318342",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b2",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be38ae08b5194415a210",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5af2be0bae08b5194415a175",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c462",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5cb44922e3f339395e60f252",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a272",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda2e3f339735c318342",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b2",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be38ae08b5194415a210",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec963",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5af2be0bae08b5194415a175",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préparez le bouillon. Lavez bien les pommes de terre et taillez-les en morceaux d’environ 1 cm. Dans la poêle, faites chauffer la moitié de l’huile de tournesol à feu moyen-vif. Ajoutez les morceaux de pommes de terre et le paprika, puis salez et poivrez. Faites cuire les morceaux de pommes de terre 14 à 16 minutes à couvert. Remuez régulièrement.",
+        "Pendant ce temps, piquez les merguez à deux endroits à l’aide d’un couteau. Faites chauffer le reste d’huile de tournesol dans la poêle et faites dorer les merguez sur tous les côtés 5 minutes. Réservez ensuite dans une feuille d’aluminium. Réservez la poêle avec la graisse de cuisson.",
+        "Détaillez la courgette, le poivron rouge et la carotte. Ajoutez la carotte à la sauteuse avec la graisse de cuisson et faites cuire 3 à 4 minutes à feu moyen-vif.",
+        "Ajoutez ensuite la courgette, le poivron, le cumin, la cannelle et le bouillon. Baissez le feu sur moyen-doux et laissez mijoter 5 minutes à couvert. Retirez le couvercle, ajoutez les raisins secs et les merguez, puis poursuivez la cuisson 3 minutes.",
+        "Pendant ce temps, ciselez le persil.",
+        "Servez les morceaux de pommes de terre avec le mijoté de légumes et les merguez. Garnissez avec le persil."
     ]
 }

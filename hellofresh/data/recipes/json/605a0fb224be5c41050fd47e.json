@@ -1,969 +1,122 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fe",
-            "name": "Graines de sésame",
-            "type": "sesame",
-            "slug": "graines-de-sesame",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RFR20161784-2",
-    "country": "FR",
-    "createdAt": "2021-03-23T15:56:35+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a5",
-            "type": "asian",
-            "name": "Asiatique",
-            "slug": "asian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a5-0483bf75.jpg"
-        }
+        "Asiatique"
     ],
     "description": "Le saviez-vous ? Le monggo est une soupe d'origine philippine, crémeuse et très douce, car elle mijote dans du lait de coco. Elle est aussi composée d'haricots mungo, qui sont un ingrédient de base de la cuisine philippine. Dans cette recette, les lentilles vertes remplacent les haricots mungos. Elles sont accompagnées d'un naan ainsi que d'une salade fraîche.",
-    "descriptionHTML": "<p>Le saviez-vous ? Le monggo est une soupe d'origine philippine, crémeuse et très douce, car elle mijote dans du lait de coco. Elle est aussi composée d'haricots mungo, qui sont un ingrédient de base de la cuisine philippine. Dans cette recette, les lentilles vertes remplacent les haricots mungos. Elles sont accompagnées d'un naan ainsi que d'une salade fraîche.</p>",
-    "descriptionMarkdown": "Le saviez-vous ? Le monggo est une soupe d'origine philippine, crémeuse et très douce, car elle mijote dans du lait de coco. Elle est aussi composée d'haricots mungo, qui sont un ingrédient de base de la cuisine philippine. Dans cette recette, les lentilles vertes remplacent les haricots mungos. Elles sont accompagnées d'un naan ainsi que d'une salade fraîche.",
     "difficulty": 2,
     "favoritesCount": 234,
     "headline": "avec un naan, des épinards et des haricots plats",
-    "id": "605a0fb224be5c41050fd47e",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210304_R211_W16_FR_RFR20161784-2_MB_Main_low-a354cebc.jpg",
-    "imagePath": "/image/HF210304_R211_W16_FR_RFR20161784-2_MB_Main_low-a354cebc.jpg",
+    "name": "Monggo philippin ou lentilles au lait de coco",
+    "prepTime": 40,
+    "totalTime": 35,
+    "image_id": "605a0fb224be5c41050fd47e",
+    "id": "90a668f0-e8f5-4cdd-9efb-cb9725b23f2d",
+    "nutrition": {
+        "kcal": 343,
+        "fat": 30.16,
+        "saturated_fat": 20.97,
+        "carbohydrate": 11.65,
+        "sugars": 4.1,
+        "protein": 4.3,
+        "sodium": 2.35
+    },
+    "tags": [
+        "Végétarien"
+    ],
+    "utensils": [
+        "Râpe",
+        "Casserole avec couvercle",
+        "Plaque de cuisson recouverte de papier sulfurisé"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acd",
-            "uuid": "230d08ff-162f-5b15-bf19-bbf3ef5e6210",
-            "name": "Gingembre frais",
-            "type": "ginger",
-            "slug": "gingembre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "cm",
+            "ingredient_id": "cce6636d-af2c-4a6d-9463-243866e1abc7",
+            "portion_id": "4f76cd6c-50a4-4899-a67b-51c2b6791808",
+            "image_id": "6405bf3aaf4af6d531d50acd"
         },
         {
-            "id": "6405bfe6b9d07cd5d38d7c3f",
-            "uuid": "0669dd0d-49ca-4e6d-a144-75632b22b136",
-            "name": "Cébette",
-            "type": "spring-onions",
-            "slug": "cebette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "imagePath": "/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "61aa522a-cd3f-44fa-a698-243ed78aa4ba",
+            "portion_id": "6d283187-ba0f-409b-ad0a-a99a604556d8",
+            "image_id": "6405bfe6b9d07cd5d38d7c3f"
         },
         {
-            "id": "6405bfa5b0da19477798632d",
-            "uuid": "d770a53c-7340-50eb-a464-595809dfc1c2",
-            "name": "Haricots plats",
-            "type": "runner-beans",
-            "slug": "haricots-plats",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa5b0da19477798632d-90cec417.png",
-            "imagePath": "/ingredient/6405bfa5b0da19477798632d-90cec417.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "367383a7-4444-4eed-90a2-b6b2bc8da206"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "6405c000b9d07cd5d38d7c99",
-            "uuid": "4c53bdb2-57d1-583a-9825-4958209b4e9a",
-            "name": "Lentilles vertes",
-            "type": "green-lentils",
-            "slug": "lentilles-vertes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000b9d07cd5d38d7c99-1f09a6f5.png",
-            "imagePath": "/ingredient/6405c000b9d07cd5d38d7c99-1f09a6f5.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 120,
+            "unit": "g",
+            "ingredient_id": "fb2bc2ac-f59a-4439-9578-5b6d014a5629"
         },
         {
-            "id": "6405bfdfb0da1947779863ee",
-            "uuid": "4be57e09-204f-50f6-abf5-a91e4a8099db",
-            "name": "Lait de coco",
-            "type": "coconut-milk",
-            "slug": "lait-de-coco",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "imagePath": "/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "ml",
+            "ingredient_id": "76aac1fa-8a19-4830-b297-778d46f6f9ea"
         },
         {
-            "id": "6405bfdbb9d07cd5d38d7c1b",
-            "uuid": "b5f66b23-564d-51d2-850c-563706e5ddcd",
-            "name": "Pain naan",
-            "type": "naan-bread",
-            "slug": "pain-naan",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "imagePath": "/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "417be128-bf1e-4a0f-bf28-bad5e3783bf3",
+            "portion_id": "866f05cb-e663-4ee7-89aa-0fe61ea98590",
+            "image_id": "6405bfdbb9d07cd5d38d7c1b"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acf",
-            "uuid": "8336bf50-6c44-57e6-ac7f-af74134d934f",
-            "name": "Épinards",
-            "type": "spinach",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 65,
+            "unit": "g",
+            "ingredient_id": "bc85a87e-d578-42a9-892f-877ca1d6c94a"
         },
         {
-            "id": "64073bb4df6297bb5beef10c",
-            "uuid": "be1f7bc0-faf0-4c4c-8396-ce7b10e5228c",
-            "name": "Gomasio",
-            "type": "gomasio",
-            "slug": "gomasio",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdfb0da1947779863f0-9c6c1ec9.png",
-            "imagePath": "/ingredient/6405bfdfb0da1947779863f0-9c6c1ec9.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fe"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "79b80dc0-7fab-43c1-adac-36021348cd50",
+            "portion_id": "f9cf7e2a-40e0-448d-a731-1a649cfb912a",
+            "image_id": "64073bb4df6297bb5beef10c"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5120f81b4b295e66f024c",
-            "uuid": "b4e35b51-11dd-40c7-ad89-298e1a7e2589",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cs",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "imagePath": "/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "a06e5c2f-acd2-4770-8fac-0bdb4343cae2",
+            "portion_id": "4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad",
+            "image_id": "63e5120f81b4b295e66f024c"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/605a0fb224be5c41050fd47e",
-    "name": "Monggo philippin ou lentilles au lait de coco",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 343,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1436,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 30.16,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 20.97,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 11.65,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 4.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 4.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.35,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 313,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 465,
-    "slug": "monggo-philippin-ou-lentilles-au-lait-de-coco",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200°C (ou 180°C chaleur tournante). Préparez le bouillon avec de l’eau chaude. Ciselez l’ail. Râpez finement le gingembre (si vous le souhaitez avec la peau). Séparez le blanc du vert de l’oignon nouveau et ciselez le tout.Coupez les haricots plats en deux ou en trois. Coupez le citron vert en quartiers. ",
-            "instructionsHTML": "<ul><li><span>Préchauffez le four à 200°C (ou 180°C chaleur tournante). Préparez le bouillon avec de l’eau chaude. </span></li><li><span>Ciselez l’ail. </span></li><li>Râpez finement le gingembre (si vous le souhaitez avec la peau). </li><li><span>Séparez le blanc du vert de l’oignon nouveau et ciselez le tout.</span></li><li><span>Coupez les haricots plats en deux ou en trois. </span></li><li><span>Coupez le citron vert en quartiers. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Préchauffez le four à 200°C (ou 180°C chaleur tournante). Préparez le bouillon avec de l’eau chaude. </span></li><li><span>Ciselez l’ail. </span></li><li>Râpez finement le gingembre (si vous le souhaitez avec la peau). </li><li><span>Séparez le blanc du vert de l’oignon nouveau et ciselez le tout.</span></li><li><span>Coupez les haricots plats en deux ou en trois. </span></li><li><span>Coupez le citron vert en quartiers. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/605a0fb224be5c41050fd47e/step-18808000.jpg",
-                    "path": "/605a0fb224be5c41050fd47e/step-18808000.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Dans une casserole avec couvercle, faites chauffer un filet d’huile de tournesol. Faites-y revenir le blanc de l’oignon nouveau, l'ail et le gingembre 1-2 minutes à feu moyen-vif. A feu moyen, ajoutez les lentilles et le bouillon. Faites mijoter à couvert 15-20 minutes. Remuez souvent et ajoutez de l'eau ou du bouillon si les lentilles accrochent.",
-            "instructionsHTML": "<ul><li>Dans une casserole avec couvercle, faites chauffer un filet d’huile de tournesol. Faites-y revenir le blanc de l’oignon nouveau, l&#39;ail et le gingembre 1-2 minutes à feu moyen-vif. </li><li>A feu moyen, ajoutez les lentilles et le bouillon. Faites mijoter à couvert 15-20 minutes. Remuez souvent et ajoutez de l&#39;eau ou du bouillon si les lentilles accrochent.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans une casserole avec couvercle, faites chauffer un filet d’huile de tournesol. Faites-y revenir le blanc de l’oignon nouveau, l&#39;ail et le gingembre 1-2 minutes à feu moyen-vif. </li><li>A feu moyen, ajoutez les lentilles et le bouillon. Faites mijoter à couvert 15-20 minutes. Remuez souvent et ajoutez de l&#39;eau ou du bouillon si les lentilles accrochent.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/605a0fb224be5c41050fd47e/step-cf063110.jpg",
-                    "path": "/605a0fb224be5c41050fd47e/step-cf063110.jpg",
-                    "caption": "Cuire les lentilles"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Ajoutez ensuite le lait de coco à la casserole. Faites mijoter 11-13 minutes à couvert. Remuez de temps à autre. ",
-            "instructionsHTML": "<ul><li>Ajoutez ensuite le lait de coco à la casserole. </li><li>Faites mijoter 11-13 minutes à couvert. Remuez de temps à autre. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Ajoutez ensuite le lait de coco à la casserole. </li><li>Faites mijoter 11-13 minutes à couvert. Remuez de temps à autre. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/605a0fb224be5c41050fd47e/step-0af08a20.jpg",
-                    "path": "/605a0fb224be5c41050fd47e/step-0af08a20.jpg",
-                    "caption": "Cuire avec le lait de coco"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Au bout de 7-8 minutes, ajoutez les haricots plats à la casserole avec les lentilles. Mélangez bien, couvrez et laissez mijoter.Enfournez les pains naan 3-5 minutes pour les réchauffer sur une plaque de cuisson recouverte de papier sulfurisé.",
-            "instructionsHTML": "<ul><li>Au bout de 7-8 minutes, ajoutez les haricots plats à la casserole avec les lentilles. </li><li>Mélangez bien, couvrez et laissez mijoter.</li><li>Enfournez les pains naan 3-5 minutes pour les réchauffer sur une plaque de cuisson recouverte de papier sulfurisé.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Au bout de 7-8 minutes, ajoutez les haricots plats à la casserole avec les lentilles. </li><li>Mélangez bien, couvrez et laissez mijoter.</li><li>Enfournez les pains naan 3-5 minutes pour les réchauffer sur une plaque de cuisson recouverte de papier sulfurisé.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/605a0fb224be5c41050fd47e/step-d88aef30.jpg",
-                    "path": "/605a0fb224be5c41050fd47e/step-d88aef30.jpg",
-                    "caption": "Enfourner les pains naan"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Ajoutez enfin les épinards à la casserole (vous pouvez garder quelques feuilles pour dresser).Salez et poivrez, mélangez bien et faites cuire le tout encore 2 minutes.CONSEIL: Ajoutez un peu d'eau ou de bouillon si les lentilles ne sont pas encore cuites ou prolongez la cuisson de quelques minutes.",
-            "instructionsHTML": "<ul><li>Ajoutez enfin les épinards à la casserole (vous pouvez garder quelques feuilles pour dresser).</li><li>Salez et poivrez, mélangez bien et faites cuire le tout encore 2 minutes.</li></ul><p>CONSEIL: Ajoutez un peu d&#39;eau ou de bouillon si les lentilles ne sont pas encore cuites ou prolongez la cuisson de quelques minutes.</p>",
-            "instructionsMarkdown": "<ul><li>Ajoutez enfin les épinards à la casserole (vous pouvez garder quelques feuilles pour dresser).</li><li>Salez et poivrez, mélangez bien et faites cuire le tout encore 2 minutes.</li></ul><p>CONSEIL: Ajoutez un peu d&#39;eau ou de bouillon si les lentilles ne sont pas encore cuites ou prolongez la cuisson de quelques minutes.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/605a0fb224be5c41050fd47e/step-28609940.jpg",
-                    "path": "/605a0fb224be5c41050fd47e/step-28609940.jpg",
-                    "caption": "Finir le mijoté"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Versez le mijoté de lentilles dans des bols. Disposez quelques feuilles d'épinards frais par-dessus, puis saupoudrez avec le vert de l’oignon nouveau et le gomasio.Servez le tout avec 1/2 naan par personne et les quartiers de citron vert restants afin que chacun puisse en presser quelques gouttes sur son mijoté.",
-            "instructionsHTML": "<ul><li><span>Versez le mijoté de lentilles dans des bols. Disposez quelques feuilles d&#39;épinards frais par-dessus, puis saupoudrez avec le vert de l’oignon nouveau et le gomasio.</span></li><li><span>Servez le tout avec 1/2 naan par personne et les quartiers de citron vert restants afin que chacun puisse en presser quelques gouttes sur son mijoté.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Versez le mijoté de lentilles dans des bols. Disposez quelques feuilles d&#39;épinards frais par-dessus, puis saupoudrez avec le vert de l’oignon nouveau et le gomasio.</span></li><li><span>Servez le tout avec 1/2 naan par personne et les quartiers de citron vert restants afin que chacun puisse en presser quelques gouttes sur son mijoté.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/605a0fb224be5c41050fd47e/step-9a6fd550.jpg",
-                    "path": "/605a0fb224be5c41050fd47e/step-9a6fd550.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT35M",
-    "uniqueRecipeCode": "RFR20161784-2",
-    "updatedAt": "2023-10-13T10:40:42+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        }
-    ],
-    "uuid": "4db3bebd-f4b6-474e-bec9-0643987e1edf",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/monggo-philippin-ou-lentilles-au-lait-de-coco-605a0fb224be5c41050fd47e",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 1.25,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa5b0da19477798632d",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 125,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 35,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb4df6297bb5beef10c",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 2.5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa5b0da19477798632d",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb4df6297bb5beef10c",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 3.75,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa5b0da19477798632d",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 185,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 375,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb4df6297bb5beef10c",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa5b0da19477798632d",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb4df6297bb5beef10c",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 6.25,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa5b0da19477798632d",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 305,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 625,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 165,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb4df6297bb5beef10c",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 7.5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa5b0da19477798632d",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 370,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 750,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb4df6297bb5beef10c",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200°C (ou 180°C chaleur tournante). Préparez le bouillon avec de l’eau chaude. Ciselez l’ail. Râpez finement le gingembre (si vous le souhaitez avec la peau). Séparez le blanc du vert de l’oignon nouveau et ciselez le tout.Coupez les haricots plats en deux ou en trois. Coupez le citron vert en quartiers. ",
+        "Dans une casserole avec couvercle, faites chauffer un filet d’huile de tournesol. Faites-y revenir le blanc de l’oignon nouveau, l'ail et le gingembre 1-2 minutes à feu moyen-vif. A feu moyen, ajoutez les lentilles et le bouillon. Faites mijoter à couvert 15-20 minutes. Remuez souvent et ajoutez de l'eau ou du bouillon si les lentilles accrochent.",
+        "Ajoutez ensuite le lait de coco à la casserole. Faites mijoter 11-13 minutes à couvert. Remuez de temps à autre. ",
+        "Au bout de 7-8 minutes, ajoutez les haricots plats à la casserole avec les lentilles. Mélangez bien, couvrez et laissez mijoter.Enfournez les pains naan 3-5 minutes pour les réchauffer sur une plaque de cuisson recouverte de papier sulfurisé.",
+        "Ajoutez enfin les épinards à la casserole (vous pouvez garder quelques feuilles pour dresser).Salez et poivrez, mélangez bien et faites cuire le tout encore 2 minutes.CONSEIL: Ajoutez un peu d'eau ou de bouillon si les lentilles ne sont pas encore cuites ou prolongez la cuisson de quelques minutes.",
+        "Versez le mijoté de lentilles dans des bols. Disposez quelques feuilles d'épinards frais par-dessus, puis saupoudrez avec le vert de l’oignon nouveau et le gomasio.Servez le tout avec 1/2 naan par personne et les quartiers de citron vert restants afin que chacun puisse en presser quelques gouttes sur son mijoté."
     ]
 }

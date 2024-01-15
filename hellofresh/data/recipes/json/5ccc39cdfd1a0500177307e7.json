@@ -1,953 +1,117 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.2,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": "https://hellofresh.com/recipecards/card/kabeljauw-met-venkel-spinaziepuree-5ccc39cdfd1a0500177307e7-a3444a49.pdf",
-    "category": null,
-    "clonedFrom": "5cc9543d600e76000b4eafcd",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2019-05-03T12:53:33+00:00",
     "cuisines": [],
     "description": "Le cabillaud est un poisson maigre riche en nutriments, notamment les oméga 3. En plus d’être très bon pour la santé, il est extrêmement facile à préparer. Les saveurs fraîches accompagnent toujours bien le poisson — pour cette recette, nous avons donc choisi le fenouil et le citron.",
-    "descriptionHTML": "<p>Le cabillaud est un poisson maigre riche en nutriments, notamment les oméga 3. En plus d’être très bon pour la santé, il est extrêmement facile à préparer. Les saveurs fraîches accompagnent toujours bien le poisson — pour cette recette, nous avons donc choisi le fenouil et le citron.</p>",
-    "descriptionMarkdown": "Le cabillaud est un poisson maigre riche en nutriments, notamment les oméga 3. En plus d’être très bon pour la santé, il est extrêmement facile à préparer. Les saveurs fraîches accompagnent toujours bien le poisson — pour cette recette, nous avons donc choisi le fenouil et le citron.",
     "difficulty": 2,
     "favoritesCount": 39,
     "headline": "Accompagnés d’un œuf mollet et d’une sauce au beurre",
-    "id": "5ccc39cdfd1a0500177307e7",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5ccc39cdfd1a0500177307e7-eb69b5db.jpg",
-    "imagePath": "/image/5ccc39cdfd1a0500177307e7-eb69b5db.jpg",
+    "name": "Filet de cabillaud avec une purée au fenouil et aux épinards",
+    "prepTime": 45,
+    "totalTime": null,
+    "image_id": "5ccc39cdfd1a0500177307e7",
+    "id": "e953965c-ac71-4224-96c6-7437467ff406",
+    "nutrition": {
+        "kcal": 689,
+        "fat": 38,
+        "saturated_fat": 18.8,
+        "carbohydrate": 44,
+        "sugars": 6.8,
+        "protein": 35,
+        "sodium": 0.6
+    },
+    "tags": [
+        "Calorie Smart"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Poêle",
+        "Essuie-tout"
+    ],
     "ingredients": [
         {
-            "id": "5c950d7fc445fa288372a896",
-            "uuid": "5b404e62-02fa-5351-ab16-09e8b5c9e1e4",
-            "name": "Pommes de terre à chair farineuse",
-            "type": "qdoc-phf-10-16286-4",
-            "slug": "pommes-de-terre-franceline",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c950d7fc445fa288372a896-d5b74be4.png",
-            "imagePath": "/ingredient/5c950d7fc445fa288372a896-d5b74be4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc13",
-                "uuid": "ca8b304f-9b83-5252-b006-937f4cc644c2",
-                "name": "pomme de terre",
-                "slug": "pomme-de-terre",
-                "type": "potatoes",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "7230448d-4f54-42ac-8cc6-7490b45a0b4d"
         },
         {
-            "id": "5af2be11ae08b5194415a18b",
-            "uuid": "f1b5b06a-9391-5276-873a-ca4df6066d5b",
-            "name": "Fenouil",
-            "type": "QDOC-PHF-10-16087-4",
-            "slug": "fenouil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/5566e765fd2cb9e57f8b4567.png",
-            "imagePath": "/image/5566e765fd2cb9e57f8b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "9260e6d7-b923-4b88-9f4e-be1ad92ef5d6",
+            "portion_id": "fd77bcda-a2dd-4928-aa53-958e2a5a8391",
+            "image_id": "5af2be11ae08b5194415a18b"
         },
         {
-            "id": "5af2be6dae08b5194415a2d4",
-            "uuid": "bc2aa080-4c4c-51d5-a5d6-abfde98df2ad",
-            "name": "Persil plat",
-            "type": "remps-phf-11-16129-4",
-            "slug": "persil-plat-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/56019908f8b25e417b8b4567.png",
-            "imagePath": "/image/56019908f8b25e417b8b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbf9",
-                "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
-                "name": "persil",
-                "slug": "persil",
-                "type": "parsley",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "0bbf4377-a6cf-448e-a5e9-78b238da7d55"
         },
         {
-            "id": "5c950d77c445fa28926e8832",
-            "uuid": "f726152b-cf71-5275-b4ad-8d1cd402ff98",
-            "name": "Citron jaune",
-            "type": "qdoc-phf-10-16721-4",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c950d77c445fa28926e8832-ae27442b.png",
-            "imagePath": "/ingredient/5c950d77c445fa28926e8832-ae27442b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbc5",
-                "uuid": "3f3c3cbb-7960-5dcd-be95-cdb72d76e1a1",
-                "name": "citron",
-                "slug": "citron",
-                "type": "lemon",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "pièce(s)",
+            "ingredient_id": "abf8438c-b53a-4f3c-8d92-1a524d4783ab",
+            "portion_id": "512b1513-0f41-4aef-a7bd-53efe928281b",
+            "image_id": "5c950d77c445fa28926e8832"
         },
         {
-            "id": "5af2be60ae08b5194415a2a2",
-            "uuid": "57a12037-b35c-5236-a06b-982e4aad7fd7",
-            "name": "Épinards",
-            "type": "QDOC-PHF-10-16077-4",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a53a4f8b25e1c268b456e.png",
-            "imagePath": "/image/554a53a4f8b25e1c268b456e.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": null
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "1d57e44a-bcc6-4537-b6ac-4132d1876cec"
         },
         {
-            "id": "5c8bcda7e3f339735a76c463",
-            "uuid": "db327569-4554-568b-9f50-e42c558d551c",
-            "name": "Œuf",
-            "type": "qdoc-ptn-10-18001-4",
-            "slug": "oeuf-de-pour-elevee-en-plein-air",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda7e3f339735a76c463-b612d37c.png",
-            "imagePath": "/ingredient/5c8bcda7e3f339735a76c463-b612d37c.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb94",
-                "uuid": "03714c35-ec37-5062-ab80-c97adfd51696",
-                "name": "oeuf",
-                "slug": "oeuf",
-                "type": "eggs",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "3293c7f5-db27-4a77-966d-c74f5f67a004",
+            "portion_id": "736e5074-5a60-4e99-a298-c9b2784a3f7b",
+            "image_id": "5c8bcda7e3f339735a76c463"
         },
         {
-            "id": "5af2be72ae08b5194415a2e3",
-            "uuid": "695fe44e-6186-503f-8a9e-12072bdbafea",
-            "name": "Filet de cabillaud sans peau",
-            "type": "QDOC-PTN-10-11061-4",
-            "slug": "filet-de-cabillaud-sans-peau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/58414aa0803b50166551c141-992bd458.png",
-            "imagePath": "/ingredient/58414aa0803b50166551c141-992bd458.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc29",
-                "uuid": "b0d9dcaa-bdfb-553e-817d-006d4d0f4e1e",
-                "name": "fruits de mer",
-                "slug": "fruits-de-mer",
-                "type": "seafood",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "b065934d-3924-4333-ab03-69322f342ad7",
+            "portion_id": "5ec1f153-24c6-4e40-be07-1a7b28c176be",
+            "image_id": "5af2be72ae08b5194415a2e3"
         },
         {
-            "id": "5c8bcd9be3f3397358648c92",
-            "uuid": "9ee0d86f-1a50-54cc-9108-8ac7ea81a416",
-            "name": "Huile d'olive",
-            "type": "zt-olijfolie",
-            "slug": "huile-d-olive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbeb",
-                "uuid": "7c98f5ea-c7e6-530f-a8f7-837099e95a74",
-                "name": "huile",
-                "slug": "huile",
-                "type": "olive-oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "4ad6ce62-92c2-4612-8824-4fa5ed85fb05",
+            "portion_id": "d41c3d6a-8812-46d6-9e43-7327b8440275",
+            "image_id": "5c8bcd9be3f3397358648c92"
         },
         {
-            "id": "5af2be55ae08b5194415a27a",
-            "uuid": "0f14cfce-97e4-5fed-be3a-8642bd164d86",
-            "name": "Lait",
-            "type": "zt-melk",
-            "slug": "lait",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/556838e2f8b25e643e8b456b.png",
-            "imagePath": "/image/556838e2f8b25e643e8b456b.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbd9",
-                "uuid": "90b64d51-e5c8-5bad-872e-b079526b0e98",
-                "name": "lait",
-                "slug": "lait",
-                "type": "milk",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "filet(s)",
+            "ingredient_id": "b5300252-714e-4bb7-a5cf-63bf06e4b356",
+            "portion_id": "e2863c31-9693-442c-b403-a33e6d99e37d",
+            "image_id": "5af2be55ae08b5194415a27a"
         },
         {
-            "id": "5af2be5aae08b5194415a28a",
-            "uuid": "13538fd1-fdb5-5c80-ad7e-70582b967fac",
-            "name": "Moutarde",
-            "type": "zt-mosterd",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a54ac4dab71636c8b4573.png",
-            "imagePath": "/image/554a54ac4dab71636c8b4573.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbdf",
-                "uuid": "0ea834fb-414e-5a5e-9a21-78dfb810042b",
-                "name": "moutarde",
-                "slug": "moutarde",
-                "type": "mustard",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "5633114e-7198-4a79-9c9f-92cd54cdc351",
+            "portion_id": "04fc5d92-30c2-4645-bbe7-71c4a660d6b9",
+            "image_id": "5af2be5aae08b5194415a28a"
         },
         {
-            "id": "5c8bcd9ce3f3397358648c95",
-            "uuid": "19d86b63-a223-5129-8979-a429c1d5d94a",
-            "name": "Beurre",
-            "type": "zt-roomboter",
-            "slug": "beurre-non-sale",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "imagePath": "/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb5b",
-                "uuid": "e1a21c36-6c62-5638-9364-d39039f0b218",
-                "name": "beurre",
-                "slug": "beurre",
-                "type": "butter",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02",
+            "portion_id": "4c0e14e1-a159-4138-aa12-f9ce440d3a23",
+            "image_id": "5c8bcd9ce3f3397358648c95"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5ccc39cdfd1a0500177307e7",
-    "name": "Filet de cabillaud avec une purée au fenouil et aux épinards",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2883,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 689,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 38,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 18.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 44,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 6.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 35,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.6,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 34,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 674,
-    "slug": "filet-de-cabillaud-avec-une-puree-au-fenouil-et-aux-epinards",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Dans la casserole, portez une grande quantité d’eau à ébullition pour les pommes de terre. Pendant ce temps, lavez ou épluchez les pommes de terre et coupez-les en gros morceaux. Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur Taillez le fenouil en lanières. Conservez les fanes pour les utiliser en garniture. Hachez le persil frisé grossièrement. Pressez la moitié du citron et taillez l’autre en quartiers.",
-            "instructionsHTML": "<p>Dans la casserole, portez une grande quantité d’eau à ébullition pour les pommes de terre. Pendant ce temps, lavez ou épluchez les pommes de terre et coupez-les en gros morceaux. Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur Taillez le fenouil en lanières. Conservez les fanes pour les utiliser en garniture. Hachez le persil frisé grossièrement. Pressez la moitié du citron et taillez l’autre en quartiers.</p>",
-            "instructionsMarkdown": "Dans la casserole, portez une grande quantité d’eau à ébullition pour les pommes de terre. Pendant ce temps, lavez ou épluchez les pommes de terre et coupez-les en gros morceaux. Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur Taillez le fenouil en lanières. Conservez les fanes pour les utiliser en garniture. Hachez le persil frisé grossièrement. Pressez la moitié du citron et taillez l’autre en quartiers.",
-            "ingredients": [
-                "5c950d77c445fa28926e8832",
-                "5c950d7fc445fa288372a896",
-                "5af2be11ae08b5194415a18b",
-                "5af2be6dae08b5194415a2d4"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ccc39cdfd1a0500177307e7/step-9339066b.jpg",
-                    "path": "/5ccc39cdfd1a0500177307e7/step-9339066b.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Dans la poêle, faites chauffer l’huile d’olive à feu moyen-vif et faites cuire le fenouil 3 à 4 minutes. Ajoutez ensuite 1 cs d’eau par personne, puis baissez le feu. Laissez mijoter 10 à 12 minutes en remuant de temps à autre. Lors des 4 dernières minutes, ajoutez 3/4 des épinards et laissez-les réduire. Pendant ce temps, mettez les pommes de terre dans la casserole d’eau bouillante et faites-les cuire 12 à 14 minutes.",
-            "instructionsHTML": "<p>Dans la poêle, faites chauffer l’huile d’olive à feu moyen-vif et faites cuire le fenouil 3 à 4 minutes. Ajoutez ensuite 1 cs d’eau par personne, puis baissez le feu. Laissez mijoter 10 à 12 minutes en remuant de temps à autre. Lors des 4 dernières minutes, ajoutez 3/4 des épinards et laissez-les réduire. Pendant ce temps, mettez les pommes de terre dans la casserole d’eau bouillante et faites-les cuire 12 à 14 minutes.</p>",
-            "instructionsMarkdown": "Dans la poêle, faites chauffer l’huile d’olive à feu moyen-vif et faites cuire le fenouil 3 à 4 minutes. Ajoutez ensuite 1 cs d’eau par personne, puis baissez le feu. Laissez mijoter 10 à 12 minutes en remuant de temps à autre. Lors des 4 dernières minutes, ajoutez 3/4 des épinards et laissez-les réduire. Pendant ce temps, mettez les pommes de terre dans la casserole d’eau bouillante et faites-les cuire 12 à 14 minutes.",
-            "ingredients": [
-                "5c8bcd9be3f3397358648c92",
-                "5af2be60ae08b5194415a2a2"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [
-                {
-                    "name": "faites cuire le fenouil.",
-                    "duration": "PT04M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Laissez mijoter.",
-                    "duration": "PT12M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Laissez-les réduire des épinards.",
-                    "duration": "PT04M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Faites cuire les pommes de terre.",
-                    "duration": "PT14M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ccc39cdfd1a0500177307e7/step-6a4131f6.jpg",
-                    "path": "/5ccc39cdfd1a0500177307e7/step-6a4131f6.jpg",
-                    "caption": "Cuire le fenouil et les épinards"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Lors des 6 dernières minutes, ajoutez 1 œuf par personne aux pommes de terre. Égouttez ces dernières et réservez-les sans couvercle. Plongez les œufs dans de l’eau froide. Écrasez les pommes de terre pour en faire une purée épaisse. Ajoutez un filet de lait et 1 cc de moutarde par personne, puis mélangez bien. Ajoutez le fenouil et les épinards à la purée, puis salez et poivrez.",
-            "instructionsHTML": "<p>Lors des 6 dernières minutes, ajoutez 1 œuf par personne aux pommes de terre. Égouttez ces dernières et réservez-les sans couvercle. Plongez les œufs dans de l’eau froide. Écrasez les pommes de terre pour en faire une purée épaisse. Ajoutez un filet de lait et 1 cc de moutarde par personne, puis mélangez bien. Ajoutez le fenouil et les épinards à la purée, puis salez et poivrez.</p>",
-            "instructionsMarkdown": "Lors des 6 dernières minutes, ajoutez 1 œuf par personne aux pommes de terre. Égouttez ces dernières et réservez-les sans couvercle. Plongez les œufs dans de l’eau froide. Écrasez les pommes de terre pour en faire une purée épaisse. Ajoutez un filet de lait et 1 cc de moutarde par personne, puis mélangez bien. Ajoutez le fenouil et les épinards à la purée, puis salez et poivrez.",
-            "ingredients": [
-                "5af2be55ae08b5194415a27a",
-                "5af2be5aae08b5194415a28a",
-                "5c8bcd9be3f3397358648c93",
-                "5c8bcda7e3f339735a76c463"
-            ],
-            "utensils": [],
-            "timers": [
-                {
-                    "name": "Faites cuire les œufs.",
-                    "duration": "PT06M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ccc39cdfd1a0500177307e7/step-938a9f72.jpg",
-                    "path": "/5ccc39cdfd1a0500177307e7/step-938a9f72.jpg",
-                    "caption": "Préparer la purée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Épongez le cabillaud, puis salez et poivrez. Faites chauffer 1/2 cs de beurre par personne dans la même poêle que pour le fenouil et faites-cuire le cabillaud 1 à 2 minutes de chaque côté. Retirez-le de la poêle en conservant le jus de cuisson.",
-            "instructionsHTML": "<p>Épongez le cabillaud, puis salez et poivrez. Faites chauffer 1/2 cs de beurre par personne dans la même poêle que pour le fenouil et faites-cuire le cabillaud 1 à 2 minutes de chaque côté. Retirez-le de la poêle en conservant le jus de cuisson.</p>",
-            "instructionsMarkdown": "Épongez le cabillaud, puis salez et poivrez. Faites chauffer 1/2 cs de beurre par personne dans la même poêle que pour le fenouil et faites-cuire le cabillaud 1 à 2 minutes de chaque côté. Retirez-le de la poêle en conservant le jus de cuisson.",
-            "ingredients": [
-                "5af2be72ae08b5194415a2e3",
-                "5c8bcd9ce3f3397358648c95"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305376",
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [
-                {
-                    "name": "Faites cuire le cabillaud.",
-                    "duration": "PT02M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ccc39cdfd1a0500177307e7/step-072bb6db.jpg",
-                    "path": "/5ccc39cdfd1a0500177307e7/step-072bb6db.jpg",
-                    "caption": "Cuire le cabillaud"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Chauffez la poêle contenant le jus de cuisson du cabillaud à feu moyen-vif et ajoutez 1 1/2 cs de beurre par personne. Ajoutez le persil dès que le beurre mousse. Ajoutez 1 cc de jus de citron par personne après quelques secondes et mélangez bien. Retirez la poêle du feu.",
-            "instructionsHTML": "<p>Chauffez la poêle contenant le jus de cuisson du cabillaud à feu moyen-vif et ajoutez 1 1/2 cs de beurre par personne. Ajoutez le persil dès que le beurre mousse. Ajoutez 1 cc de jus de citron par personne après quelques secondes et mélangez bien. Retirez la poêle du feu.</p>",
-            "instructionsMarkdown": "Chauffez la poêle contenant le jus de cuisson du cabillaud à feu moyen-vif et ajoutez 1 1/2 cs de beurre par personne. Ajoutez le persil dès que le beurre mousse. Ajoutez 1 cc de jus de citron par personne après quelques secondes et mélangez bien. Retirez la poêle du feu.",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ccc39cdfd1a0500177307e7/step-2b0461f7.jpg",
-                    "path": "/5ccc39cdfd1a0500177307e7/step-2b0461f7.jpg",
-                    "caption": "Préparer la sauce au beurre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Incorporez le reste des épinards à la purée au fenouil. Servez la purée et disposez le cabillaud à côté. Coupez l’œuf mollet en deux et présentez-le à côté du cabillaud. Garnissez avec une cuillérée de sauce au beurre et accompagnez le tout des quartiers de citron.",
-            "instructionsHTML": "<p>Incorporez le reste des épinards à la purée au fenouil. Servez la purée et disposez le cabillaud à côté. Coupez l’œuf mollet en deux et présentez-le à côté du cabillaud. Garnissez avec une cuillérée de sauce au beurre et accompagnez le tout des quartiers de citron.</p>",
-            "instructionsMarkdown": "Incorporez le reste des épinards à la purée au fenouil. Servez la purée et disposez le cabillaud à côté. Coupez l’œuf mollet en deux et présentez-le à côté du cabillaud. Garnissez avec une cuillérée de sauce au beurre et accompagnez le tout des quartiers de citron.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ccc39cdfd1a0500177307e7/step-40e42578.jpg",
-                    "path": "/5ccc39cdfd1a0500177307e7/step-40e42578.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b30531a",
-            "type": "calorie-smart",
-            "name": "Calorie Smart",
-            "slug": "calorie-smart",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-10T10:18:50+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/filet-de-cabillaud-avec-une-puree-au-fenouil-et-aux-epinards-5ccc39cdfd1a0500177307e7",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5c950d7fc445fa288372a896",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be11ae08b5194415a18b",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be72ae08b5194415a2e3",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be55ae08b5194415a27a",
-                    "amount": null,
-                    "unit": "filet(s)"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5c950d7fc445fa288372a896",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be11ae08b5194415a18b",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be72ae08b5194415a2e3",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be55ae08b5194415a27a",
-                    "amount": null,
-                    "unit": "filet(s)"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5c950d7fc445fa288372a896",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be11ae08b5194415a18b",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be72ae08b5194415a2e3",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be55ae08b5194415a27a",
-                    "amount": null,
-                    "unit": "filet(s)"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5c950d7fc445fa288372a896",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be11ae08b5194415a18b",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 1.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be72ae08b5194415a2e3",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be55ae08b5194415a27a",
-                    "amount": null,
-                    "unit": "filet(s)"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5c950d7fc445fa288372a896",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be11ae08b5194415a18b",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 1.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be72ae08b5194415a2e3",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be55ae08b5194415a27a",
-                    "amount": null,
-                    "unit": "filet(s)"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5c950d7fc445fa288372a896",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be11ae08b5194415a18b",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be72ae08b5194415a2e3",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be55ae08b5194415a27a",
-                    "amount": null,
-                    "unit": "filet(s)"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Dans la casserole, portez une grande quantité d’eau à ébullition pour les pommes de terre. Pendant ce temps, lavez ou épluchez les pommes de terre et coupez-les en gros morceaux. Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur Taillez le fenouil en lanières. Conservez les fanes pour les utiliser en garniture. Hachez le persil frisé grossièrement. Pressez la moitié du citron et taillez l’autre en quartiers.",
+        "Dans la poêle, faites chauffer l’huile d’olive à feu moyen-vif et faites cuire le fenouil 3 à 4 minutes. Ajoutez ensuite 1 cs d’eau par personne, puis baissez le feu. Laissez mijoter 10 à 12 minutes en remuant de temps à autre. Lors des 4 dernières minutes, ajoutez 3/4 des épinards et laissez-les réduire. Pendant ce temps, mettez les pommes de terre dans la casserole d’eau bouillante et faites-les cuire 12 à 14 minutes.",
+        "Lors des 6 dernières minutes, ajoutez 1 œuf par personne aux pommes de terre. Égouttez ces dernières et réservez-les sans couvercle. Plongez les œufs dans de l’eau froide. Écrasez les pommes de terre pour en faire une purée épaisse. Ajoutez un filet de lait et 1 cc de moutarde par personne, puis mélangez bien. Ajoutez le fenouil et les épinards à la purée, puis salez et poivrez.",
+        "Épongez le cabillaud, puis salez et poivrez. Faites chauffer 1/2 cs de beurre par personne dans la même poêle que pour le fenouil et faites-cuire le cabillaud 1 à 2 minutes de chaque côté. Retirez-le de la poêle en conservant le jus de cuisson.",
+        "Chauffez la poêle contenant le jus de cuisson du cabillaud à feu moyen-vif et ajoutez 1 1/2 cs de beurre par personne. Ajoutez le persil dès que le beurre mousse. Ajoutez 1 cc de jus de citron par personne après quelques secondes et mélangez bien. Retirez la poêle du feu.",
+        "Incorporez le reste des épinards à la purée au fenouil. Servez la purée et disposez le cabillaud à côté. Coupez l’œuf mollet en deux et présentez-le à côté du cabillaud. Garnissez avec une cuillérée de sauce au beurre et accompagnez le tout des quartiers de citron."
     ]
 }

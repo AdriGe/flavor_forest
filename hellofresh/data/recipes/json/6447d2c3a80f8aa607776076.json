@@ -1,1043 +1,130 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "641c5ca1fd99775f18f75d92",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-10-13T10:43:27+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053af",
-            "type": "mexican",
-            "name": "Mexicaine",
-            "slug": "mexican",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
-        }
+        "Mexicaine"
     ],
     "description": "Ce plat tex-mex est constitué de garnitures de burrito servies sans tortilla. Les garnitures sont placées dans un bol avec une couche de riz déposée au fond, d’où le nom « burrito bowl ». Votre avocat n’est pas tout à fait mûr ? Il mûrira plus vite à côté d’une banane ou d’une pomme, surtout si vous les emballez dans du papier.",
-    "descriptionHTML": "<p>Ce plat tex-mex est constitué de garnitures de burrito servies sans tortilla. Les garnitures sont placées dans un bol avec une couche de riz déposée au fond, d’où le nom « burrito bowl ». Votre avocat n’est pas tout à fait mûr ? Il mûrira plus vite à côté d’une banane ou d’une pomme, surtout si vous les emballez dans du papier.</p>",
-    "descriptionMarkdown": "Ce plat tex-mex est constitué de garnitures de burrito servies sans tortilla. Les garnitures sont placées dans un bol avec une couche de riz déposée au fond, d’où le nom « burrito bowl ». Votre avocat n’est pas tout à fait mûr ? Il mûrira plus vite à côté d’une banane ou d’une pomme, surtout si vous les emballez dans du papier.",
     "difficulty": 1,
     "favoritesCount": 224,
     "headline": "avec de l'avocat & de la coriandre",
-    "id": "6447d2c3a80f8aa607776076",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF201120_R207_W01_FR_QFR20161797-1-FR_KB_Main_no_chilli_high-f5623676.jpg",
-    "imagePath": "/image/HF201120_R207_W01_FR_QFR20161797-1-FR_KB_Main_no_chilli_high-f5623676.jpg",
+    "name": "Burrito bowl Tex-Mex au poulet",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "6447d2c3a80f8aa607776076",
+    "id": "5457aa62-6665-40c3-afc4-852b9bd0a2a2",
+    "nutrition": {
+        "kcal": 965,
+        "fat": 68.8,
+        "saturated_fat": 12,
+        "carbohydrate": 87.7,
+        "sugars": 11.3,
+        "protein": 37,
+        "sodium": 4.14
+    },
+    "tags": [
+        "<30 min",
+        "Épicé",
+        "Worldwide"
+    ],
+    "utensils": [
+        "Bol",
+        "Casserole",
+        "Passoire",
+        "Poêle"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf37af4af6d531d50ac6",
-            "uuid": "1f30a4cb-b684-5fd7-8f5a-e8ed576c592e",
-            "name": "Riz",
-            "type": "long-grain-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf37af4af6d531d50ac6-c6796b46.png",
-            "imagePath": "/ingredient/6405bf37af4af6d531d50ac6-c6796b46.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "9447865f-5ee9-462c-ac81-1bfbfa749ddd"
         },
         {
-            "id": "6405bfd0b0da1947779863c0",
-            "uuid": "a9702fdb-e742-5fe0-b221-974c1ea5db87",
-            "name": "Épices mexicaines",
-            "type": "mexican-spice",
-            "slug": "epices-mexicaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "imagePath": "/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae75e647-2ef5-4079-a851-ebba5dcc2f18",
+            "portion_id": "0cd9e5cd-396b-4f6d-afe0-5435899f4adb",
+            "image_id": "6405bfd0b0da1947779863c0"
         },
         {
-            "id": "6405bfe9b0da194777986410",
-            "uuid": "7e69f80c-67d4-45b1-a3bd-d76e5d9e539b",
-            "name": "Maïs en conserve",
-            "type": "canned-corn",
-            "slug": "mais-en-conserve",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe9b0da194777986410-038f03c2.png",
-            "imagePath": "/ingredient/6405bfe9b0da194777986410-038f03c2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 140,
+            "unit": "g",
+            "ingredient_id": "eb126bd8-6dc4-407f-885a-6033cedaf639"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "646419706ced9aa0d6353bfa",
-            "uuid": "9838d4d1-5c2e-4e68-a073-54d514ccfdb0",
-            "name": "Blanc de poulet",
-            "type": "chicken-breast-diced",
-            "slug": "blanc-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf4ab9d07cd5d38d7a1e-70663a42.png",
-            "imagePath": "/ingredient/6405bf4ab9d07cd5d38d7a1e-70663a42.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "62cc417a2f15d58ec3559423",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "509fad91-de7d-4e1d-8cba-8f8930c6700c"
         },
         {
-            "id": "6405bf9fb9d07cd5d38d7b57",
-            "uuid": "4842611c-bce4-5a00-9f96-af40c63b6310",
-            "name": "Avocat",
-            "type": "avocado",
-            "slug": "avocat",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "imagePath": "/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "6b8e6560-a4cd-4dae-bb41-25d38d8bdb4c",
+            "portion_id": "673a042b-e8bd-447e-b9b5-8edc4ad2da58",
+            "image_id": "6405bf9fb9d07cd5d38d7b57"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d",
+            "portion_id": "3b32de7a-03ea-407b-895a-197efd4cb91f",
+            "image_id": "6405bf35af4af6d531d50ab8"
         },
         {
-            "id": "64073ba8df6297bb5beef100",
-            "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
-            "name": "Yaourt à la grecque",
-            "type": "greek-style-natural-yoghurt",
-            "slug": "yaourt-a-la-grecque",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "107478ae-efe4-4776-9dba-0f0481e3dc68"
         },
         {
-            "id": "63e5120dbc1d64f7b96e26fe",
-            "uuid": "8cbbf443-dfd3-4073-9af0-db31867cf660",
-            "name": "Bouillon de volaille",
-            "type": "bouillon-de-volaille-ml",
-            "slug": "bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "imagePath": "/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "ml",
+            "ingredient_id": "b533985b-5cae-4227-a9aa-9d8287f4d493"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6447d2c3a80f8aa607776076",
-    "name": "Burrito bowl Tex-Mex au poulet",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 4039,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 965,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 68.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 12,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 87.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 11.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 37,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 4.14,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 594,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 712,
-    "slug": "burrito-bowl-tex-mex-au-poulet",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréparez le bouillon avec de l’eau chaude.\nCoupez l’oignon en très fines demi-lunes. Placez-en la moitié dans un bol (réservez le reste pour l'étape 2). \nDans le bol, ajoutez 2 cc de vinaigre de vin par personne ainsi qu'une pincée de sel et de sucre. Mélangez et laissez reposer. Remuez de temps à autre pour que l’oignon soit bien imbibé. \n",
-            "instructionsHTML": "<ul>\n<li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li>\n<li>Préparez le bouillon avec de l’eau chaude.</li>\n<li>Coupez l’oignon en très fines demi-lunes. Placez-en la moitié dans un bol (réservez le reste pour l&#39;étape 2). </li>\n<li>Dans le bol, ajoutez 2 cc de vinaigre de vin par personne ainsi qu&#39;une pincée de sel et de sucre. Mélangez et laissez reposer. Remuez de temps à autre pour que l’oignon soit bien imbibé. </li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li>\n<li>Préparez le bouillon avec de l’eau chaude.</li>\n<li>Coupez l’oignon en très fines demi-lunes. Placez-en la moitié dans un bol (réservez le reste pour l&#39;étape 2). </li>\n<li>Dans le bol, ajoutez 2 cc de vinaigre de vin par personne ainsi qu&#39;une pincée de sel et de sucre. Mélangez et laissez reposer. Remuez de temps à autre pour que l’oignon soit bien imbibé. </li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6447d2c3a80f8aa607776076/step-8d87bc00.jpg",
-                    "path": "/6447d2c3a80f8aa607776076/step-8d87bc00.jpg",
-                    "caption": "Faire les pickles d'oignon"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites chauffer un filet d’huile d’olive dans une casserole à feu moyen-vif. Faites-y revenir le reste d'oignon 2-3 min, ou jusqu’à ce qu’il commence à dorer.\nAjoutez le riz ainsi que 1 cc d'épices mexicaines par personne (ça pique ! Dosez-les selon votre goût) et mélangez.\nUne fois le riz devenu translucide (après environ 1 min), ajoutez le bouillon et laissez cuire à feu doux 10-12 min, ou jusqu’à absorption complète du liquide. Ajoutez un peu d'eau si le riz n'est pas tout à fait cuit.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer un filet d’huile d’olive dans une casserole à feu moyen-vif. Faites-y revenir le reste d&#39;oignon 2-3 min, ou jusqu’à ce qu’il commence à dorer.</li>\n<li>Ajoutez le riz ainsi que <span>1</span> cc d&#39;épices mexicaines par personne (ça pique ! Dosez-les selon votre goût) et mélangez.</li>\n<li>Une fois le riz devenu translucide (après environ 1 min), ajoutez le bouillon et laissez cuire à feu doux 10-12 min, ou jusqu’à absorption complète du liquide. Ajoutez un peu d&#39;eau si le riz n&#39;est pas tout à fait cuit.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer un filet d’huile d’olive dans une casserole à feu moyen-vif. Faites-y revenir le reste d&#39;oignon 2-3 min, ou jusqu’à ce qu’il commence à dorer.</li>\n<li>Ajoutez le riz ainsi que <span>1</span> cc d&#39;épices mexicaines par personne (ça pique ! Dosez-les selon votre goût) et mélangez.</li>\n<li>Une fois le riz devenu translucide (après environ 1 min), ajoutez le bouillon et laissez cuire à feu doux 10-12 min, ou jusqu’à absorption complète du liquide. Ajoutez un peu d&#39;eau si le riz n&#39;est pas tout à fait cuit.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6447d2c3a80f8aa607776076/step-2a45bc10.jpg",
-                    "path": "/6447d2c3a80f8aa607776076/step-2a45bc10.jpg",
-                    "caption": "Cuire le riz pilaf"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nÉgouttez le maïs. Ciselez l’ail. \nRecoupez le poulet en plus petits dés. Dans un bol, mélangez-les avec l'ail, ½ cc d'épices mexicaines par personne et un filet d'huile d'olive. Salez et poivrez.\nFaites chauffer une poêle à feu moyen-vif et faites-y dorer le poulet et la marinade 1 min.\nAjoutez le maïs. Faites cuire 5 min de plus, puis déglacez avec 1 cs de jus de pickles d’oignon.\n",
-            "instructionsHTML": "<ul>\n<li>Égouttez le maïs. Ciselez l’ail. </li>\n<li>Recoupez le poulet en plus petits dés. Dans un bol, mélangez-les avec l&#39;ail, <span>½</span> cc d&#39;épices mexicaines par personne et un filet d&#39;huile d&#39;olive. Salez et poivrez.</li>\n<li>Faites chauffer une poêle à feu moyen-vif et faites-y dorer le poulet et la marinade 1 min.</li>\n<li>Ajoutez le maïs. Faites cuire 5 min de plus, puis déglacez avec 1 cs de jus de pickles d’oignon.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Égouttez le maïs. Ciselez l’ail. </li>\n<li>Recoupez le poulet en plus petits dés. Dans un bol, mélangez-les avec l&#39;ail, <span>½</span> cc d&#39;épices mexicaines par personne et un filet d&#39;huile d&#39;olive. Salez et poivrez.</li>\n<li>Faites chauffer une poêle à feu moyen-vif et faites-y dorer le poulet et la marinade 1 min.</li>\n<li>Ajoutez le maïs. Faites cuire 5 min de plus, puis déglacez avec 1 cs de jus de pickles d’oignon.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382",
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6447d2c3a80f8aa607776076/step-3317fa20.jpg",
-                    "path": "/6447d2c3a80f8aa607776076/step-3317fa20.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nPendant ce temps, coupez l’avocat en deux. Retirez-en le noyau et ôtez la chair avec une cuillère, puis coupez-la en fines tranches. Effeuillez la coriandre.\nServez le riz dans des bols ou des assiettes creuses et garnissez avec le poulet au maïs, les tranches d’avocat, les pickles d’oignon et le yaourt. Saupoudrez de coriandre.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, coupez l’avocat en deux. Retirez-en le noyau et ôtez la chair avec une cuillère, puis coupez-la en fines tranches. Effeuillez la coriandre.</li>\n<li>Servez le riz dans des bols ou des assiettes creuses et garnissez avec le poulet au maïs, les tranches d’avocat, les pickles d’oignon et le yaourt. Saupoudrez de coriandre.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, coupez l’avocat en deux. Retirez-en le noyau et ôtez la chair avec une cuillère, puis coupez-la en fines tranches. Effeuillez la coriandre.</li>\n<li>Servez le riz dans des bols ou des assiettes creuses et garnissez avec le poulet au maïs, les tranches d’avocat, les pickles d’oignon et le yaourt. Saupoudrez de coriandre.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6447d2c3a80f8aa607776076/step-c83b0930.jpg",
-                    "path": "/6447d2c3a80f8aa607776076/step-c83b0930.jpg",
-                    "caption": "Finir et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "63651421ff03d610fe0d2ae0",
-            "type": "worldwide",
-            "name": "Worldwide",
-            "slug": "worldwide",
-            "colorHandle": "text",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": false
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR20161797-10",
-    "updatedAt": "2024-01-07T06:41:12+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        }
-    ],
-    "uuid": "c645b544-4db6-4255-9ca3-7eb4ab8368da",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/burrito-bowl-tex-mex-au-poulet-6447d2c3a80f8aa607776076",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 70,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "646419706ced9aa0d6353bfa",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "646419706ced9aa0d6353bfa",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 215,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "646419706ced9aa0d6353bfa",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 130,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 750,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 285,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "646419706ced9aa0d6353bfa",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 1000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 8,
-                    "unit": "cc"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 2.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 355,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "646419706ced9aa0d6353bfa",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 210,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 1250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 10,
-                    "unit": "cc"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 430,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "646419706ced9aa0d6353bfa",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 260,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 1500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 12,
-                    "unit": "cc"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréparez le bouillon avec de l’eau chaude.\nCoupez l’oignon en très fines demi-lunes. Placez-en la moitié dans un bol (réservez le reste pour l'étape 2). \nDans le bol, ajoutez 2 cc de vinaigre de vin par personne ainsi qu'une pincée de sel et de sucre. Mélangez et laissez reposer. Remuez de temps à autre pour que l’oignon soit bien imbibé. \n",
+        "\nFaites chauffer un filet d’huile d’olive dans une casserole à feu moyen-vif. Faites-y revenir le reste d'oignon 2-3 min, ou jusqu’à ce qu’il commence à dorer.\nAjoutez le riz ainsi que 1 cc d'épices mexicaines par personne (ça pique ! Dosez-les selon votre goût) et mélangez.\nUne fois le riz devenu translucide (après environ 1 min), ajoutez le bouillon et laissez cuire à feu doux 10-12 min, ou jusqu’à absorption complète du liquide. Ajoutez un peu d'eau si le riz n'est pas tout à fait cuit.\n",
+        "\nÉgouttez le maïs. Ciselez l’ail. \nRecoupez le poulet en plus petits dés. Dans un bol, mélangez-les avec l'ail, ½ cc d'épices mexicaines par personne et un filet d'huile d'olive. Salez et poivrez.\nFaites chauffer une poêle à feu moyen-vif et faites-y dorer le poulet et la marinade 1 min.\nAjoutez le maïs. Faites cuire 5 min de plus, puis déglacez avec 1 cs de jus de pickles d’oignon.\n",
+        "\nPendant ce temps, coupez l’avocat en deux. Retirez-en le noyau et ôtez la chair avec une cuillère, puis coupez-la en fines tranches. Effeuillez la coriandre.\nServez le riz dans des bols ou des assiettes creuses et garnissez avec le poulet au maïs, les tranches d’avocat, les pickles d’oignon et le yaourt. Saupoudrez de coriandre.\n"
     ]
 }

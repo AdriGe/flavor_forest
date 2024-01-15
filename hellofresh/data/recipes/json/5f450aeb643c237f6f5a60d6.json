@@ -1,848 +1,109 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QNL0095-5",
-    "country": "FR",
-    "createdAt": "2020-08-25T12:58:19+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 1,
     "favoritesCount": 302,
     "headline": "servies avec des endives poêlées",
-    "id": "5f450aeb643c237f6f5a60d6",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF180917_R10_W43_NL_QQ-0095_Main_high-20d9bcb2.jpg",
-    "imagePath": "/image/HF180917_R10_W43_NL_QQ-0095_Main_high-20d9bcb2.jpg",
+    "name": "Rigatoni, endives poêlées & comté",
+    "prepTime": 20,
+    "totalTime": 20,
+    "image_id": "5f450aeb643c237f6f5a60d6",
+    "id": "97f1c608-b26c-4e7a-a084-0d3816f44e91",
+    "nutrition": {
+        "kcal": 551,
+        "fat": 52.7,
+        "saturated_fat": 23.3,
+        "carbohydrate": 11.7,
+        "sugars": 9.6,
+        "protein": 5.4,
+        "sodium": 1.4
+    },
+    "tags": [
+        "Quick & easy",
+        "Végétarien",
+        "Végétarien"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bf21af4af6d531d50a64",
-            "uuid": "e20204d9-67bd-5351-a602-b284967157cf",
-            "name": "Rigatoni",
-            "type": "rigatoni",
-            "slug": "rigatoni",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf21af4af6d531d50a64-e429976e.png",
-            "imagePath": "/ingredient/6405bf21af4af6d531d50a64-e429976e.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "689ead43-4b8b-4d1a-b1d3-5006e2bf4ecd"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf49b0da1947779861ee",
-            "uuid": "1383aa7d-2d9f-5999-b064-7c85cce41ce4",
-            "name": "Endive",
-            "type": "chicory",
-            "slug": "endive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf49b0da1947779861ee-7b1c3763.png",
-            "imagePath": "/ingredient/6405bf49b0da1947779861ee-7b1c3763.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "eda8ad0e-46a6-4a01-b025-a24d6b8ffac5",
+            "portion_id": "89d7626b-d02b-4bd8-97be-795760e2b512",
+            "image_id": "6405bf49b0da1947779861ee"
         },
         {
-            "id": "6405bf9eaf4af6d531d50c48",
-            "uuid": "552eb731-1dd1-450c-8282-08e6ff9ff262",
-            "name": "Mélange de champignons prédécoupés",
-            "type": "sliced-mixed-mushrooms",
-            "slug": "melange-de-champignons-predecoupes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eaf4af6d531d50c48-39148c53.png",
-            "imagePath": "/ingredient/6405bf9eaf4af6d531d50c48-39148c53.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "22fbdbfa-8622-45a0-9d73-fd60c8a74bd0"
         },
         {
-            "id": "64073ba7df6297bb5beef0fb",
-            "uuid": "b26f2108-9e3c-4928-b1ba-0a4859085290",
-            "name": "Crème",
-            "type": "cream",
-            "slug": "creme",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa5af4af6d531d50c61-566a36f0.png",
-            "imagePath": "/ingredient/6405bfa5af4af6d531d50c61-566a36f0.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "ml",
+            "ingredient_id": "908311e5-8098-4701-ab28-a1b06228c88f"
         },
         {
-            "id": "6405bfbab9d07cd5d38d7bae",
-            "uuid": "c8f498ab-c95c-567d-99ba-937761d5e658",
-            "name": "Persil",
-            "type": "parsley-curled",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "imagePath": "/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "6c31fdcb-bec9-4b81-aafb-88242b45475e"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51223bc1d64f7b96e2708",
-            "uuid": "493382b6-298f-4b49-8ab9-1d70a8a1b139",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cs",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51223bc1d64f7b96e2708-8d6e8bd0.png",
-            "imagePath": "/ingredient/63e51223bc1d64f7b96e2708-8d6e8bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "0c31878c-82e8-457c-a231-63113e45336e",
+            "portion_id": "397810c8-a209-49ce-9d61-0c0c54f05ca2",
+            "image_id": "63e51223bc1d64f7b96e2708"
         },
         {
-            "id": "63e5122081b4b295e66f0256",
-            "uuid": "0ee900c4-2e9a-437c-84b4-76826b234637",
-            "name": "Cube de bouillon de légumes",
-            "type": "cube-de-bouillon-de-legumes-pc",
-            "slug": "cube-de-bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "imagePath": "/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "3aafe58c-08ac-4852-a295-c8d535703ed9",
+            "portion_id": "b0e9b65b-a307-4d4a-ba3f-9cbbfa505df6",
+            "image_id": "63e5122081b4b295e66f0256"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "RAPIDO",
-        "handle": "rapid",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#2771E8",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/5f450aeb643c237f6f5a60d6",
-    "name": "Rigatoni, endives poêlées & comté",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 551,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2303,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 52.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 23.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 11.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 9.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 5.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.4,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT20M",
-    "promotion": null,
-    "ratingsCount": 193,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 356,
-    "slug": "rigatoni-endives-poelees-and-comte",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Portez 500 ml d'eau salée par personne à ébullition dans une casserole pour les rigatoni et faites-les cuire à couvert 12 à 14 minutes. Égouttez et laissez sans couvercle. Ciselez l’oignon. Pressez ou émincez l'ail.",
-            "instructionsHTML": "<ul><li>Portez 500 ml d&#39;eau salée par personne à ébullition dans une casserole pour les rigatoni et faites-les cuire à couvert 12 à 14 minutes. Égouttez et laissez sans couvercle. </li><li>Ciselez l’oignon. Pressez ou émincez l&#39;ail.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Portez 500 ml d&#39;eau salée par personne à ébullition dans une casserole pour les rigatoni et faites-les cuire à couvert 12 à 14 minutes. Égouttez et laissez sans couvercle. </li><li>Ciselez l’oignon. Pressez ou émincez l&#39;ail.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450aeb643c237f6f5a60d6/step-3f209800.jpg",
-                    "path": "/5f450aeb643c237f6f5a60d6/step-3f209800.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Découpez la base de l'endive. Coupez-la en deux et enlevez la partie dure de la base de l'endive en y prélevant un cône. Ciselez l'endive en fines demi-lunes.CONSEIL: L'amertume de l'endive provient de sa base, c'est pourquoi si vous n'appréciez pas, il faut bien l'enlever.",
-            "instructionsHTML": "<ul><li><span>Découpez la base de l&#39;endive. </span></li><li><span>Coupez-la en deux et enlevez la partie dure de la base de l&#39;endive en y prélevant un cône. </span></li><li><span>Ciselez l&#39;endive en fines demi-lunes.</span></li></ul><p>CONSEIL: L&#39;amertume de l&#39;endive provient de sa base, c&#39;est pourquoi si vous n&#39;appréciez pas, il faut bien l&#39;enlever.</p>",
-            "instructionsMarkdown": "<ul><li><span>Découpez la base de l&#39;endive. </span></li><li><span>Coupez-la en deux et enlevez la partie dure de la base de l&#39;endive en y prélevant un cône. </span></li><li><span>Ciselez l&#39;endive en fines demi-lunes.</span></li></ul><p>CONSEIL: L&#39;amertume de l&#39;endive provient de sa base, c&#39;est pourquoi si vous n&#39;appréciez pas, il faut bien l&#39;enlever.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450aeb643c237f6f5a60d6/step-355ab310.jpg",
-                    "path": "/5f450aeb643c237f6f5a60d6/step-355ab310.jpg",
-                    "caption": "Préparer l'endive"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites chauffer l'huile d'olive à feu moyen-vif dans une sauteuse et faites revenir l'oignon et l'ail 2 à 3 minutes. Ajoutez les champignons, les 3/4 de l'endive, puis faites cuire 4 à 6 minutes à feu moyen-vif.  Arrosez avec la crème liquide, le vinaigre de vin rouge et émiettez le cube de bouillon au-dessus. Remuez bien. Faites cuire la sauce encore 3 minutes à feu moyen-doux et assaisonnez de poivre et éventuellement de sel.",
-            "instructionsHTML": "<ul><li>Faites chauffer l&#39;huile d&#39;olive à feu moyen-vif dans une sauteuse et faites revenir l&#39;oignon et l&#39;ail 2 à 3 minutes. </li><li>Ajoutez les champignons, les 3/4 de l&#39;endive, puis faites cuire 4 à 6 minutes à feu moyen-vif.  </li><li>Arrosez avec la crème liquide, le vinaigre de vin rouge et émiettez le cube de bouillon au-dessus. Remuez bien. </li><li>Faites cuire la sauce encore 3 minutes à feu moyen-doux et assaisonnez de poivre et éventuellement de sel.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer l&#39;huile d&#39;olive à feu moyen-vif dans une sauteuse et faites revenir l&#39;oignon et l&#39;ail 2 à 3 minutes. </li><li>Ajoutez les champignons, les 3/4 de l&#39;endive, puis faites cuire 4 à 6 minutes à feu moyen-vif.  </li><li>Arrosez avec la crème liquide, le vinaigre de vin rouge et émiettez le cube de bouillon au-dessus. Remuez bien. </li><li>Faites cuire la sauce encore 3 minutes à feu moyen-doux et assaisonnez de poivre et éventuellement de sel.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450aeb643c237f6f5a60d6/step-ebada120.jpg",
-                    "path": "/5f450aeb643c237f6f5a60d6/step-ebada120.jpg",
-                    "caption": "Préparer la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, hachez finement le persil frisé. Incorporez les rigatoni à la sauce et faites chauffer en remuant. Ajustez l'assaisonnement en sel et en poivre.Servez les rigatoni dans des assiettes creuses. Ajoutez le reste d'endives et garnissez du persil frisé.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, hachez finement le persil frisé. </li><li>Incorporez les rigatoni à la sauce et faites chauffer en remuant. Ajustez l&#39;assaisonnement en sel et en poivre.</li><li>Servez les rigatoni dans des assiettes creuses. Ajoutez le reste d&#39;endives et garnissez du persil frisé.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, hachez finement le persil frisé. </li><li>Incorporez les rigatoni à la sauce et faites chauffer en remuant. Ajustez l&#39;assaisonnement en sel et en poivre.</li><li>Servez les rigatoni dans des assiettes creuses. Ajoutez le reste d&#39;endives et garnissez du persil frisé.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450aeb643c237f6f5a60d6/step-f80d3f30.jpg",
-                    "path": "/5f450aeb643c237f6f5a60d6/step-f80d3f30.jpg",
-                    "caption": "Finir et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b30530e",
-            "type": "under-30-minutes",
-            "name": "Quick & easy",
-            "slug": "quick-easy",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QNL0095-5",
-    "updatedAt": "2023-10-13T10:40:05+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        }
-    ],
-    "uuid": "26d4ce2a-503f-400e-9ccf-f233404d89fa",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/rigatoni-endives-poelees-and-comte-5f450aeb643c237f6f5a60d6",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c48",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0fb",
-                    "amount": 100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c48",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0fb",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c48",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0fb",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c48",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0fb",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c48",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0fb",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c48",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0fb",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Portez 500 ml d'eau salée par personne à ébullition dans une casserole pour les rigatoni et faites-les cuire à couvert 12 à 14 minutes. Égouttez et laissez sans couvercle. Ciselez l’oignon. Pressez ou émincez l'ail.",
+        "Découpez la base de l'endive. Coupez-la en deux et enlevez la partie dure de la base de l'endive en y prélevant un cône. Ciselez l'endive en fines demi-lunes.CONSEIL: L'amertume de l'endive provient de sa base, c'est pourquoi si vous n'appréciez pas, il faut bien l'enlever.",
+        "Faites chauffer l'huile d'olive à feu moyen-vif dans une sauteuse et faites revenir l'oignon et l'ail 2 à 3 minutes. Ajoutez les champignons, les 3/4 de l'endive, puis faites cuire 4 à 6 minutes à feu moyen-vif.  Arrosez avec la crème liquide, le vinaigre de vin rouge et émiettez le cube de bouillon au-dessus. Remuez bien. Faites cuire la sauce encore 3 minutes à feu moyen-doux et assaisonnez de poivre et éventuellement de sel.",
+        "Pendant ce temps, hachez finement le persil frisé. Incorporez les rigatoni à la sauce et faites chauffer en remuant. Ajustez l'assaisonnement en sel et en poivre.Servez les rigatoni dans des assiettes creuses. Ajoutez le reste d'endives et garnissez du persil frisé."
     ]
 }

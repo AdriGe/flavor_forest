@@ -1,1035 +1,133 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b305303",
-            "name": "Œuf",
-            "type": "traces-of-egg",
-            "slug": "traces-of-oeuf",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "BFR29803887-4",
-    "country": "FR",
-    "createdAt": "2022-09-28T12:21:21+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "Aujourd’hui, c’est l’une de nos chefs, Margaux, originaire du Sud-Ouest, qui vous partage la recette emblématique de son enfance : le cassoulet. L’origine de ce plat occitan remonte à l’époque médiévale, mais il en existe depuis de nombreuses versions. Toutes ont cependant un point commun : elles sont toujours servies dans une cassole, le récipient typique. Dégustez-le avec une saucisse de Toulouse et du confit de canard !",
-    "descriptionHTML": "<p>Aujourd’hui, c’est l’une de nos chefs, Margaux, originaire du Sud-Ouest, qui vous partage la recette emblématique de son enfance : le cassoulet. L’origine de ce plat occitan remonte à l’époque médiévale, mais il en existe depuis de nombreuses versions. Toutes ont cependant un point commun : elles sont toujours servies dans une cassole, le récipient typique. Dégustez-le avec une saucisse de Toulouse et du confit de canard !</p>",
-    "descriptionMarkdown": "Aujourd’hui, c’est l’une de nos chefs, Margaux, originaire du Sud-Ouest, qui vous partage la recette emblématique de son enfance : le cassoulet. L’origine de ce plat occitan remonte à l’époque médiévale, mais il en existe depuis de nombreuses versions. Toutes ont cependant un point commun : elles sont toujours servies dans une cassole, le récipient typique. Dégustez-le avec une saucisse de Toulouse et du confit de canard !",
     "difficulty": 2,
     "favoritesCount": 137,
     "headline": "avec du persil & une salade fraîche",
-    "id": "63343c40aaa529bd610db997",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220909_R223_W43_FR_BFR29803887-4_MB_Main_low-938aa981.jpg",
-    "imagePath": "/image/HF220909_R223_W43_FR_BFR29803887-4_MB_Main_low-938aa981.jpg",
+    "name": "Cassoulet au confit de canard & à la saucisse",
+    "prepTime": 45,
+    "totalTime": 30,
+    "image_id": "63343c40aaa529bd610db997",
+    "id": "8aa6323e-5d0b-41da-b61a-2a21a3aecd5c",
+    "nutrition": {
+        "kcal": 643,
+        "fat": 37.3,
+        "saturated_fat": 11.5,
+        "carbohydrate": 39.7,
+        "sugars": 16.2,
+        "protein": 29.7,
+        "sodium": 6.09
+    },
+    "tags": [],
+    "utensils": [
+        "Éplucheur",
+        "Plat à four",
+        "Marmite à soupe ou grande casserole avec couvercle",
+        "Passoire",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfbab9d07cd5d38d7bae",
-            "uuid": "c8f498ab-c95c-567d-99ba-937761d5e658",
-            "name": "Persil",
-            "type": "parsley-curled",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "imagePath": "/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "6c31fdcb-bec9-4b81-aafb-88242b45475e",
+            "portion_id": "6895ea27-65ba-40d7-b3ca-6cf371565253",
+            "image_id": "6405bfbab9d07cd5d38d7bae"
         },
         {
-            "id": "648905f30635a1e9befbb436",
-            "uuid": "363843d5-bea9-5f53-9175-97944a772089",
-            "name": "Confit de canard",
-            "type": "confit-duck-leg",
-            "slug": "confit-de-canard",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8baf4af6d531d50c00-f65cae8f.png",
-            "imagePath": "/ingredient/6405bf8baf4af6d531d50c00-f65cae8f.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b305303",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "74a64d86-ff7f-4b12-bea6-eb501207663f",
+            "portion_id": "72985d33-df25-4ece-9386-06cd2c4f4c0a",
+            "image_id": "648905f30635a1e9befbb436"
         },
         {
-            "id": "6405c01fb0da1947779864ce",
-            "uuid": "eb202072-0f96-5e84-86d3-e7ef42ef9bd2",
-            "name": "Saucisse de Toulouse",
-            "type": "toulouse-sausage",
-            "slug": "saucisse-de-toulouse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c01fb0da1947779864ce-eab6078f.png",
-            "imagePath": "/ingredient/6405c01fb0da1947779864ce-eab6078f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "f2090e24-5453-42ff-8f5d-27034fa2c847",
+            "portion_id": "0f72e465-6902-4c13-af97-9d183d49128e",
+            "image_id": "6405c01fb0da1947779864ce"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": null,
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93"
         },
         {
-            "id": "6405bf23b0da19477798616a",
-            "uuid": "1182a147-a169-5625-92ae-2305fab920e3",
-            "name": "Feuille de laurier",
-            "type": "bay-leaves",
-            "slug": "feuille-de-laurier",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf23b0da19477798616a-34fc502c.png",
-            "imagePath": "/ingredient/6405bf23b0da19477798616a-34fc502c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2f762dc0-4910-4e4e-986e-41b1004ccccf",
+            "portion_id": "4d270119-381f-4870-9b6e-d15415df946c",
+            "image_id": "6405bf23b0da19477798616a"
         },
         {
-            "id": "6405bf3baf4af6d531d50ad2",
-            "uuid": "180dba5b-4f37-51f9-80a9-efb9c27c5351",
-            "name": "Haricots blancs",
-            "type": "cannellini-beans",
-            "slug": "haricots-blancs",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "imagePath": "/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "paquet(s)",
+            "ingredient_id": "7eb761d2-2217-46a8-9c3e-8757b406a84c",
+            "portion_id": "2cb2071e-e6f0-47fb-b8ed-b251be1af667",
+            "image_id": "6405bf3baf4af6d531d50ad2"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5120dbc1d64f7b96e26fe",
-            "uuid": "8cbbf443-dfd3-4073-9af0-db31867cf660",
-            "name": "Bouillon de volaille",
-            "type": "bouillon-de-volaille-ml",
-            "slug": "bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "imagePath": "/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "ml",
+            "ingredient_id": "b533985b-5cae-4227-a9aa-9d8287f4d493"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "Chez Mamie",
-        "handle": "grandma-style",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#CC3232",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/63343c40aaa529bd610db997",
-    "name": "Cassoulet au confit de canard & à la saucisse",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 643,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2689,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 37.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 11.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 39.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 16.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 29.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 6.09,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 129,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 720,
-    "slug": "cassoulet-au-confit-de-canard-and-a-la-saucisse",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C sur grill. Préparez le bouillon avec de l’eau chaude.Émincez l’oignon. Épluchez et coupez la carotte en demi-lunes de 5 mm d’épaisseur.Ciselez l’ail. Effeuillez et hachez le persil.",
-            "instructionsHTML": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Préchauffez le four à 220°C sur grill. Préparez le bouillon avec de l’eau chaude.</li><li>Émincez l’oignon. </li><li>Épluchez et coupez la carotte en demi-lunes de 5 mm d’épaisseur.</li><li>Ciselez l’ail. </li><li>Effeuillez et hachez le persil.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Préchauffez le four à 220°C sur grill. Préparez le bouillon avec de l’eau chaude.</li><li>Émincez l’oignon. </li><li>Épluchez et coupez la carotte en demi-lunes de 5 mm d’épaisseur.</li><li>Ciselez l’ail. </li><li>Effeuillez et hachez le persil.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63343c40aaa529bd610db997/step-a1c1b300.jpg",
-                    "path": "/63343c40aaa529bd610db997/step-a1c1b300.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Réservez 1-2 cs de graisse de canard, puis placez les cuisses et les saucisses dans un plat à four (voir CONSEIL). Enfournez-les 12-15 min, ou jusqu'à ce que la viande soit bien dorée. Retournez à mi-cuisson.Dans une grande marmite, faites revenir la graisse de canard réservée, le concentré de tomates, l'ail, l’oignon et la carotte 2-3 min à feu moyen-vif.CONSEIL: Ne perforez pas la saucisse. Son boyau naturel conserve le jus et les sucs lors de la cuisson. Elle garde ainsi toute sa saveur, sans s’assécher !",
-            "instructionsHTML": "<ul><li><span>Réservez 1-2 cs de graisse de canard, puis </span>placez les cuisses et les saucisses dans un plat à four (voir CONSEIL). Enfournez-les 12-15 min, ou jusqu&#39;à ce que la viande soit bien dorée. Retournez à mi-cuisson.</li><li>Dans une grande marmite, faites revenir la graisse de canard réservée, le concentré de tomates, l&#39;ail, l’oignon et la carotte 2-3 min à feu moyen-vif.</li></ul><p>CONSEIL: Ne perforez pas la saucisse. Son boyau naturel conserve le jus et les sucs lors de la cuisson. Elle garde ainsi toute sa saveur, sans s’assécher !</p>",
-            "instructionsMarkdown": "<ul><li><span>Réservez 1-2 cs de graisse de canard, puis </span>placez les cuisses et les saucisses dans un plat à four (voir CONSEIL). Enfournez-les 12-15 min, ou jusqu&#39;à ce que la viande soit bien dorée. Retournez à mi-cuisson.</li><li>Dans une grande marmite, faites revenir la graisse de canard réservée, le concentré de tomates, l&#39;ail, l’oignon et la carotte 2-3 min à feu moyen-vif.</li></ul><p>CONSEIL: Ne perforez pas la saucisse. Son boyau naturel conserve le jus et les sucs lors de la cuisson. Elle garde ainsi toute sa saveur, sans s’assécher !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386",
-                "5e3ad24efcf61c18c30ff537"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63343c40aaa529bd610db997/step-7e71c910.jpg",
-                    "path": "/63343c40aaa529bd610db997/step-7e71c910.jpg",
-                    "caption": "Commencer à cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Ajoutez 200 ml de bouillon par personne à la marmite ainsi que le laurier et un peu de persil. Faites mijoter 13-15 min à feu moyen-doux.Rincez et égouttez bien les haricots blancs, puis ajoutez-les à la marmite. Salez et poivrez avant de mélanger le tout délicatement.",
-            "instructionsHTML": "<ul><li>Ajoutez 200 ml de bouillon par personne à la marmite ainsi que le laurier et un peu de persil. Faites mijoter 13-15 min à feu moyen-doux.</li><li>Rincez et égouttez bien les haricots blancs, puis ajoutez-les à la marmite. Salez et poivrez avant de mélanger le tout délicatement.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Ajoutez 200 ml de bouillon par personne à la marmite ainsi que le laurier et un peu de persil. Faites mijoter 13-15 min à feu moyen-doux.</li><li>Rincez et égouttez bien les haricots blancs, puis ajoutez-les à la marmite. Salez et poivrez avant de mélanger le tout délicatement.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63343c40aaa529bd610db997/step-0ec67620.jpg",
-                    "path": "/63343c40aaa529bd610db997/step-0ec67620.jpg",
-                    "caption": "Laisser mijoter"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Retirez la feuille de laurier de la marmite.Dans le plat à four, mettez la viande de côté, ajoutez la préparation avec les haricots, puis disposez la viande par-dessus (enfoncez légèrement les morceaux dans les haricots).Enfournez le plat 12-15 min de plus ou jusqu’à ce que le tout soit bien doré. ",
-            "instructionsHTML": "<ul><li>Retirez la feuille de laurier de la marmite.</li><li>Dans le plat à four, mettez la viande de côté, ajoutez la préparation avec les haricots, puis disposez la viande par-dessus<span> (enfoncez légèrement les morceaux dans les haricots).</span></li><li>Enfournez le plat 12-15 min de plus ou jusqu’à ce que le tout soit bien doré. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Retirez la feuille de laurier de la marmite.</li><li>Dans le plat à four, mettez la viande de côté, ajoutez la préparation avec les haricots, puis disposez la viande par-dessus<span> (enfoncez légèrement les morceaux dans les haricots).</span></li><li>Enfournez le plat 12-15 min de plus ou jusqu’à ce que le tout soit bien doré. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63343c40aaa529bd610db997/step-82bf6630.jpg",
-                    "path": "/63343c40aaa529bd610db997/step-82bf6630.jpg",
-                    "caption": "Faire dorer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique ainsi qu'une pincée de persil dans un saladier. Juste avant de servir, ajoutez la salade. Salez, poivrez et mélangez.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique ainsi qu&#39;une pincée de persil dans un saladier. </li><li>Juste avant de servir, ajoutez la salade. Salez, poivrez et mélangez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique ainsi qu&#39;une pincée de persil dans un saladier. </li><li>Juste avant de servir, ajoutez la salade. Salez, poivrez et mélangez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63343c40aaa529bd610db997/step-c8ecc340.jpg",
-                    "path": "/63343c40aaa529bd610db997/step-c8ecc340.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez la salade dans les assiettes ainsi que les haricots. Placez une cuisse de canard et une saucisse par-dessus. Saupoudrez du reste de persil et dégustez en famille !",
-            "instructionsHTML": "<ul><li>Servez la salade dans les assiettes ainsi que les haricots. Placez une cuisse de canard et une saucisse par-dessus. </li><li>Saupoudrez du reste de persil et dégustez en famille !</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez la salade dans les assiettes ainsi que les haricots. Placez une cuisse de canard et une saucisse par-dessus. </li><li>Saupoudrez du reste de persil et dégustez en famille !</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63343c40aaa529bd610db997/step-2d860d50.jpg",
-                    "path": "/63343c40aaa529bd610db997/step-2d860d50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": "PT30M",
-    "uniqueRecipeCode": "BFR29803887-4",
-    "updatedAt": "2023-10-13T10:42:12+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff537",
-            "type": null,
-            "name": "Marmite à soupe ou grande casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "497a781b-1715-452a-9779-93dc841774e2",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/cassoulet-au-confit-de-canard-and-a-la-saucisse-63343c40aaa529bd610db997",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "648905f30635a1e9befbb436",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.5,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 0.75,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "648905f30635a1e9befbb436",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "648905f30635a1e9befbb436",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.5,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 2.25,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "648905f30635a1e9befbb436",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 2,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 1.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "648905f30635a1e9befbb436",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 2.5,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 3.75,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 1000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "648905f30635a1e9befbb436",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 3,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 4.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 1200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C sur grill. Préparez le bouillon avec de l’eau chaude.Émincez l’oignon. Épluchez et coupez la carotte en demi-lunes de 5 mm d’épaisseur.Ciselez l’ail. Effeuillez et hachez le persil.",
+        "Réservez 1-2 cs de graisse de canard, puis placez les cuisses et les saucisses dans un plat à four (voir CONSEIL). Enfournez-les 12-15 min, ou jusqu'à ce que la viande soit bien dorée. Retournez à mi-cuisson.Dans une grande marmite, faites revenir la graisse de canard réservée, le concentré de tomates, l'ail, l’oignon et la carotte 2-3 min à feu moyen-vif.CONSEIL: Ne perforez pas la saucisse. Son boyau naturel conserve le jus et les sucs lors de la cuisson. Elle garde ainsi toute sa saveur, sans s’assécher !",
+        "Ajoutez 200 ml de bouillon par personne à la marmite ainsi que le laurier et un peu de persil. Faites mijoter 13-15 min à feu moyen-doux.Rincez et égouttez bien les haricots blancs, puis ajoutez-les à la marmite. Salez et poivrez avant de mélanger le tout délicatement.",
+        "Retirez la feuille de laurier de la marmite.Dans le plat à four, mettez la viande de côté, ajoutez la préparation avec les haricots, puis disposez la viande par-dessus (enfoncez légèrement les morceaux dans les haricots).Enfournez le plat 12-15 min de plus ou jusqu’à ce que le tout soit bien doré. ",
+        "Pendant ce temps, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique ainsi qu'une pincée de persil dans un saladier. Juste avant de servir, ajoutez la salade. Salez, poivrez et mélangez.",
+        "Servez la salade dans les assiettes ainsi que les haricots. Placez une cuisse de canard et une saucisse par-dessus. Saupoudrez du reste de persil et dégustez en famille !"
     ]
 }

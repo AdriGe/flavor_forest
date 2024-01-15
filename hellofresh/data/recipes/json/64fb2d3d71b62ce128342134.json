@@ -1,920 +1,117 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fd",
-            "name": "Moutarde",
-            "type": "mustard",
-            "slug": "moutarde",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fc",
-            "name": "Céleri",
-            "type": "celery",
-            "slug": "celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 0,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "64d28aa8b199bd79fa716e8b",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-10-13T10:00:54+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": "Vous avez déjà certainement goûté au traditionnel poulet-curry accompagné de riz ? Et bien nous vous en proposons une version « one pot », c’est-à-dire ne nécessitant qu’un seul ustensile de cuisson, très simple à réaliser, avec des nouilles de blé. Cette variante devrait plaire à toute la famille !",
-    "descriptionHTML": "<p>Vous avez déjà certainement goûté au traditionnel poulet-curry accompagné de riz ? Et bien nous vous en proposons une version « one pot », c’est-à-dire ne nécessitant qu’un seul ustensile de cuisson, très simple à réaliser, avec des nouilles de blé. Cette variante devrait plaire à toute la famille !</p>",
-    "descriptionMarkdown": "Vous avez déjà certainement goûté au traditionnel poulet-curry accompagné de riz ? Et bien nous vous en proposons une version « one pot », c’est-à-dire ne nécessitant qu’un seul ustensile de cuisson, très simple à réaliser, avec des nouilles de blé. Cette variante devrait plaire à toute la famille !",
     "difficulty": 1,
     "favoritesCount": 4,
     "headline": "avec de la cébette & de l'ail",
-    "id": "64fb2d3d71b62ce128342134",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y24_R212_W03_FR_QFR17518-3_Main_high-613d6bf9.jpg",
-    "imagePath": "/image/HF_Y24_R212_W03_FR_QFR17518-3_Main_high-613d6bf9.jpg",
+    "name": "Sunny curry au poulet, nouilles & coco",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "64fb2d3d71b62ce128342134",
+    "id": "bfeaebbe-538e-4f2e-8242-749930183260",
+    "nutrition": {
+        "kcal": 813,
+        "fat": 29.8,
+        "saturated_fat": 17.7,
+        "carbohydrate": 93.7,
+        "sugars": 9.6,
+        "protein": 40.8,
+        "sodium": 2.61
+    },
+    "tags": [
+        "<30 min",
+        "Famille",
+        "Épicé",
+        "One Pot",
+        "Peu de vaisselle",
+        "Riche en protéines"
+    ],
+    "utensils": [
+        "Râpe",
+        "Éplucheur",
+        "Sauteuse avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bfe6b9d07cd5d38d7c3f",
-            "uuid": "0669dd0d-49ca-4e6d-a144-75632b22b136",
-            "name": "Cébette",
-            "type": "spring-onions",
-            "slug": "cebette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "imagePath": "/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "botte(s)",
+            "ingredient_id": "61aa522a-cd3f-44fa-a698-243ed78aa4ba",
+            "portion_id": "7bcad6b0-4153-42db-8b3b-ba11fdc9e3eb",
+            "image_id": "6405bfe6b9d07cd5d38d7c3f"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acd",
-            "uuid": "230d08ff-162f-5b15-bf19-bbf3ef5e6210",
-            "name": "Gingembre frais",
-            "type": "ginger",
-            "slug": "gingembre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cm",
+            "ingredient_id": "cce6636d-af2c-4a6d-9463-243866e1abc7",
+            "portion_id": "4f76cd6c-50a4-4899-a67b-51c2b6791808",
+            "image_id": "6405bf3aaf4af6d531d50acd"
         },
         {
-            "id": "64073ba7df6297bb5beef0ff",
-            "uuid": "f51f9566-994f-53b8-8618-557a8b86e26a",
-            "name": "Filet de poulet",
-            "type": "chicken-fillet",
-            "slug": "filet-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "imagePath": "/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "62cc417a2f15d58ec3559423",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "bb7fea40-a448-408d-822f-4ca1c9ce78cc",
+            "portion_id": "0d9e7911-da10-4172-8390-468c093e34a0",
+            "image_id": "64073ba7df6297bb5beef0ff"
         },
         {
-            "id": "64073bb59c6d10cd16eab62e",
-            "uuid": "b330fdf9-ab81-5b42-bc68-7b5748ae00ba",
-            "name": "Curry en poudre",
-            "type": "curry-powder",
-            "slug": "curry-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0af4af6d531d50cf5-82648760.png",
-            "imagePath": "/ingredient/6405bfd0af4af6d531d50cf5-82648760.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fd",
-                "57962a07b7e8697d4b3052fc"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "e37c0848-cf1d-4b01-84dc-97288386673b",
+            "portion_id": "ce39338b-2d0b-4740-ba37-deac26a34281",
+            "image_id": "64073bb59c6d10cd16eab62e"
         },
         {
-            "id": "6405bfdfb0da1947779863ee",
-            "uuid": "4be57e09-204f-50f6-abf5-a91e4a8099db",
-            "name": "Lait de coco",
-            "type": "coconut-milk",
-            "slug": "lait-de-coco",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "imagePath": "/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "ml",
+            "ingredient_id": "76aac1fa-8a19-4830-b297-778d46f6f9ea"
         },
         {
-            "id": "64994802461c4ddf32309845",
-            "uuid": "ff44829a-7745-4d95-93ae-b5c26d2633fb",
-            "name": "Nouilles de blé",
-            "type": "mie-noodles",
-            "slug": "nouilles-de-ble",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf6bb9d07cd5d38d7a9f-bd1ef5c0.png",
-            "imagePath": "/ingredient/6405bf6bb9d07cd5d38d7a9f-bd1ef5c0.png",
-            "shipped": true,
-            "allergens": [
-                "60368d89cdbdf450236ad8cd"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "4021314f-9ae7-4db0-bf57-988fbeb33140"
         },
         {
-            "id": "63e5120f81b4b295e66f024c",
-            "uuid": "b4e35b51-11dd-40c7-ad89-298e1a7e2589",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cs",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "imagePath": "/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "a06e5c2f-acd2-4770-8fac-0bdb4343cae2",
+            "portion_id": "4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad",
+            "image_id": "63e5120f81b4b295e66f024c"
         },
         {
-            "id": "63e5120ebc1d64f7b96e26ff",
-            "uuid": "c3c7835c-68b0-4d3c-8b06-2aaf33f2a4e5",
-            "name": "Cube de bouillon de volaille",
-            "type": "cube-de-bouillon-de-volaille-pc",
-            "slug": "cube-de-bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120ebc1d64f7b96e26ff-de6d3913.png",
-            "imagePath": "/ingredient/63e5120ebc1d64f7b96e26ff-de6d3913.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "cb53b85f-d51b-4235-9ccf-8c25295ec222",
+            "portion_id": "e8e45ab2-68c6-45ba-b180-204b640e1be2",
+            "image_id": "63e5120ebc1d64f7b96e26ff"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64fb2d3d71b62ce128342134",
-    "name": "Sunny curry au poulet, nouilles & coco",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3403,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 813,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 29.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 17.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 93.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 9.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 40.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.61,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 0,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 453,
-    "slug": "one-pot-de-nouilles-poulet-and-curry",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nÉpluchez et coupez la carotte en très fines demi-lunes ou en rubans.\nCiselez le blanc et le vert de la cébette séparément.\nCiselez l'ail et râpez finement le gingembre. \nCoupez le poulet en dés de 1 cm.\n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Épluchez et coupez la carotte en très fines demi-lunes ou en rubans.</li>\n<li>Ciselez le blanc et le vert de la cébette séparément.</li>\n<li>Ciselez l&#39;ail et râpez finement le gingembre. </li>\n<li>Coupez le poulet en dés de 1 cm.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Épluchez et coupez la carotte en très fines demi-lunes ou en rubans.</li>\n<li>Ciselez le blanc et le vert de la cébette séparément.</li>\n<li>Ciselez l&#39;ail et râpez finement le gingembre. </li>\n<li>Coupez le poulet en dés de 1 cm.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d3d71b62ce128342134/step-db614600.jpg",
-                    "path": "/64fb2d3d71b62ce128342134/step-db614600.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites chauffer un filet d’huile de tournesol dans une grande sauteuse à bords hauts ou une marmite à feu moyen-vif. Ajoutez-y le poulet.  \nAjoutez-y un filet d'huile de tournesol, ainsi que le poulet. \nFaites-le dorer 2-3 min, puis réservez-le hors de la sauteuse.\nRemettez la sauteuse sur le feu, ajoutez le blanc de la cébette, la carotte, l'ail, le gingembre et le curry (ça pique ! Dosez-les selon votre goût), puis faites-les revenir 1 min.\n",
-            "instructionsHTML": "<ul>\n<li><span>Faites chauffer un filet d’huile de tournesol dans une grande sauteuse à bords hauts ou une marmite à feu moyen-vif. Ajoutez-y le poulet.  </span></li>\n<li>Ajoutez-y un filet d&#39;huile de tournesol, ainsi que le poulet. </li>\n<li>Faites-le dorer 2-3 min, puis réservez-le hors de la sauteuse.</li>\n<li>Remettez la sauteuse sur le feu, ajoutez le blanc de la cébette, la carotte, l&#39;ail, le gingembre et le curry (ça pique ! Dosez-les selon votre goût), puis faites-les revenir 1 min.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Faites chauffer un filet d’huile de tournesol dans une grande sauteuse à bords hauts ou une marmite à feu moyen-vif. Ajoutez-y le poulet.  </span></li>\n<li>Ajoutez-y un filet d&#39;huile de tournesol, ainsi que le poulet. </li>\n<li>Faites-le dorer 2-3 min, puis réservez-le hors de la sauteuse.</li>\n<li>Remettez la sauteuse sur le feu, ajoutez le blanc de la cébette, la carotte, l&#39;ail, le gingembre et le curry (ça pique ! Dosez-les selon votre goût), puis faites-les revenir 1 min.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d3d71b62ce128342134/step-f3e90610.jpg",
-                    "path": "/64fb2d3d71b62ce128342134/step-f3e90610.jpg",
-                    "caption": "Faire revenir"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nVersez 175 ml d'eau par personne et le lait de coco dans la sauteuse. Émiettez le cube de bouillon par-dessus. \nPortez à ébullition, puis ajoutez les nouilles. \nCouvrez et faites cuire 2-3 min à feu moyen. Retirez le couvercle, ajoutez le poulet et prolongez la cuisson de 3-4 min, ou jusqu'à ce que les nouilles soient cuites et la sauce épaisse et crémeuse. Ajoutez un peu plus d'eau, si nécessaire.\n",
-            "instructionsHTML": "<ul>\n<li>Versez 175 ml d&#39;eau par personne et le lait de coco dans la sauteuse. Émiettez le cube de bouillon par-dessus. </li>\n<li>Portez à ébullition, puis ajoutez les nouilles. </li>\n<li>Couvrez et faites cuire 2-3 min à feu moyen. Retirez le couvercle, ajoutez le poulet et prolongez la cuisson de 3-4 min, ou jusqu&#39;à ce que les nouilles soient cuites et la sauce épaisse et crémeuse. Ajoutez un peu plus d&#39;eau, si nécessaire.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Versez 175 ml d&#39;eau par personne et le lait de coco dans la sauteuse. Émiettez le cube de bouillon par-dessus. </li>\n<li>Portez à ébullition, puis ajoutez les nouilles. </li>\n<li>Couvrez et faites cuire 2-3 min à feu moyen. Retirez le couvercle, ajoutez le poulet et prolongez la cuisson de 3-4 min, ou jusqu&#39;à ce que les nouilles soient cuites et la sauce épaisse et crémeuse. Ajoutez un peu plus d&#39;eau, si nécessaire.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d3d71b62ce128342134/step-54c05a20.jpg",
-                    "path": "/64fb2d3d71b62ce128342134/step-54c05a20.jpg",
-                    "caption": "Cuire les nouilles"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nServez les nouilles au curry dans des assiettes creuses.\nParsemez de vert de cébette. Dégustez sans tarder : les nouilles absorbent une partie de la sauce.\n",
-            "instructionsHTML": "<ul>\n<li>Servez les nouilles au curry dans des assiettes creuses.</li>\n<li>Parsemez de vert de cébette. Dégustez sans tarder : les nouilles absorbent une partie de la sauce.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Servez les nouilles au curry dans des assiettes creuses.</li>\n<li>Parsemez de vert de cébette. Dégustez sans tarder : les nouilles absorbent une partie de la sauce.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d3d71b62ce128342134/step-10455f30.jpg",
-                    "path": "/64fb2d3d71b62ce128342134/step-10455f30.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305312",
-            "type": "one-pot",
-            "name": "One Pot",
-            "slug": "one-pot",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5ed7c2945027987e76121967",
-            "type": "easy-cleanup",
-            "name": "Peu de vaisselle",
-            "slug": "peu-de-vaisselle",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305321",
-            "type": "high-protein",
-            "name": "Riche en protéines",
-            "slug": "riche-en-proteines",
-            "colorHandle": "glutenFree",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR17518-3",
-    "updatedAt": "2024-01-08T06:04:41+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        }
-    ],
-    "uuid": "046fed98-265d-40e4-924a-610a2075f83e",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/one-pot-de-nouilles-poulet-and-curry-64fb2d3d71b62ce128342134",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.25,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 1,
-                    "unit": "cm"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 90,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64994802461c4ddf32309845",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.5,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 1,
-                    "unit": "cm"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 180,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64994802461c4ddf32309845",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 0.75,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 1,
-                    "unit": "cm"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64994802461c4ddf32309845",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 1,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 1,
-                    "unit": "cm"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 360,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64994802461c4ddf32309845",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 1.25,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 2,
-                    "unit": "cm"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 2.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 430,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64994802461c4ddf32309845",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 1.5,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 2,
-                    "unit": "cm"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64994802461c4ddf32309845",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nÉpluchez et coupez la carotte en très fines demi-lunes ou en rubans.\nCiselez le blanc et le vert de la cébette séparément.\nCiselez l'ail et râpez finement le gingembre. \nCoupez le poulet en dés de 1 cm.\n",
+        "\nFaites chauffer un filet d’huile de tournesol dans une grande sauteuse à bords hauts ou une marmite à feu moyen-vif. Ajoutez-y le poulet.  \nAjoutez-y un filet d'huile de tournesol, ainsi que le poulet. \nFaites-le dorer 2-3 min, puis réservez-le hors de la sauteuse.\nRemettez la sauteuse sur le feu, ajoutez le blanc de la cébette, la carotte, l'ail, le gingembre et le curry (ça pique ! Dosez-les selon votre goût), puis faites-les revenir 1 min.\n",
+        "\nVersez 175 ml d'eau par personne et le lait de coco dans la sauteuse. Émiettez le cube de bouillon par-dessus. \nPortez à ébullition, puis ajoutez les nouilles. \nCouvrez et faites cuire 2-3 min à feu moyen. Retirez le couvercle, ajoutez le poulet et prolongez la cuisson de 3-4 min, ou jusqu'à ce que les nouilles soient cuites et la sauce épaisse et crémeuse. Ajoutez un peu plus d'eau, si nécessaire.\n",
+        "\nServez les nouilles au curry dans des assiettes creuses.\nParsemez de vert de cébette. Dégustez sans tarder : les nouilles absorbent une partie de la sauce.\n"
     ]
 }

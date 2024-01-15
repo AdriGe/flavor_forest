@@ -1,880 +1,110 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RNL16251650-4",
-    "country": "FR",
-    "createdAt": "2020-06-30T16:19:38+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 177,
     "headline": "avec des courgettes, du romarin et du comté râpé",
-    "id": "5efb6618ee1cfe5e7f0cb0f2",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF190506_R15_W24_NL_R1625_Main_low-813ffb30.jpg",
-    "imagePath": "/image/HF190506_R15_W24_NL_R1625_Main_low-813ffb30.jpg",
+    "name": "Ragù bianco de bœuf & champignons à la crème",
+    "prepTime": 35,
+    "totalTime": 25,
+    "image_id": "5efb6618ee1cfe5e7f0cb0f2",
+    "id": "5f477e8c-6f26-4a35-b1bc-36e9ea453880",
+    "nutrition": {
+        "kcal": 282,
+        "fat": 20.5,
+        "saturated_fat": 6.8,
+        "carbohydrate": 16.1,
+        "sugars": 12.3,
+        "protein": 8,
+        "sodium": 1.43
+    },
+    "tags": [
+        "À faire rapidement",
+        "Famille"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Poêle",
+        "Casserole avec couvercle",
+        "Sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bf8bb9d07cd5d38d7b0c",
-            "uuid": "08fdabb8-8ea0-53a6-9f44-85127ada6c27",
-            "name": "Courgette",
-            "type": "zucchini",
-            "slug": "courgette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "imagePath": "/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "e32aa012-a822-4ee2-b710-904dd001de92",
+            "portion_id": "c10ecad4-abae-4fff-a410-4bbcabbc1abd",
+            "image_id": "6405bf8bb9d07cd5d38d7b0c"
         },
         {
-            "id": "6405bf29b9d07cd5d38d799d",
-            "uuid": "d566e2fd-c965-5a9d-ab98-0a48e581ae81",
-            "name": "Romarin séché",
-            "type": "dried-rosemary",
-            "slug": "romarin-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf29b9d07cd5d38d799d-adc9d6a4.png",
-            "imagePath": "/ingredient/6405bf29b9d07cd5d38d799d-adc9d6a4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.17,
+            "unit": "sachet(s)",
+            "ingredient_id": "795c2242-ba9b-440f-9cd5-463928ad154f",
+            "portion_id": "e1bcfe46-256b-4bfb-9ee5-2a8d427906e0",
+            "image_id": "6405bf29b9d07cd5d38d799d"
         },
         {
-            "id": "6405bf28b0da194777986184",
-            "uuid": "4328be73-b086-5d16-b287-33bce92c2fb4",
-            "name": "Champignons de Paris",
-            "type": "mushrooms",
-            "slug": "champignons-de-paris",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "imagePath": "/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "b2201e5a-2fc7-46ed-99e2-d0a9b3a80231"
         },
         {
-            "id": "6405bf97af4af6d531d50c2b",
-            "uuid": "00610fcb-d466-59e4-b189-f93509eb9aa6",
-            "name": "Penne",
-            "type": "penne",
-            "slug": "penne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf97af4af6d531d50c2b-132a4066.png",
-            "imagePath": "/ingredient/6405bf97af4af6d531d50c2b-132a4066.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "a9f3d306-84c6-4f99-b76a-f61981e11898"
         },
         {
-            "id": "6405bfc5b9d07cd5d38d7bce",
-            "uuid": "26d69601-21cf-5e86-bf40-c3c5f44f95b1",
-            "name": "Échalote",
-            "type": "shallot",
-            "slug": "echalote",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "imagePath": "/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "162863a2-88a4-41a8-8083-7adf892d3eb0",
+            "portion_id": "c050fe94-e69a-488d-9032-0cb7fc0fe7b7",
+            "image_id": "6405bfc5b9d07cd5d38d7bce"
         },
         {
-            "id": "6405bfa3af4af6d531d50c5b",
-            "uuid": "fc9f1a48-bbc9-4533-a936-c6fd85365217",
-            "name": "Bœuf haché assaisonné à l'italienne",
-            "type": "ground-beef-with-italian-spices",
-            "slug": "boeuf-hache-assaisonne-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa3af4af6d531d50c5b-cd2710a8.png",
-            "imagePath": "/ingredient/6405bfa3af4af6d531d50c5b-cd2710a8.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "17a0a77b-1da4-443d-8e7e-02e9aa910f14"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01"
         },
         {
-            "id": "6405bf54b9d07cd5d38d7a44",
-            "uuid": "9e80237a-efe3-4263-8214-125ae1eb897b",
-            "name": "Fromage de montagne râpé",
-            "type": "grated-comte",
-            "slug": "fromage-de-montagne-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf54b9d07cd5d38d7a44-7b4fab40.png",
-            "imagePath": "/ingredient/6405bf54b9d07cd5d38d7a44-7b4fab40.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "b9fbaa32-0f83-4e26-aac3-375a3b455e44"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5120ebc1d64f7b96e26ff",
-            "uuid": "c3c7835c-68b0-4d3c-8b06-2aaf33f2a4e5",
-            "name": "Cube de bouillon de volaille",
-            "type": "cube-de-bouillon-de-volaille-pc",
-            "slug": "cube-de-bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120ebc1d64f7b96e26ff-de6d3913.png",
-            "imagePath": "/ingredient/63e5120ebc1d64f7b96e26ff-de6d3913.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "cb53b85f-d51b-4235-9ccf-8c25295ec222",
+            "portion_id": "e8e45ab2-68c6-45ba-b180-204b640e1be2",
+            "image_id": "63e5120ebc1d64f7b96e26ff"
         },
         {
-            "id": "63e5123381b4b295e66f0260",
-            "uuid": "06cc03c2-cb53-410a-b25b-6f183a4ccaf0",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cs",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "imagePath": "/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "6b8a7ee4-2b73-44f4-94c2-74027993111c",
+            "portion_id": "7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0",
+            "image_id": "63e5123381b4b295e66f0260"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5efb6618ee1cfe5e7f0cb0f2",
-    "name": "Ragù bianco de bœuf & champignons à la crème",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 282,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1178,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 20.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 6.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 16.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 12.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.43,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 198,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 389,
-    "slug": "ragu-bianco-de-boeuf-and-champignons-a-la-creme",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 210 degrés. Coupez la courgette en demi-rondelles de 1/2 cm d’épaisseur, disposez-les sur une plaque recouverte de papier sulfurisé, puis mélangez avec 1/2 cs d’huile d’olive et 1/4 cc de romarin séché par personne. Salez et poivrez. Enfournez-les 20 à 30 minutes ou jusqu’à ce qu’elles soient cuites et dorées.",
-            "instructionsHTML": "<p>Préchauffez le four à 210 degrés. Coupez la courgette en demi-rondelles de 1/2 cm d’épaisseur, disposez-les sur une plaque recouverte de papier sulfurisé, puis mélangez avec 1/2 cs d’huile d’olive et 1/4 cc de romarin séché par personne. Salez et poivrez. Enfournez-les 20 à 30 minutes ou jusqu’à ce qu’elles soient cuites et dorées.</p>",
-            "instructionsMarkdown": "<p>Préchauffez le four à 210 degrés. Coupez la courgette en demi-rondelles de 1/2 cm d’épaisseur, disposez-les sur une plaque recouverte de papier sulfurisé, puis mélangez avec 1/2 cs d’huile d’olive et 1/4 cc de romarin séché par personne. Salez et poivrez. Enfournez-les 20 à 30 minutes ou jusqu’à ce qu’elles soient cuites et dorées.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5efb6618ee1cfe5e7f0cb0f2/step-a247ec00.jpg",
-                    "path": "/5efb6618ee1cfe5e7f0cb0f2/step-a247ec00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Pendant ce temps, portez une grande quantité d’eau à ébullition dans une casserole avec couvercle pour les casarecce. Coupez les champignons en quartiers. Faites chauffer 1/4 cs huile d’olive par personne dans une poêle à feu moyen-vif et faites cuire les champignons 10 à 12 minutes ou jusqu’à ce qu’ils soient cuits.CONSEIL: Les champignons absorbent rapidement beaucoup d'eau, ce qui donne l'impression qu'ils brûlent. N'ajoutez pas d'huile - après quelques minutes, les champignons libèreront à nouveau de l'eau.",
-            "instructionsHTML": "<p>Pendant ce temps, portez une grande quantité d’eau à ébullition dans une casserole avec couvercle <span>pour les casarecce</span>. Coupez les champignons en quartiers. Faites chauffer 1/4 cs huile d’olive par personne dans une poêle à feu moyen-vif et faites cuire les champignons 10 à 12 minutes ou jusqu’à ce qu’ils soient cuits.</p><p>CONSEIL: Les champignons absorbent rapidement beaucoup d&#39;eau, ce qui donne l&#39;impression qu&#39;ils brûlent. N&#39;ajoutez pas d&#39;huile - après quelques minutes, les champignons libèreront à nouveau de l&#39;eau.</p>",
-            "instructionsMarkdown": "<p>Pendant ce temps, portez une grande quantité d’eau à ébullition dans une casserole avec couvercle <span>pour les casarecce</span>. Coupez les champignons en quartiers. Faites chauffer 1/4 cs huile d’olive par personne dans une poêle à feu moyen-vif et faites cuire les champignons 10 à 12 minutes ou jusqu’à ce qu’ils soient cuits.</p><p>CONSEIL: Les champignons absorbent rapidement beaucoup d&#39;eau, ce qui donne l&#39;impression qu&#39;ils brûlent. N&#39;ajoutez pas d&#39;huile - après quelques minutes, les champignons libèreront à nouveau de l&#39;eau.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5efb6618ee1cfe5e7f0cb0f2/step-ec8e8a10.jpg",
-                    "path": "/5efb6618ee1cfe5e7f0cb0f2/step-ec8e8a10.jpg",
-                    "caption": "Cuire les champignons"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Lorsque l'eau bout, ajoutez les casarecce et faites-les cuire 10 à 12 minutes à couvert. Égouttez-les et réservez sans couvercle. Pendant ce temps, portez 50 ml d’eau à ébullition par personne. Émincez l’échalote.",
-            "instructionsHTML": "<p>Lorsque l&#39;eau bout, ajoutez les casarecce et faites-les cuire 10 à 12 minutes à couvert. Égouttez-les et réservez sans couvercle. Pendant ce temps, portez 50 ml d’eau à ébullition <span>par personne</span>. Émincez l’échalote.</p>",
-            "instructionsMarkdown": "<p>Lorsque l&#39;eau bout, ajoutez les casarecce et faites-les cuire 10 à 12 minutes à couvert. Égouttez-les et réservez sans couvercle. Pendant ce temps, portez 50 ml d’eau à ébullition <span>par personne</span>. Émincez l’échalote.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5efb6618ee1cfe5e7f0cb0f2/step-83787d20.jpg",
-                    "path": "/5efb6618ee1cfe5e7f0cb0f2/step-83787d20.jpg",
-                    "caption": "Cuire les casarecce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Faites chauffer le reste de l’huile d’olive dans une sauteuse ou une grande poêle et faites revenir l’échalote 2 minutes à feu moyen-vif. Ajoutez le boeuf haché et faites-le cuire 3 minutes en l’émiettant. Versez l’eau bouillante et le vinaigre de vin blanc dans la sauteuse, émiettez le cube de bouillon par-dessus et ajoutez la crème fraîche. Remuez bien, baissez le feu et laissez mijoter 8 à 10 minutes à feu doux. Remuez régulièrement.",
-            "instructionsHTML": "<p>Faites chauffer le reste de l’huile d’olive dans une sauteuse ou une grande poêle et faites revenir l’échalote 2 minutes à feu moyen-vif. Ajoutez le boeuf haché et faites-le cuire 3 minutes en l’émiettant. Versez l’eau bouillante et le vinaigre de vin blanc dans la sauteuse, émiettez le cube de bouillon par-dessus et ajoutez la crème fraîche. Remuez bien, baissez le feu et laissez mijoter 8 à 10 minutes à feu doux. Remuez régulièrement.</p>",
-            "instructionsMarkdown": "<p>Faites chauffer le reste de l’huile d’olive dans une sauteuse ou une grande poêle et faites revenir l’échalote 2 minutes à feu moyen-vif. Ajoutez le boeuf haché et faites-le cuire 3 minutes en l’émiettant. Versez l’eau bouillante et le vinaigre de vin blanc dans la sauteuse, émiettez le cube de bouillon par-dessus et ajoutez la crème fraîche. Remuez bien, baissez le feu et laissez mijoter 8 à 10 minutes à feu doux. Remuez régulièrement.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5efb6618ee1cfe5e7f0cb0f2/step-7f543a30.jpg",
-                    "path": "/5efb6618ee1cfe5e7f0cb0f2/step-7f543a30.jpg",
-                    "caption": "Préparer la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Ajoutez les casarecce à la sauteuse et mélangez bien. Incorporez ensuite les champignons ainsi que les 2/3 du comté râpé et ajoutez une généreuse quantité de poivre noir.",
-            "instructionsHTML": "<p>Ajoutez les casarecce à la sauteuse et mélangez bien. Incorporez ensuite les champignons ainsi que les 2/3 du comté râpé et ajoutez une généreuse quantité de poivre noir.</p>",
-            "instructionsMarkdown": "<p>Ajoutez les casarecce à la sauteuse et mélangez bien. Incorporez ensuite les champignons ainsi que les 2/3 du comté râpé et ajoutez une généreuse quantité de poivre noir.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5efb6618ee1cfe5e7f0cb0f2/step-31d23540.jpg",
-                    "path": "/5efb6618ee1cfe5e7f0cb0f2/step-31d23540.jpg",
-                    "caption": "Mélanger les pâtes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les pâtes dans des assiettes creuses avec les courgettes. Parsemez le tout avec le reste du comté.",
-            "instructionsHTML": "<p>Servez les pâtes dans des assiettes creuses avec les courgettes. Parsemez le tout avec le reste du comté.</p>",
-            "instructionsMarkdown": "<p>Servez les pâtes dans des assiettes creuses avec les courgettes. Parsemez le tout avec le reste du comté.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5efb6618ee1cfe5e7f0cb0f2/step-37ea7a50.jpg",
-                    "path": "/5efb6618ee1cfe5e7f0cb0f2/step-37ea7a50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RNL16251650-4",
-    "updatedAt": "2023-10-13T10:39:59+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        }
-    ],
-    "uuid": "3ecf198c-a860-4441-b1cb-6302ac172a94",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/ragu-bianco-de-boeuf-and-champignons-a-la-creme-5efb6618ee1cfe5e7f0cb0f2",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.08,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c2b",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa3af4af6d531d50c5b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf54b9d07cd5d38d7a44",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.17,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c2b",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa3af4af6d531d50c5b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf54b9d07cd5d38d7a44",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c2b",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa3af4af6d531d50c5b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf54b9d07cd5d38d7a44",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 3,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c2b",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa3af4af6d531d50c5b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf54b9d07cd5d38d7a44",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 4,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.42,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c2b",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa3af4af6d531d50c5b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf54b9d07cd5d38d7a44",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 5,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf97af4af6d531d50c2b",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfa3af4af6d531d50c5b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf54b9d07cd5d38d7a44",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120ebc1d64f7b96e26ff",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 6,
-                    "unit": "cs"
-                }
-            ]
-        }
+        "Préchauffez le four à 210 degrés. Coupez la courgette en demi-rondelles de 1/2 cm d’épaisseur, disposez-les sur une plaque recouverte de papier sulfurisé, puis mélangez avec 1/2 cs d’huile d’olive et 1/4 cc de romarin séché par personne. Salez et poivrez. Enfournez-les 20 à 30 minutes ou jusqu’à ce qu’elles soient cuites et dorées.",
+        "Pendant ce temps, portez une grande quantité d’eau à ébullition dans une casserole avec couvercle pour les casarecce. Coupez les champignons en quartiers. Faites chauffer 1/4 cs huile d’olive par personne dans une poêle à feu moyen-vif et faites cuire les champignons 10 à 12 minutes ou jusqu’à ce qu’ils soient cuits.CONSEIL: Les champignons absorbent rapidement beaucoup d'eau, ce qui donne l'impression qu'ils brûlent. N'ajoutez pas d'huile - après quelques minutes, les champignons libèreront à nouveau de l'eau.",
+        "Lorsque l'eau bout, ajoutez les casarecce et faites-les cuire 10 à 12 minutes à couvert. Égouttez-les et réservez sans couvercle. Pendant ce temps, portez 50 ml d’eau à ébullition par personne. Émincez l’échalote.",
+        "Faites chauffer le reste de l’huile d’olive dans une sauteuse ou une grande poêle et faites revenir l’échalote 2 minutes à feu moyen-vif. Ajoutez le boeuf haché et faites-le cuire 3 minutes en l’émiettant. Versez l’eau bouillante et le vinaigre de vin blanc dans la sauteuse, émiettez le cube de bouillon par-dessus et ajoutez la crème fraîche. Remuez bien, baissez le feu et laissez mijoter 8 à 10 minutes à feu doux. Remuez régulièrement.",
+        "Ajoutez les casarecce à la sauteuse et mélangez bien. Incorporez ensuite les champignons ainsi que les 2/3 du comté râpé et ajoutez une généreuse quantité de poivre noir.",
+        "Servez les pâtes dans des assiettes creuses avec les courgettes. Parsemez le tout avec le reste du comté."
     ]
 }

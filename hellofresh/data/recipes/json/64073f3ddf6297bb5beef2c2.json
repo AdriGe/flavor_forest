@@ -1,991 +1,125 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": null,
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-03-07T13:42:21+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "Laissez-vous tenter par ces feuilletés croustillants aux lardons fumés et fromage fondant, accompagnés de poireaux tendres et d’une salade croquante. Une recette simple mais savoureuse, idéale pour un repas rapide ou un apéritif gourmand entre amis.",
-    "descriptionHTML": "<p>Laissez-vous tenter par ces feuilletés croustillants aux lardons fumés et fromage fondant, accompagnés de poireaux tendres et d’une salade croquante. Une recette simple mais savoureuse, idéale pour un repas rapide ou un apéritif gourmand entre amis.</p>",
-    "descriptionMarkdown": "Laissez-vous tenter par ces feuilletés croustillants aux lardons fumés et fromage fondant, accompagnés de poireaux tendres et d’une salade croquante. Une recette simple mais savoureuse, idéale pour un repas rapide ou un apéritif gourmand entre amis.",
     "difficulty": 2,
     "favoritesCount": 401,
     "headline": "avec du poireau & de la salade",
-    "id": "64073f3ddf6297bb5beef2c2",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R206_W15_FR_RFR29804573-1_M_high-d5d93f23.jpg",
-    "imagePath": "/image/HF_Y23_R206_W15_FR_RFR29804573-1_M_high-d5d93f23.jpg",
+    "name": "Feuilletés fourrés aux lardons & fromage",
+    "prepTime": 50,
+    "totalTime": 25,
+    "image_id": "64073f3ddf6297bb5beef2c2",
+    "id": "0ae04f98-0970-4a67-8115-e812994f4354",
+    "nutrition": {
+        "kcal": 1007,
+        "fat": 75.1,
+        "saturated_fat": 40.2,
+        "carbohydrate": 52.5,
+        "sugars": 8.2,
+        "protein": 29.6,
+        "sodium": 2.88
+    },
+    "tags": [
+        "Œufs non inclus",
+        "Chef's Choice",
+        "Famille",
+        "Moins de CO2"
+    ],
+    "utensils": [
+        "Poêle avec couvercle",
+        "Bol",
+        "Plaque de cuisson",
+        "Râpe",
+        "Petit bol",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405bf20af4af6d531d50a61",
-            "uuid": "cd41d645-9674-434e-b1cf-fe77522604cd",
-            "name": "Lardons fumés",
-            "type": "cubed-bacon",
-            "slug": "lardons-fumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "imagePath": "/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "378fd004-6e40-46bc-ba38-fd40e9d5a5e8"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01",
+            "portion_id": "2bd20717-2bbe-4705-8c80-f36486974785",
+            "image_id": "64073ba5683721c9a32b0730"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "64073bab683721c9a32b073d",
-            "uuid": "47bc8e70-cee7-49c4-8ec3-ca6079546d67",
-            "name": "Emmental râpé",
-            "type": "grated-emmentaler",
-            "slug": "emmental-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9fb0da194777986318-c2f82278.png",
-            "imagePath": "/ingredient/6405bf9fb0da194777986318-c2f82278.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "9a9cd6cf-4a01-4894-8123-01904dfb1bb4"
         },
         {
-            "id": "64073c039c6d10cd16eab686",
-            "uuid": "48036233-a4c5-54a9-ad53-015d57907c7a",
-            "name": "Pâte à tarte",
-            "type": "puff-pastry",
-            "slug": "pate-a-tarte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfccb0da1947779863b2-5c18da5b.png",
-            "imagePath": "/ingredient/6405bfccb0da1947779863b2-5c18da5b.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd",
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "3735185d-c10b-4504-8a5c-df18a86fbf5e",
+            "portion_id": "52795abb-3b3b-4400-8cbc-d432fc2a31be",
+            "image_id": "64073c039c6d10cd16eab686"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5121d81b4b295e66f0254",
-            "uuid": "0449d885-5c94-44dc-a65f-bcf23237df95",
-            "name": "Œuf",
-            "type": "oeuf",
-            "slug": "oeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "imagePath": "/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "9c2e39a8-8fc0-49a0-9a1a-4b5448e1fe1a",
+            "portion_id": "939cf6d0-beb9-4e89-9829-565fee32f52c",
+            "image_id": "63e5121d81b4b295e66f0254"
         },
         {
-            "id": "63e5121c81b4b295e66f0253",
-            "uuid": "891ef56a-66ac-4a4a-8005-f825cca67a5c",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cc",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "imagePath": "/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "92a22779-f4ab-44d9-9776-9bcccb473587",
+            "portion_id": "fe1c23f7-a1fa-4309-acb7-1985201c4403",
+            "image_id": "63e5121c81b4b295e66f0253"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64073f3ddf6297bb5beef2c2",
-    "name": "Feuilletés fourrés aux lardons & fromage",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 1007,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 4212,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 75.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 40.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 52.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 8.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 29.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.88,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 372,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 392,
-    "slug": "feuilletes-fourres-aux-lardons-and-fromage",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 210°C (190°C chaleur tournante). Conservez la pâte au frais jusqu'à utilisation.\nCoupez le poireau en deux dans l’épaisseur, lavez-le bien et coupez-le en fines demi-lunes.\n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 210°C (190°C chaleur tournante). Conservez la pâte au frais jusqu&#39;à utilisation.</li>\n<li>Coupez le poireau en deux dans l’épaisseur, lavez-le bien et coupez-le en fines demi-lunes.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 210°C (190°C chaleur tournante). Conservez la pâte au frais jusqu&#39;à utilisation.</li>\n<li>Coupez le poireau en deux dans l’épaisseur, lavez-le bien et coupez-le en fines demi-lunes.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f3ddf6297bb5beef2c2/step-30427400.jpg",
-                    "path": "/64073f3ddf6297bb5beef2c2/step-30427400.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites chauffer un mince filet d'huile d'olive dans une grande poêle à feu moyen-vif. Faites-y cuire le poireau et les lardons 4-6 min.\nAjoutez un petit filet d'eau, couvrez et poursuivez la cuisson 3-4 min en remuant de temps à autre, puis ôtez du feu. Le poireau ne doit pas être complètement cuit à ce stade.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer un mince filet d&#39;huile d&#39;olive dans une grande poêle à feu moyen-vif. Faites-y cuire le poireau et les lardons 4-6 min.</li>\n<li>Ajoutez un petit filet d&#39;eau, couvrez et poursuivez la cuisson 3-4 min en remuant de temps à autre, puis ôtez du feu. Le poireau ne doit pas être complètement cuit à ce stade.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer un mince filet d&#39;huile d&#39;olive dans une grande poêle à feu moyen-vif. Faites-y cuire le poireau et les lardons 4-6 min.</li>\n<li>Ajoutez un petit filet d&#39;eau, couvrez et poursuivez la cuisson 3-4 min en remuant de temps à autre, puis ôtez du feu. Le poireau ne doit pas être complètement cuit à ce stade.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff531"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f3ddf6297bb5beef2c2/step-979d5510.jpg",
-                    "path": "/64073f3ddf6297bb5beef2c2/step-979d5510.jpg",
-                    "caption": "Cuire la garniture"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nPendant ce temps, mélangez la crème avec 1 cc de moutarde par personne (voir CONSEIL), un peu de noix de muscade (selon votre goût) et l'emmental râpé dans un bol. Salez légèrement et poivrez.\nSéparez le blanc du jaune d'œuf et battez le jaune dans un petit bol.\nQuand le poireau est presque cuit, étalez la pâte avec son papier sulfurisé sur une plaque de cuisson. Piquez-la avec une fourchette, puis coupez-la en 2.\n\nCONSEIL : Si vous n'aimez pas la moutarde ou si vous mangez avec des enfants, mettez du beurre à la place !",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, mélangez la crème avec 1 cc de moutarde par personne (voir CONSEIL), un peu de noix de muscade (selon votre goût) et l&#39;emmental râpé dans un bol. Salez légèrement et poivrez.</li>\n<li>Séparez le blanc du jaune d&#39;œuf et battez le jaune dans un petit bol.</li>\n<li>Quand le poireau est presque cuit, étalez la pâte avec son papier sulfurisé sur une plaque de cuisson. Piquez-la avec une fourchette, puis coupez-la en 2.</li>\n</ul>\n<p>CONSEIL : Si vous n&#39;aimez pas la moutarde ou si vous mangez avec des enfants, mettez du beurre à la place !</p>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, mélangez la crème avec 1 cc de moutarde par personne (voir CONSEIL), un peu de noix de muscade (selon votre goût) et l&#39;emmental râpé dans un bol. Salez légèrement et poivrez.</li>\n<li>Séparez le blanc du jaune d&#39;œuf et battez le jaune dans un petit bol.</li>\n<li>Quand le poireau est presque cuit, étalez la pâte avec son papier sulfurisé sur une plaque de cuisson. Piquez-la avec une fourchette, puis coupez-la en 2.</li>\n</ul>\n<p>CONSEIL : Si vous n&#39;aimez pas la moutarde ou si vous mangez avec des enfants, mettez du beurre à la place !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b305368",
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f3ddf6297bb5beef2c2/step-e8ed0920.jpg",
-                    "path": "/64073f3ddf6297bb5beef2c2/step-e8ed0920.jpg",
-                    "caption": "Faire la crème"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nPour chaque morceau de pâte, mouillez légèrement les bords avec de l'eau, puis répartissez les lardons et le poireau d'un côté.\nVersez la crème d'emmental par-dessus. Repliez délicatement la pâte sur la garniture pour former un triangle feuilleté par personne.\nPincez les bords à la fourchette pour souder les feuilletés. Badigeonnez-les de jaune d'œuf.\nEnfournez-les 20-25 min, ou jusqu'à ce qu'ils soient bien dorés.\n",
-            "instructionsHTML": "<ul>\n<li>Pour chaque morceau de pâte, mouillez légèrement les bords avec de l&#39;eau, puis répartissez les lardons et le poireau d&#39;un côté.</li>\n<li>Versez la crème d&#39;emmental par-dessus. Repliez délicatement la pâte sur la garniture pour former un triangle feuilleté par personne.</li>\n<li>Pincez les bords à la fourchette pour souder les feuilletés. Badigeonnez-les de jaune d&#39;œuf.</li>\n<li>Enfournez-les 20-25 min, ou jusqu&#39;à ce qu&#39;ils soient bien dorés.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pour chaque morceau de pâte, mouillez légèrement les bords avec de l&#39;eau, puis répartissez les lardons et le poireau d&#39;un côté.</li>\n<li>Versez la crème d&#39;emmental par-dessus. Repliez délicatement la pâte sur la garniture pour former un triangle feuilleté par personne.</li>\n<li>Pincez les bords à la fourchette pour souder les feuilletés. Badigeonnez-les de jaune d&#39;œuf.</li>\n<li>Enfournez-les 20-25 min, ou jusqu&#39;à ce qu&#39;ils soient bien dorés.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f3ddf6297bb5beef2c2/step-794e2b30.jpg",
-                    "path": "/64073f3ddf6297bb5beef2c2/step-794e2b30.jpg",
-                    "caption": "Enfourner les feuilletés"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nPendant ce temps, faites une vinaigrette en mélangeant un peu de vinaigre balsamique avec un filet d’huile d'olive dans un saladier. Salez et poivrez.\nAjoutez la salade au moment de servir et mélangez bien.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, faites une vinaigrette en mélangeant un peu de vinaigre balsamique avec un filet d’huile d&#39;olive dans un saladier. Salez et poivrez.</li>\n<li>Ajoutez la salade au moment de servir et mélangez bien.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, faites une vinaigrette en mélangeant un peu de vinaigre balsamique avec un filet d’huile d&#39;olive dans un saladier. Salez et poivrez.</li>\n<li>Ajoutez la salade au moment de servir et mélangez bien.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f3ddf6297bb5beef2c2/step-1a4cd140.jpg",
-                    "path": "/64073f3ddf6297bb5beef2c2/step-1a4cd140.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nLaissez un peu refroidir les feuilletés avant de les couper.\nServez-les dans les assiettes accompagnés de la salade.\n",
-            "instructionsHTML": "<ul>\n<li>Laissez un peu refroidir les feuilletés avant de les couper.</li>\n<li>Servez-les dans les assiettes accompagnés de la salade.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Laissez un peu refroidir les feuilletés avant de les couper.</li>\n<li>Servez-les dans les assiettes accompagnés de la salade.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f3ddf6297bb5beef2c2/step-0716f650.jpg",
-                    "path": "/64073f3ddf6297bb5beef2c2/step-0716f650.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b30531c",
-            "type": "egg-free",
-            "name": "Œufs non inclus",
-            "slug": "œufs-non-inclus",
-            "colorHandle": "regular",
-            "preferences": [
-                "Classique"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62388d0e819bac74ed3067cd",
-            "type": "classic",
-            "name": "Chef's Choice",
-            "slug": "chefs-choice",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": false
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29804573-1",
-    "updatedAt": "2024-01-04T22:35:03+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff531",
-            "type": null,
-            "name": "Poêle avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305368",
-            "type": "bakingsheet",
-            "name": "Plaque de cuisson"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "52639610-41ae-400b-b732-ba2aaae32f0f",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/feuilletes-fourres-aux-lardons-and-fromage-64073f3ddf6297bb5beef2c2",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 35,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 2,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 2,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bab683721c9a32b073d",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 210°C (190°C chaleur tournante). Conservez la pâte au frais jusqu'à utilisation.\nCoupez le poireau en deux dans l’épaisseur, lavez-le bien et coupez-le en fines demi-lunes.\n",
+        "\nFaites chauffer un mince filet d'huile d'olive dans une grande poêle à feu moyen-vif. Faites-y cuire le poireau et les lardons 4-6 min.\nAjoutez un petit filet d'eau, couvrez et poursuivez la cuisson 3-4 min en remuant de temps à autre, puis ôtez du feu. Le poireau ne doit pas être complètement cuit à ce stade.\n",
+        "\nPendant ce temps, mélangez la crème avec 1 cc de moutarde par personne (voir CONSEIL), un peu de noix de muscade (selon votre goût) et l'emmental râpé dans un bol. Salez légèrement et poivrez.\nSéparez le blanc du jaune d'œuf et battez le jaune dans un petit bol.\nQuand le poireau est presque cuit, étalez la pâte avec son papier sulfurisé sur une plaque de cuisson. Piquez-la avec une fourchette, puis coupez-la en 2.\n\nCONSEIL : Si vous n'aimez pas la moutarde ou si vous mangez avec des enfants, mettez du beurre à la place !",
+        "\nPour chaque morceau de pâte, mouillez légèrement les bords avec de l'eau, puis répartissez les lardons et le poireau d'un côté.\nVersez la crème d'emmental par-dessus. Repliez délicatement la pâte sur la garniture pour former un triangle feuilleté par personne.\nPincez les bords à la fourchette pour souder les feuilletés. Badigeonnez-les de jaune d'œuf.\nEnfournez-les 20-25 min, ou jusqu'à ce qu'ils soient bien dorés.\n",
+        "\nPendant ce temps, faites une vinaigrette en mélangeant un peu de vinaigre balsamique avec un filet d’huile d'olive dans un saladier. Salez et poivrez.\nAjoutez la salade au moment de servir et mélangez bien.\n",
+        "\nLaissez un peu refroidir les feuilletés avant de les couper.\nServez-les dans les assiettes accompagnés de la salade.\n"
     ]
 }

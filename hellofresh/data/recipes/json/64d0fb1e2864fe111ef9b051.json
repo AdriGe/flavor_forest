@@ -1,1008 +1,129 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "64073f5e683721c9a32b08ec",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-08-07T14:09:34+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053af",
-            "type": "mexican",
-            "name": "Mexicaine",
-            "slug": "mexican",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
-        }
+        "Mexicaine"
     ],
     "description": "La quesadilla, de l’espagnol « queso » qui signifie « fromage », est un « antojito » ou « en-cas » idéal à manger sur le pouce ! Bien qu’elle soit originaire du Mexique, cette spécialité est désormais un incontournable de la cuisine tex-mex. Vous la préparerez au bœuf et au cheddar avec une salade fraîche de tomates, maïs et coriandre.",
-    "descriptionHTML": "<p>La quesadilla, de l’espagnol « queso » qui signifie « fromage », est un « antojito » ou « en-cas » idéal à manger sur le pouce ! Bien qu’elle soit originaire du Mexique, cette spécialité est désormais un incontournable de la cuisine tex-mex. Vous la préparerez au bœuf et au cheddar avec une salade fraîche de tomates, maïs et coriandre.</p>",
-    "descriptionMarkdown": "La quesadilla, de l’espagnol « queso » qui signifie « fromage », est un « antojito » ou « en-cas » idéal à manger sur le pouce ! Bien qu’elle soit originaire du Mexique, cette spécialité est désormais un incontournable de la cuisine tex-mex. Vous la préparerez au bœuf et au cheddar avec une salade fraîche de tomates, maïs et coriandre.",
     "difficulty": 2,
     "favoritesCount": 619,
     "headline": "avec du maïs et de la coriandre",
-    "id": "64d0fb1e2864fe111ef9b051",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R205_W41_FR_RFR20161996-3_Main_R_high-4caee204.jpg",
-    "imagePath": "/image/HF_Y23_R205_W41_FR_RFR20161996-3_Main_R_high-4caee204.jpg",
+    "name": "Quesadillas mexicaines bœuf & cheddar",
+    "prepTime": 30,
+    "totalTime": 25,
+    "image_id": "64d0fb1e2864fe111ef9b051",
+    "id": "cf60aa89-26ad-424b-9b6b-e9d87a50df68",
+    "nutrition": {
+        "kcal": 899,
+        "fat": 54.5,
+        "saturated_fat": 16.7,
+        "carbohydrate": 64.1,
+        "sugars": 14.1,
+        "protein": 37,
+        "sodium": 3.31
+    },
+    "tags": [
+        "Famille",
+        "Épicé",
+        "Peu de vaisselle"
+    ],
+    "utensils": [
+        "Bol",
+        "Spatule",
+        "Sauteuse",
+        "Poêle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d",
+            "portion_id": "3b32de7a-03ea-407b-895a-197efd4cb91f",
+            "image_id": "6405bf35af4af6d531d50ab8"
         },
         {
-            "id": "6405bff3b0da194777986433",
-            "uuid": "2a486e38-5998-51dd-b175-8383b12a3ec3",
-            "name": "Tomate",
-            "type": "tomato",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b0da194777986433-af108835.png",
-            "imagePath": "/ingredient/6405bff3b0da194777986433-af108835.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "3a59005f-4649-49c7-9be4-1c2ca22d9f1a",
+            "portion_id": "0c1f557a-3079-42ee-b32c-f0c552fe9730",
+            "image_id": "6405bff3b0da194777986433"
         },
         {
-            "id": "6405bfe9b0da194777986410",
-            "uuid": "7e69f80c-67d4-45b1-a3bd-d76e5d9e539b",
-            "name": "Maïs en conserve",
-            "type": "canned-corn",
-            "slug": "mais-en-conserve",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe9b0da194777986410-038f03c2.png",
-            "imagePath": "/ingredient/6405bfe9b0da194777986410-038f03c2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 140,
+            "unit": "g",
+            "ingredient_id": "eb126bd8-6dc4-407f-885a-6033cedaf639"
         },
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "pot(s)",
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93",
+            "portion_id": "0da30959-c785-43dc-9138-9b35fd2901e9",
+            "image_id": "6405bfefb9d07cd5d38d7c59"
         },
         {
-            "id": "6405bfd0b0da1947779863c0",
-            "uuid": "a9702fdb-e742-5fe0-b221-974c1ea5db87",
-            "name": "Épices mexicaines",
-            "type": "mexican-spice",
-            "slug": "epices-mexicaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "imagePath": "/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae75e647-2ef5-4079-a851-ebba5dcc2f18",
+            "portion_id": "0cd9e5cd-396b-4f6d-afe0-5435899f4adb",
+            "image_id": "6405bfd0b0da1947779863c0"
         },
         {
-            "id": "64073ba6683721c9a32b0732",
-            "uuid": "85c45981-51eb-5688-8659-b3f9bbf4116b",
-            "name": "Tortillas",
-            "type": "flour-tortillas",
-            "slug": "tortillas",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "shipped": true,
-            "allergens": [
-                "60368d89cdbdf450236ad8cd",
-                "57962a07b7e8697d4b3052f5"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "ad9a6b74-7094-403d-8f4c-a3ac25b1f7b8",
+            "portion_id": "0e5f3a52-6c56-4cc5-ab96-8e7e904984e4",
+            "image_id": "64073ba6683721c9a32b0732"
         },
         {
-            "id": "64073c70df6297bb5beef1b9",
-            "uuid": "427db119-993c-4475-bd45-cb0142c44cd9",
-            "name": "Cheddar râpé",
-            "type": "grated-cheddar-cheese",
-            "slug": "cheddar-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfcfb9d07cd5d38d7bec-c103a20c.jpg",
-            "imagePath": "/ingredient/6405bfcfb9d07cd5d38d7bec-c103a20c.jpg",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "ca64e71c-40f3-4414-8f33-cb784ee9f649"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64d0fb1e2864fe111ef9b051",
-    "name": "Quesadillas mexicaines bœuf & cheddar",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 899,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3761,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 54.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 16.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 64.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 14.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 37,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.31,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 1325,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 465,
-    "slug": "quesadillas-mexicaines-boeuf-and-cheddar",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nCiselez finement l'ail, l'oignon et la coriandre (avec les tiges si vous le souhaitez).\nCoupez les tomates en dés (voir CONSEIL).\nÉgouttez le maïs.\n\nCONSEIL : Utilisez un couteau à dents pour couper vos tomates plus facilement !",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Ciselez finement l&#39;ail, l&#39;oignon et la coriandre (avec les tiges si vous le souhaitez).</li>\n<li>Coupez les tomates en dés (voir CONSEIL).</li>\n<li>Égouttez le maïs.</li>\n</ul>\n<p><span>CONSEIL : </span>Utilisez un couteau à dents pour couper vos tomates plus facilement !</p>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Ciselez finement l&#39;ail, l&#39;oignon et la coriandre (avec les tiges si vous le souhaitez).</li>\n<li>Coupez les tomates en dés (voir CONSEIL).</li>\n<li>Égouttez le maïs.</li>\n</ul>\n<p><span>CONSEIL : </span>Utilisez un couteau à dents pour couper vos tomates plus facilement !</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d0fb1e2864fe111ef9b051/step-fa8a3500.jpg",
-                    "path": "/64d0fb1e2864fe111ef9b051/step-fa8a3500.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nDans un bol, mélangez la moitié des dés de tomates avec la moitié du maïs et de la coriandre.\nJuste avant de servir, assaisonnez le mélange avec un filet d'huile d'olive et un filet de vinaigre de vin rouge. Salez et poivrez.\n",
-            "instructionsHTML": "<ul>\n<li>Dans un bol, mélangez la moitié des dés de tomates avec la moitié du maïs et de la coriandre.</li>\n<li>Juste avant de servir, assaisonnez le mélange avec un filet d&#39;huile d&#39;olive et un filet de vinaigre de vin rouge. Salez et poivrez.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Dans un bol, mélangez la moitié des dés de tomates avec la moitié du maïs et de la coriandre.</li>\n<li>Juste avant de servir, assaisonnez le mélange avec un filet d&#39;huile d&#39;olive et un filet de vinaigre de vin rouge. Salez et poivrez.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d0fb1e2864fe111ef9b051/step-eb8eeb10.jpg",
-                    "path": "/64d0fb1e2864fe111ef9b051/step-eb8eeb10.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nFaites chauffer un filet d'huile d'olive dans une grande sauteuse à feu moyen-vif. Faites-y revenir l'ail et l'oignon 2-3 min.\nAjoutez le bœuf et 1 cs d'eau. Salez et faites cuire 2-3 min, ou jusqu'à ce que la viande soit légèrement dorée, en l'émiettant avec une spatule.\nAjoutez le concentré de tomates, le reste des dés de tomates et ⅓ du sachet d'épices mexicaines par personne (ça pique ! Dosez-les selon votre goût). Remuez et laissez mijoter 2-3 min.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une grande sauteuse à feu moyen-vif. Faites-y revenir l&#39;ail et l&#39;oignon 2-3 min.</li>\n<li>Ajoutez le bœuf et 1 cs d&#39;eau. Salez et faites cuire 2-3 min, ou jusqu&#39;à ce que la viande soit légèrement dorée, en l&#39;émiettant avec une spatule.</li>\n<li>Ajoutez le concentré de tomates, le reste des dés de tomates et ⅓ du sachet d&#39;épices mexicaines par personne (ça pique ! Dosez-les selon votre goût). Remuez et laissez mijoter 2-3 min.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une grande sauteuse à feu moyen-vif. Faites-y revenir l&#39;ail et l&#39;oignon 2-3 min.</li>\n<li>Ajoutez le bœuf et 1 cs d&#39;eau. Salez et faites cuire 2-3 min, ou jusqu&#39;à ce que la viande soit légèrement dorée, en l&#39;émiettant avec une spatule.</li>\n<li>Ajoutez le concentré de tomates, le reste des dés de tomates et ⅓ du sachet d&#39;épices mexicaines par personne (ça pique ! Dosez-les selon votre goût). Remuez et laissez mijoter 2-3 min.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305396",
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d0fb1e2864fe111ef9b051/step-d3fcf520.jpg",
-                    "path": "/64d0fb1e2864fe111ef9b051/step-d3fcf520.jpg",
-                    "caption": "Cuire la garniture"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nRépartissez la moitié du cheddar râpé sur les tortillas, puis la préparation au bœuf.\nSaupoudrez de coriandre et de maïs restants, puis recouvrez du reste de cheddar.\nPliez les tortillas en deux. Pressez-les légèrement avec la paume de votre main de manière à les aplatir.\n",
-            "instructionsHTML": "<ul>\n<li>Répartissez la moitié du cheddar râpé sur les tortillas, puis la préparation au bœuf.</li>\n<li>Saupoudrez de coriandre et de maïs restants, puis recouvrez du reste de cheddar.</li>\n<li>Pliez les tortillas en deux. Pressez-les légèrement avec la paume de votre main de manière à les aplatir.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Répartissez la moitié du cheddar râpé sur les tortillas, puis la préparation au bœuf.</li>\n<li>Saupoudrez de coriandre et de maïs restants, puis recouvrez du reste de cheddar.</li>\n<li>Pliez les tortillas en deux. Pressez-les légèrement avec la paume de votre main de manière à les aplatir.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d0fb1e2864fe111ef9b051/step-a4a07630.jpg",
-                    "path": "/64d0fb1e2864fe111ef9b051/step-a4a07630.jpg",
-                    "caption": "Garnir les tortillas"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nFaites chauffer une poêle à sec à feu moyen-vif.\nDéposez les quesadillas et faites-les cuire 3-4 min, ou jusqu'à ce qu'elles soient bien dorées et le cheddar fondu.\nRetournez-les délicatement à mi-cuisson.\n\nCONSEIL : Utilisez plusieurs poêles si vous êtes nombreux !",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer une poêle à sec à feu moyen-vif.</li>\n<li>Déposez les quesadillas et faites-les cuire 3-4 min, ou jusqu&#39;à ce qu&#39;elles soient bien dorées et le cheddar fondu.</li>\n<li>Retournez-les délicatement à mi-cuisson.</li>\n</ul>\n<p>CONSEIL : Utilisez plusieurs poêles si vous êtes nombreux !</p>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer une poêle à sec à feu moyen-vif.</li>\n<li>Déposez les quesadillas et faites-les cuire 3-4 min, ou jusqu&#39;à ce qu&#39;elles soient bien dorées et le cheddar fondu.</li>\n<li>Retournez-les délicatement à mi-cuisson.</li>\n</ul>\n<p>CONSEIL : Utilisez plusieurs poêles si vous êtes nombreux !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d0fb1e2864fe111ef9b051/step-313a4f40.jpg",
-                    "path": "/64d0fb1e2864fe111ef9b051/step-313a4f40.jpg",
-                    "caption": "Cuire les quesadillas"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nCoupez les quesadillas en parts et servez-les dans les assiettes.\nPrésentez la salade dans un bol à côté.\n",
-            "instructionsHTML": "<ul>\n<li>Coupez les quesadillas en parts et servez-les dans les assiettes.</li>\n<li>Présentez la salade dans un bol à côté.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Coupez les quesadillas en parts et servez-les dans les assiettes.</li>\n<li>Présentez la salade dans un bol à côté.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d0fb1e2864fe111ef9b051/step-9abee350.jpg",
-                    "path": "/64d0fb1e2864fe111ef9b051/step-9abee350.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5ed7c2945027987e76121967",
-            "type": "easy-cleanup",
-            "name": "Peu de vaisselle",
-            "slug": "peu-de-vaisselle",
-            "colorHandle": "text",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR20161996-3",
-    "updatedAt": "2024-01-07T19:03:15+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305396",
-            "type": "spatula",
-            "name": "Spatule"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        }
-    ],
-    "uuid": "46d87778-d014-4433-b1ec-5567f293ae3b",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/quesadillas-mexicaines-boeuf-and-cheddar-64d0fb1e2864fe111ef9b051",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 70,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.33,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6683721c9a32b0732",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c70df6297bb5beef1b9",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.66,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6683721c9a32b0732",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c70df6297bb5beef1b9",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 210,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6683721c9a32b0732",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c70df6297bb5beef1b9",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 285,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.33,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6683721c9a32b0732",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c70df6297bb5beef1b9",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 350,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.66,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6683721c9a32b0732",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c70df6297bb5beef1b9",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe9b0da194777986410",
-                    "amount": 420,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6683721c9a32b0732",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073c70df6297bb5beef1b9",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nCiselez finement l'ail, l'oignon et la coriandre (avec les tiges si vous le souhaitez).\nCoupez les tomates en dés (voir CONSEIL).\nÉgouttez le maïs.\n\nCONSEIL : Utilisez un couteau à dents pour couper vos tomates plus facilement !",
+        "\nDans un bol, mélangez la moitié des dés de tomates avec la moitié du maïs et de la coriandre.\nJuste avant de servir, assaisonnez le mélange avec un filet d'huile d'olive et un filet de vinaigre de vin rouge. Salez et poivrez.\n",
+        "\nFaites chauffer un filet d'huile d'olive dans une grande sauteuse à feu moyen-vif. Faites-y revenir l'ail et l'oignon 2-3 min.\nAjoutez le bœuf et 1 cs d'eau. Salez et faites cuire 2-3 min, ou jusqu'à ce que la viande soit légèrement dorée, en l'émiettant avec une spatule.\nAjoutez le concentré de tomates, le reste des dés de tomates et ⅓ du sachet d'épices mexicaines par personne (ça pique ! Dosez-les selon votre goût). Remuez et laissez mijoter 2-3 min.\n",
+        "\nRépartissez la moitié du cheddar râpé sur les tortillas, puis la préparation au bœuf.\nSaupoudrez de coriandre et de maïs restants, puis recouvrez du reste de cheddar.\nPliez les tortillas en deux. Pressez-les légèrement avec la paume de votre main de manière à les aplatir.\n",
+        "\nFaites chauffer une poêle à sec à feu moyen-vif.\nDéposez les quesadillas et faites-les cuire 3-4 min, ou jusqu'à ce qu'elles soient bien dorées et le cheddar fondu.\nRetournez-les délicatement à mi-cuisson.\n\nCONSEIL : Utilisez plusieurs poêles si vous êtes nombreux !",
+        "\nCoupez les quesadillas en parts et servez-les dans les assiettes.\nPrésentez la salade dans un bol à côté.\n"
     ]
 }

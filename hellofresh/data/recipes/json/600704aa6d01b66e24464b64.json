@@ -1,896 +1,112 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "RFR16681758-2",
-    "country": "FR",
-    "createdAt": "2021-01-19T16:11:23+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 433,
     "headline": "avec du bacon, du râpé de raclette et des croûtons",
-    "id": "600704aa6d01b66e24464b64",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF201013_R211_W49_FR_RFR16681758-1_KB_Main_low-e5d361ba.jpg",
-    "imagePath": "/image/HF201013_R211_W49_FR_RFR16681758-1_KB_Main_low-e5d361ba.jpg",
+    "name": "Soupe à l'oignon gratinée",
+    "prepTime": 35,
+    "totalTime": 25,
+    "image_id": "600704aa6d01b66e24464b64",
+    "id": "a30785a4-3e94-4be7-8328-e9512b9d5bd2",
+    "nutrition": {
+        "kcal": 749,
+        "fat": 23,
+        "saturated_fat": 5.9,
+        "carbohydrate": 34.4,
+        "sugars": 13.3,
+        "protein": 15.4,
+        "sodium": 4.93
+    },
+    "tags": [
+        "À faire rapidement"
+    ],
+    "utensils": [
+        "Spatule",
+        "Marmite à soupe ou grande casserole avec couvercle",
+        "Mixeur plongeant",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Bol",
+        "Poêle",
+        "Essuie-tout"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf23b0da19477798616a",
-            "uuid": "1182a147-a169-5625-92ae-2305fab920e3",
-            "name": "Feuille de laurier",
-            "type": "bay-leaves",
-            "slug": "feuille-de-laurier",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf23b0da19477798616a-34fc502c.png",
-            "imagePath": "/ingredient/6405bf23b0da19477798616a-34fc502c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2f762dc0-4910-4e4e-986e-41b1004ccccf",
+            "portion_id": "4d270119-381f-4870-9b6e-d15415df946c",
+            "image_id": "6405bf23b0da19477798616a"
         },
         {
-            "id": "6405bf26af4af6d531d50a7f",
-            "uuid": "164c1082-e94f-5031-893e-031def7eda79",
-            "name": "Tranches de poitrine fumée",
-            "type": "bacon",
-            "slug": "tranches-de-poitrine-fumee",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf26af4af6d531d50a7f-e5dd1001.png",
-            "imagePath": "/ingredient/6405bf26af4af6d531d50a7f-e5dd1001.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 85,
+            "unit": "g",
+            "ingredient_id": "fdfedef7-f105-4ab9-b842-86ecf7e1d6aa"
         },
         {
-            "id": "6405bfe1b0da1947779863f5",
-            "uuid": "416b1efe-63eb-49fb-bf00-731cde93fc57",
-            "name": "Petit pain au pavot",
-            "type": "poppy-seed-bun",
-            "slug": "petit-pain-au-pavot",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe1b0da1947779863f5-c0e13d0e.png",
-            "imagePath": "/ingredient/6405bfe1b0da1947779863f5-c0e13d0e.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "609a5bff-0de2-40e4-9cfe-3f1467904d16",
+            "portion_id": "3e765e7f-20bd-4b2e-8c98-8359f0e88c76",
+            "image_id": "6405bfe1b0da1947779863f5"
         },
         {
-            "id": "6405bf28b0da194777986184",
-            "uuid": "4328be73-b086-5d16-b287-33bce92c2fb4",
-            "name": "Champignons de Paris",
-            "type": "mushrooms",
-            "slug": "champignons-de-paris",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "imagePath": "/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "b2201e5a-2fc7-46ed-99e2-d0a9b3a80231"
         },
         {
-            "id": "64073ba7df6297bb5beef0f9",
-            "uuid": "b443c50a-b3b3-510c-93ac-01d6610777a3",
-            "name": "Ciboulette",
-            "type": "chives",
-            "slug": "ciboulette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "imagePath": "/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "436539af-4b0c-46d6-9134-1d83699b82ef"
         },
         {
-            "id": "6405bf21b9d07cd5d38d7987",
-            "uuid": "a1826378-f302-48c3-a5cb-a9e2eeb588a7",
-            "name": "Râpé de raclette RichesMonts",
-            "type": "richesmonts-grated-raclette-cheese",
-            "slug": "rape-de-raclette-richesmonts",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf21b9d07cd5d38d7987-6b252edd.png",
-            "imagePath": "/ingredient/6405bf21b9d07cd5d38d7987-6b252edd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "0a5925e5-651b-4389-8439-ca11b36d43f7"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 700,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/600704aa6d01b66e24464b64",
-    "name": "Soupe à l'oignon gratinée",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 749,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3135,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 23,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 5.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 34.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 13.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 15.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 4.93,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 164,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 780,
-    "slug": "soupe-a-loignon-gratinee",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200°C. Préparez le bouillon avec de l'eau chaude. Hachez grossièrement les oignons. Pressez ou ciselez la moitié de l'ail (gardez l'autre moitié pour les croûtons). ",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 200°C. </li><li>Préparez le bouillon avec de l&#39;eau chaude. </li><li>Hachez grossièrement les oignons. </li><li>Pressez ou ciselez la moitié de l&#39;ail (gardez l&#39;autre moitié pour les croûtons). </li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 200°C. </li><li>Préparez le bouillon avec de l&#39;eau chaude. </li><li>Hachez grossièrement les oignons. </li><li>Pressez ou ciselez la moitié de l&#39;ail (gardez l&#39;autre moitié pour les croûtons). </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/600704aa6d01b66e24464b64/step-52616f00.jpg",
-                    "path": "/600704aa6d01b66e24464b64/step-52616f00.jpg",
-                    "caption": "Préparer la soupe"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer un filet d'huile d'olive dans une marmite. Faites-y dorer l'oignon et l'ail à feu moyen-vif 6 à 7 minutes à couvert.Ajoutez le bouillon, la feuille de laurier, salez, poivrez et utilisez une spatule pour décoller tous les sucs de cuisson au fond de la marmite. Laissez mijoter à couvert 10 à 12 minutes à feu moyen. Puis retirez la feuille de laurier et mixez au mixeur plongeant. Il peut rester quelques morceaux d'oignons : cela donnera un peu de mâche au plat.",
-            "instructionsHTML": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une marmite. Faites-y dorer l&#39;oignon et l&#39;ail à feu moyen-vif 6 à 7 minutes à couvert.</li><li>Ajoutez le bouillon, la feuille de laurier, salez, poivrez et utilisez une spatule pour décoller tous les sucs de cuisson au fond de la marmite. </li><li>Laissez mijoter à couvert 10 à 12 minutes à feu moyen. </li><li>Puis retirez la feuille de laurier et mixez au mixeur plongeant. Il peut rester quelques morceaux d&#39;oignons : cela donnera un peu de mâche au plat.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une marmite. Faites-y dorer l&#39;oignon et l&#39;ail à feu moyen-vif 6 à 7 minutes à couvert.</li><li>Ajoutez le bouillon, la feuille de laurier, salez, poivrez et utilisez une spatule pour décoller tous les sucs de cuisson au fond de la marmite. </li><li>Laissez mijoter à couvert 10 à 12 minutes à feu moyen. </li><li>Puis retirez la feuille de laurier et mixez au mixeur plongeant. Il peut rester quelques morceaux d&#39;oignons : cela donnera un peu de mâche au plat.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305396",
-                "5e3ad24efcf61c18c30ff537",
-                "57e2674fb7e8697d4b30539a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/600704aa6d01b66e24464b64/step-1fc7bb10.jpg",
-                    "path": "/600704aa6d01b66e24464b64/step-1fc7bb10.jpg",
-                    "caption": "Faire la soupe"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Détachez les tranches de lard et disposez-les sur une plaque de cuisson recouverte de papier sulfurisé. Enfournez le lard 6 à 8 minutes. Laissez-le refroidir après cuisson, puis coupez-le en gros morceaux.Disposez-le sur de l'essuie tout afin d'éliminer les surplus de gras.",
-            "instructionsHTML": "<ul><li><span>Détachez les tranches de lard et disposez-les sur une plaque de cuisson recouverte de papier sulfurisé. </span></li><li><span>Enfournez le lard 6 à 8 minutes. Laissez-le refroidir après cuisson, puis coupez-le en gros morceaux.</span></li><li><span>Disposez-le sur de l&#39;essuie tout afin d&#39;éliminer les surplus de gras.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Détachez les tranches de lard et disposez-les sur une plaque de cuisson recouverte de papier sulfurisé. </span></li><li><span>Enfournez le lard 6 à 8 minutes. Laissez-le refroidir après cuisson, puis coupez-le en gros morceaux.</span></li><li><span>Disposez-le sur de l&#39;essuie tout afin d&#39;éliminer les surplus de gras.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/600704aa6d01b66e24464b64/step-9858e320.jpg",
-                    "path": "/600704aa6d01b66e24464b64/step-9858e320.jpg",
-                    "caption": "Cuire le lard"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Coupez le petit pain en deux dans l'épaisseur et frottez-le avec la moitié d'ail restante. Déchirez le pain à la main pour en faire des petits croûtons.Faites chauffer un filet d'huile d'olive dans une poêle à feu vif et faites-y dorer les croûtons 5 à 6 minutes ou jusqu'à ce qu'ils soient croquants. Salez, poivrez et réservez-les hors de la poêle dans un bol. Pendant ce temps, essuyez les champignons avec un essuie-tout humide et coupez-les en 4. Ciselez la ciboulette. ",
-            "instructionsHTML": "<ul><li>Coupez le petit pain en deux dans l&#39;épaisseur et frottez-le avec la moitié d&#39;ail restante. Déchirez le pain à la main pour en faire des petits croûtons.</li><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une poêle à feu vif et faites-y dorer les croûtons 5 à 6 minutes ou jusqu&#39;à ce qu&#39;ils soient croquants. </li><li>Salez, poivrez et réservez-les hors de la poêle dans un bol. </li><li>Pendant ce temps, essuyez les champignons avec un essuie-tout humide et coupez-les en 4. </li><li>Ciselez la ciboulette. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez le petit pain en deux dans l&#39;épaisseur et frottez-le avec la moitié d&#39;ail restante. Déchirez le pain à la main pour en faire des petits croûtons.</li><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une poêle à feu vif et faites-y dorer les croûtons 5 à 6 minutes ou jusqu&#39;à ce qu&#39;ils soient croquants. </li><li>Salez, poivrez et réservez-les hors de la poêle dans un bol. </li><li>Pendant ce temps, essuyez les champignons avec un essuie-tout humide et coupez-les en 4. </li><li>Ciselez la ciboulette. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b305383",
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/600704aa6d01b66e24464b64/step-7be7ea30.jpg",
-                    "path": "/600704aa6d01b66e24464b64/step-7be7ea30.jpg",
-                    "caption": "Découper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Dans la même poêle que celle utilisée pour les croûtons, faites revenir les champignons 4 à 5 minutes à feu vif, salez et poivrez. Ils doivent être bien dorés.Dans des assiettes creuses, placez 1/3 du fromage et des croûtons.",
-            "instructionsHTML": "<ul><li>Dans la même poêle que celle utilisée pour les croûtons, faites revenir les champignons 4 à 5 minutes à feu vif, salez et poivrez. Ils doivent être bien dorés.</li><li>Dans des assiettes creuses, placez 1/3 du fromage et des croûtons.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans la même poêle que celle utilisée pour les croûtons, faites revenir les champignons 4 à 5 minutes à feu vif, salez et poivrez. Ils doivent être bien dorés.</li><li>Dans des assiettes creuses, placez 1/3 du fromage et des croûtons.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/600704aa6d01b66e24464b64/step-4aac0d40.jpg",
-                    "path": "/600704aa6d01b66e24464b64/step-4aac0d40.jpg",
-                    "caption": "Cuire les champignons"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Versez la soupe dans les assiettes, ajoutez les champignons, puis le reste du fromage.Vous pouvez faire gratiner le fromage au four si vos assiettes le permettent. Saupoudrez de ciboulette.Présentez le reste des croûtons à table afin que chacun puisse se servir et les déguster bien croquants. ",
-            "instructionsHTML": "<ul><li>Versez la soupe dans les assiettes, ajoutez les champignons, puis le reste du fromage.</li><li>Vous pouvez faire gratiner le fromage au four si vos assiettes le permettent. </li><li>Saupoudrez de ciboulette.</li><li>Présentez le reste des croûtons à table afin que chacun puisse se servir et les déguster bien croquants. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Versez la soupe dans les assiettes, ajoutez les champignons, puis le reste du fromage.</li><li>Vous pouvez faire gratiner le fromage au four si vos assiettes le permettent. </li><li>Saupoudrez de ciboulette.</li><li>Présentez le reste des croûtons à table afin que chacun puisse se servir et les déguster bien croquants. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/600704aa6d01b66e24464b64/step-0259f950.jpg",
-                    "path": "/600704aa6d01b66e24464b64/step-0259f950.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR16681758-2",
-    "updatedAt": "2023-10-13T10:40:31+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305396",
-            "type": "spatula",
-            "name": "Spatule"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff537",
-            "type": null,
-            "name": "Marmite à soupe ou grande casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30539a",
-            "type": "stick-blender",
-            "name": "Mixeur plongeant"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        }
-    ],
-    "uuid": "eedd9f3e-f858-4838-8db8-8b127e9961b3",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/soupe-a-loignon-gratinee-600704aa6d01b66e24464b64",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 45,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe1b0da1947779863f5",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf21b9d07cd5d38d7987",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 350,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 85,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe1b0da1947779863f5",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf21b9d07cd5d38d7987",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 130,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe1b0da1947779863f5",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf21b9d07cd5d38d7987",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1050,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 170,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe1b0da1947779863f5",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf21b9d07cd5d38d7987",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 215,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe1b0da1947779863f5",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf21b9d07cd5d38d7987",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1750,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 260,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe1b0da1947779863f5",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf21b9d07cd5d38d7987",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 2100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200°C. Préparez le bouillon avec de l'eau chaude. Hachez grossièrement les oignons. Pressez ou ciselez la moitié de l'ail (gardez l'autre moitié pour les croûtons). ",
+        "Faites chauffer un filet d'huile d'olive dans une marmite. Faites-y dorer l'oignon et l'ail à feu moyen-vif 6 à 7 minutes à couvert.Ajoutez le bouillon, la feuille de laurier, salez, poivrez et utilisez une spatule pour décoller tous les sucs de cuisson au fond de la marmite. Laissez mijoter à couvert 10 à 12 minutes à feu moyen. Puis retirez la feuille de laurier et mixez au mixeur plongeant. Il peut rester quelques morceaux d'oignons : cela donnera un peu de mâche au plat.",
+        "Détachez les tranches de lard et disposez-les sur une plaque de cuisson recouverte de papier sulfurisé. Enfournez le lard 6 à 8 minutes. Laissez-le refroidir après cuisson, puis coupez-le en gros morceaux.Disposez-le sur de l'essuie tout afin d'éliminer les surplus de gras.",
+        "Coupez le petit pain en deux dans l'épaisseur et frottez-le avec la moitié d'ail restante. Déchirez le pain à la main pour en faire des petits croûtons.Faites chauffer un filet d'huile d'olive dans une poêle à feu vif et faites-y dorer les croûtons 5 à 6 minutes ou jusqu'à ce qu'ils soient croquants. Salez, poivrez et réservez-les hors de la poêle dans un bol. Pendant ce temps, essuyez les champignons avec un essuie-tout humide et coupez-les en 4. Ciselez la ciboulette. ",
+        "Dans la même poêle que celle utilisée pour les croûtons, faites revenir les champignons 4 à 5 minutes à feu vif, salez et poivrez. Ils doivent être bien dorés.Dans des assiettes creuses, placez 1/3 du fromage et des croûtons.",
+        "Versez la soupe dans les assiettes, ajoutez les champignons, puis le reste du fromage.Vous pouvez faire gratiner le fromage au four si vos assiettes le permettent. Saupoudrez de ciboulette.Présentez le reste des croûtons à table afin que chacun puisse se servir et les déguster bien croquants. "
     ]
 }

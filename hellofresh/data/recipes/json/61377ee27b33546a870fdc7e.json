@@ -1,883 +1,116 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "QFR29803832-1",
-    "country": "FR",
-    "createdAt": "2021-09-07T15:01:55+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "Connaissez-vous la technique culinaire appelée \"One Pot Pasta\" ? Popularisée par Martha Stewart, cette technique de cuisson des pâtes réunit tous les ingrédients d’un plat de pâtes dans une seule cocotte ou casserole. On ne peut pas faire plus simple !",
-    "descriptionHTML": "<p>Connaissez-vous la technique culinaire appelée &quot;One Pot Pasta&quot; ? Popularisée par Martha Stewart, cette technique de cuisson des pâtes réunit tous les ingrédients d’un plat de pâtes dans une seule cocotte ou casserole. On ne peut pas faire plus simple !</p>",
-    "descriptionMarkdown": "Connaissez-vous la technique culinaire appelée \"One Pot Pasta\" ? Popularisée par Martha Stewart, cette technique de cuisson des pâtes réunit tous les ingrédients d’un plat de pâtes dans une seule cocotte ou casserole. On ne peut pas faire plus simple !",
     "difficulty": 2,
     "favoritesCount": 392,
     "headline": "avec du poivron, de la tomate et de la ricotta",
-    "id": "61377ee27b33546a870fdc7e",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210817_R211_W40_FR_QFR29803832-1_MB_Main_low-b7abf277.jpg",
-    "imagePath": "/image/HF210817_R211_W40_FR_QFR29803832-1_MB_Main_low-b7abf277.jpg",
+    "name": "One pot pasta : linguine au chorizo",
+    "prepTime": 25,
+    "totalTime": 10,
+    "image_id": "61377ee27b33546a870fdc7e",
+    "id": "0404ba3a-99b1-4e0f-9094-19fdd5f7caec",
+    "nutrition": {
+        "kcal": 785,
+        "fat": 33.8,
+        "saturated_fat": 10.7,
+        "carbohydrate": 86,
+        "sugars": 19.7,
+        "protein": 29.5,
+        "sodium": 4.24
+    },
+    "tags": [
+        "Rapido",
+        "Famille",
+        "<30 min",
+        "Quick Prep"
+    ],
+    "utensils": [
+        "Marmite à soupe ou grande casserole avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bfc3b9d07cd5d38d7bcb",
-            "uuid": "9e1d590f-1201-4c56-9e9a-1d9eec58f630",
-            "name": "Poivron",
-            "type": "pointed-bell-pepper-red",
-            "slug": "poivron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc3b9d07cd5d38d7bcb-febe5585.png",
-            "imagePath": "/ingredient/6405bfc3b9d07cd5d38d7bcb-febe5585.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "596306de-5c4b-404a-9c88-a4dc8b23e939",
+            "portion_id": "22dc3706-2da5-40ab-a09e-40e071b98ab8",
+            "image_id": "6405bfc3b9d07cd5d38d7bcb"
         },
         {
-            "id": "6405bf8db0da1947779862e2",
-            "uuid": "9bcd0897-d822-4f07-8474-e4c19bff7776",
-            "name": "Dés de chorizo",
-            "type": "chorizo-diced",
-            "slug": "des-de-chorizo",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8db0da1947779862e2-3f87eaf2.png",
-            "imagePath": "/ingredient/6405bf8db0da1947779862e2-3f87eaf2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "811850db-20dd-4568-a47f-41d4e08b2861"
         },
         {
-            "id": "6405bf9db0da194777986312",
-            "uuid": "aa5493cb-8fe1-452f-b098-e63f8d7fb199",
-            "name": "Tomates cerises en conserve",
-            "type": "cherry-tomatoes-in-can",
-            "slug": "tomates-cerises-en-conserve",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9db0da194777986312-22a60173.png",
-            "imagePath": "/ingredient/6405bf9db0da194777986312-22a60173.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "boîte(s)",
+            "ingredient_id": "dd1ba37c-b186-41f1-8d71-f1d0cf92d302",
+            "portion_id": "991481f5-d7e2-424c-b300-9a661c08d4b8",
+            "image_id": "6405bf9db0da194777986312"
         },
         {
-            "id": "6405bfb7b0da194777986366",
-            "uuid": "61e229ef-66da-55cf-b558-5444710c2606",
-            "name": "Linguine",
-            "type": "linguine",
-            "slug": "linguine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb7b0da194777986366-b62e7575.png",
-            "imagePath": "/ingredient/6405bfb7b0da194777986366-b62e7575.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "7b570190-bb00-4a56-bbec-8173951eebe0"
         },
         {
-            "id": "6405bff4b0da194777986437",
-            "uuid": "fae5ea17-1d10-5a79-acab-118ec738e69e",
-            "name": "Basilic",
-            "type": "basil",
-            "slug": "basilic",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "imagePath": "/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "e29e9e3f-9daf-4dff-b252-287381f45620",
+            "portion_id": "239befa5-3228-4ea4-9f70-e542697b66e0",
+            "image_id": "6405bff4b0da194777986437"
         },
         {
-            "id": "6405bf22b0da194777986167",
-            "uuid": "61fb57cc-94fe-5487-bee9-dd647927307a",
-            "name": "Ricotta",
-            "type": "ricotta-cheese",
-            "slug": "ricotta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf22b0da194777986167-623e2152.png",
-            "imagePath": "/ingredient/6405bf22b0da194777986167-623e2152.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "caf5967f-5815-484c-bc39-ddfbd8612ddd"
         },
         {
-            "id": "63e5120dbc1d64f7b96e26fe",
-            "uuid": "8cbbf443-dfd3-4073-9af0-db31867cf660",
-            "name": "Bouillon de volaille",
-            "type": "bouillon-de-volaille-ml",
-            "slug": "bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "imagePath": "/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "ml",
+            "ingredient_id": "b533985b-5cae-4227-a9aa-9d8287f4d493"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/61377ee27b33546a870fdc7e",
-    "name": "One pot pasta : linguine au chorizo",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 785,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3283,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 33.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 86,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 19.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 29.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 4.24,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 937,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 667,
-    "slug": "one-pot-pasta-linguine-au-chorizo",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préparez le bouillon avec de l’eau chaude (utilisez une bouilloire si vous en avez une).Ciselez l’ail et ¼ d'oignon par personne.Coupez le poivron en petits dés d’1 cm.",
-            "instructionsHTML": "<ul><li>Préparez le bouillon avec de l’eau chaude (utilisez une bouilloire si vous en avez une).</li><li>Ciselez l’ail et <span>¼</span> d&#39;oignon par personne.</li><li>Coupez le poivron en petits dés d’1 cm.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Préparez le bouillon avec de l’eau chaude (utilisez une bouilloire si vous en avez une).</li><li>Ciselez l’ail et <span>¼</span> d&#39;oignon par personne.</li><li>Coupez le poivron en petits dés d’1 cm.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61377ee27b33546a870fdc7e/step-53f83200.jpg",
-                    "path": "/61377ee27b33546a870fdc7e/step-53f83200.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer un filet d’huile d’olive dans une marmite à feu moyen-vif. Ajoutez les dés de chorizo (ça pique ! Dosez le chorizo selon votre goût ou ceux de vos enfants), l'ail, l’oignon rouge et le poivron. Faites revenir 3-4 minutes. ",
-            "instructionsHTML": "<ul><li>Faites chauffer un filet d’huile d’olive dans une marmite à feu moyen-vif. </li><li>Ajoutez les dés de chorizo (ça pique ! Dosez le chorizo selon votre goût ou ceux de vos enfants), l&#39;ail, l’oignon rouge et le poivron. Faites revenir 3-4 minutes. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer un filet d’huile d’olive dans une marmite à feu moyen-vif. </li><li>Ajoutez les dés de chorizo (ça pique ! Dosez le chorizo selon votre goût ou ceux de vos enfants), l&#39;ail, l’oignon rouge et le poivron. Faites revenir 3-4 minutes. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff537"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61377ee27b33546a870fdc7e/step-eeb47310.jpg",
-                    "path": "/61377ee27b33546a870fdc7e/step-eeb47310.jpg",
-                    "caption": "Précuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Ajoutez le bouillon, la quantité indiquée de tomates cerises en boîte, 1 cc de sucre par personne et les linguine. Salez légèrement et poivrez. Faites mijoter 11-14 minutes à feu moyen en remuant souvent, ou jusqu’à ce que les pâtes soient cuites (ajoutez un peu d'eau si nécessaire) et la sauce épaisse. Aidez-vous d'une pince pour immerger les pâtes dans la sauce et pour qu'elles cuisent uniformément.CONSEIL: Baissez le feu si la sauce accroche au fond de la marmite.",
-            "instructionsHTML": "<ul><li>Ajoutez le bouillon, la quantité indiquée de tomates cerises en boîte, 1 cc de sucre par personne et les linguine. Salez légèrement et poivrez. </li><li>Faites mijoter 11-14 minutes à feu moyen en remuant souvent, ou jusqu’à ce que les pâtes soient cuites (ajoutez un peu d&#39;eau si nécessaire) et la sauce épaisse. Aidez-vous d&#39;une pince pour immerger les pâtes dans la sauce et pour qu&#39;elles cuisent uniformément.</li></ul><p>CONSEIL: Baissez le feu si la sauce accroche au fond de la marmite.</p>",
-            "instructionsMarkdown": "<ul><li>Ajoutez le bouillon, la quantité indiquée de tomates cerises en boîte, 1 cc de sucre par personne et les linguine. Salez légèrement et poivrez. </li><li>Faites mijoter 11-14 minutes à feu moyen en remuant souvent, ou jusqu’à ce que les pâtes soient cuites (ajoutez un peu d&#39;eau si nécessaire) et la sauce épaisse. Aidez-vous d&#39;une pince pour immerger les pâtes dans la sauce et pour qu&#39;elles cuisent uniformément.</li></ul><p>CONSEIL: Baissez le feu si la sauce accroche au fond de la marmite.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61377ee27b33546a870fdc7e/step-da414d20.jpg",
-                    "path": "/61377ee27b33546a870fdc7e/step-da414d20.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, effeuillez le basilic puis déchirez les feuilles à la main ou coupez-les au couteau.Servez les pâtes dans des assiettes. Répartissez la ricotta et le basilic par-dessus. Salez et poivrez selon votre goût.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, effeuillez le basilic puis déchirez les feuilles à la main ou coupez-les au couteau.</li><li>Servez les pâtes dans des assiettes. </li><li>Répartissez la ricotta et le basilic par-dessus. Salez et poivrez selon votre goût.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, effeuillez le basilic puis déchirez les feuilles à la main ou coupez-les au couteau.</li><li>Servez les pâtes dans des assiettes. </li><li>Répartissez la ricotta et le basilic par-dessus. Salez et poivrez selon votre goût.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61377ee27b33546a870fdc7e/step-3a546330.jpg",
-                    "path": "/61377ee27b33546a870fdc7e/step-3a546330.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5ed7c2835744cb08f60b5d8d",
-            "type": "quick-prep",
-            "name": "Quick Prep",
-            "slug": "quick-prep",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": false
-        }
-    ],
-    "totalTime": "PT10M",
-    "uniqueRecipeCode": "QFR29803832-1",
-    "updatedAt": "2023-11-13T19:22:54+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24efcf61c18c30ff537",
-            "type": null,
-            "name": "Marmite à soupe ou grande casserole avec couvercle"
-        }
-    ],
-    "uuid": "a0d74fe2-5c49-4014-b427-0af6c0914491",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/one-pot-pasta-linguine-au-chorizo-61377ee27b33546a870fdc7e",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9db0da194777986312",
-                    "amount": 0.5,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "6405bfb7b0da194777986366",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986167",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9db0da194777986312",
-                    "amount": 1,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "6405bfb7b0da194777986366",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986167",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9db0da194777986312",
-                    "amount": 1.5,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "6405bfb7b0da194777986366",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986167",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 550,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9db0da194777986312",
-                    "amount": 2,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "6405bfb7b0da194777986366",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986167",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 7,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9db0da194777986312",
-                    "amount": 2.5,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "6405bfb7b0da194777986366",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986167",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 950,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9db0da194777986312",
-                    "amount": 3,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "6405bfb7b0da194777986366",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986167",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 1100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préparez le bouillon avec de l’eau chaude (utilisez une bouilloire si vous en avez une).Ciselez l’ail et ¼ d'oignon par personne.Coupez le poivron en petits dés d’1 cm.",
+        "Faites chauffer un filet d’huile d’olive dans une marmite à feu moyen-vif. Ajoutez les dés de chorizo (ça pique ! Dosez le chorizo selon votre goût ou ceux de vos enfants), l'ail, l’oignon rouge et le poivron. Faites revenir 3-4 minutes. ",
+        "Ajoutez le bouillon, la quantité indiquée de tomates cerises en boîte, 1 cc de sucre par personne et les linguine. Salez légèrement et poivrez. Faites mijoter 11-14 minutes à feu moyen en remuant souvent, ou jusqu’à ce que les pâtes soient cuites (ajoutez un peu d'eau si nécessaire) et la sauce épaisse. Aidez-vous d'une pince pour immerger les pâtes dans la sauce et pour qu'elles cuisent uniformément.CONSEIL: Baissez le feu si la sauce accroche au fond de la marmite.",
+        "Pendant ce temps, effeuillez le basilic puis déchirez les feuilles à la main ou coupez-les au couteau.Servez les pâtes dans des assiettes. Répartissez la ricotta et le basilic par-dessus. Salez et poivrez selon votre goût."
     ]
 }

@@ -1,1038 +1,137 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": "5ef34fdd22ddc16d483cc4a8",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/fajitas-au-boeuf-and-pickles-doignon-rouge-5ef34fdd22ddc16d483cc4a8",
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RFR16631735-2",
-    "country": "FR",
-    "createdAt": "2020-09-22T12:47:41+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053af",
-            "type": "mexican",
-            "name": "Mexicaine",
-            "slug": "mexican",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
-        }
+        "Mexicaine"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 269,
     "headline": "avec de la feta, de l'avocat et de la coriandre",
-    "id": "5f69f26c39327442b2063116",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200603_R209_W29_FR_RFR16631735-1_KB_Main_low-dca69e4b.jpg",
-    "imagePath": "/image/HF200603_R209_W29_FR_RFR16631735-1_KB_Main_low-dca69e4b.jpg",
+    "name": "Fajitas au bœuf & pickles d'oignon rouge",
+    "prepTime": 25,
+    "totalTime": 15,
+    "image_id": "5f69f26c39327442b2063116",
+    "id": "aea82ad7-b93a-4220-affa-c8a43028ea99",
+    "nutrition": {
+        "kcal": 671,
+        "fat": 53.7,
+        "saturated_fat": 16.5,
+        "carbohydrate": 14,
+        "sugars": 8.8,
+        "protein": 28.7,
+        "sodium": 6.99
+    },
+    "tags": [
+        "À faire rapidement",
+        "Rapido",
+        "Famille",
+        "Chef's Choice",
+        "<30 min",
+        "Épicé"
+    ],
+    "utensils": [
+        "Bol",
+        "Papier aluminium",
+        "Wok ou sauteuse",
+        "Wok ou sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "64073ba79c6d10cd16eab61a",
-            "uuid": "b1c9793a-0cbe-5d9a-a748-d1657c7f5dd2",
-            "name": "Feta",
-            "type": "feta-cheese",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "imagePath": "/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "1ebb2ad3-510c-46f9-b2af-bc490d857206"
         },
         {
-            "id": "6405bf9fb9d07cd5d38d7b57",
-            "uuid": "4842611c-bce4-5a00-9f96-af40c63b6310",
-            "name": "Avocat",
-            "type": "avocado",
-            "slug": "avocat",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "imagePath": "/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "6b8e6560-a4cd-4dae-bb41-25d38d8bdb4c",
+            "portion_id": "673a042b-e8bd-447e-b9b5-8edc4ad2da58",
+            "image_id": "6405bf9fb9d07cd5d38d7b57"
         },
         {
-            "id": "6405bf92b0da1947779862f3",
-            "uuid": "85c45981-51eb-5688-8659-b3f9bbf4116b",
-            "name": "Tortillas",
-            "type": "flour-tortillas",
-            "slug": "tortillas",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "c0fa4659-ed12-4afa-b8af-e794c96f4792",
+            "portion_id": "53307d78-6a22-4a59-9f98-b7b639da9bb0",
+            "image_id": "6405bf92b0da1947779862f3"
         },
         {
-            "id": "6405bf27af4af6d531d50a81",
-            "uuid": "f561ee35-dc8d-52b3-b00a-f643ba6a268b",
-            "name": "Tortillas",
-            "type": "tortillas",
-            "slug": "tortillas",
-            "country": "FR",
-            "imageLink": null,
-            "imagePath": null,
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "pièce(s)",
+            "ingredient_id": "aa72aed9-8bcd-4888-9410-4f960f3a357a",
+            "portion_id": "6b639d44-8310-4d88-bfb5-fd75aca218c9",
+            "image_id": "6405bf27af4af6d531d50a81"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d"
         },
         {
-            "id": "6405bff3b9d07cd5d38d7c6b",
-            "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
-            "name": "Poivron",
-            "type": "bell-pepper",
-            "slug": "poivron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b9d07cd5d38d7c6b-3435490a.png",
-            "imagePath": "/ingredient/6405bff3b9d07cd5d38d7c6b-3435490a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "50b0709b-9821-4df3-8e5d-85ee19cdf8b2",
+            "portion_id": "030858e1-ea9f-4f3a-a243-5a0b66fa341b",
+            "image_id": "6405bff3b9d07cd5d38d7c6b"
         },
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bfd0b0da1947779863c0",
-            "uuid": "a9702fdb-e742-5fe0-b221-974c1ea5db87",
-            "name": "Épices mexicaines",
-            "type": "mexican-spice",
-            "slug": "epices-mexicaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "imagePath": "/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae75e647-2ef5-4079-a851-ebba5dcc2f18",
+            "portion_id": "0cd9e5cd-396b-4f6d-afe0-5435899f4adb",
+            "image_id": "6405bfd0b0da1947779863c0"
         },
         {
-            "id": "63e5121781b4b295e66f0250",
-            "uuid": "02e1ccd5-92a4-4a50-95a4-5b2b4dac19a8",
-            "name": "Sel",
-            "type": "sel-cc",
-            "slug": "sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121781b4b295e66f0250-40eeef8a.png",
-            "imagePath": "/ingredient/63e5121781b4b295e66f0250-40eeef8a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "c82bf6ca-baca-4130-8338-17a0ffe6b929",
+            "portion_id": "8648cb89-52dd-48db-b18c-984eeec72bf8",
+            "image_id": "63e5121781b4b295e66f0250"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5f69f26c39327442b2063116",
-    "name": "Fajitas au bœuf & pickles d'oignon rouge",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 671,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2806,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 53.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 16.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 14,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 8.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 28.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 6.99,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 510,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 525,
-    "slug": "fajitas-au-boeuf-and-pickles-doignon-rouge",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 180 degrés si vous n'avez pas de micro-ondes.Coupez l'oignon en deux puis en très fines demi-lunes. Mettez-en la moitié dans un bol (réservez l'autre moitié pour cuire).Pressez le jus de 1/2 citron vert par personne et versez-le sur l'oignon dans le bol. Ajoutez 1 cc de sel et 1 cc de vinaigre de vin rouge par personne. Mélangez bien et laissez reposer. Remuez de temps à autre.CONSEIL: LE SAVIEZ-VOUS ? Les pickles d'oignon rouge, avec leur couleur rose fluo remarquable, sont un condiment très populaire au Mexique pour les tacos, tostadas, tortas et bien d'autres !",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 180 degrés si vous n&#39;avez pas de micro-ondes.</li><li>Coupez l&#39;oignon en deux puis en très fines demi-lunes. Mettez-en la moitié dans un bol (réservez l&#39;autre moitié pour cuire).</li><li>Pressez le jus de 1/2 citron vert par personne et versez-le sur l&#39;oignon dans le bol.</li><li> Ajoutez 1 cc de sel et 1 cc de vinaigre de vin rouge par personne. </li><li>Mélangez bien et laissez reposer. Remuez de temps à autre.</li></ul><p>CONSEIL: LE SAVIEZ-VOUS ? Les pickles d&#39;oignon rouge, avec leur couleur rose fluo remarquable, sont un condiment très populaire au Mexique pour les tacos, tostadas, tortas et bien d&#39;autres !</p>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 180 degrés si vous n&#39;avez pas de micro-ondes.</li><li>Coupez l&#39;oignon en deux puis en très fines demi-lunes. Mettez-en la moitié dans un bol (réservez l&#39;autre moitié pour cuire).</li><li>Pressez le jus de 1/2 citron vert par personne et versez-le sur l&#39;oignon dans le bol.</li><li> Ajoutez 1 cc de sel et 1 cc de vinaigre de vin rouge par personne. </li><li>Mélangez bien et laissez reposer. Remuez de temps à autre.</li></ul><p>CONSEIL: LE SAVIEZ-VOUS ? Les pickles d&#39;oignon rouge, avec leur couleur rose fluo remarquable, sont un condiment très populaire au Mexique pour les tacos, tostadas, tortas et bien d&#39;autres !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f69f26c39327442b2063116/step-99198f00.jpg",
-                    "path": "/5f69f26c39327442b2063116/step-99198f00.jpg",
-                    "caption": "Pickles d'oignon"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Émiettez la feta à l'aide de vos mains ou d'une fourchette. Coupez l’avocat en deux, retirez la peau et le noyau puis taillez la chair en lamelles. Hachez grossièrement la coriandre. Sortez les tortillas du sachet et enveloppez-les dans une feuille de papier d'aluminium. Enfournez-les 10 minutes.CONSEIL: Si vous avez un micro-ondes, percez le sachet en plastique des tortillas et faites-les chauffer 35 à 40 secondes.",
-            "instructionsHTML": "<ul><li>Émiettez la feta à l&#39;aide de vos mains ou d&#39;une fourchette. </li><li>Coupez l’avocat en deux, retirez la peau et le noyau puis taillez la chair en lamelles. </li><li>Hachez grossièrement la coriandre. </li><li>Sortez les tortillas du sachet et enveloppez-les dans une feuille de papier d&#39;aluminium. Enfournez-les 10 minutes.</li></ul><p>CONSEIL: Si vous avez un micro-ondes, percez le sachet en plastique des tortillas et faites-les chauffer 35 à 40 secondes.</p>",
-            "instructionsMarkdown": "<ul><li>Émiettez la feta à l&#39;aide de vos mains ou d&#39;une fourchette. </li><li>Coupez l’avocat en deux, retirez la peau et le noyau puis taillez la chair en lamelles. </li><li>Hachez grossièrement la coriandre. </li><li>Sortez les tortillas du sachet et enveloppez-les dans une feuille de papier d&#39;aluminium. Enfournez-les 10 minutes.</li></ul><p>CONSEIL: Si vous avez un micro-ondes, percez le sachet en plastique des tortillas et faites-les chauffer 35 à 40 secondes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305366"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f69f26c39327442b2063116/step-49fab710.jpg",
-                    "path": "/5f69f26c39327442b2063116/step-49fab710.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, coupez les poivrons en fines lanières. Faites chauffer l'huile d'olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y revenir le poivron et le reste de l'oignon rouge 5 minutes jusqu’à ce qu'ils deviennent tendres. Ajoutez le bœuf haché et remuez bien. Saupoudrez les épices mexicaines et faites revenir le tout encore 5 minutes en mélangeant de temps en temps. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, coupez les poivrons en fines lanières. </li><li>Faites chauffer l&#39;huile d&#39;olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y revenir le poivron et le reste de l&#39;oignon rouge 5 minutes jusqu’à ce qu&#39;ils deviennent tendres. </li><li>Ajoutez le bœuf haché et remuez bien. Saupoudrez les épices mexicaines et faites revenir le tout encore 5 minutes en mélangeant de temps en temps. Salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, coupez les poivrons en fines lanières. </li><li>Faites chauffer l&#39;huile d&#39;olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y revenir le poivron et le reste de l&#39;oignon rouge 5 minutes jusqu’à ce qu&#39;ils deviennent tendres. </li><li>Ajoutez le bœuf haché et remuez bien. Saupoudrez les épices mexicaines et faites revenir le tout encore 5 minutes en mélangeant de temps en temps. Salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53a",
-                "63c5205d77be7505f4d9a14c"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f69f26c39327442b2063116/step-c9e33320.jpg",
-                    "path": "/5f69f26c39327442b2063116/step-c9e33320.jpg",
-                    "caption": "Faire revenir"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Servez dans différents bols les pickles d'oignon, la feta, les tranches d'avocat, la viande hachée aux poivrons, la coriandre et les quartiers de citron vert pour que chacun puisse garnir ses fajitas à table.CONSEIL: LE SAVIEZ-VOUS ? Le processus de marinade avec le jus de citron vert adoucit la forte saveur des oignons et les rend appétissants pour ceux qui ne sont pas de grands amateurs d'oignons.",
-            "instructionsHTML": "<ul><li>Servez dans différents bols les pickles d&#39;oignon, la feta, les tranches d&#39;avocat, la viande hachée aux poivrons, la coriandre et les quartiers de citron vert pour que chacun puisse garnir ses fajitas à table.</li></ul><p>CONSEIL: LE SAVIEZ-VOUS ? Le processus de marinade avec le jus de citron vert adoucit la forte saveur des oignons et les rend appétissants pour ceux qui ne sont pas de grands amateurs d&#39;oignons.</p>",
-            "instructionsMarkdown": "<ul><li>Servez dans différents bols les pickles d&#39;oignon, la feta, les tranches d&#39;avocat, la viande hachée aux poivrons, la coriandre et les quartiers de citron vert pour que chacun puisse garnir ses fajitas à table.</li></ul><p>CONSEIL: LE SAVIEZ-VOUS ? Le processus de marinade avec le jus de citron vert adoucit la forte saveur des oignons et les rend appétissants pour ceux qui ne sont pas de grands amateurs d&#39;oignons.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f69f26c39327442b2063116/step-73b74730.jpg",
-                    "path": "/5f69f26c39327442b2063116/step-73b74730.jpg",
-                    "caption": "Garnir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62388d0e819bac74ed3067cd",
-            "type": "classic",
-            "name": "Chef's Choice",
-            "slug": "chefs-choice",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": false
-        },
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "RFR16631735-2",
-    "updatedAt": "2023-10-13T10:40:10+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff53a",
-            "type": null,
-            "name": "Wok ou sauteuse"
-        },
-        {
-            "id": "63c5205d77be7505f4d9a14c",
-            "type": "wok-or-sautpan",
-            "name": "Wok ou sauteuse"
-        }
-    ],
-    "uuid": "e52d8275-3a91-400f-92ca-eac592da2b9b",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/fajitas-au-boeuf-and-pickles-doignon-rouge-5f69f26c39327442b2063116",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf27af4af6d531d50a81",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121781b4b295e66f0250",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf27af4af6d531d50a81",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121781b4b295e66f0250",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf27af4af6d531d50a81",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121781b4b295e66f0250",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf27af4af6d531d50a81",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121781b4b295e66f0250",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf27af4af6d531d50a81",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121781b4b295e66f0250",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf92b0da1947779862f3",
-                    "amount": null,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf27af4af6d531d50a81",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121781b4b295e66f0250",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 180 degrés si vous n'avez pas de micro-ondes.Coupez l'oignon en deux puis en très fines demi-lunes. Mettez-en la moitié dans un bol (réservez l'autre moitié pour cuire).Pressez le jus de 1/2 citron vert par personne et versez-le sur l'oignon dans le bol. Ajoutez 1 cc de sel et 1 cc de vinaigre de vin rouge par personne. Mélangez bien et laissez reposer. Remuez de temps à autre.CONSEIL: LE SAVIEZ-VOUS ? Les pickles d'oignon rouge, avec leur couleur rose fluo remarquable, sont un condiment très populaire au Mexique pour les tacos, tostadas, tortas et bien d'autres !",
+        "Émiettez la feta à l'aide de vos mains ou d'une fourchette. Coupez l’avocat en deux, retirez la peau et le noyau puis taillez la chair en lamelles. Hachez grossièrement la coriandre. Sortez les tortillas du sachet et enveloppez-les dans une feuille de papier d'aluminium. Enfournez-les 10 minutes.CONSEIL: Si vous avez un micro-ondes, percez le sachet en plastique des tortillas et faites-les chauffer 35 à 40 secondes.",
+        "Pendant ce temps, coupez les poivrons en fines lanières. Faites chauffer l'huile d'olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y revenir le poivron et le reste de l'oignon rouge 5 minutes jusqu’à ce qu'ils deviennent tendres. Ajoutez le bœuf haché et remuez bien. Saupoudrez les épices mexicaines et faites revenir le tout encore 5 minutes en mélangeant de temps en temps. Salez et poivrez.",
+        "Servez dans différents bols les pickles d'oignon, la feta, les tranches d'avocat, la viande hachée aux poivrons, la coriandre et les quartiers de citron vert pour que chacun puisse garnir ses fajitas à table.CONSEIL: LE SAVIEZ-VOUS ? Le processus de marinade avec le jus de citron vert adoucit la forte saveur des oignons et les rend appétissants pour ceux qui ne sont pas de grands amateurs d'oignons."
     ]
 }

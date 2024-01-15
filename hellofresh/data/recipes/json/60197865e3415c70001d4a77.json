@@ -1,1091 +1,131 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "PNL3116-1",
-    "country": "FR",
-    "createdAt": "2021-02-02T16:05:58+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b5",
-            "type": "german",
-            "name": "German",
-            "slug": "german",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b5-91d543c1.jpg"
-        }
+        "German"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 135,
     "headline": "avec une salade de potiron rôti et de chicorée rouge",
-    "id": "60197865e3415c70001d4a77",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210120_R71_W09_NL_P3116-1_MB_Main_low-dd3a9ed5.jpg",
-    "imagePath": "/image/HF210120_R71_W09_NL_P3116-1_MB_Main_low-dd3a9ed5.jpg",
+    "name": "Tarte au lard, Bleu d'Auvergne & poire",
+    "prepTime": 30,
+    "totalTime": 25,
+    "image_id": "60197865e3415c70001d4a77",
+    "id": "1c3099d0-2886-49a2-a24a-36b6805942f6",
+    "nutrition": {
+        "kcal": 917,
+        "fat": 49.1,
+        "saturated_fat": 16.6,
+        "carbohydrate": 22.5,
+        "sugars": 15.8,
+        "protein": 13.4,
+        "sodium": 0.81
+    },
+    "tags": [
+        "Épicé"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405c00ab9d07cd5d38d7cb7",
-            "uuid": "97ef93ce-ab9e-5f68-9948-93c496545795",
-            "name": "Poire",
-            "type": "pear",
-            "slug": "poire",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c00ab9d07cd5d38d7cb7-52640646.png",
-            "imagePath": "/ingredient/6405c00ab9d07cd5d38d7cb7-52640646.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "920589e5-168e-4a7e-88a3-afce8a496028",
+            "portion_id": "097c178e-1ca5-46c3-aa10-70d42f4f997e",
+            "image_id": "6405c00ab9d07cd5d38d7cb7"
         },
         {
-            "id": "64073bb59c6d10cd16eab630",
-            "uuid": "ee90258d-e1dc-4156-8e8a-0964c10de606",
-            "name": "Dés de butternut",
-            "type": "butternut-squash-diced",
-            "slug": "des-de-butternut",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eb0da194777986315-0d77f733.png",
-            "imagePath": "/ingredient/6405bf9eb0da194777986315-0d77f733.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "89a3b976-0b8a-4725-9845-6188a3432341"
         },
         {
-            "id": "6405bfccb0da1947779863b2",
-            "uuid": "48036233-a4c5-54a9-ad53-015d57907c7a",
-            "name": "Pâte à tarte",
-            "type": "puff-pastry",
-            "slug": "pate-a-tarte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfccb0da1947779863b2-5c18da5b.png",
-            "imagePath": "/ingredient/6405bfccb0da1947779863b2-5c18da5b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "750b0c67-0fc4-43e4-bcab-32437024bc29",
+            "portion_id": "7e3da94a-009b-4ed8-863f-04fee6d157ba",
+            "image_id": "6405bfccb0da1947779863b2"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01"
         },
         {
-            "id": "6405bf45af4af6d531d50afe",
-            "uuid": "9e177185-dd76-5cef-be6c-d9405cf1067f",
-            "name": "Fourme d'Ambert AOP",
-            "type": "fourme-dambert",
-            "slug": "fourme-dambert-aop",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf45af4af6d531d50afe-c3bbb6cf.png",
-            "imagePath": "/ingredient/6405bf45af4af6d531d50afe-c3bbb6cf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "353239d7-7ed9-40b0-b4ae-6fc1e47a4bc3"
         },
         {
-            "id": "6405bf26af4af6d531d50a7f",
-            "uuid": "164c1082-e94f-5031-893e-031def7eda79",
-            "name": "Tranches de poitrine fumée",
-            "type": "bacon",
-            "slug": "tranches-de-poitrine-fumee",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf26af4af6d531d50a7f-e5dd1001.png",
-            "imagePath": "/ingredient/6405bf26af4af6d531d50a7f-e5dd1001.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 85,
+            "unit": "g",
+            "ingredient_id": "fdfedef7-f105-4ab9-b842-86ecf7e1d6aa"
         },
         {
-            "id": "6405bf43b0da1947779861da",
-            "uuid": "7bd888d7-a12a-4156-b0bb-bf8d7a4d806f",
-            "name": "Noix concassées",
-            "type": "walnuts-pieces",
-            "slug": "noix-concassees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "imagePath": "/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "a73fa724-5d5b-4c90-99e5-5d9b95e9bd88"
         },
         {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
         },
         {
-            "id": "6405bf22b0da194777986164",
-            "uuid": "a1b1bf87-c0dd-4b78-9af2-4299fe2816e2",
-            "name": "Chutney piquant aux oignons",
-            "type": "spicy-onion-chutney",
-            "slug": "chutney-piquant-aux-oignons",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf22b0da194777986164-fbfd2b03.png",
-            "imagePath": "/ingredient/6405bf22b0da194777986164-fbfd2b03.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "087762de-d38d-421b-802f-2191070553b6"
         },
         {
-            "id": "6405bf91b9d07cd5d38d7b1c",
-            "uuid": "b2aec1e7-0508-4a7c-b0b2-ef2553b57d3f",
-            "name": "Endive",
-            "type": "red-chicory",
-            "slug": "endive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf91b9d07cd5d38d7b1c-48fd9763.png",
-            "imagePath": "/ingredient/6405bf91b9d07cd5d38d7b1c-48fd9763.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f06cb2b6-a817-4912-8dc6-8130f96d1057",
+            "portion_id": "11917c09-e128-428d-b70f-1a61ce70edc1",
+            "image_id": "6405bf91b9d07cd5d38d7b1c"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "Premium",
-        "handle": "premium",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#3d444b",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/60197865e3415c70001d4a77",
-    "name": "Tarte au lard, Bleu d'Auvergne & poire",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 917,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3836,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 49.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 16.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 22.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 15.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 13.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.81,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 84,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 378,
-    "slug": "tarte-au-lard-bleu-dauvergne-and-poire",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 210 degrés. Ciselez l'oignon rouge. Coupez la poire en deux et enlevez le cœur. Ensuite, coupez-la en fines tranches dans le sens de la longueur. Mélangez les cubes de potiron dans un bol avec 1/2 cs d'huile d'olive par personne, du poivre et du sel. Etalez-les sur une plaque de cuisson avec du papier sulfurisé et faites-les griller au four 20 à 25 minutes.",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 210 degrés. </li><li>Ciselez l&#39;oignon rouge. Coupez la poire en deux et enlevez le cœur. Ensuite, coupez-la en fines tranches dans le sens de la longueur. </li><li>Mélangez les cubes de potiron dans un bol avec 1/2 cs d&#39;huile d&#39;olive par personne, du poivre et du sel. </li><li>Etalez-les sur une plaque de cuisson avec du papier sulfurisé et faites-les griller au four 20 à 25 minutes.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 210 degrés. </li><li>Ciselez l&#39;oignon rouge. Coupez la poire en deux et enlevez le cœur. Ensuite, coupez-la en fines tranches dans le sens de la longueur. </li><li>Mélangez les cubes de potiron dans un bol avec 1/2 cs d&#39;huile d&#39;olive par personne, du poivre et du sel. </li><li>Etalez-les sur une plaque de cuisson avec du papier sulfurisé et faites-les griller au four 20 à 25 minutes.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60197865e3415c70001d4a77/step-355ef500.jpg",
-                    "path": "/60197865e3415c70001d4a77/step-355ef500.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Placez la pâte feuilletée sur une autre plaque de cuisson avec du papier sulfurisé. Etalez les 3/4 de la crème fraîche dessus. Salez et poivrez selon le goût. Garnissez avec le lard, puis l'oignon rouge et enfin la poire. Émiettez la fourme d'Ambert sur la tarte et enfournez 15 à 20 minutes. Ajoutez les morceaux de noix durant les 5 dernières minutes.",
-            "instructionsHTML": "<ul><li>Placez la pâte feuilletée sur une autre plaque de cuisson avec du papier sulfurisé. </li><li>Etalez les 3/4 de la crème fraîche dessus. Salez et poivrez selon le goût. </li><li>Garnissez avec le lard, puis l&#39;oignon rouge et enfin la poire. Émiettez la fourme d&#39;Ambert sur la tarte et enfournez 15 à 20 minutes. </li><li>Ajoutez les morceaux de noix durant les 5 dernières minutes.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Placez la pâte feuilletée sur une autre plaque de cuisson avec du papier sulfurisé. </li><li>Etalez les 3/4 de la crème fraîche dessus. Salez et poivrez selon le goût. </li><li>Garnissez avec le lard, puis l&#39;oignon rouge et enfin la poire. Émiettez la fourme d&#39;Ambert sur la tarte et enfournez 15 à 20 minutes. </li><li>Ajoutez les morceaux de noix durant les 5 dernières minutes.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60197865e3415c70001d4a77/step-ef066a10.jpg",
-                    "path": "/60197865e3415c70001d4a77/step-ef066a10.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Râpez le zeste du citron avec une râpe fine et pressez le citron. Mélangez dans un saladier, par personne : 1/2 cs de jus de citron, 1/4 cs de zeste de citron, 1 cs d'huile d'olive extra vierge, le reste de la crème fraîche et le chutney d'oignons. Salez et poivrez selon le goût. ",
-            "instructionsHTML": "<ul><li>Râpez le zeste du citron avec une râpe fine et pressez le citron. </li><li>Mélangez dans un saladier, par personne : 1/2 cs de jus de citron, 1/4 cs de zeste de citron, 1 cs d&#39;huile d&#39;olive extra vierge, le reste de la crème fraîche et le chutney d&#39;oignons. Salez et poivrez selon le goût. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Râpez le zeste du citron avec une râpe fine et pressez le citron. </li><li>Mélangez dans un saladier, par personne : 1/2 cs de jus de citron, 1/4 cs de zeste de citron, 1 cs d&#39;huile d&#39;olive extra vierge, le reste de la crème fraîche et le chutney d&#39;oignons. Salez et poivrez selon le goût. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60197865e3415c70001d4a77/step-a313fb20.jpg",
-                    "path": "/60197865e3415c70001d4a77/step-a313fb20.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Enlevez les premières feuilles de la chicorée et coupez-la en deux dans le sens de la longueur.Enlevez le noyau dur et coupez la chicorée rouge en fines lamelles. ",
-            "instructionsHTML": "<ul><li>Enlevez les premières feuilles de la chicorée et coupez-la en deux dans le sens de la longueur.</li><li>Enlevez le noyau dur et coupez la chicorée rouge en fines lamelles. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Enlevez les premières feuilles de la chicorée et coupez-la en deux dans le sens de la longueur.</li><li>Enlevez le noyau dur et coupez la chicorée rouge en fines lamelles. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60197865e3415c70001d4a77/step-27998d30.jpg",
-                    "path": "/60197865e3415c70001d4a77/step-27998d30.jpg",
-                    "caption": "Couper la chicorée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Mélangez la chicorée rouge avec la vinaigrette dans le saladier.Juste avant de servir, ajoutez les cubes de potiron et les 3/4 de la roquette. Mélangez bien.",
-            "instructionsHTML": "<ul><li>Mélangez la chicorée rouge avec la vinaigrette dans le saladier.</li><li>Juste avant de servir, ajoutez les cubes de potiron et les 3/4 de la roquette. Mélangez bien.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Mélangez la chicorée rouge avec la vinaigrette dans le saladier.</li><li>Juste avant de servir, ajoutez les cubes de potiron et les 3/4 de la roquette. Mélangez bien.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60197865e3415c70001d4a77/step-c099c940.jpg",
-                    "path": "/60197865e3415c70001d4a77/step-c099c940.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Répartissez le reste de la roquette sur la tarte et coupez-la en morceaux. Servez avec la salade. Ajustez l'assaisonnement. ",
-            "instructionsHTML": "<ul><li>Répartissez le reste de la roquette sur la tarte et coupez-la en morceaux. </li><li>Servez avec la salade. Ajustez l&#39;assaisonnement. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Répartissez le reste de la roquette sur la tarte et coupez-la en morceaux. </li><li>Servez avec la salade. Ajustez l&#39;assaisonnement. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60197865e3415c70001d4a77/step-bc34ca50.jpg",
-                    "path": "/60197865e3415c70001d4a77/step-bc34ca50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "PNL3116-1",
-    "updatedAt": "2023-11-20T01:18:55+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "204a44af-46be-4159-a4b1-a0c82d438cf5",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/tarte-au-lard-bleu-dauvergne-and-poire-60197865e3415c70001d4a77",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00ab9d07cd5d38d7cb7",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfccb0da1947779863b2",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 55,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf45af4af6d531d50afe",
-                    "amount": 45,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 45,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986164",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf91b9d07cd5d38d7b1c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 35,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00ab9d07cd5d38d7cb7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfccb0da1947779863b2",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf45af4af6d531d50afe",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 85,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986164",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf91b9d07cd5d38d7b1c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00ab9d07cd5d38d7cb7",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfccb0da1947779863b2",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf45af4af6d531d50afe",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 130,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986164",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf91b9d07cd5d38d7b1c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00ab9d07cd5d38d7cb7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfccb0da1947779863b2",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf45af4af6d531d50afe",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 170,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986164",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf91b9d07cd5d38d7b1c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00ab9d07cd5d38d7cb7",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfccb0da1947779863b2",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 260,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf45af4af6d531d50afe",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 215,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986164",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf91b9d07cd5d38d7b1c",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00ab9d07cd5d38d7cb7",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfccb0da1947779863b2",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 320,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf45af4af6d531d50afe",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf26af4af6d531d50a7f",
-                    "amount": 260,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986164",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf91b9d07cd5d38d7b1c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 210 degrés. Ciselez l'oignon rouge. Coupez la poire en deux et enlevez le cœur. Ensuite, coupez-la en fines tranches dans le sens de la longueur. Mélangez les cubes de potiron dans un bol avec 1/2 cs d'huile d'olive par personne, du poivre et du sel. Etalez-les sur une plaque de cuisson avec du papier sulfurisé et faites-les griller au four 20 à 25 minutes.",
+        "Placez la pâte feuilletée sur une autre plaque de cuisson avec du papier sulfurisé. Etalez les 3/4 de la crème fraîche dessus. Salez et poivrez selon le goût. Garnissez avec le lard, puis l'oignon rouge et enfin la poire. Émiettez la fourme d'Ambert sur la tarte et enfournez 15 à 20 minutes. Ajoutez les morceaux de noix durant les 5 dernières minutes.",
+        "Râpez le zeste du citron avec une râpe fine et pressez le citron. Mélangez dans un saladier, par personne : 1/2 cs de jus de citron, 1/4 cs de zeste de citron, 1 cs d'huile d'olive extra vierge, le reste de la crème fraîche et le chutney d'oignons. Salez et poivrez selon le goût. ",
+        "Enlevez les premières feuilles de la chicorée et coupez-la en deux dans le sens de la longueur.Enlevez le noyau dur et coupez la chicorée rouge en fines lamelles. ",
+        "Mélangez la chicorée rouge avec la vinaigrette dans le saladier.Juste avant de servir, ajoutez les cubes de potiron et les 3/4 de la roquette. Mélangez bien.",
+        "Répartissez le reste de la roquette sur la tarte et coupez-la en morceaux. Servez avec la salade. Ajustez l'assaisonnement. "
     ]
 }

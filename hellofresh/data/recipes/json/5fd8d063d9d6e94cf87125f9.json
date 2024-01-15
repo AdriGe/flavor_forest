@@ -1,957 +1,121 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RNL0884-7",
-    "country": "FR",
-    "createdAt": "2020-12-15T15:04:04+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bf",
-            "type": "european",
-            "name": "European",
-            "slug": "european",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bf-ae882118.jpg"
-        }
+        "European"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 387,
     "headline": "garnies de fromage de chèvre râpé et de ciboulette",
-    "id": "5fd8d063d9d6e94cf87125f9",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF190708_R06_W33_NL_R0884_Ingredient_low-4487525c.jpg",
-    "imagePath": "/image/HF190708_R06_W33_NL_R0884_Ingredient_low-4487525c.jpg",
+    "name": "Aubergines gratinées sur lit de purée de patate douce",
+    "prepTime": 40,
+    "totalTime": 25,
+    "image_id": "5fd8d063d9d6e94cf87125f9",
+    "id": "071c378c-c176-42df-9b61-d327ccecf231",
+    "nutrition": {
+        "kcal": 829,
+        "fat": 47.1,
+        "saturated_fat": 18.96,
+        "carbohydrate": 76.25,
+        "sugars": 27.92,
+        "protein": 18.45,
+        "sodium": 1.2
+    },
+    "tags": [
+        "Végétarien",
+        "Certifié Foodvisor",
+        "Famille"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Casserole avec couvercle",
+        "Bol",
+        "Poêle",
+        "Presse-purée"
+    ],
     "ingredients": [
         {
-            "id": "6405bf8eb9d07cd5d38d7b13",
-            "uuid": "1fa6c253-440c-5c98-9e4b-65a57a89f8b1",
-            "name": "Aubergine",
-            "type": "aubergine",
-            "slug": "aubergine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8eb9d07cd5d38d7b13-7f6aa75a.png",
-            "imagePath": "/ingredient/6405bf8eb9d07cd5d38d7b13-7f6aa75a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "6ab85628-44c7-4a23-8301-e82d2758ba47",
+            "portion_id": "6ec28c95-4a5c-478c-9240-e8ce90cc3135",
+            "image_id": "6405bf8eb9d07cd5d38d7b13"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf4db0da194777986203",
-            "uuid": "c6f01c0f-80bc-5508-b1a4-e2cfaf78557e",
-            "name": "Paprika en poudre",
-            "type": "mild-paprika",
-            "slug": "paprika-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "imagePath": "/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.99,
+            "unit": "cc",
+            "ingredient_id": "696b285c-6d8f-4ecc-a623-908a7dc78ee5",
+            "portion_id": "5ce2c663-ec17-4af4-8a71-2ddefe133cd2",
+            "image_id": "6405bf4db0da194777986203"
         },
         {
-            "id": "6405bf20b0da19477798615d",
-            "uuid": "6a5a451f-6c01-44e6-80f5-4cc8ed71fdb7",
-            "name": "Fromage de chèvre râpé",
-            "type": "grated-goat-cheese",
-            "slug": "fromage-de-chevre-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20b0da19477798615d-c00555f8.png",
-            "imagePath": "/ingredient/6405bf20b0da19477798615d-c00555f8.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "76729b5e-7b45-4d31-aeb4-584775db9320"
         },
         {
-            "id": "6405bf6fb9d07cd5d38d7aa9",
-            "uuid": "0372d7d1-4123-416c-936f-a922d2abd931",
-            "name": "Patate douce",
-            "type": "sweet-potatoes",
-            "slug": "patate-douce",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf6fb9d07cd5d38d7aa9-75b98e59.png",
-            "imagePath": "/ingredient/6405bf6fb9d07cd5d38d7aa9-75b98e59.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 600,
+            "unit": "g",
+            "ingredient_id": "fc203d5e-2336-4d3e-80c8-e27c2fdb9899"
         },
         {
-            "id": "64073ba7df6297bb5beef0f9",
-            "uuid": "b443c50a-b3b3-510c-93ac-01d6610777a3",
-            "name": "Ciboulette",
-            "type": "chives",
-            "slug": "ciboulette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "imagePath": "/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "436539af-4b0c-46d6-9134-1d83699b82ef"
         },
         {
-            "id": "6405bf77b0da194777986291",
-            "uuid": "6b9b5891-6a0f-43b7-abac-f1d515dd2d91",
-            "name": "Poivron rouge",
-            "type": "red-bell-pepper",
-            "slug": "poivron-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "imagePath": "/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "d9370a6a-0327-43ae-867d-6bffcdab563a",
+            "portion_id": "4d35f7d2-9fbd-45df-8436-58d546534e81",
+            "image_id": "6405bf77b0da194777986291"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e51216bc1d64f7b96e2701",
-            "uuid": "15494ef4-44f7-40b4-bdef-138dc55b1e79",
-            "name": "Lait",
-            "type": "lait-filet",
-            "slug": "lait",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51216bc1d64f7b96e2701-7c0ceb10.png",
-            "imagePath": "/ingredient/63e51216bc1d64f7b96e2701-7c0ceb10.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "ml",
+            "ingredient_id": "3e570082-6acd-4332-966e-2fb814aa11ab"
         },
         {
-            "id": "63e5122ea0a0603e5708dcc4",
-            "uuid": "d11348fc-54f2-4b29-888f-74c7e98d78bf",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-au-gout",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122ea0a0603e5708dcc4-008d8068.png",
-            "imagePath": "/ingredient/63e5122ea0a0603e5708dcc4-008d8068.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "b853fe97-35c9-45fe-bf24-818461489408",
+            "portion_id": "5c913e2b-bbac-4b45-9059-a8bf27c7fe13",
+            "image_id": "63e5122ea0a0603e5708dcc4"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5fd8d063d9d6e94cf87125f9",
-    "name": "Aubergines gratinées sur lit de purée de patate douce",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 829,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3468,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 47.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 18.96,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 76.25,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 27.92,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 18.45,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.2,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 344,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 702,
-    "slug": "aubergines-gratinees-sur-lit-de-puree-de-patate-douce",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200 degrés. Portez une grande quantité d’eau salée à ébullition dans une casserole avec couvercle pour les patates douces.Coupez les aubergines en deux dans le sens de la longueur, puis en demi-rondelles de ½ cm. Disposez-les sur une plaque recouverte de papier sulfurisé.",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 200 degrés. </li><li>Portez une grande quantité d’eau salée à ébullition dans une casserole avec couvercle pour les patates douces.</li><li>Coupez les aubergines en deux dans le sens de la longueur, puis en demi-rondelles de ½ cm. </li><li>Disposez-les sur une plaque recouverte de papier sulfurisé.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 200 degrés. </li><li>Portez une grande quantité d’eau salée à ébullition dans une casserole avec couvercle pour les patates douces.</li><li>Coupez les aubergines en deux dans le sens de la longueur, puis en demi-rondelles de ½ cm. </li><li>Disposez-les sur une plaque recouverte de papier sulfurisé.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fd8d063d9d6e94cf87125f9/step-8fc17200.jpg",
-                    "path": "/5fd8d063d9d6e94cf87125f9/step-8fc17200.jpg",
-                    "caption": "Couper l'aubergine"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Pressez ou émincez l’ail.Dans un petit bol, mélangez 1,5 cs d’huile d’olive par personne, le paprika et l’ail. Salez et poivrez.Badigeonnez les aubergines de cette huile. Parsemez ensuite les rondelles d’aubergine de chèvre râpé puis enfournez-les 15 à 20 minutes ou jusqu’à ce qu’elles soient cuites.",
-            "instructionsHTML": "<ul><li>Pressez ou émincez l’ail.</li><li>Dans un petit bol, mélangez 1,5 cs d’huile d’olive par personne, le paprika et l’ail. Salez et poivrez.</li><li>Badigeonnez les aubergines de cette huile. </li><li>Parsemez ensuite les rondelles d’aubergine de chèvre râpé puis enfournez-les 15 à 20 minutes ou jusqu’à ce qu’elles soient cuites.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pressez ou émincez l’ail.</li><li>Dans un petit bol, mélangez 1,5 cs d’huile d’olive par personne, le paprika et l’ail. Salez et poivrez.</li><li>Badigeonnez les aubergines de cette huile. </li><li>Parsemez ensuite les rondelles d’aubergine de chèvre râpé puis enfournez-les 15 à 20 minutes ou jusqu’à ce qu’elles soient cuites.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fd8d063d9d6e94cf87125f9/step-1aef9f10.jpg",
-                    "path": "/5fd8d063d9d6e94cf87125f9/step-1aef9f10.jpg",
-                    "caption": "Cuire l'aubergine"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, pesez les patates douces, épluchez-les et coupez-les en gros morceaux. Faites-les cuire 10 minutes à couvert dans l'eau bouillante. Égouttez et réservez sans couvercle.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, pesez les patates douces, épluchez-les et coupez-les en gros morceaux. </li><li>Faites-les cuire 10 minutes à couvert dans l&#39;eau bouillante. Égouttez et réservez sans couvercle.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, pesez les patates douces, épluchez-les et coupez-les en gros morceaux. </li><li>Faites-les cuire 10 minutes à couvert dans l&#39;eau bouillante. Égouttez et réservez sans couvercle.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fd8d063d9d6e94cf87125f9/step-45ef9820.jpg",
-                    "path": "/5fd8d063d9d6e94cf87125f9/step-45ef9820.jpg",
-                    "caption": "Cuire les patates douces"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, ciselez la ciboulette. Coupez le poivron rouge en petits morceaux. Faites chauffer un filet d’huile d’olive dans une poêle et faites-y revenir le poivron 7 à 9 minutes à feu moyen. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, ciselez la ciboulette. Coupez le poivron rouge en petits morceaux. </li><li>Faites chauffer un filet d’huile d’olive dans une poêle et faites-y revenir le poivron 7 à 9 minutes à feu moyen. </li><li>Salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, ciselez la ciboulette. Coupez le poivron rouge en petits morceaux. </li><li>Faites chauffer un filet d’huile d’olive dans une poêle et faites-y revenir le poivron 7 à 9 minutes à feu moyen. </li><li>Salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fd8d063d9d6e94cf87125f9/step-5c47c730.jpg",
-                    "path": "/5fd8d063d9d6e94cf87125f9/step-5c47c730.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Écrasez les patates douces au presse-purée pour en faire une purée épaisse.Incorporez la moitié de la ciboulette et le beurre. Salez et poivrez. Ajoutez éventuellement un filet de lait (si vous en avez) pour rendre l’ensemble plus onctueux.",
-            "instructionsHTML": "<ul><li>Écrasez les patates douces au presse-purée pour en faire une purée épaisse.</li><li>Incorporez la moitié de la ciboulette et le beurre. Salez et poivrez. </li><li>Ajoutez éventuellement un filet de lait (si vous en avez) pour rendre l’ensemble plus onctueux.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Écrasez les patates douces au presse-purée pour en faire une purée épaisse.</li><li>Incorporez la moitié de la ciboulette et le beurre. Salez et poivrez. </li><li>Ajoutez éventuellement un filet de lait (si vous en avez) pour rendre l’ensemble plus onctueux.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305393"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fd8d063d9d6e94cf87125f9/step-d303e740.jpg",
-                    "path": "/5fd8d063d9d6e94cf87125f9/step-d303e740.jpg",
-                    "caption": "Préparer la purée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez la purée de patates douces dans les assiettes et accompagnez-la du gratin d’aubergine et des dés de poivron. Garnissez le tout du reste de ciboulette. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez.",
-            "instructionsHTML": "<ul><li>Servez la purée de patates douces dans les assiettes et accompagnez-la du gratin d’aubergine et des dés de poivron. </li><li>Garnissez le tout du reste de ciboulette. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez la purée de patates douces dans les assiettes et accompagnez-la du gratin d’aubergine et des dés de poivron. </li><li>Garnissez le tout du reste de ciboulette. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fd8d063d9d6e94cf87125f9/step-0d5cc050.jpg",
-                    "path": "/5fd8d063d9d6e94cf87125f9/step-0d5cc050.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5ff4dde0c3bf101f0400bbd3",
-            "type": "foodvisor",
-            "name": "Certifié Foodvisor",
-            "slug": "foodvisor",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RNL0884-7",
-    "updatedAt": "2023-10-13T10:40:26+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305393",
-            "type": "potato-masher",
-            "name": "Presse-purée"
-        }
-    ],
-    "uuid": "24003aee-c532-404f-8872-027b350eec02",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/aubergines-gratinees-sur-lit-de-puree-de-patate-douce-5fd8d063d9d6e94cf87125f9",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 0.48,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bf20b0da19477798615d",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 0.99,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bf20b0da19477798615d",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 1.47,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bf20b0da19477798615d",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 1.98,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bf20b0da19477798615d",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 2.46,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bf20b0da19477798615d",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 2.94,
-                    "unit": "cc"
-                },
-                {
-                    "id": "6405bf20b0da19477798615d",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 1800,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0f9",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200 degrés. Portez une grande quantité d’eau salée à ébullition dans une casserole avec couvercle pour les patates douces.Coupez les aubergines en deux dans le sens de la longueur, puis en demi-rondelles de ½ cm. Disposez-les sur une plaque recouverte de papier sulfurisé.",
+        "Pressez ou émincez l’ail.Dans un petit bol, mélangez 1,5 cs d’huile d’olive par personne, le paprika et l’ail. Salez et poivrez.Badigeonnez les aubergines de cette huile. Parsemez ensuite les rondelles d’aubergine de chèvre râpé puis enfournez-les 15 à 20 minutes ou jusqu’à ce qu’elles soient cuites.",
+        "Pendant ce temps, pesez les patates douces, épluchez-les et coupez-les en gros morceaux. Faites-les cuire 10 minutes à couvert dans l'eau bouillante. Égouttez et réservez sans couvercle.",
+        "Pendant ce temps, ciselez la ciboulette. Coupez le poivron rouge en petits morceaux. Faites chauffer un filet d’huile d’olive dans une poêle et faites-y revenir le poivron 7 à 9 minutes à feu moyen. Salez et poivrez.",
+        "Écrasez les patates douces au presse-purée pour en faire une purée épaisse.Incorporez la moitié de la ciboulette et le beurre. Salez et poivrez. Ajoutez éventuellement un filet de lait (si vous en avez) pour rendre l’ensemble plus onctueux.",
+        "Servez la purée de patates douces dans les assiettes et accompagnez-la du gratin d’aubergine et des dés de poivron. Garnissez le tout du reste de ciboulette. Arrosez d’un filet d’huile d’olive vierge extra si vous le souhaitez."
     ]
 }

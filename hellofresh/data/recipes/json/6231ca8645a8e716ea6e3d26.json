@@ -1,1045 +1,131 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804030-1",
-    "country": "FR",
-    "createdAt": "2022-03-16T11:31:19+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 124,
     "headline": "avec une salade batavia & carotte",
-    "id": "6231ca8645a8e716ea6e3d26",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220225_R206_W15_FR_RFR29804030-1_KB_Main_low-20bd70a5.jpg",
-    "imagePath": "/image/HF220225_R206_W15_FR_RFR29804030-1_KB_Main_low-20bd70a5.jpg",
+    "name": "Endives au jambon gratinées",
+    "prepTime": 45,
+    "totalTime": 20,
+    "image_id": "6231ca8645a8e716ea6e3d26",
+    "id": "cdd2bc75-64c4-44ea-90cc-2f374ff6af85",
+    "nutrition": {
+        "kcal": 654,
+        "fat": 45.4,
+        "saturated_fat": 22.7,
+        "carbohydrate": 39.7,
+        "sugars": 20.6,
+        "protein": 19.2,
+        "sodium": 0.52
+    },
+    "tags": [
+        "Famille"
+    ],
+    "utensils": [
+        "Casserole",
+        "Râpe",
+        "Éplucheur",
+        "Saladier",
+        "Fouet",
+        "Casserole avec couvercle",
+        "Plat à four"
+    ],
     "ingredients": [
         {
-            "id": "6405bf49b0da1947779861ee",
-            "uuid": "1383aa7d-2d9f-5999-b064-7c85cce41ce4",
-            "name": "Endive",
-            "type": "chicory",
-            "slug": "endive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf49b0da1947779861ee-7b1c3763.png",
-            "imagePath": "/ingredient/6405bf49b0da1947779861ee-7b1c3763.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "eda8ad0e-46a6-4a01-b025-a24d6b8ffac5",
+            "portion_id": "89d7626b-d02b-4bd8-97be-795760e2b512",
+            "image_id": "6405bf49b0da1947779861ee"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "6405bf9caf4af6d531d50c45",
-            "uuid": "9955fa99-4af7-5add-b525-9c6ccbc8c479",
-            "name": "Jambon blanc",
-            "type": "sliced-cooked-ham",
-            "slug": "jambon-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9caf4af6d531d50c45-5807b7cb.png",
-            "imagePath": "/ingredient/6405bf9caf4af6d531d50c45-5807b7cb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "tranche(s)",
+            "ingredient_id": "17c13c5d-103a-45cc-aef3-fc45dcfb5b5c",
+            "portion_id": "e7348f56-f1c2-431a-9349-752166c42b53",
+            "image_id": "6405bf9caf4af6d531d50c45"
         },
         {
-            "id": "6405bf70b9d07cd5d38d7ab1",
-            "uuid": "f13fc02a-596a-5a90-8e09-1a8cc459126b",
-            "name": "Chapelure panko",
-            "type": "panko-breadcrumbs",
-            "slug": "chapelure-panko",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf70b9d07cd5d38d7ab1-f8ba34e7.png",
-            "imagePath": "/ingredient/6405bf70b9d07cd5d38d7ab1-f8ba34e7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 25,
+            "unit": "g",
+            "ingredient_id": "b6cab6b5-8f86-483c-a2c6-6b04781ec82e"
         },
         {
-            "id": "64073baf9c6d10cd16eab622",
-            "uuid": "60b36731-2c34-4dd3-93b6-b03a65995635",
-            "name": "Tomme râpée",
-            "type": "grated-tomme-cheese",
-            "slug": "tomme-rapee",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf56b0da194777986219-b7ec4a16.png",
-            "imagePath": "/ingredient/6405bf56b0da194777986219-b7ec4a16.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "6450513b-11ce-4394-8125-5e4212b0830d"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5121ea0a0603e5708dcbf",
-            "uuid": "5a44df0b-5f02-4930-ac17-2958bb925a90",
-            "name": "Farine",
-            "type": "farine-g",
-            "slug": "farine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121ea0a0603e5708dcbf-2835f650.png",
-            "imagePath": "/ingredient/63e5121ea0a0603e5708dcbf-2835f650.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "5d07aeb2-477f-4671-b50c-92002892a1c8"
         },
         {
-            "id": "63e5121aa0a0603e5708dcbe",
-            "uuid": "1807d2bc-8b15-408b-80ea-6fe3eaf3ae3d",
-            "name": "Beurre",
-            "type": "beurre-g",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121aa0a0603e5708dcbe-9c2fda6a.png",
-            "imagePath": "/ingredient/63e5121aa0a0603e5708dcbe-9c2fda6a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "b2477ba6-8a0b-403b-a683-f710f0345a99"
         },
         {
-            "id": "63e51229bc1d64f7b96e270b",
-            "uuid": "a0b0fc8e-2f68-472b-b727-cfae8306a2c4",
-            "name": "Lait",
-            "type": "lait-ml",
-            "slug": "lait",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51229bc1d64f7b96e270b-65046296.png",
-            "imagePath": "/ingredient/63e51229bc1d64f7b96e270b-65046296.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 300,
+            "unit": "ml",
+            "ingredient_id": "6f9e620a-3d17-42f7-a11a-e1484c355fff"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6231ca8645a8e716ea6e3d26",
-    "name": "Endives au jambon gratinées",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 654,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2738,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 45.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 22.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 39.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 20.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 19.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.52,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 294,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 601,
-    "slug": "endives-au-jambon-gratinees",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C en mode grill.Portez une grande casserole d'eau salée à ébullition.Coupez la pointe frisée des endives puis tranchez-les en deux dans l'épaisseur. Enlevez la partie dure de la base en y prélevant un cône, et les premières feuilles si elles sont abimées.﻿CONSEIL: LE SAVIEZ-VOUS ? La partie dure de la base et la pointe frisée sont majoritairement responsables de l'amertume des endives.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 220°C en mode grill.</li><li>Portez une grande casserole d&#39;eau salée à ébullition.</li><li><span>Coupez la pointe frisée des endives puis tranchez-les en deux dans l&#39;épaisseur. Enlevez la partie dure de la base en y prélevant un cône, et les premières feuilles si elles sont abimées.﻿</span></li></ul><p>CONSEIL: LE SAVIEZ-VOUS ? La partie dure de la base et la pointe frisée sont majoritairement responsables de l&#39;amertume des endives.</p>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 220°C en mode grill.</li><li>Portez une grande casserole d&#39;eau salée à ébullition.</li><li><span>Coupez la pointe frisée des endives puis tranchez-les en deux dans l&#39;épaisseur. Enlevez la partie dure de la base en y prélevant un cône, et les premières feuilles si elles sont abimées.﻿</span></li></ul><p>CONSEIL: LE SAVIEZ-VOUS ? La partie dure de la base et la pointe frisée sont majoritairement responsables de l&#39;amertume des endives.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6231ca8645a8e716ea6e3d26/step-53aef100.jpg",
-                    "path": "/6231ca8645a8e716ea6e3d26/step-53aef100.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Plongez les endives dans l'eau bouillante et faites-les cuire 15-20 min.Pendant ce temps, épluchez et râpez la carotte. Dans un saladier, préparez la vinaigrette en mélangeant une noisette de moutarde, un filet d'huile d'olive et du vinaigre de vin rouge. Salez et poivrez.Au moment de servir, ajoutez la carotte et la batavia au saladier et mélangez.",
-            "instructionsHTML": "<ul><li>Plongez les endives dans l&#39;eau bouillante et faites-les cuire 15-20 min.</li><li>Pendant ce temps, épluchez et râpez la carotte. </li><li>Dans un saladier, préparez la vinaigrette en mélangeant une noisette de moutarde, un filet d&#39;huile d&#39;olive et du vinaigre de vin rouge. Salez et poivrez.</li><li>Au moment de servir, ajoutez la carotte et la batavia au saladier et mélangez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Plongez les endives dans l&#39;eau bouillante et faites-les cuire 15-20 min.</li><li>Pendant ce temps, épluchez et râpez la carotte. </li><li>Dans un saladier, préparez la vinaigrette en mélangeant une noisette de moutarde, un filet d&#39;huile d&#39;olive et du vinaigre de vin rouge. Salez et poivrez.</li><li>Au moment de servir, ajoutez la carotte et la batavia au saladier et mélangez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b305379",
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6231ca8645a8e716ea6e3d26/step-93d3ac10.jpg",
-                    "path": "/6231ca8645a8e716ea6e3d26/step-93d3ac10.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, dans une casserole, faites chauffer 25 g de beurre par personne à feu moyen et ajoutez la farine. Faites-la cuire 2-3 min en remuant.Réduisez le feu et ajoutez ⅓ du lait. Remuez constamment avec un fouet. Lorsque le lait est entièrement absorbé, répétez l’opération avec le lait restant. Augmentez le feu et laissez bouillir doucement 3-4 min afin que la sauce épaississe.Salez et poivrez, râpez de la muscade selon votre goût, puis réservez hors du feu et à couvert.",
-            "instructionsHTML": "<ul><li><span>Pendant ce temps, dans une casserole, faites chauffer 25 g de beurre par personne à feu moyen et ajoutez la farine. Faites-la cuire 2-3 min en remuant.</span></li><li><span>Réduisez le feu et ajoutez </span><span>⅓</span><span> du lait. Remuez constamment avec un fouet. Lorsque le lait est entièrement absorbé, répétez l’opération avec le lait restant. Augmentez le feu et laissez bouillir doucement 3-4 min afin que la sauce épaississe.</span></li><li>Salez et poivrez, râpez de la muscade selon votre goût, puis réservez hors du feu et à couvert.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Pendant ce temps, dans une casserole, faites chauffer 25 g de beurre par personne à feu moyen et ajoutez la farine. Faites-la cuire 2-3 min en remuant.</span></li><li><span>Réduisez le feu et ajoutez </span><span>⅓</span><span> du lait. Remuez constamment avec un fouet. Lorsque le lait est entièrement absorbé, répétez l’opération avec le lait restant. Augmentez le feu et laissez bouillir doucement 3-4 min afin que la sauce épaississe.</span></li><li>Salez et poivrez, râpez de la muscade selon votre goût, puis réservez hors du feu et à couvert.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b305384",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6231ca8645a8e716ea6e3d26/step-4461dc20.jpg",
-                    "path": "/6231ca8645a8e716ea6e3d26/step-4461dc20.jpg",
-                    "caption": "Faire la béchamel"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Égouttez les endives et laissez-les refroidir (pointe vers le bas) quelques instants. Pressez-les délicatement afin d'extraire l'eau résiduelle (voir CONSEIL). Salez et poivrez-les.Enroulez l'équivalent d'une endive (en serrant les moitiés) dans une tranche de jambon blanc fumé.CONSEIL: Veillez à ne pas vous brûler en manipulant les endives chaudes.",
-            "instructionsHTML": "<ul><li>Égouttez les endives et laissez-les refroidir (pointe vers le bas) quelques instants. Pressez-les délicatement afin d&#39;extraire l&#39;eau résiduelle (voir CONSEIL). Salez et poivrez-les.</li><li>Enroulez l&#39;équivalent d&#39;une endive (en<span> serrant</span> les moitiés) dans une tranche de jambon blanc fumé.</li></ul><p>CONSEIL: Veillez à ne pas vous brûler en manipulant les endives chaudes.</p>",
-            "instructionsMarkdown": "<ul><li>Égouttez les endives et laissez-les refroidir (pointe vers le bas) quelques instants. Pressez-les délicatement afin d&#39;extraire l&#39;eau résiduelle (voir CONSEIL). Salez et poivrez-les.</li><li>Enroulez l&#39;équivalent d&#39;une endive (en<span> serrant</span> les moitiés) dans une tranche de jambon blanc fumé.</li></ul><p>CONSEIL: Veillez à ne pas vous brûler en manipulant les endives chaudes.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6231ca8645a8e716ea6e3d26/step-7011d730.jpg",
-                    "path": "/6231ca8645a8e716ea6e3d26/step-7011d730.jpg",
-                    "caption": "Assembler"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Huilez un plat à four.Déposez environ ½ cm de béchamel dans le fond du plat. Disposez les endives au jambon sur la béchamel. Nappez avec la béchamel restante et saupoudrez de chapelure, puis de tomme du Jura râpée.Enfournez 8-10 min, ou jusqu'à ce que le plat soit bien gratiné. Veillez à ce qu'il ne brûle pas.",
-            "instructionsHTML": "<ul><li>Huilez un plat à four.</li><li>Déposez environ ½ cm de béchamel dans le fond du plat. Disposez les endives au jambon sur la béchamel. </li><li>Nappez avec la béchamel restante et saupoudrez de chapelure, puis de tomme du Jura râpée.</li><li>Enfournez 8-10 min, ou jusqu&#39;à ce que le plat soit bien gratiné. Veillez à ce qu&#39;il ne brûle pas.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Huilez un plat à four.</li><li>Déposez environ ½ cm de béchamel dans le fond du plat. Disposez les endives au jambon sur la béchamel. </li><li>Nappez avec la béchamel restante et saupoudrez de chapelure, puis de tomme du Jura râpée.</li><li>Enfournez 8-10 min, ou jusqu&#39;à ce que le plat soit bien gratiné. Veillez à ce qu&#39;il ne brûle pas.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6231ca8645a8e716ea6e3d26/step-25560940.jpg",
-                    "path": "/6231ca8645a8e716ea6e3d26/step-25560940.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Sortez le plat du four et laissez-le refroidir quelques instants.Servez les endives dans les assiettes avec la salade à côté.",
-            "instructionsHTML": "<ul><li>Sortez le plat du four et laissez-le refroidir quelques instants.</li><li>Servez les endives dans les assiettes avec la salade à côté.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Sortez le plat du four et laissez-le refroidir quelques instants.</li><li>Servez les endives dans les assiettes avec la salade à côté.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6231ca8645a8e716ea6e3d26/step-4242fc50.jpg",
-                    "path": "/6231ca8645a8e716ea6e3d26/step-4242fc50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR29804030-1",
-    "updatedAt": "2023-11-17T20:16:22+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305384",
-            "type": "whisk",
-            "name": "Fouet"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        }
-    ],
-    "uuid": "f72efbc3-291b-46bb-a9d3-ad80f7617730",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/endives-au-jambon-gratinees-6231ca8645a8e716ea6e3d26",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 2,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.25,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 4,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 6,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.75,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 450,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 8,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 10,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.25,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 750,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf49b0da1947779861ee",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 12,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121ea0a0603e5708dcbf",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121aa0a0603e5708dcbe",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 900,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C en mode grill.Portez une grande casserole d'eau salée à ébullition.Coupez la pointe frisée des endives puis tranchez-les en deux dans l'épaisseur. Enlevez la partie dure de la base en y prélevant un cône, et les premières feuilles si elles sont abimées.﻿CONSEIL: LE SAVIEZ-VOUS ? La partie dure de la base et la pointe frisée sont majoritairement responsables de l'amertume des endives.",
+        "Plongez les endives dans l'eau bouillante et faites-les cuire 15-20 min.Pendant ce temps, épluchez et râpez la carotte. Dans un saladier, préparez la vinaigrette en mélangeant une noisette de moutarde, un filet d'huile d'olive et du vinaigre de vin rouge. Salez et poivrez.Au moment de servir, ajoutez la carotte et la batavia au saladier et mélangez.",
+        "Pendant ce temps, dans une casserole, faites chauffer 25 g de beurre par personne à feu moyen et ajoutez la farine. Faites-la cuire 2-3 min en remuant.Réduisez le feu et ajoutez ⅓ du lait. Remuez constamment avec un fouet. Lorsque le lait est entièrement absorbé, répétez l’opération avec le lait restant. Augmentez le feu et laissez bouillir doucement 3-4 min afin que la sauce épaississe.Salez et poivrez, râpez de la muscade selon votre goût, puis réservez hors du feu et à couvert.",
+        "Égouttez les endives et laissez-les refroidir (pointe vers le bas) quelques instants. Pressez-les délicatement afin d'extraire l'eau résiduelle (voir CONSEIL). Salez et poivrez-les.Enroulez l'équivalent d'une endive (en serrant les moitiés) dans une tranche de jambon blanc fumé.CONSEIL: Veillez à ne pas vous brûler en manipulant les endives chaudes.",
+        "Huilez un plat à four.Déposez environ ½ cm de béchamel dans le fond du plat. Disposez les endives au jambon sur la béchamel. Nappez avec la béchamel restante et saupoudrez de chapelure, puis de tomme du Jura râpée.Enfournez 8-10 min, ou jusqu'à ce que le plat soit bien gratiné. Veillez à ce qu'il ne brûle pas.",
+        "Sortez le plat du four et laissez-le refroidir quelques instants.Servez les endives dans les assiettes avec la salade à côté."
     ]
 }

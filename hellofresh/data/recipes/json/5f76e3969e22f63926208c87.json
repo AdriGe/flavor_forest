@@ -1,1168 +1,144 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "PNL2204-1",
-    "country": "FR",
-    "createdAt": "2020-10-02T08:23:51+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 99,
     "headline": "avec des raisins rôtis et un sirop de balsamique",
-    "id": "5f76e3969e22f63926208c87",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200921_R71_W44_NL_P2204-1_MB_Main_low-67db1eee.jpg",
-    "imagePath": "/image/HF200921_R71_W44_NL_P2204-1_MB_Main_low-67db1eee.jpg",
+    "name": "Cuisse de poulet confite et salade d'automne",
+    "prepTime": 35,
+    "totalTime": 30,
+    "image_id": "5f76e3969e22f63926208c87",
+    "id": "67d6be76-f3e6-4c18-81a4-d9e55cde7994",
+    "nutrition": {
+        "kcal": 783,
+        "fat": 39.19,
+        "saturated_fat": 11.42,
+        "carbohydrate": 62.64,
+        "sugars": 13.79,
+        "protein": 40.6,
+        "sodium": 1.95
+    },
+    "tags": [
+        "À faire rapidement"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Petit bol",
+        "Saladier",
+        "Plat à four",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Casserole"
+    ],
     "ingredients": [
         {
-            "id": "6405bf5faf4af6d531d50b75",
-            "uuid": "017ac3c8-4d38-465e-b403-183db3270831",
-            "name": "Grenailles",
-            "type": "baby-potatoes",
-            "slug": "grenailles",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5faf4af6d531d50b75-0f7c6432.png",
-            "imagePath": "/ingredient/6405bf5faf4af6d531d50b75-0f7c6432.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "g",
+            "ingredient_id": "ed84f2f0-6872-4336-a13d-55c9bebaf1b7"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "id": "6405bfeab0da194777986416",
-            "uuid": "68289723-5475-5c9f-9d6f-58d05e6e9b85",
-            "name": "Radis",
-            "type": "radish",
-            "slug": "radis",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfeab0da194777986416-fa54aa02.png",
-            "imagePath": "/ingredient/6405bfeab0da194777986416-fa54aa02.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "botte(s)",
+            "ingredient_id": "02c789bb-321e-4f0e-a8ff-8032a869aaae",
+            "portion_id": "d7814c5e-5ecc-466d-ae52-b744a095337c",
+            "image_id": "6405bfeab0da194777986416"
         },
         {
-            "id": "6405bfa2b0da194777986322",
-            "uuid": "bdba5f53-4839-4c45-9621-724d1b63cd96",
-            "name": "Mélange de salades: épinards, roquette et cardes rouges",
-            "type": "mix-of-salads-spinach-rocket-and-red-chard",
-            "slug": "melange-de-salades-epinards-roquette-et-cardes-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa2b0da194777986322-21a6a8d2.png",
-            "imagePath": "/ingredient/6405bfa2b0da194777986322-21a6a8d2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 160,
+            "unit": "g",
+            "ingredient_id": "4e49dc57-09c2-4183-9ada-4f4408524794"
         },
         {
-            "id": "64073bd09c6d10cd16eab650",
-            "uuid": "fae5ea17-1d10-5a79-acab-118ec738e69e",
-            "name": "Basilic",
-            "type": "basil",
-            "slug": "basilic",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "imagePath": "/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "8af5c59a-f91f-4db3-96cd-c22644856502"
         },
         {
-            "id": "64073babdf6297bb5beef104",
-            "uuid": "e1c35f5d-f8e4-578e-8170-d9c7d2d4df66",
-            "name": "Fromage de chèvre frais",
-            "type": "rind-off-goats-cheese",
-            "slug": "fromage-de-chevre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb5b0da194777986364-eef55e5e.png",
-            "imagePath": "/ingredient/6405bfb5b0da194777986364-eef55e5e.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "900def38-6ae3-40fc-9055-6cb3cfc4f590"
         },
         {
-            "id": "6405bfeab9d07cd5d38d7c4d",
-            "uuid": "f76a45a0-2538-420f-a88f-18ac6dcb361f",
-            "name": "Raisins noirs sans pépins",
-            "type": "seedless-blue-grapes",
-            "slug": "raisins-noirs-sans-pepins",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfeab9d07cd5d38d7c4d-c2cc141a.png",
-            "imagePath": "/ingredient/6405bfeab9d07cd5d38d7c4d-c2cc141a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 125,
+            "unit": "g",
+            "ingredient_id": "96d04341-d10f-4d24-9680-b4d8f68ff2c2"
         },
         {
-            "id": "6405bfd5b0da1947779863d3",
-            "uuid": "310be196-6121-4e21-8f1a-3c70ef3c7b7a",
-            "name": "Cuisse de poulet confite",
-            "type": "confit-chicken-thigh",
-            "slug": "cuisse-de-poulet-confite",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd5b0da1947779863d3-7c3d367f.png",
-            "imagePath": "/ingredient/6405bfd5b0da1947779863d3-7c3d367f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "0abc9653-e23e-4b40-9762-fd092b92f601",
+            "portion_id": "b191c9c8-1e16-4de8-ba09-409753dc0f7d",
+            "image_id": "6405bfd5b0da1947779863d3"
         },
         {
-            "id": "6405c00cb0da194777986486",
-            "uuid": "512825c0-1c7a-5776-9a87-fe09cecc91e9",
-            "name": "Graines de tournesol",
-            "type": "sunflower-seeds",
-            "slug": "graines-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c00cb0da194777986486-c0b9fecf.png",
-            "imagePath": "/ingredient/6405c00cb0da194777986486-c0b9fecf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "caf5407f-a9b9-4c37-8a3c-47477ecd54be"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5123381b4b295e66f0260",
-            "uuid": "06cc03c2-cb53-410a-b25b-6f183a4ccaf0",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cs",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "imagePath": "/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b8a7ee4-2b73-44f4-94c2-74027993111c",
+            "portion_id": "7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0",
+            "image_id": "63e5123381b4b295e66f0260"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "Premium",
-        "handle": "premium",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#3d444b",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/5f76e3969e22f63926208c87",
-    "name": "Cuisse de poulet confite et salade d'automne",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 783,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3275,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 39.19,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 11.42,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 62.64,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 13.79,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 40.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.95,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 49,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 631,
-    "slug": "cuisse-de-poulet-confite-et-salade-dautomne",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 220°C.Placez les grenailles dans une casserole avec couvercle, mouillez à hauteur et portez à ébullition. Faites cuire les grenailles 12 à 14 minutes, égouttez-les puis réservez-les sans couvercle.Pendant ce temps, pressez ou émincez finement l’ail. Mélangez l’ail dans un petit bol avec 1/2 cs d’huile d’olive par personne. ",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 220°C.</li><li>Placez les grenailles dans une casserole avec couvercle, mouillez à hauteur et portez à ébullition. Faites cuire les grenailles 12 à 14 minutes, égouttez-les puis réservez-les sans couvercle.</li><li>Pendant ce temps, pressez ou émincez finement l’ail. Mélangez l’ail dans un petit bol avec 1/2 cs d’huile d’olive par personne. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 220°C.</li><li>Placez les grenailles dans une casserole avec couvercle, mouillez à hauteur et portez à ébullition. Faites cuire les grenailles 12 à 14 minutes, égouttez-les puis réservez-les sans couvercle.</li><li>Pendant ce temps, pressez ou émincez finement l’ail. Mélangez l’ail dans un petit bol avec 1/2 cs d’huile d’olive par personne. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b",
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f76e3969e22f63926208c87/step-2a0b0200.jpg",
-                    "path": "/5f76e3969e22f63926208c87/step-2a0b0200.jpg",
-                    "caption": "Cuire les pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Coupez le concombre et les radis en fines rondelles. Dans un saladier, mélangez, par personne, 1/2 cs d’huile d’olive vierge extra, 1/2 cs de vinaigre de vin blanc, du poivre et du sel. Ajoutez le concombre et le radis. Juste avant de servir ajoutez la salade mixte. Équeutez le basilic. Émiettez le fromage de chèvre frais.",
-            "instructionsHTML": "<ul><li>Coupez le concombre et les radis en fines rondelles. </li><li>Dans un saladier, mélangez, par personne, 1/2 cs d’huile d’olive vierge extra, 1/2 cs de vinaigre de vin blanc, du poivre et du sel. Ajoutez le concombre et le radis. </li><li>Juste avant de servir ajoutez la salade mixte. </li><li>Équeutez le basilic. Émiettez le fromage de chèvre frais.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez le concombre et les radis en fines rondelles. </li><li>Dans un saladier, mélangez, par personne, 1/2 cs d’huile d’olive vierge extra, 1/2 cs de vinaigre de vin blanc, du poivre et du sel. Ajoutez le concombre et le radis. </li><li>Juste avant de servir ajoutez la salade mixte. </li><li>Équeutez le basilic. Émiettez le fromage de chèvre frais.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f76e3969e22f63926208c87/step-be104f10.jpg",
-                    "path": "/5f76e3969e22f63926208c87/step-be104f10.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Disposez la grappe de raisins noirs dans un plat à four et arrosez avec un filet d’huile d’olive.Placez la cuisse de poulet confite peau vers le haut dans le plat à four et faites-la rôtir avec les raisins au four 15 à 20 minutes ou jusqu’à ce que la peau soit dorée et croustillante.",
-            "instructionsHTML": "<ul><li>Disposez la grappe de raisins noirs dans un plat à four et arrosez avec un filet d’huile d’olive.</li><li>Placez la cuisse de poulet confite peau vers le haut dans le plat à four et faites-la rôtir avec les raisins au four 15 à 20 minutes ou jusqu’à ce que la peau soit dorée et croustillante.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Disposez la grappe de raisins noirs dans un plat à four et arrosez avec un filet d’huile d’olive.</li><li>Placez la cuisse de poulet confite peau vers le haut dans le plat à four et faites-la rôtir avec les raisins au four 15 à 20 minutes ou jusqu’à ce que la peau soit dorée et croustillante.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f76e3969e22f63926208c87/step-71c61420.jpg",
-                    "path": "/5f76e3969e22f63926208c87/step-71c61420.jpg",
-                    "caption": "Cuire le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Répartissez les grenailles cuites sur une plaque de cuisson recouverte de papier sulfurisé. Écrasez-les à l’aide d’une fourchette et répartissez l’huile d’ail sur les grenailles. Salez et poivrez.Faites cuire les grenailles au four 8 à 10 minutes, ou jusqu’à ce qu’elles soient croustillantes.",
-            "instructionsHTML": "<ul><li>Répartissez les grenailles cuites sur une plaque de cuisson recouverte de papier sulfurisé. Écrasez-les à l’aide d’une fourchette et répartissez l’huile d’ail sur les grenailles. Salez et poivrez.</li><li>Faites cuire les grenailles au four 8 à 10 minutes, ou jusqu’à ce qu’elles soient croustillantes.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Répartissez les grenailles cuites sur une plaque de cuisson recouverte de papier sulfurisé. Écrasez-les à l’aide d’une fourchette et répartissez l’huile d’ail sur les grenailles. Salez et poivrez.</li><li>Faites cuire les grenailles au four 8 à 10 minutes, ou jusqu’à ce qu’elles soient croustillantes.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f76e3969e22f63926208c87/step-1abc0030.jpg",
-                    "path": "/5f76e3969e22f63926208c87/step-1abc0030.jpg",
-                    "caption": "Enfourner les pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Dans une casserole, faites chauffer 2 cs de vinaigre balsamique noir et 1 cs de sucre par personne à feu vif. Portez à ébullition.Baissez le feu dès que le mélange bout puis laissez le vinaigre et le sucre mijoter très doucement 4 à 5 minutes. Ensuite, éteignez le feu et faites chauffer juste avant de servir.",
-            "instructionsHTML": "<ul><li>Dans une casserole, faites chauffer 2 cs de vinaigre balsamique noir et 1 cs de sucre par personne à feu vif. Portez à ébullition.</li><li>Baissez le feu dès que le mélange bout puis laissez le vinaigre et le sucre mijoter très doucement 4 à 5 minutes. </li><li>Ensuite, éteignez le feu et faites chauffer juste avant de servir.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans une casserole, faites chauffer 2 cs de vinaigre balsamique noir et 1 cs de sucre par personne à feu vif. Portez à ébullition.</li><li>Baissez le feu dès que le mélange bout puis laissez le vinaigre et le sucre mijoter très doucement 4 à 5 minutes. </li><li>Ensuite, éteignez le feu et faites chauffer juste avant de servir.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f76e3969e22f63926208c87/step-2058ee40.jpg",
-                    "path": "/5f76e3969e22f63926208c87/step-2058ee40.jpg",
-                    "caption": "Faire le sirop de balsamique"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Répartissez la salade dans des assiettes.Répartissez les grenailles écrasées à côté. Garnissez avec les raisins rôtis, le basilic, le fromage de chèvre frais et les graines de tournesol.Placez une cuisse de poulet dans chaque assiette et nappez de sirop balsamique.",
-            "instructionsHTML": "<ul><li>Répartissez la salade dans des assiettes.</li><li>Répartissez les grenailles écrasées à côté. </li><li>Garnissez avec les raisins rôtis, le basilic, le fromage de chèvre frais et les graines de tournesol.</li><li>Placez une cuisse de poulet dans chaque assiette et nappez de sirop balsamique.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Répartissez la salade dans des assiettes.</li><li>Répartissez les grenailles écrasées à côté. </li><li>Garnissez avec les raisins rôtis, le basilic, le fromage de chèvre frais et les graines de tournesol.</li><li>Placez une cuisse de poulet dans chaque assiette et nappez de sirop balsamique.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f76e3969e22f63926208c87/step-2a895e50.jpg",
-                    "path": "/5f76e3969e22f63926208c87/step-2a895e50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT30M",
-    "uniqueRecipeCode": "PNL2204-1",
-    "updatedAt": "2023-10-13T10:40:10+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        }
-    ],
-    "uuid": "d41c34e4-927a-4072-a35d-1bf70e7eddf1",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/cuisse-de-poulet-confite-et-salade-dautomne-5f76e3969e22f63926208c87",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeab0da194777986416",
-                    "amount": 0.33,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfa2b0da194777986322",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bd09c6d10cd16eab650",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfeab9d07cd5d38d7c4d",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00cb0da194777986486",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeab0da194777986416",
-                    "amount": 0.66,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfa2b0da194777986322",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bd09c6d10cd16eab650",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfeab9d07cd5d38d7c4d",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00cb0da194777986486",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeab0da194777986416",
-                    "amount": 1,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfa2b0da194777986322",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bd09c6d10cd16eab650",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfeab9d07cd5d38d7c4d",
-                    "amount": 190,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00cb0da194777986486",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeab0da194777986416",
-                    "amount": 1.33,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfa2b0da194777986322",
-                    "amount": 320,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bd09c6d10cd16eab650",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfeab9d07cd5d38d7c4d",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00cb0da194777986486",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 1250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeab0da194777986416",
-                    "amount": 1.66,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfa2b0da194777986322",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bd09c6d10cd16eab650",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfeab9d07cd5d38d7c4d",
-                    "amount": 315,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00cb0da194777986486",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf5faf4af6d531d50b75",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfeab0da194777986416",
-                    "amount": 2,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "6405bfa2b0da194777986322",
-                    "amount": 480,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bd09c6d10cd16eab650",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef104",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfeab9d07cd5d38d7c4d",
-                    "amount": 380,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00cb0da194777986486",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 220°C.Placez les grenailles dans une casserole avec couvercle, mouillez à hauteur et portez à ébullition. Faites cuire les grenailles 12 à 14 minutes, égouttez-les puis réservez-les sans couvercle.Pendant ce temps, pressez ou émincez finement l’ail. Mélangez l’ail dans un petit bol avec 1/2 cs d’huile d’olive par personne. ",
+        "Coupez le concombre et les radis en fines rondelles. Dans un saladier, mélangez, par personne, 1/2 cs d’huile d’olive vierge extra, 1/2 cs de vinaigre de vin blanc, du poivre et du sel. Ajoutez le concombre et le radis. Juste avant de servir ajoutez la salade mixte. Équeutez le basilic. Émiettez le fromage de chèvre frais.",
+        "Disposez la grappe de raisins noirs dans un plat à four et arrosez avec un filet d’huile d’olive.Placez la cuisse de poulet confite peau vers le haut dans le plat à four et faites-la rôtir avec les raisins au four 15 à 20 minutes ou jusqu’à ce que la peau soit dorée et croustillante.",
+        "Répartissez les grenailles cuites sur une plaque de cuisson recouverte de papier sulfurisé. Écrasez-les à l’aide d’une fourchette et répartissez l’huile d’ail sur les grenailles. Salez et poivrez.Faites cuire les grenailles au four 8 à 10 minutes, ou jusqu’à ce qu’elles soient croustillantes.",
+        "Dans une casserole, faites chauffer 2 cs de vinaigre balsamique noir et 1 cs de sucre par personne à feu vif. Portez à ébullition.Baissez le feu dès que le mélange bout puis laissez le vinaigre et le sucre mijoter très doucement 4 à 5 minutes. Ensuite, éteignez le feu et faites chauffer juste avant de servir.",
+        "Répartissez la salade dans des assiettes.Répartissez les grenailles écrasées à côté. Garnissez avec les raisins rôtis, le basilic, le fromage de chèvre frais et les graines de tournesol.Placez une cuisse de poulet dans chaque assiette et nappez de sirop balsamique."
     ]
 }

@@ -1,883 +1,116 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "QNL0082-5",
-    "country": "FR",
-    "createdAt": "2020-07-07T15:34:02+00:00",
     "cuisines": [
-        {
-            "id": "623d9cb65bdfb809438c0dc0",
-            "type": "israeli",
-            "name": "Israelisk",
-            "slug": "israelisk",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/no-image.jpg"
-        }
+        "Israelisk"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 1,
     "favoritesCount": 194,
     "headline": "servis avec une salade de tomates, concombre et menthe",
-    "id": "5f0495e9549ff8576e4c2672",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF190826_R11_W40_NL_Q0082_Main_low-1b48fc47.jpg",
-    "imagePath": "/image/HF190826_R11_W40_NL_Q0082_Main_low-1b48fc47.jpg",
+    "name": "Pitas au bœuf haché & houmous",
+    "prepTime": 20,
+    "totalTime": 20,
+    "image_id": "5f0495e9549ff8576e4c2672",
+    "id": "1e764eab-aa02-4e92-9dd2-e16b345e86a9",
+    "nutrition": {
+        "kcal": 225,
+        "fat": 18.9,
+        "saturated_fat": 5.7,
+        "carbohydrate": 10.4,
+        "sugars": 7.2,
+        "protein": 2.7,
+        "sodium": 0
+    },
+    "tags": [
+        "À faire rapidement",
+        "Famille"
+    ],
+    "utensils": [
+        "Saladier",
+        "Poêle",
+        "Petit bol"
+    ],
     "ingredients": [
         {
-            "id": "6405bfc9b0da1947779863a8",
-            "uuid": "f4022628-552f-5ebf-bc1f-9cbb1fb8c178",
-            "name": "Pain pita complet",
-            "type": "wholemeal-pita-bread",
-            "slug": "pain-pita-complet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc9b0da1947779863a8-5e4fb50d.png",
-            "imagePath": "/ingredient/6405bfc9b0da1947779863a8-5e4fb50d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "8559691b-3957-4fed-8d26-03aa204d9bb6",
+            "portion_id": "b2e5a1ed-4518-4754-a2b7-9557cc99e6b7",
+            "image_id": "6405bfc9b0da1947779863a8"
         },
         {
-            "id": "6405bf1cb9d07cd5d38d796e",
-            "uuid": "53a96a7f-0a28-58a9-bccd-f846bf404e1a",
-            "name": "Tomates cerises rouges",
-            "type": "cherry-tomatoes",
-            "slug": "tomates-cerises-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "imagePath": "/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 125,
+            "unit": "g",
+            "ingredient_id": "f0989f17-f1fc-47a1-9546-d84cd6bd6179"
         },
         {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "id": "6405bf77b0da194777986291",
-            "uuid": "6b9b5891-6a0f-43b7-abac-f1d515dd2d91",
-            "name": "Poivron rouge",
-            "type": "red-bell-pepper",
-            "slug": "poivron-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "imagePath": "/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "d9370a6a-0327-43ae-867d-6bffcdab563a",
+            "portion_id": "4d35f7d2-9fbd-45df-8436-58d546534e81",
+            "image_id": "6405bf77b0da194777986291"
         },
         {
-            "id": "6405c016b0da1947779864a7",
-            "uuid": "704e2f02-2ad8-45fb-b3c9-d99176a7ccb1",
-            "name": "Bœuf haché aux épices orientales",
-            "type": "minced-beef-with-oriental-herbs",
-            "slug": "boeuf-hache-aux-epices-orientales",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c016b0da1947779864a7-af2b4e75.png",
-            "imagePath": "/ingredient/6405c016b0da1947779864a7-af2b4e75.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 240,
+            "unit": "g",
+            "ingredient_id": "cd3444f0-fa9f-4f36-9bf6-e81117149a7e"
         },
         {
-            "id": "6405bfadb9d07cd5d38d7b8a",
-            "uuid": "bf396f23-64e6-52fb-9c2a-f3ea6e6a53f3",
-            "name": "Menthe",
-            "type": "mint",
-            "slug": "menthe",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfadb9d07cd5d38d7b8a-2ed78bb0.png",
-            "imagePath": "/ingredient/6405bfadb9d07cd5d38d7b8a-2ed78bb0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "310f0411-471c-4a33-8a92-227195fa3ae9"
         },
         {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
         },
         {
-            "id": "6405bfe4b0da194777986403",
-            "uuid": "36e0bf5b-089e-4a10-a14b-fbbc5b14474d",
-            "name": "Houmous au ras el hanout",
-            "type": "ras-el-hanout-hummus",
-            "slug": "houmous-au-ras-el-hanout",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe4b0da194777986403-3793d900.png",
-            "imagePath": "/ingredient/6405bfe4b0da194777986403-3793d900.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "43690364-61c7-46e6-8325-0852d2a82fa9"
         },
         {
-            "id": "6405bf4db0da194777986203",
-            "uuid": "c6f01c0f-80bc-5508-b1a4-e2cfaf78557e",
-            "name": "Paprika en poudre",
-            "type": "mild-paprika",
-            "slug": "paprika-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "imagePath": "/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.99,
+            "unit": "cc",
+            "ingredient_id": "696b285c-6d8f-4ecc-a623-908a7dc78ee5",
+            "portion_id": "5ce2c663-ec17-4af4-8a71-2ddefe133cd2",
+            "image_id": "6405bf4db0da194777986203"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "RAPIDO",
-        "handle": "rapid",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#2771E8",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/5f0495e9549ff8576e4c2672",
-    "name": "Pitas au bœuf haché & houmous",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 225,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 941,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 18.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 5.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 10.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 7.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 2.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT20M",
-    "promotion": null,
-    "ratingsCount": 158,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 300,
-    "slug": "pitas-au-boeuf-hache-and-houmous",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200 degrés et enfournez les pitas 4 à 6 minutes ou toastez-les au grille-pain.Coupez les tomates cerises en deux et le concombre en petits dés et mettez-les dans un saladier.Taillez le poivron en morceaux.",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 200 degrés et enfournez les pitas 4 à 6 minutes ou toastez-les au grille-pain.</li><li>Coupez les tomates cerises en deux et le concombre en petits dés et mettez-les dans un saladier.</li><li>Taillez le poivron en morceaux.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 200 degrés et enfournez les pitas 4 à 6 minutes ou toastez-les au grille-pain.</li><li>Coupez les tomates cerises en deux et le concombre en petits dés et mettez-les dans un saladier.</li><li>Taillez le poivron en morceaux.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0495e9549ff8576e4c2672/step-00f9c500.jpg",
-                    "path": "/5f0495e9549ff8576e4c2672/step-00f9c500.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer le beurre dans une poêle et faites cuire le bœuf, les 2/3 du paprika et les dés de poivron 4 à 6 minutes en émiettant bien la viande. Coupez les feuilles de menthe en lanières et ajoutez-les au saladier.Mélangez la salade de concombre et de tomates avec l’huile d’olive vierge extra, salez et poivrez.",
-            "instructionsHTML": "<ul><li>Faites chauffer le beurre dans une poêle et faites cuire le bœuf, les 2/3 du paprika et les dés de poivron 4 à 6 minutes en émiettant bien la viande. </li><li>Coupez les feuilles de menthe en lanières et ajoutez-les au saladier.</li><li>Mélangez la salade de concombre et de tomates avec l’huile d’olive vierge extra, salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer le beurre dans une poêle et faites cuire le bœuf, les 2/3 du paprika et les dés de poivron 4 à 6 minutes en émiettant bien la viande. </li><li>Coupez les feuilles de menthe en lanières et ajoutez-les au saladier.</li><li>Mélangez la salade de concombre et de tomates avec l’huile d’olive vierge extra, salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0495e9549ff8576e4c2672/step-45055d10.jpg",
-                    "path": "/5f0495e9549ff8576e4c2672/step-45055d10.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pressez le citron. Dans un petit bol, mélangez le houmous et 1 cc de jus de citron par personne.Disposez le bœuf et le poivron dans une assiette creuse et présentez le houmous au milieu.Saupoudrez avec le reste de paprika.CONSEIL: Pour une salade encore plus fraîche, ajoutez 1 cc de jus de citron par personne.",
-            "instructionsHTML": "<ul><li>Pressez le citron. Dans un petit bol, mélangez le houmous et 1 cc de jus de citron par personne.</li><li>Disposez le bœuf et le poivron dans une assiette creuse et présentez le houmous au milieu.</li><li>Saupoudrez avec le reste de paprika.</li></ul><p>CONSEIL: Pour une salade encore plus fraîche, ajoutez 1 cc de jus de citron par personne.</p>",
-            "instructionsMarkdown": "<ul><li>Pressez le citron. Dans un petit bol, mélangez le houmous et 1 cc de jus de citron par personne.</li><li>Disposez le bœuf et le poivron dans une assiette creuse et présentez le houmous au milieu.</li><li>Saupoudrez avec le reste de paprika.</li></ul><p>CONSEIL: Pour une salade encore plus fraîche, ajoutez 1 cc de jus de citron par personne.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0495e9549ff8576e4c2672/step-cc216520.jpg",
-                    "path": "/5f0495e9549ff8576e4c2672/step-cc216520.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Présentez le houmous avec le bœuf, la salade, le reste de jus de citron et les pitas sur la table pour que chacun puisse garnir son petit pain.Commencez par un peu de salade fraîche, puis ajoutez le bœuf et le houmous.",
-            "instructionsHTML": "<ul><li>Présentez le houmous avec le bœuf, la salade, le reste de jus de citron et les pitas sur la table pour que chacun puisse garnir son petit pain.</li><li>Commencez par un peu de salade fraîche, puis ajoutez le bœuf et le houmous.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Présentez le houmous avec le bœuf, la salade, le reste de jus de citron et les pitas sur la table pour que chacun puisse garnir son petit pain.</li><li>Commencez par un peu de salade fraîche, puis ajoutez le bœuf et le houmous.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0495e9549ff8576e4c2672/step-d1112330.jpg",
-                    "path": "/5f0495e9549ff8576e4c2672/step-d1112330.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QNL0082-5",
-    "updatedAt": "2023-10-18T08:48:07+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        }
-    ],
-    "uuid": "80dc5fdd-aead-40d0-b3fb-18f4d3d30fb2",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/pitas-au-boeuf-hache-and-houmous-5f0495e9549ff8576e4c2672",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfc9b0da1947779863a8",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c016b0da1947779864a7",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfadb9d07cd5d38d7b8a",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe4b0da194777986403",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 0.48,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfc9b0da1947779863a8",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c016b0da1947779864a7",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfadb9d07cd5d38d7b8a",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe4b0da194777986403",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 0.99,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfc9b0da1947779863a8",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 190,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c016b0da1947779864a7",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfadb9d07cd5d38d7b8a",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe4b0da194777986403",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfc9b0da1947779863a8",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c016b0da1947779864a7",
-                    "amount": 480,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfadb9d07cd5d38d7b8a",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe4b0da194777986403",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 2.01,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfc9b0da1947779863a8",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 315,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c016b0da1947779864a7",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfadb9d07cd5d38d7b8a",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe4b0da194777986403",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 2.49,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfc9b0da1947779863a8",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 380,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c016b0da1947779864a7",
-                    "amount": 720,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfadb9d07cd5d38d7b8a",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe4b0da194777986403",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200 degrés et enfournez les pitas 4 à 6 minutes ou toastez-les au grille-pain.Coupez les tomates cerises en deux et le concombre en petits dés et mettez-les dans un saladier.Taillez le poivron en morceaux.",
+        "Faites chauffer le beurre dans une poêle et faites cuire le bœuf, les 2/3 du paprika et les dés de poivron 4 à 6 minutes en émiettant bien la viande. Coupez les feuilles de menthe en lanières et ajoutez-les au saladier.Mélangez la salade de concombre et de tomates avec l’huile d’olive vierge extra, salez et poivrez.",
+        "Pressez le citron. Dans un petit bol, mélangez le houmous et 1 cc de jus de citron par personne.Disposez le bœuf et le poivron dans une assiette creuse et présentez le houmous au milieu.Saupoudrez avec le reste de paprika.CONSEIL: Pour une salade encore plus fraîche, ajoutez 1 cc de jus de citron par personne.",
+        "Présentez le houmous avec le bœuf, la salade, le reste de jus de citron et les pitas sur la table pour que chacun puisse garnir son petit pain.Commencez par un peu de salade fraîche, puis ajoutez le bœuf et le houmous."
     ]
 }

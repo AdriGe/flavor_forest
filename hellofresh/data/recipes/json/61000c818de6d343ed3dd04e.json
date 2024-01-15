@@ -1,928 +1,118 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": "5fb3e89acdf29b42cd26913f",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/farfalle-au-poulet-and-tomme-rapee-5fb3e89acdf29b42cd26913f",
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "RNL0767-9",
-    "country": "FR",
-    "createdAt": "2021-07-27T13:39:15+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 141,
     "headline": "avec du fenouil, des épinards sautés et du piment",
-    "id": "61000c818de6d343ed3dd04e",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF191007_R05_W46_NL_R0548_Main_low-3120a0b7.jpg",
-    "imagePath": "/image/HF191007_R05_W46_NL_R0548_Main_low-3120a0b7.jpg",
+    "name": "Farfalle au poulet & tomme râpée",
+    "prepTime": 30,
+    "totalTime": 25,
+    "image_id": "61000c818de6d343ed3dd04e",
+    "id": "30afb201-a5ef-436f-b31d-fa3b340fecb9",
+    "nutrition": {
+        "kcal": 399,
+        "fat": 30.41,
+        "saturated_fat": 17.06,
+        "carbohydrate": 17.54,
+        "sugars": 5.24,
+        "protein": 12.45,
+        "sodium": 0.96
+    },
+    "tags": [
+        "À faire rapidement",
+        "Épicé",
+        "Famille"
+    ],
+    "utensils": [
+        "Casserole",
+        "Wok ou sauteuse avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.25,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "id": "6405bfe5af4af6d531d50d2c",
-            "uuid": "3e5349c8-3164-56bd-9cfe-1e2c5a9fd09e",
-            "name": "Fenouil",
-            "type": "fennel",
-            "slug": "fenouil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe5af4af6d531d50d2c-5ccc971b.png",
-            "imagePath": "/ingredient/6405bfe5af4af6d531d50d2c-5ccc971b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a2ffa436-7019-40fe-bbd6-1431d8525b63",
+            "portion_id": "ea9abbcc-0b63-43c2-b06c-982591f8a520",
+            "image_id": "6405bfe5af4af6d531d50d2c"
         },
         {
-            "id": "6405c00aaf4af6d531d50db4",
-            "uuid": "829ae3c1-0e5b-5eed-a428-235f7e0b90e3",
-            "name": "Farfalle",
-            "type": "farfalle",
-            "slug": "farfalle",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c00aaf4af6d531d50db4-627c2b30.png",
-            "imagePath": "/ingredient/6405c00aaf4af6d531d50db4-627c2b30.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "95c95b53-f957-48e1-95f3-3067a734e38a"
         },
         {
-            "id": "6405bf67b9d07cd5d38d7a8d",
-            "uuid": "ed03e930-2317-5546-889c-17cc8d98e84b",
-            "name": "Emincés de filet de poulet",
-            "type": "chicken-breast-strips",
-            "slug": "eminces-de-filet-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf67b9d07cd5d38d7a8d-d3a0047b.png",
-            "imagePath": "/ingredient/6405bf67b9d07cd5d38d7a8d-d3a0047b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "afc94734-915a-4f27-987a-164bf94489ea"
         },
         {
-            "id": "6405bfa5af4af6d531d50c60",
-            "uuid": "7952646c-6ac7-54f6-bfe7-a0d92844971b",
-            "name": "Épices italiennes",
-            "type": "dried-italian-herbs",
-            "slug": "epices-italiennes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "imagePath": "/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.67,
+            "unit": "sachet(s)",
+            "ingredient_id": "d5958aa8-994d-4377-9ce4-a6f9e0f24dbc",
+            "portion_id": "a96b16d1-b9b0-4f6d-b7ae-bc07282a7584",
+            "image_id": "6405bfa5af4af6d531d50c60"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acf",
-            "uuid": "8336bf50-6c44-57e6-ac7f-af74134d934f",
-            "name": "Épinards",
-            "type": "spinach",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "bc85a87e-d578-42a9-892f-877ca1d6c94a"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01",
+            "portion_id": "2bd20717-2bbe-4705-8c80-f36486974785",
+            "image_id": "64073ba5683721c9a32b0730"
         },
         {
-            "id": "64073baf9c6d10cd16eab622",
-            "uuid": "60b36731-2c34-4dd3-93b6-b03a65995635",
-            "name": "Tomme râpée",
-            "type": "grated-tomme-cheese",
-            "slug": "tomme-rapee",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf56b0da194777986219-b7ec4a16.png",
-            "imagePath": "/ingredient/6405bf56b0da194777986219-b7ec4a16.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "6450513b-11ce-4394-8125-5e4212b0830d"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/61000c818de6d343ed3dd04e",
-    "name": "Farfalle au poulet & tomme râpée",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 399,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1669,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 30.41,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 17.06,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 17.54,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 5.24,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 12.45,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.96,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 463,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 289,
-    "slug": "farfalle-au-poulet-and-tomme-rapee",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Portez une grande casserole d'eau salée à ébullition pour les pâtes. Ciselez l’ail et l'oignon.",
-            "instructionsHTML": "<ul><li>Portez une grande casserole d&#39;eau salée à ébullition pour les pâtes. </li><li>Ciselez l’ail et l&#39;oignon.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Portez une grande casserole d&#39;eau salée à ébullition pour les pâtes. </li><li>Ciselez l’ail et l&#39;oignon.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61000c818de6d343ed3dd04e/step-c39aed00.jpg",
-                    "path": "/61000c818de6d343ed3dd04e/step-c39aed00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Épépinez et émincez le piment rouge (ça pique ! Dosez le piment selon vos goûts, ou ceux de vos enfants).Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur et émincez le reste.",
-            "instructionsHTML": "<ul><li>Épépinez et émincez le piment rouge (ç<span>a pique ! Dosez le piment selon vos goûts, ou ceux de vos enfants).</span></li><li>Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur et émincez le reste.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Épépinez et émincez le piment rouge (ç<span>a pique ! Dosez le piment selon vos goûts, ou ceux de vos enfants).</span></li><li>Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur et émincez le reste.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61000c818de6d343ed3dd04e/step-a159bd10.jpg",
-                    "path": "/61000c818de6d343ed3dd04e/step-a159bd10.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites cuire les farfalle 10-12 minutes dans la casserole, puis égouttez-les et réservez-les.",
-            "instructionsHTML": "<ul><li>Faites cuire les farfalle 10-12 minutes dans la casserole, puis égouttez-les et réservez-les.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites cuire les farfalle 10-12 minutes dans la casserole, puis égouttez-les et réservez-les.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61000c818de6d343ed3dd04e/step-f4bd1f20.jpg",
-                    "path": "/61000c818de6d343ed3dd04e/step-f4bd1f20.jpg",
-                    "caption": "Cuire les farfalle"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, faites chauffer l’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3 minutes.Ajoutez l’oignon, l’ail, le piment rouge et les épices italiennes, puis faites cuire 2 minutes de plus. Ajoutez le fenouil et 1 cs d’eau par personne. Salez et poivrez, puis couvrez et faites cuire 5 minutes. CONSEIL: Pour un goût de fenouil moins prononcé ou si vous mangez ce plat avec des enfants, réduisez la quantité utilisée et utilisez le reste dans une soupe par exemple.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, faites chauffer l’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3 minutes.</li><li>Ajoutez l’oignon, l’ail, le piment rouge et les épices italiennes, puis faites cuire 2 minutes de plus. </li><li>Ajoutez le fenouil et 1 cs d’eau par personne. Salez et poivrez, puis couvrez et faites cuire 5 minutes. </li></ul><p>CONSEIL: Pour un goût de fenouil moins prononcé ou si vous mangez ce plat avec des enfants, réduisez la quantité utilisée et utilisez le reste dans une soupe par exemple.</p>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, faites chauffer l’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3 minutes.</li><li>Ajoutez l’oignon, l’ail, le piment rouge et les épices italiennes, puis faites cuire 2 minutes de plus. </li><li>Ajoutez le fenouil et 1 cs d’eau par personne. Salez et poivrez, puis couvrez et faites cuire 5 minutes. </li></ul><p>CONSEIL: Pour un goût de fenouil moins prononcé ou si vous mangez ce plat avec des enfants, réduisez la quantité utilisée et utilisez le reste dans une soupe par exemple.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61000c818de6d343ed3dd04e/step-ea895030.jpg",
-                    "path": "/61000c818de6d343ed3dd04e/step-ea895030.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "À feu doux, déchirez les épinards au-dessus du wok, éventuellement en plusieurs fois et laissez-les réduire en remuant. Ajoutez la crème fraîche et la moitié de la tomme râpée, puis remuez bien. Ajoutez les farfalle, salez et poivrez, puis faites réchauffer 1 minute.",
-            "instructionsHTML": "<ul><li>À feu doux, déchirez les épinards au-dessus du wok, éventuellement en plusieurs fois et laissez-les réduire en remuant. </li><li>Ajoutez la crème fraîche et la moitié de la tomme râpée, puis remuez bien. </li><li>Ajoutez les farfalle, salez et poivrez, puis faites réchauffer 1 minute.</li></ul>",
-            "instructionsMarkdown": "<ul><li>À feu doux, déchirez les épinards au-dessus du wok, éventuellement en plusieurs fois et laissez-les réduire en remuant. </li><li>Ajoutez la crème fraîche et la moitié de la tomme râpée, puis remuez bien. </li><li>Ajoutez les farfalle, salez et poivrez, puis faites réchauffer 1 minute.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61000c818de6d343ed3dd04e/step-256a2440.jpg",
-                    "path": "/61000c818de6d343ed3dd04e/step-256a2440.jpg",
-                    "caption": "Préparer la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les farfalle dans les assiettes et garnissez-les du reste de tomme râpée.",
-            "instructionsHTML": "<ul><li>Servez les farfalle dans les assiettes et garnissez-les du reste de tomme râpée.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez les farfalle dans les assiettes et garnissez-les du reste de tomme râpée.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61000c818de6d343ed3dd04e/step-c7032a50.jpg",
-                    "path": "/61000c818de6d343ed3dd04e/step-c7032a50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RNL0767-9",
-    "updatedAt": "2023-10-13T10:40:59+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff53b",
-            "type": null,
-            "name": "Wok ou sauteuse avec couvercle"
-        }
-    ],
-    "uuid": "44fd9f25-53f1-4ea8-82b4-b525c0ad781a",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/farfalle-au-poulet-and-tomme-rapee-61000c818de6d343ed3dd04e",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.13,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe5af4af6d531d50d2c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00aaf4af6d531d50db4",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf67b9d07cd5d38d7a8d",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.6,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe5af4af6d531d50d2c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00aaf4af6d531d50db4",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf67b9d07cd5d38d7a8d",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe5af4af6d531d50d2c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00aaf4af6d531d50db4",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf67b9d07cd5d38d7a8d",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1.85,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe5af4af6d531d50d2c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00aaf4af6d531d50db4",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf67b9d07cd5d38d7a8d",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.58,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe5af4af6d531d50d2c",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00aaf4af6d531d50db4",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf67b9d07cd5d38d7a8d",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2.85,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe5af4af6d531d50d2c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c00aaf4af6d531d50db4",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf67b9d07cd5d38d7a8d",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 3.7,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073baf9c6d10cd16eab622",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Portez une grande casserole d'eau salée à ébullition pour les pâtes. Ciselez l’ail et l'oignon.",
+        "Épépinez et émincez le piment rouge (ça pique ! Dosez le piment selon vos goûts, ou ceux de vos enfants).Coupez le fenouil en deux, puis en quartiers, retirez le cœur dur et émincez le reste.",
+        "Faites cuire les farfalle 10-12 minutes dans la casserole, puis égouttez-les et réservez-les.",
+        "Pendant ce temps, faites chauffer l’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3 minutes.Ajoutez l’oignon, l’ail, le piment rouge et les épices italiennes, puis faites cuire 2 minutes de plus. Ajoutez le fenouil et 1 cs d’eau par personne. Salez et poivrez, puis couvrez et faites cuire 5 minutes. CONSEIL: Pour un goût de fenouil moins prononcé ou si vous mangez ce plat avec des enfants, réduisez la quantité utilisée et utilisez le reste dans une soupe par exemple.",
+        "À feu doux, déchirez les épinards au-dessus du wok, éventuellement en plusieurs fois et laissez-les réduire en remuant. Ajoutez la crème fraîche et la moitié de la tomme râpée, puis remuez bien. Ajoutez les farfalle, salez et poivrez, puis faites réchauffer 1 minute.",
+        "Servez les farfalle dans les assiettes et garnissez-les du reste de tomme râpée."
     ]
 }

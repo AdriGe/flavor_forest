@@ -1,1029 +1,127 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": "https://hellofresh.com/recipecards/card/gratin-cremeux-depinard-5e304af05ccb2412b3567f70-c5c27a6e.pdf",
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": "5e2eb544f7cb73333b33e0c4",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2020-01-28T14:53:36+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": ".",
-    "descriptionHTML": "<p>.</p>",
-    "descriptionMarkdown": ".",
     "difficulty": 1,
     "favoritesCount": 82,
     "headline": "servi avec des pommes de terre rissolées et un œuf au plat",
-    "id": "5e304af05ccb2412b3567f70",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5e304af05ccb2412b3567f70-31d0e509.jpg",
-    "imagePath": "/image/5e304af05ccb2412b3567f70-31d0e509.jpg",
+    "name": "Gratin crémeux d'épinard",
+    "prepTime": 40,
+    "totalTime": null,
+    "image_id": "5e304af05ccb2412b3567f70",
+    "id": "0fa08264-3fb4-4211-949c-93aa481039f8",
+    "nutrition": {
+        "kcal": 797,
+        "fat": 48,
+        "saturated_fat": 22.3,
+        "carbohydrate": 58,
+        "sugars": 6.9,
+        "protein": 27,
+        "sodium": 0.8
+    },
+    "tags": [
+        "Végétarien"
+    ],
+    "utensils": [
+        "Sauteuse avec couvercle",
+        "Râpe",
+        "Passoire",
+        "Wok",
+        "Plat à four",
+        "Poêle"
+    ],
     "ingredients": [
         {
-            "id": "5c6ffcfae3f33969cc00e2b2",
-            "uuid": "dbf9789e-89e2-5932-8959-74ca110385d4",
-            "name": "Pommes de terre à chair ferme",
-            "type": "qdoc-phf-10-16272-4",
-            "slug": "pomme-de-terre-a-chair-ferme",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5b23c5b6ae08b51d6f1e54f3-d5b74be4.png",
-            "imagePath": "/ingredient/5b23c5b6ae08b51d6f1e54f3-d5b74be4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc13",
-                "uuid": "ca8b304f-9b83-5252-b006-937f4cc644c2",
-                "name": "pomme de terre",
-                "slug": "pomme-de-terre",
-                "type": "potatoes",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "g",
+            "ingredient_id": "97b31727-79a1-4e4d-8baf-60452ad1d1d9"
         },
         {
-            "id": "5c8bcd9be3f3397358648c94",
-            "uuid": "4a5f6773-9803-5515-8c64-24466b0c2f76",
-            "name": "Échalote",
-            "type": "qdoc-phf-10-16060-4",
-            "slug": "echalote",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c94-8df3c125.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c94-8df3c125.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbee",
-                "uuid": "1a30a8a2-71bc-52c5-89fa-8184b99ce42c",
-                "name": "oignon",
-                "slug": "oignon",
-                "type": "onion",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "594bdc0a-3f5c-4e45-9e71-4403d2d5d933",
+            "portion_id": "b201710f-86a2-44b8-898c-1f415acb8f68",
+            "image_id": "5c8bcd9be3f3397358648c94"
         },
         {
-            "id": "5c8bcd9de3f33973480ec962",
-            "uuid": "2a70261c-ee65-514b-9142-7e4e6d9035d9",
-            "name": "Gousse d'ail",
-            "type": "qdoc-phf-10-16851-4",
-            "slug": "ail-gousse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "imagePath": "/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fba4",
-                "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
-                "name": "ail",
-                "slug": "ail",
-                "type": "garlic",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "7b4e9ae1-f33a-4935-9557-720bcdd0ac89",
+            "portion_id": "74d6ed1b-2dda-4433-8a59-436a479a028d",
+            "image_id": "5c8bcd9de3f33973480ec962"
         },
         {
-            "id": "5af2be50ae08b5194415a267",
-            "uuid": "0703e2e3-6c52-5210-b3d2-85df634f1445",
-            "name": "Tomate",
-            "type": "QDOC-PHF-10-16081-4",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a55334dab71626c8b4570.png",
-            "imagePath": "/image/554a55334dab71626c8b4570.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "5cdd452e-588c-406c-a378-93ca85346178",
+            "portion_id": "07f947f6-61be-46ad-b8ff-2023624d048c",
+            "image_id": "5af2be50ae08b5194415a267"
         },
         {
-            "id": "5af2be53ae08b5194415a273",
-            "uuid": "5c5c16d4-a1bf-5ce5-b861-47bc869d540e",
-            "name": "Noix de muscade",
-            "type": "qdoc-spi-10-33001-4",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2be53ae08b5194415a273-93b1214b.png",
-            "imagePath": "/ingredient/5af2be53ae08b5194415a273-93b1214b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fba5",
-                "uuid": "c0c6c3ed-7919-5daa-b1c0-f8f119256921",
-                "name": "épice",
-                "slug": "épice",
-                "type": "garlic-powder",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a1c9dc25-b1d5-4b1a-aad4-8be5c8a7d927",
+            "portion_id": "ef9d60c7-39ca-4020-9c46-7fde34143a44",
+            "image_id": "5af2be53ae08b5194415a273"
         },
         {
-            "id": "5af2be60ae08b5194415a2a2",
-            "uuid": "57a12037-b35c-5236-a06b-982e4aad7fd7",
-            "name": "Épinards",
-            "type": "QDOC-PHF-10-16077-4",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a53a4f8b25e1c268b456e.png",
-            "imagePath": "/image/554a53a4f8b25e1c268b456e.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": null
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "1d57e44a-bcc6-4537-b6ac-4132d1876cec"
         },
         {
-            "id": "5af2bdf8ae08b5194415a11c",
-            "uuid": "9400df11-aa9a-5f70-9bdc-4a229558bd55",
-            "name": "Thym séché",
-            "type": "QDOC-SPI-10-45405-4",
-            "slug": "thym-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/568fa2cd4dab7117348b4567.png",
-            "imagePath": "/image/568fa2cd4dab7117348b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "94fc3f93-504f-4546-834f-e1145359be4f",
+            "portion_id": "876c0f63-410e-4f3c-bcab-c5c5ed25200f",
+            "image_id": "5af2bdf8ae08b5194415a11c"
         },
         {
-            "id": "5af2bdecae08b5194415a0f0",
-            "uuid": "b2570a6a-9675-558a-9389-e5c2074cc900",
-            "name": "Crème fraîche",
-            "type": "QDOC-DAI-10-16089-4",
-            "slug": "creme-fraiche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredients/5554325f4dab71f8568b456e-07e12f8c.png",
-            "imagePath": "/ingredients/5554325f4dab71f8568b456e-07e12f8c.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": null
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "37f081a4-911b-4a0a-a848-d599135e577e"
         },
         {
-            "id": "5cdea15cbfc591000d02b434",
-            "uuid": "773f16f0-673d-528c-8d06-1966e8cbee63",
-            "name": "Gouda Mi-Vieux râpé",
-            "type": "qdoc-dai-10-15022-4",
-            "slug": "gouda-mi-vieux-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5cdea15cbfc591000d02b434-d04f7bdd.png",
-            "imagePath": "/ingredient/5cdea15cbfc591000d02b434-d04f7bdd.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb68",
-                "uuid": "a560b77e-37ae-5c55-82df-579a3d1d37de",
-                "name": "fromage",
-                "slug": "fromage",
-                "type": "cheese",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "603029b9-571c-4b16-a024-0d515be78ad2"
         },
         {
-            "id": "5c8bcda7e3f339735a76c463",
-            "uuid": "db327569-4554-568b-9f50-e42c558d551c",
-            "name": "Œuf",
-            "type": "qdoc-ptn-10-18001-4",
-            "slug": "oeuf-de-pour-elevee-en-plein-air",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda7e3f339735a76c463-b612d37c.png",
-            "imagePath": "/ingredient/5c8bcda7e3f339735a76c463-b612d37c.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb94",
-                "uuid": "03714c35-ec37-5062-ab80-c97adfd51696",
-                "name": "oeuf",
-                "slug": "oeuf",
-                "type": "eggs",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "3293c7f5-db27-4a77-966d-c74f5f67a004",
+            "portion_id": "736e5074-5a60-4e99-a298-c9b2784a3f7b",
+            "image_id": "5c8bcda7e3f339735a76c463"
         },
         {
-            "id": "5c8bcd9be3f3397358648c92",
-            "uuid": "9ee0d86f-1a50-54cc-9108-8ac7ea81a416",
-            "name": "Huile d'olive",
-            "type": "zt-olijfolie",
-            "slug": "huile-d-olive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbeb",
-                "uuid": "7c98f5ea-c7e6-530f-a8f7-837099e95a74",
-                "name": "huile",
-                "slug": "huile",
-                "type": "olive-oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "4ad6ce62-92c2-4612-8824-4fa5ed85fb05",
+            "portion_id": "d41c3d6a-8812-46d6-9e43-7327b8440275",
+            "image_id": "5c8bcd9be3f3397358648c92"
         },
         {
-            "id": "5c8bcd9ce3f3397358648c95",
-            "uuid": "19d86b63-a223-5129-8979-a429c1d5d94a",
-            "name": "Beurre",
-            "type": "zt-roomboter",
-            "slug": "beurre-non-sale",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "imagePath": "/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb5b",
-                "uuid": "e1a21c36-6c62-5638-9364-d39039f0b218",
-                "name": "beurre",
-                "slug": "beurre",
-                "type": "butter",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02",
+            "portion_id": "4c0e14e1-a159-4138-aa12-f9ce440d3a23",
+            "image_id": "5c8bcd9ce3f3397358648c95"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5e304af05ccb2412b3567f70",
-    "name": "Gratin crémeux d'épinard",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3333,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 797,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 48,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 22.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 58,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 6.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 27,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.8,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 43,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 738,
-    "slug": "gratin-cremeux-depinard",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 210 degrés. Épluchez ou lavez bien les pommes de terre et taillez-les en quartiers fins. Faites chauffer la moitié de l’huile d’olive dans la sauteuse et, à couvert, faites cuire les pommes de terre 25 à 35 minutes à feu moyen-vif. Retirez le couvercle après 20 minutes. Remuez régulièrement, puis salez et poivrez. Pendant ce temps, émincez l’échalote et écrasez l’ail.",
-            "instructionsHTML": "<p>Préchauffez le four à 210 degrés. Épluchez ou lavez bien les pommes de terre et taillez-les en quartiers fins. Faites chauffer la moitié de l’huile d’olive dans la sauteuse et, à couvert, faites cuire les pommes de terre 25 à 35 minutes à feu moyen-vif. Retirez le couvercle après 20 minutes. Remuez régulièrement, puis salez et poivrez. Pendant ce temps, émincez l’échalote et écrasez l’ail.</p>",
-            "instructionsMarkdown": "Préchauffez le four à 210 degrés. Épluchez ou lavez bien les pommes de terre et taillez-les en quartiers fins. Faites chauffer la moitié de l’huile d’olive dans la sauteuse et, à couvert, faites cuire les pommes de terre 25 à 35 minutes à feu moyen-vif. Retirez le couvercle après 20 minutes. Remuez régulièrement, puis salez et poivrez. Pendant ce temps, émincez l’échalote et écrasez l’ail.",
-            "ingredients": [
-                "5c8bcd9be3f3397358648c92",
-                "5c8bcd9be3f3397358648c93",
-                "5c8bcd9be3f3397358648c94",
-                "5c8bcd9de3f33973480ec962",
-                "5c6ffcfae3f33969cc00e2b2"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire les pommes de terre à couvert",
-                    "duration": "PT20M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Cuire les pommes de terre sans couvercle",
-                    "duration": "PT15M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e304af05ccb2412b3567f70/step-1e8c7036.jpg",
-                    "path": "/5e304af05ccb2412b3567f70/step-1e8c7036.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Coupez la tomate en petits dés. Râpez un petit morceau de noix de muscade. Faites chauffer1/2 cs d’huile d’olive par personne dans le wok ou la sauteuse et faites revenir l’échalote, l’ail 2 à 3 minutes. Ajoutez les épinards et remuez 3 à 4 minutes ou jusqu’à ce qu’ils aient réduit. Égouttez-les ensuite dans la passoire. Appuyez bien pour retirer le plus d’eau possible.",
-            "instructionsHTML": "<p>Coupez la tomate en petits dés. Râpez un petit morceau de noix de muscade. Faites chauffer1/2 cs d’huile d’olive par personne dans le wok ou la sauteuse et faites revenir l’échalote, l’ail 2 à 3 minutes. Ajoutez les épinards et remuez 3 à 4 minutes ou jusqu’à ce qu’ils aient réduit. Égouttez-les ensuite dans la passoire. Appuyez bien pour retirer le plus d’eau possible.</p>",
-            "instructionsMarkdown": "Coupez la tomate en petits dés. Râpez un petit morceau de noix de muscade. Faites chauffer1/2 cs d’huile d’olive par personne dans le wok ou la sauteuse et faites revenir l’échalote, l’ail 2 à 3 minutes. Ajoutez les épinards et remuez 3 à 4 minutes ou jusqu’à ce qu’ils aient réduit. Égouttez-les ensuite dans la passoire. Appuyez bien pour retirer le plus d’eau possible.",
-            "ingredients": [
-                "5c8bcd9be3f3397358648c92",
-                "5af2be50ae08b5194415a267",
-                "5af2be53ae08b5194415a273",
-                "5af2be60ae08b5194415a2a2"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b305382",
-                "57e2674fb7e8697d4b305387"
-            ],
-            "timers": [
-                {
-                    "name": "Faire revenir l'échalote et l'ail",
-                    "duration": "PT03M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Ajouter et cuire les épinards",
-                    "duration": "PT04M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e304af05ccb2412b3567f70/step-dcdba219.jpg",
-                    "path": "/5e304af05ccb2412b3567f70/step-dcdba219.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Remettez le wok ou la sauteuse sur le feu et ajoutez la tomate et le thym séché. Poursuivez la cuisson 1 minute. Baissez le feu sur moyen-doux, ajoutez la crème fraîche et les épinards égouttés, puis remuez 1 minute. Assaisonnez avec la noix de muscade, salez et poivrez.",
-            "instructionsHTML": "<p>Remettez le wok ou la sauteuse sur le feu et ajoutez la tomate et le thym séché. Poursuivez la cuisson 1 minute. Baissez le feu sur moyen-doux, ajoutez la crème fraîche et les épinards égouttés, puis remuez 1 minute. Assaisonnez avec la noix de muscade, salez et poivrez.</p>",
-            "instructionsMarkdown": "Remettez le wok ou la sauteuse sur le feu et ajoutez la tomate et le thym séché. Poursuivez la cuisson 1 minute. Baissez le feu sur moyen-doux, ajoutez la crème fraîche et les épinards égouttés, puis remuez 1 minute. Assaisonnez avec la noix de muscade, salez et poivrez.",
-            "ingredients": [
-                "5af2bdecae08b5194415a0f0",
-                "5c8bcd9be3f3397358648c93",
-                "5af2bdf8ae08b5194415a11c"
-            ],
-            "utensils": [],
-            "timers": [
-                {
-                    "name": "Cuire la tomate et le thym",
-                    "duration": "PT01M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Cuire la sauce",
-                    "duration": "PT01M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e304af05ccb2412b3567f70/step-15b8ac1d.jpg",
-                    "path": "/5e304af05ccb2412b3567f70/step-15b8ac1d.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Versez le mélange aux épinards dans le plat à four (un petit plat suffit). Saupoudrez de gouda râpé et enfournez 10 à 15 minutes.",
-            "instructionsHTML": "<p>Versez le mélange aux épinards dans le plat à four (un petit plat suffit). Saupoudrez de gouda râpé et enfournez 10 à 15 minutes.</p>",
-            "instructionsMarkdown": "Versez le mélange aux épinards dans le plat à four (un petit plat suffit). Saupoudrez de gouda râpé et enfournez 10 à 15 minutes.",
-            "ingredients": [
-                "5cdea15cbfc591000d02b434"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [
-                {
-                    "name": "Enfourner",
-                    "duration": "PT15M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e304af05ccb2412b3567f70/step-2e9e3ce2.jpg",
-                    "path": "/5e304af05ccb2412b3567f70/step-2e9e3ce2.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire un œuf au plat par personne. Salez et poivrez.",
-            "instructionsHTML": "<p>Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire un œuf au plat par personne. Salez et poivrez.</p>",
-            "instructionsMarkdown": "Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire un œuf au plat par personne. Salez et poivrez.",
-            "ingredients": [
-                "5c8bcda7e3f339735a76c463",
-                "5c8bcd9ce3f3397358648c95"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e304af05ccb2412b3567f70/step-74800057.jpg",
-                    "path": "/5e304af05ccb2412b3567f70/step-74800057.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les pommes de terre sur les assiettes et disposez l'œuf au plat par-dessus. Accompagnez le tout du gratin d’épinards.",
-            "instructionsHTML": "<p>Servez les pommes de terre sur les assiettes et disposez l'œuf au plat par-dessus. Accompagnez le tout du gratin d’épinards.</p>",
-            "instructionsMarkdown": "Servez les pommes de terre sur les assiettes et disposez l'œuf au plat par-dessus. Accompagnez le tout du gratin d’épinards.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5e304af05ccb2412b3567f70/step-4ca5e31b.jpg",
-                    "path": "/5e304af05ccb2412b3567f70/step-4ca5e31b.jpg",
-                    "caption": "."
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-13T10:39:44+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305387",
-            "type": "wok",
-            "name": "Wok"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/gratin-cremeux-depinard-5e304af05ccb2412b3567f70",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c94",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a273",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2bdecae08b5194415a0f0",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c94",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a273",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2bdecae08b5194415a0f0",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c94",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a273",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2bdecae08b5194415a0f0",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c94",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a273",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2bdecae08b5194415a0f0",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 1250,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c94",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a273",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2bdecae08b5194415a0f0",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5c6ffcfae3f33969cc00e2b2",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c94",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be53ae08b5194415a273",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2bdecae08b5194415a0f0",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcda7e3f339735a76c463",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 210 degrés. Épluchez ou lavez bien les pommes de terre et taillez-les en quartiers fins. Faites chauffer la moitié de l’huile d’olive dans la sauteuse et, à couvert, faites cuire les pommes de terre 25 à 35 minutes à feu moyen-vif. Retirez le couvercle après 20 minutes. Remuez régulièrement, puis salez et poivrez. Pendant ce temps, émincez l’échalote et écrasez l’ail.",
+        "Coupez la tomate en petits dés. Râpez un petit morceau de noix de muscade. Faites chauffer1/2 cs d’huile d’olive par personne dans le wok ou la sauteuse et faites revenir l’échalote, l’ail 2 à 3 minutes. Ajoutez les épinards et remuez 3 à 4 minutes ou jusqu’à ce qu’ils aient réduit. Égouttez-les ensuite dans la passoire. Appuyez bien pour retirer le plus d’eau possible.",
+        "Remettez le wok ou la sauteuse sur le feu et ajoutez la tomate et le thym séché. Poursuivez la cuisson 1 minute. Baissez le feu sur moyen-doux, ajoutez la crème fraîche et les épinards égouttés, puis remuez 1 minute. Assaisonnez avec la noix de muscade, salez et poivrez.",
+        "Versez le mélange aux épinards dans le plat à four (un petit plat suffit). Saupoudrez de gouda râpé et enfournez 10 à 15 minutes.",
+        "Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire un œuf au plat par personne. Salez et poivrez.",
+        "Servez les pommes de terre sur les assiettes et disposez l'œuf au plat par-dessus. Accompagnez le tout du gratin d’épinards."
     ]
 }

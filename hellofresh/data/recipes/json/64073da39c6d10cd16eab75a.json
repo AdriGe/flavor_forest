@@ -1,981 +1,129 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": null,
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-03-07T13:35:31+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bd",
-            "type": "british",
-            "name": "British",
-            "slug": "british",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bd-8abb14dd.jpg"
-        }
+        "British"
     ],
     "description": "Le Colcannon est une recette irlandaise de purée mélangée à du chou et des oignons avec du beurre et de la crème. Aujourd'hui vous allez le préparer avec du poireau et des lardons pour plus de gourmandise. Vous ne pouvez pas vous tromper avec ce saucisse-purée à l'irlandaise rempli de verdure !",
-    "descriptionHTML": "<p>Le Colcannon est une recette irlandaise de purée mélangée à du chou et des oignons avec du beurre et de la crème. Aujourd'hui vous allez le préparer avec du poireau et des lardons pour plus de gourmandise. Vous ne pouvez pas vous tromper avec ce saucisse-purée à l'irlandaise rempli de verdure !</p>",
-    "descriptionMarkdown": "Le Colcannon est une recette irlandaise de purée mélangée à du chou et des oignons avec du beurre et de la crème. Aujourd'hui vous allez le préparer avec du poireau et des lardons pour plus de gourmandise. Vous ne pouvez pas vous tromper avec ce saucisse-purée à l'irlandaise rempli de verdure !",
     "difficulty": 2,
     "favoritesCount": 275,
     "headline": "Saucisse-purée à l'irlandaise & jus de viande",
-    "id": "64073da39c6d10cd16eab75a",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R205_W16_FR_RFR20161897-2_Main_high-a0902260.jpg",
-    "imagePath": "/image/HF_Y23_R205_W16_FR_RFR20161897-2_Main_high-a0902260.jpg",
+    "name": "Bangers & Colcannon",
+    "prepTime": 50,
+    "totalTime": 35,
+    "image_id": "64073da39c6d10cd16eab75a",
+    "id": "c2853ab3-2984-4a91-b51d-5f98b48b6791",
+    "nutrition": {
+        "kcal": 833,
+        "fat": 51.4,
+        "saturated_fat": 23,
+        "carbohydrate": 59.2,
+        "sugars": 10.2,
+        "protein": 30.1,
+        "sodium": 3
+    },
+    "tags": [
+        "Famille"
+    ],
+    "utensils": [
+        "Éplucheur",
+        "Casserole avec couvercle",
+        "Poêle",
+        "Presse-purée",
+        "Spatule",
+        "Papier aluminium"
+    ],
     "ingredients": [
         {
-            "id": "6405bf9eaf4af6d531d50c49",
-            "uuid": "f2c1fd2c-09eb-5225-8e69-6070ed268f60",
-            "name": "Grenailles rouges",
-            "type": "red-potato",
-            "slug": "grenailles-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "imagePath": "/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "g",
+            "ingredient_id": "f26d87de-b670-4e79-89ae-5609f60a16a8"
         },
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405c01fb0da1947779864ce",
-            "uuid": "eb202072-0f96-5e84-86d3-e7ef42ef9bd2",
-            "name": "Saucisse de Toulouse",
-            "type": "toulouse-sausage",
-            "slug": "saucisse-de-toulouse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c01fb0da1947779864ce-eab6078f.png",
-            "imagePath": "/ingredient/6405c01fb0da1947779864ce-eab6078f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "f2090e24-5453-42ff-8f5d-27034fa2c847",
+            "portion_id": "0f72e465-6902-4c13-af97-9d183d49128e",
+            "image_id": "6405c01fb0da1947779864ce"
         },
         {
-            "id": "6405bf20af4af6d531d50a61",
-            "uuid": "cd41d645-9674-434e-b1cf-fe77522604cd",
-            "name": "Lardons fumés",
-            "type": "cubed-bacon",
-            "slug": "lardons-fumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "imagePath": "/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "378fd004-6e40-46bc-ba38-fd40e9d5a5e8"
         },
         {
-            "id": "6405bfc5b9d07cd5d38d7bce",
-            "uuid": "26d69601-21cf-5e86-bf40-c3c5f44f95b1",
-            "name": "Échalote",
-            "type": "shallot",
-            "slug": "echalote",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "imagePath": "/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "162863a2-88a4-41a8-8083-7adf892d3eb0",
+            "portion_id": "c050fe94-e69a-488d-9032-0cb7fc0fe7b7",
+            "image_id": "6405bfc5b9d07cd5d38d7bce"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "64073ba6df6297bb5beef0f4",
-            "uuid": "1900d2d4-2bd6-5097-a7bb-a815555b5b14",
-            "name": "Crème liquide",
-            "type": "cooking-cream",
-            "slug": "creme-liquide",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "imagePath": "/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "ml",
+            "ingredient_id": "002d9025-90de-45f4-95ea-04c36ca1e75b"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64073da39c6d10cd16eab75a",
-    "name": "Bangers & Colcannon",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 833,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3484,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 51.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 23,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 59.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 10.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 30.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 742,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 558,
-    "slug": "bangers-and-colcannon",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nÉpluchez les pommes de terre et coupez-les en morceaux de taille égale. Coupez le poireau en fines demi-lunes.\nFaites chauffer un filet d'huile d'olive dans une casserole à feu moyen-vif. Ajoutez-y le poireau et faites-le revenir 3-5 min.\nAjoutez les pommes de terre, du sel et de l'eau à hauteur. Portez à ébullition et faites cuire 15-20 min. Contrôlez la cuisson avec la pointe d'un couteau.\nÉgouttez et réservez. Gardez la casserole pour l'étape 4. \n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Épluchez les pommes de terre et coupez-les en morceaux de taille égale. Coupez le poireau en fines demi-lunes.</li>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une casserole à feu moyen-vif. Ajoutez-y le poireau et faites-le revenir 3-5 min.</li>\n<li>Ajoutez les pommes de terre, du sel et de l&#39;eau à hauteur. Portez à ébullition et faites cuire 15-20 min. Contrôlez la cuisson avec la pointe d&#39;un couteau.</li>\n<li>Égouttez et réservez. Gardez la casserole pour l&#39;étape 4. </li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Épluchez les pommes de terre et coupez-les en morceaux de taille égale. Coupez le poireau en fines demi-lunes.</li>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une casserole à feu moyen-vif. Ajoutez-y le poireau et faites-le revenir 3-5 min.</li>\n<li>Ajoutez les pommes de terre, du sel et de l&#39;eau à hauteur. Portez à ébullition et faites cuire 15-20 min. Contrôlez la cuisson avec la pointe d&#39;un couteau.</li>\n<li>Égouttez et réservez. Gardez la casserole pour l&#39;étape 4. </li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305379",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073da39c6d10cd16eab75a/step-78445c00.jpg",
-                    "path": "/64073da39c6d10cd16eab75a/step-78445c00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nPendant ce temps, faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif. Faites-y revenir les saucisses sur toutes les faces 2-3 min en les retournant régulièrement avant d’y ajouter les lardons.\nCouvrez et poursuivez la cuisson 8-10 min à feu moyen. Remuez de temps à autre.\nRéservez les saucisses sur une assiette recouverte d’aluminium et gardez la poêle avec les sucs pour l'étape 5.\n\nCONSEIL : Si vous aimez la viande bien marquée, vous pouvez prolonger la cuisson de quelques minutes.",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif. Faites-y revenir les saucisses sur toutes les faces 2-3 min en les retournant régulièrement avant d’y ajouter les lardons.</li>\n<li>Couvrez et poursuivez la cuisson 8-10 min à feu moyen. Remuez de temps à autre.</li>\n<li>Réservez les saucisses sur une assiette recouverte d’aluminium et gardez la poêle avec les sucs pour l&#39;étape 5.</li>\n</ul>\n<p>CONSEIL : Si vous aimez la viande bien marquée, vous pouvez prolonger la cuisson de quelques minutes.</p>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif. Faites-y revenir les saucisses sur toutes les faces 2-3 min en les retournant régulièrement avant d’y ajouter les lardons.</li>\n<li>Couvrez et poursuivez la cuisson 8-10 min à feu moyen. Remuez de temps à autre.</li>\n<li>Réservez les saucisses sur une assiette recouverte d’aluminium et gardez la poêle avec les sucs pour l&#39;étape 5.</li>\n</ul>\n<p>CONSEIL : Si vous aimez la viande bien marquée, vous pouvez prolonger la cuisson de quelques minutes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073da39c6d10cd16eab75a/step-4a8c9610.jpg",
-                    "path": "/64073da39c6d10cd16eab75a/step-4a8c9610.jpg",
-                    "caption": "Cuire la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nÉmincez finement l’échalote.\nCiselez l’ail.\nCoupez l'oignon en fines demi-lunes.\n",
-            "instructionsHTML": "<ul>\n<li>Émincez finement l’échalote.</li>\n<li>Ciselez l’ail.</li>\n<li>Coupez l&#39;oignon en fines demi-lunes.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Émincez finement l’échalote.</li>\n<li>Ciselez l’ail.</li>\n<li>Coupez l&#39;oignon en fines demi-lunes.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073da39c6d10cd16eab75a/step-00b0cf20.jpg",
-                    "path": "/64073da39c6d10cd16eab75a/step-00b0cf20.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nPendant ce temps, faites fondre le beurre à feu moyen dans la casserole de l'étape 1. Ajoutez-y l'oignon et faites-le revenir 3-4 min. Ajoutez l’ail et 20 ml de crème par personne, puis laissez cuire 1 min de plus.\nAjoutez les pommes de terre ainsi que le poireau et réduisez le tout en purée avec un presse-purée. \nAjoutez enfin les lardons, mélangez, puis couvrez jusqu’au service.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, faites fondre le beurre à feu moyen dans la casserole de l&#39;étape 1. Ajoutez-y l&#39;oignon et faites-le revenir 3-4 min. Ajoutez l’ail et 20 ml de crème par personne, puis laissez cuire 1 min de plus.</li>\n<li>Ajoutez les pommes de terre ainsi que le poireau et réduisez le tout en purée avec un presse-purée. </li>\n<li>Ajoutez enfin les lardons, mélangez, puis couvrez jusqu’au service.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, faites fondre le beurre à feu moyen dans la casserole de l&#39;étape 1. Ajoutez-y l&#39;oignon et faites-le revenir 3-4 min. Ajoutez l’ail et 20 ml de crème par personne, puis laissez cuire 1 min de plus.</li>\n<li>Ajoutez les pommes de terre ainsi que le poireau et réduisez le tout en purée avec un presse-purée. </li>\n<li>Ajoutez enfin les lardons, mélangez, puis couvrez jusqu’au service.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305393"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073da39c6d10cd16eab75a/step-815f1a30.jpg",
-                    "path": "/64073da39c6d10cd16eab75a/step-815f1a30.jpg",
-                    "caption": "Faire le Colcannon"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nRemettez la poêle avec les sucs à feu moyen-vif et ajoutez-y l’échalote. Faites-la dorer 1-2 min avant de déglacer avec ½ cs de vinaigre balsamique noir par personne.\nAjoutez la moutarde ainsi que 100 ml d’eau par personne (réduisez à 75 ml si vous êtes plus de 3 à table) et grattez bien la poêle avec une spatule pour décoller les sucs.\nLaissez réduire 4-5 min à feu moyen-doux en remuant régulièrement, ou jusqu’à obtenir une sauce onctueuse. Poivrez.\n",
-            "instructionsHTML": "<ul>\n<li>Remettez la poêle avec les sucs à feu moyen-vif et ajoutez-y l’échalote. Faites-la dorer 1-2 min avant de déglacer avec ½ cs de vinaigre balsamique noir par personne.</li>\n<li>Ajoutez la moutarde ainsi que 100 ml d’eau par personne (réduisez à 75 ml si vous êtes plus de 3 à table) et grattez bien la poêle avec une spatule pour décoller les sucs.</li>\n<li>Laissez réduire 4-5 min à feu moyen-doux en remuant régulièrement, ou jusqu’à obtenir une sauce onctueuse. Poivrez.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Remettez la poêle avec les sucs à feu moyen-vif et ajoutez-y l’échalote. Faites-la dorer 1-2 min avant de déglacer avec ½ cs de vinaigre balsamique noir par personne.</li>\n<li>Ajoutez la moutarde ainsi que 100 ml d’eau par personne (réduisez à 75 ml si vous êtes plus de 3 à table) et grattez bien la poêle avec une spatule pour décoller les sucs.</li>\n<li>Laissez réduire 4-5 min à feu moyen-doux en remuant régulièrement, ou jusqu’à obtenir une sauce onctueuse. Poivrez.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305396",
-                "57e2674fb7e8697d4b305366"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073da39c6d10cd16eab75a/step-95ecdc40.jpg",
-                    "path": "/64073da39c6d10cd16eab75a/step-95ecdc40.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nServez le colcannon aux lardons dans les assiettes (avec une noisette de beurre au centre si vous le souhaitez).\nPrésentez la saucisse à côté et arrosez l'ensemble de sauce à l'échalote. \n",
-            "instructionsHTML": "<ul>\n<li>Servez le colcannon aux lardons dans les assiettes (avec une noisette de beurre au centre si vous le souhaitez).</li>\n<li>Présentez la saucisse à côté et arrosez l&#39;ensemble de sauce à l&#39;échalote. </li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Servez le colcannon aux lardons dans les assiettes (avec une noisette de beurre au centre si vous le souhaitez).</li>\n<li>Présentez la saucisse à côté et arrosez l&#39;ensemble de sauce à l&#39;échalote. </li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073da39c6d10cd16eab75a/step-5fb82450.jpg",
-                    "path": "/64073da39c6d10cd16eab75a/step-5fb82450.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT35M",
-    "uniqueRecipeCode": "RFR20161897-2",
-    "updatedAt": "2024-01-06T12:19:09+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305393",
-            "type": "potato-masher",
-            "name": "Presse-purée"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305396",
-            "type": "spatula",
-            "name": "Spatule"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        }
-    ],
-    "uuid": "253623c3-0b89-4045-bf31-3f2acf34b33f",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/bangers-and-colcannon-64073da39c6d10cd16eab75a",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 35,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 20,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 40,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 60,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 80,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 120,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nÉpluchez les pommes de terre et coupez-les en morceaux de taille égale. Coupez le poireau en fines demi-lunes.\nFaites chauffer un filet d'huile d'olive dans une casserole à feu moyen-vif. Ajoutez-y le poireau et faites-le revenir 3-5 min.\nAjoutez les pommes de terre, du sel et de l'eau à hauteur. Portez à ébullition et faites cuire 15-20 min. Contrôlez la cuisson avec la pointe d'un couteau.\nÉgouttez et réservez. Gardez la casserole pour l'étape 4. \n",
+        "\nPendant ce temps, faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif. Faites-y revenir les saucisses sur toutes les faces 2-3 min en les retournant régulièrement avant d’y ajouter les lardons.\nCouvrez et poursuivez la cuisson 8-10 min à feu moyen. Remuez de temps à autre.\nRéservez les saucisses sur une assiette recouverte d’aluminium et gardez la poêle avec les sucs pour l'étape 5.\n\nCONSEIL : Si vous aimez la viande bien marquée, vous pouvez prolonger la cuisson de quelques minutes.",
+        "\nÉmincez finement l’échalote.\nCiselez l’ail.\nCoupez l'oignon en fines demi-lunes.\n",
+        "\nPendant ce temps, faites fondre le beurre à feu moyen dans la casserole de l'étape 1. Ajoutez-y l'oignon et faites-le revenir 3-4 min. Ajoutez l’ail et 20 ml de crème par personne, puis laissez cuire 1 min de plus.\nAjoutez les pommes de terre ainsi que le poireau et réduisez le tout en purée avec un presse-purée. \nAjoutez enfin les lardons, mélangez, puis couvrez jusqu’au service.\n",
+        "\nRemettez la poêle avec les sucs à feu moyen-vif et ajoutez-y l’échalote. Faites-la dorer 1-2 min avant de déglacer avec ½ cs de vinaigre balsamique noir par personne.\nAjoutez la moutarde ainsi que 100 ml d’eau par personne (réduisez à 75 ml si vous êtes plus de 3 à table) et grattez bien la poêle avec une spatule pour décoller les sucs.\nLaissez réduire 4-5 min à feu moyen-doux en remuant régulièrement, ou jusqu’à obtenir une sauce onctueuse. Poivrez.\n",
+        "\nServez le colcannon aux lardons dans les assiettes (avec une noisette de beurre au centre si vous le souhaitez).\nPrésentez la saucisse à côté et arrosez l'ensemble de sauce à l'échalote. \n"
     ]
 }

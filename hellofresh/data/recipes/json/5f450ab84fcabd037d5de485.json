@@ -1,1051 +1,139 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RNL1183-11",
-    "country": "FR",
-    "createdAt": "2020-08-25T12:57:30+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053af",
-            "type": "mexican",
-            "name": "Mexicaine",
-            "slug": "mexican",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
-        }
+        "Mexicaine"
     ],
     "description": "Les avis sont plutôt partagés quant à l'origine du chili con carne, mais il est désormais incontournable dans la culture alimentaire \"TexMex\" mexicaine et texane. Il existe des variations infinies sur ce plat et nous aimerions ajouter cette autre version de HelloFresh, bien fraîche avec du yaourt !",
-    "descriptionHTML": "<p>Les avis sont plutôt partagés quant à l'origine du chili con carne, mais il est désormais incontournable dans la culture alimentaire &quot;TexMex&quot; mexicaine et texane. Il existe des variations infinies sur ce plat et nous aimerions ajouter cette autre version de HelloFresh, bien fraîche avec du yaourt !</p>",
-    "descriptionMarkdown": "Les avis sont plutôt partagés quant à l'origine du chili con carne, mais il est désormais incontournable dans la culture alimentaire \"TexMex\" mexicaine et texane. Il existe des variations infinies sur ce plat et nous aimerions ajouter cette autre version de HelloFresh, bien fraîche avec du yaourt !",
     "difficulty": 2,
     "favoritesCount": 191,
     "headline": "servis avec du riz cargo, du cheddar râpé et du yaourt",
-    "id": "5f450ab84fcabd037d5de485",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF190529_R02_W27_NL_R1183_Main_low-975f7b4f.jpg",
-    "imagePath": "/image/HF190529_R02_W27_NL_R1183_Main_low-975f7b4f.jpg",
+    "name": "Poivrons farcis au chili con carne",
+    "prepTime": 40,
+    "totalTime": 35,
+    "image_id": "5f450ab84fcabd037d5de485",
+    "id": "1f7a9358-2797-4008-abbd-cd95018f0c5c",
+    "nutrition": {
+        "kcal": 532,
+        "fat": 26.46,
+        "saturated_fat": 12.77,
+        "carbohydrate": 32.09,
+        "sugars": 15.8,
+        "protein": 34.96,
+        "sodium": 2.05
+    },
+    "tags": [],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Casserole avec couvercle",
+        "Wok ou sauteuse",
+        "Wok ou sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bfdbb9d07cd5d38d7c1a",
-            "uuid": "33bd50d1-668b-5a86-b4b8-ec8bdb3888b9",
-            "name": "Poivron",
-            "type": "green-pepper",
-            "slug": "poivron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdbb9d07cd5d38d7c1a-c9793ce4.png",
-            "imagePath": "/ingredient/6405bfdbb9d07cd5d38d7c1a-c9793ce4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "83b30e3e-9b02-4343-850f-1ceeae14c587",
+            "portion_id": "d7bf12dc-ffbf-4a00-bd33-e870a4426240",
+            "image_id": "6405bfdbb9d07cd5d38d7c1a"
         },
         {
-            "id": "6405bfb8b9d07cd5d38d7baa",
-            "uuid": "a5db2a64-2925-5bc2-bdef-cec329b11eb6",
-            "name": "Riz cargo",
-            "type": "brown-rice",
-            "slug": "riz-cargo",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb8b9d07cd5d38d7baa-5eae915b.png",
-            "imagePath": "/ingredient/6405bfb8b9d07cd5d38d7baa-5eae915b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 85,
+            "unit": "g",
+            "ingredient_id": "c7d922e0-d6ac-4738-87bb-15465d3e711a"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "id": "6405bf77b0da194777986291",
-            "uuid": "6b9b5891-6a0f-43b7-abac-f1d515dd2d91",
-            "name": "Poivron rouge",
-            "type": "red-bell-pepper",
-            "slug": "poivron-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "imagePath": "/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "d9370a6a-0327-43ae-867d-6bffcdab563a",
+            "portion_id": "4d35f7d2-9fbd-45df-8436-58d546534e81",
+            "image_id": "6405bf77b0da194777986291"
         },
         {
-            "id": "6405bff3b0da194777986433",
-            "uuid": "2a486e38-5998-51dd-b175-8383b12a3ec3",
-            "name": "Tomate",
-            "type": "tomato",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b0da194777986433-af108835.png",
-            "imagePath": "/ingredient/6405bff3b0da194777986433-af108835.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "3a59005f-4649-49c7-9be4-1c2ca22d9f1a",
+            "portion_id": "0c1f557a-3079-42ee-b32c-f0c552fe9730",
+            "image_id": "6405bff3b0da194777986433"
         },
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bfa5af4af6d531d50c60",
-            "uuid": "7952646c-6ac7-54f6-bfe7-a0d92844971b",
-            "name": "Épices italiennes",
-            "type": "dried-italian-herbs",
-            "slug": "epices-italiennes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "imagePath": "/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "d5958aa8-994d-4377-9ce4-a6f9e0f24dbc",
+            "portion_id": "a96b16d1-b9b0-4f6d-b7ae-bc07282a7584",
+            "image_id": "6405bfa5af4af6d531d50c60"
         },
         {
-            "id": "6405bfd0b0da1947779863c0",
-            "uuid": "a9702fdb-e742-5fe0-b221-974c1ea5db87",
-            "name": "Épices mexicaines",
-            "type": "mexican-spice",
-            "slug": "epices-mexicaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "imagePath": "/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae75e647-2ef5-4079-a851-ebba5dcc2f18",
+            "portion_id": "0cd9e5cd-396b-4f6d-afe0-5435899f4adb",
+            "image_id": "6405bfd0b0da1947779863c0"
         },
         {
-            "id": "6405bffdb0da194777986456",
-            "uuid": "401d0e06-b4bd-421f-be94-7b681db0d1c8",
-            "name": "Haricots rouges",
-            "type": "red-beans",
-            "slug": "haricots-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bffdb0da194777986456-ce22d3d7.png",
-            "imagePath": "/ingredient/6405bffdb0da194777986456-ce22d3d7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "7c68a0b9-dd2b-44f2-87e5-b56d486a0134",
+            "portion_id": "ceb54fd9-9539-4e19-a744-5d71de1fbe09",
+            "image_id": "6405bffdb0da194777986456"
         },
         {
-            "id": "6405bf1faf4af6d531d50a5e",
-            "uuid": "be0d528c-3d69-414e-bce6-be14953958be",
-            "name": "Fromage blanc",
-            "type": "cottage-cheese",
-            "slug": "fromage-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1faf4af6d531d50a5e-8fd391f0.png",
-            "imagePath": "/ingredient/6405bf1faf4af6d531d50a5e-8fd391f0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pot(s)",
+            "ingredient_id": "2e9bdb71-e2a7-4ee7-8194-9df56a8be406",
+            "portion_id": "f0e0e040-5719-421f-b538-01218624fb2b",
+            "image_id": "6405bf1faf4af6d531d50a5e"
         },
         {
-            "id": "6405bfcfb9d07cd5d38d7bec",
-            "uuid": "427db119-993c-4475-bd45-cb0142c44cd9",
-            "name": "Cheddar râpé",
-            "type": "grated-cheddar-cheese",
-            "slug": "cheddar-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfcfb9d07cd5d38d7bec-c103a20c.jpg",
-            "imagePath": "/ingredient/6405bfcfb9d07cd5d38d7bec-c103a20c.jpg",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 25,
+            "unit": "g",
+            "ingredient_id": "4b619f93-6cb8-4092-8f16-f5472ed4e2be"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121c81b4b295e66f0253",
-            "uuid": "891ef56a-66ac-4a4a-8005-f825cca67a5c",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cc",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "imagePath": "/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "92a22779-f4ab-44d9-9776-9bcccb473587",
+            "portion_id": "fe1c23f7-a1fa-4309-acb7-1985201c4403",
+            "image_id": "63e5121c81b4b295e66f0253"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5f450ab84fcabd037d5de485",
-    "name": "Poivrons farcis au chili con carne",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 532,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2227,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 26.46,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 12.77,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 32.09,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 15.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 34.96,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.05,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 126,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 645,
-    "slug": "poivrons-farcis-au-chili-con-carne",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200 degrés. Pour le riz, portez 250 ml d’eau à ébullition dans une casserole.Coupez les poivrons verts en deux et épépinez-les. Dès que le four est chaud, enfournez-les sur une plaque recouverte de papier sulfurisé, face tranchée vers le bas, 15 à 20 minutes ou jusqu’à ce qu'ils soient légèrement dorés.",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 200 degrés. Pour le riz, portez 250 ml d’eau à ébullition dans une casserole.</li><li>Coupez les poivrons verts en deux et épépinez-les. Dès que le four est chaud, enfournez-les sur une plaque recouverte de papier sulfurisé, face tranchée vers le bas, 15 à 20 minutes ou jusqu’à ce qu&#39;ils soient légèrement dorés.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 200 degrés. Pour le riz, portez 250 ml d’eau à ébullition dans une casserole.</li><li>Coupez les poivrons verts en deux et épépinez-les. Dès que le four est chaud, enfournez-les sur une plaque recouverte de papier sulfurisé, face tranchée vers le bas, 15 à 20 minutes ou jusqu’à ce qu&#39;ils soient légèrement dorés.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450ab84fcabd037d5de485/step-a8e0a000.jpg",
-                    "path": "/5f450ab84fcabd037d5de485/step-a8e0a000.jpg",
-                    "caption": "Cuire les poivrons verts"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Pendant ce temps, faites cuire le riz 20 à 22 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, faites cuire le riz 20 à 22 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, faites cuire le riz 20 à 22 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450ab84fcabd037d5de485/step-b2a20910.jpg",
-                    "path": "/5f450ab84fcabd037d5de485/step-b2a20910.jpg",
-                    "caption": "Cuire le riz"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Emincez l’oignon. Épépinez et émincez le piment rouge. Coupez le poivron rouge et la tomate en petits morceaux.CONSEIL: Les pépins sont la partie la plus piquante du piment. Si vous aimez les plats bien relevés, vous pouvez évidemment les laisser. Si des enfants sont à table, vous pouvez enlever le piment.",
-            "instructionsHTML": "<ul><li>Emincez l’oignon. Épépinez et émincez le piment rouge. </li><li>Coupez le poivron rouge et la tomate en petits morceaux.</li></ul><p>CONSEIL: Les pépins sont la partie la plus piquante du piment. Si vous aimez les plats bien relevés, vous pouvez évidemment les laisser. Si des enfants sont à table, vous pouvez enlever le piment.</p>",
-            "instructionsMarkdown": "<ul><li>Emincez l’oignon. Épépinez et émincez le piment rouge. </li><li>Coupez le poivron rouge et la tomate en petits morceaux.</li></ul><p>CONSEIL: Les pépins sont la partie la plus piquante du piment. Si vous aimez les plats bien relevés, vous pouvez évidemment les laisser. Si des enfants sont à table, vous pouvez enlever le piment.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450ab84fcabd037d5de485/step-212d8c20.jpg",
-                    "path": "/5f450ab84fcabd037d5de485/step-212d8c20.jpg",
-                    "caption": "Couper les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Faites chauffer le beurre dans un wok ou une sauteuse et faites revenir l’oignon 2 minutes à feu moyen-doux. Ajoutez la viande hachée, le piment rouge, les herbes italiennes et les épices mexicaines, puis salez et poivrez. Faites cuire le hachis en l’émiettant 1 à 2 minutes à feu moyen-vif : il ne doit pas encore être cuit à ce stade.",
-            "instructionsHTML": "<ul><li>Faites chauffer le beurre dans un wok ou une sauteuse et faites revenir l’oignon 2 minutes à feu moyen-doux. </li><li>Ajoutez la viande hachée, le piment rouge, les herbes italiennes et les épices mexicaines, puis salez et poivrez. </li><li>Faites cuire le hachis en l’émiettant 1 à 2 minutes à feu moyen-vif : il ne doit pas encore être cuit à ce stade.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer le beurre dans un wok ou une sauteuse et faites revenir l’oignon 2 minutes à feu moyen-doux. </li><li>Ajoutez la viande hachée, le piment rouge, les herbes italiennes et les épices mexicaines, puis salez et poivrez. </li><li>Faites cuire le hachis en l’émiettant 1 à 2 minutes à feu moyen-vif : il ne doit pas encore être cuit à ce stade.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53a",
-                "63c5205d77be7505f4d9a14c"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450ab84fcabd037d5de485/step-4e21b630.jpg",
-                    "path": "/5f450ab84fcabd037d5de485/step-4e21b630.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Ajoutez la tomate, le poivron rouge, les haricots rouges (inutile d’égoutter) et le vinaigre balsamique noir au wok.Couvrez et laissez mijoter 10 à 12 minutes à feu moyen. Retirez le couvercle lors des 5 à 6 dernières minutes. Remuez régulièrement, puis salez et poivrez. ",
-            "instructionsHTML": "<ul><li>Ajoutez la tomate, le poivron rouge, les haricots rouges (inutile d’égoutter) et le vinaigre balsamique noir au wok.</li><li>Couvrez et laissez mijoter 10 à 12 minutes à feu moyen. </li><li>Retirez le couvercle lors des 5 à 6 dernières minutes. Remuez régulièrement, puis salez et poivrez. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Ajoutez la tomate, le poivron rouge, les haricots rouges (inutile d’égoutter) et le vinaigre balsamique noir au wok.</li><li>Couvrez et laissez mijoter 10 à 12 minutes à feu moyen. </li><li>Retirez le couvercle lors des 5 à 6 dernières minutes. Remuez régulièrement, puis salez et poivrez. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450ab84fcabd037d5de485/step-30adad40.jpg",
-                    "path": "/5f450ab84fcabd037d5de485/step-30adad40.jpg",
-                    "caption": "Cuire à l'étuvée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le riz dans les assiettes et disposez les poivrons verts farcis à côté. Remplissez ces derniers de chili. Garnissez avec le fromage blanc et le cheddar râpé.",
-            "instructionsHTML": "<ul><li>Servez le riz dans les assiettes et disposez les poivrons verts farcis à côté. </li><li>Remplissez ces derniers de chili. Garnissez avec le fromage blanc et le cheddar râpé.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez le riz dans les assiettes et disposez les poivrons verts farcis à côté. </li><li>Remplissez ces derniers de chili. Garnissez avec le fromage blanc et le cheddar râpé.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f450ab84fcabd037d5de485/step-a14f3550.jpg",
-                    "path": "/5f450ab84fcabd037d5de485/step-a14f3550.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": "PT35M",
-    "uniqueRecipeCode": "RNL1183-11",
-    "updatedAt": "2023-10-13T10:40:05+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff53a",
-            "type": null,
-            "name": "Wok ou sauteuse"
-        },
-        {
-            "id": "63c5205d77be7505f4d9a14c",
-            "type": "wok-or-sautpan",
-            "name": "Wok ou sauteuse"
-        }
-    ],
-    "uuid": "3288fa70-0055-466d-b62b-e31468310823",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/poivrons-farcis-au-chili-con-carne-5f450ab84fcabd037d5de485",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 0.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf1faf4af6d531d50a5e",
-                    "amount": 0.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfcfb9d07cd5d38d7bec",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 85,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf1faf4af6d531d50a5e",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfcfb9d07cd5d38d7bec",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1a",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf1faf4af6d531d50a5e",
-                    "amount": 0.75,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfcfb9d07cd5d38d7bec",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1a",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 170,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf1faf4af6d531d50a5e",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfcfb9d07cd5d38d7bec",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1a",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 210,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 2.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf1faf4af6d531d50a5e",
-                    "amount": 1.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfcfb9d07cd5d38d7bec",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1a",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf1faf4af6d531d50a5e",
-                    "amount": 1.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfcfb9d07cd5d38d7bec",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200 degrés. Pour le riz, portez 250 ml d’eau à ébullition dans une casserole.Coupez les poivrons verts en deux et épépinez-les. Dès que le four est chaud, enfournez-les sur une plaque recouverte de papier sulfurisé, face tranchée vers le bas, 15 à 20 minutes ou jusqu’à ce qu'ils soient légèrement dorés.",
+        "Pendant ce temps, faites cuire le riz 20 à 22 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.",
+        "Emincez l’oignon. Épépinez et émincez le piment rouge. Coupez le poivron rouge et la tomate en petits morceaux.CONSEIL: Les pépins sont la partie la plus piquante du piment. Si vous aimez les plats bien relevés, vous pouvez évidemment les laisser. Si des enfants sont à table, vous pouvez enlever le piment.",
+        "Faites chauffer le beurre dans un wok ou une sauteuse et faites revenir l’oignon 2 minutes à feu moyen-doux. Ajoutez la viande hachée, le piment rouge, les herbes italiennes et les épices mexicaines, puis salez et poivrez. Faites cuire le hachis en l’émiettant 1 à 2 minutes à feu moyen-vif : il ne doit pas encore être cuit à ce stade.",
+        "Ajoutez la tomate, le poivron rouge, les haricots rouges (inutile d’égoutter) et le vinaigre balsamique noir au wok.Couvrez et laissez mijoter 10 à 12 minutes à feu moyen. Retirez le couvercle lors des 5 à 6 dernières minutes. Remuez régulièrement, puis salez et poivrez. ",
+        "Servez le riz dans les assiettes et disposez les poivrons verts farcis à côté. Remplissez ces derniers de chili. Garnissez avec le fromage blanc et le cheddar râpé."
     ]
 }

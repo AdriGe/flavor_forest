@@ -1,1005 +1,127 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RFR16631742-1",
-    "country": "FR",
-    "createdAt": "2020-05-14T08:29:58+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 1,
     "favoritesCount": 63,
     "headline": "sur pain naan avec de l'origan et de l'ail",
-    "id": "5ebd0185470e7a2f041a9036",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200422_R209_W23_FR_RFR16631742-1_MB_Main_low-5d6e8e12.jpg",
-    "imagePath": "/image/HF200422_R209_W23_FR_RFR16631742-1_MB_Main_low-5d6e8e12.jpg",
+    "name": "Pizza bianca aux champignons",
+    "prepTime": 25,
+    "totalTime": null,
+    "image_id": "5ebd0185470e7a2f041a9036",
+    "id": "53e01f15-a793-451f-bde6-0553b9fbe2b5",
+    "nutrition": {
+        "kcal": 849,
+        "fat": 35.73,
+        "saturated_fat": 21.46,
+        "carbohydrate": 79.91,
+        "sugars": 64.2,
+        "protein": 25.86,
+        "sodium": 1.02
+    },
+    "tags": [
+        "Quick & easy",
+        "Famille"
+    ],
+    "utensils": [
+        "Sauteuse",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf28b0da194777986184",
-            "uuid": "4328be73-b086-5d16-b287-33bce92c2fb4",
-            "name": "Champignons de Paris",
-            "type": "mushrooms",
-            "slug": "champignons-de-paris",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "imagePath": "/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "b2201e5a-2fc7-46ed-99e2-d0a9b3a80231"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bfdbb9d07cd5d38d7c1b",
-            "uuid": "b5f66b23-564d-51d2-850c-563706e5ddcd",
-            "name": "Pain naan",
-            "type": "naan-bread",
-            "slug": "pain-naan",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "imagePath": "/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "417be128-bf1e-4a0f-bf28-bad5e3783bf3",
+            "portion_id": "866f05cb-e663-4ee7-89aa-0fe61ea98590",
+            "image_id": "6405bfdbb9d07cd5d38d7c1b"
         },
         {
-            "id": "64073bb9683721c9a32b074d",
-            "uuid": "5de90937-71fc-56e4-bb84-8a3b80702c5d",
-            "name": "Mozzarella di Bufala",
-            "type": "buffalo-mozzarella",
-            "slug": "mozzarella-di-bufala",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c004b0da19477798646f-abbf8455.png",
-            "imagePath": "/ingredient/6405c004b0da19477798646f-abbf8455.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "boule(s)",
+            "ingredient_id": "2a57c506-9981-4c5d-8523-caa67a5ef3b4",
+            "portion_id": "b8cd8712-a480-46e6-aa9b-e2b6c716565f",
+            "image_id": "64073bb9683721c9a32b074d"
         },
         {
-            "id": "64073ba5df6297bb5beef0f3",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "1e8131fd-d846-473c-8276-ba8d0dc471e2"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.67,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "64073f65df6297bb5beef2d7",
-            "uuid": "cdc1924b-63de-4b66-b163-be71642d6119",
-            "name": "Mélange de jeunes pousses",
-            "type": "mesclun",
-            "slug": "melange-de-jeunes-pousses",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf60b9d07cd5d38d7a77-01be4609.png",
-            "imagePath": "/ingredient/6405bf60b9d07cd5d38d7a77-01be4609.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "5af387d8-663b-4e7c-a280-4f804e97e000"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121c81b4b295e66f0253",
-            "uuid": "891ef56a-66ac-4a4a-8005-f825cca67a5c",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cc",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "imagePath": "/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "cc",
+            "ingredient_id": "92a22779-f4ab-44d9-9776-9bcccb473587",
+            "portion_id": "fe1c23f7-a1fa-4309-acb7-1985201c4403",
+            "image_id": "63e5121c81b4b295e66f0253"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5121681b4b295e66f024f",
-            "uuid": "d756d72a-4b0b-4027-a059-d9c7955ee6b9",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-au-gout",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121681b4b295e66f024f-446afdd0.png",
-            "imagePath": "/ingredient/63e5121681b4b295e66f024f-446afdd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "8317a256-5927-4dca-aba9-76106640950d",
+            "portion_id": "2344b812-f639-478a-9cec-9ba683a22e97",
+            "image_id": "63e5121681b4b295e66f024f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "RAPIDO",
-        "handle": "rapid",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#2771E8",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/5ebd0185470e7a2f041a9036",
-    "name": "Pizza bianca aux champignons",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 849,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3554,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 35.73,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 21.46,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 79.91,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 64.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 25.86,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.02,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 91,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 816,
-    "slug": "pizza-bianca-aux-champignons",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 230 degrés. Taillez les champignons en tranches. Écrasez ou émincez l’ail. Émincez l'oignon. CONSEIL: CONSEIL : Pour nettoyer les champignons, privilégiez du papier absorbant ou une brosse dure plutôt que de les rincer à l'eau, qui risquerait de les rendre spongieux et fera perdre du goût.",
-            "instructionsHTML": "<p>Préchauffez le four à 230 degrés. <span>Taillez les champignons en tranches. </span><span>Écrasez ou émincez l’ail. Émincez l&#39;oignon. </span></p><p>CONSEIL: CONSEIL : Pour nettoyer les champignons, privilégiez du papier absorbant ou une brosse dure plutôt que de les rincer à l&#39;eau, qui risquerait de les rendre spongieux et fera perdre du goût.</p>",
-            "instructionsMarkdown": "<p>Préchauffez le four à 230 degrés. <span>Taillez les champignons en tranches. </span><span>Écrasez ou émincez l’ail. Émincez l&#39;oignon. </span></p><p>CONSEIL: CONSEIL : Pour nettoyer les champignons, privilégiez du papier absorbant ou une brosse dure plutôt que de les rincer à l&#39;eau, qui risquerait de les rendre spongieux et fera perdre du goût.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0185470e7a2f041a9036/step-d0402500.jpg",
-                    "path": "/5ebd0185470e7a2f041a9036/step-d0402500.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites fondre 1 cs de beurre par personne dans une sauteuse à feu moyen-vif. Ajoutez les champignons. Lorsqu'ils auront relâché leur eau, au bout de 5 minutes environ, ajoutez l'ail et l'oignon. Assaisonnez avec du sel et du poivre selon votre goût. Laissez cuire encore 2 à 3 minutes, ou jusqu'à ce que les champignons soient bien dorés.",
-            "instructionsHTML": "<p>Faites fondre 1 cs de beurre par personne dans une sauteuse à feu moyen-vif. Ajoutez les champignons. Lorsqu&#39;ils auront relâché leur eau, au bout de 5 minutes environ, ajoutez l&#39;ail et l&#39;oignon. Assaisonnez avec du sel et du poivre selon votre goût. Laissez cuire encore 2 à 3 minutes, ou jusqu&#39;à ce que les champignons soient bien dorés.</p>",
-            "instructionsMarkdown": "<p>Faites fondre 1 cs de beurre par personne dans une sauteuse à feu moyen-vif. Ajoutez les champignons. Lorsqu&#39;ils auront relâché leur eau, au bout de 5 minutes environ, ajoutez l&#39;ail et l&#39;oignon. Assaisonnez avec du sel et du poivre selon votre goût. Laissez cuire encore 2 à 3 minutes, ou jusqu&#39;à ce que les champignons soient bien dorés.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0185470e7a2f041a9036/step-19fbd810.jpg",
-                    "path": "/5ebd0185470e7a2f041a9036/step-19fbd810.jpg",
-                    "caption": "Faire revenir"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, déchirez la mozzarella à la main. Posez les pains naan sur une plaque de cuisson recouverte de papier sulfurisé. Badigeonner un peu d'huile d'olive sur chaque pain à l'aide d'un pinceau ou d'une cuillère ; cela permettra d'éviter que les pizzas ne se dessèchent au four. ",
-            "instructionsHTML": "<p>Pendant ce temps, d<span>échirez la mozzarella à la main. Posez</span> les pains naan sur une plaque de cuisson recouverte de papier sulfurisé. Badigeonner un peu d&#39;huile d&#39;olive sur chaque pain à l&#39;aide d&#39;un pinceau ou d&#39;une cuillère ; cela permettra d&#39;éviter que les pizzas ne se dessèchent au four. </p>",
-            "instructionsMarkdown": "<p>Pendant ce temps, d<span>échirez la mozzarella à la main. Posez</span> les pains naan sur une plaque de cuisson recouverte de papier sulfurisé. Badigeonner un peu d&#39;huile d&#39;olive sur chaque pain à l&#39;aide d&#39;un pinceau ou d&#39;une cuillère ; cela permettra d&#39;éviter que les pizzas ne se dessèchent au four. </p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0185470e7a2f041a9036/step-ab274020.jpg",
-                    "path": "/5ebd0185470e7a2f041a9036/step-ab274020.jpg",
-                    "caption": "Badigeonner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Disposez les morceaux de mozzarella sur les pains. Ajoutez le fromage râpé. Répartissez le mélange aux champignons par dessus. Saupoudrez d'origan. Enfournez 5 à 7 minutes ou jusqu'à ce que le fromage soit fondu et légèrement doré.",
-            "instructionsHTML": "<p>Disposez les morceaux de mozzarella sur les pains. Ajoutez le fromage râpé. Répartissez le mélange aux champignons par dessus. Saupoudrez d&#39;origan. Enfournez 5 à 7 minutes ou jusqu&#39;à ce que le fromage soit fondu et légèrement doré.</p>",
-            "instructionsMarkdown": "<p>Disposez les morceaux de mozzarella sur les pains. Ajoutez le fromage râpé. Répartissez le mélange aux champignons par dessus. Saupoudrez d&#39;origan. Enfournez 5 à 7 minutes ou jusqu&#39;à ce que le fromage soit fondu et légèrement doré.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0185470e7a2f041a9036/step-d5cb4b30.jpg",
-                    "path": "/5ebd0185470e7a2f041a9036/step-d5cb4b30.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, préparez la vinaigrette en mélangeant dans un saladier 1/2 cs d’huile d’olive vierge extra et 1/2 cc de vinaigre balsamique noir par personne. Salez et poivrez. Ajoutez la salade, puis remuez.",
-            "instructionsHTML": "<p>Pendant ce temps, préparez la vinaigrette en mélangeant dans un saladier 1/2 cs d’huile d’olive vierge extra et 1/2 cc de vinaigre balsamique noir par personne. Salez et poivrez. Ajoutez la salade, puis remuez.</p>",
-            "instructionsMarkdown": "<p>Pendant ce temps, préparez la vinaigrette en mélangeant dans un saladier 1/2 cs d’huile d’olive vierge extra et 1/2 cc de vinaigre balsamique noir par personne. Salez et poivrez. Ajoutez la salade, puis remuez.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0185470e7a2f041a9036/step-eda7b140.jpg",
-                    "path": "/5ebd0185470e7a2f041a9036/step-eda7b140.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez la salade dans les assiettes avec les pizzas.",
-            "instructionsHTML": "<p>Servez la salade dans les assiettes avec les pizzas.</p>",
-            "instructionsMarkdown": "<p>Servez la salade dans les assiettes avec les pizzas.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0185470e7a2f041a9036/step-78782c50.jpg",
-                    "path": "/5ebd0185470e7a2f041a9036/step-78782c50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b30530e",
-            "type": "under-30-minutes",
-            "name": "Quick & easy",
-            "slug": "quick-easy",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": "RFR16631742-1",
-    "updatedAt": "2023-10-13T10:42:07+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "2b1189be-b359-4752-87bc-c1c157eaeb64",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/pizza-bianca-aux-champignons-5ebd0185470e7a2f041a9036",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb9683721c9a32b074d",
-                    "amount": 0.5,
-                    "unit": "boule(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073f65df6297bb5beef2d7",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121681b4b295e66f024f",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb9683721c9a32b074d",
-                    "amount": 1,
-                    "unit": "boule(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073f65df6297bb5beef2d7",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 200,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121681b4b295e66f024f",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb9683721c9a32b074d",
-                    "amount": 1.5,
-                    "unit": "boule(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073f65df6297bb5beef2d7",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121681b4b295e66f024f",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb9683721c9a32b074d",
-                    "amount": 2,
-                    "unit": "boule(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073f65df6297bb5beef2d7",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": null,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121681b4b295e66f024f",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb9683721c9a32b074d",
-                    "amount": 2.5,
-                    "unit": "boule(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073f65df6297bb5beef2d7",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 203,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121681b4b295e66f024f",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bb9683721c9a32b074d",
-                    "amount": 3,
-                    "unit": "boule(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073f65df6297bb5beef2d7",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121681b4b295e66f024f",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 230 degrés. Taillez les champignons en tranches. Écrasez ou émincez l’ail. Émincez l'oignon. CONSEIL: CONSEIL : Pour nettoyer les champignons, privilégiez du papier absorbant ou une brosse dure plutôt que de les rincer à l'eau, qui risquerait de les rendre spongieux et fera perdre du goût.",
+        "Faites fondre 1 cs de beurre par personne dans une sauteuse à feu moyen-vif. Ajoutez les champignons. Lorsqu'ils auront relâché leur eau, au bout de 5 minutes environ, ajoutez l'ail et l'oignon. Assaisonnez avec du sel et du poivre selon votre goût. Laissez cuire encore 2 à 3 minutes, ou jusqu'à ce que les champignons soient bien dorés.",
+        "Pendant ce temps, déchirez la mozzarella à la main. Posez les pains naan sur une plaque de cuisson recouverte de papier sulfurisé. Badigeonner un peu d'huile d'olive sur chaque pain à l'aide d'un pinceau ou d'une cuillère ; cela permettra d'éviter que les pizzas ne se dessèchent au four. ",
+        "Disposez les morceaux de mozzarella sur les pains. Ajoutez le fromage râpé. Répartissez le mélange aux champignons par dessus. Saupoudrez d'origan. Enfournez 5 à 7 minutes ou jusqu'à ce que le fromage soit fondu et légèrement doré.",
+        "Pendant ce temps, préparez la vinaigrette en mélangeant dans un saladier 1/2 cs d’huile d’olive vierge extra et 1/2 cc de vinaigre balsamique noir par personne. Salez et poivrez. Ajoutez la salade, puis remuez.",
+        "Servez la salade dans les assiettes avec les pizzas."
     ]
 }

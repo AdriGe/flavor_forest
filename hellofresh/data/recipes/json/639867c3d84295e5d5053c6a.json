@@ -1,1048 +1,130 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804312-3",
-    "country": "FR",
-    "createdAt": "2022-12-13T11:53:41+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bd",
-            "type": "british",
-            "name": "British",
-            "slug": "british",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bd-8abb14dd.jpg"
-        }
+        "British"
     ],
     "description": "Connaissez-vous le « Shepherd’s pie » ou encore le « Cottage pie » ? Il s’agit d’un gratin d’origine britannique, constitué d’une base de viande avec une croûte de purée de pommes de terre, que l’on pourrait comparer à notre hachis parmentier français ! Nous vous en proposons une version très gourmande avec du bœuf haché, de la courge et du fromage râpé. Une recette qui devrait plaire à toute la famille !",
-    "descriptionHTML": "<p>Connaissez-vous le « Shepherd’s pie » ou encore le « Cottage pie » ?  Il s’agit d’un gratin d’origine britannique, constitué d’une base de viande avec une croûte de purée de pommes de terre, que l’on pourrait comparer à notre hachis parmentier français ! Nous vous en proposons une version très gourmande avec du bœuf haché, de la courge et du fromage râpé. Une recette qui devrait plaire à toute la famille !</p>",
-    "descriptionMarkdown": "Connaissez-vous le « Shepherd’s pie » ou encore le « Cottage pie » ?  Il s’agit d’un gratin d’origine britannique, constitué d’une base de viande avec une croûte de purée de pommes de terre, que l’on pourrait comparer à notre hachis parmentier français ! Nous vous en proposons une version très gourmande avec du bœuf haché, de la courge et du fromage râpé. Une recette qui devrait plaire à toute la famille !",
     "difficulty": 2,
     "favoritesCount": 455,
     "headline": "avec une salade",
-    "id": "639867c3d84295e5d5053c6a",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220909_R206_W43_FR_RFR29804312-1_MB_Main_low-3aafb564.jpg",
-    "imagePath": "/image/HF220909_R206_W43_FR_RFR29804312-1_MB_Main_low-3aafb564.jpg",
+    "name": "Hachis parmentier de bœuf & potimarron",
+    "prepTime": 45,
+    "totalTime": 25,
+    "image_id": "639867c3d84295e5d5053c6a",
+    "id": "59ab1d8b-e5a5-4549-84ee-e3374c740904",
+    "nutrition": {
+        "kcal": 751,
+        "fat": 43.6,
+        "saturated_fat": 19.3,
+        "carbohydrate": 57.7,
+        "sugars": 14.5,
+        "protein": 34.9,
+        "sodium": 1.86
+    },
+    "tags": [
+        "Famille"
+    ],
+    "utensils": [
+        "Éplucheur",
+        "Casserole",
+        "Presse-purée",
+        "Poêle",
+        "Plat à four",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "64073c269c6d10cd16eab69e",
-            "uuid": "3836ec93-3eb9-5700-9090-37bd78abe785",
-            "name": "Potimarron",
-            "type": "hokkaido-pumpkin",
-            "slug": "potimarron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1ab0da194777986149-ec727b95.png",
-            "imagePath": "/ingredient/6405bf1ab0da194777986149-ec727b95.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 300,
+            "unit": "g",
+            "ingredient_id": "ff39c13c-5903-4e28-8606-0bf5e97556cb"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf22b0da194777986166",
-            "uuid": "d67e98f2-2774-5b94-b51a-359ed028712e",
-            "name": "Pommes de terre",
-            "type": "potato",
-            "slug": "pommes-de-terre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "imagePath": "/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "e96c155b-870a-4201-9e2f-ed3c064850d3"
         },
         {
-            "id": "6405bfdbb0da1947779863df",
-            "uuid": "a0a27456-c913-541e-9124-9265f732cca7",
-            "name": "Sauge",
-            "type": "sage",
-            "slug": "sauge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdbb0da1947779863df-235295a4.png",
-            "imagePath": "/ingredient/6405bfdbb0da1947779863df-235295a4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "849283af-3f35-4321-9444-0309d347bea1",
+            "portion_id": "d7703c1e-c292-4d91-934d-b713503458db",
+            "image_id": "6405bfdbb0da1947779863df"
         },
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": null,
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bf7ab0da194777986298",
-            "uuid": "f74bf95c-c227-4920-9fcb-4e1d6a2feb1b",
-            "name": "Gouda vieux râpé",
-            "type": "grated-aged-gouda-cheese",
-            "slug": "gouda-vieux-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf7ab0da194777986298-19beaf35.png",
-            "imagePath": "/ingredient/6405bf7ab0da194777986298-19beaf35.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "35d26086-18dc-40dc-ae28-19e4bfc4a19f"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/639867c3d84295e5d5053c6a",
-    "name": "Hachis parmentier de bœuf & potimarron",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 751,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3141,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 43.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 19.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 57.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 14.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 34.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.86,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 1719,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 614,
-    "slug": "hachis-parmentier-de-boeuf-and-potimarron",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C en mode grill.Épluchez le potimarron (comptez-en environ ¼ par personne, pas plus !) avec un couteau aiguisé ou un éplucheur. Évidez-le puis coupez-le en petits morceaux.Ciselez l'oignon et l'ail.Épluchez et coupez 200 g de pommes de terre par personne en petits dés (voir CONSEIL).Effeuillez et ciselez la sauge.CONSEIL: Ne cuisez pas toutes les pommes de terre, sinon le ratio purée/viande sera déséquilibré. Conservez le reste pour faire une soupe.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 220°C en mode grill.</li><li><span>É</span><span>pluchez le potimarron (comptez-en environ </span><span>¼</span><span> par personne, pas plus !) avec un couteau aiguisé ou un éplucheur. </span><span>É</span><span>videz-le puis coupez-le en petits morceaux.</span></li><li><span>Ciselez l&#39;oignon et l&#39;ail.</span></li><li><span>É</span>pluchez et coupez 200 g de pommes de terre par personne en petits dés (voir CONSEIL).</li><li>Effeuillez et ciselez la sauge.</li></ul><p>CONSEIL: Ne cuisez pas toutes les pommes de terre, sinon le ratio purée/viande sera déséquilibré. Conservez le reste pour faire une soupe.</p>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 220°C en mode grill.</li><li><span>É</span><span>pluchez le potimarron (comptez-en environ </span><span>¼</span><span> par personne, pas plus !) avec un couteau aiguisé ou un éplucheur. </span><span>É</span><span>videz-le puis coupez-le en petits morceaux.</span></li><li><span>Ciselez l&#39;oignon et l&#39;ail.</span></li><li><span>É</span>pluchez et coupez 200 g de pommes de terre par personne en petits dés (voir CONSEIL).</li><li>Effeuillez et ciselez la sauge.</li></ul><p>CONSEIL: Ne cuisez pas toutes les pommes de terre, sinon le ratio purée/viande sera déséquilibré. Conservez le reste pour faire une soupe.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/639867c3d84295e5d5053c6a/step-9a632c00.jpg",
-                    "path": "/639867c3d84295e5d5053c6a/step-9a632c00.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Placez les pommes de terre, la sauge et le potimarron dans une casserole. Couvrez d'eau à hauteur, salez, puis faites-les cuire 15-17 min, ou jusqu'à ce que la pointe d'un couteau y rentre facilement. Conservez un peu d'eau de cuisson, puis égouttez-les. Réduisez le tout en purée avec un presse-purée. Ajoutez le beurre, salez et poivrez (selon votre goût). Mélangez bien.CONSEIL: Ajoutez un filet de lait ou d'eau de cuisson si votre purée est trop épaisse.",
-            "instructionsHTML": "<ul><li>Placez les pommes de terre, la sauge et le potimarron dans une casserole. Couvrez d&#39;eau à hauteur, salez, puis fa<span>ites-les cuire 15-17 min, ou jusqu&#39;à ce que la pointe d&#39;un couteau y rentre facilement. </span></li><li><span>Conservez un peu d&#39;eau de cuisson, puis égouttez-les. Réduisez le tout en purée avec un presse-purée. </span></li><li><span>Ajoutez le beurre, salez et poivrez (selon votre goût). Mélangez bien.</span></li></ul><p>CONSEIL: Ajoutez un filet de lait ou d&#39;eau de cuisson si votre purée est trop épaisse.</p>",
-            "instructionsMarkdown": "<ul><li>Placez les pommes de terre, la sauge et le potimarron dans une casserole. Couvrez d&#39;eau à hauteur, salez, puis fa<span>ites-les cuire 15-17 min, ou jusqu&#39;à ce que la pointe d&#39;un couteau y rentre facilement. </span></li><li><span>Conservez un peu d&#39;eau de cuisson, puis égouttez-les. Réduisez le tout en purée avec un presse-purée. </span></li><li><span>Ajoutez le beurre, salez et poivrez (selon votre goût). Mélangez bien.</span></li></ul><p>CONSEIL: Ajoutez un filet de lait ou d&#39;eau de cuisson si votre purée est trop épaisse.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375",
-                "57e2674fb7e8697d4b305393"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/639867c3d84295e5d5053c6a/step-303c1010.jpg",
-                    "path": "/639867c3d84295e5d5053c6a/step-303c1010.jpg",
-                    "caption": "Faire la purée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, faites chauffer un filet d'huile d'olive dans une poêle à feu moyen-vif. Faites-y revenir l'oignon 1-2 min. Ajoutez ensuite la viande hachée, le concentré de tomates, le sucre et l'ail. Faites revenir le tout 3-4 min, ou jusqu'à ce que la viande soit dorée. Salez, poivrez, puis déglacez avec 1-2 cs d'eau par personne.",
-            "instructionsHTML": "<ul><li><span>Pendant ce temps, faites chauffer un filet d&#39;huile d&#39;olive dans une poêle à feu moyen-vif. </span>Faites-y revenir l&#39;oignon 1-2 min. </li><li>Ajoutez ensuite la viande hachée, le concentré de tomates, le sucre et l&#39;ail. Faites revenir le tout 3-4 min, ou jusqu&#39;à ce que la viande soit dorée. </li><li>Salez, poivrez, puis déglacez avec 1-2 cs d&#39;eau par personne.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Pendant ce temps, faites chauffer un filet d&#39;huile d&#39;olive dans une poêle à feu moyen-vif. </span>Faites-y revenir l&#39;oignon 1-2 min. </li><li>Ajoutez ensuite la viande hachée, le concentré de tomates, le sucre et l&#39;ail. Faites revenir le tout 3-4 min, ou jusqu&#39;à ce que la viande soit dorée. </li><li>Salez, poivrez, puis déglacez avec 1-2 cs d&#39;eau par personne.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/639867c3d84295e5d5053c6a/step-25210120.jpg",
-                    "path": "/639867c3d84295e5d5053c6a/step-25210120.jpg",
-                    "caption": "Cuire la garniture"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Répartissez la farce au bœuf dans un plat à four.Étalez la purée au potimarron par-dessus et saupoudrez de gouda râpé.Enfournez 8-10 min dans la partie supérieure du four, ou jusqu'à ce que le fromage soit gratiné.",
-            "instructionsHTML": "<ul><li>Répartissez la farce au b<span>œ</span>uf dans un plat à four.</li><li><span>É</span>talez la purée au potimarron par-dessus et saupoudrez de gouda râpé.</li><li>Enfournez 8-10 min dans la partie supérieure du four, ou jusqu&#39;à ce que le fromage soit gratiné.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Répartissez la farce au b<span>œ</span>uf dans un plat à four.</li><li><span>É</span>talez la purée au potimarron par-dessus et saupoudrez de gouda râpé.</li><li>Enfournez 8-10 min dans la partie supérieure du four, ou jusqu&#39;à ce que le fromage soit gratiné.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/639867c3d84295e5d5053c6a/step-af4f1630.jpg",
-                    "path": "/639867c3d84295e5d5053c6a/step-af4f1630.jpg",
-                    "caption": "Enfourner le hachis"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Dans un saladier, faites une vinaigrette en mélangeant un filet de vinaigre de vin rouge et d'huile d’olive. Salez et poivrez.Juste avant de servir, ajoutez la salade et mélangez.",
-            "instructionsHTML": "<ul><li><span>Dans un saladier, faites une vinaigrette en mélangeant un filet de vinaigre de vin rouge et d&#39;huile d’olive. Salez et poivrez.</span></li><li><span>Juste avant de servir, ajoutez la salade et mélangez.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Dans un saladier, faites une vinaigrette en mélangeant un filet de vinaigre de vin rouge et d&#39;huile d’olive. Salez et poivrez.</span></li><li><span>Juste avant de servir, ajoutez la salade et mélangez.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/639867c3d84295e5d5053c6a/step-f29ca240.jpg",
-                    "path": "/639867c3d84295e5d5053c6a/step-f29ca240.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le gratin dans les assiettes. Accompagnez-le de la salade.",
-            "instructionsHTML": "<ul><li>Servez le gratin dans les assiettes. </li><li>Accompagnez-le de la salade.</li></ul><p><br></p>",
-            "instructionsMarkdown": "<ul><li>Servez le gratin dans les assiettes. </li><li>Accompagnez-le de la salade.</li></ul><p><br></p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/639867c3d84295e5d5053c6a/step-ba457c50.jpg",
-                    "path": "/639867c3d84295e5d5053c6a/step-ba457c50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29804312-3",
-    "updatedAt": "2024-01-08T19:06:21+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305393",
-            "type": "potato-masher",
-            "name": "Presse-purée"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "dcd7ed31-8bc1-4220-8dfd-84fe35602b00",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/hachis-parmentier-de-boeuf-and-potimarron-639867c3d84295e5d5053c6a",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "64073c269c6d10cd16eab69e",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.25,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf7ab0da194777986298",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "64073c269c6d10cd16eab69e",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.5,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf7ab0da194777986298",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "64073c269c6d10cd16eab69e",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.75,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf7ab0da194777986298",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "64073c269c6d10cd16eab69e",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf7ab0da194777986298",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "64073c269c6d10cd16eab69e",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.25,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf7ab0da194777986298",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "64073c269c6d10cd16eab69e",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.5,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf7ab0da194777986298",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C en mode grill.Épluchez le potimarron (comptez-en environ ¼ par personne, pas plus !) avec un couteau aiguisé ou un éplucheur. Évidez-le puis coupez-le en petits morceaux.Ciselez l'oignon et l'ail.Épluchez et coupez 200 g de pommes de terre par personne en petits dés (voir CONSEIL).Effeuillez et ciselez la sauge.CONSEIL: Ne cuisez pas toutes les pommes de terre, sinon le ratio purée/viande sera déséquilibré. Conservez le reste pour faire une soupe.",
+        "Placez les pommes de terre, la sauge et le potimarron dans une casserole. Couvrez d'eau à hauteur, salez, puis faites-les cuire 15-17 min, ou jusqu'à ce que la pointe d'un couteau y rentre facilement. Conservez un peu d'eau de cuisson, puis égouttez-les. Réduisez le tout en purée avec un presse-purée. Ajoutez le beurre, salez et poivrez (selon votre goût). Mélangez bien.CONSEIL: Ajoutez un filet de lait ou d'eau de cuisson si votre purée est trop épaisse.",
+        "Pendant ce temps, faites chauffer un filet d'huile d'olive dans une poêle à feu moyen-vif. Faites-y revenir l'oignon 1-2 min. Ajoutez ensuite la viande hachée, le concentré de tomates, le sucre et l'ail. Faites revenir le tout 3-4 min, ou jusqu'à ce que la viande soit dorée. Salez, poivrez, puis déglacez avec 1-2 cs d'eau par personne.",
+        "Répartissez la farce au bœuf dans un plat à four.Étalez la purée au potimarron par-dessus et saupoudrez de gouda râpé.Enfournez 8-10 min dans la partie supérieure du four, ou jusqu'à ce que le fromage soit gratiné.",
+        "Dans un saladier, faites une vinaigrette en mélangeant un filet de vinaigre de vin rouge et d'huile d’olive. Salez et poivrez.Juste avant de servir, ajoutez la salade et mélangez.",
+        "Servez le gratin dans les assiettes. Accompagnez-le de la salade."
     ]
 }

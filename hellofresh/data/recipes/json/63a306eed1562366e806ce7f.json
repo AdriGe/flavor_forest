@@ -1,1140 +1,141 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804293-3",
-    "country": "FR",
-    "createdAt": "2022-12-21T13:15:27+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b9",
-            "type": "middleeastern",
-            "name": "Middle Eastern",
-            "slug": "middle-eastern",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b9-28649f9a.jpg"
-        }
+        "Middle Eastern"
     ],
     "description": "Laissez-vous tenter par cette salade composée de lentilles, butternut, grenade, feta et herbes fraîches. Conseil de chef : pour réussir la cuisson des lentilles, il est conseillé de ne pas rajouter de sel dans l’eau. Le sel rendrait en effet la peau de vos légumineuses trop ferme et risquerait de rallonger le temps de cuisson. Le fromage utilisé dans ce plat contient de la présure animale.",
-    "descriptionHTML": "<p>Laissez-vous tenter par cette salade composée de lentilles, butternut, grenade, feta et herbes fraîches. Conseil de chef : pour réussir la cuisson des lentilles, il est conseillé de ne pas rajouter de sel dans l’eau. Le sel rendrait en effet la peau de vos légumineuses trop ferme et risquerait de rallonger le temps de cuisson. Le fromage utilisé dans ce plat contient de la présure animale.</p>",
-    "descriptionMarkdown": "Laissez-vous tenter par cette salade composée de lentilles, butternut, grenade, feta et herbes fraîches. Conseil de chef : pour réussir la cuisson des lentilles, il est conseillé de ne pas rajouter de sel dans l’eau. Le sel rendrait en effet la peau de vos légumineuses trop ferme et risquerait de rallonger le temps de cuisson. Le fromage utilisé dans ce plat contient de la présure animale.",
     "difficulty": 2,
     "favoritesCount": 143,
     "headline": "avec de la feta, menthe & coriandre",
-    "id": "63a306eed1562366e806ce7f",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R210_W04_FR_RFR29804293-3_Main_high-51f8b4db.jpg",
-    "imagePath": "/image/HF_Y23_R210_W04_FR_RFR29804293-3_Main_high-51f8b4db.jpg",
+    "name": "Salade de lentilles, butternut & grenade",
+    "prepTime": 40,
+    "totalTime": 25,
+    "image_id": "63a306eed1562366e806ce7f",
+    "id": "ca7389a8-9e8c-428e-9d2d-253da0d1670e",
+    "nutrition": {
+        "kcal": 656,
+        "fat": 31.4,
+        "saturated_fat": 11.9,
+        "carbohydrate": 68.4,
+        "sugars": 18.1,
+        "protein": 26.5,
+        "sodium": 3.63
+    },
+    "tags": [
+        "Végétarien",
+        "<650 Kcal",
+        "Moins de CO2",
+        "Chef's Choice"
+    ],
+    "utensils": [
+        "Passoire",
+        "Casserole",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Éplucheur",
+        "Petit bol"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405c000b9d07cd5d38d7c99",
-            "uuid": "4c53bdb2-57d1-583a-9825-4958209b4e9a",
-            "name": "Lentilles vertes",
-            "type": "green-lentils",
-            "slug": "lentilles-vertes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000b9d07cd5d38d7c99-1f09a6f5.png",
-            "imagePath": "/ingredient/6405c000b9d07cd5d38d7c99-1f09a6f5.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "fb2bc2ac-f59a-4439-9578-5b6d014a5629"
         },
         {
-            "id": "64073ba9683721c9a32b0738",
-            "uuid": "5ccca295-8a97-50fe-ac29-753af6df7e36",
-            "name": "Courge butternut",
-            "type": "butternut-squash",
-            "slug": "courge-butternut",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf25af4af6d531d50a75-c176cc9c.png",
-            "imagePath": "/ingredient/6405bf25af4af6d531d50a75-c176cc9c.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 395,
+            "unit": "g",
+            "ingredient_id": "b5e2e44d-cc55-4dd0-90e8-484525fbc8cb"
         },
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bf48b0da1947779861eb",
-            "uuid": "82d73ebf-2771-40d6-9997-5b8df0d6009a",
-            "name": "Mélange d'épices africaines",
-            "type": "african-spice-mix",
-            "slug": "melange-depices-africaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf48b0da1947779861eb-a2b62154.png",
-            "imagePath": "/ingredient/6405bf48b0da1947779861eb-a2b62154.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "6571a8b3-e6a9-472b-8728-80a42e8bbd34",
+            "portion_id": "c8ea88c4-fa04-47f5-a968-478d655cca04",
+            "image_id": "6405bf48b0da1947779861eb"
         },
         {
-            "id": "6405bf7ab0da19477798629a",
-            "uuid": "2fde0a63-4d6c-5515-8225-f87f9b1770bb",
-            "name": "Grenade",
-            "type": "pomegranate",
-            "slug": "grenade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf7ab0da19477798629a-4d3ce2f9.png",
-            "imagePath": "/ingredient/6405bf7ab0da19477798629a-4d3ce2f9.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "3f8c1122-10ed-4dff-90c2-cbf20899c124",
+            "portion_id": "eda456c7-efd6-46cb-b04d-503fcc204e33",
+            "image_id": "6405bf7ab0da19477798629a"
         },
         {
-            "id": "6405bf45b9d07cd5d38d7a09",
-            "uuid": "0f605141-ed72-413a-85df-1506b56efe73",
-            "name": "Coriandre et menthe",
-            "type": "fresh-coriander-and-mint",
-            "slug": "coriandre-et-menthe",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf45b9d07cd5d38d7a09-b3ddbb03.png",
-            "imagePath": "/ingredient/6405bf45b9d07cd5d38d7a09-b3ddbb03.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "fa6fb7bc-a2cb-4717-baf6-242f088017ba"
         },
         {
-            "id": "64073ba79c6d10cd16eab61a",
-            "uuid": "b1c9793a-0cbe-5d9a-a748-d1657c7f5dd2",
-            "name": "Feta",
-            "type": "feta-cheese",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "imagePath": "/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "1ebb2ad3-510c-46f9-b2af-bc490d857206"
         },
         {
-            "id": "6405bfd8b0da1947779863d9",
-            "uuid": "7a108e48-7055-504e-be58-b2df98b60529",
-            "name": "Noix de cajou concassées",
-            "type": "cashew-nuts",
-            "slug": "noix-de-cajou-concassees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd8b0da1947779863d9-df300d9e.png",
-            "imagePath": "/ingredient/6405bfd8b0da1947779863d9-df300d9e.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "6cd82a36-5957-4efe-8989-efffbd49743d"
         },
         {
-            "id": "63e5122081b4b295e66f0256",
-            "uuid": "0ee900c4-2e9a-437c-84b4-76826b234637",
-            "name": "Cube de bouillon de légumes",
-            "type": "cube-de-bouillon-de-legumes-pc",
-            "slug": "cube-de-bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "imagePath": "/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "3aafe58c-08ac-4852-a295-c8d535703ed9",
+            "portion_id": "b0e9b65b-a307-4d4a-ba3f-9cbbfa505df6",
+            "image_id": "63e5122081b4b295e66f0256"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123381b4b295e66f0260",
-            "uuid": "06cc03c2-cb53-410a-b25b-6f183a4ccaf0",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cs",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "imagePath": "/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "6b8a7ee4-2b73-44f4-94c2-74027993111c",
+            "portion_id": "7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0",
+            "image_id": "63e5123381b4b295e66f0260"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5122fbc1d64f7b96e270d",
-            "uuid": "d7163bce-490a-4de3-949e-e8c7ffde4c40",
-            "name": "Miel",
-            "type": "miel-cc",
-            "slug": "miel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122fbc1d64f7b96e270d-90fca0fe.png",
-            "imagePath": "/ingredient/63e5122fbc1d64f7b96e270d-90fca0fe.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "9c141b09-8579-40b2-8721-eaa348f7cbb5",
+            "portion_id": "99a0ede9-f22a-49e5-ba41-3fefe8088132",
+            "image_id": "63e5122fbc1d64f7b96e270d"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/63a306eed1562366e806ce7f",
-    "name": "Salade de lentilles, butternut & grenade",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 656,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2743,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 31.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 11.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 68.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 18.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 26.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.63,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 216,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 452,
-    "slug": "salade-de-lentilles-butternut-and-grenade",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! Préchauffez le four à 210°C (190°C chaleur tournante). Écrasez l’ail avec le plat d'un couteau et retirez-en la peau. Placez-le dans une casserole avec les lentilles et le cube de bouillon et couvrez-les avec 3 fois leur volume en eau. Portez à ébullition et laissez mijoter à feu moyen-doux 20-30 min, ou jusqu’à ce que les lentilles soient tendres (voir CONSEIL).CONSEIL: Surveillez la cuisson des lentilles et arrêtez-la selon votre préférence : al dente, tendre, ou entre les deux !",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></li><li><span>Préchauffez le four à 210°C (190°C chaleur tournante). </span></li><li>É<span>crasez l’ail avec le plat d&#39;un couteau et retirez-en la peau. </span></li><li><span>Placez-le dans une casserole avec les lentilles et le cube de bouillon et couvrez-les avec 3 fois leur volume en eau. </span></li><li><span>Portez à ébullition et laissez mijoter à feu moyen-doux 20-30 min, ou jusqu’à ce que les lentilles soient tendres (voir CONSEIL).</span></li></ul><p>CONSEIL: Surveillez la cuisson des lentilles et arrêtez-la selon votre préférence : al dente, tendre, ou entre les deux !</p>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></li><li><span>Préchauffez le four à 210°C (190°C chaleur tournante). </span></li><li>É<span>crasez l’ail avec le plat d&#39;un couteau et retirez-en la peau. </span></li><li><span>Placez-le dans une casserole avec les lentilles et le cube de bouillon et couvrez-les avec 3 fois leur volume en eau. </span></li><li><span>Portez à ébullition et laissez mijoter à feu moyen-doux 20-30 min, ou jusqu’à ce que les lentilles soient tendres (voir CONSEIL).</span></li></ul><p>CONSEIL: Surveillez la cuisson des lentilles et arrêtez-la selon votre préférence : al dente, tendre, ou entre les deux !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382",
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63a306eed1562366e806ce7f/step-59d68500.jpg",
-                    "path": "/63a306eed1562366e806ce7f/step-59d68500.jpg",
-                    "caption": "Cuire les lentilles"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Égouttez les lentilles, retirez l’ail et laissez-les refroidir dans la casserole.Pendant ce temps, coupez le butternut en deux et pelez-en 200 g par personne avec un couteau aiguisé ou un éplucheur. Évidez-le et coupez-le en dés de 1 cm, puis placez-les sur une plaque recouverte de papier sulfurisé. Coupez l'oignon en 6 et ajoutez-le sur la plaque.",
-            "instructionsHTML": "<ul><li>Égouttez les lentilles, retirez l’ail et laissez-les refroidir dans la casserole.</li><li><span>Pendant ce temps, coupez le butternut en deux et p</span><span>elez-en 200 g par personne avec un couteau aiguisé ou un éplucheur. Évidez-le et coupez-le en dés de 1 cm, puis </span><span>placez-les sur une plaque recouverte de papier sulfurisé. </span></li><li><span>Coupez l&#39;oignon en 6 et ajoutez-le sur la plaque.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Égouttez les lentilles, retirez l’ail et laissez-les refroidir dans la casserole.</li><li><span>Pendant ce temps, coupez le butternut en deux et p</span><span>elez-en 200 g par personne avec un couteau aiguisé ou un éplucheur. Évidez-le et coupez-le en dés de 1 cm, puis </span><span>placez-les sur une plaque recouverte de papier sulfurisé. </span></li><li><span>Coupez l&#39;oignon en 6 et ajoutez-le sur la plaque.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522",
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63a306eed1562366e806ce7f/step-9875f110.jpg",
-                    "path": "/63a306eed1562366e806ce7f/step-9875f110.jpg",
-                    "caption": "Couper les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Arrosez d'huile d'olive et saupoudrez avec une pincée d’épices africaines, de sel et de poivre. Mélangez bien.Enfournez le tout 30 min, ou jusqu’à ce que les légumes soient tendres et légèrement dorés. Remuez à mi-cuisson.",
-            "instructionsHTML": "<ul><li><span>Arrosez d&#39;huile d&#39;olive et saupoudrez avec une pincée d’épices africaines, de sel et de poivre. Mélangez bien.</span></li><li><span>Enfournez le tout 30 min, ou jusqu’à ce que les légumes soient tendres et légèrement dorés. Remuez à mi-cuisson.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Arrosez d&#39;huile d&#39;olive et saupoudrez avec une pincée d’épices africaines, de sel et de poivre. Mélangez bien.</span></li><li><span>Enfournez le tout 30 min, ou jusqu’à ce que les légumes soient tendres et légèrement dorés. Remuez à mi-cuisson.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63a306eed1562366e806ce7f/step-e3762420.jpg",
-                    "path": "/63a306eed1562366e806ce7f/step-e3762420.jpg",
-                    "caption": "Enfourner les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Coupez la grenade en 2, puis en 4 et retirez-en les graines (faites-le au-dessus d'un évier pour ne pas vous tacher). Prélevez une vingtaine de graines par personne (vous pourrez en rajouter par la suite). Ciselez la coriandre et la menthe.",
-            "instructionsHTML": "<ul><li><span>Coupez la grenade en 2, puis en 4 et retirez-en les graines (faites-le au-dessus d&#39;un évier pour ne pas vous tacher). Prélevez une vingtaine de graines par personne (vous pourrez en rajouter par la suite). </span></li><li><span>Ciselez la coriandre et la menthe.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Coupez la grenade en 2, puis en 4 et retirez-en les graines (faites-le au-dessus d&#39;un évier pour ne pas vous tacher). Prélevez une vingtaine de graines par personne (vous pourrez en rajouter par la suite). </span></li><li><span>Ciselez la coriandre et la menthe.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63a306eed1562366e806ce7f/step-53103730.jpg",
-                    "path": "/63a306eed1562366e806ce7f/step-53103730.jpg",
-                    "caption": "Couper les garnitures"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Dans un petit bol, mélangez un filet de vinaigre de vin et d'huile d'olive avec, par personne : ½ cc de moutarde, 1 cc de miel, et 1 cc d'épices africaines.Mélangez bien, puis salez et poivrez (selon votre goût).",
-            "instructionsHTML": "<ul><li>Dans un petit bol, mélangez un filet de vinaigre de vin et d&#39;huile d&#39;olive avec, par personne : <span>½</span> cc de moutarde, 1 cc de miel, et 1 cc d&#39;épices africaines.</li><li>Mélangez bien, puis salez et poivrez (selon votre goût).</li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans un petit bol, mélangez un filet de vinaigre de vin et d&#39;huile d&#39;olive avec, par personne : <span>½</span> cc de moutarde, 1 cc de miel, et 1 cc d&#39;épices africaines.</li><li>Mélangez bien, puis salez et poivrez (selon votre goût).</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63a306eed1562366e806ce7f/step-4d080a40.jpg",
-                    "path": "/63a306eed1562366e806ce7f/step-4d080a40.jpg",
-                    "caption": "Faire la vinaigrette"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Mélangez les légumes rôtis avec les lentilles et assaisonnez l'ensemble avec la vinaigrette.Servez la salade dans les assiettes. Émiettez la feta par-dessus. Saupoudrez d’herbes ciselées, de noix de cajou et de graines de grenade. ",
-            "instructionsHTML": "<ul><li>Mélangez les légumes rôtis avec les lentilles et assaisonnez l&#39;ensemble avec la vinaigrette.</li><li><span>Servez la salade dans les assiettes. </span><span>É</span><span>miettez la feta par-dessus. </span></li><li><span>Saupoudrez d’herbes ciselées, de noix de cajou et de graines de grenade. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Mélangez les légumes rôtis avec les lentilles et assaisonnez l&#39;ensemble avec la vinaigrette.</li><li><span>Servez la salade dans les assiettes. </span><span>É</span><span>miettez la feta par-dessus. </span></li><li><span>Saupoudrez d’herbes ciselées, de noix de cajou et de graines de grenade. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63a306eed1562366e806ce7f/step-89071d50.jpg",
-                    "path": "/63a306eed1562366e806ce7f/step-89071d50.jpg",
-                    "caption": "Finir et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62388d0e819bac74ed3067cd",
-            "type": "classic",
-            "name": "Chef's Choice",
-            "slug": "chefs-choice",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": false
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29804293-3",
-    "updatedAt": "2023-11-22T13:32:11+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        }
-    ],
-    "uuid": "15650c38-9a2a-4eb0-a8b9-553c05e3aa6c",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/salade-de-lentilles-butternut-and-grenade-63a306eed1562366e806ce7f",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba9683721c9a32b0738",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b0da1947779861eb",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf45b9d07cd5d38d7a09",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba9683721c9a32b0738",
-                    "amount": 395,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b0da1947779861eb",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf45b9d07cd5d38d7a09",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba9683721c9a32b0738",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b0da1947779861eb",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf45b9d07cd5d38d7a09",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba9683721c9a32b0738",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b0da1947779861eb",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf45b9d07cd5d38d7a09",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba9683721c9a32b0738",
-                    "amount": 995,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b0da1947779861eb",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf45b9d07cd5d38d7a09",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba9683721c9a32b0738",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b0da1947779861eb",
-                    "amount": 4,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf45b9d07cd5d38d7a09",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! Préchauffez le four à 210°C (190°C chaleur tournante). Écrasez l’ail avec le plat d'un couteau et retirez-en la peau. Placez-le dans une casserole avec les lentilles et le cube de bouillon et couvrez-les avec 3 fois leur volume en eau. Portez à ébullition et laissez mijoter à feu moyen-doux 20-30 min, ou jusqu’à ce que les lentilles soient tendres (voir CONSEIL).CONSEIL: Surveillez la cuisson des lentilles et arrêtez-la selon votre préférence : al dente, tendre, ou entre les deux !",
+        "Égouttez les lentilles, retirez l’ail et laissez-les refroidir dans la casserole.Pendant ce temps, coupez le butternut en deux et pelez-en 200 g par personne avec un couteau aiguisé ou un éplucheur. Évidez-le et coupez-le en dés de 1 cm, puis placez-les sur une plaque recouverte de papier sulfurisé. Coupez l'oignon en 6 et ajoutez-le sur la plaque.",
+        "Arrosez d'huile d'olive et saupoudrez avec une pincée d’épices africaines, de sel et de poivre. Mélangez bien.Enfournez le tout 30 min, ou jusqu’à ce que les légumes soient tendres et légèrement dorés. Remuez à mi-cuisson.",
+        "Coupez la grenade en 2, puis en 4 et retirez-en les graines (faites-le au-dessus d'un évier pour ne pas vous tacher). Prélevez une vingtaine de graines par personne (vous pourrez en rajouter par la suite). Ciselez la coriandre et la menthe.",
+        "Dans un petit bol, mélangez un filet de vinaigre de vin et d'huile d'olive avec, par personne : ½ cc de moutarde, 1 cc de miel, et 1 cc d'épices africaines.Mélangez bien, puis salez et poivrez (selon votre goût).",
+        "Mélangez les légumes rôtis avec les lentilles et assaisonnez l'ensemble avec la vinaigrette.Servez la salade dans les assiettes. Émiettez la feta par-dessus. Saupoudrez d’herbes ciselées, de noix de cajou et de graines de grenade. "
     ]
 }

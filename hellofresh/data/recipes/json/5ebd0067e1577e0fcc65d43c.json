@@ -1,928 +1,120 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.2,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RFR16631726-1",
-    "country": "FR",
-    "createdAt": "2020-05-14T08:25:12+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 125,
     "headline": "garnie de feta et de thym",
-    "id": "5ebd0067e1577e0fcc65d43c",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200422_R208_W23_FR_RFR16631726-1_MB_Main_low-f7a67d0a.jpg",
-    "imagePath": "/image/HF200422_R208_W23_FR_RFR16631726-1_MB_Main_low-f7a67d0a.jpg",
+    "name": "Frittata aux légumes du soleil",
+    "prepTime": 50,
+    "totalTime": 15,
+    "image_id": "5ebd0067e1577e0fcc65d43c",
+    "id": "d498e476-78be-4eca-b7b2-9eb53cfe2ada",
+    "nutrition": {
+        "kcal": 350,
+        "fat": 24.33,
+        "saturated_fat": 10.43,
+        "carbohydrate": 16.63,
+        "sugars": 15.18,
+        "protein": 12.59,
+        "sodium": 1.17
+    },
+    "tags": [
+        "Végétarien",
+        "Famille"
+    ],
+    "utensils": [
+        "Sauteuse",
+        "Saladier",
+        "Plat à four"
+    ],
     "ingredients": [
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bf2caf4af6d531d50a9c",
-            "uuid": "7c3fcc0d-d339-508a-96e6-082699b85d49",
-            "name": "Poivron jaune",
-            "type": "yellow-bell-pepper",
-            "slug": "poivron-jaune",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf2caf4af6d531d50a9c-dfb88145.png",
-            "imagePath": "/ingredient/6405bf2caf4af6d531d50a9c-dfb88145.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "38eeda8d-892e-4eeb-aaf1-a1b0b3ee3b69",
+            "portion_id": "76e4f5c4-bb8b-4eb7-9239-99af5cecc157",
+            "image_id": "6405bf2caf4af6d531d50a9c"
         },
         {
-            "id": "6405bf8bb9d07cd5d38d7b0c",
-            "uuid": "08fdabb8-8ea0-53a6-9f44-85127ada6c27",
-            "name": "Courgette",
-            "type": "zucchini",
-            "slug": "courgette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "imagePath": "/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.67,
+            "unit": "pièce(s)",
+            "ingredient_id": "e32aa012-a822-4ee2-b710-904dd001de92",
+            "portion_id": "c10ecad4-abae-4fff-a410-4bbcabbc1abd",
+            "image_id": "6405bf8bb9d07cd5d38d7b0c"
         },
         {
-            "id": "6405bfafaf4af6d531d50c89",
-            "uuid": "3f9af0e1-e8a1-4d23-a34f-5c5ffb8d20db",
-            "name": "Œuf de poule élevée en plein air",
-            "type": "free-range-egg",
-            "slug": "oeuf-de-poule-elevee-en-plein-air",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfafaf4af6d531d50c89-c42acd57.png",
-            "imagePath": "/ingredient/6405bfafaf4af6d531d50c89-c42acd57.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "4dade0ee-5e3c-488e-a20b-d764d2f2b6d1",
+            "portion_id": "a0c365a6-1eb0-4c12-96d3-b53f374279c2",
+            "image_id": "6405bfafaf4af6d531d50c89"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bf48b9d07cd5d38d7a14",
-            "uuid": "cf5787dc-613d-510e-988e-2a2d5c1e2fe9",
-            "name": "Thym séché",
-            "type": "dried-thyme",
-            "slug": "thym-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "imagePath": "/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.67,
+            "unit": "sachet(s)",
+            "ingredient_id": "2c3977d4-a9c0-44d5-9edc-db5856a2c6bd",
+            "portion_id": "53b48a62-b026-4d46-8b15-5b913151a9d3",
+            "image_id": "6405bf48b9d07cd5d38d7a14"
         },
         {
-            "id": "6405bfc1b0da19477798638c",
-            "uuid": "1900d2d4-2bd6-5097-a7bb-a815555b5b14",
-            "name": "Crème liquide",
-            "type": "cooking-cream",
-            "slug": "creme-liquide",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "imagePath": "/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "1b7371ba-3a94-4a04-a1ab-f38b6ccbd569"
         },
         {
-            "id": "64073ba79c6d10cd16eab61a",
-            "uuid": "b1c9793a-0cbe-5d9a-a748-d1657c7f5dd2",
-            "name": "Feta",
-            "type": "feta-cheese",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "imagePath": "/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "1ebb2ad3-510c-46f9-b2af-bc490d857206"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5ebd0067e1577e0fcc65d43c",
-    "name": "Frittata aux légumes du soleil",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 350,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1464,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 24.33,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.43,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 16.63,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 15.18,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 12.59,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.17,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 75,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 413,
-    "slug": "frittata-aux-legumes-du-soleil",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200 degrés et graissez le plat à four avec un peu d'huile d'olive à l'aide d'un pinceau ou d'un essuie-tout. Émincez l'oignon en rondelles. Coupez la courgette et les poivrons jaunes en petits dés. Réservez quelques rondelles d'oignon pour la garniture.",
-            "instructionsHTML": "<p>Préchauffez le four à 200 degrés et graissez le plat à four avec un peu d&#39;huile d&#39;olive à l&#39;aide d&#39;un pinceau ou d&#39;un essuie-tout. Émincez l&#39;oignon en rondelles. Coupez la courgette et les poivrons jaunes en petits dés. Réservez quelques rondelles d&#39;oignon pour la garniture.</p>",
-            "instructionsMarkdown": "<p>Préchauffez le four à 200 degrés et graissez le plat à four avec un peu d&#39;huile d&#39;olive à l&#39;aide d&#39;un pinceau ou d&#39;un essuie-tout. Émincez l&#39;oignon en rondelles. Coupez la courgette et les poivrons jaunes en petits dés. Réservez quelques rondelles d&#39;oignon pour la garniture.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0067e1577e0fcc65d43c/step-b11d3200.jpg",
-                    "path": "/5ebd0067e1577e0fcc65d43c/step-b11d3200.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer 1 cs d'huile d'olive par personne dans une sauteuse à feu moyen-vif. Faites revenir l'oignon, la courgette et les poivrons 5 à 8 minutes ou jusqu'à ce que les légumes soient tendres. Remuez de temps en temps. Retirez la sauteuse du feu et laissez refroidir légèrement.",
-            "instructionsHTML": "<p>Faites chauffer 1 cs d&#39;huile d&#39;olive par personne dans une sauteuse à feu moyen-vif. Faites revenir l&#39;oignon, la courgette et les poivrons 5 à 8 minutes ou jusqu&#39;à ce que les légumes soient tendres. Remuez de temps en temps. Retirez la sauteuse du feu et laissez refroidir légèrement.</p>",
-            "instructionsMarkdown": "<p>Faites chauffer 1 cs d&#39;huile d&#39;olive par personne dans une sauteuse à feu moyen-vif. Faites revenir l&#39;oignon, la courgette et les poivrons 5 à 8 minutes ou jusqu&#39;à ce que les légumes soient tendres. Remuez de temps en temps. Retirez la sauteuse du feu et laissez refroidir légèrement.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0067e1577e0fcc65d43c/step-14677f10.jpg",
-                    "path": "/5ebd0067e1577e0fcc65d43c/step-14677f10.jpg",
-                    "caption": "Cuire les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans un saladier, mélangez les œufs, la crème liquide et le thym séché avec une pincée de noix de muscade par personne. Salez et poivrez.",
-            "instructionsHTML": "<p>Dans un saladier, mélangez les œufs, la crème liquide et le thym séché avec une pincée de noix de muscade par personne. Salez et poivrez.</p>",
-            "instructionsMarkdown": "<p>Dans un saladier, mélangez les œufs, la crème liquide et le thym séché avec une pincée de noix de muscade par personne. Salez et poivrez.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0067e1577e0fcc65d43c/step-8b57b020.jpg",
-                    "path": "/5ebd0067e1577e0fcc65d43c/step-8b57b020.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Ajoutez les légumes au contenu du saladier et mélangez le tout. Versez le mélange dans le plat à four. Émiettez la feta par dessus et posez délicatement quelques rondelles d'oignon sur la surface pour décorer. Enfourner 30 à 35 minutes ou jusqu'à ce que la surface soit bien dorée.",
-            "instructionsHTML": "<p>Ajoutez les légumes au contenu du saladier et mélangez le tout. Versez le mélange dans le plat à four. Émiettez la feta par dessus et posez délicatement quelques rondelles d&#39;oignon sur la surface pour décorer. Enfourner 30 à 35 minutes ou jusqu&#39;à ce que la surface soit bien dorée.</p>",
-            "instructionsMarkdown": "<p>Ajoutez les légumes au contenu du saladier et mélangez le tout. Versez le mélange dans le plat à four. Émiettez la feta par dessus et posez délicatement quelques rondelles d&#39;oignon sur la surface pour décorer. Enfourner 30 à 35 minutes ou jusqu&#39;à ce que la surface soit bien dorée.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0067e1577e0fcc65d43c/step-b862c330.jpg",
-                    "path": "/5ebd0067e1577e0fcc65d43c/step-b862c330.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Juste avant de servir, préparez dans un autre saladier la vinaigrette en mélangeant 1 cc d'huile d'olive vierge extra et 1 cc de vinaigre balsamique noir par personne, ajoutez la mâche et la roquette, puis remuez. Salez et poivrez. ",
-            "instructionsHTML": "<p>Juste avant de servir, préparez dans un autre saladier la vinaigrette en mélangeant 1 cc d&#39;huile d&#39;olive vierge extra et 1 cc de vinaigre balsamique noir par personne, ajoutez la mâche et la roquette, puis remuez. Salez et poivrez. </p>",
-            "instructionsMarkdown": "<p>Juste avant de servir, préparez dans un autre saladier la vinaigrette en mélangeant 1 cc d&#39;huile d&#39;olive vierge extra et 1 cc de vinaigre balsamique noir par personne, ajoutez la mâche et la roquette, puis remuez. Salez et poivrez. </p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0067e1577e0fcc65d43c/step-56677540.jpg",
-                    "path": "/5ebd0067e1577e0fcc65d43c/step-56677540.jpg",
-                    "caption": "Préparer la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez la frittata coupée en tranches épaisses avec la salade.",
-            "instructionsHTML": "<p>Servez la frittata coupée en tranches épaisses avec la salade.</p>",
-            "instructionsMarkdown": "<p>Servez la frittata coupée en tranches épaisses avec la salade.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ebd0067e1577e0fcc65d43c/step-b4a8e150.jpg",
-                    "path": "/5ebd0067e1577e0fcc65d43c/step-b4a8e150.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "RFR16631726-1",
-    "updatedAt": "2023-10-13T10:40:03+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        }
-    ],
-    "uuid": "d5dcb52b-ec28-4ad6-86bb-24105b56eb65",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/frittata-aux-legumes-du-soleil-5ebd0067e1577e0fcc65d43c",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 5,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.67,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 5,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 5,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1.67,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200 degrés et graissez le plat à four avec un peu d'huile d'olive à l'aide d'un pinceau ou d'un essuie-tout. Émincez l'oignon en rondelles. Coupez la courgette et les poivrons jaunes en petits dés. Réservez quelques rondelles d'oignon pour la garniture.",
+        "Faites chauffer 1 cs d'huile d'olive par personne dans une sauteuse à feu moyen-vif. Faites revenir l'oignon, la courgette et les poivrons 5 à 8 minutes ou jusqu'à ce que les légumes soient tendres. Remuez de temps en temps. Retirez la sauteuse du feu et laissez refroidir légèrement.",
+        "Dans un saladier, mélangez les œufs, la crème liquide et le thym séché avec une pincée de noix de muscade par personne. Salez et poivrez.",
+        "Ajoutez les légumes au contenu du saladier et mélangez le tout. Versez le mélange dans le plat à four. Émiettez la feta par dessus et posez délicatement quelques rondelles d'oignon sur la surface pour décorer. Enfourner 30 à 35 minutes ou jusqu'à ce que la surface soit bien dorée.",
+        "Juste avant de servir, préparez dans un autre saladier la vinaigrette en mélangeant 1 cc d'huile d'olive vierge extra et 1 cc de vinaigre balsamique noir par personne, ajoutez la mâche et la roquette, puis remuez. Salez et poivrez. ",
+        "Servez la frittata coupée en tranches épaisses avec la salade."
     ]
 }

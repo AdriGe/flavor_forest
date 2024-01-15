@@ -1,777 +1,101 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3.3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "QFR16681729-1",
-    "country": "FR",
-    "createdAt": "2020-07-23T09:58:57+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a5",
-            "type": "asian",
-            "name": "Asiatique",
-            "slug": "asian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a5-0483bf75.jpg"
-        }
+        "Asiatique"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 1,
     "favoritesCount": 399,
     "headline": "relevées au piment rouge et assaisonnées de sauce soja",
-    "id": "5f195f6067aacd26fe692088",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF190318_R11_W17_NL_Q0021_low-87a72c88.jpg",
-    "imagePath": "/image/HF190318_R11_W17_NL_Q0021_low-87a72c88.jpg",
+    "name": "Nouilles sautées au poulet & légumes asiatiques",
+    "prepTime": 20,
+    "totalTime": 20,
+    "image_id": "5f195f6067aacd26fe692088",
+    "id": "d18875c9-bc20-453e-ac1a-30ab407ac2b1",
+    "nutrition": {
+        "kcal": 92,
+        "fat": 9.05,
+        "saturated_fat": 1.05,
+        "carbohydrate": 2.28,
+        "sugars": 0.28,
+        "protein": 0.38,
+        "sodium": 0
+    },
+    "tags": [
+        "À faire rapidement",
+        "Quick & easy"
+    ],
+    "utensils": [
+        "Casserole",
+        "Wok ou sauteuse avec couvercle",
+        "Passoire",
+        "Casserole avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acd",
-            "uuid": "230d08ff-162f-5b15-bf19-bbf3ef5e6210",
-            "name": "Gingembre frais",
-            "type": "ginger",
-            "slug": "gingembre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "cm",
+            "ingredient_id": "cce6636d-af2c-4a6d-9463-243866e1abc7",
+            "portion_id": "4f76cd6c-50a4-4899-a67b-51c2b6791808",
+            "image_id": "6405bf3aaf4af6d531d50acd"
         },
         {
-            "id": "6405bfc7af4af6d531d50cda",
-            "uuid": "4c668d5f-24c9-4c33-96ff-80536d73c126",
-            "name": "Cuisse de poulet en dés",
-            "type": "chicken-thigh-diced",
-            "slug": "cuisse-de-poulet-en-des",
-            "country": "FR",
-            "imageLink": null,
-            "imagePath": null,
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "c3b53f5a-d486-4cbf-9bf2-74e98066d5c5"
         },
         {
-            "id": "6405bf20b9d07cd5d38d7982",
-            "uuid": "8ae4ccae-e354-44dc-9945-9ed97df1799f",
-            "name": "Mélange de légumes à l'orientale",
-            "type": "oriental-vegetable-mix",
-            "slug": "melange-de-legumes-a-lorientale",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20b9d07cd5d38d7982-2b6dfe2d.png",
-            "imagePath": "/ingredient/6405bf20b9d07cd5d38d7982-2b6dfe2d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "dff25959-ca4d-43eb-8f1b-43231d119979"
         },
         {
-            "id": "6405bf8aaf4af6d531d50bfe",
-            "uuid": "0eae0198-9f27-5e24-97d4-45b44e38d5dd",
-            "name": "Sauce soja",
-            "type": "soy-sauce",
-            "slug": "sauce-soja",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8aaf4af6d531d50bfe-5aee21eb.png",
-            "imagePath": "/ingredient/6405bf8aaf4af6d531d50bfe-5aee21eb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "ml",
+            "ingredient_id": "a7225935-e019-4cfd-8aa4-203486161fe1"
         },
         {
-            "id": "6405bf50b0da19477798620a",
-            "uuid": "591979d9-9611-50eb-954d-2f630a05bfab",
-            "name": "Nouilles de blé",
-            "type": "noodles",
-            "slug": "nouilles-de-ble",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf50b0da19477798620a-376c85ae.png",
-            "imagePath": "/ingredient/6405bf50b0da19477798620a-376c85ae.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "27a8edc1-7c93-4e96-a8b1-03fa5ef62193"
         },
         {
-            "id": "6405bf6bb9d07cd5d38d7a9f",
-            "uuid": "ff44829a-7745-4d95-93ae-b5c26d2633fb",
-            "name": "Nouilles de blé",
-            "type": "mie-noodles",
-            "slug": "nouilles-de-ble",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf6bb9d07cd5d38d7a9f-bd1ef5c0.png",
-            "imagePath": "/ingredient/6405bf6bb9d07cd5d38d7a9f-bd1ef5c0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "g",
+            "ingredient_id": "0fff1fa9-ddfe-424b-a9a5-8f0c45b426db"
         },
         {
-            "id": "63e5120f81b4b295e66f024c",
-            "uuid": "b4e35b51-11dd-40c7-ad89-298e1a7e2589",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cs",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "imagePath": "/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "a06e5c2f-acd2-4770-8fac-0bdb4343cae2",
+            "portion_id": "4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad",
+            "image_id": "63e5120f81b4b295e66f024c"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5f195f6067aacd26fe692088",
-    "name": "Nouilles sautées au poulet & légumes asiatiques",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 92,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 384,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 9.05,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 1.05,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 2.28,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 0.28,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 0.38,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT20M",
-    "promotion": null,
-    "ratingsCount": 114,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 22,
-    "slug": "nouilles-sautees-au-poulet-and-legumes-asiatiques",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Portez une grande quantité d’eau à ébullition pour les nouilles dans une casserole. Épépinez et émincez le piment rouge.Pressez ou émincez l’ail.Râpez finement le gingembre (si vous le souhaitez avec la peau).",
-            "instructionsHTML": "<ul><li>Portez une grande quantité d’eau à ébullition p<span>our les nouilles dans une casserole. </span></li><li>Épépinez et émincez le piment rouge.</li><li>Pressez ou émincez l’ail.</li><li>Râpez finement le gingembre (si vous le souhaitez avec la peau).</li></ul>",
-            "instructionsMarkdown": "<ul><li>Portez une grande quantité d’eau à ébullition p<span>our les nouilles dans une casserole. </span></li><li>Épépinez et émincez le piment rouge.</li><li>Pressez ou émincez l’ail.</li><li>Râpez finement le gingembre (si vous le souhaitez avec la peau).</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f195f6067aacd26fe692088/step-5b48a600.jpg",
-                    "path": "/5f195f6067aacd26fe692088/step-5b48a600.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer l’huile de tournesol dans un wok ou une sauteuse avec couvercle et faites revenir le poulet 2 à 3 minutes à feu moyen-vif.Ajoutez le piment rouge, l’ail, le gingembre et le mélange de légumes.Ajoutez les 2/3 de la sauce soja, puis poursuivez la cuisson 5 à 7 minutes à couvert. Salez et poivrez.CONSEIL: Si vous aimez les plats relevés, ajoutez 1 cc de sauce piquante (comme de la harissa) par personne au wok en même temps que le mélange de légumes.",
-            "instructionsHTML": "<ul><li>Faites chauffer l’huile de tournesol dans un wok ou une sauteuse avec couvercle et faites revenir le poulet 2 à 3 minutes à feu moyen-vif.</li><li>Ajoutez le piment rouge, l’ail, le gingembre et le mélange de légumes.</li><li>Ajoutez les 2/3 de la sauce soja, puis poursuivez la cuisson 5 à 7 minutes à couvert. Salez et poivrez.</li></ul><p>CONSEIL: Si vous aimez les plats relevés, ajoutez 1 cc de sauce piquante (comme de la harissa) par personne au wok en même temps que le mélange de légumes.</p>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer l’huile de tournesol dans un wok ou une sauteuse avec couvercle et faites revenir le poulet 2 à 3 minutes à feu moyen-vif.</li><li>Ajoutez le piment rouge, l’ail, le gingembre et le mélange de légumes.</li><li>Ajoutez les 2/3 de la sauce soja, puis poursuivez la cuisson 5 à 7 minutes à couvert. Salez et poivrez.</li></ul><p>CONSEIL: Si vous aimez les plats relevés, ajoutez 1 cc de sauce piquante (comme de la harissa) par personne au wok en même temps que le mélange de légumes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f195f6067aacd26fe692088/step-c069d910.jpg",
-                    "path": "/5f195f6067aacd26fe692088/step-c069d910.jpg",
-                    "caption": "Cuire le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, ajoutez les nouilles à la casserole et faites-les cuire à couvert 3 à 4 minutes à feu moyen-vif. Égouttez-les, puis rincez-les à l'eau froide pour éviter qu'elles collent entre elles.Ajoutez les nouilles au wok et faites-les sauter 1 minute à feu vif avec les légumes.CONSEIL: LE SAVIEZ -VOUS ? Vous recevez plus de nouilles que nécessaire. Si vous les utilisez toutes, la saveur du plat sera un peu plus fade en raison du changement de proportion.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, ajoutez les nouilles à la casserole et faites-les cuire à couvert 3 à 4 minutes à feu moyen-vif. </li><li>Égouttez-les, puis rincez-les à l&#39;eau froide pour éviter qu&#39;elles collent entre elles.</li><li>Ajoutez les nouilles au wok et faites-les sauter 1 minute à feu vif avec les légumes.</li></ul><p>CONSEIL: LE SAVIEZ -VOUS ? Vous recevez plus de nouilles que nécessaire. Si vous les utilisez toutes, la saveur du plat sera un peu plus fade en raison du changement de proportion.</p>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, ajoutez les nouilles à la casserole et faites-les cuire à couvert 3 à 4 minutes à feu moyen-vif. </li><li>Égouttez-les, puis rincez-les à l&#39;eau froide pour éviter qu&#39;elles collent entre elles.</li><li>Ajoutez les nouilles au wok et faites-les sauter 1 minute à feu vif avec les légumes.</li></ul><p>CONSEIL: LE SAVIEZ -VOUS ? Vous recevez plus de nouilles que nécessaire. Si vous les utilisez toutes, la saveur du plat sera un peu plus fade en raison du changement de proportion.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f195f6067aacd26fe692088/step-ffafa920.jpg",
-                    "path": "/5f195f6067aacd26fe692088/step-ffafa920.jpg",
-                    "caption": "Cuire les nouilles"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Servez les nouilles dans des assiettes creuses ou des bols.Arrosez avec le reste de sauce soja selon votre goût. ",
-            "instructionsHTML": "<ul><li>Servez les nouilles dans des assiettes creuses ou des bols.</li><li>Arrosez avec le reste de sauce soja selon votre goût. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez les nouilles dans des assiettes creuses ou des bols.</li><li>Arrosez avec le reste de sauce soja selon votre goût. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f195f6067aacd26fe692088/step-1bbc7930.jpg",
-                    "path": "/5f195f6067aacd26fe692088/step-1bbc7930.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b30530e",
-            "type": "under-30-minutes",
-            "name": "Quick & easy",
-            "slug": "quick-easy",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR16681729-1",
-    "updatedAt": "2023-12-18T15:38:20+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff53b",
-            "type": null,
-            "name": "Wok ou sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        }
-    ],
-    "uuid": "b1a51e3b-c1c4-4876-a899-be36891e5668",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/nouilles-sautees-au-poulet-and-legumes-asiatiques-5f195f6067aacd26fe692088",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 1.25,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfc7af4af6d531d50cda",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf20b9d07cd5d38d7982",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 10,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf50b0da19477798620a",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6bb9d07cd5d38d7a9f",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 2.5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfc7af4af6d531d50cda",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf20b9d07cd5d38d7982",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 20,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf50b0da19477798620a",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6bb9d07cd5d38d7a9f",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 3.75,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfc7af4af6d531d50cda",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf20b9d07cd5d38d7982",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 30,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf50b0da19477798620a",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6bb9d07cd5d38d7a9f",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfc7af4af6d531d50cda",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf20b9d07cd5d38d7982",
-                    "amount": 700,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 40,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf50b0da19477798620a",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6bb9d07cd5d38d7a9f",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 6.25,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfc7af4af6d531d50cda",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf20b9d07cd5d38d7982",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 50,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf50b0da19477798620a",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6bb9d07cd5d38d7a9f",
-                    "amount": null,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 7.5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bfc7af4af6d531d50cda",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf20b9d07cd5d38d7982",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 60,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf50b0da19477798620a",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf6bb9d07cd5d38d7a9f",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Portez une grande quantité d’eau à ébullition pour les nouilles dans une casserole. Épépinez et émincez le piment rouge.Pressez ou émincez l’ail.Râpez finement le gingembre (si vous le souhaitez avec la peau).",
+        "Faites chauffer l’huile de tournesol dans un wok ou une sauteuse avec couvercle et faites revenir le poulet 2 à 3 minutes à feu moyen-vif.Ajoutez le piment rouge, l’ail, le gingembre et le mélange de légumes.Ajoutez les 2/3 de la sauce soja, puis poursuivez la cuisson 5 à 7 minutes à couvert. Salez et poivrez.CONSEIL: Si vous aimez les plats relevés, ajoutez 1 cc de sauce piquante (comme de la harissa) par personne au wok en même temps que le mélange de légumes.",
+        "Pendant ce temps, ajoutez les nouilles à la casserole et faites-les cuire à couvert 3 à 4 minutes à feu moyen-vif. Égouttez-les, puis rincez-les à l'eau froide pour éviter qu'elles collent entre elles.Ajoutez les nouilles au wok et faites-les sauter 1 minute à feu vif avec les légumes.CONSEIL: LE SAVIEZ -VOUS ? Vous recevez plus de nouilles que nécessaire. Si vous les utilisez toutes, la saveur du plat sera un peu plus fade en raison du changement de proportion.",
+        "Servez les nouilles dans des assiettes creuses ou des bols.Arrosez avec le reste de sauce soja selon votre goût. "
     ]
 }

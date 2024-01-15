@@ -1,965 +1,121 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804063-1",
-    "country": "FR",
-    "createdAt": "2022-11-22T16:04:22+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b5",
-            "type": "german",
-            "name": "German",
-            "slug": "german",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b5-91d543c1.jpg"
-        }
+        "German"
     ],
     "description": "Cap sur l’Allemagne aujourd’hui avec cette recette de Bratkartoffeln. Késako ? Des pommes de terre sautées à l’allemande bien sûr ! Elles sont revenues à la poêle avec des lardons fumés et de l’oignon fondant. Accompagnées d’une grande salade de carotte et pommes tranchées, on vous laisse profiter !",
-    "descriptionHTML": "<p>Cap sur l’Allemagne aujourd’hui avec cette recette de Bratkartoffeln. Késako ? Des pommes de terre sautées à l’allemande bien sûr ! Elles sont revenues à la poêle avec des lardons fumés et de l’oignon fondant. Accompagnées d’une grande salade de carotte et pommes tranchées, on vous laisse profiter !</p>",
-    "descriptionMarkdown": "Cap sur l’Allemagne aujourd’hui avec cette recette de Bratkartoffeln. Késako ? Des pommes de terre sautées à l’allemande bien sûr ! Elles sont revenues à la poêle avec des lardons fumés et de l’oignon fondant. Accompagnées d’une grande salade de carotte et pommes tranchées, on vous laisse profiter !",
     "difficulty": 2,
     "favoritesCount": 140,
     "headline": "avec une salade de chou-carotte",
-    "id": "637cf304e3302d3c39080cb5",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF221103_R217_W51_FR_RFR29804063-1_KB_Main_3_low-1acc3716.jpg",
-    "imagePath": "/image/HF221103_R217_W51_FR_RFR29804063-1_KB_Main_3_low-1acc3716.jpg",
+    "name": "Bratkartoffeln : pommes sautées aux lardons",
+    "prepTime": 50,
+    "totalTime": 15,
+    "image_id": "637cf304e3302d3c39080cb5",
+    "id": "4ccd0c8c-cc37-4e58-9379-9875d3a42ee6",
+    "nutrition": {
+        "kcal": 899,
+        "fat": 46.05,
+        "saturated_fat": 10.7,
+        "carbohydrate": 88.19,
+        "sugars": 18.36,
+        "protein": 27.8,
+        "sodium": 2.5
+    },
+    "tags": [
+        "Famille",
+        "Peu de cuisine"
+    ],
+    "utensils": [
+        "Essuie-tout",
+        "Sauteuse avec couvercle",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf9eaf4af6d531d50c49",
-            "uuid": "f2c1fd2c-09eb-5225-8e69-6070ed268f60",
-            "name": "Grenailles rouges",
-            "type": "red-potato",
-            "slug": "grenailles-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "imagePath": "/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 750,
+            "unit": "g",
+            "ingredient_id": "f26d87de-b670-4e79-89ae-5609f60a16a8"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf20af4af6d531d50a61",
-            "uuid": "cd41d645-9674-434e-b1cf-fe77522604cd",
-            "name": "Lardons fumés",
-            "type": "cubed-bacon",
-            "slug": "lardons-fumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "imagePath": "/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "378fd004-6e40-46bc-ba38-fd40e9d5a5e8"
         },
         {
-            "id": "6405bf35b9d07cd5d38d79d1",
-            "uuid": "e2769482-364e-53c8-97cc-79b0d2b33e8a",
-            "name": "Pomme",
-            "type": "apple",
-            "slug": "pomme",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35b9d07cd5d38d79d1-b9cc89f2.png",
-            "imagePath": "/ingredient/6405bf35b9d07cd5d38d79d1-b9cc89f2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "20b12871-770d-41cc-849d-6072ef92399a",
+            "portion_id": "1b65be96-76a1-4679-a72e-d716f00cdbf7",
+            "image_id": "6405bf35b9d07cd5d38d79d1"
         },
         {
-            "id": "6405bf95b0da1947779862f8",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf49b0da1947779861ed",
-            "uuid": "2a494820-4f19-55ca-afd5-2ee2cae8a240",
-            "name": "Mélange de carotte, chou rouge et blanc",
-            "type": "mix-of-carrots-and-cabbage",
-            "slug": "melange-de-carotte-chou-rouge-et-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf49b0da1947779861ed-822248dc.png",
-            "imagePath": "/ingredient/6405bf49b0da1947779861ed-822248dc.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf43b0da1947779861da",
-            "uuid": "7bd888d7-a12a-4156-b0bb-bf8d7a4d806f",
-            "name": "Noix concassées",
-            "type": "walnuts-pieces",
-            "slug": "noix-concassees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "imagePath": "/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5120f81b4b295e66f024c",
-            "uuid": "b4e35b51-11dd-40c7-ad89-298e1a7e2589",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cs",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "imagePath": "/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        }
-    ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/637cf304e3302d3c39080cb5",
-    "name": "Bratkartoffeln : pommes sautées aux lardons",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 899,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3760,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 46.05,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 88.19,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 18.36,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 27.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
             "amount": 2.5,
-            "unit": "g"
+            "unit": "g",
+            "ingredient_id": "4e0da705-5d5e-4e70-a595-83e43cce7d2e"
+        },
+        {
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "636dd1a2-94b8-4d4c-a6fa-d35707be3a22"
+        },
+        {
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
+        },
+        {
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "a73fa724-5d5b-4c90-99e5-5d9b95e9bd88"
+        },
+        {
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "a06e5c2f-acd2-4770-8fac-0bdb4343cae2",
+            "portion_id": "4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad",
+            "image_id": "63e5120f81b4b295e66f024c"
+        },
+        {
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
+        },
+        {
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
+        },
+        {
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
+        },
+        {
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 238,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 714,
-    "slug": "bratkartoffeln-pommes-sautees-aux-lardons",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Lavez ou épluchez les pommes de terre. Coupez-les en rondelles de 3 mm d'épaisseur (voir CONSEIL). Rincez-les, puis essuyez-les dans un torchon propre. Coupez l’oignon en très fines demi-lunes.CONSEIL: La découpe fine des pommes de terre est un élément important de la recette : de celle-ci dépend la maîtrise de la cuisson.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span>Lavez ou épluchez les pommes de terre. Coupez-les en rondelles de 3 mm d&#39;épaisseur (voir CONSEIL). </span></li><li><span>Rincez-les, puis essuyez-les dans un torchon propre.</span> </li><li>Coupez l’oignon en très fines demi-lunes.</li></ul><p>CONSEIL: La découpe fine des pommes de terre est un élément important de la recette : de celle-ci dépend la maîtrise de la cuisson.</p>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span>Lavez ou épluchez les pommes de terre. Coupez-les en rondelles de 3 mm d&#39;épaisseur (voir CONSEIL). </span></li><li><span>Rincez-les, puis essuyez-les dans un torchon propre.</span> </li><li>Coupez l’oignon en très fines demi-lunes.</li></ul><p>CONSEIL: La découpe fine des pommes de terre est un élément important de la recette : de celle-ci dépend la maîtrise de la cuisson.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637cf304e3302d3c39080cb5/step-22aa3c00.jpg",
-                    "path": "/637cf304e3302d3c39080cb5/step-22aa3c00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer une grande sauteuse à sec, à feu moyen-vif (voir CONSEIL).Faites-y revenir les lardons 2-3 min.CONSEIL: Utilisez deux sauteuses si vous êtes plus de 2 à table car les pommes de terre prendront beaucoup de place.",
-            "instructionsHTML": "<ul><li><span>Faites chauffer une grande sauteuse à sec, à feu moyen-vif (voir CONSEIL).</span></li><li><span>Faites-y revenir les lardons 2-3 min.</span></li></ul><p>CONSEIL: Utilisez deux sauteuses si vous êtes plus de 2 à table car les pommes de terre prendront beaucoup de place.</p>",
-            "instructionsMarkdown": "<ul><li><span>Faites chauffer une grande sauteuse à sec, à feu moyen-vif (voir CONSEIL).</span></li><li><span>Faites-y revenir les lardons 2-3 min.</span></li></ul><p>CONSEIL: Utilisez deux sauteuses si vous êtes plus de 2 à table car les pommes de terre prendront beaucoup de place.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637cf304e3302d3c39080cb5/step-e7fdf810.jpg",
-                    "path": "/637cf304e3302d3c39080cb5/step-e7fdf810.jpg",
-                    "caption": "Dorer les lardons"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Ajoutez un filet d'huile de tournesol ainsi que les pommes de terre à la sauteuse. Salez légèrement et poivrez. Faites-les revenir 10 min à feu moyen-vif, en remuant souvent. Ajoutez l'oignon et faites revenir le tout 10 min de plus.Baissez le feu sur moyen-doux, couvrez et laissez cuire encore 10-15 min, ou jusqu'à ce que les pommes de terre soient dorées et fondantes.",
-            "instructionsHTML": "<ul><li><span>Ajoutez un filet d&#39;huile de tournesol ainsi que les pommes de terre à la sauteuse. Salez légèrement et poivrez. </span></li><li><span>Faites-les revenir 10 min à feu moyen-vif, en remuant souvent. </span></li><li><span>Ajoutez l&#39;oignon et faites revenir le tout 10 min de plus.</span></li><li><span>Baissez le feu sur moyen-doux, couvrez et laissez cuire encore 10-15 min, ou jusqu&#39;à ce que les pommes de terre soient dorées et fondantes.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Ajoutez un filet d&#39;huile de tournesol ainsi que les pommes de terre à la sauteuse. Salez légèrement et poivrez. </span></li><li><span>Faites-les revenir 10 min à feu moyen-vif, en remuant souvent. </span></li><li><span>Ajoutez l&#39;oignon et faites revenir le tout 10 min de plus.</span></li><li><span>Baissez le feu sur moyen-doux, couvrez et laissez cuire encore 10-15 min, ou jusqu&#39;à ce que les pommes de terre soient dorées et fondantes.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637cf304e3302d3c39080cb5/step-67e79620.jpg",
-                    "path": "/637cf304e3302d3c39080cb5/step-67e79620.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Coupez la pomme en deux, ôtez le trognon puis coupez-la en tranches. Effeuillez et ciselez le persil. Dans un saladier, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d’huile d’olive et le vinaigre de vin rouge. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Coupez la pomme en deux, ôtez le trognon puis coupez-la en tranches.<span> </span></li><li><span>Effeuillez et ciselez le persil. </span></li><li><span>Dans un saladier, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d’huile d’olive et le vinaigre de vin rouge. Salez et poivrez.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez la pomme en deux, ôtez le trognon puis coupez-la en tranches.<span> </span></li><li><span>Effeuillez et ciselez le persil. </span></li><li><span>Dans un saladier, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d’huile d’olive et le vinaigre de vin rouge. Salez et poivrez.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637cf304e3302d3c39080cb5/step-374e5630.jpg",
-                    "path": "/637cf304e3302d3c39080cb5/step-374e5630.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Juste avant de servir, ajoutez le mélange de chou et de carotte, ainsi que la salade, la pomme et les noix concassées au saladier.Mélangez bien.",
-            "instructionsHTML": "<ul><li><span>Juste avant de servir, ajoutez le mélange de chou et de carotte, ainsi que la salade, la pomme et les noix concassées au saladier.</span></li><li><span>Mélangez bien.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Juste avant de servir, ajoutez le mélange de chou et de carotte, ainsi que la salade, la pomme et les noix concassées au saladier.</span></li><li><span>Mélangez bien.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637cf304e3302d3c39080cb5/step-50f15c40.jpg",
-                    "path": "/637cf304e3302d3c39080cb5/step-50f15c40.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les pommes de terre sautées à l’allemande dans les assiettes avec la salade à côté. Saupoudrez le tout de persil ciselé.",
-            "instructionsHTML": "<ul><li><span>Servez les pommes de terre sautées à l’allemande dans les assiettes avec la salade à côté. </span></li><li><span>Saupoudrez le tout de persil ciselé.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Servez les pommes de terre sautées à l’allemande dans les assiettes avec la salade à côté. </span></li><li><span>Saupoudrez le tout de persil ciselé.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637cf304e3302d3c39080cb5/step-3ac92650.jpg",
-                    "path": "/637cf304e3302d3c39080cb5/step-3ac92650.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62163c70143a35226e03d85e",
-            "type": "super-quick",
-            "name": "Peu de cuisine",
-            "slug": "peu-de-cuisine",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "RFR29804063-1",
-    "updatedAt": "2023-11-19T20:46:25+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "bec0d14b-08e9-4219-80a1-48a32d4e9a00",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/bratkartoffeln-pommes-sautees-aux-lardons-637cf304e3302d3c39080cb5",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf35b9d07cd5d38d79d1",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ed",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf35b9d07cd5d38d79d1",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ed",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf35b9d07cd5d38d79d1",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ed",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf35b9d07cd5d38d79d1",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ed",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 1750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf35b9d07cd5d38d79d1",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ed",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 2000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf35b9d07cd5d38d79d1",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf49b0da1947779861ed",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Lavez ou épluchez les pommes de terre. Coupez-les en rondelles de 3 mm d'épaisseur (voir CONSEIL). Rincez-les, puis essuyez-les dans un torchon propre. Coupez l’oignon en très fines demi-lunes.CONSEIL: La découpe fine des pommes de terre est un élément important de la recette : de celle-ci dépend la maîtrise de la cuisson.",
+        "Faites chauffer une grande sauteuse à sec, à feu moyen-vif (voir CONSEIL).Faites-y revenir les lardons 2-3 min.CONSEIL: Utilisez deux sauteuses si vous êtes plus de 2 à table car les pommes de terre prendront beaucoup de place.",
+        "Ajoutez un filet d'huile de tournesol ainsi que les pommes de terre à la sauteuse. Salez légèrement et poivrez. Faites-les revenir 10 min à feu moyen-vif, en remuant souvent. Ajoutez l'oignon et faites revenir le tout 10 min de plus.Baissez le feu sur moyen-doux, couvrez et laissez cuire encore 10-15 min, ou jusqu'à ce que les pommes de terre soient dorées et fondantes.",
+        "Coupez la pomme en deux, ôtez le trognon puis coupez-la en tranches. Effeuillez et ciselez le persil. Dans un saladier, faites une vinaigrette en mélangeant une pointe de moutarde avec un filet d’huile d’olive et le vinaigre de vin rouge. Salez et poivrez.",
+        "Juste avant de servir, ajoutez le mélange de chou et de carotte, ainsi que la salade, la pomme et les noix concassées au saladier.Mélangez bien.",
+        "Servez les pommes de terre sautées à l’allemande dans les assiettes avec la salade à côté. Saupoudrez le tout de persil ciselé."
     ]
 }

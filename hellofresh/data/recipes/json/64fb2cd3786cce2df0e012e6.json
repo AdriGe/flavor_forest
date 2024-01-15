@@ -1,1264 +1,148 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f6",
-            "name": "Œuf",
-            "type": "egg",
-            "slug": "oeuf",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fd",
-            "name": "Moutarde",
-            "type": "mustard",
-            "slug": "moutarde",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f9",
-            "name": "Soja",
-            "type": "soya",
-            "slug": "soja",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fb",
-            "name": "Fruits à coque",
-            "type": "nuts",
-            "slug": "fruits-a-coque",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b305302",
-            "name": "Fruits à coque",
-            "type": "traces-of-nuts",
-            "slug": "traces-of-fruits-a-coque",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5acf974c30006c4d667f88f1",
-            "name": "Poisson",
-            "type": "traces-of-fish",
-            "slug": "traces-of-poisson",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5acf967d30006c4cbc61d152",
-            "name": "Crustacés",
-            "type": "traces-of-crustaceans",
-            "slug": "traces-of-crustaces",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5fdcacf19520e811397b51c9",
-            "name": "Mollusques",
-            "type": "traces-of-molluscs",
-            "slug": "traces-of-mollusques",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        },
-        {
-            "id": "5a9614ab30006c2c026cf562",
-            "name": "Arachides",
-            "type": "traces-of-peanuts",
-            "slug": "traces-of-arachides",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5acf972fae08b54d333ac322",
-            "name": "Graines de sésame",
-            "type": "traces-of-sesame",
-            "slug": "traces-of-graines-de-sesame",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "64073c33df6297bb5beef19b",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-09-08T14:16:51+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053aa",
-            "type": "indian",
-            "name": "Indienne",
-            "slug": "indian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053aa-835d45ad.jpg"
-        }
+        "Indienne"
     ],
     "description": "Découvrez notre création gourmande : les samossas bœuf et pommes de terre aux épices. Servez ces délices avec une touche de yaourt frais et des graines de grenade éclatantes pour une expérience culinaire à la fois vive et réconfortante, directement dans votre assiette.",
-    "descriptionHTML": "<p>Découvrez notre création gourmande : les samossas bœuf et pommes de terre aux épices. Servez ces délices avec une touche de yaourt frais et des graines de grenade éclatantes pour une expérience culinaire à la fois vive et réconfortante, directement dans votre assiette.</p>",
-    "descriptionMarkdown": "Découvrez notre création gourmande : les samossas bœuf et pommes de terre aux épices. Servez ces délices avec une touche de yaourt frais et des graines de grenade éclatantes pour une expérience culinaire à la fois vive et réconfortante, directement dans votre assiette.",
     "difficulty": 2,
     "favoritesCount": 166,
     "headline": "avec du yaourt & de la grenade",
-    "id": "64fb2cd3786cce2df0e012e6",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R223_W44_FR_RFR29804595-2_MAIN_high-00ff4b73.jpg",
-    "imagePath": "/image/HF_Y23_R223_W44_FR_RFR29804595-2_MAIN_high-00ff4b73.jpg",
+    "name": "Samossas bœuf & pommes de terre aux épices",
+    "prepTime": 40,
+    "totalTime": 25,
+    "image_id": "64fb2cd3786cce2df0e012e6",
+    "id": "f4140bc7-a9ac-47b0-999f-8bf24596147b",
+    "nutrition": {
+        "kcal": 808,
+        "fat": 35,
+        "saturated_fat": 9.9,
+        "carbohydrate": 94.9,
+        "sugars": 27.3,
+        "protein": 23.4,
+        "sodium": 2.37
+    },
+    "tags": [
+        "Épicé",
+        "Worldwide"
+    ],
+    "utensils": [
+        "Passoire",
+        "Casserole",
+        "Bol",
+        "Râpe",
+        "Wok ou sauteuse",
+        "Wok ou sauteuse",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Petit bol"
+    ],
     "ingredients": [
         {
-            "id": "6405bf22b0da194777986166",
-            "uuid": "d67e98f2-2774-5b94-b51a-359ed028712e",
-            "name": "Pommes de terre",
-            "type": "potato",
-            "slug": "pommes-de-terre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "imagePath": "/ingredient/6405bf22b0da194777986166-061c1855.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "g",
+            "ingredient_id": "e96c155b-870a-4201-9e2f-ed3c064850d3"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff9b0da19477798644a",
-            "uuid": "2ee1c71d-691c-5506-a013-937b666e9ed4",
-            "name": "Garam masala",
-            "type": "garam-masala",
-            "slug": "garam-masala",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff9b0da19477798644a-e710a441.png",
-            "imagePath": "/ingredient/6405bff9b0da19477798644a-e710a441.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.33,
+            "unit": "sachet(s)",
+            "ingredient_id": "b9d6d8bd-e5a0-4e94-a095-b761499a26e2",
+            "portion_id": "754b3053-7d5b-49a5-a53c-bda6c59d1310",
+            "image_id": "6405bff9b0da19477798644a"
         },
         {
-            "id": "64073bc2df6297bb5beef128",
-            "uuid": "2f45356e-0cf0-491d-94cc-81374bed41b6",
-            "name": "Samossas bœuf",
-            "type": "beef-samossas",
-            "slug": "samossas-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc3af4af6d531d50cca-1347c36a.png",
-            "imagePath": "/ingredient/6405bfc3af4af6d531d50cca-1347c36a.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "57962a07b7e8697d4b305302",
-                "5acf974c30006c4d667f88f1",
-                "5acf967d30006c4cbc61d152",
-                "5fdcacf19520e811397b51c9",
-                "57962a07b7e8697d4b3052f3",
-                "57962a07b7e8697d4b3052f6",
-                "57962a07b7e8697d4b3052fd",
-                "57962a07b7e8697d4b3052f9",
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "6dd36b29-6b45-4736-811c-5a6b86058c04",
+            "portion_id": "8f2575ad-9b18-4e52-8954-655189b222db",
+            "image_id": "64073bc2df6297bb5beef128"
         },
         {
-            "id": "6405bf7ab0da19477798629a",
-            "uuid": "2fde0a63-4d6c-5515-8225-f87f9b1770bb",
-            "name": "Grenade",
-            "type": "pomegranate",
-            "slug": "grenade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf7ab0da19477798629a-4d3ce2f9.png",
-            "imagePath": "/ingredient/6405bf7ab0da19477798629a-4d3ce2f9.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "3f8c1122-10ed-4dff-90c2-cbf20899c124",
+            "portion_id": "eda456c7-efd6-46cb-b04d-503fcc204e33",
+            "image_id": "6405bf7ab0da19477798629a"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d",
+            "portion_id": "3b32de7a-03ea-407b-895a-197efd4cb91f",
+            "image_id": "6405bf35af4af6d531d50ab8"
         },
         {
-            "id": "64073ba8df6297bb5beef100",
-            "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
-            "name": "Yaourt à la grecque",
-            "type": "greek-style-natural-yoghurt",
-            "slug": "yaourt-a-la-grecque",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "107478ae-efe4-4776-9dba-0f0481e3dc68"
         },
         {
-            "id": "64073bb59c6d10cd16eab62c",
-            "uuid": "7a108e48-7055-504e-be58-b2df98b60529",
-            "name": "Noix de cajou concassées",
-            "type": "cashew-nuts",
-            "slug": "noix-de-cajou-concassees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd8b0da1947779863d9-df300d9e.png",
-            "imagePath": "/ingredient/6405bfd8b0da1947779863d9-df300d9e.png",
-            "shipped": true,
-            "allergens": [
-                "5a9614ab30006c2c026cf562",
-                "57962a07b7e8697d4b305302",
-                "5acf972fae08b54d333ac322",
-                "57962a07b7e8697d4b3052f3",
-                "57962a07b7e8697d4b3052fb"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "5f63e121-35db-464e-933b-47d2be0a697c",
+            "portion_id": "5e6eb7a2-d832-435d-acce-4d2f3922d530",
+            "image_id": "64073bb59c6d10cd16eab62c"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e51223bc1d64f7b96e2708",
-            "uuid": "493382b6-298f-4b49-8ab9-1d70a8a1b139",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cs",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51223bc1d64f7b96e2708-8d6e8bd0.png",
-            "imagePath": "/ingredient/63e51223bc1d64f7b96e2708-8d6e8bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "0c31878c-82e8-457c-a231-63113e45336e",
+            "portion_id": "397810c8-a209-49ce-9d61-0c0c54f05ca2",
+            "image_id": "63e51223bc1d64f7b96e2708"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64fb2cd3786cce2df0e012e6",
-    "name": "Samossas bœuf & pommes de terre aux épices",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3381,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 808,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 35,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 9.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 94.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 27.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 23.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.37,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 409,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 609,
-    "slug": "samossas-boeuf-and-pommes-de-terre-aux-epices",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! \nPréchauffez le four à 220°C (200°C chaleur tournante). \nÉpluchez les pommes de terre et la carotte et coupez-les en morceaux de 1,5 cm. \nMettez-les dans une casserole, versez de l’eau à hauteur et salez. Portez à ébullition et faites cuire 8-10 min à partir de l’ébullition. Elles ne doivent pas être totalement cuites à ce stade. Contrôlez la cuisson avec la pointe d’un couteau. Égouttez-les. \n",
-            "instructionsHTML": "<ul>\n<li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></li>\n<li><span>Préchauffez le four à 220°C (200°C chaleur tournante). </span></li>\n<li><span>Épluchez les pommes de terre et la carotte et coupez-les en morceaux de 1,5 cm. </span></li>\n<li><span>Mettez-les dans une casserole, versez de l’eau à hauteur et salez. Portez à ébullition et faites cuire 8-10 min à partir de l’ébullition. Elles ne doivent pas être totalement cuites à ce stade. Contrôlez la cuisson avec la pointe d’un couteau. Égouttez-les. </span></li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></li>\n<li><span>Préchauffez le four à 220°C (200°C chaleur tournante). </span></li>\n<li><span>Épluchez les pommes de terre et la carotte et coupez-les en morceaux de 1,5 cm. </span></li>\n<li><span>Mettez-les dans une casserole, versez de l’eau à hauteur et salez. Portez à ébullition et faites cuire 8-10 min à partir de l’ébullition. Elles ne doivent pas être totalement cuites à ce stade. Contrôlez la cuisson avec la pointe d’un couteau. Égouttez-les. </span></li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382",
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2cd3786cce2df0e012e6/step-4517fc00.jpg",
-                    "path": "/64fb2cd3786cce2df0e012e6/step-4517fc00.jpg",
-                    "caption": "Précuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nPendant ce temps, coupez la moitié de l’oignon en fines demi-lunes. Ciselez le reste. \nPlacez les demi-lunes dans un bol. Ajoutez une pincée de sel et de sucre, puis 1 cs de vinaigre de vin par personne. \nMélangez bien et laissez reposer jusqu’à ce que l’oignon devienne légèrement rose. Remuez de temps à autre. \nCiselez ou râpez l’ail.\n",
-            "instructionsHTML": "<ul>\n<li><span>Pendant ce temps, coupez la moitié de l’oignon en fines demi-lunes. Ciselez le reste. </span></li>\n<li><span>Placez les demi-lunes dans un bol. Ajoutez une pincée de sel et de sucre, puis 1 cs de vinaigre de vin par personne. </span></li>\n<li><span>Mélangez bien et laissez reposer jusqu’à ce que l’oignon devienne légèrement rose. Remuez de temps à autre. </span></li>\n<li><span>Ciselez ou râpez l’ail.</span></li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Pendant ce temps, coupez la moitié de l’oignon en fines demi-lunes. Ciselez le reste. </span></li>\n<li><span>Placez les demi-lunes dans un bol. Ajoutez une pincée de sel et de sucre, puis 1 cs de vinaigre de vin par personne. </span></li>\n<li><span>Mélangez bien et laissez reposer jusqu’à ce que l’oignon devienne légèrement rose. Remuez de temps à autre. </span></li>\n<li><span>Ciselez ou râpez l’ail.</span></li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2cd3786cce2df0e012e6/step-e7989e10.jpg",
-                    "path": "/64fb2cd3786cce2df0e012e6/step-e7989e10.jpg",
-                    "caption": "Faire les pickles"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nDans un wok ou une sauteuse, faites fondre le beurre à feu moyen avec ½ cc de garam masala par personne (ça pique ! Dosez-le selon votre goût) et l’ail 1 min. \nAjoutez l’oignon ciselé, les pommes de terre et la carotte. Remuez et faites revenir 8-10 min, ou jusqu’à ce que les pommes de terre soient cuites et colorées. Mélangez régulièrement. Salez et poivrez.\n",
-            "instructionsHTML": "<ul>\n<li><span>Dans un wok ou une sauteuse, faites fondre le beurre à feu moyen avec ½ cc de </span><span>garam masala </span><span>par personne (ça pique ! Dosez-le selon votre goût) et l’ail 1 min. </span></li>\n<li><span>Ajoutez l’oignon ciselé, les pommes de terre et la carotte. Remuez et faites revenir 8-10 min, ou jusqu’à ce que les pommes de terre soient cuites et colorées. Mélangez régulièrement. Salez et poivrez.</span></li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Dans un wok ou une sauteuse, faites fondre le beurre à feu moyen avec ½ cc de </span><span>garam masala </span><span>par personne (ça pique ! Dosez-le selon votre goût) et l’ail 1 min. </span></li>\n<li><span>Ajoutez l’oignon ciselé, les pommes de terre et la carotte. Remuez et faites revenir 8-10 min, ou jusqu’à ce que les pommes de terre soient cuites et colorées. Mélangez régulièrement. Salez et poivrez.</span></li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53a",
-                "63c5205d77be7505f4d9a14c"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2cd3786cce2df0e012e6/step-a7cef320.jpg",
-                    "path": "/64fb2cd3786cce2df0e012e6/step-a7cef320.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nDisposez les samossas sur une plaque recouverte de papier sulfurisé. \nEnfournez-les dans la partie haute du four 7-9 min, ou jusqu’à ce qu’ils soient bien chauds et croustillants.\n",
-            "instructionsHTML": "<ul>\n<li><span>Disposez les samossas sur une plaque recouverte de papier sulfurisé. </span></li>\n<li><span>Enfournez-les dans la partie haute du four 7-9 min, ou jusqu’à ce qu’ils soient bien chauds et croustillants.</span></li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Disposez les samossas sur une plaque recouverte de papier sulfurisé. </span></li>\n<li><span>Enfournez-les dans la partie haute du four 7-9 min, ou jusqu’à ce qu’ils soient bien chauds et croustillants.</span></li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2cd3786cce2df0e012e6/step-e0605930.jpg",
-                    "path": "/64fb2cd3786cce2df0e012e6/step-e0605930.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nEn attendant, coupez la grenade en 2, puis en 4 et prélevez-en les graines (faites-le au-dessus de l’évier pour ne pas vous tacher). \nEffeuillez la coriandre. Gardez quelques feuilles entières pour le dressage et ciselez le reste. \nDans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la coriandre ciselée, du sel et du poivre.\n\nCONSEIL : Dégustez les graines de grenade restantes en salade, en dessert avec du yaourt ou nature, tout simplement !",
-            "instructionsHTML": "<ul>\n<li><span>En attendant, coupez la grenade en 2, puis en 4 et prélevez-en les graines (faites-le au-dessus de l’évier pour ne pas vous tacher). </span></li>\n<li><span>Effeuillez la coriandre. Gardez quelques feuilles entières pour le dressage et ciselez le reste. </span></li>\n<li><span>Dans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la coriandre ciselée, du sel et du poivre.</span></li>\n</ul>\n<p>CONSEIL : Dégustez les graines de grenade restantes en salade, en dessert avec du yaourt ou nature, tout simplement !</p>",
-            "instructionsMarkdown": "<ul>\n<li><span>En attendant, coupez la grenade en 2, puis en 4 et prélevez-en les graines (faites-le au-dessus de l’évier pour ne pas vous tacher). </span></li>\n<li><span>Effeuillez la coriandre. Gardez quelques feuilles entières pour le dressage et ciselez le reste. </span></li>\n<li><span>Dans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la coriandre ciselée, du sel et du poivre.</span></li>\n</ul>\n<p>CONSEIL : Dégustez les graines de grenade restantes en salade, en dessert avec du yaourt ou nature, tout simplement !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2cd3786cce2df0e012e6/step-663ae940.jpg",
-                    "path": "/64fb2cd3786cce2df0e012e6/step-663ae940.jpg",
-                    "caption": "Prélever les graines"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nServez les pommes de terre et la carotte épicées dans les assiettes. \nParsemez de graines de grenade, de pickles d’oignon préalablement égouttés (selon votre goût), de noix de cajou concassées et de feuilles de coriandre. \nPlacez les samossas par-dessus et arrosez de sauce yaourt à la coriandre.\n",
-            "instructionsHTML": "<ul>\n<li><span>Servez les pommes de terre et la carotte épicées dans les assiettes. </span></li>\n<li><span>Parsemez de graines de grenade, de pickles d’oignon préalablement égouttés (selon votre goût), de noix de cajou concassées et de feuilles de coriandre. </span></li>\n<li><span>Placez les samossas par-dessus et arrosez de sauce yaourt à la coriandre.</span></li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Servez les pommes de terre et la carotte épicées dans les assiettes. </span></li>\n<li><span>Parsemez de graines de grenade, de pickles d’oignon préalablement égouttés (selon votre goût), de noix de cajou concassées et de feuilles de coriandre. </span></li>\n<li><span>Placez les samossas par-dessus et arrosez de sauce yaourt à la coriandre.</span></li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2cd3786cce2df0e012e6/step-763a2a50.jpg",
-                    "path": "/64fb2cd3786cce2df0e012e6/step-763a2a50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "63651421ff03d610fe0d2ae0",
-            "type": "worldwide",
-            "name": "Worldwide",
-            "slug": "worldwide",
-            "colorHandle": "text",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": false
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29804595-2",
-    "updatedAt": "2024-01-08T08:24:57+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff53a",
-            "type": null,
-            "name": "Wok ou sauteuse"
-        },
-        {
-            "id": "63c5205d77be7505f4d9a14c",
-            "type": "wok-or-sautpan",
-            "name": "Wok ou sauteuse"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        }
-    ],
-    "uuid": "3e5de7c5-f5d8-4898-a816-b46288e93a0f",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/samossas-boeuf-and-pommes-de-terre-aux-epices-64fb2cd3786cce2df0e012e6",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff9b0da19477798644a",
-                    "amount": 0.15,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc2df6297bb5beef128",
-                    "amount": 0.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62c",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff9b0da19477798644a",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc2df6297bb5beef128",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62c",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff9b0da19477798644a",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc2df6297bb5beef128",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 130,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62c",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff9b0da19477798644a",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc2df6297bb5beef128",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62c",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff9b0da19477798644a",
-                    "amount": 0.83,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc2df6297bb5beef128",
-                    "amount": 2.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 210,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62c",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf22b0da194777986166",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff9b0da19477798644a",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc2df6297bb5beef128",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf7ab0da19477798629a",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 260,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62c",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! \nPréchauffez le four à 220°C (200°C chaleur tournante). \nÉpluchez les pommes de terre et la carotte et coupez-les en morceaux de 1,5 cm. \nMettez-les dans une casserole, versez de l’eau à hauteur et salez. Portez à ébullition et faites cuire 8-10 min à partir de l’ébullition. Elles ne doivent pas être totalement cuites à ce stade. Contrôlez la cuisson avec la pointe d’un couteau. Égouttez-les. \n",
+        "\nPendant ce temps, coupez la moitié de l’oignon en fines demi-lunes. Ciselez le reste. \nPlacez les demi-lunes dans un bol. Ajoutez une pincée de sel et de sucre, puis 1 cs de vinaigre de vin par personne. \nMélangez bien et laissez reposer jusqu’à ce que l’oignon devienne légèrement rose. Remuez de temps à autre. \nCiselez ou râpez l’ail.\n",
+        "\nDans un wok ou une sauteuse, faites fondre le beurre à feu moyen avec ½ cc de garam masala par personne (ça pique ! Dosez-le selon votre goût) et l’ail 1 min. \nAjoutez l’oignon ciselé, les pommes de terre et la carotte. Remuez et faites revenir 8-10 min, ou jusqu’à ce que les pommes de terre soient cuites et colorées. Mélangez régulièrement. Salez et poivrez.\n",
+        "\nDisposez les samossas sur une plaque recouverte de papier sulfurisé. \nEnfournez-les dans la partie haute du four 7-9 min, ou jusqu’à ce qu’ils soient bien chauds et croustillants.\n",
+        "\nEn attendant, coupez la grenade en 2, puis en 4 et prélevez-en les graines (faites-le au-dessus de l’évier pour ne pas vous tacher). \nEffeuillez la coriandre. Gardez quelques feuilles entières pour le dressage et ciselez le reste. \nDans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la coriandre ciselée, du sel et du poivre.\n\nCONSEIL : Dégustez les graines de grenade restantes en salade, en dessert avec du yaourt ou nature, tout simplement !",
+        "\nServez les pommes de terre et la carotte épicées dans les assiettes. \nParsemez de graines de grenade, de pickles d’oignon préalablement égouttés (selon votre goût), de noix de cajou concassées et de feuilles de coriandre. \nPlacez les samossas par-dessus et arrosez de sauce yaourt à la coriandre.\n"
     ]
 }

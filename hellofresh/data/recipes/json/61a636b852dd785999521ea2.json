@@ -1,1146 +1,143 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fc",
-            "name": "Céleri",
-            "type": "celery",
-            "slug": "celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RFR20161809-2",
-    "country": "FR",
-    "createdAt": "2021-11-30T14:35:37+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "A la découverte des légumes d'hiver ! Un steak haché traditionnel et une sauce à l'échalote qui ont pour partenaires une purée de céleri-rave ainsi que des carottes glacées. Il n'est pas commun de manger du céleri-rave, c'est pourquoi nous vous le proposons dans cette recette : avis aux amateurs ou aux aventuriers !",
-    "descriptionHTML": "<p>A la découverte des légumes d'hiver ! Un steak haché traditionnel et une sauce à l'échalote qui ont pour partenaires une purée de céleri-rave ainsi que des carottes glacées. Il n'est pas commun de manger du céleri-rave, c'est pourquoi nous vous le proposons dans cette recette : avis aux amateurs ou aux aventuriers !</p>",
-    "descriptionMarkdown": "A la découverte des légumes d'hiver ! Un steak haché traditionnel et une sauce à l'échalote qui ont pour partenaires une purée de céleri-rave ainsi que des carottes glacées. Il n'est pas commun de manger du céleri-rave, c'est pourquoi nous vous le proposons dans cette recette : avis aux amateurs ou aux aventuriers !",
     "difficulty": 2,
     "favoritesCount": 125,
     "headline": "avec des carottes et une purée au céleri-rave",
-    "id": "61a636b852dd785999521ea2",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF201202_R211_W01_FR_RFR20161809-1_MB_main_Reshoot_low-1ae0832e.jpg",
-    "imagePath": "/image/HF201202_R211_W01_FR_RFR20161809-1_MB_main_Reshoot_low-1ae0832e.jpg",
+    "name": "Steak haché maison et sauce à l'échalote",
+    "prepTime": 45,
+    "totalTime": 30,
+    "image_id": "61a636b852dd785999521ea2",
+    "id": "74af210f-0490-4e74-9bdd-9e50d06ff8b3",
+    "nutrition": {
+        "kcal": 823,
+        "fat": 62.2,
+        "saturated_fat": 30.8,
+        "carbohydrate": 37.2,
+        "sugars": 23.2,
+        "protein": 27.5,
+        "sodium": 9.52
+    },
+    "tags": [],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Mixeur plongeant",
+        "Poêle avec couvercle",
+        "Bol",
+        "Spatule",
+        "Poêle",
+        "Papier aluminium"
+    ],
     "ingredients": [
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bf9eaf4af6d531d50c49",
-            "uuid": "f2c1fd2c-09eb-5225-8e69-6070ed268f60",
-            "name": "Grenailles rouges",
-            "type": "red-potato",
-            "slug": "grenailles-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "imagePath": "/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "f26d87de-b670-4e79-89ae-5609f60a16a8"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfc5b9d07cd5d38d7bce",
-            "uuid": "26d69601-21cf-5e86-bf40-c3c5f44f95b1",
-            "name": "Échalote",
-            "type": "shallot",
-            "slug": "echalote",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "imagePath": "/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "162863a2-88a4-41a8-8083-7adf892d3eb0",
+            "portion_id": "c050fe94-e69a-488d-9032-0cb7fc0fe7b7",
+            "image_id": "6405bfc5b9d07cd5d38d7bce"
         },
         {
-            "id": "64073bee9c6d10cd16eab66f",
-            "uuid": "b1bec203-b289-5355-912a-696b447016a4",
-            "name": "Céleri-rave",
-            "type": "celeriac",
-            "slug": "celeri-rave",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b2-9746f061.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b2-9746f061.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fc"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "pièce(s)",
+            "ingredient_id": "8a8cc335-fec6-4a9b-a80a-2376f7c20c53",
+            "portion_id": "92811e98-6623-49fa-a418-b65ed11a85da",
+            "image_id": "64073bee9c6d10cd16eab66f"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01"
         },
         {
-            "id": "6405bf43b0da1947779861da",
-            "uuid": "7bd888d7-a12a-4156-b0bb-bf8d7a4d806f",
-            "name": "Noix concassées",
-            "type": "walnuts-pieces",
-            "slug": "noix-concassees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "imagePath": "/ingredient/6405bf43b0da1947779861da-202b9aeb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "a73fa724-5d5b-4c90-99e5-5d9b95e9bd88"
         },
         {
-            "id": "6405bfbab9d07cd5d38d7bae",
-            "uuid": "c8f498ab-c95c-567d-99ba-937761d5e658",
-            "name": "Persil",
-            "type": "parsley-curled",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "imagePath": "/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "6c31fdcb-bec9-4b81-aafb-88242b45475e"
         },
         {
-            "id": "63e5121981b4b295e66f0252",
-            "uuid": "eb029dc0-9343-4084-a8e5-d459f6a9f510",
-            "name": "Bouillon de bœuf",
-            "type": "bouillon-de-boeuf-ml",
-            "slug": "bouillon-de-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121981b4b295e66f0252-37741b75.jpeg",
-            "imagePath": "/ingredient/63e5121981b4b295e66f0252-37741b75.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1400,
+            "unit": "ml",
+            "ingredient_id": "be882e0e-1ab6-40dc-b25e-388b2ad02a82"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5123581b4b295e66f0261",
-            "uuid": "23b757d4-43a1-4078-a566-5d8331da930b",
-            "name": "Farine",
-            "type": "farine-cs",
-            "slug": "farine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "imagePath": "/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "cs",
+            "ingredient_id": "9be5f238-91b9-43ef-9654-5e4a8976e90f",
+            "portion_id": "7d49eeda-c831-40be-bf44-3b8d5006773e",
+            "image_id": "63e5123581b4b295e66f0261"
         },
         {
-            "id": "64062ea8af4af6d531d50df6",
-            "uuid": "7a0f5cce-8739-4636-947c-7199cd8b29c0",
-            "name": "Sucre",
-            "type": "sucre-cs",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062ea8af4af6d531d50df6-c95c60f7.png",
-            "imagePath": "/ingredient/64062ea8af4af6d531d50df6-c95c60f7.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "8c8fd536-034f-4f11-a50b-0b68732dd051",
+            "portion_id": "28ff0095-bb80-4951-b2de-3fb961bd3ff6",
+            "image_id": "64062ea8af4af6d531d50df6"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/61a636b852dd785999521ea2",
-    "name": "Steak haché maison et sauce à l'échalote",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 823,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3443,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 62.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 30.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 37.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 23.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 27.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 9.52,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 108,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 1336,
-    "slug": "steak-hache-maison-et-sauce-a-lechalote",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préparez le bouillon avec de l’eau chaude.Ciselez l’échalote et l’ail.Épluchez et coupez les carottes en 4 dans l’épaisseur, puis taillez-les en tronçons.Épluchez les pommes de terre et coupez-les en morceaux de même taille.Épluchez le céleri-rave au couteau et coupez-le en morceaux de même taille. ",
-            "instructionsHTML": "<ul><li>Préparez le bouillon avec de l’eau chaude.</li><li>Ciselez l’échalote et l’ail.</li><li>Épluchez et coupez les carottes en 4 dans l’épaisseur, puis taillez-les en tronçons.</li><li>Épluchez les pommes de terre et coupez-les en morceaux de même taille.</li><li>Épluchez le céleri-rave au couteau et coupez-le en morceaux de même taille. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Préparez le bouillon avec de l’eau chaude.</li><li>Ciselez l’échalote et l’ail.</li><li>Épluchez et coupez les carottes en 4 dans l’épaisseur, puis taillez-les en tronçons.</li><li>Épluchez les pommes de terre et coupez-les en morceaux de même taille.</li><li>Épluchez le céleri-rave au couteau et coupez-le en morceaux de même taille. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61a636b852dd785999521ea2/step-50388e00.jpg",
-                    "path": "/61a636b852dd785999521ea2/step-50388e00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer une noix de beurre dans une casserole à feu moyen-vif et faites-y revenir le céleri, les pommes de terre, l’ail et la moitié de l’échalote 2-3 minutes. Salez et poivrez.Ajoutez 600 ml de bouillon par personne et faites cuire (à couvert) 15-18 minutes à feu moyen. Égouttez en gardant un petit fond de liquide. Mixez au mixeur plongeant jusqu’à obtention d’une texture lisse. Ajoutez une noix de beurre et 1 cs de crème par personne (réservez le reste). Mélangez bien, puis réservez à couvert et à feu très doux jusqu’au service.",
-            "instructionsHTML": "<ul><li>Faites chauffer une noix de beurre dans une casserole à feu moyen-vif et faites-y revenir le céleri, les pommes de terre, l’ail et la moitié de l’échalote 2-3 minutes. Salez et poivrez.</li><li>Ajoutez 600 ml de bouillon par personne et faites cuire (à couvert) 15-18 minutes à feu moyen. </li><li>Égouttez en gardant un petit fond de liquide. Mixez au mixeur plongeant jusqu’à obtention d’une texture lisse. Ajoutez une noix de beurre et 1 cs de crème par personne (réservez le reste). </li><li>Mélangez bien, puis réservez à couvert et à feu très doux jusqu’au service.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer une noix de beurre dans une casserole à feu moyen-vif et faites-y revenir le céleri, les pommes de terre, l’ail et la moitié de l’échalote 2-3 minutes. Salez et poivrez.</li><li>Ajoutez 600 ml de bouillon par personne et faites cuire (à couvert) 15-18 minutes à feu moyen. </li><li>Égouttez en gardant un petit fond de liquide. Mixez au mixeur plongeant jusqu’à obtention d’une texture lisse. Ajoutez une noix de beurre et 1 cs de crème par personne (réservez le reste). </li><li>Mélangez bien, puis réservez à couvert et à feu très doux jusqu’au service.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b",
-                "57e2674fb7e8697d4b30539a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61a636b852dd785999521ea2/step-aa63b010.jpg",
-                    "path": "/61a636b852dd785999521ea2/step-aa63b010.jpg",
-                    "caption": "Faire la purée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Mettez les carottes dans une poêle en faisant attention à ce qu'elles ne se chevauchent pas. Ajoutez de l'eau à mi-hauteur (environ 5 mm), du sel, du poivre et, par personne : ½ cs de beurre et ½ cs de sucre. Couvrez et faites cuire à feu moyen 12-14 minutes. Remuez de temps en temps.Réservez à couvert et à feu très doux jusqu'au service. ",
-            "instructionsHTML": "<ul><li>Mettez les carottes dans une poêle en faisant attention à ce qu&#39;elles ne se chevauchent pas. Ajoutez de l&#39;eau à mi-hauteur (environ 5 mm), du sel, du poivre et, par personne : <span>½</span> cs de beurre et <span>½</span> cs de sucre. </li><li>Couvrez et faites cuire à feu moyen 12-14 minutes. Remuez de temps en temps.</li><li>Réservez à couvert et à feu très doux jusqu&#39;au service. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Mettez les carottes dans une poêle en faisant attention à ce qu&#39;elles ne se chevauchent pas. Ajoutez de l&#39;eau à mi-hauteur (environ 5 mm), du sel, du poivre et, par personne : <span>½</span> cs de beurre et <span>½</span> cs de sucre. </li><li>Couvrez et faites cuire à feu moyen 12-14 minutes. Remuez de temps en temps.</li><li>Réservez à couvert et à feu très doux jusqu&#39;au service. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff531"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61a636b852dd785999521ea2/step-eb3be520.jpg",
-                    "path": "/61a636b852dd785999521ea2/step-eb3be520.jpg",
-                    "caption": "Faire les carottes glacées"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Mettez le bœuf haché dans un bol. Salez et poivrez généreusement.﻿Mélangez bien avec vos mains, puis pressez et façonnez une galette par personne d'environ 2 cm d'épaisseur. Faites chauffer un filet d’huile d'olive dans une poêle à feu vif. Faites-y cuire les steaks hachés 2-3 minutes de chaque côté jusqu'à ce qu'ils soient cuits et bien dorés, en les retournant soigneusement à l'aide d'une spatule.Réservez les steaks hachés dans une assiette recouverte de papier d'aluminium.",
-            "instructionsHTML": "<ul><li>Mettez le bœuf haché dans un bol. Salez et poivrez généreusement.</li><li>﻿Mélangez bien avec vos mains, puis pressez et façonnez une galette par personne d&#39;environ 2 cm d&#39;épaisseur. </li><li>Faites chauffer un filet d’huile d&#39;olive dans une poêle à feu vif. Faites-y cuire les steaks hachés 2-3 minutes de chaque côté jusqu&#39;à ce qu&#39;ils soient cuits et bien dorés, en les retournant soigneusement à l&#39;aide d&#39;une spatule.</li><li>Réservez les steaks hachés dans une assiette recouverte de papier d&#39;aluminium.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Mettez le bœuf haché dans un bol. Salez et poivrez généreusement.</li><li>﻿Mélangez bien avec vos mains, puis pressez et façonnez une galette par personne d&#39;environ 2 cm d&#39;épaisseur. </li><li>Faites chauffer un filet d’huile d&#39;olive dans une poêle à feu vif. Faites-y cuire les steaks hachés 2-3 minutes de chaque côté jusqu&#39;à ce qu&#39;ils soient cuits et bien dorés, en les retournant soigneusement à l&#39;aide d&#39;une spatule.</li><li>Réservez les steaks hachés dans une assiette recouverte de papier d&#39;aluminium.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b305396",
-                "57e2674fb7e8697d4b305383",
-                "57e2674fb7e8697d4b305366"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61a636b852dd785999521ea2/step-67946630.jpg",
-                    "path": "/61a636b852dd785999521ea2/step-67946630.jpg",
-                    "caption": "Cuire les steaks hachés"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Remettez la poêle à feu moyen-doux et ajoutez l’échalote restante ainsi que 1 cc de vinaigre de vin rouge par personne. Faites cuire 1 minute jusqu’à la complète évaporation du vinaigre.Ajoutez ½ cc de farine par personne et poursuivez la cuisson 1 minute. Versez le reste du bouillon et faites réduire la sauce 4-6 minutes sans couvercle en remuant.Ajoutez la crème restante, poivrez, mélangez, puis laissez au chaud à feu très doux jusqu’au service.",
-            "instructionsHTML": "<ul><li>Remettez la poêle à feu moyen-doux et ajoutez l’échalote restante ainsi que 1 cc de vinaigre de vin rouge par personne. Faites cuire 1 minute jusqu’à la complète évaporation du vinaigre.</li><li>Ajoutez ½ cc de farine par personne et poursuivez la cuisson 1 minute. Versez le reste du bouillon et faites réduire la sauce 4-6 minutes sans couvercle en remuant.</li><li>Ajoutez la crème restante, poivrez, mélangez, puis laissez au chaud à feu très doux jusqu’au service.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Remettez la poêle à feu moyen-doux et ajoutez l’échalote restante ainsi que 1 cc de vinaigre de vin rouge par personne. Faites cuire 1 minute jusqu’à la complète évaporation du vinaigre.</li><li>Ajoutez ½ cc de farine par personne et poursuivez la cuisson 1 minute. Versez le reste du bouillon et faites réduire la sauce 4-6 minutes sans couvercle en remuant.</li><li>Ajoutez la crème restante, poivrez, mélangez, puis laissez au chaud à feu très doux jusqu’au service.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61a636b852dd785999521ea2/step-6bcba240.jpg",
-                    "path": "/61a636b852dd785999521ea2/step-6bcba240.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Pendant ce temps, ciselez le persil. Servez les steaks hachés avec la purée de céleri-rave et les carottes glacées.Versez la sauce par-dessus.Garnissez le tout de noix et de persil, puis salez et poivrez si besoin.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, ciselez le persil. </li><li>Servez les steaks hachés avec la purée de céleri-rave et les carottes glacées.</li><li>Versez la sauce par-dessus.</li><li>Garnissez le tout de noix et de persil, puis salez et poivrez si besoin.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, ciselez le persil. </li><li>Servez les steaks hachés avec la purée de céleri-rave et les carottes glacées.</li><li>Versez la sauce par-dessus.</li><li>Garnissez le tout de noix et de persil, puis salez et poivrez si besoin.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61a636b852dd785999521ea2/step-f2589750.jpg",
-                    "path": "/61a636b852dd785999521ea2/step-f2589750.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": "PT30M",
-    "uniqueRecipeCode": "RFR20161809-2",
-    "updatedAt": "2023-10-13T10:41:24+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30539a",
-            "type": "stick-blender",
-            "name": "Mixeur plongeant"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff531",
-            "type": null,
-            "name": "Poêle avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305396",
-            "type": "spatula",
-            "name": "Spatule"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        }
-    ],
-    "uuid": "8c019120-829a-40cb-9bce-927c260a2ab0",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/steak-hache-maison-et-sauce-a-lechalote-61a636b852dd785999521ea2",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 0.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062ea8af4af6d531d50df6",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 1400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062ea8af4af6d531d50df6",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 2100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 0.75,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062ea8af4af6d531d50df6",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 2800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062ea8af4af6d531d50df6",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 1.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 3500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 1.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062ea8af4af6d531d50df6",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf43b0da1947779861da",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 4200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062ea8af4af6d531d50df6",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préparez le bouillon avec de l’eau chaude.Ciselez l’échalote et l’ail.Épluchez et coupez les carottes en 4 dans l’épaisseur, puis taillez-les en tronçons.Épluchez les pommes de terre et coupez-les en morceaux de même taille.Épluchez le céleri-rave au couteau et coupez-le en morceaux de même taille. ",
+        "Faites chauffer une noix de beurre dans une casserole à feu moyen-vif et faites-y revenir le céleri, les pommes de terre, l’ail et la moitié de l’échalote 2-3 minutes. Salez et poivrez.Ajoutez 600 ml de bouillon par personne et faites cuire (à couvert) 15-18 minutes à feu moyen. Égouttez en gardant un petit fond de liquide. Mixez au mixeur plongeant jusqu’à obtention d’une texture lisse. Ajoutez une noix de beurre et 1 cs de crème par personne (réservez le reste). Mélangez bien, puis réservez à couvert et à feu très doux jusqu’au service.",
+        "Mettez les carottes dans une poêle en faisant attention à ce qu'elles ne se chevauchent pas. Ajoutez de l'eau à mi-hauteur (environ 5 mm), du sel, du poivre et, par personne : ½ cs de beurre et ½ cs de sucre. Couvrez et faites cuire à feu moyen 12-14 minutes. Remuez de temps en temps.Réservez à couvert et à feu très doux jusqu'au service. ",
+        "Mettez le bœuf haché dans un bol. Salez et poivrez généreusement.﻿Mélangez bien avec vos mains, puis pressez et façonnez une galette par personne d'environ 2 cm d'épaisseur. Faites chauffer un filet d’huile d'olive dans une poêle à feu vif. Faites-y cuire les steaks hachés 2-3 minutes de chaque côté jusqu'à ce qu'ils soient cuits et bien dorés, en les retournant soigneusement à l'aide d'une spatule.Réservez les steaks hachés dans une assiette recouverte de papier d'aluminium.",
+        "Remettez la poêle à feu moyen-doux et ajoutez l’échalote restante ainsi que 1 cc de vinaigre de vin rouge par personne. Faites cuire 1 minute jusqu’à la complète évaporation du vinaigre.Ajoutez ½ cc de farine par personne et poursuivez la cuisson 1 minute. Versez le reste du bouillon et faites réduire la sauce 4-6 minutes sans couvercle en remuant.Ajoutez la crème restante, poivrez, mélangez, puis laissez au chaud à feu très doux jusqu’au service.",
+        "Pendant ce temps, ciselez le persil. Servez les steaks hachés avec la purée de céleri-rave et les carottes glacées.Versez la sauce par-dessus.Garnissez le tout de noix et de persil, puis salez et poivrez si besoin."
     ]
 }

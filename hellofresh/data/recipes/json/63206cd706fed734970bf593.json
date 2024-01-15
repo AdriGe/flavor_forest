@@ -1,854 +1,106 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b1",
-        "name": "Seafood",
-        "type": "seafood",
-        "slug": "Seafood"
-    },
-    "clonedFrom": null,
-    "comment": "PFR29804340-1",
-    "country": "FR",
-    "createdAt": "2022-09-13T11:43:20+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a4",
-            "type": "american",
-            "name": "Americaine",
-            "slug": "american",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a4-aafc03e6.jpg"
-        }
+        "Americaine"
     ],
     "description": "Vite fait, bien frais ! C’est la devise de nos recettes Express prêtes en moins de 15 min (et toujours aussi délicieuses !). Cette semaine, préparez un bagel de thon, tomates séchées, fromage frais et ciboulette, à cuisiner en un rien de temps et à savourer amplement !",
-    "descriptionHTML": "<p>Vite fait, bien frais ! C’est la devise de nos recettes Express prêtes en moins de 15 min (et toujours aussi délicieuses !). Cette semaine, préparez un bagel de thon, tomates séchées, fromage frais et ciboulette, à cuisiner en un rien de temps et à savourer amplement !</p>",
-    "descriptionMarkdown": "Vite fait, bien frais ! C’est la devise de nos recettes Express prêtes en moins de 15 min (et toujours aussi délicieuses !). Cette semaine, préparez un bagel de thon, tomates séchées, fromage frais et ciboulette, à cuisiner en un rien de temps et à savourer amplement !",
     "difficulty": 2,
     "favoritesCount": 398,
     "headline": "avec de la ciboulette & des tomates séchées",
-    "id": "63206cd706fed734970bf593",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220826_R221_W41_FR_PFR29804340-1_MB_Main_tomatoes_low-1ee8f0a8.jpg",
-    "imagePath": "/image/HF220826_R221_W41_FR_PFR29804340-1_MB_Main_tomatoes_low-1ee8f0a8.jpg",
+    "name": "Bagel au thon, fromage frais & salade",
+    "prepTime": 15,
+    "totalTime": 10,
+    "image_id": "63206cd706fed734970bf593",
+    "id": "ff7a366f-22f5-41f6-9378-f18ef2521a29",
+    "nutrition": {
+        "kcal": 289,
+        "fat": 23.6,
+        "saturated_fat": 7,
+        "carbohydrate": 8.9,
+        "sugars": 5.1,
+        "protein": 10,
+        "sodium": 1.81
+    },
+    "tags": [
+        "Moins de CO2"
+    ],
+    "utensils": [
+        "Passoire",
+        "Grand bol",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf3caf4af6d531d50ad3",
-            "uuid": "b443c50a-b3b3-510c-93ac-01d6610777a3",
-            "name": "Ciboulette",
-            "type": "chives",
-            "slug": "ciboulette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "imagePath": "/ingredient/6405bf3caf4af6d531d50ad3-0abcff55.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "g",
+            "ingredient_id": "76818676-4b98-4dad-b5ca-7ab2268d1062"
         },
         {
-            "id": "6405bfc5b9d07cd5d38d7bce",
-            "uuid": "26d69601-21cf-5e86-bf40-c3c5f44f95b1",
-            "name": "Échalote",
-            "type": "shallot",
-            "slug": "echalote",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "imagePath": "/ingredient/6405bfc5b9d07cd5d38d7bce-c940a35c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "162863a2-88a4-41a8-8083-7adf892d3eb0",
+            "portion_id": "c050fe94-e69a-488d-9032-0cb7fc0fe7b7",
+            "image_id": "6405bfc5b9d07cd5d38d7bce"
         },
         {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
         },
         {
-            "id": "64073ba8683721c9a32b0735",
-            "uuid": "b4d5576f-f28c-4d0d-b082-01013b0a7017",
-            "name": "Thon à l'huile d'olive",
-            "type": "tuna-in-olive-oil",
-            "slug": "thon-a-lhuile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80b9d07cd5d38d7ae4-ba1eb86c.png",
-            "imagePath": "/ingredient/6405bf80b9d07cd5d38d7ae4-ba1eb86c.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "boîte(s)",
+            "ingredient_id": "27a15286-5b46-40ae-a5ca-63c9f826995d",
+            "portion_id": "f05eadbb-36f6-462a-8de4-42cd09af1e5a",
+            "image_id": "64073ba8683721c9a32b0735"
         },
         {
-            "id": "64073bd9683721c9a32b0772",
-            "uuid": "1f7e4198-60c6-43e8-b78b-6e476409fe24",
-            "name": "Fromage frais aux herbes",
-            "type": "fresh-herb-cheese",
-            "slug": "fromage-frais-aux-herbes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf18b0da194777986144-e5207bf0.png",
-            "imagePath": "/ingredient/6405bf18b0da194777986144-e5207bf0.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "900c903b-d60c-4876-8015-bdeb3f2350a4"
         },
         {
-            "id": "6405bf33b0da1947779861a9",
-            "uuid": "c1856bbc-8794-5711-ba5e-187063731a2e",
-            "name": "Bagel sésame-pavot",
-            "type": "sesame-bagel",
-            "slug": "bagel-sesame-pavot",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf33b0da1947779861a9-e54e1ab8.png",
-            "imagePath": "/ingredient/6405bf33b0da1947779861a9-e54e1ab8.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "1948f200-8332-4674-b072-59bd34a7c2ce",
+            "portion_id": "6c6db460-fde2-4aff-a173-c2e02aa60ed8",
+            "image_id": "6405bf33b0da1947779861a9"
         },
         {
-            "id": "6405bf42af4af6d531d50aed",
-            "uuid": "5886b747-f090-478f-a9a3-f5e05f29cec7",
-            "name": "Tomates semi-séchées",
-            "type": "semi-dried-tomatoes",
-            "slug": "tomates-semi-sechees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf42af4af6d531d50aed-ba544bfd.png",
-            "imagePath": "/ingredient/6405bf42af4af6d531d50aed-ba544bfd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "922959cb-a5c0-4539-b21f-9b77d32e3a7d"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bf1aaf4af6d531d50a4e",
-            "uuid": "2f5b4e46-bf38-46ba-a674-38ca9b028ff0",
-            "name": "Câpres et dés de cornichons",
-            "type": "capers-and-pickles",
-            "slug": "capres-et-des-de-cornichons",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1aaf4af6d531d50a4e-9683b5a0.png",
-            "imagePath": "/ingredient/6405bf1aaf4af6d531d50a4e-9683b5a0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "f9b63ef3-e31c-4796-8120-dc7f440fd659"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "Recette Express",
-        "handle": "express",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#2671e8",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/63206cd706fed734970bf593",
-    "name": "Bagel au thon, fromage frais & salade",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 289,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1209,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 23.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 8.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 5.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 10,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.81,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT15M",
-    "promotion": null,
-    "ratingsCount": 185,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 172,
-    "slug": "bagel-au-thon-fromage-frais-and-salade",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 200°C (180°C chaleur tournante) si vous n'avez pas de grille-pain.Ciselez la ciboulette. Hachez finement l’échalote. Coupez le citron en quartiers. Égouttez le thon. ",
-            "instructionsHTML": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Préchauffez le four à 200°C (180°C chaleur tournante) si vous n&#39;avez pas de grille-pain.</li><li>Ciselez la ciboulette. </li><li>Hachez finement l’échalote. </li><li>Coupez le citron en quartiers. </li><li>Égouttez le thon. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Préchauffez le four à 200°C (180°C chaleur tournante) si vous n&#39;avez pas de grille-pain.</li><li>Ciselez la ciboulette. </li><li>Hachez finement l’échalote. </li><li>Coupez le citron en quartiers. </li><li>Égouttez le thon. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63206cd706fed734970bf593/step-7d002c00.jpg",
-                    "path": "/63206cd706fed734970bf593/step-7d002c00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Dans un grand bol, ajoutez l’échalote avec le thon, la moitié de la ciboulette, le fromage frais aux herbes et le jus de ¼ de citron par personne (selon votre goût). Salez et poivrez.Écrasez et mélangez bien à la fourchette. ",
-            "instructionsHTML": "<ul><li>Dans un grand bol, ajoutez l’échalote avec le thon, la moitié de la ciboulette, le fromage frais aux herbes et le jus de <span>¼</span> de citron par personne (selon votre goût). Salez et poivrez.</li><li><span>É</span>crasez et mélangez bien à la fourchette. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans un grand bol, ajoutez l’échalote avec le thon, la moitié de la ciboulette, le fromage frais aux herbes et le jus de <span>¼</span> de citron par personne (selon votre goût). Salez et poivrez.</li><li><span>É</span>crasez et mélangez bien à la fourchette. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305372"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63206cd706fed734970bf593/step-0a7a6a10.jpg",
-                    "path": "/63206cd706fed734970bf593/step-0a7a6a10.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Ouvrez les bagels, badigeonnez-les avec un filet d'huile d'olive et enfournez-les 2-3 min sur une grille ou toastez-les au grille-pain.Dans un saladier, faites une vinaigrette en mélangeant la moutarde, avec l'huile des tomates séchées et du vinaigre balsamique. Salez et poivrez.Juste avant de servir, ajoutez la salade (gardez quelques feuilles pour le bagel), les tomates séchées et le reste de ciboulette au saladier avec la vinaigrette. Mélangez.",
-            "instructionsHTML": "<ul><li>Ouvrez les bagels, badigeonnez-les avec un filet d&#39;huile d&#39;olive et enfournez-les 2-3 min sur une grille ou toastez-les au grille-pain.</li><li>Dans un saladier, faites une vinaigrette en mélangeant la moutarde, avec l&#39;huile des tomates séchées et du vinaigre balsamique. Salez et poivrez.</li><li>Juste avant de servir, ajoutez la salade (gardez quelques feuilles pour le bagel), les tomates séchées et le reste de ciboulette au saladier avec la vinaigrette. Mélangez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Ouvrez les bagels, badigeonnez-les avec un filet d&#39;huile d&#39;olive et enfournez-les 2-3 min sur une grille ou toastez-les au grille-pain.</li><li>Dans un saladier, faites une vinaigrette en mélangeant la moutarde, avec l&#39;huile des tomates séchées et du vinaigre balsamique. Salez et poivrez.</li><li>Juste avant de servir, ajoutez la salade (gardez quelques feuilles pour le bagel), les tomates séchées et le reste de ciboulette au saladier avec la vinaigrette. Mélangez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63206cd706fed734970bf593/step-3f0bac20.jpg",
-                    "path": "/63206cd706fed734970bf593/step-3f0bac20.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Étalez la préparation au thon sur les bagels. Ajoutez les dés de cornichons et les câpres ainsi que la salade restante, puis refermez le bagel. Servez-les dans les assiettes avec la salade en accompagnement.",
-            "instructionsHTML": "<ul><li><span>É</span>talez la préparation au thon sur les bagels. Ajoutez les dés de cornichons et les câpres ainsi que la salade restante, puis refermez le bagel. </li><li>Servez-les dans les assiettes avec la salade en accompagnement.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>É</span>talez la préparation au thon sur les bagels. Ajoutez les dés de cornichons et les câpres ainsi que la salade restante, puis refermez le bagel. </li><li>Servez-les dans les assiettes avec la salade en accompagnement.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63206cd706fed734970bf593/step-bb5c1530.jpg",
-                    "path": "/63206cd706fed734970bf593/step-bb5c1530.jpg",
-                    "caption": "Finir et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT10M",
-    "uniqueRecipeCode": "PFR29804340-1",
-    "updatedAt": "2023-12-30T08:51:08+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305372",
-            "type": "largebowl",
-            "name": "Grand bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "3c826acb-a9ef-4ceb-ab0b-d03ecbe9ae5d",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/bagel-au-thon-fromage-frais-and-salade-63206cd706fed734970bf593",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 1.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0735",
-                    "amount": 0.5,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "64073bd9683721c9a32b0772",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf33b0da1947779861a9",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1aaf4af6d531d50a4e",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0735",
-                    "amount": 1,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "64073bd9683721c9a32b0772",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf33b0da1947779861a9",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1aaf4af6d531d50a4e",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 3.75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0735",
-                    "amount": 0.8,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "64073bd9683721c9a32b0772",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf33b0da1947779861a9",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1aaf4af6d531d50a4e",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0735",
-                    "amount": 1,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "64073bd9683721c9a32b0772",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf33b0da1947779861a9",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1aaf4af6d531d50a4e",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 6.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0735",
-                    "amount": 1.8,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "64073bd9683721c9a32b0772",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf33b0da1947779861a9",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1aaf4af6d531d50a4e",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf3caf4af6d531d50ad3",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc5b9d07cd5d38d7bce",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0735",
-                    "amount": 1.6,
-                    "unit": "boîte(s)"
-                },
-                {
-                    "id": "64073bd9683721c9a32b0772",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf33b0da1947779861a9",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf1aaf4af6d531d50a4e",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 200°C (180°C chaleur tournante) si vous n'avez pas de grille-pain.Ciselez la ciboulette. Hachez finement l’échalote. Coupez le citron en quartiers. Égouttez le thon. ",
+        "Dans un grand bol, ajoutez l’échalote avec le thon, la moitié de la ciboulette, le fromage frais aux herbes et le jus de ¼ de citron par personne (selon votre goût). Salez et poivrez.Écrasez et mélangez bien à la fourchette. ",
+        "Ouvrez les bagels, badigeonnez-les avec un filet d'huile d'olive et enfournez-les 2-3 min sur une grille ou toastez-les au grille-pain.Dans un saladier, faites une vinaigrette en mélangeant la moutarde, avec l'huile des tomates séchées et du vinaigre balsamique. Salez et poivrez.Juste avant de servir, ajoutez la salade (gardez quelques feuilles pour le bagel), les tomates séchées et le reste de ciboulette au saladier avec la vinaigrette. Mélangez.",
+        "Étalez la préparation au thon sur les bagels. Ajoutez les dés de cornichons et les câpres ainsi que la salade restante, puis refermez le bagel. Servez-les dans les assiettes avec la salade en accompagnement."
     ]
 }

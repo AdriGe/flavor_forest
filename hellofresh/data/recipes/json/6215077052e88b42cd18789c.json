@@ -1,1183 +1,151 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29803732-1",
-    "country": "FR",
-    "createdAt": "2022-02-22T15:55:29+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b9",
-            "type": "middleeastern",
-            "name": "Middle Eastern",
-            "slug": "middle-eastern",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b9-28649f9a.jpg"
-        }
+        "Middle Eastern"
     ],
     "description": "Vous surveillez votre consommation de calories ? Ce bowl est fait pour vous ! Riches en protéines grâce au filet de poulet et aux pois-chiches, c'est également un concentré de saveurs : les pois-chiches sont cuits dans une sauce à la tomate et aux épices du Moyen-Orient et le plat est servi avec une onctueuse sauce aux herbes fraîches. Bon appétit !",
-    "descriptionHTML": "<p>Vous surveillez votre consommation de calories ? Ce bowl est fait pour vous ! Riches en protéines grâce au filet de poulet et aux pois-chiches, c'est également un concentré de saveurs : les pois-chiches sont cuits dans une sauce à la tomate et aux épices du Moyen-Orient et le plat est servi avec une onctueuse sauce aux herbes fraîches. Bon appétit !</p>",
-    "descriptionMarkdown": "Vous surveillez votre consommation de calories ? Ce bowl est fait pour vous ! Riches en protéines grâce au filet de poulet et aux pois-chiches, c'est également un concentré de saveurs : les pois-chiches sont cuits dans une sauce à la tomate et aux épices du Moyen-Orient et le plat est servi avec une onctueuse sauce aux herbes fraîches. Bon appétit !",
     "difficulty": 2,
     "favoritesCount": 232,
     "headline": "avec des épices & une sauce yaourt aux herbes",
-    "id": "6215077052e88b42cd18789c",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220204_R214_W12_FR_RFR29803732-1_MB_Main_low-558e4b35.jpg",
-    "imagePath": "/image/HF220204_R214_W12_FR_RFR29803732-1_MB_Main_low-558e4b35.jpg",
+    "name": "Bowl poulet & pois chiches",
+    "prepTime": 35,
+    "totalTime": 25,
+    "image_id": "6215077052e88b42cd18789c",
+    "id": "468b91f5-967d-46bd-8639-4ffa39c07644",
+    "nutrition": {
+        "kcal": 507,
+        "fat": 19.85,
+        "saturated_fat": 4.42,
+        "carbohydrate": 30.33,
+        "sugars": 16.26,
+        "protein": 38.11,
+        "sodium": 3.42
+    },
+    "tags": [
+        "Épicé",
+        "Calorie Smart"
+    ],
+    "utensils": [
+        "Passoire",
+        "Casserole avec couvercle",
+        "Petit bol",
+        "Poêle",
+        "Saladier",
+        "Mixeur plongeant"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "id": "6405bfecb9d07cd5d38d7c51",
-            "uuid": "7262c572-ffc2-42ad-948e-594e998863fd",
-            "name": "Persil plat et menthe",
-            "type": "fresh-flat-leaf-parsley-and-mint",
-            "slug": "persil-plat-et-menthe",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfecb9d07cd5d38d7c51-dc12ba92.png",
-            "imagePath": "/ingredient/6405bfecb9d07cd5d38d7c51-dc12ba92.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "ae91d015-116a-41e2-9251-53502d756ece"
         },
         {
-            "id": "6405bfcdb9d07cd5d38d7be7",
-            "uuid": "81ee030d-c41d-5521-acb8-338b9e877fca",
-            "name": "Pois chiches",
-            "type": "chickpeas",
-            "slug": "pois-chiches",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfcdb9d07cd5d38d7be7-d183ad84.png",
-            "imagePath": "/ingredient/6405bfcdb9d07cd5d38d7be7-d183ad84.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.65,
+            "unit": "paquet(s)",
+            "ingredient_id": "fd0d9a39-1fed-4f2c-b5bd-ed0d8f4257c8",
+            "portion_id": "d7f41b70-f2e7-4d49-ba9f-9778b368635f",
+            "image_id": "6405bfcdb9d07cd5d38d7be7"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pot(s)",
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93",
+            "portion_id": "0da30959-c785-43dc-9138-9b35fd2901e9",
+            "image_id": "6405bfefb9d07cd5d38d7c59"
         },
         {
-            "id": "6405bfdcaf4af6d531d50d0e",
-            "uuid": "54f50019-1750-589b-a12c-b8f2e59a3233",
-            "name": "Chair de tomates",
-            "type": "chopped-tomatoes",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdcaf4af6d531d50d0e-8721012d.png",
-            "imagePath": "/ingredient/6405bfdcaf4af6d531d50d0e-8721012d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.65,
+            "unit": "paquet(s)",
+            "ingredient_id": "594d9d1d-f73a-426b-826c-83e454a561ab",
+            "portion_id": "a325f635-8528-43d2-a098-e1951a78b738",
+            "image_id": "6405bfdcaf4af6d531d50d0e"
         },
         {
-            "id": "6405c017b0da1947779864a9",
-            "uuid": "30ed0e56-b62d-4efe-bf0b-d8fb0c16a208",
-            "name": "Mélange d'épices du Moyen-Orient",
-            "type": "middle-eastern-spice-blend",
-            "slug": "melange-depices-du-moyen-orient",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c017b0da1947779864a9-4af21308.png",
-            "imagePath": "/ingredient/6405c017b0da1947779864a9-4af21308.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "11c2569b-aa6c-4c71-867a-937e86576666",
+            "portion_id": "7168f3dd-431d-4696-906f-7821359a93dc",
+            "image_id": "6405c017b0da1947779864a9"
         },
         {
-            "id": "64073ba8df6297bb5beef100",
-            "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
-            "name": "Yaourt à la grecque",
-            "type": "greek-style-natural-yoghurt",
-            "slug": "yaourt-a-la-grecque",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "107478ae-efe4-4776-9dba-0f0481e3dc68",
+            "portion_id": "185229fb-6004-485d-a622-e5f3207f3aa0",
+            "image_id": "64073ba8df6297bb5beef100"
         },
         {
-            "id": "64073ba7df6297bb5beef0ff",
-            "uuid": "f51f9566-994f-53b8-8618-557a8b86e26a",
-            "name": "Filet de poulet",
-            "type": "chicken-fillet",
-            "slug": "filet-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "imagePath": "/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "62cc417a2f15d58ec3559423",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "bb7fea40-a448-408d-822f-4ca1c9ce78cc",
+            "portion_id": "0d9e7911-da10-4172-8390-468c093e34a0",
+            "image_id": "64073ba7df6297bb5beef0ff"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 300,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5122dbc1d64f7b96e270c",
-            "uuid": "3e74f16b-fd54-4f86-bc50-7ce802b6320e",
-            "name": "Cassonade",
-            "type": "cassonade-cc",
-            "slug": "cassonade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "imagePath": "/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "a1021713-ae59-44e5-a855-c171837e293e",
+            "portion_id": "61782b7f-090b-4597-b697-9b5071397f73",
+            "image_id": "63e5122dbc1d64f7b96e270c"
         },
         {
-            "id": "63e5121abc1d64f7b96e2703",
-            "uuid": "992bdbaa-769c-4a52-b731-ce297a918575",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cc",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "imagePath": "/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "10cd97e4-3773-42b6-9da4-8b6260f1fc71",
+            "portion_id": "0c44c896-35b6-40ce-8afc-1d171821add9",
+            "image_id": "63e5121abc1d64f7b96e2703"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6215077052e88b42cd18789c",
-    "name": "Bowl poulet & pois chiches",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 507,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2121,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 19.85,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 4.42,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 30.33,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 16.26,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 38.11,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.42,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 169,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 702,
-    "slug": "bowl-poulet-and-pois-chiches",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préparez le bouillon avec de l'eau chaude.Hachez finement l’oignon et ciselez l’ail.Coupez le concombre en deux et évidez-le à l’aide d’une cuillère. Coupez-le en fines demi-lunes.Effeuillez puis ciselez le persil plat et la menthe. Rincez et égouttez les pois chiches. ",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préparez le bouillon avec de l&#39;eau chaude.</li><li><span>Hachez finement l’oignon et ciselez l’ail.</span></li><li><span>Coupez le concombre en deux et évidez-le à l’aide d’une cuillère. Coupez-le en fines demi-lunes.</span></li><li><span>Effeuillez puis ciselez le persil plat et la menthe. </span></li><li><span>Rincez et égouttez les pois chiches. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préparez le bouillon avec de l&#39;eau chaude.</li><li><span>Hachez finement l’oignon et ciselez l’ail.</span></li><li><span>Coupez le concombre en deux et évidez-le à l’aide d’une cuillère. Coupez-le en fines demi-lunes.</span></li><li><span>Effeuillez puis ciselez le persil plat et la menthe. </span></li><li><span>Rincez et égouttez les pois chiches. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6215077052e88b42cd18789c/step-f8367d00.jpg",
-                    "path": "/6215077052e88b42cd18789c/step-f8367d00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une grande casserole. Faites-y revenir l’oignon et la moitié de l’ail 2-3 min.Ajoutez le concentré de tomates et les tomates concassées ainsi que 1½ cc d’épices du Moyen-Orient par personne (ça pique ! Dosez-les selon votre goût). Faites revenir quelques secondes en remuant.Ajoutez le bouillon et la cassonade. Couvrez et laissez mijoter 10-12 min en remuant de temps à autre. Salez et poivrez. ",
-            "instructionsHTML": "<ul><li><span>Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une grande casserole. </span></li><li><span>Faites-y revenir l’oignon et la moitié de l’ail 2-3 min.</span></li><li><span>Ajoutez le concentré de tomates et les tomates concassées ainsi que 1</span>½<span> cc d’épices du Moyen-Orient par personne </span><span>(ça pique ! Dosez-les selon votre goût). </span><span>Faites revenir quelques secondes en remuant.</span></li><li><span>Ajoutez le bouillon et la cassonade. Couvrez et laissez mijoter 10-12 min en remuant de temps à autre. Salez et poivrez. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une grande casserole. </span></li><li><span>Faites-y revenir l’oignon et la moitié de l’ail 2-3 min.</span></li><li><span>Ajoutez le concentré de tomates et les tomates concassées ainsi que 1</span>½<span> cc d’épices du Moyen-Orient par personne </span><span>(ça pique ! Dosez-les selon votre goût). </span><span>Faites revenir quelques secondes en remuant.</span></li><li><span>Ajoutez le bouillon et la cassonade. Couvrez et laissez mijoter 10-12 min en remuant de temps à autre. Salez et poivrez. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6215077052e88b42cd18789c/step-7563d010.jpg",
-                    "path": "/6215077052e88b42cd18789c/step-7563d010.jpg",
-                    "caption": "Commencer à cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la moitié des herbes ciselées et 1 cc d'eau par personne. Salez et poivrez. Réservez au frais jusqu’au service. ",
-            "instructionsHTML": "<ul><li><span>Dans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la moitié des herbes ciselées et 1 cc d&#39;eau par personne. Salez et poivrez. </span></li><li><span>Réservez au frais jusqu’au service. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Dans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la moitié des herbes ciselées et 1 cc d&#39;eau par personne. Salez et poivrez. </span></li><li><span>Réservez au frais jusqu’au service. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6215077052e88b42cd18789c/step-99f55020.jpg",
-                    "path": "/6215077052e88b42cd18789c/step-99f55020.jpg",
-                    "caption": "Faire la sauce aux herbes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif.Faites-y revenir le poulet et le reste d’ail 3-6 min de chaque côté ou jusqu’à ce que la viande soit cuite. Salez et poivrez.CONSEIL: Le poulet est cuit lorsque sa chair est d'un blanc opaque à cœur.",
-            "instructionsHTML": "<ul><li><span>Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif.</span></li><li><span>Faites-y revenir le poulet et le reste d’ail 3-6 min de chaque côté ou jusqu’à ce que la viande soit cuite. Salez et poivrez.</span></li></ul><p>CONSEIL: Le poulet est cuit lorsque sa chair est d&#39;un blanc opaque à cœur.</p>",
-            "instructionsMarkdown": "<ul><li><span>Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif.</span></li><li><span>Faites-y revenir le poulet et le reste d’ail 3-6 min de chaque côté ou jusqu’à ce que la viande soit cuite. Salez et poivrez.</span></li></ul><p>CONSEIL: Le poulet est cuit lorsque sa chair est d&#39;un blanc opaque à cœur.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6215077052e88b42cd18789c/step-a9259e30.jpg",
-                    "path": "/6215077052e88b42cd18789c/step-a9259e30.jpg",
-                    "caption": "Cuire le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, mixez le contenu de la casserole au mixeur plongeant jusqu’à obtenir une sauce épaisse. Ajoutez les pois chiches à la sauce et faites cuire 3-4 min à feu moyen.Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin blanc pour faire une vinaigrette. Juste avant de servir, ajoutez les pousses d'épinards et radicchio, le concombre et le reste d’herbes ciselées. Salez, poivrez et mélangez. ",
-            "instructionsHTML": "<ul><li><span>Pendant ce temps, mixez le contenu de la casserole au mixeur plongeant jusqu’à obtenir une sauce épaisse. </span></li><li><span>Ajoutez les pois chiches à la sauce et faites cuire 3-4 min à feu moyen.</span></li><li><span>Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin blanc pour faire une vinaigrette. Juste avant de servir, ajoutez les pousses d&#39;épinards et radicchio, le concombre et le reste d’herbes ciselées. Salez, poivrez et mélangez. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Pendant ce temps, mixez le contenu de la casserole au mixeur plongeant jusqu’à obtenir une sauce épaisse. </span></li><li><span>Ajoutez les pois chiches à la sauce et faites cuire 3-4 min à feu moyen.</span></li><li><span>Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin blanc pour faire une vinaigrette. Juste avant de servir, ajoutez les pousses d&#39;épinards et radicchio, le concombre et le reste d’herbes ciselées. Salez, poivrez et mélangez. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d",
-                "57e2674fb7e8697d4b30539a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6215077052e88b42cd18789c/step-63d85440.jpg",
-                    "path": "/6215077052e88b42cd18789c/step-63d85440.jpg",
-                    "caption": "Mixer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les pois chiches en sauce dans les assiettes. Placez la salade, le poulet et la sauce aux herbes à côté. ",
-            "instructionsHTML": "<ul><li>Servez les pois chiches en sauce dans les assiettes. </li><li>Placez la salade, le poulet et la sauce aux herbes à côté. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez les pois chiches en sauce dans les assiettes. </li><li>Placez la salade, le poulet et la sauce aux herbes à côté. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6215077052e88b42cd18789c/step-dedaeb50.jpg",
-                    "path": "/6215077052e88b42cd18789c/step-dedaeb50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b30531a",
-            "type": "calorie-smart",
-            "name": "Calorie Smart",
-            "slug": "calorie-smart",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29803732-1",
-    "updatedAt": "2023-12-18T14:18:11+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30539a",
-            "type": "stick-blender",
-            "name": "Mixeur plongeant"
-        }
-    ],
-    "uuid": "d1af67f2-94d2-4e21-b706-3743c9592a20",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/bowl-poulet-and-pois-chiches-6215077052e88b42cd18789c",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 0.32,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 0.45,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 0.65,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 0.65,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.75,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 1.65,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 1.3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 1.65,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 1.65,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préparez le bouillon avec de l'eau chaude.Hachez finement l’oignon et ciselez l’ail.Coupez le concombre en deux et évidez-le à l’aide d’une cuillère. Coupez-le en fines demi-lunes.Effeuillez puis ciselez le persil plat et la menthe. Rincez et égouttez les pois chiches. ",
+        "Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une grande casserole. Faites-y revenir l’oignon et la moitié de l’ail 2-3 min.Ajoutez le concentré de tomates et les tomates concassées ainsi que 1½ cc d’épices du Moyen-Orient par personne (ça pique ! Dosez-les selon votre goût). Faites revenir quelques secondes en remuant.Ajoutez le bouillon et la cassonade. Couvrez et laissez mijoter 10-12 min en remuant de temps à autre. Salez et poivrez. ",
+        "Dans un petit bol, mélangez le yaourt avec un filet d’huile d’olive, la moitié des herbes ciselées et 1 cc d'eau par personne. Salez et poivrez. Réservez au frais jusqu’au service. ",
+        "Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif.Faites-y revenir le poulet et le reste d’ail 3-6 min de chaque côté ou jusqu’à ce que la viande soit cuite. Salez et poivrez.CONSEIL: Le poulet est cuit lorsque sa chair est d'un blanc opaque à cœur.",
+        "Pendant ce temps, mixez le contenu de la casserole au mixeur plongeant jusqu’à obtenir une sauce épaisse. Ajoutez les pois chiches à la sauce et faites cuire 3-4 min à feu moyen.Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin blanc pour faire une vinaigrette. Juste avant de servir, ajoutez les pousses d'épinards et radicchio, le concombre et le reste d’herbes ciselées. Salez, poivrez et mélangez. ",
+        "Servez les pois chiches en sauce dans les assiettes. Placez la salade, le poulet et la sauce aux herbes à côté. "
     ]
 }

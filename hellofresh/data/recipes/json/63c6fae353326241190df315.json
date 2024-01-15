@@ -1,1001 +1,124 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b305303",
-            "name": "Œuf",
-            "type": "traces-of-egg",
-            "slug": "traces-of-oeuf",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804296-1",
-    "country": "FR",
-    "createdAt": "2023-01-17T19:45:40+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "Aujourd'hui, nous vous proposons de cuisiner une galette bretonne garnie de lardons et d'une fondue de poireaux gourmande avec un œuf miroir pour faire comme à la crêperie ! Accompagnez-la d'une salade fraîche pour un repas simple et complet.",
-    "descriptionHTML": "<p>Aujourd'hui, nous vous proposons de cuisiner une galette bretonne garnie de lardons et d'une fondue de poireaux gourmande avec un œuf miroir pour faire comme à la crêperie ! Accompagnez-la d'une salade fraîche pour un repas simple et complet.</p>",
-    "descriptionMarkdown": "Aujourd'hui, nous vous proposons de cuisiner une galette bretonne garnie de lardons et d'une fondue de poireaux gourmande avec un œuf miroir pour faire comme à la crêperie ! Accompagnez-la d'une salade fraîche pour un repas simple et complet.",
     "difficulty": 2,
     "favoritesCount": 274,
     "headline": "avec une salade fraîche",
-    "id": "63c6fae353326241190df315",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R218_W07_FR_RFR29804296-1_Main_low-1b9673ea.jpg",
-    "imagePath": "/image/HF_Y23_R218_W07_FR_RFR29804296-1_Main_low-1b9673ea.jpg",
+    "name": "Galette de sarrasin, poireaux & lardons",
+    "prepTime": 30,
+    "totalTime": 20,
+    "image_id": "63c6fae353326241190df315",
+    "id": "604649f1-d227-4a3a-bf50-6608c749eb17",
+    "nutrition": {
+        "kcal": 597,
+        "fat": 43.4,
+        "saturated_fat": 19.9,
+        "carbohydrate": 27.7,
+        "sugars": 8,
+        "protein": 23.7,
+        "sodium": 2.45
+    },
+    "tags": [
+        "Œufs non inclus",
+        "Famille",
+        "<650 Kcal",
+        "Carb Smart"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Poêle",
+        "Râpe",
+        "Poêle avec couvercle",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405bf20af4af6d531d50a61",
-            "uuid": "cd41d645-9674-434e-b1cf-fe77522604cd",
-            "name": "Lardons fumés",
-            "type": "cubed-bacon",
-            "slug": "lardons-fumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "imagePath": "/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "378fd004-6e40-46bc-ba38-fd40e9d5a5e8"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "64073bbbdf6297bb5beef116",
-            "uuid": "3277e168-79fc-4365-9f5d-4d3e350fecd6",
-            "name": "Galette de blé noir",
-            "type": "buckwheat-crepe",
-            "slug": "galette-de-ble-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf97b0da194777986301-fff9e2dc.png",
-            "imagePath": "/ingredient/6405bf97b0da194777986301-fff9e2dc.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "57962a07b7e8697d4b305303",
-                "62cc417a2f15d58ec3559423",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "937cc101-94c3-4d21-87cf-70bd80e2d458",
+            "portion_id": "742fa40b-362a-431e-9598-137452629b11",
+            "image_id": "64073bbbdf6297bb5beef116"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121d81b4b295e66f0254",
-            "uuid": "0449d885-5c94-44dc-a65f-bcf23237df95",
-            "name": "Œuf",
-            "type": "oeuf",
-            "slug": "oeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "imagePath": "/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "9c2e39a8-8fc0-49a0-9a1a-4b5448e1fe1a",
+            "portion_id": "939cf6d0-beb9-4e89-9829-565fee32f52c",
+            "image_id": "63e5121d81b4b295e66f0254"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/63c6fae353326241190df315",
-    "name": "Galette de sarrasin, poireaux & lardons",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 597,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2497,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 43.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 19.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 27.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 23.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.45,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 343,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 419,
-    "slug": "galette-de-sarrasin-poireaux-and-lardons",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! *Coupez le poireau en 4 dans l'épaisseur, lavez-le bien et émincez-le finement. *Faites chauffer une noix de beurre dans une grande casserole ou une marmite à feu moyen et faites-y revenir le poireau 2 min. *Salez et poivrez, puis couvrez et laissez le poireau suer 12-15 min. ",
-            "instructionsHTML": "<p><span>*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></p><p><span>*Coupez le poireau en 4 dans l&#39;épaisseur, lavez-le bien et émincez-le finement. </span></p><p><span>*Faites chauffer une noix de beurre dans une grande casserole ou une marmite à feu moyen et faites-y revenir le poireau 2 min. </span></p><p><span>*Salez et poivrez, puis couvrez et laissez le poireau suer 12-15 min. </span></p>",
-            "instructionsMarkdown": "<p><span>*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></p><p><span>*Coupez le poireau en 4 dans l&#39;épaisseur, lavez-le bien et émincez-le finement. </span></p><p><span>*Faites chauffer une noix de beurre dans une grande casserole ou une marmite à feu moyen et faites-y revenir le poireau 2 min. </span></p><p><span>*Salez et poivrez, puis couvrez et laissez le poireau suer 12-15 min. </span></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63c6fae353326241190df315/step-aa526d00.jpg",
-                    "path": "/63c6fae353326241190df315/step-aa526d00.jpg",
-                    "caption": "Faire la fondue de poireaux"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "*Pendant ce temps, faites chauffer une poêle à feu moyen-vif.*Faites-y revenir les lardons 5-7 min, ou jusqu’à ce qu’ils soient dorés.",
-            "instructionsHTML": "<p><span>*Pendant ce temps, faites chauffer une poêle à feu moyen-vif.</span></p><p><span>*Faites-y revenir les lardons 5-7 min, ou jusqu’à ce qu’ils soient dorés.</span></p>",
-            "instructionsMarkdown": "<p><span>*Pendant ce temps, faites chauffer une poêle à feu moyen-vif.</span></p><p><span>*Faites-y revenir les lardons 5-7 min, ou jusqu’à ce qu’ils soient dorés.</span></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63c6fae353326241190df315/step-fe1a6610.jpg",
-                    "path": "/63c6fae353326241190df315/step-fe1a6610.jpg",
-                    "caption": "Dorer les lardons"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "*Lorsque le poireau est fondant, retirez le couvercle et ajoutez la crème. Râpez un peu de noix de muscade par-dessus (selon votre goût). Salez et poivrez, puis laissez réduire 3-5 min. *Cassez chaque œuf dans un petit ramequin (cette étape est facultative : vous pourrez aussi casser l’œuf directement sur chaque galette).",
-            "instructionsHTML": "<p><span>*Lorsque le poireau est fondant, retirez le couvercle et ajoutez la crème. Râpez un peu de noix de muscade par-dessus </span>(selon votre goût)<span>. Salez et poivrez, puis laissez réduire 3-5 min. </span></p><p><span>*Cassez chaque œuf dans un petit ramequin (cette étape est facultative : vous pourrez aussi casser l’œuf directement sur chaque galette).</span></p>",
-            "instructionsMarkdown": "<p><span>*Lorsque le poireau est fondant, retirez le couvercle et ajoutez la crème. Râpez un peu de noix de muscade par-dessus </span>(selon votre goût)<span>. Salez et poivrez, puis laissez réduire 3-5 min. </span></p><p><span>*Cassez chaque œuf dans un petit ramequin (cette étape est facultative : vous pourrez aussi casser l’œuf directement sur chaque galette).</span></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63c6fae353326241190df315/step-4951be20.jpg",
-                    "path": "/63c6fae353326241190df315/step-4951be20.jpg",
-                    "caption": "Assaisonner le poireau"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "*Dans une grande poêle, faites fondre une noix de beurre à feu moyen-vif. avant d’y déposer une galette par personne (voir CONSEIL). *Garnissez-la de fondue de poireaux et de lardons, puis ajoutez-y aussitôt l’œuf. Salez et poivrez. Couvrez et faitescuire 2-4 min, ou jusqu’à ce que le blanc de l’œuf soit opaque et ferme.*Repliez les bords pour former un carré et laissez cuire 1 min de plus. Répétez l’opération avec les autres galettes.CONSEIL: Utilisez plusieurs poêles si vous êtes nombreux !",
-            "instructionsHTML": "<p><span>*Dans une grande poêle, faites fondre une noix de beurre à feu moyen-vif. avant d’y déposer une galette par personne (voir CONSEIL). </span></p><p><span>*G</span><span>arnissez-la de fondue de poireaux et de lardons, puis a</span><span>joutez-y aussitôt l’œuf. Salez et poivrez. </span>Couvrez et faites</p><p>cuire 2-4 min, ou jusqu’à ce que le blanc de l’œuf soit opaque et ferme.</p><p><span>*Repliez les bords pour former un carré et laissez cuire 1 min de plus. R</span><span>épétez l’opération avec les autres galettes.</span></p><p>CONSEIL: Utilisez plusieurs poêles si vous êtes nombreux !</p>",
-            "instructionsMarkdown": "<p><span>*Dans une grande poêle, faites fondre une noix de beurre à feu moyen-vif. avant d’y déposer une galette par personne (voir CONSEIL). </span></p><p><span>*G</span><span>arnissez-la de fondue de poireaux et de lardons, puis a</span><span>joutez-y aussitôt l’œuf. Salez et poivrez. </span>Couvrez et faites</p><p>cuire 2-4 min, ou jusqu’à ce que le blanc de l’œuf soit opaque et ferme.</p><p><span>*Repliez les bords pour former un carré et laissez cuire 1 min de plus. R</span><span>épétez l’opération avec les autres galettes.</span></p><p>CONSEIL: Utilisez plusieurs poêles si vous êtes nombreux !</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff531"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63c6fae353326241190df315/step-7fc05b30.jpg",
-                    "path": "/63c6fae353326241190df315/step-7fc05b30.jpg",
-                    "caption": "Cuire les galettes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "*Dans un saladier, faites une vinaigrette en mélangeant ½ cc de moutarde avec un filet d’huile d’olive et de vinaigre de vin ou de cidre (encore mieux !), du sel et du poivre. *Ajoutez la salade, puis mélangez. ",
-            "instructionsHTML": "<p><span>*Dans un saladier, faites une vinaigrette en mélangeant </span><span>½ cc de moutarde avec</span><span> un filet d’huile d’olive et de vinaigre de vin ou de cidre (encore mieux !), du sel et du poivre. </span></p><p><span>*Ajoutez la salade, puis mélangez. </span></p>",
-            "instructionsMarkdown": "<p><span>*Dans un saladier, faites une vinaigrette en mélangeant </span><span>½ cc de moutarde avec</span><span> un filet d’huile d’olive et de vinaigre de vin ou de cidre (encore mieux !), du sel et du poivre. </span></p><p><span>*Ajoutez la salade, puis mélangez. </span></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63c6fae353326241190df315/step-f91e7740.jpg",
-                    "path": "/63c6fae353326241190df315/step-f91e7740.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "*Servez les galettes dans les assiettes.*Placez la salade à côté.",
-            "instructionsHTML": "<p><span>*Servez les galettes dans les assiettes.</span></p><p><span>*Placez la salade à côté.</span></p>",
-            "instructionsMarkdown": "<p><span>*Servez les galettes dans les assiettes.</span></p><p><span>*Placez la salade à côté.</span></p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63c6fae353326241190df315/step-cb9f5150.jpg",
-                    "path": "/63c6fae353326241190df315/step-cb9f5150.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b30531c",
-            "type": "egg-free",
-            "name": "Œufs non inclus",
-            "slug": "œufs-non-inclus",
-            "colorHandle": "regular",
-            "preferences": [
-                "Classique"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5e7bd043e32d4f75fc4e1117",
-            "type": "carb-smart",
-            "name": "Carb Smart",
-            "slug": "carb-smart",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR29804296-1",
-    "updatedAt": "2024-01-04T22:33:03+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff531",
-            "type": null,
-            "name": "Poêle avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "70570249-7d62-4bbe-977b-6f1234551c7a",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/galette-de-sarrasin-poireaux-and-lardons-63c6fae353326241190df315",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bbbdf6297bb5beef116",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bbbdf6297bb5beef116",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bbbdf6297bb5beef116",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bbbdf6297bb5beef116",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bbbdf6297bb5beef116",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bbbdf6297bb5beef116",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! *Coupez le poireau en 4 dans l'épaisseur, lavez-le bien et émincez-le finement. *Faites chauffer une noix de beurre dans une grande casserole ou une marmite à feu moyen et faites-y revenir le poireau 2 min. *Salez et poivrez, puis couvrez et laissez le poireau suer 12-15 min. ",
+        "*Pendant ce temps, faites chauffer une poêle à feu moyen-vif.*Faites-y revenir les lardons 5-7 min, ou jusqu’à ce qu’ils soient dorés.",
+        "*Lorsque le poireau est fondant, retirez le couvercle et ajoutez la crème. Râpez un peu de noix de muscade par-dessus (selon votre goût). Salez et poivrez, puis laissez réduire 3-5 min. *Cassez chaque œuf dans un petit ramequin (cette étape est facultative : vous pourrez aussi casser l’œuf directement sur chaque galette).",
+        "*Dans une grande poêle, faites fondre une noix de beurre à feu moyen-vif. avant d’y déposer une galette par personne (voir CONSEIL). *Garnissez-la de fondue de poireaux et de lardons, puis ajoutez-y aussitôt l’œuf. Salez et poivrez. Couvrez et faitescuire 2-4 min, ou jusqu’à ce que le blanc de l’œuf soit opaque et ferme.*Repliez les bords pour former un carré et laissez cuire 1 min de plus. Répétez l’opération avec les autres galettes.CONSEIL: Utilisez plusieurs poêles si vous êtes nombreux !",
+        "*Dans un saladier, faites une vinaigrette en mélangeant ½ cc de moutarde avec un filet d’huile d’olive et de vinaigre de vin ou de cidre (encore mieux !), du sel et du poivre. *Ajoutez la salade, puis mélangez. ",
+        "*Servez les galettes dans les assiettes.*Placez la salade à côté."
     ]
 }

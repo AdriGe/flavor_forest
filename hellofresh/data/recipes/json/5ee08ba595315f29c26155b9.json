@@ -1,958 +1,125 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RFR16631825-1",
-    "country": "FR",
-    "createdAt": "2020-06-10T07:28:39+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b7",
-            "type": "indonesian",
-            "name": "Indonesian",
-            "slug": "indonesian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b7-60cbb133.jpg"
-        }
+        "Indonesian"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 114,
     "headline": "avec une salade de carottes, concombre et piment rouge",
-    "id": "5ee08ba595315f29c26155b9",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF191016_R09_W46_NL_R1941_main_Stew_low-43352055.jpg",
-    "imagePath": "/image/HF191016_R09_W46_NL_R1941_main_Stew_low-43352055.jpg",
+    "name": "Boeuf rendang & riz au lait de coco citronnelle",
+    "prepTime": 35,
+    "totalTime": 20,
+    "image_id": "5ee08ba595315f29c26155b9",
+    "id": "519d5473-1b41-47ab-a7f3-5c031870a463",
+    "nutrition": {
+        "kcal": 103,
+        "fat": 5,
+        "saturated_fat": 1,
+        "carbohydrate": 11.6,
+        "sugars": 10.1,
+        "protein": 1.9,
+        "sodium": 3.27
+    },
+    "tags": [
+        "Épicé"
+    ],
+    "utensils": [
+        "Casserole",
+        "Éplucheur",
+        "Saladier",
+        "Sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf37af4af6d531d50ac6",
-            "uuid": "1f30a4cb-b684-5fd7-8f5a-e8ed576c592e",
-            "name": "Riz",
-            "type": "long-grain-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf37af4af6d531d50ac6-c6796b46.png",
-            "imagePath": "/ingredient/6405bf37af4af6d531d50ac6-c6796b46.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bfdfb0da1947779863ee",
-            "uuid": "4be57e09-204f-50f6-abf5-a91e4a8099db",
-            "name": "Lait de coco",
-            "type": "coconut-milk",
-            "slug": "lait-de-coco",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "imagePath": "/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf5daf4af6d531d50b71",
-            "uuid": "26b934db-2410-4d62-aa9c-b6647a00d769",
-            "name": "Citronnelle moulue",
-            "type": "ground-lemongrass",
-            "slug": "citronnelle-moulue",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5daf4af6d531d50b71-9a8e0c44.png",
-            "imagePath": "/ingredient/6405bf5daf4af6d531d50b71-9a8e0c44.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "6405bf8eb9d07cd5d38d7b12",
-            "uuid": "e4f45c4f-cce5-4937-a897-e97ddc289202",
-            "name": "Bœuf rendang",
-            "type": "beef-rendang",
-            "slug": "boeuf-rendang",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8eb9d07cd5d38d7b12-8a6926be.png",
-            "imagePath": "/ingredient/6405bf8eb9d07cd5d38d7b12-8a6926be.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5123381b4b295e66f0260",
-            "uuid": "06cc03c2-cb53-410a-b25b-6f183a4ccaf0",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cs",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "imagePath": "/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5120f81b4b295e66f024c",
-            "uuid": "b4e35b51-11dd-40c7-ad89-298e1a7e2589",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cs",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "imagePath": "/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5121981b4b295e66f0252",
-            "uuid": "eb029dc0-9343-4084-a8e5-d459f6a9f510",
-            "name": "Bouillon de bœuf",
-            "type": "bouillon-de-boeuf-ml",
-            "slug": "bouillon-de-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121981b4b295e66f0252-37741b75.jpeg",
-            "imagePath": "/ingredient/63e5121981b4b295e66f0252-37741b75.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        },
-        {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
-        }
-    ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5ee08ba595315f29c26155b9",
-    "name": "Boeuf rendang & riz au lait de coco citronnelle",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 103,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 433,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
             "amount": 1,
-            "unit": "g"
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 11.6,
-            "unit": "g"
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 10.1,
-            "unit": "g"
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 1.9,
-            "unit": "g"
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.27,
-            "unit": "g"
+            "amount": 170,
+            "unit": "g",
+            "ingredient_id": "9447865f-5ee9-462c-ac81-1bfbfa749ddd"
+        },
+        {
+            "amount": 150,
+            "unit": "ml",
+            "ingredient_id": "76aac1fa-8a19-4830-b297-778d46f6f9ea"
+        },
+        {
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "219bbd47-d055-4956-91b9-a6a800f042c3",
+            "portion_id": "eca50c29-442f-4f1c-8484-ac4d410ad16a",
+            "image_id": "6405bf5daf4af6d531d50b71"
+        },
+        {
+            "amount": 240,
+            "unit": "g",
+            "ingredient_id": "00231746-9204-49ea-a688-c5db794e9b0d"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cs",
+            "ingredient_id": "6b8a7ee4-2b73-44f4-94c2-74027993111c",
+            "portion_id": "7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0",
+            "image_id": "63e5123381b4b295e66f0260"
+        },
+        {
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cs",
+            "ingredient_id": "a06e5c2f-acd2-4770-8fac-0bdb4343cae2",
+            "portion_id": "4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad",
+            "image_id": "63e5120f81b4b295e66f024c"
+        },
+        {
+            "amount": 600,
+            "unit": "ml",
+            "ingredient_id": "be882e0e-1ab6-40dc-b25e-388b2ad02a82"
+        },
+        {
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 98,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 512,
-    "slug": "boeuf-rendang-and-riz-au-lait-de-coco-citronnelle",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préparez le bouillon dans une casserole et portez le à ébullition. Pressez ou émincez l'ail. Épépinez le piment rouge et coupez-le finement.CONSEIL: Pour épépinez le piment, coupez le chapeau, retournez-le et roulez le entre vos mains pour faire sortir les grains.",
-            "instructionsHTML": "<p>Préparez le bouillon dans une casserole et portez le à ébullition. <span>Pressez ou émincez l&#39;ail. Épépinez le piment rouge et coupez-le finement.</span></p><p>CONSEIL: Pour épépinez le piment, coupez le chapeau, retournez-le et roulez le entre vos mains pour faire sortir les grains.</p>",
-            "instructionsMarkdown": "<p>Préparez le bouillon dans une casserole et portez le à ébullition. <span>Pressez ou émincez l&#39;ail. Épépinez le piment rouge et coupez-le finement.</span></p><p>CONSEIL: Pour épépinez le piment, coupez le chapeau, retournez-le et roulez le entre vos mains pour faire sortir les grains.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ee08ba595315f29c26155b9/step-242d8900.jpg",
-                    "path": "/5ee08ba595315f29c26155b9/step-242d8900.jpg",
-                    "caption": "Préparation"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Émincez la carotte et le concombre en long rubans à l’aide d’un éplucheur. Dans un saladier, préparez une vinaigrette avec du vinaigre de vin blanc et du sucre. Mélangez la carotte, le concombre et la moitié du piment rouge à la vinaigrette. Remuez de temps en temps jusqu’à ce que la vinaigrette imprègne bien les légumes.CONSEIL: Pour réaliser des rubans, partez du haut du légume avec votre éplucheur et descendez sur toute sa longueur comme si vous l'épluchiez.",
-            "instructionsHTML": "<p><span>Émincez la carotte et le concombre en long rubans à l’aide d’un éplucheur. Dans un saladier, préparez une vinaigrette avec du vinaigre de vin blanc et du sucre. Mélangez la carotte, le concombre et la moitié du piment rouge à la vinaigrette. Remuez de temps en temps jusqu’à ce que la vinaigrette imprègne bien les légumes.</span></p><p>CONSEIL: Pour réaliser des rubans, partez du haut du légume avec votre éplucheur et descendez sur toute sa longueur comme si vous l&#39;épluchiez.</p>",
-            "instructionsMarkdown": "<p><span>Émincez la carotte et le concombre en long rubans à l’aide d’un éplucheur. Dans un saladier, préparez une vinaigrette avec du vinaigre de vin blanc et du sucre. Mélangez la carotte, le concombre et la moitié du piment rouge à la vinaigrette. Remuez de temps en temps jusqu’à ce que la vinaigrette imprègne bien les légumes.</span></p><p>CONSEIL: Pour réaliser des rubans, partez du haut du légume avec votre éplucheur et descendez sur toute sa longueur comme si vous l&#39;épluchiez.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305379",
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ee08ba595315f29c26155b9/step-3bd24a10.jpg",
-                    "path": "/5ee08ba595315f29c26155b9/step-3bd24a10.jpg",
-                    "caption": "Préparer la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites cuire le riz 10 à 12 minutes à couvert dans la casserole avec le bouillon. Égouttez si nécessaire et réservez sans couvercle. Mélangez ensuite le riz à 2 cs de lait de coco par personne. Salez et poivrez.",
-            "instructionsHTML": "<p><span>Faites cuire le riz 10 à 12 minutes à couvert dans la casserole avec le bouillon. Égouttez si nécessaire et réservez sans couvercle. Mélangez ensuite le riz à 2 cs de lait de coco par personne. Salez et poivrez.</span></p>",
-            "instructionsMarkdown": "<p><span>Faites cuire le riz 10 à 12 minutes à couvert dans la casserole avec le bouillon. Égouttez si nécessaire et réservez sans couvercle. Mélangez ensuite le riz à 2 cs de lait de coco par personne. Salez et poivrez.</span></p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ee08ba595315f29c26155b9/step-577a5620.jpg",
-                    "path": "/5ee08ba595315f29c26155b9/step-577a5620.jpg",
-                    "caption": "Cuire le riz"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Entre temps, faites chauffer 1/4 cs d’huile de tournesol par personne à feu moyen-vif dans une sauteuse. Faites cuire l’ail, le reste de piment rouge et la citronnelle 1 à 2 minutes.",
-            "instructionsHTML": "<p><span>Entre temps, faites chauffer 1/4 cs d’huile de tournesol par personne à feu moyen-vif dans une sauteuse. Faites cuire l’ail, le reste de piment rouge et la citronnelle 1 à 2 minutes.</span></p>",
-            "instructionsMarkdown": "<p><span>Entre temps, faites chauffer 1/4 cs d’huile de tournesol par personne à feu moyen-vif dans une sauteuse. Faites cuire l’ail, le reste de piment rouge et la citronnelle 1 à 2 minutes.</span></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ee08ba595315f29c26155b9/step-242db330.jpg",
-                    "path": "/5ee08ba595315f29c26155b9/step-242db330.jpg",
-                    "caption": "Préparer le rendang"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Ajoutez le bœuf rendang et presque tout le lait de coco (conservez 2 cs de lait de coco par personne pour le riz – voir étape 3) à la sauteuse et remuez bien. Baissez le feu au minimum et laissez le tout cuire doucement 10 à 12 minutes à couvert.",
-            "instructionsHTML": "<p><span>Ajoutez le bœuf rendang et presque tout le lait de coco (conservez 2 cs de lait de coco par personne pour le riz – voir étape 3) à la sauteuse et remuez bien. Baissez le feu au minimum et laissez le tout cuire doucement 10 à 12 minutes à couvert.</span></p>",
-            "instructionsMarkdown": "<p><span>Ajoutez le bœuf rendang et presque tout le lait de coco (conservez 2 cs de lait de coco par personne pour le riz – voir étape 3) à la sauteuse et remuez bien. Baissez le feu au minimum et laissez le tout cuire doucement 10 à 12 minutes à couvert.</span></p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ee08ba595315f29c26155b9/step-7f34ee40.jpg",
-                    "path": "/5ee08ba595315f29c26155b9/step-7f34ee40.jpg",
-                    "caption": "Cuire le rendang"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Répartissez le riz dans les assiettes et disposez le rendang dessus. Servez la salade aigre-douce de carottes et de concombre à côté.CONSEIL: LE SAVIEZ-VOUS ? Le rendang est le nom d'un ragoût originaire de la cuisine indonésienne. Le principe est de mélanger la viande à des épices et de la cuire longuement dans du lait de coco.",
-            "instructionsHTML": "<p><span>Répartissez le riz dans les assiettes et disposez le rendang dessus. Servez la salade aigre-douce de carottes et de concombre à côté.</span></p><p>CONSEIL: LE SAVIEZ-VOUS ? Le rendang est le nom d&#39;un ragoût originaire de la cuisine indonésienne.  Le principe est de mélanger la viande à des épices et de la cuire longuement dans du lait de coco.</p>",
-            "instructionsMarkdown": "<p><span>Répartissez le riz dans les assiettes et disposez le rendang dessus. Servez la salade aigre-douce de carottes et de concombre à côté.</span></p><p>CONSEIL: LE SAVIEZ-VOUS ? Le rendang est le nom d&#39;un ragoût originaire de la cuisine indonésienne.  Le principe est de mélanger la viande à des épices et de la cuire longuement dans du lait de coco.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ee08ba595315f29c26155b9/step-d6e74850.jpg",
-                    "path": "/5ee08ba595315f29c26155b9/step-d6e74850.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR16631825-1",
-    "updatedAt": "2023-11-28T22:52:37+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        }
-    ],
-    "uuid": "127d0099-1fe1-44f2-b87e-7769f01fa0e5",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/boeuf-rendang-and-riz-au-lait-de-coco-citronnelle-5ee08ba595315f29c26155b9",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 85,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 75,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b12",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 0.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 0.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 170,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b12",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 225,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b12",
-                    "amount": 480,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 0.75,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 0.75,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 900,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 335,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b12",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 1200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 420,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 375,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b12",
-                    "amount": 720,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1.25,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 1500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 450,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b12",
-                    "amount": 960,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121981b4b295e66f0252",
-                    "amount": 1800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préparez le bouillon dans une casserole et portez le à ébullition. Pressez ou émincez l'ail. Épépinez le piment rouge et coupez-le finement.CONSEIL: Pour épépinez le piment, coupez le chapeau, retournez-le et roulez le entre vos mains pour faire sortir les grains.",
+        "Émincez la carotte et le concombre en long rubans à l’aide d’un éplucheur. Dans un saladier, préparez une vinaigrette avec du vinaigre de vin blanc et du sucre. Mélangez la carotte, le concombre et la moitié du piment rouge à la vinaigrette. Remuez de temps en temps jusqu’à ce que la vinaigrette imprègne bien les légumes.CONSEIL: Pour réaliser des rubans, partez du haut du légume avec votre éplucheur et descendez sur toute sa longueur comme si vous l'épluchiez.",
+        "Faites cuire le riz 10 à 12 minutes à couvert dans la casserole avec le bouillon. Égouttez si nécessaire et réservez sans couvercle. Mélangez ensuite le riz à 2 cs de lait de coco par personne. Salez et poivrez.",
+        "Entre temps, faites chauffer 1/4 cs d’huile de tournesol par personne à feu moyen-vif dans une sauteuse. Faites cuire l’ail, le reste de piment rouge et la citronnelle 1 à 2 minutes.",
+        "Ajoutez le bœuf rendang et presque tout le lait de coco (conservez 2 cs de lait de coco par personne pour le riz – voir étape 3) à la sauteuse et remuez bien. Baissez le feu au minimum et laissez le tout cuire doucement 10 à 12 minutes à couvert.",
+        "Répartissez le riz dans les assiettes et disposez le rendang dessus. Servez la salade aigre-douce de carottes et de concombre à côté.CONSEIL: LE SAVIEZ-VOUS ? Le rendang est le nom d'un ragoût originaire de la cuisine indonésienne. Le principe est de mélanger la viande à des épices et de la cuire longuement dans du lait de coco."
     ]
 }

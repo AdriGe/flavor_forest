@@ -1,1047 +1,132 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RFR20161791-2",
-    "country": "FR",
-    "createdAt": "2021-03-16T13:49:35+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a9",
-            "type": "greek",
-            "name": "Grecque",
-            "slug": "greek",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a9-66a3ad00.jpg"
-        }
+        "Grecque"
     ],
     "description": "Connaissez-vous la spanakopita, ce friand grec aux épinards et à la feta ? Ce soir, nous vous proposons une recette inspirée de la spanakopita grecque : en effet, en plus des ingrédients de base (épinards, feta, aneth et origan), nous ajoutons du poireau et présentons le tout sur une pâte feuilletée pour un rendu rustique mais si réconfortant !",
-    "descriptionHTML": "<p>Connaissez-vous la spanakopita, ce friand grec aux épinards et à la feta ? Ce soir, nous vous proposons une recette inspirée de la spanakopita grecque : en effet, en plus des ingrédients de base (épinards, feta, aneth et origan), nous ajoutons du poireau et présentons le tout sur une pâte feuilletée pour un rendu rustique mais si réconfortant !</p>",
-    "descriptionMarkdown": "Connaissez-vous la spanakopita, ce friand grec aux épinards et à la feta ? Ce soir, nous vous proposons une recette inspirée de la spanakopita grecque : en effet, en plus des ingrédients de base (épinards, feta, aneth et origan), nous ajoutons du poireau et présentons le tout sur une pâte feuilletée pour un rendu rustique mais si réconfortant !",
     "difficulty": 2,
     "favoritesCount": 347,
     "headline": "avec des herbes fines, du poireau et une salade",
-    "id": "6050b76d4794211bec1a2cc0",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF201208_R209_W04_FR_RFR20161791-1_MB_Main_low-41e155f7.jpg",
-    "imagePath": "/image/HF201208_R209_W04_FR_RFR20161791-1_MB_Main_low-41e155f7.jpg",
+    "name": "Galette façon spanakopita & salade",
+    "prepTime": 40,
+    "totalTime": 25,
+    "image_id": "6050b76d4794211bec1a2cc0",
+    "id": "013ff155-b19a-44dd-b144-594f9be39f20",
+    "nutrition": {
+        "kcal": 824,
+        "fat": 54.22,
+        "saturated_fat": 29.73,
+        "carbohydrate": 58.94,
+        "sugars": 15.42,
+        "protein": 20.29,
+        "sodium": 3.03
+    },
+    "tags": [
+        "Végétarien"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Sauteuse",
+        "Râpe",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405bf84b0da1947779862b9",
-            "uuid": "d6afeb8d-f6dd-5aff-af10-bb9f6fb7c0ce",
-            "name": "Aneth",
-            "type": "dill",
-            "slug": "aneth",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf84b0da1947779862b9-217d0b0b.png",
-            "imagePath": "/ingredient/6405bf84b0da1947779862b9-217d0b0b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3.75,
+            "unit": "g",
+            "ingredient_id": "27d7d31d-8e13-484e-938f-18033b7cc829"
         },
         {
-            "id": "64073ba79c6d10cd16eab61a",
-            "uuid": "b1c9793a-0cbe-5d9a-a748-d1657c7f5dd2",
-            "name": "Feta",
-            "type": "feta-cheese",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "imagePath": "/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 125,
+            "unit": "g",
+            "ingredient_id": "1ebb2ad3-510c-46f9-b2af-bc490d857206"
         },
         {
-            "id": "64073c039c6d10cd16eab686",
-            "uuid": "48036233-a4c5-54a9-ad53-015d57907c7a",
-            "name": "Pâte à tarte",
-            "type": "puff-pastry",
-            "slug": "pate-a-tarte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfccb0da1947779863b2-5c18da5b.png",
-            "imagePath": "/ingredient/6405bfccb0da1947779863b2-5c18da5b.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd",
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "3735185d-c10b-4504-8a5c-df18a86fbf5e",
+            "portion_id": "52795abb-3b3b-4400-8cbc-d432fc2a31be",
+            "image_id": "64073c039c6d10cd16eab686"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acf",
-            "uuid": "8336bf50-6c44-57e6-ac7f-af74134d934f",
-            "name": "Épinards",
-            "type": "spinach",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "bc85a87e-d578-42a9-892f-877ca1d6c94a"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6050b76d4794211bec1a2cc0",
-    "name": "Galette façon spanakopita & salade",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 824,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3447,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 54.22,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 29.73,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 58.94,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 15.42,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 20.29,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.03,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 493,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 477,
-    "slug": "galette-facon-spanakopita-and-salade",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200°C (ou 180°C chaleur tournante).Ciselez l’ail et l'oignon.Coupez le poireau en deux, rincez-le bien, puis coupez-le en fines demi-rondelles. Ciselez finement l’aneth.Émiettez la feta (avec vos mains ou à la fourchette).CONSEIL: L'aneth ayant un goût anisé ajustez la quantité utilisée selon votre goût : mettez-en moins si vous n'appréciez pas cette saveur.",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 200°C (ou 180°C chaleur tournante).</li><li><span>Ciselez l’ail et l&#39;oignon.</span></li><li><span>Coupez le poireau en deux, rincez-le bien, puis coupez-le en fines demi-rondelles. </span></li><li><span>Ciselez finement l’aneth.</span></li><li><span>Émiettez la feta (avec vos mains ou à la fourchette).</span></li></ul><p>CONSEIL: L&#39;aneth ayant un goût anisé ajustez la quantité utilisée selon votre goût : mettez-en moins si vous n&#39;appréciez pas cette saveur.</p>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 200°C (ou 180°C chaleur tournante).</li><li><span>Ciselez l’ail et l&#39;oignon.</span></li><li><span>Coupez le poireau en deux, rincez-le bien, puis coupez-le en fines demi-rondelles. </span></li><li><span>Ciselez finement l’aneth.</span></li><li><span>Émiettez la feta (avec vos mains ou à la fourchette).</span></li></ul><p>CONSEIL: L&#39;aneth ayant un goût anisé ajustez la quantité utilisée selon votre goût : mettez-en moins si vous n&#39;appréciez pas cette saveur.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6050b76d4794211bec1a2cc0/step-7f3f5a00.jpg",
-                    "path": "/6050b76d4794211bec1a2cc0/step-7f3f5a00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer un filet d'huile d'olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon et les poireaux 5-7 minutes.Pendant ce temps, étalez la pâte feuilletée sur une plaque de cuisson recouverte de papier sulfurisé.",
-            "instructionsHTML": "<ul><li><span>Faites chauffer un filet d&#39;huile d&#39;olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon et les poireaux 5-7 minutes.</span></li><li><span>Pendant ce temps, é</span>talez la pâte feuilletée sur une plaque de cuisson recouverte de papier sulfurisé.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Faites chauffer un filet d&#39;huile d&#39;olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon et les poireaux 5-7 minutes.</span></li><li><span>Pendant ce temps, é</span>talez la pâte feuilletée sur une plaque de cuisson recouverte de papier sulfurisé.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522",
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6050b76d4794211bec1a2cc0/step-5df5c810.jpg",
-                    "path": "/6050b76d4794211bec1a2cc0/step-5df5c810.jpg",
-                    "caption": "Cuire les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Déglacez avec 1 cc de vinaigre balsamique blanc par personne (ou du vin blanc si vous en avez). Ajoutez les épinards, l'ail et l'origan, puis poursuivez la cuisson 1-2 minutes. Ajoutez au besoin les épinards en plusieurs fois. Salez et poivrez.Hors du feu, ajoutez la feta et 2/3 de l’aneth aux légumes.CONSEIL: La feta étant déjà salée, attention à ne pas ajouter trop de sel.",
-            "instructionsHTML": "<ul><li><span>Déglacez avec 1 cc de vinaigre balsamique blanc par personne (ou du vin blanc si vous en avez). </span></li><li><span>Ajoutez les épinards, l&#39;ail et l&#39;origan, puis poursuivez la cuisson 1-2 minutes. Ajoutez au besoin les épinards en plusieurs fois. Salez et poivrez.</span></li><li><span>Hors du feu, ajoutez la feta et 2/3 de l’aneth aux légumes.</span></li></ul><p>CONSEIL: La feta étant déjà salée, attention à ne pas ajouter trop de sel.</p>",
-            "instructionsMarkdown": "<ul><li><span>Déglacez avec 1 cc de vinaigre balsamique blanc par personne (ou du vin blanc si vous en avez). </span></li><li><span>Ajoutez les épinards, l&#39;ail et l&#39;origan, puis poursuivez la cuisson 1-2 minutes. Ajoutez au besoin les épinards en plusieurs fois. Salez et poivrez.</span></li><li><span>Hors du feu, ajoutez la feta et 2/3 de l’aneth aux légumes.</span></li></ul><p>CONSEIL: La feta étant déjà salée, attention à ne pas ajouter trop de sel.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6050b76d4794211bec1a2cc0/step-2127aa20.jpg",
-                    "path": "/6050b76d4794211bec1a2cc0/step-2127aa20.jpg",
-                    "caption": "Finir de cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Badigeonnez le centre de la pâte feuilletée avec un trait d’huile d’olive, puis placez les légumes au milieu en laissant un bord d’environ 2 cm. Répartissez uniformément les légumes.Repliez les bords de pâte sur les légumes de façon à former une galette ronde. Enfournez la galette 15-120 minutes, jusqu’à ce que la pâte feuilletée soit dorée.",
-            "instructionsHTML": "<ul><li><span>Badigeonnez le centre de la pâte feuilletée avec un trait d’huile d’olive, puis placez les légumes au milieu en laissant un bord d’environ 2 cm. Répartissez uniformément les légumes.</span></li><li><span>Repliez les bords de pâte sur les légumes de façon à former une galette ronde. </span></li><li><span>Enfournez la galette 15-120 minutes, jusqu’à ce que la pâte feuilletée soit dorée.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Badigeonnez le centre de la pâte feuilletée avec un trait d’huile d’olive, puis placez les légumes au milieu en laissant un bord d’environ 2 cm. Répartissez uniformément les légumes.</span></li><li><span>Repliez les bords de pâte sur les légumes de façon à former une galette ronde. </span></li><li><span>Enfournez la galette 15-120 minutes, jusqu’à ce que la pâte feuilletée soit dorée.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6050b76d4794211bec1a2cc0/step-69416d30.jpg",
-                    "path": "/6050b76d4794211bec1a2cc0/step-69416d30.jpg",
-                    "caption": "Enfourner la galette"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, épluchez puis râpez finement la carotte. Dans un saladier, mélangez l’huile d’olive, le vinaigre balsamique et 1/2 cc de moutarde. Ajoutez le reste d’aneth, salez et poivrez.Juste avant de servir, ajoutez le mélange de pousses et la carotte râpée. Mélangez bien. ",
-            "instructionsHTML": "<ul><li><span>Pendant ce temps, épluchez puis râpez finement la carotte. </span></li><li><span>Dans un saladier, mélangez l’huile d’olive, le vinaigre balsamique et 1/2 cc de moutarde. Ajoutez le reste d’aneth, salez et poivrez.</span></li><li><span>Juste avant de servir, ajoutez le mélange de pousses et la carotte râpée. Mélangez bien. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Pendant ce temps, épluchez puis râpez finement la carotte. </span></li><li><span>Dans un saladier, mélangez l’huile d’olive, le vinaigre balsamique et 1/2 cc de moutarde. Ajoutez le reste d’aneth, salez et poivrez.</span></li><li><span>Juste avant de servir, ajoutez le mélange de pousses et la carotte râpée. Mélangez bien. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6050b76d4794211bec1a2cc0/step-581ab740.jpg",
-                    "path": "/6050b76d4794211bec1a2cc0/step-581ab740.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Après cuisson, arrosez la galette d'un filet d'huile d'olive puis coupez-la en parts.Servez la salade dans les assiettes. Placez les parts de galette à côté. ",
-            "instructionsHTML": "<ul><li><span>Après cuisson, arrosez la galette d&#39;un filet d&#39;huile d&#39;olive puis coupez-la en parts.</span></li><li><span>Servez la salade dans les assiettes. Placez les parts de galette à côté. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Après cuisson, arrosez la galette d&#39;un filet d&#39;huile d&#39;olive puis coupez-la en parts.</span></li><li><span>Servez la salade dans les assiettes. Placez les parts de galette à côté. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6050b76d4794211bec1a2cc0/step-9be7fa50.jpg",
-                    "path": "/6050b76d4794211bec1a2cc0/step-9be7fa50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR20161791-2",
-    "updatedAt": "2023-10-13T10:40:40+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "4fbacdd1-82b8-4c01-97f9-a6b731884a0a",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/galette-facon-spanakopita-and-salade-6050b76d4794211bec1a2cc0",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 3.75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 70,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 8.75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 350,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf84b0da1947779862b9",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 350,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c039c6d10cd16eab686",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200°C (ou 180°C chaleur tournante).Ciselez l’ail et l'oignon.Coupez le poireau en deux, rincez-le bien, puis coupez-le en fines demi-rondelles. Ciselez finement l’aneth.Émiettez la feta (avec vos mains ou à la fourchette).CONSEIL: L'aneth ayant un goût anisé ajustez la quantité utilisée selon votre goût : mettez-en moins si vous n'appréciez pas cette saveur.",
+        "Faites chauffer un filet d'huile d'olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon et les poireaux 5-7 minutes.Pendant ce temps, étalez la pâte feuilletée sur une plaque de cuisson recouverte de papier sulfurisé.",
+        "Déglacez avec 1 cc de vinaigre balsamique blanc par personne (ou du vin blanc si vous en avez). Ajoutez les épinards, l'ail et l'origan, puis poursuivez la cuisson 1-2 minutes. Ajoutez au besoin les épinards en plusieurs fois. Salez et poivrez.Hors du feu, ajoutez la feta et 2/3 de l’aneth aux légumes.CONSEIL: La feta étant déjà salée, attention à ne pas ajouter trop de sel.",
+        "Badigeonnez le centre de la pâte feuilletée avec un trait d’huile d’olive, puis placez les légumes au milieu en laissant un bord d’environ 2 cm. Répartissez uniformément les légumes.Repliez les bords de pâte sur les légumes de façon à former une galette ronde. Enfournez la galette 15-120 minutes, jusqu’à ce que la pâte feuilletée soit dorée.",
+        "Pendant ce temps, épluchez puis râpez finement la carotte. Dans un saladier, mélangez l’huile d’olive, le vinaigre balsamique et 1/2 cc de moutarde. Ajoutez le reste d’aneth, salez et poivrez.Juste avant de servir, ajoutez le mélange de pousses et la carotte râpée. Mélangez bien. ",
+        "Après cuisson, arrosez la galette d'un filet d'huile d'olive puis coupez-la en parts.Servez la salade dans les assiettes. Placez les parts de galette à côté. "
     ]
 }

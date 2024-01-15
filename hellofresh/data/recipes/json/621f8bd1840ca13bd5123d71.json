@@ -1,785 +1,100 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "QFR29804070-1",
-    "country": "FR",
-    "createdAt": "2022-03-02T15:22:58+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 315,
     "headline": "avec une salade de concombre",
-    "id": "621f8bd1840ca13bd5123d71",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220209_R217_W13_FR_QFR29804070-1_MB_Main_low-1e49d54b.jpg",
-    "imagePath": "/image/HF220209_R217_W13_FR_QFR29804070-1_MB_Main_low-1e49d54b.jpg",
+    "name": "Pizza naan au poulet, ricotta & sauge",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "621f8bd1840ca13bd5123d71",
+    "id": "c75af523-ce52-41c5-8d61-681901efbe66",
+    "nutrition": {
+        "kcal": 416,
+        "fat": 29.74,
+        "saturated_fat": 10.67,
+        "carbohydrate": 8.01,
+        "sugars": 6.02,
+        "protein": 32.44,
+        "sodium": 1.33
+    },
+    "tags": [
+        "Rapido"
+    ],
+    "utensils": [
+        "Poêle",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Éplucheur",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf4ab9d07cd5d38d7a1e",
-            "uuid": "9838d4d1-5c2e-4e68-a073-54d514ccfdb0",
-            "name": "Blanc de poulet",
-            "type": "chicken-breast-diced",
-            "slug": "blanc-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf4ab9d07cd5d38d7a1e-70663a42.png",
-            "imagePath": "/ingredient/6405bf4ab9d07cd5d38d7a1e-70663a42.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "c71deb08-c754-40ae-9c54-adf7e5f6bc62"
         },
         {
-            "id": "6405c022b0da1947779864d9",
-            "uuid": "d0093d80-cfc5-4d8b-b221-0c825e90e5f3",
-            "name": "Menthe et sauge",
-            "type": "fresh-mint-and-sage",
-            "slug": "menthe-et-sauge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c022b0da1947779864d9-16f247ad.png",
-            "imagePath": "/ingredient/6405c022b0da1947779864d9-16f247ad.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "5a7e156d-766a-44aa-b476-07f5ecae8a28"
         },
         {
-            "id": "6405bfdbb9d07cd5d38d7c1b",
-            "uuid": "b5f66b23-564d-51d2-850c-563706e5ddcd",
-            "name": "Pain naan",
-            "type": "naan-bread",
-            "slug": "pain-naan",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "imagePath": "/ingredient/6405bfdbb9d07cd5d38d7c1b-db843b31.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "417be128-bf1e-4a0f-bf28-bad5e3783bf3",
+            "portion_id": "866f05cb-e663-4ee7-89aa-0fe61ea98590",
+            "image_id": "6405bfdbb9d07cd5d38d7c1b"
         },
         {
-            "id": "6405bf41b0da1947779861d8",
-            "uuid": "27bdf929-2223-5877-8919-3bd93eb85c24",
-            "name": "Chair de tomates",
-            "type": "tomato-passata",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "imagePath": "/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "d1d9c648-1d96-428b-8010-1f8136dfe501"
         },
         {
-            "id": "64073bad9c6d10cd16eab61e",
-            "uuid": "61fb57cc-94fe-5487-bee9-dd647927307a",
-            "name": "Ricotta",
-            "type": "ricotta-cheese",
-            "slug": "ricotta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf22b0da194777986167-623e2152.png",
-            "imagePath": "/ingredient/6405bf22b0da194777986167-623e2152.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "605299e6-315f-4665-9847-8209d3715dff"
         },
         {
-            "id": "64073bbedf6297bb5beef121",
-            "uuid": "08607eb3-7a75-4f48-af34-6583a5ec8ea3",
-            "name": "Gouda Vieux râpé",
-            "type": "grated-old-cheese",
-            "slug": "gouda-vieux-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b9d07cd5d38d79d2-e2910f82.png",
-            "imagePath": "/ingredient/6405bf36b9d07cd5d38d79d2-e2910f82.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 25,
+            "unit": "g",
+            "ingredient_id": "aa1628e7-63fb-4d19-9c8b-fe4b84b7f314"
         },
         {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121abc1d64f7b96e2703",
-            "uuid": "992bdbaa-769c-4a52-b731-ce297a918575",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cc",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "imagePath": "/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "10cd97e4-3773-42b6-9da4-8b6260f1fc71",
+            "portion_id": "0c44c896-35b6-40ce-8afc-1d171821add9",
+            "image_id": "63e5121abc1d64f7b96e2703"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/621f8bd1840ca13bd5123d71",
-    "name": "Pizza naan au poulet, ricotta & sauge",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 416,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1740,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 29.74,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.67,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 8.01,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 6.02,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 32.44,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.33,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 493,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 328,
-    "slug": "pizza-naan-au-poulet-ricotta-and-sauge",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 200°C (180°C chaleur tournante). Coupez les dés de poulet en plus petits morceaux de taille égale.Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif et faites-y revenir les morceaux de poulet 2-3 min sur toutes les faces. Ils doivent être dorés mais pas encore cuits, c'est-à-dire rosés à l'intérieur. Ils finiront de cuire au four.Séparez la menthe de la sauge. Effeuillez et ciselez très finement la sauge.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 200°C (180°C chaleur tournante). </li><li>Coupez les dés de poulet en plus petits morceaux de taille égale.</li><li>Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif et faites-y revenir les morceaux de poulet 2-3 min sur toutes les faces. Ils doivent être dorés mais pas encore cuits, c&#39;est-à-dire rosés à l&#39;intérieur. Ils finiront de cuire au four.</li><li>Séparez la menthe de la sauge. Effeuillez et ciselez très finement la sauge.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 200°C (180°C chaleur tournante). </li><li>Coupez les dés de poulet en plus petits morceaux de taille égale.</li><li>Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif et faites-y revenir les morceaux de poulet 2-3 min sur toutes les faces. Ils doivent être dorés mais pas encore cuits, c&#39;est-à-dire rosés à l&#39;intérieur. Ils finiront de cuire au four.</li><li>Séparez la menthe de la sauge. Effeuillez et ciselez très finement la sauge.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/621f8bd1840ca13bd5123d71/step-de710300.jpg",
-                    "path": "/621f8bd1840ca13bd5123d71/step-de710300.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Placez les pains naan sur une plaque de cuisson recouverte de papier sulfurisé.Étalez la quantité indiquée de passata dessus en laissant un bord de 5 mm environ, puis répartissez les dés de poulet sur l’ensemble.Déposez de petits morceaux de ricotta par-dessus avec une cuillère. Salez et poivrez. Saupoudrez de sauge et de gouda râpé.Enfournez le tout 8-10 min dans la partie supérieure du four, ou jusqu’à ce que les pizzas soient légèrement dorées.",
-            "instructionsHTML": "<ul><li>Placez les pains naan sur une plaque de cuisson recouverte de papier sulfurisé.</li><li>Étalez la quantité indiquée de passata dessus en laissant un bord de 5 mm environ, puis répartissez les dés de poulet sur l’ensemble.</li><li>Déposez de petits morceaux de ricotta par-dessus avec une cuillère. Salez et poivrez. Saupoudrez de sauge et de gouda râpé.</li><li>Enfournez le tout 8-10 min dans la partie supérieure du four, ou jusqu’à ce que les pizzas soient légèrement dorées.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Placez les pains naan sur une plaque de cuisson recouverte de papier sulfurisé.</li><li>Étalez la quantité indiquée de passata dessus en laissant un bord de 5 mm environ, puis répartissez les dés de poulet sur l’ensemble.</li><li>Déposez de petits morceaux de ricotta par-dessus avec une cuillère. Salez et poivrez. Saupoudrez de sauge et de gouda râpé.</li><li>Enfournez le tout 8-10 min dans la partie supérieure du four, ou jusqu’à ce que les pizzas soient légèrement dorées.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/621f8bd1840ca13bd5123d71/step-66e4f710.jpg",
-                    "path": "/621f8bd1840ca13bd5123d71/step-66e4f710.jpg",
-                    "caption": "Enfourner les pizzas"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Taillez des rubans de concombre avec un éplucheur (terminez au couteau pour le cœur).Effeuillez et ciselez la menthe.Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre balsamique blanc avec du sel et du poivre pour faire une vinaigrette. Ajoutez les rubans de concombre et la menthe au saladier. Mélangez bien.",
-            "instructionsHTML": "<ul><li>Taillez des rubans de concombre avec un éplucheur (terminez au couteau pour le cœur).</li><li>Effeuillez et ciselez la menthe.</li><li>Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre balsamique blanc avec du sel et du poivre pour faire une vinaigrette. Ajoutez les rubans de concombre et la menthe au saladier. Mélangez bien.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Taillez des rubans de concombre avec un éplucheur (terminez au couteau pour le cœur).</li><li>Effeuillez et ciselez la menthe.</li><li>Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre balsamique blanc avec du sel et du poivre pour faire une vinaigrette. Ajoutez les rubans de concombre et la menthe au saladier. Mélangez bien.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305379",
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/621f8bd1840ca13bd5123d71/step-4e181c20.jpg",
-                    "path": "/621f8bd1840ca13bd5123d71/step-4e181c20.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Coupez la pizza en parts.Servez-les dans les assiettes avec la salade de concombre.",
-            "instructionsHTML": "<ul><li>Coupez la pizza en parts.</li><li>Servez-les dans les assiettes avec la salade de concombre.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez la pizza en parts.</li><li>Servez-les dans les assiettes avec la salade de concombre.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/621f8bd1840ca13bd5123d71/step-7cb27730.jpg",
-                    "path": "/621f8bd1840ca13bd5123d71/step-7cb27730.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR29804070-1",
-    "updatedAt": "2023-12-04T04:59:55+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "11b3ad15-f5d9-4df3-83c9-a62419a49964",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/pizza-naan-au-poulet-ricotta-and-sauge-621f8bd1840ca13bd5123d71",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf4ab9d07cd5d38d7a1e",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c022b0da1947779864d9",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61e",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bbedf6297bb5beef121",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf4ab9d07cd5d38d7a1e",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c022b0da1947779864d9",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61e",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bbedf6297bb5beef121",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf4ab9d07cd5d38d7a1e",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c022b0da1947779864d9",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61e",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bbedf6297bb5beef121",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf4ab9d07cd5d38d7a1e",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c022b0da1947779864d9",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61e",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bbedf6297bb5beef121",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf4ab9d07cd5d38d7a1e",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c022b0da1947779864d9",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61e",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bbedf6297bb5beef121",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf4ab9d07cd5d38d7a1e",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c022b0da1947779864d9",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdbb9d07cd5d38d7c1b",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bad9c6d10cd16eab61e",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bbedf6297bb5beef121",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 200°C (180°C chaleur tournante). Coupez les dés de poulet en plus petits morceaux de taille égale.Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif et faites-y revenir les morceaux de poulet 2-3 min sur toutes les faces. Ils doivent être dorés mais pas encore cuits, c'est-à-dire rosés à l'intérieur. Ils finiront de cuire au four.Séparez la menthe de la sauge. Effeuillez et ciselez très finement la sauge.",
+        "Placez les pains naan sur une plaque de cuisson recouverte de papier sulfurisé.Étalez la quantité indiquée de passata dessus en laissant un bord de 5 mm environ, puis répartissez les dés de poulet sur l’ensemble.Déposez de petits morceaux de ricotta par-dessus avec une cuillère. Salez et poivrez. Saupoudrez de sauge et de gouda râpé.Enfournez le tout 8-10 min dans la partie supérieure du four, ou jusqu’à ce que les pizzas soient légèrement dorées.",
+        "Taillez des rubans de concombre avec un éplucheur (terminez au couteau pour le cœur).Effeuillez et ciselez la menthe.Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre balsamique blanc avec du sel et du poivre pour faire une vinaigrette. Ajoutez les rubans de concombre et la menthe au saladier. Mélangez bien.",
+        "Coupez la pizza en parts.Servez-les dans les assiettes avec la salade de concombre."
     ]
 }

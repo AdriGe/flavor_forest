@@ -1,911 +1,113 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QFR16681768-2",
-    "country": "FR",
-    "createdAt": "2020-12-22T15:28:38+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 1,
     "favoritesCount": 554,
     "headline": "avec une crème au pecorino et aux fines herbes",
-    "id": "5fe210a599eac81691326f5c",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200821_R211_W40_FR_QFR16681768-1_MB_Main_low-73ddd6b3.jpg",
-    "imagePath": "/image/HF200821_R211_W40_FR_QFR16681768-1_MB_Main_low-73ddd6b3.jpg",
+    "name": "Conchiglie & fricassée de champignons",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "5fe210a599eac81691326f5c",
+    "id": "39a11344-4c1f-40ba-8787-2e8f092ee136",
+    "nutrition": {
+        "kcal": 273,
+        "fat": 20.44,
+        "saturated_fat": 10.03,
+        "carbohydrate": 9.61,
+        "sugars": 4.64,
+        "protein": 12.75,
+        "sodium": 0.47
+    },
+    "tags": [
+        "Rapido",
+        "Végétarien",
+        "Famille"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Essuie-tout",
+        "Sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "64073bc7683721c9a32b0761",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "9adfa8cf-0232-4a9d-90cd-c31cb1ec77c2"
         },
         {
-            "id": "6405bf57b9d07cd5d38d7a56",
-            "uuid": "a3fa9b4b-bc25-5630-b8c2-d39eb6b94ee1",
-            "name": "Conchiglie",
-            "type": "conchiglie-pasta",
-            "slug": "conchiglie",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf57b9d07cd5d38d7a56-256fe9b0.png",
-            "imagePath": "/ingredient/6405bf57b9d07cd5d38d7a56-256fe9b0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "9bbeec81-3c74-49b3-a3dd-7442975c5cd2"
         },
         {
-            "id": "6405bf28b0da194777986184",
-            "uuid": "4328be73-b086-5d16-b287-33bce92c2fb4",
-            "name": "Champignons de Paris",
-            "type": "mushrooms",
-            "slug": "champignons-de-paris",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "imagePath": "/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "b2201e5a-2fc7-46ed-99e2-d0a9b3a80231"
         },
         {
-            "id": "6405bfc1b0da19477798638c",
-            "uuid": "1900d2d4-2bd6-5097-a7bb-a815555b5b14",
-            "name": "Crème liquide",
-            "type": "cooking-cream",
-            "slug": "creme-liquide",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "imagePath": "/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "1b7371ba-3a94-4a04-a1ab-f38b6ccbd569"
         },
         {
-            "id": "6405bfa5af4af6d531d50c60",
-            "uuid": "7952646c-6ac7-54f6-bfe7-a0d92844971b",
-            "name": "Épices italiennes",
-            "type": "dried-italian-herbs",
-            "slug": "epices-italiennes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "imagePath": "/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "d5958aa8-994d-4377-9ce4-a6f9e0f24dbc",
+            "portion_id": "a96b16d1-b9b0-4f6d-b7ae-bc07282a7584",
+            "image_id": "6405bfa5af4af6d531d50c60"
         },
         {
-            "id": "6405bfc5b0da19477798639c",
-            "uuid": "271295c5-9dce-457f-b6a6-8cd50bfa6a4a",
-            "name": "Parmigiano Reggiano AOP râpé",
-            "type": "grated-parmigiano-reggiano",
-            "slug": "parmigiano-reggiano-aop-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc5b0da19477798639c-95c6942d.png",
-            "imagePath": "/ingredient/6405bfc5b0da19477798639c-95c6942d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "144d83da-a452-473d-826d-f9fb4348498a"
         },
         {
-            "id": "6405bfb6b0da194777986365",
-            "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
-            "name": "Salade",
-            "type": "rocket",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b0da194777986365-23aed5fc.png",
-            "imagePath": "/ingredient/6405bfb6b0da194777986365-23aed5fc.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "61707057-dd9c-4fff-b21e-c8bc1aad80a9"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5fe210a599eac81691326f5c",
-    "name": "Conchiglie & fricassée de champignons",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 273,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1140,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 20.44,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.03,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 9.61,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 4.64,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 12.75,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.47,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 870,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 247,
-    "slug": "conchiglie-and-fricassee-de-champignons",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Portez un grand volume d’eau salée à ébullition dans une casserole pour les conchiglie. Émincez l’oignon rouge et pressez ou émincez l’ail. Nettoyez les champignons avec un essuie-tout et coupez-les en tranches.Ciselez le persil.",
-            "instructionsHTML": "<ul><li>Portez un grand volume d’eau salée à ébullition dans une casserole pour les conchiglie. </li><li>Émincez l’oignon rouge et pressez ou émincez l’ail. </li><li>Nettoyez les champignons avec un essuie-tout et coupez-les en tranches.</li><li>Ciselez le persil.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Portez un grand volume d’eau salée à ébullition dans une casserole pour les conchiglie. </li><li>Émincez l’oignon rouge et pressez ou émincez l’ail. </li><li>Nettoyez les champignons avec un essuie-tout et coupez-les en tranches.</li><li>Ciselez le persil.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b",
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe210a599eac81691326f5c/step-a7f39d00.jpg",
-                    "path": "/5fe210a599eac81691326f5c/step-a7f39d00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Lorsque l’eau bout, ajoutez les conchiglie à la casserole et faites-les cuire 14 à 16 minutes à couvert. Ensuite, égouttez-les en conservant l’eau de cuisson et réservez les pâtes sans couvercle.  ",
-            "instructionsHTML": "<ul><li>Lorsque l’eau bout, ajoutez les conchiglie à la casserole et faites-les cuire 14 à 16 minutes à couvert. </li><li>Ensuite, égouttez-les en conservant l’eau de cuisson et réservez les pâtes sans couvercle.  </li></ul>",
-            "instructionsMarkdown": "<ul><li>Lorsque l’eau bout, ajoutez les conchiglie à la casserole et faites-les cuire 14 à 16 minutes à couvert. </li><li>Ensuite, égouttez-les en conservant l’eau de cuisson et réservez les pâtes sans couvercle.  </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe210a599eac81691326f5c/step-a8d5fd10.jpg",
-                    "path": "/5fe210a599eac81691326f5c/step-a8d5fd10.jpg",
-                    "caption": "Cuire les pâtes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites chauffer le beurre et l’huile d’olive dans une grande sauteuse à feu vif. Faites-y dorer l’oignon et l’ail 2 minutes.Ajoutez les champignons. Faites cuire le tout encore 7 minutes ou jusqu’à ce que les champignons aient relâché toute leur eau et soient dorés. Salez et poivrez. Ajoutez la crème liquide et les herbes italiennes. Mélangez bien.CONSEIL: Si le mélange devient trop sec, ajoutez un trait d'eau de cuisson des pâtes.",
-            "instructionsHTML": "<ul><li>Faites chauffer le beurre et l’huile d’olive dans une grande sauteuse à feu vif. Faites-y dorer l’oignon et l’ail 2 minutes.</li><li>Ajoutez les champignons. Faites cuire le tout encore 7 minutes ou jusqu’à ce que les champignons aient relâché toute leur eau et soient dorés. Salez et poivrez. </li><li>Ajoutez la crème liquide et les herbes italiennes. Mélangez bien.</li></ul><p>CONSEIL: Si le mélange devient trop sec, ajoutez un trait d&#39;eau de cuisson des pâtes.</p>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer le beurre et l’huile d’olive dans une grande sauteuse à feu vif. Faites-y dorer l’oignon et l’ail 2 minutes.</li><li>Ajoutez les champignons. Faites cuire le tout encore 7 minutes ou jusqu’à ce que les champignons aient relâché toute leur eau et soient dorés. Salez et poivrez. </li><li>Ajoutez la crème liquide et les herbes italiennes. Mélangez bien.</li></ul><p>CONSEIL: Si le mélange devient trop sec, ajoutez un trait d&#39;eau de cuisson des pâtes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe210a599eac81691326f5c/step-144be320.jpg",
-                    "path": "/5fe210a599eac81691326f5c/step-144be320.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Ajoutez les conchiglie avec une louche d’eau de cuisson et la moitié du parmesan pour lier la sauce à la sauteuse. Remuez bien et laissez chauffer à feu doux environ 2 minutes.Coupez le feu et ajoutez la moitié du persil ciselé. Dressez la roquette dans les assiettes et disposez les pâtes par-dessus. Garnissez avec le reste du persil et du parmesan. Goûtez et rectifiez l’assaisonnement si besoin.",
-            "instructionsHTML": "<ul><li>Ajoutez les conchiglie avec une louche d’eau de cuisson et la moitié du parmesan pour lier la sauce à la sauteuse. Remuez bien et laissez chauffer à feu doux environ 2 minutes.</li><li>Coupez le feu et ajoutez la moitié du persil ciselé. </li><li>Dressez la roquette dans les assiettes et disposez les pâtes par-dessus. Garnissez avec le reste du persil et du parmesan. Goûtez et rectifiez l’assaisonnement si besoin.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Ajoutez les conchiglie avec une louche d’eau de cuisson et la moitié du parmesan pour lier la sauce à la sauteuse. Remuez bien et laissez chauffer à feu doux environ 2 minutes.</li><li>Coupez le feu et ajoutez la moitié du persil ciselé. </li><li>Dressez la roquette dans les assiettes et disposez les pâtes par-dessus. Garnissez avec le reste du persil et du parmesan. Goûtez et rectifiez l’assaisonnement si besoin.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe210a599eac81691326f5c/step-e60c2d30.jpg",
-                    "path": "/5fe210a599eac81691326f5c/step-e60c2d30.jpg",
-                    "caption": "Lier et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR16681768-2",
-    "updatedAt": "2023-10-13T10:40:43+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        }
-    ],
-    "uuid": "8f837856-f720-429e-98ae-584c630d1218",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/conchiglie-and-fricassee-de-champignons-5fe210a599eac81691326f5c",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc7683721c9a32b0761",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf57b9d07cd5d38d7a56",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc5b0da19477798639c",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc7683721c9a32b0761",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf57b9d07cd5d38d7a56",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc5b0da19477798639c",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc7683721c9a32b0761",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf57b9d07cd5d38d7a56",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc5b0da19477798639c",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc7683721c9a32b0761",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf57b9d07cd5d38d7a56",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc5b0da19477798639c",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc7683721c9a32b0761",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf57b9d07cd5d38d7a56",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc5b0da19477798639c",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc7683721c9a32b0761",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf57b9d07cd5d38d7a56",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfc5b0da19477798639c",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Portez un grand volume d’eau salée à ébullition dans une casserole pour les conchiglie. Émincez l’oignon rouge et pressez ou émincez l’ail. Nettoyez les champignons avec un essuie-tout et coupez-les en tranches.Ciselez le persil.",
+        "Lorsque l’eau bout, ajoutez les conchiglie à la casserole et faites-les cuire 14 à 16 minutes à couvert. Ensuite, égouttez-les en conservant l’eau de cuisson et réservez les pâtes sans couvercle.  ",
+        "Faites chauffer le beurre et l’huile d’olive dans une grande sauteuse à feu vif. Faites-y dorer l’oignon et l’ail 2 minutes.Ajoutez les champignons. Faites cuire le tout encore 7 minutes ou jusqu’à ce que les champignons aient relâché toute leur eau et soient dorés. Salez et poivrez. Ajoutez la crème liquide et les herbes italiennes. Mélangez bien.CONSEIL: Si le mélange devient trop sec, ajoutez un trait d'eau de cuisson des pâtes.",
+        "Ajoutez les conchiglie avec une louche d’eau de cuisson et la moitié du parmesan pour lier la sauce à la sauteuse. Remuez bien et laissez chauffer à feu doux environ 2 minutes.Coupez le feu et ajoutez la moitié du persil ciselé. Dressez la roquette dans les assiettes et disposez les pâtes par-dessus. Garnissez avec le reste du persil et du parmesan. Goûtez et rectifiez l’assaisonnement si besoin."
     ]
 }

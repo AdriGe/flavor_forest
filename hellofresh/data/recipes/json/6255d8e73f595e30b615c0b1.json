@@ -1,940 +1,114 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5fdcaafebae25f267232a16f",
-            "name": "Noix de cajou",
-            "type": "cashew_nuts",
-            "slug": "noix-de-cajou",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b305302",
-            "name": "Fruits à coque",
-            "type": "traces-of-nuts",
-            "slug": "traces-of-fruits-a-coque",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QFR16681757-7",
-    "country": "FR",
-    "createdAt": "2022-04-12T19:54:16+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 1,
     "favoritesCount": 240,
     "headline": "avec du fromage italien & des champignons",
-    "id": "6255d8e73f595e30b615c0b1",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF211013_R208_W48_FR_QFR16681757-5_MB_Main_low-8298d6a0.jpg",
-    "imagePath": "/image/HF211013_R208_W48_FR_QFR16681757-5_MB_Main_low-8298d6a0.jpg",
+    "name": "Rigatoni au pesto verde & champignons",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "6255d8e73f595e30b615c0b1",
+    "id": "502322dc-d8f6-4783-894f-8a3ca55f0fed",
+    "nutrition": {
+        "kcal": 410,
+        "fat": 33.75,
+        "saturated_fat": 8.72,
+        "carbohydrate": 12.01,
+        "sugars": 5.91,
+        "protein": 14.4,
+        "sodium": 1.16
+    },
+    "tags": [
+        "Famille",
+        "Rapido",
+        "Végétarien"
+    ],
+    "utensils": [
+        "Bol",
+        "Casserole",
+        "Essuie-tout",
+        "Poêle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf21af4af6d531d50a64",
-            "uuid": "e20204d9-67bd-5351-a602-b284967157cf",
-            "name": "Rigatoni",
-            "type": "rigatoni",
-            "slug": "rigatoni",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf21af4af6d531d50a64-e429976e.png",
-            "imagePath": "/ingredient/6405bf21af4af6d531d50a64-e429976e.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "689ead43-4b8b-4d1a-b1d3-5006e2bf4ecd"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf28b0da194777986184",
-            "uuid": "4328be73-b086-5d16-b287-33bce92c2fb4",
-            "name": "Champignons de Paris",
-            "type": "mushrooms",
-            "slug": "champignons-de-paris",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "imagePath": "/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "b2201e5a-2fc7-46ed-99e2-d0a9b3a80231"
         },
         {
-            "id": "6405bfa5af4af6d531d50c60",
-            "uuid": "7952646c-6ac7-54f6-bfe7-a0d92844971b",
-            "name": "Épices italiennes",
-            "type": "dried-italian-herbs",
-            "slug": "epices-italiennes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "imagePath": "/ingredient/6405bfa5af4af6d531d50c60-6cd5e519.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "d5958aa8-994d-4377-9ce4-a6f9e0f24dbc",
+            "portion_id": "a96b16d1-b9b0-4f6d-b7ae-bc07282a7584",
+            "image_id": "6405bfa5af4af6d531d50c60"
         },
         {
-            "id": "6405bf42af4af6d531d50aed",
-            "uuid": "5886b747-f090-478f-a9a3-f5e05f29cec7",
-            "name": "Tomates semi-séchées",
-            "type": "semi-dried-tomatoes",
-            "slug": "tomates-semi-sechees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf42af4af6d531d50aed-ba544bfd.png",
-            "imagePath": "/ingredient/6405bf42af4af6d531d50aed-ba544bfd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "922959cb-a5c0-4539-b21f-9b77d32e3a7d"
         },
         {
-            "id": "64073bff683721c9a32b07a1",
-            "uuid": "04531489-8d97-56d5-b0fc-30a66c4cd0b1",
-            "name": "Pesto vert alla genovese",
-            "type": "green-pesto",
-            "slug": "pesto-vert-alla-genovese",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe5b0da194777986405-0a2eee2a.png",
-            "imagePath": "/ingredient/6405bfe5b0da194777986405-0a2eee2a.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b305302",
-                "57962a07b7e8697d4b3052f3",
-                "57962a07b7e8697d4b3052fa",
-                "5fdcaafebae25f267232a16f"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "ec2717b6-6ac0-4f7e-82f5-64492fbf621f"
         },
         {
-            "id": "6405bf39b0da1947779861bf",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "61d47fda-51f7-4500-80ec-6130cc334a70"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123381b4b295e66f0260",
-            "uuid": "06cc03c2-cb53-410a-b25b-6f183a4ccaf0",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cs",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "imagePath": "/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b8a7ee4-2b73-44f4-94c2-74027993111c",
+            "portion_id": "7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0",
+            "image_id": "63e5123381b4b295e66f0260"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6255d8e73f595e30b615c0b1",
-    "name": "Rigatoni au pesto verde & champignons",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 410,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1716,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 33.75,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 8.72,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 12.01,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 5.91,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 14.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.16,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 1030,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 290,
-    "slug": "rigatoni-au-pesto-verde-and-champignons",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une grande casserole d'eau salée à ébullition pour les pâtes. Faites-y cuire les rigatoni 12-14 min (voir CONSEIL). Réservez ½ louche d'eau de cuisson des pâtes dans un bol. Égouttez puis réservez les rigatoni.CONSEIL: Les pâtes seront al dente car elles finiront leur cuisson dans la poêle. Prolongez leur cuisson si vous les aimez plus fondantes.",
-            "instructionsHTML": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Portez une grande casserole d&#39;eau salée à ébullition pour les pâtes. </li><li>Faites-y cuire les rigatoni 12-14 min (voir CONSEIL). Réservez <span>½</span> louche d&#39;eau de cuisson des pâtes dans un bol. </li><li>Égouttez puis réservez les rigatoni.</li></ul><p><br></p><p>CONSEIL: Les pâtes seront al dente car elles finiront leur cuisson dans la poêle. Prolongez leur cuisson si vous les aimez plus fondantes.</p>",
-            "instructionsMarkdown": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Portez une grande casserole d&#39;eau salée à ébullition pour les pâtes. </li><li>Faites-y cuire les rigatoni 12-14 min (voir CONSEIL). Réservez <span>½</span> louche d&#39;eau de cuisson des pâtes dans un bol. </li><li>Égouttez puis réservez les rigatoni.</li></ul><p><br></p><p>CONSEIL: Les pâtes seront al dente car elles finiront leur cuisson dans la poêle. Prolongez leur cuisson si vous les aimez plus fondantes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255d8e73f595e30b615c0b1/step-e3b9d700.jpg",
-                    "path": "/6255d8e73f595e30b615c0b1/step-e3b9d700.jpg",
-                    "caption": "Cuire les pâtes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Ciselez l'ail et l'oignon. Essuyez les champignons avec de l'essuie-tout et coupez-les en quatre (voir CONSEIL). Coupez les tomates séchées en morceaux (vous pouvez garder leur huile pour l'étape 4). CONSEIL: Enlevez le bout terreux des champignons et conservez le reste du pied. Ces derniers sont bons à la consommation.",
-            "instructionsHTML": "<ul><li><span>Ciselez l&#39;ail et l&#39;oignon. </span></li><li>Essuyez les champignons avec de l&#39;essuie-tout et coupez-les en quatre (voir CONSEIL). </li><li>Coupez les tomates séchées en morceaux (vous pouvez garder leur huile pour l&#39;étape 4). </li></ul><p>CONSEIL: Enlevez le bout terreux des champignons et conservez le reste du pied. Ces derniers sont bons à la consommation.</p>",
-            "instructionsMarkdown": "<ul><li><span>Ciselez l&#39;ail et l&#39;oignon. </span></li><li>Essuyez les champignons avec de l&#39;essuie-tout et coupez-les en quatre (voir CONSEIL). </li><li>Coupez les tomates séchées en morceaux (vous pouvez garder leur huile pour l&#39;étape 4). </li></ul><p>CONSEIL: Enlevez le bout terreux des champignons et conservez le reste du pied. Ces derniers sont bons à la consommation.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255d8e73f595e30b615c0b1/step-f74ef710.jpg",
-                    "path": "/6255d8e73f595e30b615c0b1/step-f74ef710.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites chauffer un filet d'huile d'olive dans une grande poêle et faites-y revenir l'oignon, les champignons et la quantité indiquée d'épices italiennes 5-6 min à feu vif ou jusqu'à ce que les champignons soient dorés. Salez et poivrez. Déglacez avec un filet de vinaigre de vin blanc (ou du vin blanc si vous en avez) puis ajoutez l'ail, la moitié des tomates séchées, le pesto et l'eau de cuisson des pâtes. Faites cuire 2-3 min de plus en remuant.Ajoutez enfin les rigatoni et poursuivez la cuisson 1-2 min en mélangeant. ",
-            "instructionsHTML": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une grande poêle et faites-y revenir l&#39;oignon, les champignons et la quantité indiquée d&#39;épices italiennes 5-6 min à feu vif ou jusqu&#39;à ce que les champignons soient dorés. Salez et poivrez. </li><li>Déglacez avec un filet de vinaigre de vin blanc (ou du vin blanc si vous en avez) puis ajoutez l&#39;ail, la moitié des tomates séchées, le pesto et l&#39;eau de cuisson des pâtes. Faites cuire 2-3 min de plus en remuant.</li><li>Ajoutez enfin les rigatoni et poursuivez la cuisson 1-2 min en mélangeant. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer un filet d&#39;huile d&#39;olive dans une grande poêle et faites-y revenir l&#39;oignon, les champignons et la quantité indiquée d&#39;épices italiennes 5-6 min à feu vif ou jusqu&#39;à ce que les champignons soient dorés. Salez et poivrez. </li><li>Déglacez avec un filet de vinaigre de vin blanc (ou du vin blanc si vous en avez) puis ajoutez l&#39;ail, la moitié des tomates séchées, le pesto et l&#39;eau de cuisson des pâtes. Faites cuire 2-3 min de plus en remuant.</li><li>Ajoutez enfin les rigatoni et poursuivez la cuisson 1-2 min en mélangeant. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255d8e73f595e30b615c0b1/step-15ad1320.jpg",
-                    "path": "/6255d8e73f595e30b615c0b1/step-15ad1320.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Placez le mélange de jeunes pousses dans des assiettes creuses (voir CONSEIL). Assaisonnez avec l’huile des tomates séchées, du sel et du poivre si vous le souhaitez.Servez les pâtes par-dessus et garnissez-les avec le reste des tomates séchées. Saupoudrez le tout de fromage italien.Goûtez et ajustez l’assaisonnement en sel et en poivre si besoin.CONSEIL: Servez la salade à part si vous n'aimez pas la salade tiède.",
-            "instructionsHTML": "<ul><li>Placez le mélange de jeunes pousses dans des assiettes creuses (voir CONSEIL). Assaisonnez avec l’huile des tomates séchées, du sel et du poivre si vous le souhaitez.</li><li>Servez les pâtes par-dessus et garnissez-les avec le reste des tomates séchées. Saupoudrez le tout de fromage italien.</li><li>Goûtez et ajustez l’assaisonnement en sel et en poivre si besoin.</li></ul><p>CONSEIL: Servez la salade à part si vous n&#39;aimez pas la salade tiède.</p>",
-            "instructionsMarkdown": "<ul><li>Placez le mélange de jeunes pousses dans des assiettes creuses (voir CONSEIL). Assaisonnez avec l’huile des tomates séchées, du sel et du poivre si vous le souhaitez.</li><li>Servez les pâtes par-dessus et garnissez-les avec le reste des tomates séchées. Saupoudrez le tout de fromage italien.</li><li>Goûtez et ajustez l’assaisonnement en sel et en poivre si besoin.</li></ul><p>CONSEIL: Servez la salade à part si vous n&#39;aimez pas la salade tiède.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255d8e73f595e30b615c0b1/step-8a1cbc30.jpg",
-                    "path": "/6255d8e73f595e30b615c0b1/step-8a1cbc30.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR16681757-7",
-    "updatedAt": "2023-12-25T01:49:02+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        }
-    ],
-    "uuid": "674436e9-75e5-4b48-afca-8c7e24d86d66",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/rigatoni-au-pesto-verde-and-champignons-6255d8e73f595e30b615c0b1",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bff683721c9a32b07a1",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bff683721c9a32b07a1",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bff683721c9a32b07a1",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bff683721c9a32b07a1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 550,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bff683721c9a32b07a1",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfa5af4af6d531d50c60",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf42af4af6d531d50aed",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bff683721c9a32b07a1",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une grande casserole d'eau salée à ébullition pour les pâtes. Faites-y cuire les rigatoni 12-14 min (voir CONSEIL). Réservez ½ louche d'eau de cuisson des pâtes dans un bol. Égouttez puis réservez les rigatoni.CONSEIL: Les pâtes seront al dente car elles finiront leur cuisson dans la poêle. Prolongez leur cuisson si vous les aimez plus fondantes.",
+        "Ciselez l'ail et l'oignon. Essuyez les champignons avec de l'essuie-tout et coupez-les en quatre (voir CONSEIL). Coupez les tomates séchées en morceaux (vous pouvez garder leur huile pour l'étape 4). CONSEIL: Enlevez le bout terreux des champignons et conservez le reste du pied. Ces derniers sont bons à la consommation.",
+        "Faites chauffer un filet d'huile d'olive dans une grande poêle et faites-y revenir l'oignon, les champignons et la quantité indiquée d'épices italiennes 5-6 min à feu vif ou jusqu'à ce que les champignons soient dorés. Salez et poivrez. Déglacez avec un filet de vinaigre de vin blanc (ou du vin blanc si vous en avez) puis ajoutez l'ail, la moitié des tomates séchées, le pesto et l'eau de cuisson des pâtes. Faites cuire 2-3 min de plus en remuant.Ajoutez enfin les rigatoni et poursuivez la cuisson 1-2 min en mélangeant. ",
+        "Placez le mélange de jeunes pousses dans des assiettes creuses (voir CONSEIL). Assaisonnez avec l’huile des tomates séchées, du sel et du poivre si vous le souhaitez.Servez les pâtes par-dessus et garnissez-les avec le reste des tomates séchées. Saupoudrez le tout de fromage italien.Goûtez et ajustez l’assaisonnement en sel et en poivre si besoin.CONSEIL: Servez la salade à part si vous n'aimez pas la salade tiède."
     ]
 }

@@ -1,930 +1,120 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fc",
-            "name": "Céleri",
-            "type": "celery",
-            "slug": "celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.2,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b1",
-        "name": "Seafood",
-        "type": "seafood",
-        "slug": "Seafood"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804316-1",
-    "country": "FR",
-    "createdAt": "2022-10-04T12:35:05+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b9",
-            "type": "middleeastern",
-            "name": "Middle Eastern",
-            "slug": "middle-eastern",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b9-28649f9a.jpg"
-        }
+        "Middle Eastern"
     ],
     "description": "Envie d’un plat gourmand sans exploser le compteur de calories ? Nous vous proposons aujourd’hui un filet de merlu poêlé accompagné de frites de céleri-rave, un légume peu calorique qui change des traditionnelles frites de pommes de terre ! Le tout servi avec des brocolis et une sauce épicée. À vos frites, prêt, trempez !",
-    "descriptionHTML": "<p>Envie d’un plat gourmand sans exploser le compteur de calories ? Nous vous proposons aujourd’hui un filet de merlu poêlé accompagné de frites de céleri-rave, un légume peu calorique qui change des traditionnelles frites de pommes de terre ! Le tout servi avec des brocolis et une sauce épicée. À vos frites, prêt, trempez !</p>",
-    "descriptionMarkdown": "Envie d’un plat gourmand sans exploser le compteur de calories ? Nous vous proposons aujourd’hui un filet de merlu poêlé accompagné de frites de céleri-rave, un légume peu calorique qui change des traditionnelles frites de pommes de terre ! Le tout servi avec des brocolis et une sauce épicée. À vos frites, prêt, trempez !",
     "difficulty": 2,
     "favoritesCount": 103,
     "headline": "avec une sauce au yaourt épicée",
-    "id": "633c2878931f36f7a20713fb",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220915_R218_W44_FR_RFR29804316-1_KB_Main_low-059a619e.jpg",
-    "imagePath": "/image/HF220915_R218_W44_FR_RFR29804316-1_KB_Main_low-059a619e.jpg",
+    "name": "Filet de merlu & frites de céleri-rave",
+    "prepTime": 50,
+    "totalTime": 25,
+    "image_id": "633c2878931f36f7a20713fb",
+    "id": "c9444179-baab-4cf9-b2b4-aded0f8dde97",
+    "nutrition": {
+        "kcal": 426,
+        "fat": 25.49,
+        "saturated_fat": 7.94,
+        "carbohydrate": 17.64,
+        "sugars": 4.8,
+        "protein": 32.12,
+        "sodium": 1.31
+    },
+    "tags": [
+        "Épicé",
+        "<30g glucides",
+        "<650 Kcal"
+    ],
+    "utensils": [
+        "Éplucheur",
+        "Casserole avec couvercle",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Passoire",
+        "Petit bol",
+        "Poêle",
+        "Essuie-tout"
+    ],
     "ingredients": [
         {
-            "id": "64073bee9c6d10cd16eab66f",
-            "uuid": "b1bec203-b289-5355-912a-696b447016a4",
-            "name": "Céleri-rave",
-            "type": "celeriac",
-            "slug": "celeri-rave",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b2-9746f061.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b2-9746f061.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fc"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "8a8cc335-fec6-4a9b-a80a-2376f7c20c53",
+            "portion_id": "92811e98-6623-49fa-a418-b65ed11a85da",
+            "image_id": "64073bee9c6d10cd16eab66f"
         },
         {
-            "id": "6405bf80af4af6d531d50be4",
-            "uuid": "9c185787-b4f8-5457-863b-da9d361fcd22",
-            "name": "Brocoli",
-            "type": "broccoli",
-            "slug": "brocoli",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80af4af6d531d50be4-5c14ebc2.png",
-            "imagePath": "/ingredient/6405bf80af4af6d531d50be4-5c14ebc2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "ca20de25-75fe-4e72-a329-a6de548abee1"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405c017b0da1947779864a9",
-            "uuid": "30ed0e56-b62d-4efe-bf0b-d8fb0c16a208",
-            "name": "Mélange d'épices du Moyen-Orient",
-            "type": "middle-eastern-spice-blend",
-            "slug": "melange-depices-du-moyen-orient",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c017b0da1947779864a9-4af21308.png",
-            "imagePath": "/ingredient/6405c017b0da1947779864a9-4af21308.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "11c2569b-aa6c-4c71-867a-937e86576666",
+            "portion_id": "7168f3dd-431d-4696-906f-7821359a93dc",
+            "image_id": "6405c017b0da1947779864a9"
         },
         {
-            "id": "6405bf95b0da1947779862f8",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "4e0da705-5d5e-4e70-a595-83e43cce7d2e"
         },
         {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
         },
         {
-            "id": "64073ba8df6297bb5beef100",
-            "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
-            "name": "Yaourt à la grecque",
-            "type": "greek-style-natural-yoghurt",
-            "slug": "yaourt-a-la-grecque",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "107478ae-efe4-4776-9dba-0f0481e3dc68",
+            "portion_id": "185229fb-6004-485d-a622-e5f3207f3aa0",
+            "image_id": "64073ba8df6297bb5beef100"
         },
         {
-            "id": "64073bb19c6d10cd16eab625",
-            "uuid": "8affa715-d53c-55e5-b4fb-03c54db1aca8",
-            "name": "Filet de merlu avec peau",
-            "type": "hake-fillet",
-            "slug": "filet-de-merlu-avec-peau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf2cb0da194777986191-ab1f39ee.png",
-            "imagePath": "/ingredient/6405bf2cb0da194777986191-ab1f39ee.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "ff57b7f5-0f30-486b-8d9f-1db22013d49e",
+            "portion_id": "0d507d44-548d-4a70-b270-da61674968cd",
+            "image_id": "64073bb19c6d10cd16eab625"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/633c2878931f36f7a20713fb",
-    "name": "Filet de merlu & frites de céleri-rave",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 426,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1784,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 25.49,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 7.94,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 17.64,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 4.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 32.12,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.31,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 193,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 596,
-    "slug": "filet-de-merlu-and-frites-de-celeri-rave",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C (200°C chaleur tournante). Portez une casserole d'eau salée à ébullition pour le brocoli.Épluchez le céleri-rave et coupez le en frites de 1 cm.Coupez les bouquets de brocoli en fleurettes et les tiges en morceaux.Ciselez l'ail.",
-            "instructionsHTML": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Préchauffez le four à 220°C (200°C chaleur tournante). </li><li>Portez une casserole d&#39;eau salée à ébullition pour le brocoli.</li><li><span>Épluchez le céleri-rave et coupez le en frites de 1 cm.</span></li><li>Coupez les bouquets de brocoli en fleurettes et les tiges en morceaux.</li><li>Ciselez l&#39;ail.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li>Préchauffez le four à 220°C (200°C chaleur tournante). </li><li>Portez une casserole d&#39;eau salée à ébullition pour le brocoli.</li><li><span>Épluchez le céleri-rave et coupez le en frites de 1 cm.</span></li><li>Coupez les bouquets de brocoli en fleurettes et les tiges en morceaux.</li><li>Ciselez l&#39;ail.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305379",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/633c2878931f36f7a20713fb/step-7200a100.jpg",
-                    "path": "/633c2878931f36f7a20713fb/step-7200a100.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Sur une plaque recouverte de papier sulfurisé, mélangez les frites avec un filet d'huile d'olive et 1 cc d'épices du Moyen-Orient par personne (ça pique ! Dosez-les selon votre goût). Salez et poivrez.Enfournez 30-40 min ou jusqu'à ce que les frites soient dorées et croustillantes. Remuez à mi-cuisson. Contrôlez la cuisson à l'aide de la pointe d'un couteau.",
-            "instructionsHTML": "<ul><li>Sur une plaque recouverte de papier sulfurisé, mélangez les frites avec un filet d&#39;huile d&#39;olive et 1 cc d&#39;épices du Moyen-Orient par personne (ça pique ! Dosez-les selon votre goût). Salez et poivrez.</li><li>Enfournez 30-40 min ou jusqu&#39;à ce que les frites soient dorées et croustillantes. Remuez à mi-cuisson. Contrôlez la cuisson à l&#39;aide de la pointe d&#39;un couteau.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Sur une plaque recouverte de papier sulfurisé, mélangez les frites avec un filet d&#39;huile d&#39;olive et 1 cc d&#39;épices du Moyen-Orient par personne (ça pique ! Dosez-les selon votre goût). Salez et poivrez.</li><li>Enfournez 30-40 min ou jusqu&#39;à ce que les frites soient dorées et croustillantes. Remuez à mi-cuisson. Contrôlez la cuisson à l&#39;aide de la pointe d&#39;un couteau.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/633c2878931f36f7a20713fb/step-660b9a10.jpg",
-                    "path": "/633c2878931f36f7a20713fb/step-660b9a10.jpg",
-                    "caption": "Enfourner les frites"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites cuire le brocoli 4-6 min dans l'eau bouillante.Égouttez-le, puis réservez-le sans couvercle.",
-            "instructionsHTML": "<ul><li>Faites cuire le brocoli 4-6 min dans l&#39;eau bouillante.</li><li><span>É</span>gouttez-le, puis réservez-le sans couvercle.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites cuire le brocoli 4-6 min dans l&#39;eau bouillante.</li><li><span>É</span>gouttez-le, puis réservez-le sans couvercle.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/633c2878931f36f7a20713fb/step-52777320.jpg",
-                    "path": "/633c2878931f36f7a20713fb/step-52777320.jpg",
-                    "caption": "Cuire le brocoli"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Effeuillez et ciselez le persil. Coupez le citron en quartiers. Dans un petit bol, mélangez la moitié du persil, un filet d'huile d'olive, le yaourt, du sel, du poivre et, par personne : ½ cc d'épices du Moyen-Orient et quelques gouttes de jus de citron (selon votre goût).",
-            "instructionsHTML": "<ul><li>Effeuillez et ciselez le persil. </li><li>Coupez le citron en quartiers. </li><li>Dans un petit bol, mélangez la moitié du persil, un filet d&#39;huile d&#39;olive, le yaourt, du sel, du poivre et, <span>par personne : </span><span>½</span><span> cc d&#39;épices du Moyen-Orient et quelques gouttes de jus de citron (selon votre goût).</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Effeuillez et ciselez le persil. </li><li>Coupez le citron en quartiers. </li><li>Dans un petit bol, mélangez la moitié du persil, un filet d&#39;huile d&#39;olive, le yaourt, du sel, du poivre et, <span>par personne : </span><span>½</span><span> cc d&#39;épices du Moyen-Orient et quelques gouttes de jus de citron (selon votre goût).</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/633c2878931f36f7a20713fb/step-ef81c230.jpg",
-                    "path": "/633c2878931f36f7a20713fb/step-ef81c230.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Épongez le merlu avec de l’essuie-tout.Lorsque le céleri est presque cuit, faites fondre le beurre avec un filet d'huile d'olive dans une poêle à feu moyen-vif. Faites-y cuire le merlu 2-3 min côté peau en l'arrosant du mélange huile-beurre. Retournez le poisson et cuisez-le 1-2 min côté chair ou jusqu’à ce qu'elle ne soit plus translucide.Remettez la casserole à feu moyen-vif avec un filet d'huile d'olive. Faites-y revenir le brocoli et l'ail 1-2 min. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>É<span>pongez le merlu avec de l’essuie-tout.</span></li><li>Lorsque le céleri est presque cuit, faites fondre le beurre avec un filet d&#39;huile d&#39;olive dans une poêle à feu moyen-vif. Faites-y cuire le merlu 2-3 min côté peau en l&#39;arrosant du mélange huile-beurre. </li><li>Retournez le poisson et cuisez-le 1-2 min côté chair ou jusqu’à ce qu&#39;elle ne soit plus translucide.</li><li>Remettez la casserole à feu moyen-vif avec un filet d&#39;huile d&#39;olive. Faites-y revenir le brocoli et l&#39;ail 1-2 min. Salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>É<span>pongez le merlu avec de l’essuie-tout.</span></li><li>Lorsque le céleri est presque cuit, faites fondre le beurre avec un filet d&#39;huile d&#39;olive dans une poêle à feu moyen-vif. Faites-y cuire le merlu 2-3 min côté peau en l&#39;arrosant du mélange huile-beurre. </li><li>Retournez le poisson et cuisez-le 1-2 min côté chair ou jusqu’à ce qu&#39;elle ne soit plus translucide.</li><li>Remettez la casserole à feu moyen-vif avec un filet d&#39;huile d&#39;olive. Faites-y revenir le brocoli et l&#39;ail 1-2 min. Salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383",
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/633c2878931f36f7a20713fb/step-5ccc8e40.jpg",
-                    "path": "/633c2878931f36f7a20713fb/step-5ccc8e40.jpg",
-                    "caption": "Cuire le poisson"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le filet de merlu dans les assiettes avec les frites de céleri, le brocoli et la sauce.Parsemez du reste de persil.Versez un filet d'huile d'olive par-dessus pour plus de gourmandise.",
-            "instructionsHTML": "<ul><li>Servez le filet de merlu dans les assiettes avec les frites de céleri, le brocoli et la sauce.</li><li>Parsemez du reste de persil.</li><li>Versez un filet d&#39;huile d&#39;olive par-dessus pour plus de gourmandise.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez le filet de merlu dans les assiettes avec les frites de céleri, le brocoli et la sauce.</li><li>Parsemez du reste de persil.</li><li>Versez un filet d&#39;huile d&#39;olive par-dessus pour plus de gourmandise.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/633c2878931f36f7a20713fb/step-dcf39250.jpg",
-                    "path": "/633c2878931f36f7a20713fb/step-dcf39250.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305316",
-            "type": "low-carb",
-            "name": "<30g glucides",
-            "slug": "<30g-glucides",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29804316-1",
-    "updatedAt": "2023-10-13T10:42:13+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        }
-    ],
-    "uuid": "467565ee-3e33-4307-8e9c-00def1a74429",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/filet-de-merlu-and-frites-de-celeri-rave-633c2878931f36f7a20713fb",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be4",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073bb19c6d10cd16eab625",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be4",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073bb19c6d10cd16eab625",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be4",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073bb19c6d10cd16eab625",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be4",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073bb19c6d10cd16eab625",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 1.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be4",
-                    "amount": 560,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073bb19c6d10cd16eab625",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "64073bee9c6d10cd16eab66f",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be4",
-                    "amount": 720,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c017b0da1947779864a9",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "64073bb19c6d10cd16eab625",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C (200°C chaleur tournante). Portez une casserole d'eau salée à ébullition pour le brocoli.Épluchez le céleri-rave et coupez le en frites de 1 cm.Coupez les bouquets de brocoli en fleurettes et les tiges en morceaux.Ciselez l'ail.",
+        "Sur une plaque recouverte de papier sulfurisé, mélangez les frites avec un filet d'huile d'olive et 1 cc d'épices du Moyen-Orient par personne (ça pique ! Dosez-les selon votre goût). Salez et poivrez.Enfournez 30-40 min ou jusqu'à ce que les frites soient dorées et croustillantes. Remuez à mi-cuisson. Contrôlez la cuisson à l'aide de la pointe d'un couteau.",
+        "Faites cuire le brocoli 4-6 min dans l'eau bouillante.Égouttez-le, puis réservez-le sans couvercle.",
+        "Effeuillez et ciselez le persil. Coupez le citron en quartiers. Dans un petit bol, mélangez la moitié du persil, un filet d'huile d'olive, le yaourt, du sel, du poivre et, par personne : ½ cc d'épices du Moyen-Orient et quelques gouttes de jus de citron (selon votre goût).",
+        "Épongez le merlu avec de l’essuie-tout.Lorsque le céleri est presque cuit, faites fondre le beurre avec un filet d'huile d'olive dans une poêle à feu moyen-vif. Faites-y cuire le merlu 2-3 min côté peau en l'arrosant du mélange huile-beurre. Retournez le poisson et cuisez-le 1-2 min côté chair ou jusqu’à ce qu'elle ne soit plus translucide.Remettez la casserole à feu moyen-vif avec un filet d'huile d'olive. Faites-y revenir le brocoli et l'ail 1-2 min. Salez et poivrez.",
+        "Servez le filet de merlu dans les assiettes avec les frites de céleri, le brocoli et la sauce.Parsemez du reste de persil.Versez un filet d'huile d'olive par-dessus pour plus de gourmandise."
     ]
 }

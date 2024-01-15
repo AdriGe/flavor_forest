@@ -1,897 +1,111 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fe",
-            "name": "Graines de sésame",
-            "type": "sesame",
-            "slug": "graines-de-sesame",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QFR20161838-1",
-    "country": "FR",
-    "createdAt": "2021-03-30T15:26:46+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b9",
-            "type": "middleeastern",
-            "name": "Middle Eastern",
-            "slug": "middle-eastern",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b9-28649f9a.jpg"
-        }
+        "Middle Eastern"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 1,
     "favoritesCount": 475,
     "headline": "avec du zaatar et une salade de tomates cerises",
-    "id": "606343352d69c116b0053fc7",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210311_R214_W17_FR_QFR20161838-1_MB_Main_low-73f70891.jpg",
-    "imagePath": "/image/HF210311_R214_W17_FR_QFR20161838-1_MB_Main_low-73f70891.jpg",
+    "name": "Pita aux falafels et à la feta",
+    "prepTime": 15,
+    "totalTime": 10,
+    "image_id": "606343352d69c116b0053fc7",
+    "id": "cb5cda79-7d97-4a56-a877-8622a45230c4",
+    "nutrition": {
+        "kcal": 251,
+        "fat": 24.22,
+        "saturated_fat": 6.89,
+        "carbohydrate": 3.03,
+        "sugars": 1.69,
+        "protein": 4.97,
+        "sodium": 0.65
+    },
+    "tags": [
+        "Rapido",
+        "Végétarien"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf41af4af6d531d50aec",
-            "uuid": "d727dac9-25b4-5d73-9417-ad3f0ca215fd",
-            "name": "Pain pita",
-            "type": "pita-bread",
-            "slug": "pain-pita",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41af4af6d531d50aec-eed641b7.png",
-            "imagePath": "/ingredient/6405bf41af4af6d531d50aec-eed641b7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "pièce(s)",
+            "ingredient_id": "fce1aeda-68c4-4548-a820-72d610c927df",
+            "portion_id": "f4255794-38a3-435a-bb5a-3603823446b1",
+            "image_id": "6405bf41af4af6d531d50aec"
         },
         {
-            "id": "6405bfcfb0da1947779863bd",
-            "uuid": "bcc1711c-7d3d-590c-8899-19dac813e82c",
-            "name": "Falafels et sauce yaourt-menthe",
-            "type": "falafel",
-            "slug": "falafels-et-sauce-yaourt-menthe",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfcfb0da1947779863bd-71f8bee9.png",
-            "imagePath": "/ingredient/6405bfcfb0da1947779863bd-71f8bee9.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "4db3d4de-4e13-4c7a-a08b-63863754fd60"
         },
         {
-            "id": "64073ba79c6d10cd16eab61a",
-            "uuid": "b1c9793a-0cbe-5d9a-a748-d1657c7f5dd2",
-            "name": "Feta",
-            "type": "feta-cheese",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "imagePath": "/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "1ebb2ad3-510c-46f9-b2af-bc490d857206"
         },
         {
-            "id": "6405bf5caf4af6d531d50b68",
-            "uuid": "3a2601e7-2650-4eda-bff1-57617535716d",
-            "name": "Chou rouge et carotte râpés",
-            "type": "red-cabbage-and-carrot",
-            "slug": "chou-rouge-et-carotte-rapes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5caf4af6d531d50b68-154b5b43.png",
-            "imagePath": "/ingredient/6405bf5caf4af6d531d50b68-154b5b43.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "9e696287-2c99-4f75-b16e-a75b365cc03c"
         },
         {
-            "id": "6405bfb6b0da194777986365",
-            "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
-            "name": "Salade",
-            "type": "rocket",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b0da194777986365-23aed5fc.png",
-            "imagePath": "/ingredient/6405bfb6b0da194777986365-23aed5fc.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "61707057-dd9c-4fff-b21e-c8bc1aad80a9"
         },
         {
-            "id": "6405c007af4af6d531d50dab",
-            "uuid": "f9140ec1-acf1-40d7-b9ad-83693590cc17",
-            "name": "Sauce yaourt-tahini",
-            "type": "yoghurt-tahini-sauce",
-            "slug": "sauce-yaourt-tahini",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c007af4af6d531d50dab-c4f59053.png",
-            "imagePath": "/ingredient/6405c007af4af6d531d50dab-c4f59053.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "579db039-f994-49c5-86f5-72f52a837558"
         },
         {
-            "id": "64073bf2683721c9a32b078e",
-            "uuid": "090f66f8-5adb-5041-a1cb-19e72eb1f83a",
-            "name": "Zaatar",
-            "type": "zaatar",
-            "slug": "zaatar",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf55af4af6d531d50b3d-11366560.png",
-            "imagePath": "/ingredient/6405bf55af4af6d531d50b3d-11366560.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fe"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.33,
+            "unit": "sachet(s)",
+            "ingredient_id": "ee922ba4-b7eb-4ddd-9bf4-e0090b51fbf2",
+            "portion_id": "c3191bff-cba9-424f-9740-6ced4dc70e3f",
+            "image_id": "64073bf2683721c9a32b078e"
         },
         {
-            "id": "6405bfcbb0da1947779863b0",
-            "uuid": "98168a71-ceae-5c3f-8939-2d5457bad8f2",
-            "name": "Tomates cerises rouges et jaunes",
-            "type": "mixed-plum-tomatoes",
-            "slug": "tomates-cerises-rouges-et-jaunes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfcbb0da1947779863b0-515e5b78.png",
-            "imagePath": "/ingredient/6405bfcbb0da1947779863b0-515e5b78.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "c3a47cc9-8ecb-4f35-be02-d8aece564763"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5122da0a0603e5708dcc3",
-            "uuid": "5c5844ca-6509-4bf1-beb8-b91a7ece9b11",
-            "name": "Vinaigre balsamique blanc ou de riz",
-            "type": "vinaigre-balsamique-blanc-ou-de-riz-cc",
-            "slug": "vinaigre-balsamique-blanc-ou-de-riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122da0a0603e5708dcc3-06e2a8be.png",
-            "imagePath": "/ingredient/63e5122da0a0603e5708dcc3-06e2a8be.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "76cdb2b3-cc71-49fc-b84a-025481030bb0",
+            "portion_id": "d61e0c94-88d0-4977-b479-b3239d3573c1",
+            "image_id": "63e5122da0a0603e5708dcc3"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/606343352d69c116b0053fc7",
-    "name": "Pita aux falafels et à la feta",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 251,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1051,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 24.22,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 6.89,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 3.03,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 1.69,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 4.97,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.65,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT15M",
-    "promotion": null,
-    "ratingsCount": 1139,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 85,
-    "slug": "pita-aux-falafels-et-a-la-feta",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez votre four à 200°C (ou 180°C chaleur tournante).Mettez les pains pita sur une plaque de cuisson recouverte de papier sulfurisé. Ajoutez les falafels à côté des pains et enfournez immédiatement le tout 10-12 minutes.",
-            "instructionsHTML": "<ul><li>Préchauffez votre four à 200°C (ou 180°C chaleur tournante).</li><li>Mettez les pains pita sur une plaque de cuisson recouverte de papier sulfurisé. </li><li>Ajoutez les falafels à côté des pains et enfournez immédiatement le tout 10-12 minutes.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Préchauffez votre four à 200°C (ou 180°C chaleur tournante).</li><li>Mettez les pains pita sur une plaque de cuisson recouverte de papier sulfurisé. </li><li>Ajoutez les falafels à côté des pains et enfournez immédiatement le tout 10-12 minutes.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/606343352d69c116b0053fc7/step-3fbdd600.jpg",
-                    "path": "/606343352d69c116b0053fc7/step-3fbdd600.jpg",
-                    "caption": "Cuire les falafels"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Dans un saladier, mélangez l'huile d'olive, le vinaigre balsamique blanc, du sel et du poivre pour faire une vinaigrette. Ajoutez le mélange de carottes et de chou râpé ainsi que la roquette, puis mélangez. Coupez les tomates cerises en deux.Coupez le citron vert en quartiers.",
-            "instructionsHTML": "<ul><li>Dans un saladier, mélangez l&#39;huile d&#39;olive, le vinaigre balsamique blanc, du sel et du poivre pour faire une vinaigrette. </li><li>Ajoutez le mélange de carottes et de chou râpé ainsi que la roquette, puis mélangez. </li><li>Coupez les tomates cerises en deux.</li><li>Coupez le citron vert en quartiers.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans un saladier, mélangez l&#39;huile d&#39;olive, le vinaigre balsamique blanc, du sel et du poivre pour faire une vinaigrette. </li><li>Ajoutez le mélange de carottes et de chou râpé ainsi que la roquette, puis mélangez. </li><li>Coupez les tomates cerises en deux.</li><li>Coupez le citron vert en quartiers.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/606343352d69c116b0053fc7/step-93235110.jpg",
-                    "path": "/606343352d69c116b0053fc7/step-93235110.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Émiettez la feta à l'aide de vos doigts : elle s'effritera facilement.Ajoutez 1/2 cc de zaatar par personne à la sauce yaourt-tahini. Salez et poivrez. ",
-            "instructionsHTML": "<ul><li>Émiettez la feta à l&#39;aide de vos doigts : elle s&#39;effritera facilement.</li><li>Ajoutez 1/2 cc de zaatar par personne à la sauce yaourt-tahini. Salez et poivrez. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Émiettez la feta à l&#39;aide de vos doigts : elle s&#39;effritera facilement.</li><li>Ajoutez 1/2 cc de zaatar par personne à la sauce yaourt-tahini. Salez et poivrez. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/606343352d69c116b0053fc7/step-5541fc20.jpg",
-                    "path": "/606343352d69c116b0053fc7/step-5541fc20.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Sortez les pitas du four. Disposez les falafels dans une assiette.Apportez tous les ingrédients à table et laissez chacun garnir ses pitas avec la sauce, la salade, les falafels, les tomates cerises, la feta et quelques gouttes de jus de citron.",
-            "instructionsHTML": "<ul><li>Sortez les pitas du four. </li><li>Disposez les falafels dans une assiette.</li><li>Apportez tous les ingrédients à table et laissez chacun garnir ses pitas avec la sauce, la salade, les falafels, les tomates cerises, la feta et quelques gouttes de jus de citron.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Sortez les pitas du four. </li><li>Disposez les falafels dans une assiette.</li><li>Apportez tous les ingrédients à table et laissez chacun garnir ses pitas avec la sauce, la salade, les falafels, les tomates cerises, la feta et quelques gouttes de jus de citron.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/606343352d69c116b0053fc7/step-1f8e6130.jpg",
-                    "path": "/606343352d69c116b0053fc7/step-1f8e6130.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "585a98214348d20b1a5850b1",
-            "type": "rapid",
-            "name": "Rapido",
-            "slug": "rapido",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT10M",
-    "uniqueRecipeCode": "QFR20161838-1",
-    "updatedAt": "2023-10-13T10:40:50+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "ed7165a2-0526-403f-8060-bb5a6fb3f832",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/pita-aux-falafels-et-a-la-feta-606343352d69c116b0053fc7",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfcfb0da1947779863bd",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c007af4af6d531d50dab",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bf2683721c9a32b078e",
-                    "amount": 0.17,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfcbb0da1947779863b0",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122da0a0603e5708dcc3",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfcfb0da1947779863bd",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c007af4af6d531d50dab",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bf2683721c9a32b078e",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfcbb0da1947779863b0",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122da0a0603e5708dcc3",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfcfb0da1947779863bd",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c007af4af6d531d50dab",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bf2683721c9a32b078e",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfcbb0da1947779863b0",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 4.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122da0a0603e5708dcc3",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfcfb0da1947779863bd",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c007af4af6d531d50dab",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bf2683721c9a32b078e",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfcbb0da1947779863b0",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122da0a0603e5708dcc3",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 10,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfcfb0da1947779863bd",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c007af4af6d531d50dab",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bf2683721c9a32b078e",
-                    "amount": 0.83,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfcbb0da1947779863b0",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122da0a0603e5708dcc3",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 12,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfcfb0da1947779863bd",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b0da194777986365",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c007af4af6d531d50dab",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bf2683721c9a32b078e",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfcbb0da1947779863b0",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122da0a0603e5708dcc3",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez votre four à 200°C (ou 180°C chaleur tournante).Mettez les pains pita sur une plaque de cuisson recouverte de papier sulfurisé. Ajoutez les falafels à côté des pains et enfournez immédiatement le tout 10-12 minutes.",
+        "Dans un saladier, mélangez l'huile d'olive, le vinaigre balsamique blanc, du sel et du poivre pour faire une vinaigrette. Ajoutez le mélange de carottes et de chou râpé ainsi que la roquette, puis mélangez. Coupez les tomates cerises en deux.Coupez le citron vert en quartiers.",
+        "Émiettez la feta à l'aide de vos doigts : elle s'effritera facilement.Ajoutez 1/2 cc de zaatar par personne à la sauce yaourt-tahini. Salez et poivrez. ",
+        "Sortez les pitas du four. Disposez les falafels dans une assiette.Apportez tous les ingrédients à table et laissez chacun garnir ses pitas avec la sauce, la salade, les falafels, les tomates cerises, la feta et quelques gouttes de jus de citron."
     ]
 }

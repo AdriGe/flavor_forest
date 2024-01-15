@@ -1,1037 +1,135 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804031-3",
-    "country": "FR",
-    "createdAt": "2023-01-24T09:01:03+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "Ce plat de saucisse aux lentilles n'est pas sans rappeler l'inimitable petit salé aux lentilles auvergnat ! Une belle inspiration que notre chef toulousain François-Xavier a souhaité faire voyager jusque chez lui en mettant en avant une fierté régionale : la saucisse de Toulouse. Loin de là l'idée de faire de l'ombre à l'Auvergne, bien sûr !",
-    "descriptionHTML": "<p>Ce plat de saucisse aux lentilles n'est pas sans rappeler l'inimitable petit salé aux lentilles auvergnat ! Une belle inspiration que notre chef toulousain François-Xavier a souhaité faire voyager jusque chez lui en mettant en avant une fierté régionale : la saucisse de Toulouse. Loin de là l'idée de faire de l'ombre à l'Auvergne, bien sûr !</p>",
-    "descriptionMarkdown": "Ce plat de saucisse aux lentilles n'est pas sans rappeler l'inimitable petit salé aux lentilles auvergnat ! Une belle inspiration que notre chef toulousain François-Xavier a souhaité faire voyager jusque chez lui en mettant en avant une fierté régionale : la saucisse de Toulouse. Loin de là l'idée de faire de l'ombre à l'Auvergne, bien sûr !",
     "difficulty": 2,
     "favoritesCount": 410,
     "headline": "avec des oignons, des lardons & des carottes",
-    "id": "63cf9e4df2d1810a340d3030",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220228_R206_W14_FR_RFR29804031-1_MB_Main_remove_the_thyme_rosemary_low-c96364c2.jpg",
-    "imagePath": "/image/HF220228_R206_W14_FR_RFR29804031-1_MB_Main_remove_the_thyme_rosemary_low-c96364c2.jpg",
+    "name": "Saucisse de Toulouse aux lentilles",
+    "prepTime": 50,
+    "totalTime": 20,
+    "image_id": "63cf9e4df2d1810a340d3030",
+    "id": "42f656c2-363d-4324-91b6-ed9ac326233d",
+    "nutrition": {
+        "kcal": 693,
+        "fat": 38.8,
+        "saturated_fat": 17.3,
+        "carbohydrate": 44.3,
+        "sugars": 8.1,
+        "protein": 39.4,
+        "sodium": 5.38
+    },
+    "tags": [
+        "Famille",
+        "A la Montagne",
+        "Chef's Choice"
+    ],
+    "utensils": [
+        "Éplucheur",
+        "Casserole avec couvercle",
+        "Poêle"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405c000b9d07cd5d38d7c99",
-            "uuid": "4c53bdb2-57d1-583a-9825-4958209b4e9a",
-            "name": "Lentilles vertes",
-            "type": "green-lentils",
-            "slug": "lentilles-vertes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000b9d07cd5d38d7c99-1f09a6f5.png",
-            "imagePath": "/ingredient/6405c000b9d07cd5d38d7c99-1f09a6f5.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 120,
+            "unit": "g",
+            "ingredient_id": "fb2bc2ac-f59a-4439-9578-5b6d014a5629"
         },
         {
-            "id": "6405bf23b0da19477798616a",
-            "uuid": "1182a147-a169-5625-92ae-2305fab920e3",
-            "name": "Feuille de laurier",
-            "type": "bay-leaves",
-            "slug": "feuille-de-laurier",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf23b0da19477798616a-34fc502c.png",
-            "imagePath": "/ingredient/6405bf23b0da19477798616a-34fc502c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2f762dc0-4910-4e4e-986e-41b1004ccccf",
+            "portion_id": "4d270119-381f-4870-9b6e-d15415df946c",
+            "image_id": "6405bf23b0da19477798616a"
         },
         {
-            "id": "6405bf48b9d07cd5d38d7a14",
-            "uuid": "cf5787dc-613d-510e-988e-2a2d5c1e2fe9",
-            "name": "Thym séché",
-            "type": "dried-thyme",
-            "slug": "thym-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "imagePath": "/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "2c3977d4-a9c0-44d5-9edc-db5856a2c6bd",
+            "portion_id": "53b48a62-b026-4d46-8b15-5b913151a9d3",
+            "image_id": "6405bf48b9d07cd5d38d7a14"
         },
         {
-            "id": "6405bf29b9d07cd5d38d799d",
-            "uuid": "d566e2fd-c965-5a9d-ab98-0a48e581ae81",
-            "name": "Romarin séché",
-            "type": "dried-rosemary",
-            "slug": "romarin-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf29b9d07cd5d38d799d-adc9d6a4.png",
-            "imagePath": "/ingredient/6405bf29b9d07cd5d38d799d-adc9d6a4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.25,
+            "unit": "sachet(s)",
+            "ingredient_id": "795c2242-ba9b-440f-9cd5-463928ad154f",
+            "portion_id": "e1bcfe46-256b-4bfb-9ee5-2a8d427906e0",
+            "image_id": "6405bf29b9d07cd5d38d799d"
         },
         {
-            "id": "6405bf20af4af6d531d50a61",
-            "uuid": "cd41d645-9674-434e-b1cf-fe77522604cd",
-            "name": "Lardons fumés",
-            "type": "cubed-bacon",
-            "slug": "lardons-fumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "imagePath": "/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "378fd004-6e40-46bc-ba38-fd40e9d5a5e8"
         },
         {
-            "id": "6405c01fb0da1947779864ce",
-            "uuid": "eb202072-0f96-5e84-86d3-e7ef42ef9bd2",
-            "name": "Saucisse de Toulouse",
-            "type": "toulouse-sausage",
-            "slug": "saucisse-de-toulouse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c01fb0da1947779864ce-eab6078f.png",
-            "imagePath": "/ingredient/6405c01fb0da1947779864ce-eab6078f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "f2090e24-5453-42ff-8f5d-27034fa2c847",
+            "portion_id": "0f72e465-6902-4c13-af97-9d183d49128e",
+            "image_id": "6405c01fb0da1947779864ce"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.6,
+            "unit": "pot(s)",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01",
+            "portion_id": "2bd20717-2bbe-4705-8c80-f36486974785",
+            "image_id": "64073ba5683721c9a32b0730"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 450,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5122181b4b295e66f0258",
-            "uuid": "36c20260-788a-4eed-8423-454cc7d047ac",
-            "name": "Beurre",
-            "type": "beurre-cc",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122181b4b295e66f0258-1fc1b122.png",
-            "imagePath": "/ingredient/63e5122181b4b295e66f0258-1fc1b122.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "50b05986-40c9-4736-a8c9-0f0b51b8247f",
+            "portion_id": "1aa6700b-1846-4d4d-aca2-1ddb3f362a10",
+            "image_id": "63e5122181b4b295e66f0258"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/63cf9e4df2d1810a340d3030",
-    "name": "Saucisse de Toulouse aux lentilles",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 693,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2899,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 38.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 17.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 44.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 8.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 39.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 5.38,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 824,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 544,
-    "slug": "saucisse-de-toulouse-aux-lentilles",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !*Préparez le bouillon avec de l'eau chaude.*Ciselez l'oignon et l'ail. *Épluchez la carotte et coupez-la en fines demi-lunes. ",
-            "instructionsHTML": "<p><span>*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></p><p>*Préparez le bouillon avec de l&#39;eau chaude.</p><p>*Ciselez l&#39;oignon et l&#39;ail. </p><p>*Épluchez la carotte et coupez-la en fines demi-lunes. </p>",
-            "instructionsMarkdown": "<p><span>*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></p><p>*Préparez le bouillon avec de l&#39;eau chaude.</p><p>*Ciselez l&#39;oignon et l&#39;ail. </p><p>*Épluchez la carotte et coupez-la en fines demi-lunes. </p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63cf9e4df2d1810a340d3030/step-eedc0500.jpg",
-                    "path": "/63cf9e4df2d1810a340d3030/step-eedc0500.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "*Faites chauffer 1 cc de beurre par personne dans une grande casserole ou une marmite à feu moyen. *Faites-y revenir l'oignon et la carotte 3-5 min.*Ajoutez l'ail et ½ cc de vinaigre de vin rouge par personne à la casserole et poursuivez la cuisson 1 min.",
-            "instructionsHTML": "<p>*Faites chauffer 1 cc de beurre par personne dans une grande casserole ou une marmite à feu moyen. </p><p>*Faites-y revenir l&#39;oignon et la carotte 3-5 min.</p><p>*Ajoutez l&#39;ail et <span>½</span> cc de vinaigre de vin rouge par personne à la casserole et poursuivez la cuisson 1 min.</p>",
-            "instructionsMarkdown": "<p>*Faites chauffer 1 cc de beurre par personne dans une grande casserole ou une marmite à feu moyen. </p><p>*Faites-y revenir l&#39;oignon et la carotte 3-5 min.</p><p>*Ajoutez l&#39;ail et <span>½</span> cc de vinaigre de vin rouge par personne à la casserole et poursuivez la cuisson 1 min.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63cf9e4df2d1810a340d3030/step-7b710510.jpg",
-                    "path": "/63cf9e4df2d1810a340d3030/step-7b710510.jpg",
-                    "caption": "Cuire les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "*Ajoutez les lentilles, le laurier et le bouillon de légumes à la casserole ainsi que, par personne : ½ cc de thym séché et ½ cc de romarin séché.*Couvrez et laissez cuire 45-50 min à feu doux.CONSEIL: Ajoutez de l'eau aux lentilles en cours de cuisson si besoin. Veillez à ce qu'elles n'accrochent pas.",
-            "instructionsHTML": "<p>*Ajoutez les lentilles, le laurier et le bouillon de légumes à la casserole ainsi que, par personne : <span>½</span> cc de thym séché et <span>½</span> cc de romarin séché.</p><p>*Couvrez et laissez cuire 45-50 min à feu doux.</p><p>CONSEIL: Ajoutez de l&#39;eau aux lentilles en cours de cuisson si besoin. Veillez à ce qu&#39;elles n&#39;accrochent pas.</p>",
-            "instructionsMarkdown": "<p>*Ajoutez les lentilles, le laurier et le bouillon de légumes à la casserole ainsi que, par personne : <span>½</span> cc de thym séché et <span>½</span> cc de romarin séché.</p><p>*Couvrez et laissez cuire 45-50 min à feu doux.</p><p>CONSEIL: Ajoutez de l&#39;eau aux lentilles en cours de cuisson si besoin. Veillez à ce qu&#39;elles n&#39;accrochent pas.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63cf9e4df2d1810a340d3030/step-6eee9720.jpg",
-                    "path": "/63cf9e4df2d1810a340d3030/step-6eee9720.jpg",
-                    "caption": "Mijoter"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "*Pendant ce temps, faites chauffer une poêle à feu moyen-vif. *Faites-y dorer les lardons et les saucisses à sec 3-4 min. Réservez-les hors du feu, toujours dans la poêle.*Piquez les saucisses avec une fourchette.*Au bout de 20 min de cuisson des lentilles, ajoutez les saucisses à la casserole. Retournez-les à mi-cuisson.",
-            "instructionsHTML": "<p><span>*Pendant ce temps, faites chauffer une poêle à feu moyen-vif. </span></p><p><span>*F</span>aites-y dorer les lardons et les saucisses à sec 3-4 min. Réservez-les hors du feu, toujours dans la poêle.</p><p>*Piquez les saucisses avec une fourchette.</p><p>*Au bout de 20 min de cuisson des lentilles, ajoutez les saucisses à la casserole. Retournez-les à mi-cuisson.</p>",
-            "instructionsMarkdown": "<p><span>*Pendant ce temps, faites chauffer une poêle à feu moyen-vif. </span></p><p><span>*F</span>aites-y dorer les lardons et les saucisses à sec 3-4 min. Réservez-les hors du feu, toujours dans la poêle.</p><p>*Piquez les saucisses avec une fourchette.</p><p>*Au bout de 20 min de cuisson des lentilles, ajoutez les saucisses à la casserole. Retournez-les à mi-cuisson.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63cf9e4df2d1810a340d3030/step-d8a7f530.jpg",
-                    "path": "/63cf9e4df2d1810a340d3030/step-d8a7f530.jpg",
-                    "caption": "Cuire la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "*Lorsque les lentilles sont cuites (elles doivent être fondantes), réservez les saucisses hors de la casserole et ôtez le laurier. S'il reste de l'eau de cuisson aux lentilles, égouttez-les.*Coupez les saucisses en tranches de 1 cm d'épaisseur (attention à ne pas vous brûler !).*Ajoutez 1 cs de crème par personne, les lardons et les saucisses à la casserole et mélangez. ",
-            "instructionsHTML": "<p>*Lorsque les lentilles sont cuites (elles doivent être fondantes), réservez les saucisses hors de la casserole et ôtez le laurier. S&#39;il reste de l&#39;eau de cuisson aux lentilles, égouttez-les.</p><p>*Coupez les saucisses en tranches de 1 cm d&#39;épaisseur (attention à ne pas vous brûler !).</p><p>*Ajoutez 1 cs de crème par personne, les lardons et les saucisses à la casserole et mélangez. </p>",
-            "instructionsMarkdown": "<p>*Lorsque les lentilles sont cuites (elles doivent être fondantes), réservez les saucisses hors de la casserole et ôtez le laurier. S&#39;il reste de l&#39;eau de cuisson aux lentilles, égouttez-les.</p><p>*Coupez les saucisses en tranches de 1 cm d&#39;épaisseur (attention à ne pas vous brûler !).</p><p>*Ajoutez 1 cs de crème par personne, les lardons et les saucisses à la casserole et mélangez. </p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63cf9e4df2d1810a340d3030/step-f8551e40.jpg",
-                    "path": "/63cf9e4df2d1810a340d3030/step-f8551e40.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "*Servez les saucisses et les lentilles dans les assiettes.*Ajustez l'assaisonnement selon votre goût (attention, les lardons et le bouillon sont déjà salés).",
-            "instructionsHTML": "<p>*Servez les saucisses et les lentilles dans les assiettes.</p><p>*Ajustez l&#39;assaisonnement selon votre goût (attention, les lardons et le bouillon sont déjà salés).</p>",
-            "instructionsMarkdown": "<p>*Servez les saucisses et les lentilles dans les assiettes.</p><p>*Ajustez l&#39;assaisonnement selon votre goût (attention, les lardons et le bouillon sont déjà salés).</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63cf9e4df2d1810a340d3030/step-5ac55b50.jpg",
-                    "path": "/63cf9e4df2d1810a340d3030/step-5ac55b50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "63c550a50845bf7b9006f782",
-            "type": "a-la-montagne",
-            "name": "A la Montagne",
-            "slug": "a-la-montagne",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": false
-        },
-        {
-            "id": "62388d0e819bac74ed3067cd",
-            "type": "classic",
-            "name": "Chef's Choice",
-            "slug": "chefs-choice",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": false
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR29804031-3",
-    "updatedAt": "2024-01-05T04:27:43+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        }
-    ],
-    "uuid": "12b38c26-a743-440d-8642-83eebe0893a2",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/saucisse-de-toulouse-aux-lentilles-63cf9e4df2d1810a340d3030",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.15,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.3,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 225,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.6,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 450,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.35,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.9,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 675,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.75,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 900,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.6,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1125,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c000b9d07cd5d38d7c99",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf23b0da19477798616a",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf29b9d07cd5d38d799d",
-                    "amount": 0.7,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c01fb0da1947779864ce",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1.8,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1350,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !*Préparez le bouillon avec de l'eau chaude.*Ciselez l'oignon et l'ail. *Épluchez la carotte et coupez-la en fines demi-lunes. ",
+        "*Faites chauffer 1 cc de beurre par personne dans une grande casserole ou une marmite à feu moyen. *Faites-y revenir l'oignon et la carotte 3-5 min.*Ajoutez l'ail et ½ cc de vinaigre de vin rouge par personne à la casserole et poursuivez la cuisson 1 min.",
+        "*Ajoutez les lentilles, le laurier et le bouillon de légumes à la casserole ainsi que, par personne : ½ cc de thym séché et ½ cc de romarin séché.*Couvrez et laissez cuire 45-50 min à feu doux.CONSEIL: Ajoutez de l'eau aux lentilles en cours de cuisson si besoin. Veillez à ce qu'elles n'accrochent pas.",
+        "*Pendant ce temps, faites chauffer une poêle à feu moyen-vif. *Faites-y dorer les lardons et les saucisses à sec 3-4 min. Réservez-les hors du feu, toujours dans la poêle.*Piquez les saucisses avec une fourchette.*Au bout de 20 min de cuisson des lentilles, ajoutez les saucisses à la casserole. Retournez-les à mi-cuisson.",
+        "*Lorsque les lentilles sont cuites (elles doivent être fondantes), réservez les saucisses hors de la casserole et ôtez le laurier. S'il reste de l'eau de cuisson aux lentilles, égouttez-les.*Coupez les saucisses en tranches de 1 cm d'épaisseur (attention à ne pas vous brûler !).*Ajoutez 1 cs de crème par personne, les lardons et les saucisses à la casserole et mélangez. ",
+        "*Servez les saucisses et les lentilles dans les assiettes.*Ajustez l'assaisonnement selon votre goût (attention, les lardons et le bouillon sont déjà salés)."
     ]
 }

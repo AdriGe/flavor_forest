@@ -1,919 +1,117 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RFR16631723-6",
-    "country": "FR",
-    "createdAt": "2022-05-23T13:24:26+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a9",
-            "type": "greek",
-            "name": "Grecque",
-            "slug": "greek",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a9-66a3ad00.jpg"
-        }
+        "Grecque"
     ],
     "description": "Connaissez vous la feta sous sa forme rôtie ? Lorsqu'elle est chauffée, sa chair devient fondante et légèrement crémeuse. En Grèce, elle se déguste à l’heure de l'apéritif tout simplement rôtie au four sur un lit de tomates et saupoudrée d’origan et d’huile d’olive, avec du pain pita pour tremper. Ce classique est ici revisité en salade avec du boulgour.",
-    "descriptionHTML": "<p>Connaissez vous la feta sous sa forme rôtie ? Lorsqu'elle est chauffée, sa chair devient fondante et légèrement crémeuse. En Grèce, elle se déguste à l’heure de l'apéritif tout simplement rôtie au four sur un lit de tomates et saupoudrée d’origan et d’huile d’olive, avec du pain pita pour tremper. Ce classique est ici revisité en salade avec du boulgour.</p>",
-    "descriptionMarkdown": "Connaissez vous la feta sous sa forme rôtie ? Lorsqu'elle est chauffée, sa chair devient fondante et légèrement crémeuse. En Grèce, elle se déguste à l’heure de l'apéritif tout simplement rôtie au four sur un lit de tomates et saupoudrée d’origan et d’huile d’olive, avec du pain pita pour tremper. Ce classique est ici revisité en salade avec du boulgour.",
     "difficulty": 2,
     "favoritesCount": 147,
     "headline": "avec des fines herbes & du concombre",
-    "id": "628b8b0903634208af0bbd12",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210512_R209_W24_FR_RFR16631723-4_MB_Main_red_low-8b6c156d.jpg",
-    "imagePath": "/image/HF210512_R209_W24_FR_RFR16631723-4_MB_Main_red_low-8b6c156d.jpg",
+    "name": "Boulgour à la grecque aux tomates & feta rôties",
+    "prepTime": 30,
+    "totalTime": 10,
+    "image_id": "628b8b0903634208af0bbd12",
+    "id": "ed62a47a-92e8-41c8-bba5-e52e545b90e6",
+    "nutrition": {
+        "kcal": 689,
+        "fat": 60.6,
+        "saturated_fat": 22.6,
+        "carbohydrate": 14.1,
+        "sugars": 10.2,
+        "protein": 20,
+        "sodium": 3.73
+    },
+    "tags": [
+        "Végétarien",
+        "Peu de cuisine"
+    ],
+    "utensils": [
+        "Plat à four",
+        "Casserole avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf1cb9d07cd5d38d796e",
-            "uuid": "53a96a7f-0a28-58a9-bccd-f846bf404e1a",
-            "name": "Tomates cerises rouges",
-            "type": "cherry-tomatoes",
-            "slug": "tomates-cerises-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "imagePath": "/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "f0989f17-f1fc-47a1-9546-d84cd6bd6179"
         },
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "64073ba79c6d10cd16eab61a",
-            "uuid": "b1c9793a-0cbe-5d9a-a748-d1657c7f5dd2",
-            "name": "Feta",
-            "type": "feta-cheese",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "imagePath": "/ingredient/6405bf1eb0da194777986159-b5d2b84d.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "1ebb2ad3-510c-46f9-b2af-bc490d857206"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf48b9d07cd5d38d7a14",
-            "uuid": "cf5787dc-613d-510e-988e-2a2d5c1e2fe9",
-            "name": "Thym séché",
-            "type": "dried-thyme",
-            "slug": "thym-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "imagePath": "/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.67,
+            "unit": "sachet(s)",
+            "ingredient_id": "2c3977d4-a9c0-44d5-9edc-db5856a2c6bd",
+            "portion_id": "53b48a62-b026-4d46-8b15-5b913151a9d3",
+            "image_id": "6405bf48b9d07cd5d38d7a14"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "6405c01bb0da1947779864c2",
-            "uuid": "b3347b9d-a516-5604-b609-7d76c9df17ad",
-            "name": "Boulgour",
-            "type": "bulgur",
-            "slug": "boulgour",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c01bb0da1947779864c2-33aaa842.png",
-            "imagePath": "/ingredient/6405c01bb0da1947779864c2-33aaa842.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 135,
+            "unit": "g",
+            "ingredient_id": "731ef3d1-bec7-46a5-905b-e61cb4e56d5d"
         },
         {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "id": "6405bf95b0da1947779862f8",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "g",
+            "ingredient_id": "4e0da705-5d5e-4e70-a595-83e43cce7d2e"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 6,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122081b4b295e66f0256",
-            "uuid": "0ee900c4-2e9a-437c-84b4-76826b234637",
-            "name": "Cube de bouillon de légumes",
-            "type": "cube-de-bouillon-de-legumes-pc",
-            "slug": "cube-de-bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "imagePath": "/ingredient/63e5122081b4b295e66f0256-21ace66d.jpg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "3aafe58c-08ac-4852-a295-c8d535703ed9",
+            "portion_id": "b0e9b65b-a307-4d4a-ba3f-9cbbfa505df6",
+            "image_id": "63e5122081b4b295e66f0256"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/628b8b0903634208af0bbd12",
-    "name": "Boulgour à la grecque aux tomates & feta rôties",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 689,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2881,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 60.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 22.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 14.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 10.2,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 20,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.73,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 265,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 395,
-    "slug": "boulgour-a-la-grecque-aux-tomates-and-feta-roties",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 225°C (205°C chaleur tournante). Coupez les tomates cerises en deux.Coupez l'oignon rouge en très fines demi-lunes.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span></span>Préchauffez le four à 225°C (205°C chaleur tournante). </li><li>Coupez les tomates cerises en deux.</li><li>Coupez l&#39;oignon rouge en très fines demi-lunes.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li><span></span>Préchauffez le four à 225°C (205°C chaleur tournante). </li><li>Coupez les tomates cerises en deux.</li><li>Coupez l&#39;oignon rouge en très fines demi-lunes.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/628b8b0903634208af0bbd12/step-332fef00.jpg",
-                    "path": "/628b8b0903634208af0bbd12/step-332fef00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Disposez les rondelles d'oignon dans un plat à four. Ajoutez la feta entière par-dessus et disposez les tomates cerises tout autour.Ajoutez les gousses d'ail (non épluchées).Arrosez généreusement d'huile d'olive et parsemez de 1 cc de thym et de 1 cc d'origan séché par personne. Enfournez le tout 20-25 min, ou jusqu'à ce que les tomates soient fondantes et la feta légèrement dorée sur les bords.CONSEIL: Si vous aimez les tomates bien confites et presque caramélisées, prolongez la cuisson d'une dizaine de minutes.",
-            "instructionsHTML": "<ul><li>Disposez les rondelles d&#39;oignon dans un plat à four. Ajoutez la feta entière par-dessus et disposez les tomates cerises tout autour.</li><li>Ajoutez les gousses d&#39;ail (non épluchées).</li><li>Arrosez généreusement d&#39;huile d&#39;olive et parsemez de 1 cc de thym et de 1 cc d&#39;origan séché par personne. </li><li>Enfournez le tout 20-25 min, ou jusqu&#39;à ce que les tomates soient fondantes et la feta légèrement dorée sur les bords.</li></ul><p>CONSEIL: Si vous aimez les tomates bien confites et presque caramélisées, prolongez la cuisson d&#39;une dizaine de minutes.</p>",
-            "instructionsMarkdown": "<ul><li>Disposez les rondelles d&#39;oignon dans un plat à four. Ajoutez la feta entière par-dessus et disposez les tomates cerises tout autour.</li><li>Ajoutez les gousses d&#39;ail (non épluchées).</li><li>Arrosez généreusement d&#39;huile d&#39;olive et parsemez de 1 cc de thym et de 1 cc d&#39;origan séché par personne. </li><li>Enfournez le tout 20-25 min, ou jusqu&#39;à ce que les tomates soient fondantes et la feta légèrement dorée sur les bords.</li></ul><p>CONSEIL: Si vous aimez les tomates bien confites et presque caramélisées, prolongez la cuisson d&#39;une dizaine de minutes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/628b8b0903634208af0bbd12/step-3245ec10.jpg",
-                    "path": "/628b8b0903634208af0bbd12/step-3245ec10.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Portez une grande casserole d'eau à ébullition. Émiettez le cube de bouillon par-dessus.Dès que l'eau commence à bouillir, ajoutez le boulgour, couvrez et faites-le cuire 15-17 min à feu moyen.",
-            "instructionsHTML": "<ul><li><span>Portez une grande casserole d&#39;eau à ébullition. </span>É<span>miettez le cube de bouillon par-dessus.</span></li><li><span>Dès que l&#39;eau commence à bouillir, ajoutez le boulgour, couvrez et faites-le cuire 15-17 min à feu moyen.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Portez une grande casserole d&#39;eau à ébullition. </span>É<span>miettez le cube de bouillon par-dessus.</span></li><li><span>Dès que l&#39;eau commence à bouillir, ajoutez le boulgour, couvrez et faites-le cuire 15-17 min à feu moyen.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/628b8b0903634208af0bbd12/step-2fc14c20.jpg",
-                    "path": "/628b8b0903634208af0bbd12/step-2fc14c20.jpg",
-                    "caption": "Cuire le boulgour"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, coupez le concombre en deux dans l'épaisseur. Retirez les graines avec une petite cuillère, puis coupez-le en demi-rondelles. Effeuillez et ciselez le persil. ",
-            "instructionsHTML": "<ul><li>Pendant ce temps, coupez le concombre en deux dans l&#39;épaisseur. Retirez les graines avec une petite cuillère, puis coupez-le en demi-rondelles. </li><li>Effeuillez et ciselez le persil. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, coupez le concombre en deux dans l&#39;épaisseur. Retirez les graines avec une petite cuillère, puis coupez-le en demi-rondelles. </li><li>Effeuillez et ciselez le persil. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/628b8b0903634208af0bbd12/step-e3148e30.jpg",
-                    "path": "/628b8b0903634208af0bbd12/step-e3148e30.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Lorsque le boulgour est cuit, égouttez-le.Réservez-le sans couvercle.",
-            "instructionsHTML": "<ul><li>Lorsque le boulgour est cuit, é<span>gouttez-le.</span></li><li><span>Réservez-le sans couvercle.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Lorsque le boulgour est cuit, é<span>gouttez-le.</span></li><li><span>Réservez-le sans couvercle.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/628b8b0903634208af0bbd12/step-48a99a40.jpg",
-                    "path": "/628b8b0903634208af0bbd12/step-48a99a40.jpg",
-                    "caption": "Égoutter le boulgour"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le boulgour dans les assiettes.Placez la feta par-dessus. Ajoutez les tomates confites et l'ail tout autour (retirez-en la peau). Arrosez avec les jus récupérés dans le plat à four.Ajoutez ensuite le concombre et parsemez le tout de persil ciselé. Salez et poivrez si besoin.CONSEIL: L'ail sera confit - si vous trouvez le goût trop fort, mélangez-le aux autres ingrédients pour l'atténuer.",
-            "instructionsHTML": "<ul><li>Servez le boulgour dans les assiettes.</li><li>Placez la feta par-dessus. Ajoutez les tomates confites et l&#39;ail tout autour (retirez-en la peau). Arrosez avec les jus récupérés dans le plat à four.</li><li>Ajoutez ensuite le concombre et parsemez le tout de persil ciselé. Salez et poivrez si besoin.</li></ul><p>CONSEIL: L&#39;ail sera confit - si vous trouvez le goût trop fort, mélangez-le aux autres ingrédients pour l&#39;atténuer.</p>",
-            "instructionsMarkdown": "<ul><li>Servez le boulgour dans les assiettes.</li><li>Placez la feta par-dessus. Ajoutez les tomates confites et l&#39;ail tout autour (retirez-en la peau). Arrosez avec les jus récupérés dans le plat à four.</li><li>Ajoutez ensuite le concombre et parsemez le tout de persil ciselé. Salez et poivrez si besoin.</li></ul><p>CONSEIL: L&#39;ail sera confit - si vous trouvez le goût trop fort, mélangez-le aux autres ingrédients pour l&#39;atténuer.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/628b8b0903634208af0bbd12/step-78180550.jpg",
-                    "path": "/628b8b0903634208af0bbd12/step-78180550.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62163c70143a35226e03d85e",
-            "type": "super-quick",
-            "name": "Peu de cuisine",
-            "slug": "peu-de-cuisine",
-            "colorHandle": "quickPrep",
-            "preferences": [
-                "Rapido"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT10M",
-    "uniqueRecipeCode": "RFR16631723-6",
-    "updatedAt": "2023-12-10T14:55:35+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        }
-    ],
-    "uuid": "8355fc3e-09ab-4724-8cfc-94776d8cfe9e",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/boulgour-a-la-grecque-aux-tomates-and-feta-roties-628b8b0903634208af0bbd12",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 70,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 135,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 215,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 285,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 625,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.67,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 350,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 15,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba79c6d10cd16eab61a",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c01bb0da1947779864c2",
-                    "amount": 430,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 18,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122081b4b295e66f0256",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 225°C (205°C chaleur tournante). Coupez les tomates cerises en deux.Coupez l'oignon rouge en très fines demi-lunes.",
+        "Disposez les rondelles d'oignon dans un plat à four. Ajoutez la feta entière par-dessus et disposez les tomates cerises tout autour.Ajoutez les gousses d'ail (non épluchées).Arrosez généreusement d'huile d'olive et parsemez de 1 cc de thym et de 1 cc d'origan séché par personne. Enfournez le tout 20-25 min, ou jusqu'à ce que les tomates soient fondantes et la feta légèrement dorée sur les bords.CONSEIL: Si vous aimez les tomates bien confites et presque caramélisées, prolongez la cuisson d'une dizaine de minutes.",
+        "Portez une grande casserole d'eau à ébullition. Émiettez le cube de bouillon par-dessus.Dès que l'eau commence à bouillir, ajoutez le boulgour, couvrez et faites-le cuire 15-17 min à feu moyen.",
+        "Pendant ce temps, coupez le concombre en deux dans l'épaisseur. Retirez les graines avec une petite cuillère, puis coupez-le en demi-rondelles. Effeuillez et ciselez le persil. ",
+        "Lorsque le boulgour est cuit, égouttez-le.Réservez-le sans couvercle.",
+        "Servez le boulgour dans les assiettes.Placez la feta par-dessus. Ajoutez les tomates confites et l'ail tout autour (retirez-en la peau). Arrosez avec les jus récupérés dans le plat à four.Ajoutez ensuite le concombre et parsemez le tout de persil ciselé. Salez et poivrez si besoin.CONSEIL: L'ail sera confit - si vous trouvez le goût trop fort, mélangez-le aux autres ingrédients pour l'atténuer."
     ]
 }

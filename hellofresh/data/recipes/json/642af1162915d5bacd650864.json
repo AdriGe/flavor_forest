@@ -1,1023 +1,126 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5acf974c30006c4d667f88f1",
-            "name": "Poisson",
-            "type": "traces-of-fish",
-            "slug": "traces-of-poisson",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b305303",
-            "name": "Œuf",
-            "type": "traces-of-egg",
-            "slug": "traces-of-oeuf",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5de91d27f4c17e42c17aef94",
-            "name": "Moutarde",
-            "type": "traces-of-mustard",
-            "slug": "traces-of-moutarde",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": null,
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-04-03T15:30:30+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a7",
-            "type": "cuban",
-            "name": "Cubaine",
-            "slug": "cuban",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a7-abeca711.jpg"
-        }
+        "Cubaine"
     ],
     "description": "Découvrez un trésor culinaire tout droit venu de Cuba : la Ropa vieja. Ce plat emblématique tire son nom de l’espagnol « vieux chiffons », en référence à la texture effilochée de la viande de porc une fois cuite, mais ne vous y trompez pas : son goût est tout sauf négligé ! Les saveurs fumées du paprika se marient à la tendresse du porc, et les haricots rouges apportent une touche de couleur et de crémeux à l’ensemble.",
-    "descriptionHTML": "<p>Découvrez un trésor culinaire tout droit venu de Cuba : la Ropa vieja. Ce plat emblématique tire son nom de l’espagnol « vieux chiffons », en référence à la texture effilochée de la viande de porc une fois cuite, mais ne vous y trompez pas : son goût est tout sauf négligé ! Les saveurs fumées du paprika se marient à la tendresse du porc, et les haricots rouges apportent une touche de couleur et de crémeux à l’ensemble.</p>",
-    "descriptionMarkdown": "Découvrez un trésor culinaire tout droit venu de Cuba : la Ropa vieja. Ce plat emblématique tire son nom de l’espagnol « vieux chiffons », en référence à la texture effilochée de la viande de porc une fois cuite, mais ne vous y trompez pas : son goût est tout sauf négligé ! Les saveurs fumées du paprika se marient à la tendresse du porc, et les haricots rouges apportent une touche de couleur et de crémeux à l’ensemble.",
     "difficulty": 1,
     "favoritesCount": 145,
     "headline": "avec du paprika fumé & des haricots rouges",
-    "id": "642af1162915d5bacd650864",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R216_W36_FR_RFR15704-1_Main__6low-43775f33.jpg",
-    "imagePath": "/image/HF_Y23_R216_W36_FR_RFR15704-1_Main__6low-43775f33.jpg",
+    "name": "Ropa vieja : porc effiloché à la cubaine",
+    "prepTime": 35,
+    "totalTime": 25,
+    "image_id": "642af1162915d5bacd650864",
+    "id": "8f2ad93c-55f8-4972-9445-aad9c06f895d",
+    "nutrition": {
+        "kcal": 644,
+        "fat": 16.1,
+        "saturated_fat": 4.3,
+        "carbohydrate": 79.5,
+        "sugars": 10.3,
+        "protein": 41.1,
+        "sodium": 2.56
+    },
+    "tags": [
+        "<650 Kcal",
+        "Worldwide"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Passoire",
+        "Sauteuse avec couvercle",
+        "Râpe"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfc3b9d07cd5d38d7bcb",
-            "uuid": "9e1d590f-1201-4c56-9e9a-1d9eec58f630",
-            "name": "Poivron",
-            "type": "pointed-bell-pepper-red",
-            "slug": "poivron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc3b9d07cd5d38d7bcb-febe5585.png",
-            "imagePath": "/ingredient/6405bfc3b9d07cd5d38d7bcb-febe5585.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "596306de-5c4b-404a-9c88-a4dc8b23e939",
+            "portion_id": "22dc3706-2da5-40ab-a09e-40e071b98ab8",
+            "image_id": "6405bfc3b9d07cd5d38d7bcb"
         },
         {
-            "id": "6405bf37af4af6d531d50ac6",
-            "uuid": "1f30a4cb-b684-5fd7-8f5a-e8ed576c592e",
-            "name": "Riz",
-            "type": "long-grain-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf37af4af6d531d50ac6-c6796b46.png",
-            "imagePath": "/ingredient/6405bf37af4af6d531d50ac6-c6796b46.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "9447865f-5ee9-462c-ac81-1bfbfa749ddd"
         },
         {
-            "id": "6405bffdb0da194777986456",
-            "uuid": "401d0e06-b4bd-421f-be94-7b681db0d1c8",
-            "name": "Haricots rouges",
-            "type": "red-beans",
-            "slug": "haricots-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bffdb0da194777986456-ce22d3d7.png",
-            "imagePath": "/ingredient/6405bffdb0da194777986456-ce22d3d7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "7c68a0b9-dd2b-44f2-87e5-b56d486a0134",
+            "portion_id": "ceb54fd9-9539-4e19-a744-5d71de1fbe09",
+            "image_id": "6405bffdb0da194777986456"
         },
         {
-            "id": "6405bf95b0da1947779862f8",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "4e0da705-5d5e-4e70-a595-83e43cce7d2e",
+            "portion_id": "15d1cae6-b30a-4469-896b-e112d76a6119",
+            "image_id": "6405bf95b0da1947779862f8"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "64073ba7683721c9a32b0734",
-            "uuid": "d1b71ac1-61cc-4ded-b02c-f9fba98049b9",
-            "name": "Effiloché de porc",
-            "type": "shredded-pulled-pork",
-            "slug": "effiloche-de-porc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf38b9d07cd5d38d79d8-d52c15de.png",
-            "imagePath": "/ingredient/6405bf38b9d07cd5d38d79d8-d52c15de.png",
-            "shipped": true,
-            "allergens": [
-                "5acf974c30006c4d667f88f1",
-                "5acf97b7ae08b54d88061162",
-                "57962a07b7e8697d4b305303",
-                "5de91d27f4c17e42c17aef94",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "749d82c0-029f-40d7-8553-f33be7af0c2a"
         },
         {
-            "id": "6405c00cb0da194777986485",
-            "uuid": "f1a7c3f3-6783-46af-87b2-df2fd87c6820",
-            "name": "Paprika fumé en poudre",
-            "type": "smoked-paprika",
-            "slug": "paprika-fume-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c00cb0da194777986485-a1dc48e7.png",
-            "imagePath": "/ingredient/6405c00cb0da194777986485-a1dc48e7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "9f4534ee-1831-4d20-ac81-a63afa413875",
+            "portion_id": "e1ef5fef-7bcb-404f-8ebe-ad9c5537a292",
+            "image_id": "6405c00cb0da194777986485"
         },
         {
-            "id": "6405bf41b0da1947779861d8",
-            "uuid": "27bdf929-2223-5877-8919-3bd93eb85c24",
-            "name": "Chair de tomates",
-            "type": "tomato-passata",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "imagePath": "/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "d1d9c648-1d96-428b-8010-1f8136dfe501"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/642af1162915d5bacd650864",
-    "name": "Ropa vieja : porc effiloché à la cubaine",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 644,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2695,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 16.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 4.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 79.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 10.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 41.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.56,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 651,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 589,
-    "slug": "ropa-vieja-porc-effiloche-a-la-cubaine",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPortez une casserole d'eau salée à ébullition pour le riz.\nCoupez l'oignon en fines demi-lunes. Ciselez l'ail. \nÉpépinez et coupez le poivron en lanières de 5 mm.\n",
-            "instructionsHTML": "<ul>\n<li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !<br></span></li>\n<li><span>Portez une casserole d&#39;eau salée à ébullition pour le riz.</span></li>\n<li>Coupez l&#39;oignon en fines demi-lunes. Ciselez l&#39;ail. </li>\n<li>Épépinez et coupez le poivron en lanières de 5 mm.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !<br></span></li>\n<li><span>Portez une casserole d&#39;eau salée à ébullition pour le riz.</span></li>\n<li>Coupez l&#39;oignon en fines demi-lunes. Ciselez l&#39;ail. </li>\n<li>Épépinez et coupez le poivron en lanières de 5 mm.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/642af1162915d5bacd650864/step-c6a1d500.jpg",
-                    "path": "/642af1162915d5bacd650864/step-c6a1d500.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites chauffer un filet d'huile d'olive dans une sauteuse à feu moyen-vif. Faites-y revenir l'oignon et le poivron 4-5 min en remuant, ou jusqu'à ce qu'ils colorent un peu.\nPendant ce temps, faites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le à couvert jusqu'au service.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une sauteuse à feu moyen-vif. Faites-y revenir l&#39;oignon et le poivron 4-5 min en remuant, ou jusqu&#39;à ce qu&#39;ils colorent un peu.</li>\n<li><span>Pendant ce temps, f</span>aites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le à couvert jusqu&#39;au service.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une sauteuse à feu moyen-vif. Faites-y revenir l&#39;oignon et le poivron 4-5 min en remuant, ou jusqu&#39;à ce qu&#39;ils colorent un peu.</li>\n<li><span>Pendant ce temps, f</span>aites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le à couvert jusqu&#39;au service.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382",
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/642af1162915d5bacd650864/step-03c2c910.jpg",
-                    "path": "/642af1162915d5bacd650864/step-03c2c910.jpg",
-                    "caption": "Cuire le riz"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nPréparez le bouillon avec de l'eau chaude.\nÉgouttez les haricots rouges, rincez-les et égouttez-les à nouveau.\nEffeuillez et ciselez le persil.\nLavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers.\n",
-            "instructionsHTML": "<ul>\n<li><span>P</span>réparez le bouillon avec de l&#39;eau chaude.</li>\n<li>Égouttez les haricots rouges, rincez-les et égouttez-les à nouveau.</li>\n<li>Effeuillez et ciselez le persil.</li>\n<li>Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>P</span>réparez le bouillon avec de l&#39;eau chaude.</li>\n<li>Égouttez les haricots rouges, rincez-les et égouttez-les à nouveau.</li>\n<li>Effeuillez et ciselez le persil.</li>\n<li>Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/642af1162915d5bacd650864/step-b30bc620.jpg",
-                    "path": "/642af1162915d5bacd650864/step-b30bc620.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nAjoutez l'ail, l'effiloché de porc et 1 cc de paprika fumé par personne à la sauteuse. Mélangez et faites revenir le tout 1-2 min.\nDéglacez en pressant le jus de ¼ de citron par personne par-dessus.\n",
-            "instructionsHTML": "<ul>\n<li>Ajoutez l&#39;ail, l&#39;effiloché de porc et 1 cc de paprika fumé par personne à la sauteuse. Mélangez et faites revenir le tout 1-2 min.</li>\n<li>Déglacez en pressant le jus de ¼ de citron par personne par-dessus.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Ajoutez l&#39;ail, l&#39;effiloché de porc et 1 cc de paprika fumé par personne à la sauteuse. Mélangez et faites revenir le tout 1-2 min.</li>\n<li>Déglacez en pressant le jus de ¼ de citron par personne par-dessus.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/642af1162915d5bacd650864/step-7fc61830.jpg",
-                    "path": "/642af1162915d5bacd650864/step-7fc61830.jpg",
-                    "caption": "Ajouter la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nAjoutez enfin la chair de tomates, le bouillon, les haricots rouges et la moitié du persil. Gardez le reste pour le dressage.\nCouvrez, baissez le feu et laissez mijoter à feu moyen-doux environ 12-13 min, ou jusqu'à ce que la sauce épaississe un peu. Ôtez le couvercle un peu avant la fin de la cuisson si la sauce est trop liquide.\nÀ la fin de la cuisson, ajoutez une pincée de zestes de citron (selon votre goût). Mélangez.\n",
-            "instructionsHTML": "<ul>\n<li>Ajoutez enfin la chair de tomates, le bouillon, les haricots rouges et la moitié du persil. Gardez le reste pour le dressage.</li>\n<li>Couvrez, baissez le feu et laissez mijoter à feu moyen-doux environ 12-13 min, ou jusqu&#39;à ce que la sauce épaississe un peu. Ôtez le couvercle un peu avant la fin de la cuisson si la sauce est trop liquide.</li>\n<li>À la fin de la cuisson, ajoutez une pincée de zestes de citron (selon votre goût). Mélangez.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Ajoutez enfin la chair de tomates, le bouillon, les haricots rouges et la moitié du persil. Gardez le reste pour le dressage.</li>\n<li>Couvrez, baissez le feu et laissez mijoter à feu moyen-doux environ 12-13 min, ou jusqu&#39;à ce que la sauce épaississe un peu. Ôtez le couvercle un peu avant la fin de la cuisson si la sauce est trop liquide.</li>\n<li>À la fin de la cuisson, ajoutez une pincée de zestes de citron (selon votre goût). Mélangez.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/642af1162915d5bacd650864/step-77394040.jpg",
-                    "path": "/642af1162915d5bacd650864/step-77394040.jpg",
-                    "caption": "Mijoter"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nServez le riz sur un côté des assiettes creuses.\nDisposez le porc en sauce de l'autre côté. \nParsemez le tout du reste de persil. Mélangez au moment de déguster.\n",
-            "instructionsHTML": "<ul>\n<li>Servez le riz sur un côté des assiettes creuses.</li>\n<li>Disposez le porc en sauce de l&#39;autre côté. </li>\n<li>Parsemez le tout du reste de persil. Mélangez au moment de déguster.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Servez le riz sur un côté des assiettes creuses.</li>\n<li>Disposez le porc en sauce de l&#39;autre côté. </li>\n<li>Parsemez le tout du reste de persil. Mélangez au moment de déguster.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/642af1162915d5bacd650864/step-47c76c50.jpg",
-                    "path": "/642af1162915d5bacd650864/step-47c76c50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "63651421ff03d610fe0d2ae0",
-            "type": "worldwide",
-            "name": "Worldwide",
-            "slug": "worldwide",
-            "colorHandle": "text",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": false
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR15704-1",
-    "updatedAt": "2024-01-07T02:36:48+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        }
-    ],
-    "uuid": "3499c86a-2e23-4c96-b1cd-41e61d8ea740",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/ropa-vieja-porc-effiloche-a-la-cubaine-642af1162915d5bacd650864",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 0.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7683721c9a32b0734",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c00cb0da194777986485",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 75,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7683721c9a32b0734",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c00cb0da194777986485",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7683721c9a32b0734",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c00cb0da194777986485",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 225,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7683721c9a32b0734",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c00cb0da194777986485",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 390,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 2.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7683721c9a32b0734",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c00cb0da194777986485",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 375,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf37af4af6d531d50ac6",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba7683721c9a32b0734",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c00cb0da194777986485",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 450,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPortez une casserole d'eau salée à ébullition pour le riz.\nCoupez l'oignon en fines demi-lunes. Ciselez l'ail. \nÉpépinez et coupez le poivron en lanières de 5 mm.\n",
+        "\nFaites chauffer un filet d'huile d'olive dans une sauteuse à feu moyen-vif. Faites-y revenir l'oignon et le poivron 4-5 min en remuant, ou jusqu'à ce qu'ils colorent un peu.\nPendant ce temps, faites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le à couvert jusqu'au service.\n",
+        "\nPréparez le bouillon avec de l'eau chaude.\nÉgouttez les haricots rouges, rincez-les et égouttez-les à nouveau.\nEffeuillez et ciselez le persil.\nLavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers.\n",
+        "\nAjoutez l'ail, l'effiloché de porc et 1 cc de paprika fumé par personne à la sauteuse. Mélangez et faites revenir le tout 1-2 min.\nDéglacez en pressant le jus de ¼ de citron par personne par-dessus.\n",
+        "\nAjoutez enfin la chair de tomates, le bouillon, les haricots rouges et la moitié du persil. Gardez le reste pour le dressage.\nCouvrez, baissez le feu et laissez mijoter à feu moyen-doux environ 12-13 min, ou jusqu'à ce que la sauce épaississe un peu. Ôtez le couvercle un peu avant la fin de la cuisson si la sauce est trop liquide.\nÀ la fin de la cuisson, ajoutez une pincée de zestes de citron (selon votre goût). Mélangez.\n",
+        "\nServez le riz sur un côté des assiettes creuses.\nDisposez le porc en sauce de l'autre côté. \nParsemez le tout du reste de persil. Mélangez au moment de déguster.\n"
     ]
 }

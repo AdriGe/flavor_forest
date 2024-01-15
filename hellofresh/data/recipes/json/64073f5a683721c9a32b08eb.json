@@ -1,1037 +1,135 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": null,
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-03-07T13:42:50+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a9",
-            "type": "greek",
-            "name": "Grecque",
-            "slug": "greek",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a9-66a3ad00.jpg"
-        }
+        "Grecque"
     ],
     "description": "Le papoutsaki est un plat d’aubergine de la cuisine grecque et de la cuisine turque. Son nom viendrait de la forme des demi-aubergines, qui ressemblent à des petits chaussons ! Dégustez-les farcies de bœuf haché et saupoudrées d’un peu de fromage.",
-    "descriptionHTML": "<p>Le papoutsaki est un plat d’aubergine de la cuisine grecque et de la cuisine turque. Son nom viendrait de la forme des demi-aubergines, qui ressemblent à des petits chaussons ! Dégustez-les farcies de bœuf haché et saupoudrées d’un peu de fromage.</p>",
-    "descriptionMarkdown": "Le papoutsaki est un plat d’aubergine de la cuisine grecque et de la cuisine turque. Son nom viendrait de la forme des demi-aubergines, qui ressemblent à des petits chaussons ! Dégustez-les farcies de bœuf haché et saupoudrées d’un peu de fromage.",
     "difficulty": 2,
     "favoritesCount": 43,
     "headline": "avec du concombre & de la menthe",
-    "id": "64073f5a683721c9a32b08eb",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210722_R212_W36_FR_RFR29803812-1_MB_Main_low-8139a8c1.jpg",
-    "imagePath": "/image/HF210722_R212_W36_FR_RFR29803812-1_MB_Main_low-8139a8c1.jpg",
+    "name": "Papoutsakia : aubergine gratinée à la grecque",
+    "prepTime": 55,
+    "totalTime": 25,
+    "image_id": "64073f5a683721c9a32b08eb",
+    "id": "3569ba98-c5bf-4b59-b908-b32111b7145f",
+    "nutrition": {
+        "kcal": 471,
+        "fat": 31.7,
+        "saturated_fat": 10.1,
+        "carbohydrate": 21,
+        "sugars": 12.9,
+        "protein": 27.1,
+        "sodium": 1.73
+    },
+    "tags": [
+        "Worldwide",
+        "<650 Kcal"
+    ],
+    "utensils": [
+        "Plat à four",
+        "Sauteuse",
+        "Papier aluminium",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf8eb9d07cd5d38d7b13",
-            "uuid": "1fa6c253-440c-5c98-9e4b-65a57a89f8b1",
-            "name": "Aubergine",
-            "type": "aubergine",
-            "slug": "aubergine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8eb9d07cd5d38d7b13-7f6aa75a.png",
-            "imagePath": "/ingredient/6405bf8eb9d07cd5d38d7b13-7f6aa75a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "6ab85628-44c7-4a23-8301-e82d2758ba47",
+            "portion_id": "6ec28c95-4a5c-478c-9240-e8ce90cc3135",
+            "image_id": "6405bf8eb9d07cd5d38d7b13"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfecb9d07cd5d38d7c51",
-            "uuid": "7262c572-ffc2-42ad-948e-594e998863fd",
-            "name": "Persil plat et menthe",
-            "type": "fresh-flat-leaf-parsley-and-mint",
-            "slug": "persil-plat-et-menthe",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfecb9d07cd5d38d7c51-dc12ba92.png",
-            "imagePath": "/ingredient/6405bfecb9d07cd5d38d7c51-dc12ba92.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae91d015-116a-41e2-9251-53502d756ece",
+            "portion_id": "88294888-8097-46a3-9005-f111e9cbf0df",
+            "image_id": "6405bfecb9d07cd5d38d7c51"
         },
         {
-            "id": "6405c000af4af6d531d50d96",
-            "uuid": "822e0f6e-0b50-54d0-9774-fee0a98b0271",
-            "name": "Concombre",
-            "type": "cucumber",
-            "slug": "concombre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "imagePath": "/ingredient/6405c000af4af6d531d50d96-6282807b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e99d760-baaf-4b5c-9e1c-49f68b5bf087",
+            "portion_id": "19db8b21-3173-4d0e-80d6-a62dd49efc9d",
+            "image_id": "6405c000af4af6d531d50d96"
         },
         {
-            "id": "6405bff3b0da194777986433",
-            "uuid": "2a486e38-5998-51dd-b175-8383b12a3ec3",
-            "name": "Tomate",
-            "type": "tomato",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b0da194777986433-af108835.png",
-            "imagePath": "/ingredient/6405bff3b0da194777986433-af108835.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "3a59005f-4649-49c7-9be4-1c2ca22d9f1a",
+            "portion_id": "0c1f557a-3079-42ee-b32c-f0c552fe9730",
+            "image_id": "6405bff3b0da194777986433"
         },
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "64073ba5df6297bb5beef0f3",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "1e8131fd-d846-473c-8276-ba8d0dc471e2"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121c81b4b295e66f0253",
-            "uuid": "891ef56a-66ac-4a4a-8005-f825cca67a5c",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cc",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "imagePath": "/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cc",
+            "ingredient_id": "92a22779-f4ab-44d9-9776-9bcccb473587",
+            "portion_id": "fe1c23f7-a1fa-4309-acb7-1985201c4403",
+            "image_id": "63e5121c81b4b295e66f0253"
         },
         {
-            "id": "63e5122dbc1d64f7b96e270c",
-            "uuid": "3e74f16b-fd54-4f86-bc50-7ce802b6320e",
-            "name": "Cassonade",
-            "type": "cassonade-cc",
-            "slug": "cassonade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "imagePath": "/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "a1021713-ae59-44e5-a855-c171837e293e",
+            "portion_id": "61782b7f-090b-4597-b697-9b5071397f73",
+            "image_id": "63e5122dbc1d64f7b96e270c"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64073f5a683721c9a32b08eb",
-    "name": "Papoutsakia : aubergine gratinée à la grecque",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 471,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1971,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 31.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 10.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 21,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 12.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 27.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.73,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT55M",
-    "promotion": null,
-    "ratingsCount": 195,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 465,
-    "slug": "papoutsakia-aubergine-gratinee-a-la-grecque",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 230°C sur grill.\nCoupez l’aubergine en deux dans l'épaisseur. Évidez la chair (conservez-la pour l'étape 3) avec une cuillère en gardant environ 5 mm de pulpe contre la peau.\nDans un plat à four, badigeonnez chaque moitié d'aubergine d’huile d’olive et salez-les. \nEnfournez-les immédiatement 15-20 min.\n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 230°C sur grill.</li>\n<li>Coupez l’aubergine en deux dans l&#39;épaisseur. Évidez la chair (conservez-la pour l&#39;étape 3) avec une cuillère en gardant environ 5 mm de pulpe contre la peau.</li>\n<li>Dans un plat à four, badigeonnez chaque moitié d&#39;aubergine d’huile d’olive et salez-les. </li>\n<li>Enfournez-les immédiatement 15-20 min.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 230°C sur grill.</li>\n<li>Coupez l’aubergine en deux dans l&#39;épaisseur. Évidez la chair (conservez-la pour l&#39;étape 3) avec une cuillère en gardant environ 5 mm de pulpe contre la peau.</li>\n<li>Dans un plat à four, badigeonnez chaque moitié d&#39;aubergine d’huile d’olive et salez-les. </li>\n<li>Enfournez-les immédiatement 15-20 min.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f5a683721c9a32b08eb/step-ead93e00.jpg",
-                    "path": "/64073f5a683721c9a32b08eb/step-ead93e00.jpg",
-                    "caption": "Enfourner les aubergines"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nPendant ce temps, ciselez l’oignon, l’ail et les herbes (sans les tiges).\nCoupez le concombre en fines demi-lunes.\nCoupez les tomates en petits dés.\nHachez la chair de l’aubergine en petits morceaux.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, ciselez l’oignon, l’ail et les herbes (sans les tiges).</li>\n<li>Coupez le concombre en fines demi-lunes.</li>\n<li>Coupez les tomates en petits dés.</li>\n<li>Hachez la chair de l’aubergine en petits morceaux.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, ciselez l’oignon, l’ail et les herbes (sans les tiges).</li>\n<li>Coupez le concombre en fines demi-lunes.</li>\n<li>Coupez les tomates en petits dés.</li>\n<li>Hachez la chair de l’aubergine en petits morceaux.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f5a683721c9a32b08eb/step-d8f6fa10.jpg",
-                    "path": "/64073f5a683721c9a32b08eb/step-d8f6fa10.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nFaites chauffer un généreux filet d’huile d’olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon, la chair de l’aubergine et l'ail 4-6 min. Salez et poivrez.\nÀ feu moyen, ajoutez ½ cc de vinaigre balsamique noir par personne, les tomates et la cassonade. Prolongez la cuisson de 5-8 min.\nAjoutez la viande hachée, ½ sachet d’origan séché par personne et un filet d'eau. Faites revenir 2-3 min en remuant.\nHors du feu, ajoutez la moitié des herbes fraîches.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer un généreux filet d’huile d’olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon, la chair de l’aubergine et l&#39;ail 4-6 min. Salez et poivrez.</li>\n<li>À feu moyen, ajoutez ½ cc de vinaigre balsamique noir par personne, les tomates et la cassonade. Prolongez la cuisson de 5-8 min.</li>\n<li>Ajoutez la viande hachée, ½ sachet d’origan séché par personne et un filet d&#39;eau. Faites revenir 2-3 min en remuant.</li>\n<li>Hors du feu, ajoutez la moitié des herbes fraîches.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer un généreux filet d’huile d’olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon, la chair de l’aubergine et l&#39;ail 4-6 min. Salez et poivrez.</li>\n<li>À feu moyen, ajoutez ½ cc de vinaigre balsamique noir par personne, les tomates et la cassonade. Prolongez la cuisson de 5-8 min.</li>\n<li>Ajoutez la viande hachée, ½ sachet d’origan séché par personne et un filet d&#39;eau. Faites revenir 2-3 min en remuant.</li>\n<li>Hors du feu, ajoutez la moitié des herbes fraîches.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f5a683721c9a32b08eb/step-db94e720.jpg",
-                    "path": "/64073f5a683721c9a32b08eb/step-db94e720.jpg",
-                    "caption": "Cuire la farce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nBaissez la température du four à 220°C (200°C chaleur tournante).\nSortez les aubergines du four (attention à ne pas vous brûler) et garnissez-les de farce. Saupoudrez de fromage râpé et ajoutez un filet d'eau dans le plat.\nCouvrez d'aluminium, puis enfournez-les 25-35 min ou jusqu'à ce que la pointe d'un couteau rentre facilement dans la chair.\nÔtez l'aluminium lorsqu'il reste 10 min de cuisson.\n\nCONSEIL: Ajustez le temps de cuisson en fonction de votre four : prolongez-le si besoin.",
-            "instructionsHTML": "<ul>\n<li>Baissez la température du four à 220°C (200°C chaleur tournante).</li>\n<li>Sortez les aubergines du four (attention à ne pas vous brûler) et garnissez-les de farce. Saupoudrez de fromage râpé et ajoutez un filet d&#39;eau dans le plat.</li>\n<li>Couvrez d&#39;aluminium, puis enfournez-les 25-35 min ou jusqu&#39;à ce que la pointe d&#39;un couteau rentre facilement dans la chair.</li>\n<li>Ôtez l&#39;aluminium lorsqu&#39;il reste 10 min de cuisson.</li>\n</ul>\n<p>CONSEIL: Ajustez le temps de cuisson en fonction de votre four : prolongez-le si besoin.</p>",
-            "instructionsMarkdown": "<ul>\n<li>Baissez la température du four à 220°C (200°C chaleur tournante).</li>\n<li>Sortez les aubergines du four (attention à ne pas vous brûler) et garnissez-les de farce. Saupoudrez de fromage râpé et ajoutez un filet d&#39;eau dans le plat.</li>\n<li>Couvrez d&#39;aluminium, puis enfournez-les 25-35 min ou jusqu&#39;à ce que la pointe d&#39;un couteau rentre facilement dans la chair.</li>\n<li>Ôtez l&#39;aluminium lorsqu&#39;il reste 10 min de cuisson.</li>\n</ul>\n<p>CONSEIL: Ajustez le temps de cuisson en fonction de votre four : prolongez-le si besoin.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305366"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f5a683721c9a32b08eb/step-8481be30.jpg",
-                    "path": "/64073f5a683721c9a32b08eb/step-8481be30.jpg",
-                    "caption": "Farcir les aubergines"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nPendant ce temps, dans un saladier, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique noir. Salez et poivrez.\nJuste avant de servir, ajoutez le concombre, la salade ainsi que le reste des herbes fraîches.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, dans un saladier, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique noir. Salez et poivrez.</li>\n<li>Juste avant de servir, ajoutez le concombre, la salade ainsi que le reste des herbes fraîches.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, dans un saladier, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique noir. Salez et poivrez.</li>\n<li>Juste avant de servir, ajoutez le concombre, la salade ainsi que le reste des herbes fraîches.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f5a683721c9a32b08eb/step-27ab7c40.jpg",
-                    "path": "/64073f5a683721c9a32b08eb/step-27ab7c40.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nServez les aubergines farcies dans les assiettes.\nPrésentez la salade en accompagnement.\n",
-            "instructionsHTML": "<ul>\n<li>Servez les aubergines farcies dans les assiettes.</li>\n<li>Présentez la salade en accompagnement.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Servez les aubergines farcies dans les assiettes.</li>\n<li>Présentez la salade en accompagnement.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64073f5a683721c9a32b08eb/step-494e8d50.jpg",
-                    "path": "/64073f5a683721c9a32b08eb/step-494e8d50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "63651421ff03d610fe0d2ae0",
-            "type": "worldwide",
-            "name": "Worldwide",
-            "slug": "worldwide",
-            "colorHandle": "text",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": false
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29803812-4",
-    "updatedAt": "2024-01-05T11:14:25+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "a30349a6-4434-476d-abfb-aa1e7a2636ee",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/papoutsakia-aubergine-gratinee-a-la-grecque-64073f5a683721c9a32b08eb",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 4.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 7.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf8eb9d07cd5d38d7b13",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfecb9d07cd5d38d7c51",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c000af4af6d531d50d96",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 9,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 230°C sur grill.\nCoupez l’aubergine en deux dans l'épaisseur. Évidez la chair (conservez-la pour l'étape 3) avec une cuillère en gardant environ 5 mm de pulpe contre la peau.\nDans un plat à four, badigeonnez chaque moitié d'aubergine d’huile d’olive et salez-les. \nEnfournez-les immédiatement 15-20 min.\n",
+        "\nPendant ce temps, ciselez l’oignon, l’ail et les herbes (sans les tiges).\nCoupez le concombre en fines demi-lunes.\nCoupez les tomates en petits dés.\nHachez la chair de l’aubergine en petits morceaux.\n",
+        "\nFaites chauffer un généreux filet d’huile d’olive dans une sauteuse à feu moyen-vif. Faites-y revenir l’oignon, la chair de l’aubergine et l'ail 4-6 min. Salez et poivrez.\nÀ feu moyen, ajoutez ½ cc de vinaigre balsamique noir par personne, les tomates et la cassonade. Prolongez la cuisson de 5-8 min.\nAjoutez la viande hachée, ½ sachet d’origan séché par personne et un filet d'eau. Faites revenir 2-3 min en remuant.\nHors du feu, ajoutez la moitié des herbes fraîches.\n",
+        "\nBaissez la température du four à 220°C (200°C chaleur tournante).\nSortez les aubergines du four (attention à ne pas vous brûler) et garnissez-les de farce. Saupoudrez de fromage râpé et ajoutez un filet d'eau dans le plat.\nCouvrez d'aluminium, puis enfournez-les 25-35 min ou jusqu'à ce que la pointe d'un couteau rentre facilement dans la chair.\nÔtez l'aluminium lorsqu'il reste 10 min de cuisson.\n\nCONSEIL: Ajustez le temps de cuisson en fonction de votre four : prolongez-le si besoin.",
+        "\nPendant ce temps, dans un saladier, faites une vinaigrette en mélangeant un filet d’huile d’olive et de vinaigre balsamique noir. Salez et poivrez.\nJuste avant de servir, ajoutez le concombre, la salade ainsi que le reste des herbes fraîches.\n",
+        "\nServez les aubergines farcies dans les assiettes.\nPrésentez la salade en accompagnement.\n"
     ]
 }

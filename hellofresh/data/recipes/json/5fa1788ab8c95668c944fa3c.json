@@ -1,1099 +1,130 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        },
-        {
-            "id": "5a9614ab30006c2c026cf562",
-            "name": "Arachides",
-            "type": "traces-of-peanuts",
-            "slug": "traces-of-arachides",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b305302",
-            "name": "Fruits à coque",
-            "type": "traces-of-nuts",
-            "slug": "traces-of-fruits-a-coque",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "5acf972fae08b54d333ac322",
-            "name": "Graines de sésame",
-            "type": "traces-of-sesame",
-            "slug": "traces-of-graines-de-sesame",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": "5f205665c821da5fb34fb81e",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/steak-hache-et-puree-de-patate-douce-epicee-5f205665c821da5fb34fb81e",
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RNL1180-8",
-    "country": "FR",
-    "createdAt": "2020-11-03T15:34:36+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 311,
     "headline": "avec des haricots verts à l'ail et des graines de courge",
-    "id": "5fa1788ab8c95668c944fa3c",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200723_R04_W35_NL_R1180-7_MB_Main_low-e673bac4.jpg",
-    "imagePath": "/image/HF200723_R04_W35_NL_R1180-7_MB_Main_low-e673bac4.jpg",
+    "name": "Steak haché et purée de patate douce épicée",
+    "prepTime": 30,
+    "totalTime": 25,
+    "image_id": "5fa1788ab8c95668c944fa3c",
+    "id": "7aa4ef4b-3a73-4bfc-985d-833b58f3302f",
+    "nutrition": {
+        "kcal": 637,
+        "fat": 31.98,
+        "saturated_fat": 12.17,
+        "carbohydrate": 54.57,
+        "sugars": 14.93,
+        "protein": 27.13,
+        "sodium": 5.76
+    },
+    "tags": [
+        "À faire rapidement",
+        "Épicé",
+        "Famille"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Passoire",
+        "Poêle",
+        "Poêle avec couvercle",
+        "Bol",
+        "Presse-purée"
+    ],
     "ingredients": [
         {
-            "id": "6405bf6fb9d07cd5d38d7aa9",
-            "uuid": "0372d7d1-4123-416c-936f-a922d2abd931",
-            "name": "Patate douce",
-            "type": "sweet-potatoes",
-            "slug": "patate-douce",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf6fb9d07cd5d38d7aa9-75b98e59.png",
-            "imagePath": "/ingredient/6405bf6fb9d07cd5d38d7aa9-75b98e59.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 450,
+            "unit": "g",
+            "ingredient_id": "fc203d5e-2336-4d3e-80c8-e27c2fdb9899"
         },
         {
-            "id": "6405bf9eaf4af6d531d50c49",
-            "uuid": "f2c1fd2c-09eb-5225-8e69-6070ed268f60",
-            "name": "Grenailles rouges",
-            "type": "red-potato",
-            "slug": "grenailles-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "imagePath": "/ingredient/6405bf9eaf4af6d531d50c49-846d72bd.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "f26d87de-b670-4e79-89ae-5609f60a16a8"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "id": "6405bfe6b9d07cd5d38d7c3f",
-            "uuid": "0669dd0d-49ca-4e6d-a144-75632b22b136",
-            "name": "Cébette",
-            "type": "spring-onions",
-            "slug": "cebette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "imagePath": "/ingredient/6405bfe6b9d07cd5d38d7c3f-c5a9cf32.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.64,
+            "unit": "pièce(s)",
+            "ingredient_id": "61aa522a-cd3f-44fa-a698-243ed78aa4ba",
+            "portion_id": "6d283187-ba0f-409b-ad0a-a99a604556d8",
+            "image_id": "6405bfe6b9d07cd5d38d7c3f"
         },
         {
-            "id": "64073cec683721c9a32b080c",
-            "uuid": "f8dd4f44-74ea-4679-909b-333db7a9bb5a",
-            "name": "Haricots plats coupés",
-            "type": "sliced-runner-beans",
-            "slug": "haricots-plats-coupes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf98b9d07cd5d38d7b3a-bf7c71fe.png",
-            "imagePath": "/ingredient/6405bf98b9d07cd5d38d7b3a-bf7c71fe.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 300,
+            "unit": "g",
+            "ingredient_id": "0dd9218f-827c-479d-860f-ac6ac009afc9"
         },
         {
-            "id": "64073babdf6297bb5beef102",
-            "uuid": "12a33629-d36c-55db-9ccc-8f5a5cadb4de",
-            "name": "Graines de courge",
-            "type": "pumpkin-seeds",
-            "slug": "graines-de-courge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf31b9d07cd5d38d79bc-6fef3323.png",
-            "imagePath": "/ingredient/6405bf31b9d07cd5d38d79bc-6fef3323.png",
-            "shipped": true,
-            "allergens": [
-                "5a9614ab30006c2c026cf562",
-                "57962a07b7e8697d4b305302",
-                "5acf972fae08b54d333ac322",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "g",
+            "ingredient_id": "1d500e5a-488d-425a-8cca-aac605b03cd5"
         },
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bf4db0da194777986203",
-            "uuid": "c6f01c0f-80bc-5508-b1a4-e2cfaf78557e",
-            "name": "Paprika en poudre",
-            "type": "mild-paprika",
-            "slug": "paprika-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "imagePath": "/ingredient/6405bf4db0da194777986203-a9d6bc58.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cc",
+            "ingredient_id": "696b285c-6d8f-4ecc-a623-908a7dc78ee5",
+            "portion_id": "5ce2c663-ec17-4af4-8a71-2ddefe133cd2",
+            "image_id": "6405bf4db0da194777986203"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 800,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e51216bc1d64f7b96e2701",
-            "uuid": "15494ef4-44f7-40b4-bdef-138dc55b1e79",
-            "name": "Lait",
-            "type": "lait-filet",
-            "slug": "lait",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51216bc1d64f7b96e2701-7c0ceb10.png",
-            "imagePath": "/ingredient/63e51216bc1d64f7b96e2701-7c0ceb10.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "ml",
+            "ingredient_id": "3e570082-6acd-4332-966e-2fb814aa11ab"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5fa1788ab8c95668c944fa3c",
-    "name": "Steak haché et purée de patate douce épicée",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 637,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2664,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 31.98,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 12.17,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 54.57,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 14.93,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 27.13,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 5.76,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 413,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 931,
-    "slug": "steak-hache-et-puree-de-patate-douce-epicee",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préparez le bouillon dans une casserole avec couvercle pour les patates douces et les pommes de terre. Pesez les patates douces, épluchez les avec les pommes de terre, puis coupez le tout en gros morceaux. Pressez ou émincez l’ail. Épépinez et émincez le piment rouge. Taillez les oignons nouveaux en fines rondelles et réservez le blanc d’un oignon par personne. ",
-            "instructionsHTML": "<ul><li>Préparez le bouillon dans une casserole avec couvercle pour les patates douces et les pommes de terre. </li><li>Pesez les patates douces, épluchez les avec les pommes de terre, puis coupez le tout en gros morceaux. </li><li>Pressez ou émincez l’ail. Épépinez et émincez le piment rouge. </li><li>Taillez les oignons nouveaux en fines rondelles et réservez le blanc d’un oignon par personne. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Préparez le bouillon dans une casserole avec couvercle pour les patates douces et les pommes de terre. </li><li>Pesez les patates douces, épluchez les avec les pommes de terre, puis coupez le tout en gros morceaux. </li><li>Pressez ou émincez l’ail. Épépinez et émincez le piment rouge. </li><li>Taillez les oignons nouveaux en fines rondelles et réservez le blanc d’un oignon par personne. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fa1788ab8c95668c944fa3c/step-cb2b1700.jpg",
-                    "path": "/5fa1788ab8c95668c944fa3c/step-cb2b1700.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites cuire les pommes de terre et les patates douces à couvert dans le bouillon 10 à 12 minutes. Réservez un peu d'eau de cuisson puis égouttez-les et réservez sans couvercle. CONSEIL: Faire cuire les pommes de terre dans le bouillon, puis les égoutter donne beaucoup de saveur à la purée, tout en permettant de conserver une teneur en sel relativement faible.",
-            "instructionsHTML": "<ul><li>Faites cuire les pommes de terre et les patates douces à couvert dans le bouillon 10 à 12 minutes. </li><li>Réservez un peu d&#39;eau de cuisson puis égouttez-les et réservez sans couvercle. </li></ul><p>CONSEIL: Faire cuire les pommes de terre dans le bouillon, puis les égoutter donne beaucoup de saveur à la purée, tout en permettant de conserver une teneur en sel relativement faible.</p>",
-            "instructionsMarkdown": "<ul><li>Faites cuire les pommes de terre et les patates douces à couvert dans le bouillon 10 à 12 minutes. </li><li>Réservez un peu d&#39;eau de cuisson puis égouttez-les et réservez sans couvercle. </li></ul><p>CONSEIL: Faire cuire les pommes de terre dans le bouillon, puis les égoutter donne beaucoup de saveur à la purée, tout en permettant de conserver une teneur en sel relativement faible.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fa1788ab8c95668c944fa3c/step-06394c10.jpg",
-                    "path": "/5fa1788ab8c95668c944fa3c/step-06394c10.jpg",
-                    "caption": "Cuire à l'eau"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Faites chauffer l’huile d’olive à feu moyen-vif dans une poêle avec couvercle. Faites revenir l’ail et le blanc des oignons nouveaux 1 à 2 minutes. Ajoutez les haricots verts et 1 cs d’eau par personne, puis poursuivez la cuisson 6 à 8 minutes à couvert. Retirez le couvercle et poursuivez la cuisson 5 à 7 minutes. Salez et poivrez.Faites chauffer une poêle à feu vif et faites griller les graines de courge à sec jusqu'à ce qu'elles commencent à sauter. Réservez-les hors de la poêle. ",
-            "instructionsHTML": "<ul><li>Faites chauffer l’huile d’olive à feu moyen-vif dans une poêle avec couvercle. Faites revenir l’ail et le blanc des oignons nouveaux 1 à 2 minutes. </li><li>Ajoutez les haricots verts et 1 cs d’eau par personne, puis poursuivez la cuisson 6 à 8 minutes à couvert. Retirez le couvercle et poursuivez la cuisson 5 à 7 minutes. Salez et poivrez.</li><li><span>Faites chauffer une poêle à feu vif et faites griller les graines de courge à sec jusqu&#39;à ce qu&#39;elles commencent à sauter. Réservez-les hors de la poêle. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer l’huile d’olive à feu moyen-vif dans une poêle avec couvercle. Faites revenir l’ail et le blanc des oignons nouveaux 1 à 2 minutes. </li><li>Ajoutez les haricots verts et 1 cs d’eau par personne, puis poursuivez la cuisson 6 à 8 minutes à couvert. Retirez le couvercle et poursuivez la cuisson 5 à 7 minutes. Salez et poivrez.</li><li><span>Faites chauffer une poêle à feu vif et faites griller les graines de courge à sec jusqu&#39;à ce qu&#39;elles commencent à sauter. Réservez-les hors de la poêle. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383",
-                "5e3ad24dfcf61c18c30ff531"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fa1788ab8c95668c944fa3c/step-177d1420.jpg",
-                    "path": "/5fa1788ab8c95668c944fa3c/step-177d1420.jpg",
-                    "caption": "Cuire les haricots"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Mettez le bœuf haché et le paprika dans un bol. Salez et poivrez généreusement. Mélangez bien avec vos mains, puis pressez et façonnez en galettes (une par personne) d'environ 2 cm d'épaisseur.Dans la même poêle, faites fondre le beurre à feu moyen-vif et faites cuire le steak haché et le reste des oignons nouveaux 2 à 3 minutes de chaque côté. Salez et poivrez. Si vous préférez la viande bien cuite prolongez le temps de cuisson.CONSEIL: Vous pouvez préparer une sauce à partir des sucs de cuisson restants en déglaçant avec 2 cs d‘eau par personne.",
-            "instructionsHTML": "<ul><li><span>Mettez le bœuf haché et le paprika dans un bol. Salez et poivrez généreusement. Mélangez bien avec vos mains, puis pressez et façonnez en galettes (une par personne) d&#39;environ 2 cm d&#39;épaisseur.</span></li><li>Dans la même poêle, faites fondre le beurre à feu moyen-vif et faites cuire le steak haché et le reste des oignons nouveaux 2 à 3 minutes de chaque côté. Salez et poivrez. Si vous préférez la viande bien cuite prolongez le temps de cuisson.</li></ul><p>CONSEIL: Vous pouvez préparer une sauce à partir des sucs de cuisson restants en déglaçant avec 2 cs d‘eau par personne.</p>",
-            "instructionsMarkdown": "<ul><li><span>Mettez le bœuf haché et le paprika dans un bol. Salez et poivrez généreusement. Mélangez bien avec vos mains, puis pressez et façonnez en galettes (une par personne) d&#39;environ 2 cm d&#39;épaisseur.</span></li><li>Dans la même poêle, faites fondre le beurre à feu moyen-vif et faites cuire le steak haché et le reste des oignons nouveaux 2 à 3 minutes de chaque côté. Salez et poivrez. Si vous préférez la viande bien cuite prolongez le temps de cuisson.</li></ul><p>CONSEIL: Vous pouvez préparer une sauce à partir des sucs de cuisson restants en déglaçant avec 2 cs d‘eau par personne.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fa1788ab8c95668c944fa3c/step-2583a230.jpg",
-                    "path": "/5fa1788ab8c95668c944fa3c/step-2583a230.jpg",
-                    "caption": "Cuire la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Écrasez les pommes de terre et les patates douces à l’aide d'un presse-purée. Ajoutez un trait de lait selon votre goût et une partie de l’eau de cuisson conservée, incorporez le piment rouge, puis salez et poivrez. Pour plus d’onctuosité, vous pouvez ajouter un peu de beurre.CONSEIL: Vous mangez ce plat avec des enfants et ils n'aiment pas les plats relevés ? N'incorporez pas le piment rouge à la purée, et assaisonnez-la avec 1/2 cc de curry par personne.",
-            "instructionsHTML": "<ul><li>Écrasez les pommes de terre et les patates douces à l’aide d&#39;un presse-purée. </li><li>Ajoutez un trait de lait selon votre goût et une partie de l’eau de cuisson conservée, incorporez le piment rouge, puis salez et poivrez. Pour plus d’onctuosité, vous pouvez ajouter un peu de beurre.</li></ul><p>CONSEIL: Vous mangez ce plat avec des enfants et ils n&#39;aiment pas les plats relevés ? N&#39;incorporez pas le piment rouge à la purée, et assaisonnez-la avec 1/2 cc de curry par personne.</p>",
-            "instructionsMarkdown": "<ul><li>Écrasez les pommes de terre et les patates douces à l’aide d&#39;un presse-purée. </li><li>Ajoutez un trait de lait selon votre goût et une partie de l’eau de cuisson conservée, incorporez le piment rouge, puis salez et poivrez. Pour plus d’onctuosité, vous pouvez ajouter un peu de beurre.</li></ul><p>CONSEIL: Vous mangez ce plat avec des enfants et ils n&#39;aiment pas les plats relevés ? N&#39;incorporez pas le piment rouge à la purée, et assaisonnez-la avec 1/2 cc de curry par personne.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305393"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fa1788ab8c95668c944fa3c/step-89549b40.jpg",
-                    "path": "/5fa1788ab8c95668c944fa3c/step-89549b40.jpg",
-                    "caption": "Préparer la purée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Répartissez la purée dans des assiettes plates et garnissez avec l'oignon nouveau cuit ainsi que les graines de courge torréfiées. Servez avec les haricots verts et le steak haché. ",
-            "instructionsHTML": "<ul><li>Répartissez la purée dans des assiettes plates et garnissez avec l&#39;oignon nouveau cuit ainsi que les graines de courge torréfiées. </li><li>Servez avec les haricots verts et le steak haché. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Répartissez la purée dans des assiettes plates et garnissez avec l&#39;oignon nouveau cuit ainsi que les graines de courge torréfiées. </li><li>Servez avec les haricots verts et le steak haché. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fa1788ab8c95668c944fa3c/step-1c867b50.jpg",
-                    "path": "/5fa1788ab8c95668c944fa3c/step-1c867b50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RNL1180-8",
-    "updatedAt": "2023-10-13T10:40:18+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff531",
-            "type": null,
-            "name": "Poêle avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305393",
-            "type": "potato-masher",
-            "name": "Presse-purée"
-        }
-    ],
-    "uuid": "165cf65f-b092-47d2-beac-8648e90c81f2",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/steak-hache-et-puree-de-patate-douce-epicee-5fa1788ab8c95668c944fa3c",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 1.32,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef102",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 0.75,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 2.64,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef102",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef102",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 2.25,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 5.32,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef102",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 6.64,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef102",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 3.75,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 2000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9eaf4af6d531d50c49",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe6b9d07cd5d38d7c3f",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073cec683721c9a32b080c",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073babdf6297bb5beef102",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf4db0da194777986203",
-                    "amount": 4.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 2400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51216bc1d64f7b96e2701",
-                    "amount": null,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préparez le bouillon dans une casserole avec couvercle pour les patates douces et les pommes de terre. Pesez les patates douces, épluchez les avec les pommes de terre, puis coupez le tout en gros morceaux. Pressez ou émincez l’ail. Épépinez et émincez le piment rouge. Taillez les oignons nouveaux en fines rondelles et réservez le blanc d’un oignon par personne. ",
+        "Faites cuire les pommes de terre et les patates douces à couvert dans le bouillon 10 à 12 minutes. Réservez un peu d'eau de cuisson puis égouttez-les et réservez sans couvercle. CONSEIL: Faire cuire les pommes de terre dans le bouillon, puis les égoutter donne beaucoup de saveur à la purée, tout en permettant de conserver une teneur en sel relativement faible.",
+        "Faites chauffer l’huile d’olive à feu moyen-vif dans une poêle avec couvercle. Faites revenir l’ail et le blanc des oignons nouveaux 1 à 2 minutes. Ajoutez les haricots verts et 1 cs d’eau par personne, puis poursuivez la cuisson 6 à 8 minutes à couvert. Retirez le couvercle et poursuivez la cuisson 5 à 7 minutes. Salez et poivrez.Faites chauffer une poêle à feu vif et faites griller les graines de courge à sec jusqu'à ce qu'elles commencent à sauter. Réservez-les hors de la poêle. ",
+        "Mettez le bœuf haché et le paprika dans un bol. Salez et poivrez généreusement. Mélangez bien avec vos mains, puis pressez et façonnez en galettes (une par personne) d'environ 2 cm d'épaisseur.Dans la même poêle, faites fondre le beurre à feu moyen-vif et faites cuire le steak haché et le reste des oignons nouveaux 2 à 3 minutes de chaque côté. Salez et poivrez. Si vous préférez la viande bien cuite prolongez le temps de cuisson.CONSEIL: Vous pouvez préparer une sauce à partir des sucs de cuisson restants en déglaçant avec 2 cs d‘eau par personne.",
+        "Écrasez les pommes de terre et les patates douces à l’aide d'un presse-purée. Ajoutez un trait de lait selon votre goût et une partie de l’eau de cuisson conservée, incorporez le piment rouge, puis salez et poivrez. Pour plus d’onctuosité, vous pouvez ajouter un peu de beurre.CONSEIL: Vous mangez ce plat avec des enfants et ils n'aiment pas les plats relevés ? N'incorporez pas le piment rouge à la purée, et assaisonnez-la avec 1/2 cc de curry par personne.",
+        "Répartissez la purée dans des assiettes plates et garnissez avec l'oignon nouveau cuit ainsi que les graines de courge torréfiées. Servez avec les haricots verts et le steak haché. "
     ]
 }

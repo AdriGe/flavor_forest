@@ -1,1049 +1,133 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "64073ccbdf6297bb5beef1e9",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-03-09T10:55:24+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": "Quoi de mieux qu’une tarte fraîchement sortie du four à la pâte bien croustillante ? On en salive d’avance ! Celle-ci est garnie de tomates cerises, de mozzarella et de basilic, une herbe incontournable de la gastronomie italienne ! Le fromage utilisé dans ce plat contient de la présure animale.",
-    "descriptionHTML": "<p>Quoi de mieux qu’une tarte fraîchement sortie du four à la pâte bien croustillante ? On en salive d’avance ! Celle-ci est garnie de tomates cerises, de mozzarella et de basilic, une herbe incontournable de la gastronomie italienne ! Le fromage utilisé dans ce plat contient de la présure animale.</p>",
-    "descriptionMarkdown": "Quoi de mieux qu’une tarte fraîchement sortie du four à la pâte bien croustillante ? On en salive d’avance ! Celle-ci est garnie de tomates cerises, de mozzarella et de basilic, une herbe incontournable de la gastronomie italienne ! Le fromage utilisé dans ce plat contient de la présure animale.",
     "difficulty": 2,
     "favoritesCount": 202,
     "headline": "avec du basilic & une salade",
-    "id": "6409bb1c5a5cdc93cc6fdc2f",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R203_W28_FR_QFR29804124-4_Main_high-e9d91c7b.jpg",
-    "imagePath": "/image/HF_Y23_R203_W28_FR_QFR29804124-4_Main_high-e9d91c7b.jpg",
+    "name": "Tarte fine tomates cerises & mozza",
+    "prepTime": 25,
+    "totalTime": 25,
+    "image_id": "6409bb1c5a5cdc93cc6fdc2f",
+    "id": "20110580-4af2-4077-9083-a435831900a4",
+    "nutrition": {
+        "kcal": 791,
+        "fat": 49,
+        "saturated_fat": 25.9,
+        "carbohydrate": 62.9,
+        "sugars": 11.9,
+        "protein": 22.6,
+        "sodium": 2.05
+    },
+    "tags": [
+        "<30 min",
+        "Famille",
+        "Végétarien",
+        "Moins de CO2"
+    ],
+    "utensils": [
+        "Plaque de cuisson",
+        "Sauteuse",
+        "Essuie-tout",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bf41b0da1947779861d8",
-            "uuid": "27bdf929-2223-5877-8919-3bd93eb85c24",
-            "name": "Chair de tomates",
-            "type": "tomato-passata",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "imagePath": "/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "d1d9c648-1d96-428b-8010-1f8136dfe501"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "6405bf1cb9d07cd5d38d796e",
-            "uuid": "53a96a7f-0a28-58a9-bccd-f846bf404e1a",
-            "name": "Tomates cerises rouges",
-            "type": "cherry-tomatoes",
-            "slug": "tomates-cerises-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "imagePath": "/ingredient/6405bf1cb9d07cd5d38d796e-188fdcea.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 125,
+            "unit": "g",
+            "ingredient_id": "f0989f17-f1fc-47a1-9546-d84cd6bd6179"
         },
         {
-            "id": "64073ba5df6297bb5beef0f3",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "1e8131fd-d846-473c-8276-ba8d0dc471e2"
         },
         {
-            "id": "64073ba59c6d10cd16eab614",
-            "uuid": "d88011a7-fa15-5b37-94b9-adf6f044d69d",
-            "name": "Mozzarella",
-            "type": "mozzarella",
-            "slug": "mozzarella",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd2b0da1947779863c6-0cf132f0.png",
-            "imagePath": "/ingredient/6405bfd2b0da1947779863c6-0cf132f0.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "e8c5fc02-9ba3-4add-9973-bc91b9b297d1",
+            "portion_id": "7cb63b03-9b3b-48ac-98a9-360ea0a4b3cf",
+            "image_id": "64073ba59c6d10cd16eab614"
         },
         {
-            "id": "64073bc8683721c9a32b0762",
-            "uuid": "2acd7733-5a85-4e18-a008-35cb32efea42",
-            "name": "Pâte à tarte",
-            "type": "shortcrust-pastry",
-            "slug": "pate-a-tarte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf32b9d07cd5d38d79c0-fa21ee2f.png",
-            "imagePath": "/ingredient/6405bf32b9d07cd5d38d79c0-fa21ee2f.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd",
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "38e24982-7037-44c9-900a-0c197756527e",
+            "portion_id": "dd5b5cd1-9203-4bc6-863c-cb0ef2ce0371",
+            "image_id": "64073bc8683721c9a32b0762"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bff4b0da194777986437",
-            "uuid": "fae5ea17-1d10-5a79-acab-118ec738e69e",
-            "name": "Basilic",
-            "type": "basil",
-            "slug": "basilic",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "imagePath": "/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "e29e9e3f-9daf-4dff-b252-287381f45620",
+            "portion_id": "239befa5-3228-4ea4-9f70-e542697b66e0",
+            "image_id": "6405bff4b0da194777986437"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122dbc1d64f7b96e270c",
-            "uuid": "3e74f16b-fd54-4f86-bc50-7ce802b6320e",
-            "name": "Cassonade",
-            "type": "cassonade-cc",
-            "slug": "cassonade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "imagePath": "/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "a1021713-ae59-44e5-a855-c171837e293e",
+            "portion_id": "61782b7f-090b-4597-b697-9b5071397f73",
+            "image_id": "63e5122dbc1d64f7b96e270c"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6409bb1c5a5cdc93cc6fdc2f",
-    "name": "Tarte fine tomates cerises & mozza",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 791,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3310,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 49,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 25.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 62.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 11.9,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 22.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.05,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 628,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 390,
-    "slug": "tarte-fine-tomates-cerises-and-mozza",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 230°C (210°C chaleur tournante).\nDéroulez la pâte avec son papier sulfurisé sur une plaque de cuisson (comptez ½ pâte par personne).\nPiquez le fond avec une fourchette et enfournez-la sans attendre à blanc 10-15 min, ou jusqu'à ce qu'elle soit légèrement dorée, puis réservez-la hors du four.\nCiselez l’oignon.\n\nLE SAVIEZ-VOUS ? Cuire une pâte à blanc consiste à la précuire sans garniture. Cela permet d'éviter que la pâte ne détrempe avec un appareil un peu trop liquide ou qui rend beaucoup de jus à la cuisson.",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 230°C (210°C chaleur tournante).</li>\n<li>Déroulez la pâte avec son papier sulfurisé sur une plaque de cuisson (comptez <strong id=\"docs-internal-guid-42cb4367-7fff-af06-3e04-96b80e55eb54\">½</strong> pâte par personne).</li>\n<li>Piquez le fond avec une fourchette et enfournez-la sans attendre à blanc 10-15 min, ou jusqu&#39;à ce qu&#39;elle soit légèrement dorée, puis réservez-la hors du four.</li>\n<li>Ciselez l’oignon.</li>\n</ul>\n<p>LE SAVIEZ-VOUS ? Cuire une pâte à blanc consiste à la précuire sans garniture. Cela permet d&#39;éviter que la pâte ne détrempe avec un appareil un peu trop liquide ou qui rend beaucoup de jus à la cuisson.</p>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 230°C (210°C chaleur tournante).</li>\n<li>Déroulez la pâte avec son papier sulfurisé sur une plaque de cuisson (comptez <strong id=\"docs-internal-guid-42cb4367-7fff-af06-3e04-96b80e55eb54\">½</strong> pâte par personne).</li>\n<li>Piquez le fond avec une fourchette et enfournez-la sans attendre à blanc 10-15 min, ou jusqu&#39;à ce qu&#39;elle soit légèrement dorée, puis réservez-la hors du four.</li>\n<li>Ciselez l’oignon.</li>\n</ul>\n<p>LE SAVIEZ-VOUS ? Cuire une pâte à blanc consiste à la précuire sans garniture. Cela permet d&#39;éviter que la pâte ne détrempe avec un appareil un peu trop liquide ou qui rend beaucoup de jus à la cuisson.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305368"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6409bb1c5a5cdc93cc6fdc2f/step-6f5a0a00.jpg",
-                    "path": "/6409bb1c5a5cdc93cc6fdc2f/step-6f5a0a00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites chauffer un filet d’huile d’olive dans une sauteuse à feu moyen-vif.\nFaites-y cuire l'oignon 2-3 min.\nAjoutez-y la chair de tomates, la cassonade, la moitié de l'origan séché et 1 cs d’eau par personne. Salez et poivrez. Faites cuire 1-2 min, ou jusqu'à ce que la sauce épaississe légèrement.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer un filet d’huile d’olive dans une sauteuse à feu moyen-vif.</li>\n<li>Faites-y cuire l&#39;oignon 2-3 min.</li>\n<li>Ajoutez-y la chair de tomates, la cassonade, la moitié de l&#39;origan séché et 1 cs d’eau par personne. Salez et poivrez. Faites cuire 1-2 min, ou jusqu&#39;à ce que la sauce épaississe légèrement.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer un filet d’huile d’olive dans une sauteuse à feu moyen-vif.</li>\n<li>Faites-y cuire l&#39;oignon 2-3 min.</li>\n<li>Ajoutez-y la chair de tomates, la cassonade, la moitié de l&#39;origan séché et 1 cs d’eau par personne. Salez et poivrez. Faites cuire 1-2 min, ou jusqu&#39;à ce que la sauce épaississe légèrement.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a",
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6409bb1c5a5cdc93cc6fdc2f/step-6feb4210.jpg",
-                    "path": "/6409bb1c5a5cdc93cc6fdc2f/step-6feb4210.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nPendant ce temps, coupez les tomates cerises en deux.\nCoupez la mozzarella en tranches et épongez-les bien avec de l'essuie-tout.\nÉtalez la sauce tomate au centre de la pâte en laissant un rebord d'environ 1 cm.\nDisposez les tomates cerises par-dessus ainsi que les tranches de mozzarella. Saupoudrez de fromage râpé et du reste d’origan séché.\nEnfournez le tout 5-7 min dans la partie haute du four, ou jusqu’à ce que le fromage soit fondu et gratiné.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, coupez les tomates cerises en deux.</li>\n<li>Coupez la mozzarella en tranches et épongez-les bien avec de l&#39;essuie-tout.</li>\n<li>Étalez la sauce tomate au centre de la pâte en laissant un rebord d&#39;environ 1 cm.</li>\n<li>Disposez les tomates cerises par-dessus ainsi que les tranches de mozzarella. Saupoudrez de fromage râpé et du reste d’origan séché.</li>\n<li>Enfournez le tout 5-7 min dans la partie haute du four, ou jusqu’à ce que le fromage soit fondu et gratiné.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, coupez les tomates cerises en deux.</li>\n<li>Coupez la mozzarella en tranches et épongez-les bien avec de l&#39;essuie-tout.</li>\n<li>Étalez la sauce tomate au centre de la pâte en laissant un rebord d&#39;environ 1 cm.</li>\n<li>Disposez les tomates cerises par-dessus ainsi que les tranches de mozzarella. Saupoudrez de fromage râpé et du reste d’origan séché.</li>\n<li>Enfournez le tout 5-7 min dans la partie haute du four, ou jusqu’à ce que le fromage soit fondu et gratiné.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6409bb1c5a5cdc93cc6fdc2f/step-e4332a20.jpg",
-                    "path": "/6409bb1c5a5cdc93cc6fdc2f/step-e4332a20.jpg",
-                    "caption": "Garnir la tarte"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nPendant que la tarte cuit, faites une vinaigrette en mélangeant un peu de moutarde avec de l’huile d’olive et du vinaigre balsamique dans un saladier. Salez et poivrez. Juste avant de servir, ajoutez la salade et mélangez bien.\nEffeuillez ou ciselez le basilic.\nCoupez la tarte en parts et servez-les dans les assiettes. Parsemez de basilic. Servez la salade à côté.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant que la tarte cuit, faites une vinaigrette en mélangeant un peu de moutarde avec de l’huile d’olive et du vinaigre balsamique dans un saladier. Salez et poivrez. Juste avant de servir, ajoutez la salade et mélangez bien.</li>\n<li>Effeuillez ou ciselez le basilic.</li>\n<li>Coupez la tarte en parts et servez-les dans les assiettes. Parsemez de basilic. Servez la salade à côté.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant que la tarte cuit, faites une vinaigrette en mélangeant un peu de moutarde avec de l’huile d’olive et du vinaigre balsamique dans un saladier. Salez et poivrez. Juste avant de servir, ajoutez la salade et mélangez bien.</li>\n<li>Effeuillez ou ciselez le basilic.</li>\n<li>Coupez la tarte en parts et servez-les dans les assiettes. Parsemez de basilic. Servez la salade à côté.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6409bb1c5a5cdc93cc6fdc2f/step-4eeec630.jpg",
-                    "path": "/6409bb1c5a5cdc93cc6fdc2f/step-4eeec630.jpg",
-                    "caption": "Finir et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "QFR29804124-4",
-    "updatedAt": "2023-12-19T13:58:54+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305368",
-            "type": "bakingsheet",
-            "name": "Plaque de cuisson"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "b73e0f16-1b57-4287-9ae9-54f9b998d582",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/tarte-fine-tomates-cerises-and-mozza-6409bb1c5a5cdc93cc6fdc2f",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 190,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 2.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 315,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf1cb9d07cd5d38d796e",
-                    "amount": 380,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 230°C (210°C chaleur tournante).\nDéroulez la pâte avec son papier sulfurisé sur une plaque de cuisson (comptez ½ pâte par personne).\nPiquez le fond avec une fourchette et enfournez-la sans attendre à blanc 10-15 min, ou jusqu'à ce qu'elle soit légèrement dorée, puis réservez-la hors du four.\nCiselez l’oignon.\n\nLE SAVIEZ-VOUS ? Cuire une pâte à blanc consiste à la précuire sans garniture. Cela permet d'éviter que la pâte ne détrempe avec un appareil un peu trop liquide ou qui rend beaucoup de jus à la cuisson.",
+        "\nFaites chauffer un filet d’huile d’olive dans une sauteuse à feu moyen-vif.\nFaites-y cuire l'oignon 2-3 min.\nAjoutez-y la chair de tomates, la cassonade, la moitié de l'origan séché et 1 cs d’eau par personne. Salez et poivrez. Faites cuire 1-2 min, ou jusqu'à ce que la sauce épaississe légèrement.\n",
+        "\nPendant ce temps, coupez les tomates cerises en deux.\nCoupez la mozzarella en tranches et épongez-les bien avec de l'essuie-tout.\nÉtalez la sauce tomate au centre de la pâte en laissant un rebord d'environ 1 cm.\nDisposez les tomates cerises par-dessus ainsi que les tranches de mozzarella. Saupoudrez de fromage râpé et du reste d’origan séché.\nEnfournez le tout 5-7 min dans la partie haute du four, ou jusqu’à ce que le fromage soit fondu et gratiné.\n",
+        "\nPendant que la tarte cuit, faites une vinaigrette en mélangeant un peu de moutarde avec de l’huile d’olive et du vinaigre balsamique dans un saladier. Salez et poivrez. Juste avant de servir, ajoutez la salade et mélangez bien.\nEffeuillez ou ciselez le basilic.\nCoupez la tarte en parts et servez-les dans les assiettes. Parsemez de basilic. Servez la salade à côté.\n"
     ]
 }

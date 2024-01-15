@@ -1,1002 +1,120 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fd",
-            "name": "Moutarde",
-            "type": "mustard",
-            "slug": "moutarde",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fc",
-            "name": "Céleri",
-            "type": "celery",
-            "slug": "celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29803934-1",
-    "country": "FR",
-    "createdAt": "2021-11-23T14:42:28+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053aa",
-            "type": "indian",
-            "name": "Indienne",
-            "slug": "indian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053aa-835d45ad.jpg"
-        }
+        "Indienne"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 101,
     "headline": "avec du riz basmati et de la coriandre",
-    "id": "619cfdd1718af46dc959d8c7",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF211101_R215_W51_FR_RFR29803934-1_MB_Main_low-8a4e96ad.jpg",
-    "imagePath": "/image/HF211101_R215_W51_FR_RFR29803934-1_MB_Main_low-8a4e96ad.jpg",
+    "name": "Curry au potiron & chou kale",
+    "prepTime": 35,
+    "totalTime": 15,
+    "image_id": "619cfdd1718af46dc959d8c7",
+    "id": "3f80c6e1-e6bd-4114-86ee-596f1bc2c287",
+    "nutrition": {
+        "kcal": 351,
+        "fat": 30.29,
+        "saturated_fat": 22.97,
+        "carbohydrate": 15.4,
+        "sugars": 7.19,
+        "protein": 4.37,
+        "sodium": 0.13
+    },
+    "tags": [
+        "Végétarien",
+        "Calorie Smart"
+    ],
+    "utensils": [
+        "Wok ou sauteuse avec couvercle",
+        "Casserole"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "6405bfefb0da194777986422",
-            "uuid": "954b168a-3447-5f63-b0c8-5d7e3b284aae",
-            "name": "Amandes",
-            "type": "almonds",
-            "slug": "amandes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb0da194777986422-508342a5.png",
-            "imagePath": "/ingredient/6405bfefb0da194777986422-508342a5.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "f4f7ef67-753f-4b05-a99d-35455e338081"
         },
         {
-            "id": "64073bb59c6d10cd16eab62e",
-            "uuid": "b330fdf9-ab81-5b42-bc68-7b5748ae00ba",
-            "name": "Curry en poudre",
-            "type": "curry-powder",
-            "slug": "curry-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0af4af6d531d50cf5-82648760.png",
-            "imagePath": "/ingredient/6405bfd0af4af6d531d50cf5-82648760.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fd",
-                "57962a07b7e8697d4b3052fc"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "e37c0848-cf1d-4b01-84dc-97288386673b",
+            "portion_id": "ce39338b-2d0b-4740-ba37-deac26a34281",
+            "image_id": "64073bb59c6d10cd16eab62e"
         },
         {
-            "id": "64073bb59c6d10cd16eab630",
-            "uuid": "ee90258d-e1dc-4156-8e8a-0964c10de606",
-            "name": "Dés de butternut",
-            "type": "butternut-squash-diced",
-            "slug": "des-de-butternut",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9eb0da194777986315-0d77f733.png",
-            "imagePath": "/ingredient/6405bf9eb0da194777986315-0d77f733.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 300,
+            "unit": "g",
+            "ingredient_id": "89a3b976-0b8a-4725-9845-6188a3432341"
         },
         {
-            "id": "6405c021b0da1947779864d5",
-            "uuid": "8367e2ef-bc0a-5466-ae44-b45fead7a485",
-            "name": "Chou kale tranché",
-            "type": "chopped-kale",
-            "slug": "chou-kale-tranche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c021b0da1947779864d5-67fe9ef4.png",
-            "imagePath": "/ingredient/6405c021b0da1947779864d5-67fe9ef4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "ecbeb8d1-610c-4094-94cd-00edfbecd735"
         },
         {
-            "id": "6405bf80af4af6d531d50be2",
-            "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
-            "name": "Riz",
-            "type": "basmati-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "imagePath": "/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 120,
+            "unit": "g",
+            "ingredient_id": "c21a2845-afc7-40be-8240-4f67b9d7045d"
         },
         {
-            "id": "6405bfdfb0da1947779863ee",
-            "uuid": "4be57e09-204f-50f6-abf5-a91e4a8099db",
-            "name": "Lait de coco",
-            "type": "coconut-milk",
-            "slug": "lait-de-coco",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "imagePath": "/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "ml",
+            "ingredient_id": "76aac1fa-8a19-4830-b297-778d46f6f9ea"
         },
         {
-            "id": "63e5122181b4b295e66f0258",
-            "uuid": "36c20260-788a-4eed-8423-454cc7d047ac",
-            "name": "Beurre",
-            "type": "beurre-cc",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122181b4b295e66f0258-1fc1b122.png",
-            "imagePath": "/ingredient/63e5122181b4b295e66f0258-1fc1b122.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "50b05986-40c9-4736-a8c9-0f0b51b8247f",
+            "portion_id": "1aa6700b-1846-4d4d-aca2-1ddb3f362a10",
+            "image_id": "63e5122181b4b295e66f0258"
         },
         {
-            "id": "63e51218bc1d64f7b96e2702",
-            "uuid": "d5624e89-38aa-4d02-8bd1-333aa3192369",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cc",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51218bc1d64f7b96e2702-a20c23fe.png",
-            "imagePath": "/ingredient/63e51218bc1d64f7b96e2702-a20c23fe.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "412ec846-4d12-49d1-9a92-ebc6378e4c8e",
+            "portion_id": "83ebb8af-e4a6-420f-aca4-80d07de5a645",
+            "image_id": "63e51218bc1d64f7b96e2702"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/619cfdd1718af46dc959d8c7",
-    "name": "Curry au potiron & chou kale",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 351,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1469,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 30.29,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 22.97,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 15.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 7.19,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 4.37,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.13,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 120,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 357,
-    "slug": "curry-au-potiron-and-chou-kale",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Ciselez l'ail, l’oignon et la coriandre. Coupez le citron vert en quartiers. Concassez grossièrement les amandes. ",
-            "instructionsHTML": "<ul><li>Ciselez l&#39;ail, l’oignon et la coriandre. Coupez le citron vert en quartiers. </li><li>Concassez grossièrement les amandes. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Ciselez l&#39;ail, l’oignon et la coriandre. Coupez le citron vert en quartiers. </li><li>Concassez grossièrement les amandes. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/619cfdd1718af46dc959d8c7/step-34284c00.jpg",
-                    "path": "/619cfdd1718af46dc959d8c7/step-34284c00.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer un wok ou une sauteuse à feu moyen-vif. Ajoutez la moitié du beurre et l’huile de tournesol puis 1,5 cc de curry en poudre par personne. Faites-le torréfier 1 minute, puis ajoutez l'ail et l’oignon et faites sauter 1-2 minutes.",
-            "instructionsHTML": "<ul><li>Faites chauffer un wok ou une sauteuse à feu moyen-vif. Ajoutez la moitié du beurre et l’huile de tournesol puis 1,5 cc de curry en poudre par personne. Faites-le torréfier 1 minute, puis ajoutez l&#39;ail et l’oignon et faites sauter 1-2 minutes.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer un wok ou une sauteuse à feu moyen-vif. Ajoutez la moitié du beurre et l’huile de tournesol puis 1,5 cc de curry en poudre par personne. Faites-le torréfier 1 minute, puis ajoutez l&#39;ail et l’oignon et faites sauter 1-2 minutes.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/619cfdd1718af46dc959d8c7/step-b294d110.jpg",
-                    "path": "/619cfdd1718af46dc959d8c7/step-b294d110.jpg",
-                    "caption": "Faire revenir"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Portez une grande casserole d'eau salée à ébullition pour le riz.Incorporez les dés de potiron dans la sauteuse et ajoutez 1 cm d'eau dans le fond, puis couvrez et laissez mijoter 5 minutes.Ajoutez le chou kale et prolongez la cuisson 10 minutes à couvert ou jusqu'à ce que les légumes soient presque totalement cuits.",
-            "instructionsHTML": "<ul><li>Portez une grande casserole d&#39;eau salée à ébullition pour le riz.</li><li>Incorporez les dés de potiron dans la sauteuse et ajoutez 1 cm d&#39;eau dans le fond, puis couvrez et laissez mijoter 5 minutes.</li><li>Ajoutez le chou kale et prolongez la cuisson 10 minutes à couvert ou jusqu&#39;à ce que les légumes soient presque totalement cuits.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Portez une grande casserole d&#39;eau salée à ébullition pour le riz.</li><li>Incorporez les dés de potiron dans la sauteuse et ajoutez 1 cm d&#39;eau dans le fond, puis couvrez et laissez mijoter 5 minutes.</li><li>Ajoutez le chou kale et prolongez la cuisson 10 minutes à couvert ou jusqu&#39;à ce que les légumes soient presque totalement cuits.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/619cfdd1718af46dc959d8c7/step-c1059220.jpg",
-                    "path": "/619cfdd1718af46dc959d8c7/step-c1059220.jpg",
-                    "caption": "Ajouter les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Faites cuire le riz 10-12 minutes. Égouttez-le, mélangez-le avec une noisette de beurre et les amandes concassées et réservez-le.",
-            "instructionsHTML": "<ul><li>Faites cuire le riz 10-12 minutes. Égouttez-le, mélangez-le avec une noisette de beurre et les amandes concassées et réservez-le.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites cuire le riz 10-12 minutes. Égouttez-le, mélangez-le avec une noisette de beurre et les amandes concassées et réservez-le.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/619cfdd1718af46dc959d8c7/step-7daeb930.jpg",
-                    "path": "/619cfdd1718af46dc959d8c7/step-7daeb930.jpg",
-                    "caption": "Cuire le riz"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent puis ajoutez le lait dans le wok et mélangez bien. Baissez le feu, salez et poivrez et laissez mijoter à couvert 5-6 minutes à feu moyen-doux ou jusqu’à ce que le curry soit épais et crémeux.CONSEIL: Découvrez la sauteuse et faites réduire 1-2 minutes supplémentaires si le curry est trop liquide.",
-            "instructionsHTML": "<ul><li>Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent puis ajoutez le lait dans le wok et mélangez bien. </li><li>Baissez le feu, salez et poivrez et laissez mijoter à couvert 5-6 minutes à feu moyen-doux ou jusqu’à ce que le curry soit épais et crémeux.</li></ul><p>CONSEIL: Découvrez la sauteuse et faites réduire 1-2 minutes supplémentaires si le curry est trop liquide.</p>",
-            "instructionsMarkdown": "<ul><li>Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent puis ajoutez le lait dans le wok et mélangez bien. </li><li>Baissez le feu, salez et poivrez et laissez mijoter à couvert 5-6 minutes à feu moyen-doux ou jusqu’à ce que le curry soit épais et crémeux.</li></ul><p>CONSEIL: Découvrez la sauteuse et faites réduire 1-2 minutes supplémentaires si le curry est trop liquide.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/619cfdd1718af46dc959d8c7/step-9e483040.jpg",
-                    "path": "/619cfdd1718af46dc959d8c7/step-9e483040.jpg",
-                    "caption": "Cuire le curry"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le riz aux amandes dans les assiettes et le curry par-dessus. Saupoudrez de coriandre et pressez quelques gouttes de citron vert pour apporter de la fraicheur. ",
-            "instructionsHTML": "<ul><li>Servez le riz aux amandes dans les assiettes et le curry par-dessus. </li><li>Saupoudrez de coriandre et pressez quelques gouttes de citron vert pour apporter de la fraicheur. </li></ul><p><br></p>",
-            "instructionsMarkdown": "<ul><li>Servez le riz aux amandes dans les assiettes et le curry par-dessus. </li><li>Saupoudrez de coriandre et pressez quelques gouttes de citron vert pour apporter de la fraicheur. </li></ul><p><br></p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/619cfdd1718af46dc959d8c7/step-61561550.jpg",
-                    "path": "/619cfdd1718af46dc959d8c7/step-61561550.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b30531a",
-            "type": "calorie-smart",
-            "name": "Calorie Smart",
-            "slug": "calorie-smart",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "RFR29803934-1",
-    "updatedAt": "2023-11-27T10:47:10+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24efcf61c18c30ff53b",
-            "type": null,
-            "name": "Wok ou sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        }
-    ],
-    "uuid": "8af8c880-7ee7-4d25-9b0b-d63fff7498ff",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/curry-au-potiron-and-chou-kale-619cfdd1718af46dc959d8c7",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c021b0da1947779864d5",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 125,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51218bc1d64f7b96e2702",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c021b0da1947779864d5",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51218bc1d64f7b96e2702",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c021b0da1947779864d5",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 375,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51218bc1d64f7b96e2702",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c021b0da1947779864d5",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51218bc1d64f7b96e2702",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c021b0da1947779864d5",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 625,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51218bc1d64f7b96e2702",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb0da194777986422",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab62e",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bb59c6d10cd16eab630",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c021b0da1947779864d5",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 750,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122181b4b295e66f0258",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51218bc1d64f7b96e2702",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Ciselez l'ail, l’oignon et la coriandre. Coupez le citron vert en quartiers. Concassez grossièrement les amandes. ",
+        "Faites chauffer un wok ou une sauteuse à feu moyen-vif. Ajoutez la moitié du beurre et l’huile de tournesol puis 1,5 cc de curry en poudre par personne. Faites-le torréfier 1 minute, puis ajoutez l'ail et l’oignon et faites sauter 1-2 minutes.",
+        "Portez une grande casserole d'eau salée à ébullition pour le riz.Incorporez les dés de potiron dans la sauteuse et ajoutez 1 cm d'eau dans le fond, puis couvrez et laissez mijoter 5 minutes.Ajoutez le chou kale et prolongez la cuisson 10 minutes à couvert ou jusqu'à ce que les légumes soient presque totalement cuits.",
+        "Faites cuire le riz 10-12 minutes. Égouttez-le, mélangez-le avec une noisette de beurre et les amandes concassées et réservez-le.",
+        "Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent puis ajoutez le lait dans le wok et mélangez bien. Baissez le feu, salez et poivrez et laissez mijoter à couvert 5-6 minutes à feu moyen-doux ou jusqu’à ce que le curry soit épais et crémeux.CONSEIL: Découvrez la sauteuse et faites réduire 1-2 minutes supplémentaires si le curry est trop liquide.",
+        "Servez le riz aux amandes dans les assiettes et le curry par-dessus. Saupoudrez de coriandre et pressez quelques gouttes de citron vert pour apporter de la fraicheur. "
     ]
 }

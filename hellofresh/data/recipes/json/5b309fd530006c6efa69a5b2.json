@@ -1,892 +1,111 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 0,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": "https://hellofresh.com/recipecards/card/aardappelgratin-met-rundervink-5b309fd530006c6efa69a5b2-d0cd9a56.pdf",
-    "category": null,
-    "clonedFrom": "5b2b642030006c7aaa75a1b2",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2018-06-25T07:55:01+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053bc",
-            "type": "traditional",
-            "name": "Traditional",
-            "slug": "traditional",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bc-19c014e3.jpg"
-        }
+        "Traditional"
     ],
     "description": "Cet oiseau sans tête préparé à base de haché de bœuf épicé enveloppé d’une tranche de bœuf maigre est un plat traditionnel des Pays-Bas. Avec les rondelles prédécoupées, le gratin de pommes de terre est prêt en un tour de main. Les carottes servies en accompagnement sont délicieusement douces grâce au jus d’orange et la petite noix de beurre.",
-    "descriptionHTML": "<p>Cet oiseau sans tête préparé à base de haché de bœuf épicé enveloppé d’une tranche de bœuf maigre est un plat traditionnel des Pays-Bas. Avec les rondelles prédécoupées, le gratin de pommes de terre est prêt en un tour de main. Les carottes servies en accompagnement sont délicieusement douces grâce au jus d’orange et la petite noix de beurre.</p>",
-    "descriptionMarkdown": "Cet oiseau sans tête préparé à base de haché de bœuf épicé enveloppé d’une tranche de bœuf maigre est un plat traditionnel des Pays-Bas. Avec les rondelles prédécoupées, le gratin de pommes de terre est prêt en un tour de main. Les carottes servies en accompagnement sont délicieusement douces grâce au jus d’orange et la petite noix de beurre.",
     "difficulty": 2,
     "favoritesCount": 26,
     "headline": "Avec des carottes à l’orange et du persil",
-    "id": "5b309fd530006c6efa69a5b2",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5b309fd530006c6efa69a5b2-ba31118f.jpg",
-    "imagePath": "/image/5b309fd530006c6efa69a5b2-ba31118f.jpg",
+    "name": "Oiseau sans tête et gratin de pomme de terre",
+    "prepTime": 45,
+    "totalTime": null,
+    "image_id": "5b309fd530006c6efa69a5b2",
+    "id": "a7230b8c-46c2-4c74-9de0-fb88ee7bbdaa",
+    "nutrition": {
+        "kcal": 923,
+        "fat": 58,
+        "saturated_fat": 34.4,
+        "carbohydrate": 63,
+        "sugars": 22.8,
+        "protein": 32,
+        "sodium": 0.9
+    },
+    "tags": [
+        "À faire rapidement"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Plat à four",
+        "Sauteuse avec couvercle",
+        "Poêle"
+    ],
     "ingredients": [
         {
-            "id": "5af2c15bae08b51b804e58dd",
-            "uuid": "76db880d-89f5-5eaa-9aaf-4d969a72a599",
-            "name": "Pommes de terre en rondelles",
-            "type": "QDOC-PHF-10-16621-4",
-            "slug": "pommes-de-terre-en-rondelles",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/59f338d12c3e0861216af2d2-ad60dfab.png",
-            "imagePath": "/ingredient/59f338d12c3e0861216af2d2-ad60dfab.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 400,
+            "unit": "g",
+            "ingredient_id": "05603364-c2c2-4db4-9521-54fd00bb612d"
         },
         {
-            "id": "5af2be31ae08b5194415a1f6",
-            "uuid": "06992613-fa3e-55ad-96fa-cdef4cb93b6c",
-            "name": "Oignon jaune",
-            "type": "qdoc-phf-10-16082-4",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/57be99fbd804b5894a8b4567-14277928.png",
-            "imagePath": "/image/57be99fbd804b5894a8b4567-14277928.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbee",
-                "uuid": "1a30a8a2-71bc-52c5-89fa-8184b99ce42c",
-                "name": "oignon",
-                "slug": "oignon",
-                "type": "onion",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a0d592fb-656a-47ac-9c02-0a6b7755ba29",
+            "portion_id": "6b8325d0-2a36-4a16-9160-2374ad50b133",
+            "image_id": "5af2be31ae08b5194415a1f6"
         },
         {
-            "id": "5af2be68ae08b5194415a2c0",
-            "uuid": "2c4be4cd-cdcd-5628-bcb4-becf6d42b039",
-            "name": "Carotte",
-            "type": "qdoc-phf-10-16950-4",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2be68ae08b5194415a2c0-3e32691c.png",
-            "imagePath": "/ingredient/5af2be68ae08b5194415a2c0-3e32691c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb62",
-                "uuid": "b183506b-ae5e-5689-9362-9c74e6f64079",
-                "name": "carotte",
-                "slug": "carotte",
-                "type": "carrot",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 350,
+            "unit": "g",
+            "ingredient_id": "b8ecc04f-8034-4ecc-bdec-63d8c67be539"
         },
         {
-            "id": "5af2be2eae08b5194415a1e9",
-            "uuid": "edf6f6b9-85fc-58e7-a0f6-55955dbd9e1e",
-            "name": "Orange",
-            "type": "QDOC-PHF-10-16220-4",
-            "slug": "orange",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/5630de78f8b25e50598b4567.png",
-            "imagePath": "/image/5630de78f8b25e50598b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "26350040-dc49-44da-ae0b-9c3e5bc241ae",
+            "portion_id": "af846e04-f0c2-4dd6-a05a-d6445d599dd2",
+            "image_id": "5af2be2eae08b5194415a1e9"
         },
         {
-            "id": "5af2be6dae08b5194415a2d4",
-            "uuid": "bc2aa080-4c4c-51d5-a5d6-abfde98df2ad",
-            "name": "Persil plat",
-            "type": "remps-phf-11-16129-4",
-            "slug": "persil-plat-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/56019908f8b25e417b8b4567.png",
-            "imagePath": "/image/56019908f8b25e417b8b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbf9",
-                "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
-                "name": "persil",
-                "slug": "persil",
-                "type": "parsley",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "botte(s)",
+            "ingredient_id": "0bbf4377-a6cf-448e-a5e9-78b238da7d55",
+            "portion_id": "89d19126-ab20-47b5-a35b-0dbe34363d40",
+            "image_id": "5af2be6dae08b5194415a2d4"
         },
         {
-            "id": "5af2bde9ae08b5194415a0e0",
-            "uuid": "6584f62d-0be2-57a5-987d-a7e4dcbe34e6",
-            "name": "Crème de cuisson",
-            "type": "QDOC-DAI-10-19015-4",
-            "slug": "creme-de-cuisson",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredients/5878dd216121bb41f921fc11-b9198ff0.png",
-            "imagePath": "/ingredients/5878dd216121bb41f921fc11-b9198ff0.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": null
+            "amount": 200,
+            "unit": "ml",
+            "ingredient_id": "f2f67beb-a268-44ed-b735-14908e975514"
         },
         {
-            "id": "5cdea15cbfc591000d02b434",
-            "uuid": "773f16f0-673d-528c-8d06-1966e8cbee63",
-            "name": "Gouda Mi-Vieux râpé",
-            "type": "qdoc-dai-10-15022-4",
-            "slug": "gouda-mi-vieux-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5cdea15cbfc591000d02b434-d04f7bdd.png",
-            "imagePath": "/ingredient/5cdea15cbfc591000d02b434-d04f7bdd.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb68",
-                "uuid": "a560b77e-37ae-5c55-82df-579a3d1d37de",
-                "name": "fromage",
-                "slug": "fromage",
-                "type": "cheese",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "603029b9-571c-4b16-a024-0d515be78ad2"
         },
         {
-            "id": "5af2be67ae08b5194415a2bb",
-            "uuid": "6fff4989-8bb2-53ea-a1ff-68013a55c700",
-            "name": "Roulade de boeur farcie",
-            "type": "qdoc-ptn-10-10461-4",
-            "slug": "roulade-de-boeuf-farcie",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/56ab4b654dab71997a8b4567-056bb6ec.png",
-            "imagePath": "/ingredient/56ab4b654dab71997a8b4567-056bb6ec.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb4e",
-                "uuid": "11d21a27-e54b-59e8-8657-9bff7b84ca88",
-                "name": "boeuf",
-                "slug": "boeuf",
-                "type": "beef",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "d3be258c-d4f0-4a33-b7a3-99376005ca3d",
+            "portion_id": "f291d59b-3467-44c9-a4fc-4196bc55df21",
+            "image_id": "5af2be67ae08b5194415a2bb"
         },
         {
-            "id": "5c8bcd9ce3f3397358648c95",
-            "uuid": "19d86b63-a223-5129-8979-a429c1d5d94a",
-            "name": "Beurre",
-            "type": "zt-roomboter",
-            "slug": "beurre-non-sale",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "imagePath": "/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb5b",
-                "uuid": "e1a21c36-6c62-5638-9364-d39039f0b218",
-                "name": "beurre",
-                "slug": "beurre",
-                "type": "butter",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02",
+            "portion_id": "4c0e14e1-a159-4138-aa12-f9ce440d3a23",
+            "image_id": "5c8bcd9ce3f3397358648c95"
         },
         {
-            "id": "5af2be5aae08b5194415a28a",
-            "uuid": "13538fd1-fdb5-5c80-ad7e-70582b967fac",
-            "name": "Moutarde",
-            "type": "zt-mosterd",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a54ac4dab71636c8b4573.png",
-            "imagePath": "/image/554a54ac4dab71636c8b4573.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbdf",
-                "uuid": "0ea834fb-414e-5a5e-9a21-78dfb810042b",
-                "name": "moutarde",
-                "slug": "moutarde",
-                "type": "mustard",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "5633114e-7198-4a79-9c9f-92cd54cdc351",
+            "portion_id": "04fc5d92-30c2-4645-bbe7-71c4a660d6b9",
+            "image_id": "5af2be5aae08b5194415a28a"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5b309fd530006c6efa69a5b2",
-    "name": "Oiseau sans tête et gratin de pomme de terre",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3862,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 923,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 58,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 34.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 63,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 22.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 32,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.9,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 0,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 722,
-    "slug": "oiseau-sans-tete-et-gratin-de-pomme-de-terre",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200 degrés. Versez de l’eauà hauteur des rondelles de pommes de terre,puis, à couvert, portez à ébullition et laissez cuire à petit bouillon 8 à 10 minutes. Ensuite,égouttez et réservez sans couvercle",
-            "instructionsHTML": "<p>Préchauffez le four à 200 degrés. Versez de l’eauà hauteur des rondelles de pommes de terre,puis, à couvert, portez à ébullition et laissez cuire à petit bouillon 8 à 10 minutes. Ensuite,égouttez et réservez sans couvercle</p>",
-            "instructionsMarkdown": "Préchauffez le four à 200 degrés. Versez de l’eauà hauteur des rondelles de pommes de terre,puis, à couvert, portez à ébullition et laissez cuire à petit bouillon 8 à 10 minutes. Ensuite,égouttez et réservez sans couvercle",
-            "ingredients": [
-                "5af2c15bae08b51b804e58dd"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire les rondelles de pommes de terre",
-                    "duration": "PT10M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b309fd530006c6efa69a5b2/step-664b5fdf.jpg",
-                    "path": "/5b309fd530006c6efa69a5b2/step-664b5fdf.jpg",
-                    "caption": "cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Pendant ce temps, découpez l’oignon en demi-rondelles. Coupez les carottes par le milieu dans le sens de la longueur, puis en quatre. Pressez ½ orange par personne et ciselez le persil plat.",
-            "instructionsHTML": "<p>Pendant ce temps, découpez l’oignon en demi-rondelles. Coupez les carottes par le milieu dans le sens de la longueur, puis en quatre. Pressez ½ orange par personne et ciselez le persil plat.</p>",
-            "instructionsMarkdown": "Pendant ce temps, découpez l’oignon en demi-rondelles. Coupez les carottes par le milieu dans le sens de la longueur, puis en quatre. Pressez ½ orange par personne et ciselez le persil plat.",
-            "ingredients": [
-                "5af2be68ae08b5194415a2c0",
-                "5af2be2eae08b5194415a1e9",
-                "5af2be31ae08b5194415a1f6"
-            ],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b309fd530006c6efa69a5b2/step-b3c4d663.jpg",
-                    "path": "/5b309fd530006c6efa69a5b2/step-b3c4d663.jpg",
-                    "caption": "couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans le bol, mélangez la crème et la moitié du fromage. Salez et poivrez. Disposez la moitié des rondelles de pommes de terre dans le plat à four et versez la moitié du mélange à la crème par-dessus. Disposez les autres rondelles par-dessus, puis terminez avec le reste de crème. Parsemez du reste de fromage et enfournez 20 minutes.",
-            "instructionsHTML": "<p>Dans le bol, mélangez la crème et la moitié du fromage. Salez et poivrez. Disposez la moitié des rondelles de pommes de terre dans le plat à four et versez la moitié du mélange à la crème par-dessus. Disposez les autres rondelles par-dessus, puis terminez avec le reste de crème. Parsemez du reste de fromage et enfournez 20 minutes.</p>",
-            "instructionsMarkdown": "Dans le bol, mélangez la crème et la moitié du fromage. Salez et poivrez. Disposez la moitié des rondelles de pommes de terre dans le plat à four et versez la moitié du mélange à la crème par-dessus. Disposez les autres rondelles par-dessus, puis terminez avec le reste de crème. Parsemez du reste de fromage et enfournez 20 minutes.",
-            "ingredients": [
-                "5cdea15cbfc591000d02b434",
-                "5af2bde9ae08b5194415a0e0",
-                "5c8bcd9be3f3397358648c93",
-                "5af2c15bae08b51b804e58dd"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [
-                {
-                    "name": "Enfournez le gratin",
-                    "duration": "PT20M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b309fd530006c6efa69a5b2/step-462be7bd.jpg",
-                    "path": "/5b309fd530006c6efa69a5b2/step-462be7bd.jpg",
-                    "caption": "four"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, faites chauffer la moitié du beurre dans la sauteuse, ajoutez les carottes et le jus d’orange, puis, à couvert, laissez cuire 12 à 15 minutes à feu moyen-doux. Salez et poivrez.",
-            "instructionsHTML": "<p>Pendant ce temps, faites chauffer la moitié du beurre dans la sauteuse, ajoutez les carottes et le jus d’orange, puis, à couvert, laissez cuire 12 à 15 minutes à feu moyen-doux. Salez et poivrez.</p>",
-            "instructionsMarkdown": "Pendant ce temps, faites chauffer la moitié du beurre dans la sauteuse, ajoutez les carottes et le jus d’orange, puis, à couvert, laissez cuire 12 à 15 minutes à feu moyen-doux. Salez et poivrez.",
-            "ingredients": [
-                "5c8bcd9ce3f3397358648c95",
-                "5af2be68ae08b5194415a2c0",
-                "5af2be2eae08b5194415a1e9"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire les carottes",
-                    "duration": "PT15M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b309fd530006c6efa69a5b2/step-982bbf13.jpg",
-                    "path": "/5b309fd530006c6efa69a5b2/step-982bbf13.jpg",
-                    "caption": "cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire l’oiseau sans tête 2 à 3 minutes de chaque côté à feu moyen-vif. Ajoutez les rondelles d’oignon et la moutarde,couvrez et poursuivez la cuisson 8 à 12 minutes à feu doux, jusqu’à ce que l’oiseau sans tête soit cuit. Retournez régulièrement.",
-            "instructionsHTML": "<p>Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire l’oiseau sans tête 2 à 3 minutes de chaque côté à feu moyen-vif. Ajoutez les rondelles d’oignon et la moutarde,couvrez et poursuivez la cuisson 8 à 12 minutes à feu doux, jusqu’à ce que l’oiseau sans tête soit cuit. Retournez régulièrement.</p>",
-            "instructionsMarkdown": "Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire l’oiseau sans tête 2 à 3 minutes de chaque côté à feu moyen-vif. Ajoutez les rondelles d’oignon et la moutarde,couvrez et poursuivez la cuisson 8 à 12 minutes à feu doux, jusqu’à ce que l’oiseau sans tête soit cuit. Retournez régulièrement.",
-            "ingredients": [
-                "5c8bcd9ce3f3397358648c95",
-                "5af2be5aae08b5194415a28a",
-                "5af2be67ae08b5194415a2bb",
-                "5af2be31ae08b5194415a1f6"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire l’oiseau sans tête de chaque côté",
-                    "duration": "PT03M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Cuire l’oiseau sans tête à couvert",
-                    "duration": "PT12M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b309fd530006c6efa69a5b2/step-8c47c08b.jpg",
-                    "path": "/5b309fd530006c6efa69a5b2/step-8c47c08b.jpg",
-                    "caption": "oiseau sans tête"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le gratin de pommes de terre et l’oiseau sans tête aux oignons sur les assiettes. Accompagnez des carottes (avec leur jus) et garnissez avec le persil plat.",
-            "instructionsHTML": "<p>Servez le gratin de pommes de terre et l’oiseau sans tête aux oignons sur les assiettes. Accompagnez des carottes (avec leur jus) et garnissez avec le persil plat.</p>",
-            "instructionsMarkdown": "Servez le gratin de pommes de terre et l’oiseau sans tête aux oignons sur les assiettes. Accompagnez des carottes (avec leur jus) et garnissez avec le persil plat.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b309fd530006c6efa69a5b2/step-a7993be5.jpg",
-                    "path": "/5b309fd530006c6efa69a5b2/step-a7993be5.jpg",
-                    "caption": "servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-13T10:38:55+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/oiseau-sans-tete-et-gratin-de-pomme-de-terre-5b309fd530006c6efa69a5b2",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5af2c15bae08b51b804e58dd",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be2eae08b5194415a1e9",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 2,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5af2bde9ae08b5194415a0e0",
-                    "amount": 100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be67ae08b5194415a2bb",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5af2c15bae08b51b804e58dd",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 350,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be2eae08b5194415a1e9",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 4,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5af2bde9ae08b5194415a0e0",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be67ae08b5194415a2bb",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5af2c15bae08b51b804e58dd",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be2eae08b5194415a1e9",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 6,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5af2bde9ae08b5194415a0e0",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be67ae08b5194415a2bb",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5af2c15bae08b51b804e58dd",
-                    "amount": 800,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 700,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be2eae08b5194415a1e9",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 8,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5af2bde9ae08b5194415a0e0",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be67ae08b5194415a2bb",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5af2c15bae08b51b804e58dd",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be2eae08b5194415a1e9",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 10,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5af2bde9ae08b5194415a0e0",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be67ae08b5194415a2bb",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5af2c15bae08b51b804e58dd",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be31ae08b5194415a1f6",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be68ae08b5194415a2c0",
-                    "amount": 1100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be2eae08b5194415a1e9",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be6dae08b5194415a2d4",
-                    "amount": 12,
-                    "unit": "botte(s)"
-                },
-                {
-                    "id": "5af2bde9ae08b5194415a0e0",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "5cdea15cbfc591000d02b434",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be67ae08b5194415a2bb",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200 degrés. Versez de l’eauà hauteur des rondelles de pommes de terre,puis, à couvert, portez à ébullition et laissez cuire à petit bouillon 8 à 10 minutes. Ensuite,égouttez et réservez sans couvercle",
+        "Pendant ce temps, découpez l’oignon en demi-rondelles. Coupez les carottes par le milieu dans le sens de la longueur, puis en quatre. Pressez ½ orange par personne et ciselez le persil plat.",
+        "Dans le bol, mélangez la crème et la moitié du fromage. Salez et poivrez. Disposez la moitié des rondelles de pommes de terre dans le plat à four et versez la moitié du mélange à la crème par-dessus. Disposez les autres rondelles par-dessus, puis terminez avec le reste de crème. Parsemez du reste de fromage et enfournez 20 minutes.",
+        "Pendant ce temps, faites chauffer la moitié du beurre dans la sauteuse, ajoutez les carottes et le jus d’orange, puis, à couvert, laissez cuire 12 à 15 minutes à feu moyen-doux. Salez et poivrez.",
+        "Pendant ce temps, faites chauffer le beurre dans la poêle et faites cuire l’oiseau sans tête 2 à 3 minutes de chaque côté à feu moyen-vif. Ajoutez les rondelles d’oignon et la moutarde,couvrez et poursuivez la cuisson 8 à 12 minutes à feu doux, jusqu’à ce que l’oiseau sans tête soit cuit. Retournez régulièrement.",
+        "Servez le gratin de pommes de terre et l’oiseau sans tête aux oignons sur les assiettes. Accompagnez des carottes (avec leur jus) et garnissez avec le persil plat."
     ]
 }

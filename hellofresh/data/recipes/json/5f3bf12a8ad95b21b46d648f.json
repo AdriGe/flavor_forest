@@ -1,1176 +1,144 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fe",
-            "name": "Graines de sésame",
-            "type": "sesame",
-            "slug": "graines-de-sesame",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5a9614ab30006c2c026cf562",
-            "name": "Arachides",
-            "type": "traces-of-peanuts",
-            "slug": "traces-of-arachides",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b305302",
-            "name": "Fruits à coque",
-            "type": "traces-of-nuts",
-            "slug": "traces-of-fruits-a-coque",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": "62c313d91ceca38a090d30f4",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/poulet-en-croute-de-sesame-and-riz-basmati-62c313d91ceca38a090d30f4",
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "RNL1841-3",
-    "country": "FR",
-    "createdAt": "2020-08-18T15:18:03+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a5",
-            "type": "asian",
-            "name": "Asiatique",
-            "slug": "asian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a5-0483bf75.jpg"
-        }
+        "Asiatique"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 339,
     "headline": "avec des légumes rôtis au miel et au soja",
-    "id": "5f3bf12a8ad95b21b46d648f",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF191105_R18_W50_NL_R1841_mian__3_low-1505f658.jpg",
-    "imagePath": "/image/HF191105_R18_W50_NL_R1841_mian__3_low-1505f658.jpg",
+    "name": "Poulet en croûte de sésame & riz basmati",
+    "prepTime": 30,
+    "totalTime": 25,
+    "image_id": "5f3bf12a8ad95b21b46d648f",
+    "id": "e724b32f-c95f-4da4-9bbe-f633e53e193f",
+    "nutrition": {
+        "kcal": 379,
+        "fat": 24.96,
+        "saturated_fat": 7.05,
+        "carbohydrate": 28.4,
+        "sugars": 17.41,
+        "protein": 8.46,
+        "sodium": 1.96
+    },
+    "tags": [
+        "À faire rapidement",
+        "Famille"
+    ],
+    "utensils": [
+        "Plat à four",
+        "Casserole avec couvercle",
+        "Petit bol",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bf3aaf4af6d531d50acd",
-            "uuid": "230d08ff-162f-5b15-bf19-bbf3ef5e6210",
-            "name": "Gingembre frais",
-            "type": "ginger",
-            "slug": "gingembre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cm",
+            "ingredient_id": "cce6636d-af2c-4a6d-9463-243866e1abc7",
+            "portion_id": "4f76cd6c-50a4-4899-a67b-51c2b6791808",
+            "image_id": "6405bf3aaf4af6d531d50acd"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf8bb9d07cd5d38d7b0c",
-            "uuid": "08fdabb8-8ea0-53a6-9f44-85127ada6c27",
-            "name": "Courgette",
-            "type": "zucchini",
-            "slug": "courgette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "imagePath": "/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "e32aa012-a822-4ee2-b710-904dd001de92",
+            "portion_id": "c10ecad4-abae-4fff-a410-4bbcabbc1abd",
+            "image_id": "6405bf8bb9d07cd5d38d7b0c"
         },
         {
-            "id": "6405bf77b0da194777986291",
-            "uuid": "6b9b5891-6a0f-43b7-abac-f1d515dd2d91",
-            "name": "Poivron rouge",
-            "type": "red-bell-pepper",
-            "slug": "poivron-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "imagePath": "/ingredient/6405bf77b0da194777986291-62ca8612.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "d9370a6a-0327-43ae-867d-6bffcdab563a",
+            "portion_id": "4d35f7d2-9fbd-45df-8436-58d546534e81",
+            "image_id": "6405bf77b0da194777986291"
         },
         {
-            "id": "6405bf80af4af6d531d50be2",
-            "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
-            "name": "Riz",
-            "type": "basmati-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "imagePath": "/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 170,
+            "unit": "g",
+            "ingredient_id": "c21a2845-afc7-40be-8240-4f67b9d7045d"
         },
         {
-            "id": "6405bfafaf4af6d531d50c89",
-            "uuid": "3f9af0e1-e8a1-4d23-a34f-5c5ffb8d20db",
-            "name": "Œuf de poule élevée en plein air",
-            "type": "free-range-egg",
-            "slug": "oeuf-de-poule-elevee-en-plein-air",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfafaf4af6d531d50c89-c42acd57.png",
-            "imagePath": "/ingredient/6405bfafaf4af6d531d50c89-c42acd57.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "4dade0ee-5e3c-488e-a20b-d764d2f2b6d1",
+            "portion_id": "a0c365a6-1eb0-4c12-96d3-b53f374279c2",
+            "image_id": "6405bfafaf4af6d531d50c89"
         },
         {
-            "id": "64073ba8683721c9a32b0737",
-            "uuid": "01bd1378-33c6-5b00-81e1-f5e78386db30",
-            "name": "Graines de sésame",
-            "type": "sesame-seeds",
-            "slug": "graines-de-sesame",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf75b0da19477798628c-5cf4b829.png",
-            "imagePath": "/ingredient/6405bf75b0da19477798628c-5cf4b829.png",
-            "shipped": true,
-            "allergens": [
-                "5a9614ab30006c2c026cf562",
-                "57962a07b7e8697d4b305302",
-                "57962a07b7e8697d4b3052f3",
-                "57962a07b7e8697d4b3052fe"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "b9e789b0-bd18-422e-ad0d-3b099a1e6de4"
         },
         {
-            "id": "6405bf70b9d07cd5d38d7ab1",
-            "uuid": "f13fc02a-596a-5a90-8e09-1a8cc459126b",
-            "name": "Chapelure panko",
-            "type": "panko-breadcrumbs",
-            "slug": "chapelure-panko",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf70b9d07cd5d38d7ab1-f8ba34e7.png",
-            "imagePath": "/ingredient/6405bf70b9d07cd5d38d7ab1-f8ba34e7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "b6cab6b5-8f86-483c-a2c6-6b04781ec82e"
         },
         {
-            "id": "6405bfb9af4af6d531d50caf",
-            "uuid": "459c2a07-19de-5ce9-b52e-365d8044ff1d",
-            "name": "Aiguillettes de poulet",
-            "type": "chicken-escalope",
-            "slug": "aiguillettes-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb9af4af6d531d50caf-8bd551fe.png",
-            "imagePath": "/ingredient/6405bfb9af4af6d531d50caf-8bd551fe.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "4e49a5fb-a67b-4a32-b812-5a55935208c7"
         },
         {
-            "id": "6405bf8aaf4af6d531d50bfe",
-            "uuid": "0eae0198-9f27-5e24-97d4-45b44e38d5dd",
-            "name": "Sauce soja",
-            "type": "soy-sauce",
-            "slug": "sauce-soja",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8aaf4af6d531d50bfe-5aee21eb.png",
-            "imagePath": "/ingredient/6405bf8aaf4af6d531d50bfe-5aee21eb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "ml",
+            "ingredient_id": "a7225935-e019-4cfd-8aa4-203486161fe1"
         },
         {
-            "id": "63e5122fbc1d64f7b96e270d",
-            "uuid": "d7163bce-490a-4de3-949e-e8c7ffde4c40",
-            "name": "Miel",
-            "type": "miel-cc",
-            "slug": "miel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122fbc1d64f7b96e270d-90fca0fe.png",
-            "imagePath": "/ingredient/63e5122fbc1d64f7b96e270d-90fca0fe.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "9c141b09-8579-40b2-8721-eaa348f7cbb5",
+            "portion_id": "99a0ede9-f22a-49e5-ba41-3fefe8088132",
+            "image_id": "63e5122fbc1d64f7b96e270d"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 360,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5123581b4b295e66f0261",
-            "uuid": "23b757d4-43a1-4078-a566-5d8331da930b",
-            "name": "Farine",
-            "type": "farine-cs",
-            "slug": "farine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "imagePath": "/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "9be5f238-91b9-43ef-9654-5e4a8976e90f",
+            "portion_id": "7d49eeda-c831-40be-bf44-3b8d5006773e",
+            "image_id": "63e5123581b4b295e66f0261"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5f3bf12a8ad95b21b46d648f",
-    "name": "Poulet en croûte de sésame & riz basmati",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 379,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1588,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 24.96,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 7.05,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 28.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 17.41,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 8.46,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.96,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 416,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 506,
-    "slug": "poulet-en-croute-de-sesame-and-riz-basmati",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préparez le bouillon avec de l'eau chaude.Préchauffez le four à 200 degrés.Épluchez le gingembre et râpez-le finement. Pressez ou émincez l'ail. Coupez la courgette en tranches d'1 cm d'épaisseur. Épépinez le poivron et coupez-le en lanières. Disposez les légumes dans un plat à four et mélangez-les à un filet d'huile d'olive. Salez et poivrez. Enfournez-les 18 à 20 minutes pour les rôtir.CONSEIL: Plus tard vous mélangerez les légumes avec la sauce soja qui est assez salée. Pensez-donc à ajuster voire réduire la quantité de sel.",
-            "instructionsHTML": "<ul><li>Préparez le bouillon avec de l&#39;eau chaude.Préchauffez le four à 200 degrés.</li><li>Épluchez le gingembre et râpez-le finement. Pressez ou émincez l&#39;ail. Coupez la courgette en tranches d&#39;1 cm d&#39;épaisseur. Épépinez le poivron et coupez-le en lanières. Disposez les légumes dans un plat à four et mélangez-les à un filet d&#39;huile d&#39;olive. Salez et poivrez. Enfournez-les 18 à 20 minutes pour les rôtir.</li></ul><p>CONSEIL: Plus tard vous mélangerez les légumes avec la sauce soja qui est assez salée. Pensez-donc à ajuster voire réduire la quantité de sel.</p>",
-            "instructionsMarkdown": "<ul><li>Préparez le bouillon avec de l&#39;eau chaude.Préchauffez le four à 200 degrés.</li><li>Épluchez le gingembre et râpez-le finement. Pressez ou émincez l&#39;ail. Coupez la courgette en tranches d&#39;1 cm d&#39;épaisseur. Épépinez le poivron et coupez-le en lanières. Disposez les légumes dans un plat à four et mélangez-les à un filet d&#39;huile d&#39;olive. Salez et poivrez. Enfournez-les 18 à 20 minutes pour les rôtir.</li></ul><p>CONSEIL: Plus tard vous mélangerez les légumes avec la sauce soja qui est assez salée. Pensez-donc à ajuster voire réduire la quantité de sel.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f3bf12a8ad95b21b46d648f/step-fd0dc000.jpg",
-                    "path": "/5f3bf12a8ad95b21b46d648f/step-fd0dc000.jpg",
-                    "caption": "Préparer les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer 1/2 cs de beurre par personne à feu moyen-vif dans une casserole avec couvercle. Ajoutez l'ail et le gingembre et faites-les cuire 1 à 2 minutes. Ajoutez le riz basmati et le bouillon. Portez à ébullition, puis baissez le feu et faites cuire le riz 10 minutes à couvert. Retirez la casserole du feu et laissez reposer 10 minutes sans retirer le couvercle.",
-            "instructionsHTML": "<ul><li>Faites chauffer 1/2 cs de beurre par personne à feu moyen-vif dans une casserole avec couvercle. </li><li>Ajoutez l&#39;ail et le gingembre et faites-les cuire 1 à 2 minutes. </li><li>Ajoutez le riz basmati et le bouillon. Portez à ébullition, puis baissez le feu et faites cuire le riz 10 minutes à couvert. </li><li>Retirez la casserole du feu et laissez reposer 10 minutes sans retirer le couvercle.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer 1/2 cs de beurre par personne à feu moyen-vif dans une casserole avec couvercle. </li><li>Ajoutez l&#39;ail et le gingembre et faites-les cuire 1 à 2 minutes. </li><li>Ajoutez le riz basmati et le bouillon. Portez à ébullition, puis baissez le feu et faites cuire le riz 10 minutes à couvert. </li><li>Retirez la casserole du feu et laissez reposer 10 minutes sans retirer le couvercle.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f3bf12a8ad95b21b46d648f/step-20fd9c10.jpg",
-                    "path": "/5f3bf12a8ad95b21b46d648f/step-20fd9c10.jpg",
-                    "caption": "Cuire le riz"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Prenez 3 assiettes creuses. Dans la première, mélangez la farine avec une pincée de sel. Dans la deuxième, battez 1/2 œuf par personne avec une fourchette. Dans la troisième, mélangez les graines de sésame à la chapelure panko, puis salez et poivrez. Placez d'abord le poulet dans la farine en veillant à ce qu'il en soit uniformément recouvert. Ensuite, passez-le dans l’œuf et enfin, dans le mélange de graines de sésame et de chapelure panko. Mettez le poulet pané de côté.",
-            "instructionsHTML": "<ul><li>Prenez 3 assiettes creuses. Dans la première, mélangez la farine avec une pincée de sel. Dans la deuxième, battez 1/2 œuf par personne avec une fourchette. Dans la troisième, mélangez les graines de sésame à la chapelure panko, puis salez et poivrez. </li><li>Placez d&#39;abord le poulet dans la farine en veillant à ce qu&#39;il en soit uniformément recouvert. Ensuite, passez-le dans l’œuf et enfin, dans le mélange de graines de sésame et de chapelure panko. Mettez le poulet pané de côté.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Prenez 3 assiettes creuses. Dans la première, mélangez la farine avec une pincée de sel. Dans la deuxième, battez 1/2 œuf par personne avec une fourchette. Dans la troisième, mélangez les graines de sésame à la chapelure panko, puis salez et poivrez. </li><li>Placez d&#39;abord le poulet dans la farine en veillant à ce qu&#39;il en soit uniformément recouvert. Ensuite, passez-le dans l’œuf et enfin, dans le mélange de graines de sésame et de chapelure panko. Mettez le poulet pané de côté.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f3bf12a8ad95b21b46d648f/step-b67c3420.jpg",
-                    "path": "/5f3bf12a8ad95b21b46d648f/step-b67c3420.jpg",
-                    "caption": "Paner le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Mélangez la sauce soja et le miel dans un petit bol.",
-            "instructionsHTML": "<ul><li><span>Mélangez la sauce soja et le miel dans un petit bol.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Mélangez la sauce soja et le miel dans un petit bol.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f3bf12a8ad95b21b46d648f/step-cae8d530.jpg",
-                    "path": "/5f3bf12a8ad95b21b46d648f/step-cae8d530.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Faites chauffer 1/2 cs d'huile d'olive par personne à feu moyen-vif dans une sauteuse. Ajoutez le poulet, saisissez-le 2 minutes par côté ou jusqu'à ce qu'il soit bien doré. Retirez le poulet de la poêle et déposez-le sur une plaque de cuisson recouverte de papier sulfurisé. Enfournez-le 6 à 8 minutes ou jusqu'à ce qu'il soit cuit. Une fois le poulet au four, versez la sauce au miel et soja sur les légumes et mélangez bien. Enfournez les légumes à nouveau jusqu'à ce qu'ils soient tendres.",
-            "instructionsHTML": "<ul><li><span>Faites chauffer 1/2 cs d&#39;huile d&#39;olive par personne à feu moyen-vif dans une sauteuse. Ajoutez le poulet, saisissez-le 2 minutes par côté ou jusqu&#39;à ce qu&#39;il soit bien doré. </span></li><li><span>Retirez le poulet de la poêle et déposez-le sur une plaque de cuisson recouverte de papier sulfurisé. Enfournez-le 6 à 8 minutes ou jusqu&#39;à ce qu&#39;il soit cuit. </span></li><li><span>Une fois le poulet au four, versez la sauce au miel et soja sur les légumes et mélangez bien. Enfournez les légumes à nouveau jusqu&#39;à ce qu&#39;ils soient tendres.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Faites chauffer 1/2 cs d&#39;huile d&#39;olive par personne à feu moyen-vif dans une sauteuse. Ajoutez le poulet, saisissez-le 2 minutes par côté ou jusqu&#39;à ce qu&#39;il soit bien doré. </span></li><li><span>Retirez le poulet de la poêle et déposez-le sur une plaque de cuisson recouverte de papier sulfurisé. Enfournez-le 6 à 8 minutes ou jusqu&#39;à ce qu&#39;il soit cuit. </span></li><li><span>Une fois le poulet au four, versez la sauce au miel et soja sur les légumes et mélangez bien. Enfournez les légumes à nouveau jusqu&#39;à ce qu&#39;ils soient tendres.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522",
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f3bf12a8ad95b21b46d648f/step-3dfb6c40.jpg",
-                    "path": "/5f3bf12a8ad95b21b46d648f/step-3dfb6c40.jpg",
-                    "caption": "Cuire le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Disposez les légumes et le riz dans des assiettes creuses.Placez le poulet sur le riz.",
-            "instructionsHTML": "<ul><li><span>Disposez les légumes et le riz dans des assiettes creuses.</span></li><li><span>Placez le poulet sur le riz.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Disposez les légumes et le riz dans des assiettes creuses.</span></li><li><span>Placez le poulet sur le riz.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f3bf12a8ad95b21b46d648f/step-80fe4250.jpg",
-                    "path": "/5f3bf12a8ad95b21b46d648f/step-80fe4250.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RNL1841-3",
-    "updatedAt": "2024-01-06T04:08:20+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        }
-    ],
-    "uuid": "ab58ce32-044c-4a07-a82c-fe62cab4e43e",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/poulet-en-croute-de-sesame-and-riz-basmati-5f3bf12a8ad95b21b46d648f",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 2,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 85,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 0.48,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0737",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb9af4af6d531d50caf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 10,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 180,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 4,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 170,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0737",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb9af4af6d531d50caf",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 20,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 360,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 6,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0737",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb9af4af6d531d50caf",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 30,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 440,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 8,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 335,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0737",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb9af4af6d531d50caf",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 40,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 720,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 10,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 420,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0737",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb9af4af6d531d50caf",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 50,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 12,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf77b0da194777986291",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfafaf4af6d531d50c89",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba8683721c9a32b0737",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf70b9d07cd5d38d7ab1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb9af4af6d531d50caf",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf8aaf4af6d531d50bfe",
-                    "amount": 60,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122fbc1d64f7b96e270d",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 880,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préparez le bouillon avec de l'eau chaude.Préchauffez le four à 200 degrés.Épluchez le gingembre et râpez-le finement. Pressez ou émincez l'ail. Coupez la courgette en tranches d'1 cm d'épaisseur. Épépinez le poivron et coupez-le en lanières. Disposez les légumes dans un plat à four et mélangez-les à un filet d'huile d'olive. Salez et poivrez. Enfournez-les 18 à 20 minutes pour les rôtir.CONSEIL: Plus tard vous mélangerez les légumes avec la sauce soja qui est assez salée. Pensez-donc à ajuster voire réduire la quantité de sel.",
+        "Faites chauffer 1/2 cs de beurre par personne à feu moyen-vif dans une casserole avec couvercle. Ajoutez l'ail et le gingembre et faites-les cuire 1 à 2 minutes. Ajoutez le riz basmati et le bouillon. Portez à ébullition, puis baissez le feu et faites cuire le riz 10 minutes à couvert. Retirez la casserole du feu et laissez reposer 10 minutes sans retirer le couvercle.",
+        "Prenez 3 assiettes creuses. Dans la première, mélangez la farine avec une pincée de sel. Dans la deuxième, battez 1/2 œuf par personne avec une fourchette. Dans la troisième, mélangez les graines de sésame à la chapelure panko, puis salez et poivrez. Placez d'abord le poulet dans la farine en veillant à ce qu'il en soit uniformément recouvert. Ensuite, passez-le dans l’œuf et enfin, dans le mélange de graines de sésame et de chapelure panko. Mettez le poulet pané de côté.",
+        "Mélangez la sauce soja et le miel dans un petit bol.",
+        "Faites chauffer 1/2 cs d'huile d'olive par personne à feu moyen-vif dans une sauteuse. Ajoutez le poulet, saisissez-le 2 minutes par côté ou jusqu'à ce qu'il soit bien doré. Retirez le poulet de la poêle et déposez-le sur une plaque de cuisson recouverte de papier sulfurisé. Enfournez-le 6 à 8 minutes ou jusqu'à ce qu'il soit cuit. Une fois le poulet au four, versez la sauce au miel et soja sur les légumes et mélangez bien. Enfournez les légumes à nouveau jusqu'à ce qu'ils soient tendres.",
+        "Disposez les légumes et le riz dans des assiettes creuses.Placez le poulet sur le riz."
     ]
 }

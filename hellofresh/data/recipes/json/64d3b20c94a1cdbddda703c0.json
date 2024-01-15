@@ -1,1024 +1,131 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "644259fda2c5edb26f55c171",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-08-09T15:34:36+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "Envie d'un plat réconfortant ? Réalisez cette tarte gouda-épinards à l'ancienne : simple, rapide à faire et garnie d'une généreuse quantité de fromage et d'épinards sur une base fine de moutarde, elle saura ravir vos papilles. Dégustez-la accompagnée d'une salade, et le tour est joué ! Le fromage utilisé dans ce plat contient de la présure animale.",
-    "descriptionHTML": "<p>Envie d'un plat réconfortant ? Réalisez cette tarte gouda-épinards à l'ancienne : simple, rapide à faire et garnie d'une généreuse quantité de fromage et d'épinards sur une base fine de moutarde, elle saura ravir vos papilles. Dégustez-la accompagnée d'une salade, et le tour est joué ! Le fromage utilisé dans ce plat contient de la présure animale.</p>",
-    "descriptionMarkdown": "Envie d'un plat réconfortant ? Réalisez cette tarte gouda-épinards à l'ancienne : simple, rapide à faire et garnie d'une généreuse quantité de fromage et d'épinards sur une base fine de moutarde, elle saura ravir vos papilles. Dégustez-la accompagnée d'une salade, et le tour est joué ! Le fromage utilisé dans ce plat contient de la présure animale.",
     "difficulty": 2,
     "favoritesCount": 50,
     "headline": "avec une salade vinaigrée ",
-    "id": "64d3b20c94a1cdbddda703c0",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF211223_R210_W06_FR_RFR29804049-1_MB_remove_nuts_Main_high-397ff40b.jpg",
-    "imagePath": "/image/HF211223_R210_W06_FR_RFR29804049-1_MB_remove_nuts_Main_high-397ff40b.jpg",
+    "name": "Tarte gouda-épinards à l'ancienne",
+    "prepTime": 55,
+    "totalTime": 25,
+    "image_id": "64d3b20c94a1cdbddda703c0",
+    "id": "af5be6e8-4b1a-47dd-bcaa-5bd8ed75cb8f",
+    "nutrition": {
+        "kcal": 965,
+        "fat": 67.8,
+        "saturated_fat": 38.6,
+        "carbohydrate": 61.5,
+        "sugars": 7.1,
+        "protein": 25.7,
+        "sodium": 2.59
+    },
+    "tags": [
+        "Moins de CO2",
+        "Œufs non inclus",
+        "Végétarien"
+    ],
+    "utensils": [
+        "Poêle",
+        "Saladier",
+        "Râpe",
+        "Plaque de cuisson recouverte de papier sulfurisé"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acf",
-            "uuid": "8336bf50-6c44-57e6-ac7f-af74134d934f",
-            "name": "Épinards",
-            "type": "spinach",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "bc85a87e-d578-42a9-892f-877ca1d6c94a",
+            "portion_id": "e73e7b25-d256-4981-994b-08a1a312bbfd",
+            "image_id": "6405bf3aaf4af6d531d50acf"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01"
         },
         {
-            "id": "642622b56153ff0f6d9ded1c",
-            "uuid": "f74bf95c-c227-4920-9fcb-4e1d6a2feb1b",
-            "name": "Gouda vieux râpé",
-            "type": "grated-aged-gouda-cheese",
-            "slug": "gouda-vieux-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf7ab0da194777986298-19beaf35.png",
-            "imagePath": "/ingredient/6405bf7ab0da194777986298-19beaf35.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "09ad7d13-3857-4641-a1ac-12757c3ca07d"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "64073bc8683721c9a32b0762",
-            "uuid": "2acd7733-5a85-4e18-a008-35cb32efea42",
-            "name": "Pâte à tarte",
-            "type": "shortcrust-pastry",
-            "slug": "pate-a-tarte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf32b9d07cd5d38d79c0-fa21ee2f.png",
-            "imagePath": "/ingredient/6405bf32b9d07cd5d38d79c0-fa21ee2f.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd",
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "38e24982-7037-44c9-900a-0c197756527e",
+            "portion_id": "dd5b5cd1-9203-4bc6-863c-cb0ef2ce0371",
+            "image_id": "64073bc8683721c9a32b0762"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112",
+            "portion_id": "0d2111ea-29b5-4a2f-b6a2-745c9cba33b6",
+            "image_id": "6405bf36b0da1947779861b1"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121d81b4b295e66f0254",
-            "uuid": "0449d885-5c94-44dc-a65f-bcf23237df95",
-            "name": "Œuf",
-            "type": "oeuf",
-            "slug": "oeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "imagePath": "/ingredient/63e5121d81b4b295e66f0254-fc2af5d5.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "9c2e39a8-8fc0-49a0-9a1a-4b5448e1fe1a",
+            "portion_id": "939cf6d0-beb9-4e89-9829-565fee32f52c",
+            "image_id": "63e5121d81b4b295e66f0254"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5121c81b4b295e66f0253",
-            "uuid": "891ef56a-66ac-4a4a-8005-f825cca67a5c",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cc",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "imagePath": "/ingredient/63e5121c81b4b295e66f0253-457fa48d.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "92a22779-f4ab-44d9-9776-9bcccb473587",
+            "portion_id": "fe1c23f7-a1fa-4309-acb7-1985201c4403",
+            "image_id": "63e5121c81b4b295e66f0253"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64d3b20c94a1cdbddda703c0",
-    "name": "Tarte gouda-épinards à l'ancienne",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 4037,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 965,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 67.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 38.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 61.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 7.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 25.7,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.59,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT55M",
-    "promotion": null,
-    "ratingsCount": 196,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 417,
-    "slug": "tarte-gouda-epinards-a-lancienne",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 210°C (190°C chaleur tournante).\nCoupez l'oignon en fines demi-lunes et ciselez l'ail.\nDéchirez grossièrement les feuilles d'épinards avec vos mains.\n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 210°C (190°C chaleur tournante).</li>\n<li>Coupez l&#39;oignon en fines demi-lunes et ciselez l&#39;ail.</li>\n<li>Déchirez grossièrement les feuilles d&#39;épinards avec vos mains.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 210°C (190°C chaleur tournante).</li>\n<li>Coupez l&#39;oignon en fines demi-lunes et ciselez l&#39;ail.</li>\n<li>Déchirez grossièrement les feuilles d&#39;épinards avec vos mains.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d3b20c94a1cdbddda703c0/step-b609a000.jpg",
-                    "path": "/64d3b20c94a1cdbddda703c0/step-b609a000.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nFaites chauffer un filet d'huile d'olive dans une poêle à feu vif. Faites-y revenir l'oignon 2-3 min.\nAjoutez les épinards. Poivrez généreusement et laissez-les dégorger 3-4 min, ou jusqu'à ce que leur eau se soit évaporée. Pressez-les si besoin pour en faire sortir l'excédent.\nPendant ce temps, battez l'œuf dans un saladier.\n",
-            "instructionsHTML": "<ul>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une poêle à feu vif. Faites-y revenir l&#39;oignon 2-3 min.</li>\n<li>Ajoutez les épinards. Poivrez généreusement et laissez-les dégorger 3-4 min, ou jusqu&#39;à ce que leur eau se soit évaporée. Pressez-les si besoin pour en faire sortir l&#39;excédent.</li>\n<li>Pendant ce temps, battez l&#39;œuf dans un saladier.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Faites chauffer un filet d&#39;huile d&#39;olive dans une poêle à feu vif. Faites-y revenir l&#39;oignon 2-3 min.</li>\n<li>Ajoutez les épinards. Poivrez généreusement et laissez-les dégorger 3-4 min, ou jusqu&#39;à ce que leur eau se soit évaporée. Pressez-les si besoin pour en faire sortir l&#39;excédent.</li>\n<li>Pendant ce temps, battez l&#39;œuf dans un saladier.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383",
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d3b20c94a1cdbddda703c0/step-8ae07910.jpg",
-                    "path": "/64d3b20c94a1cdbddda703c0/step-8ae07910.jpg",
-                    "caption": "Cuire les épinards"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nAjoutez l'ail et la crème à la poêle et faites cuire le tout 1-2 min.\nDans le saladier contenant l'œuf, ajoutez les épinards à la crème et la moitié du gouda râpé. Râpez un peu de noix de muscade par-dessus (selon votre goût), salez et poivrez, puis mélangez.\nLa préparation doit être légèrement liquide : si ce n'est pas le cas, ajoutez un peu plus d'œuf.\n",
-            "instructionsHTML": "<ul>\n<li>Ajoutez l&#39;ail et la crème à la poêle et faites cuire le tout 1-2 min.</li>\n<li>Dans le saladier contenant l&#39;œuf, ajoutez les épinards à la crème et la moitié du gouda râpé. Râpez un peu de noix de muscade par-dessus (selon votre goût), salez et poivrez, puis mélangez.</li>\n<li>La préparation doit être légèrement liquide : si ce n&#39;est pas le cas, ajoutez un peu plus d&#39;œuf.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Ajoutez l&#39;ail et la crème à la poêle et faites cuire le tout 1-2 min.</li>\n<li>Dans le saladier contenant l&#39;œuf, ajoutez les épinards à la crème et la moitié du gouda râpé. Râpez un peu de noix de muscade par-dessus (selon votre goût), salez et poivrez, puis mélangez.</li>\n<li>La préparation doit être légèrement liquide : si ce n&#39;est pas le cas, ajoutez un peu plus d&#39;œuf.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d3b20c94a1cdbddda703c0/step-99764620.jpg",
-                    "path": "/64d3b20c94a1cdbddda703c0/step-99764620.jpg",
-                    "caption": "Mélanger"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nDisposez la pâte sur une plaque recouverte de papier sulfurisé (comptez ½ pâte par personne).\nÉtalez une fine couche de moutarde par-dessus en veillant à laisser un rebord d’environ 2,5-3 cm. \nRepliez les bords de la pâte pour éviter que la garniture aux épinards ne s'échappe, puis répartissez-la bien en son centre. Saupoudrez ensuite du reste de gouda râpé. \nEnfournez 20-25 min, ou jusqu’à ce que la pâte soit dorée.\n",
-            "instructionsHTML": "<ul>\n<li>Disposez la pâte sur une plaque recouverte de papier sulfurisé (comptez <strong id=\"docs-internal-guid-42cb4367-7fff-af06-3e04-96b80e55eb54\">½</strong> pâte par personne).</li>\n<li>Étalez une fine couche de moutarde par-dessus en veillant à laisser un rebord d’environ 2,5-3 cm. </li>\n<li>Repliez les bords de la pâte pour éviter que la garniture aux épinards ne s&#39;échappe, puis répartissez-la bien en son centre. Saupoudrez ensuite du reste de gouda râpé. </li>\n<li>Enfournez 20-25 min, ou jusqu’à ce que la pâte soit dorée.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Disposez la pâte sur une plaque recouverte de papier sulfurisé (comptez <strong id=\"docs-internal-guid-42cb4367-7fff-af06-3e04-96b80e55eb54\">½</strong> pâte par personne).</li>\n<li>Étalez une fine couche de moutarde par-dessus en veillant à laisser un rebord d’environ 2,5-3 cm. </li>\n<li>Repliez les bords de la pâte pour éviter que la garniture aux épinards ne s&#39;échappe, puis répartissez-la bien en son centre. Saupoudrez ensuite du reste de gouda râpé. </li>\n<li>Enfournez 20-25 min, ou jusqu’à ce que la pâte soit dorée.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d3b20c94a1cdbddda703c0/step-97430130.jpg",
-                    "path": "/64d3b20c94a1cdbddda703c0/step-97430130.jpg",
-                    "caption": "Enfourner la tarte"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nDans un saladier, faites une vinaigrette en mélangeant un filet d'huile d'olive avec du vinaigre balsamique. Salez et poivrez.\nJuste avant de servir, ajoutez la salade. Mélangez bien.\n",
-            "instructionsHTML": "<ul>\n<li>Dans un saladier, faites une vinaigrette en mélangeant un filet d&#39;huile d&#39;olive avec du vinaigre balsamique. Salez et poivrez.</li>\n<li>Juste avant de servir, ajoutez la salade. Mélangez bien.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Dans un saladier, faites une vinaigrette en mélangeant un filet d&#39;huile d&#39;olive avec du vinaigre balsamique. Salez et poivrez.</li>\n<li>Juste avant de servir, ajoutez la salade. Mélangez bien.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d3b20c94a1cdbddda703c0/step-b93b1340.jpg",
-                    "path": "/64d3b20c94a1cdbddda703c0/step-b93b1340.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nCoupez la tarte en parts.\nServez-les dans les assiettes accompagnées de la salade.\n",
-            "instructionsHTML": "<ul>\n<li>Coupez la tarte en parts.</li>\n<li>Servez-les dans les assiettes accompagnées de la salade.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Coupez la tarte en parts.</li>\n<li>Servez-les dans les assiettes accompagnées de la salade.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64d3b20c94a1cdbddda703c0/step-7760ac50.jpg",
-                    "path": "/64d3b20c94a1cdbddda703c0/step-7760ac50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b30531c",
-            "type": "egg-free",
-            "name": "Œufs non inclus",
-            "slug": "œufs-non-inclus",
-            "colorHandle": "regular",
-            "preferences": [
-                "Classique"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT25M",
-    "uniqueRecipeCode": "RFR29804049-5",
-    "updatedAt": "2024-01-06T22:04:15+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        }
-    ],
-    "uuid": "d91daa0a-5617-48de-bc6c-f3ca279a6a7b",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/tarte-gouda-epinards-a-lancienne-64d3b20c94a1cdbddda703c0",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "642622b56153ff0f6d9ded1c",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "642622b56153ff0f6d9ded1c",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "642622b56153ff0f6d9ded1c",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "642622b56153ff0f6d9ded1c",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 1,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "642622b56153ff0f6d9ded1c",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 2,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "642622b56153ff0f6d9ded1c",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 2,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121d81b4b295e66f0254",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121c81b4b295e66f0253",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 210°C (190°C chaleur tournante).\nCoupez l'oignon en fines demi-lunes et ciselez l'ail.\nDéchirez grossièrement les feuilles d'épinards avec vos mains.\n",
+        "\nFaites chauffer un filet d'huile d'olive dans une poêle à feu vif. Faites-y revenir l'oignon 2-3 min.\nAjoutez les épinards. Poivrez généreusement et laissez-les dégorger 3-4 min, ou jusqu'à ce que leur eau se soit évaporée. Pressez-les si besoin pour en faire sortir l'excédent.\nPendant ce temps, battez l'œuf dans un saladier.\n",
+        "\nAjoutez l'ail et la crème à la poêle et faites cuire le tout 1-2 min.\nDans le saladier contenant l'œuf, ajoutez les épinards à la crème et la moitié du gouda râpé. Râpez un peu de noix de muscade par-dessus (selon votre goût), salez et poivrez, puis mélangez.\nLa préparation doit être légèrement liquide : si ce n'est pas le cas, ajoutez un peu plus d'œuf.\n",
+        "\nDisposez la pâte sur une plaque recouverte de papier sulfurisé (comptez ½ pâte par personne).\nÉtalez une fine couche de moutarde par-dessus en veillant à laisser un rebord d’environ 2,5-3 cm. \nRepliez les bords de la pâte pour éviter que la garniture aux épinards ne s'échappe, puis répartissez-la bien en son centre. Saupoudrez ensuite du reste de gouda râpé. \nEnfournez 20-25 min, ou jusqu’à ce que la pâte soit dorée.\n",
+        "\nDans un saladier, faites une vinaigrette en mélangeant un filet d'huile d'olive avec du vinaigre balsamique. Salez et poivrez.\nJuste avant de servir, ajoutez la salade. Mélangez bien.\n",
+        "\nCoupez la tarte en parts.\nServez-les dans les assiettes accompagnées de la salade.\n"
     ]
 }

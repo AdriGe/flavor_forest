@@ -1,1144 +1,141 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "PNL2079-2",
-    "country": "FR",
-    "createdAt": "2021-11-09T12:56:26+00:00",
     "cuisines": [
-        {
-            "id": "623d9c9e5bdfb809438c0dbb",
-            "type": "dutch",
-            "name": "Nedeländsk",
-            "slug": "nedelandsk",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/no-image.jpg"
-        }
+        "Nedeländsk"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 76,
     "headline": "avec des choux de Bruxelles & oignons caramélisés",
-    "id": "618a6ff867ee6043e145e54a",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200910_R72_W42_NL_P2079-1_KB_Main_low-f8b2a8cd.jpg",
-    "imagePath": "/image/HF200910_R72_W42_NL_P2079-1_KB_Main_low-f8b2a8cd.jpg",
+    "name": "Bœuf beurre au bleu & choux de Bruxelles rôtis",
+    "prepTime": 50,
+    "totalTime": 40,
+    "image_id": "618a6ff867ee6043e145e54a",
+    "id": "4612772f-f588-4fa8-80f1-0c5bbba1893c",
+    "nutrition": {
+        "kcal": 919,
+        "fat": 48.95,
+        "saturated_fat": 20.14,
+        "carbohydrate": 94.28,
+        "sugars": 18.18,
+        "protein": 17.6,
+        "sodium": 1.44
+    },
+    "tags": [],
+    "utensils": [
+        "Plat à four",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Poêle",
+        "Petit bol",
+        "Papier aluminium",
+        "Essuie-tout",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bfd4b0da1947779863cd",
-            "uuid": "6e22036c-3c8b-4d98-99d2-fa6053e5d113",
-            "name": "Rumsteak Charolais",
-            "type": "charolais-rump-steak",
-            "slug": "rumsteak-charolais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd4b0da1947779863cd-c3b17ece.png",
-            "imagePath": "/ingredient/6405bfd4b0da1947779863cd-c3b17ece.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 240,
+            "unit": "g",
+            "ingredient_id": "ecf5caec-edc9-4e1b-a2b4-8743a4415aa7"
         },
         {
-            "id": "6405bff8b0da194777986448",
-            "uuid": "cad23565-7187-4ef4-a5ea-51dcc3c66ed1",
-            "name": "Pommes de terre Roseval",
-            "type": "roseval-potato",
-            "slug": "pommes-de-terre-roseval",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986448-da486c6c.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986448-da486c6c.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "g",
+            "ingredient_id": "e72ea7f7-a352-4a04-a59a-63a6387c74f7"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf7aaf4af6d531d50bd5",
-            "uuid": "e009bcd5-4254-53dd-bde8-68cd9799f28d",
-            "name": "Choux de Bruxelles",
-            "type": "brussels-sprout",
-            "slug": "choux-de-bruxelles",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf7aaf4af6d531d50bd5-212bfad4.png",
-            "imagePath": "/ingredient/6405bf7aaf4af6d531d50bd5-212bfad4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "9805fe35-b4ea-4acc-b8ef-6b41a19193e2"
         },
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "64073ba9683721c9a32b073a",
-            "uuid": "a74fb55e-9642-4e45-b289-7ca4609803c6",
-            "name": "Bleu d'Auvergne AOP",
-            "type": "bleu-dauvergne-cheese",
-            "slug": "bleu-dauvergne-aop",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfddb0da1947779863e6-c39ed2f6.png",
-            "imagePath": "/ingredient/6405bfddb0da1947779863e6-c39ed2f6.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "f3b85d35-9052-4312-b931-f421dfa9fe11"
         },
         {
-            "id": "6405bf81af4af6d531d50be8",
-            "uuid": "ec499a69-ac4c-4b15-9ed1-2c67a5875e47",
-            "name": "Olives et câpres",
-            "type": "mix-of-olives-and-capers",
-            "slug": "olives-et-capres",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf81af4af6d531d50be8-04ce482d.png",
-            "imagePath": "/ingredient/6405bf81af4af6d531d50be8-04ce482d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 30,
+            "unit": "g",
+            "ingredient_id": "eabfaad2-c7ee-4211-98f6-c519a37ce0bd"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bf78b9d07cd5d38d7ac9",
-            "uuid": "299fb038-5b86-57dd-95ba-4be0826d42cb",
-            "name": "Mayonnaise",
-            "type": "mayonnaise",
-            "slug": "mayonnaise",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf78b9d07cd5d38d7ac9-607ca746.png",
-            "imagePath": "/ingredient/6405bf78b9d07cd5d38d7ac9-607ca746.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "841f9f9c-0755-4d85-8ed8-cea6973aa77f"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5122dbc1d64f7b96e270c",
-            "uuid": "3e74f16b-fd54-4f86-bc50-7ce802b6320e",
-            "name": "Cassonade",
-            "type": "cassonade-cc",
-            "slug": "cassonade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "imagePath": "/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "a1021713-ae59-44e5-a855-c171837e293e",
+            "portion_id": "61782b7f-090b-4597-b697-9b5071397f73",
+            "image_id": "63e5122dbc1d64f7b96e270c"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5122a81b4b295e66f025d",
-            "uuid": "247635c7-d822-443b-ab38-c5ac54f50547",
-            "name": "Vinaigre balsamique blanc ou de riz",
-            "type": "vinaigre-balsamique-blanc-ou-de-riz-cs",
-            "slug": "vinaigre-balsamique-blanc-ou-de-riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122a81b4b295e66f025d-285d9a8a.png",
-            "imagePath": "/ingredient/63e5122a81b4b295e66f025d-285d9a8a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "e4cf131d-09f9-4dae-8e86-3f257fc85798",
+            "portion_id": "d8622ca3-e1a1-4167-a187-2701994617a0",
+            "image_id": "63e5122a81b4b295e66f025d"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "Premium",
-        "handle": "premium",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#3d444b",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/618a6ff867ee6043e145e54a",
-    "name": "Bœuf beurre au bleu & choux de Bruxelles rôtis",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 919,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3846,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 48.95,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 20.14,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 94.28,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 18.18,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 17.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.44,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 110,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 715,
-    "slug": "boeuf-beurre-au-bleu-and-choux-de-bruxelles-rotis",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Sortez le rumsteak du réfrigérateur. Préchauffez le four à 200°C. Coupez les pommes de terre en morceaux égaux. Emincez l'ail. Coupez les choux de Bruxelles en deux. Sur une plaque recouverte de papier sulfurisé, mélangez les pommes de terre un filet d'huile d'olive, du sel et du poivre.Dans un plat à four, mélangez les choux de Bruxelles avec l'ail, un filet d'huile d'olive et 1/2 cs de vinaigre balsamique noir par personne. Enfournez le tout 30-35 minutes. Remuez à mi-cuisson. ",
-            "instructionsHTML": "<ul><li>Sortez le rumsteak du réfrigérateur. Préchauffez le four à 200°C. Coupez les pommes de terre en morceaux égaux. Emincez l&#39;ail. Coupez les choux de Bruxelles en deux. </li><li>Sur une plaque recouverte de papier sulfurisé, mélangez les pommes de terre un filet d&#39;huile d&#39;olive, du sel et du poivre.</li><li>Dans un plat à four, mélangez les choux de Bruxelles avec l&#39;ail, un filet d&#39;huile d&#39;olive et 1/2 cs de vinaigre balsamique noir par personne. Enfournez le tout 30-35 minutes. Remuez à mi-cuisson. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Sortez le rumsteak du réfrigérateur. Préchauffez le four à 200°C. Coupez les pommes de terre en morceaux égaux. Emincez l&#39;ail. Coupez les choux de Bruxelles en deux. </li><li>Sur une plaque recouverte de papier sulfurisé, mélangez les pommes de terre un filet d&#39;huile d&#39;olive, du sel et du poivre.</li><li>Dans un plat à four, mélangez les choux de Bruxelles avec l&#39;ail, un filet d&#39;huile d&#39;olive et 1/2 cs de vinaigre balsamique noir par personne. Enfournez le tout 30-35 minutes. Remuez à mi-cuisson. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386",
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/618a6ff867ee6043e145e54a/step-2b9c6400.jpg",
-                    "path": "/618a6ff867ee6043e145e54a/step-2b9c6400.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Coupez l'oignon rouge en fines demi-lunes. Faites fondre 1/2 cs de beurre et 1 cc de cassonade par personne dans une poêle à feu moyen et faites-y revenir l'oignon rouge 25-30 minutes. Remuez régulièrement. ",
-            "instructionsHTML": "<ul><li>Coupez l&#39;oignon rouge en fines demi-lunes. </li><li>Faites fondre 1/2 cs de beurre et 1 cc de cassonade par personne dans une poêle à feu moyen et faites-y revenir l&#39;oignon rouge 25-30 minutes. Remuez régulièrement. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez l&#39;oignon rouge en fines demi-lunes. </li><li>Faites fondre 1/2 cs de beurre et 1 cc de cassonade par personne dans une poêle à feu moyen et faites-y revenir l&#39;oignon rouge 25-30 minutes. Remuez régulièrement. </li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/618a6ff867ee6043e145e54a/step-cbc7f210.jpg",
-                    "path": "/618a6ff867ee6043e145e54a/step-cbc7f210.jpg",
-                    "caption": "Caraméliser l'oignon rouge"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans un petit bol, mélangez 1/2 cs de beurre par personne avec le bleu d'Auvergne.Conservez au réfrigérateur jusqu'à utilisation.",
-            "instructionsHTML": "<ul><li>Dans un petit bol, mélangez 1/2 cs de beurre par personne avec le bleu d&#39;Auvergne.</li><li>Conservez au réfrigérateur jusqu&#39;à utilisation.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans un petit bol, mélangez 1/2 cs de beurre par personne avec le bleu d&#39;Auvergne.</li><li>Conservez au réfrigérateur jusqu&#39;à utilisation.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305380"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/618a6ff867ee6043e145e54a/step-b49bc820.jpg",
-                    "path": "/618a6ff867ee6043e145e54a/step-b49bc820.jpg",
-                    "caption": "Faire le beurre au bleu"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Faites chauffer une noix de beurre dans une poêle à feu moyen. Essuyez le rumsteak avec de l’essuie-tout, puis salez et poivrez-le.Dès que le beurre est chaud, faites revenir le rumsteak 2-4 minutes de chaque côté jusqu’à ce qu’il soit doré. Poivrez et laissez reposer au chaud dans une assiette recouverte d'aluminium.CONSEIL: Le temps de cuisson de la viande dépend de la puissance de votre feu et de la façon dont vous aimez manger votre viande : ajustez le temps de cuisson en conséquence.",
-            "instructionsHTML": "<ul><li>Faites chauffer une noix de beurre dans une poêle à feu moyen. Essuyez le rumsteak avec de l’essuie-tout, puis salez et poivrez-le.</li><li>Dès que le beurre est chaud, faites revenir le rumsteak 2-4 minutes de chaque côté jusqu’à ce qu’il soit doré. Poivrez et laissez reposer au chaud dans une assiette recouverte d&#39;aluminium.</li></ul><p>CONSEIL: Le temps de cuisson de la viande dépend de la puissance de votre feu et de la façon dont vous aimez manger votre viande : ajustez le temps de cuisson en conséquence.</p>",
-            "instructionsMarkdown": "<ul><li>Faites chauffer une noix de beurre dans une poêle à feu moyen. Essuyez le rumsteak avec de l’essuie-tout, puis salez et poivrez-le.</li><li>Dès que le beurre est chaud, faites revenir le rumsteak 2-4 minutes de chaque côté jusqu’à ce qu’il soit doré. Poivrez et laissez reposer au chaud dans une assiette recouverte d&#39;aluminium.</li></ul><p>CONSEIL: Le temps de cuisson de la viande dépend de la puissance de votre feu et de la façon dont vous aimez manger votre viande : ajustez le temps de cuisson en conséquence.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383",
-                "57e2674fb7e8697d4b305366",
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/618a6ff867ee6043e145e54a/step-9a7acf30.jpg",
-                    "path": "/618a6ff867ee6043e145e54a/step-9a7acf30.jpg",
-                    "caption": "Cuire le rumsteak"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Dans un saladier, mélangez un filet d’huile d’olive vierge extra et de vinaigre balsamique blanc pour faire une vinaigrette. Salez et poivrez.Ajoutez les olives, les câpres et le mélange de jeunes pousses, puis mélangez bien.CONSEIL: Ne préparez pas la salade trop tôt, sinon cette dernière va \"cuire\" (les feuilles de salade flétriront un peu) sous l'action du vinaigre.",
-            "instructionsHTML": "<ul><li>Dans un saladier, mélangez un filet d’huile d’olive vierge extra et de vinaigre balsamique blanc pour faire une vinaigrette. Salez et poivrez.</li><li>Ajoutez les olives, les câpres et le mélange de jeunes pousses, puis mélangez bien.</li></ul><p>CONSEIL: Ne préparez pas la salade trop tôt, sinon cette dernière va &#34;cuire&#34; (les feuilles de salade flétriront un peu) sous l&#39;action du vinaigre.</p>",
-            "instructionsMarkdown": "<ul><li>Dans un saladier, mélangez un filet d’huile d’olive vierge extra et de vinaigre balsamique blanc pour faire une vinaigrette. Salez et poivrez.</li><li>Ajoutez les olives, les câpres et le mélange de jeunes pousses, puis mélangez bien.</li></ul><p>CONSEIL: Ne préparez pas la salade trop tôt, sinon cette dernière va &#34;cuire&#34; (les feuilles de salade flétriront un peu) sous l&#39;action du vinaigre.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/618a6ff867ee6043e145e54a/step-b7f97f40.jpg",
-                    "path": "/618a6ff867ee6043e145e54a/step-b7f97f40.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Coupez le rumsteak en tranches, répartissez-les dans les assiettes et déposez par-dessus une noisette de beurre au bleu d'Auvergne et un peu d'oignons rouges caramélisés. Servez avec les choux de Bruxelles, les pommes de terre rôties, la salade et accompagnez de mayonnaise.",
-            "instructionsHTML": "<ul><li>Coupez le rumsteak en tranches, répartissez-les dans les assiettes et déposez par-dessus une noisette de beurre au bleu d&#39;Auvergne et un peu d&#39;oignons rouges caramélisés. </li><li>Servez avec les choux de Bruxelles, les pommes de terre rôties, la salade et accompagnez de mayonnaise.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez le rumsteak en tranches, répartissez-les dans les assiettes et déposez par-dessus une noisette de beurre au bleu d&#39;Auvergne et un peu d&#39;oignons rouges caramélisés. </li><li>Servez avec les choux de Bruxelles, les pommes de terre rôties, la salade et accompagnez de mayonnaise.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/618a6ff867ee6043e145e54a/step-ad202a50.jpg",
-                    "path": "/618a6ff867ee6043e145e54a/step-ad202a50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": "PT40M",
-    "uniqueRecipeCode": "PNL2079-2",
-    "updatedAt": "2023-10-13T10:41:20+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305380",
-            "type": "smallbowl",
-            "name": "Petit bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305366",
-            "type": "aluminumfoil",
-            "name": "Papier aluminium"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "ef756493-ff83-40b0-876d-5e1027d9a60d",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/boeuf-beurre-au-bleu-and-choux-de-bruxelles-rotis-618a6ff867ee6043e145e54a",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfd4b0da1947779863cd",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986448",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7aaf4af6d531d50bd5",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba9683721c9a32b073a",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf81af4af6d531d50be8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfd4b0da1947779863cd",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986448",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7aaf4af6d531d50bd5",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba9683721c9a32b073a",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf81af4af6d531d50be8",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfd4b0da1947779863cd",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986448",
-                    "amount": 750,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7aaf4af6d531d50bd5",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba9683721c9a32b073a",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf81af4af6d531d50be8",
-                    "amount": 45,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfd4b0da1947779863cd",
-                    "amount": 480,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986448",
-                    "amount": 1000,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7aaf4af6d531d50bd5",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba9683721c9a32b073a",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf81af4af6d531d50be8",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfd4b0da1947779863cd",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986448",
-                    "amount": 1250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 7,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7aaf4af6d531d50bd5",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba9683721c9a32b073a",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf81af4af6d531d50be8",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfd4b0da1947779863cd",
-                    "amount": 720,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff8b0da194777986448",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 8,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7aaf4af6d531d50bd5",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba9683721c9a32b073a",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf81af4af6d531d50be8",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf78b9d07cd5d38d7ac9",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Sortez le rumsteak du réfrigérateur. Préchauffez le four à 200°C. Coupez les pommes de terre en morceaux égaux. Emincez l'ail. Coupez les choux de Bruxelles en deux. Sur une plaque recouverte de papier sulfurisé, mélangez les pommes de terre un filet d'huile d'olive, du sel et du poivre.Dans un plat à four, mélangez les choux de Bruxelles avec l'ail, un filet d'huile d'olive et 1/2 cs de vinaigre balsamique noir par personne. Enfournez le tout 30-35 minutes. Remuez à mi-cuisson. ",
+        "Coupez l'oignon rouge en fines demi-lunes. Faites fondre 1/2 cs de beurre et 1 cc de cassonade par personne dans une poêle à feu moyen et faites-y revenir l'oignon rouge 25-30 minutes. Remuez régulièrement. ",
+        "Dans un petit bol, mélangez 1/2 cs de beurre par personne avec le bleu d'Auvergne.Conservez au réfrigérateur jusqu'à utilisation.",
+        "Faites chauffer une noix de beurre dans une poêle à feu moyen. Essuyez le rumsteak avec de l’essuie-tout, puis salez et poivrez-le.Dès que le beurre est chaud, faites revenir le rumsteak 2-4 minutes de chaque côté jusqu’à ce qu’il soit doré. Poivrez et laissez reposer au chaud dans une assiette recouverte d'aluminium.CONSEIL: Le temps de cuisson de la viande dépend de la puissance de votre feu et de la façon dont vous aimez manger votre viande : ajustez le temps de cuisson en conséquence.",
+        "Dans un saladier, mélangez un filet d’huile d’olive vierge extra et de vinaigre balsamique blanc pour faire une vinaigrette. Salez et poivrez.Ajoutez les olives, les câpres et le mélange de jeunes pousses, puis mélangez bien.CONSEIL: Ne préparez pas la salade trop tôt, sinon cette dernière va \"cuire\" (les feuilles de salade flétriront un peu) sous l'action du vinaigre.",
+        "Coupez le rumsteak en tranches, répartissez-les dans les assiettes et déposez par-dessus une noisette de beurre au bleu d'Auvergne et un peu d'oignons rouges caramélisés. Servez avec les choux de Bruxelles, les pommes de terre rôties, la salade et accompagnez de mayonnaise."
     ]
 }

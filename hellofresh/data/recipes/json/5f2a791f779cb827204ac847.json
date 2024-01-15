@@ -1,970 +1,118 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "5de91db7c7d1a818111194b2",
-            "name": "Céleri",
-            "type": "traces-of-celery",
-            "slug": "traces-of-celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "PNL01841547-1",
-    "country": "FR",
-    "createdAt": "2020-08-05T09:17:20+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 100,
     "headline": "avec des lardons et une sauce tomate, champignons et sauge",
-    "id": "5f2a791f779cb827204ac847",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200729_R72_W36_NL_P01841547-1_KB_Main_low-c59d9c65.jpg",
-    "imagePath": "/image/HF200729_R72_W36_NL_P01841547-1_KB_Main_low-c59d9c65.jpg",
+    "name": "Cuisse de poulet confite & ravioli aux petits-pois",
+    "prepTime": 30,
+    "totalTime": 30,
+    "image_id": "5f2a791f779cb827204ac847",
+    "id": "be56b593-4bc4-4175-a6cc-205b9a625b50",
+    "nutrition": {
+        "kcal": 471,
+        "fat": 35.77,
+        "saturated_fat": 15.02,
+        "carbohydrate": 4.29,
+        "sugars": 2.1,
+        "protein": 32.21,
+        "sodium": 2.17
+    },
+    "tags": [],
+    "utensils": [
+        "Poêle",
+        "Casserole avec couvercle",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf20af4af6d531d50a61",
-            "uuid": "cd41d645-9674-434e-b1cf-fe77522604cd",
-            "name": "Lardons fumés",
-            "type": "cubed-bacon",
-            "slug": "lardons-fumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "imagePath": "/ingredient/6405bf20af4af6d531d50a61-ca2acd52.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "378fd004-6e40-46bc-ba38-fd40e9d5a5e8"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfdbb0da1947779863df",
-            "uuid": "a0a27456-c913-541e-9124-9265f732cca7",
-            "name": "Sauge",
-            "type": "sage",
-            "slug": "sauge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdbb0da1947779863df-235295a4.png",
-            "imagePath": "/ingredient/6405bfdbb0da1947779863df-235295a4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "849283af-3f35-4321-9444-0309d347bea1"
         },
         {
-            "id": "6405bfe6af4af6d531d50d2f",
-            "uuid": "f2061e37-18b0-59c3-b8d2-38e3c9d0d5bd",
-            "name": "Mini-tomates roma",
-            "type": "baby-plum-tomatoes",
-            "slug": "mini-tomates-roma",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe6af4af6d531d50d2f-7630e8f8.png",
-            "imagePath": "/ingredient/6405bfe6af4af6d531d50d2f-7630e8f8.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "6342c60e-01d6-4d27-b3df-5ce196b91096"
         },
         {
-            "id": "6405bf34b0da1947779861aa",
-            "uuid": "87dc56ae-88e0-530d-bd62-be00baab053b",
-            "name": "Portobello",
-            "type": "portobello-mushroom",
-            "slug": "portobello",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf34b0da1947779861aa-bbb618f7.png",
-            "imagePath": "/ingredient/6405bf34b0da1947779861aa-bbb618f7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "26bc84fd-7394-4c44-a9be-fc66ae1f6c17",
+            "portion_id": "3b6895c4-d6c1-464b-9fde-f7c7d401a529",
+            "image_id": "6405bf34b0da1947779861aa"
         },
         {
-            "id": "6405bfd5b0da1947779863d3",
-            "uuid": "310be196-6121-4e21-8f1a-3c70ef3c7b7a",
-            "name": "Cuisse de poulet confite",
-            "type": "confit-chicken-thigh",
-            "slug": "cuisse-de-poulet-confite",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd5b0da1947779863d3-7c3d367f.png",
-            "imagePath": "/ingredient/6405bfd5b0da1947779863d3-7c3d367f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "0abc9653-e23e-4b40-9762-fd092b92f601",
+            "portion_id": "b191c9c8-1e16-4de8-ba09-409753dc0f7d",
+            "image_id": "6405bfd5b0da1947779863d3"
         },
         {
-            "id": "64073ed1df6297bb5beef2a1",
-            "uuid": "b68c7a27-c44f-440f-b3f5-1e0872658f13",
-            "name": "Mélange de salades et pousses de pois",
-            "type": "salad-mix-with-pea-shoots",
-            "slug": "melange-de-salades-et-pousses-de-pois",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf94b9d07cd5d38d7b29-cac758ab.png",
-            "imagePath": "/ingredient/6405bf94b9d07cd5d38d7b29-cac758ab.png",
-            "shipped": true,
-            "allergens": [
-                "5de91db7c7d1a818111194b2",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "g",
+            "ingredient_id": "901d5d90-404e-4117-bbc1-379c830c8943"
         },
         {
-            "id": "6405bf96af4af6d531d50c27",
-            "uuid": "c5cac850-7b9c-4c23-9575-e93ccd1a2958",
-            "name": "Ravioli pomme de terre, petits pois et persil",
-            "type": "potato-pea-and-parsley-ravioli",
-            "slug": "ravioli-pomme-de-terre-petits-pois-et-persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf96af4af6d531d50c27-c8e252a6.png",
-            "imagePath": "/ingredient/6405bf96af4af6d531d50c27-c8e252a6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 280,
+            "unit": "g",
+            "ingredient_id": "2b8db775-6e91-4e11-98a4-b6630948cf57"
         },
         {
-            "id": "6405bf42b9d07cd5d38d79f7",
-            "uuid": "6af2833e-6603-51cc-b00d-bb3339ee5670",
-            "name": "Pecorino râpé",
-            "type": "grated-pecorino",
-            "slug": "pecorino-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf42b9d07cd5d38d79f7-c14551ed.jpg",
-            "imagePath": "/ingredient/6405bf42b9d07cd5d38d79f7-c14551ed.jpg",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 25,
+            "unit": "g",
+            "ingredient_id": "e305bf57-29c0-42d8-bbea-c99ea5005a5a"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5122a81b4b295e66f025d",
-            "uuid": "247635c7-d822-443b-ab38-c5ac54f50547",
-            "name": "Vinaigre balsamique blanc ou de riz",
-            "type": "vinaigre-balsamique-blanc-ou-de-riz-cs",
-            "slug": "vinaigre-balsamique-blanc-ou-de-riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122a81b4b295e66f025d-285d9a8a.png",
-            "imagePath": "/ingredient/63e5122a81b4b295e66f025d-285d9a8a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "e4cf131d-09f9-4dae-8e86-3f257fc85798",
+            "portion_id": "d8622ca3-e1a1-4167-a187-2701994617a0",
+            "image_id": "63e5122a81b4b295e66f025d"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "Premium",
-        "handle": "premium",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#3d444b",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/5f2a791f779cb827204ac847",
-    "name": "Cuisse de poulet confite & ravioli aux petits-pois",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 471,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1971,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 35.77,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 15.02,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 4.29,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 2.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 32.21,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.17,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 25,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 301,
-    "slug": "cuisse-de-poulet-confite-and-ravioli-aux-petits-pois",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Faites chauffer une poêle à sec et faites revenir les lardons 3 à 4 minutes à feu moyen-vif, jusqu'à ce qu'ils soient légèrement dorés. Réservez hors de la poêle. ",
-            "instructionsHTML": "<p>Faites chauffer une poêle à sec et faites revenir les lardons 3 à 4 minutes <span>à feu moyen-vif, jusqu&#39;à ce qu&#39;ils soient légèrement dorés</span>. Réservez hors de la poêle. </p>",
-            "instructionsMarkdown": "<p>Faites chauffer une poêle à sec et faites revenir les lardons 3 à 4 minutes <span>à feu moyen-vif, jusqu&#39;à ce qu&#39;ils soient légèrement dorés</span>. Réservez hors de la poêle. </p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a791f779cb827204ac847/step-2f916000.jpg",
-                    "path": "/5f2a791f779cb827204ac847/step-2f916000.jpg",
-                    "caption": "Cuire les lardons"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Portez un grand volume d'eau à ébullition dans une casserole avec couvercle pour les ravioli. Pressez ou émincez finement l'ail. Effeuillez la sauge et ciselez finement les feuilles. Coupez les tomates en deux. Coupez le portobello en fines tranches.",
-            "instructionsHTML": "<p>Portez un grand volume d&#39;eau à ébullition dans une casserole avec couvercle pour les ravioli. Pressez ou émincez finement l&#39;ail. Effeuillez la sauge et ciselez finement les feuilles. Coupez les tomates en deux. Coupez le portobello en fines tranches.</p>",
-            "instructionsMarkdown": "<p>Portez un grand volume d&#39;eau à ébullition dans une casserole avec couvercle pour les ravioli. Pressez ou émincez finement l&#39;ail. Effeuillez la sauge et ciselez finement les feuilles. Coupez les tomates en deux. Coupez le portobello en fines tranches.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a791f779cb827204ac847/step-e50af710.jpg",
-                    "path": "/5f2a791f779cb827204ac847/step-e50af710.jpg",
-                    "caption": "Couper les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans la même poêle que celle utilisée pour les lardons, conservez le jus de cuisson et faites-y revenir la cuisse de poulet confite 2 à 3 minutes de chaque côté à feu moyen-vif. Réservez hors de la poêle. CONSEIL: Vous pouvez également faire revenir le poulet dans la graisse qui l'entoure mais attention aux éclaboussures !",
-            "instructionsHTML": "<p>Dans la même poêle que celle utilisée pour les lardons, conservez le jus de cuisson et faites-y revenir la cuisse de poulet confite 2 à 3 minutes de chaque côté à feu moyen-vif. Réservez hors de la poêle.  </p><p>CONSEIL: Vous pouvez également faire revenir le poulet dans la graisse qui l&#39;entoure mais attention aux éclaboussures !</p>",
-            "instructionsMarkdown": "<p>Dans la même poêle que celle utilisée pour les lardons, conservez le jus de cuisson et faites-y revenir la cuisse de poulet confite 2 à 3 minutes de chaque côté à feu moyen-vif. Réservez hors de la poêle.  </p><p>CONSEIL: Vous pouvez également faire revenir le poulet dans la graisse qui l&#39;entoure mais attention aux éclaboussures !</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a791f779cb827204ac847/step-c011f020.jpg",
-                    "path": "/5f2a791f779cb827204ac847/step-c011f020.jpg",
-                    "caption": "Cuire le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, dans un saladier, préparez la vinaigrette en mélangeant le vinaigre balsamique blanc et l'huile d'olive extra vierge. Ajoutez la salade, salez et poivrez selon votre goût et mélangez bien. Lorsque l'eau est à ébullition, faites cuire les ravioli 2 à 4 minutes. Egouttez-les et réservez à couvert. ",
-            "instructionsHTML": "<p>Pendant ce temps, dans un saladier, préparez la vinaigrette en mélangeant le vinaigre balsamique blanc et l&#39;huile d&#39;olive extra vierge. Ajoutez la salade, salez et poivrez selon votre goût et mélangez bien. Lorsque l&#39;eau est à ébullition, faites cuire les ravioli 2 à 4 minutes. Egouttez-les et réservez à couvert. </p>",
-            "instructionsMarkdown": "<p>Pendant ce temps, dans un saladier, préparez la vinaigrette en mélangeant le vinaigre balsamique blanc et l&#39;huile d&#39;olive extra vierge. Ajoutez la salade, salez et poivrez selon votre goût et mélangez bien. Lorsque l&#39;eau est à ébullition, faites cuire les ravioli 2 à 4 minutes. Egouttez-les et réservez à couvert. </p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a791f779cb827204ac847/step-5d8f0430.jpg",
-                    "path": "/5f2a791f779cb827204ac847/step-5d8f0430.jpg",
-                    "caption": "Préparer la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Faites chauffer 1 cs de beurre par personne dans la même poêle que celle utilisée pour le poulet. Faites-y revenir l'ail et la sauge 1 à 2 minutes. Ajoutez les morceaux de portobello et faites cuire 3 à 4 minutes. Ajoutez les tomates et poursuivez la cuisson 2 minutes supplémentaires. Ajoutez les ravioli et mélangez bien, en faisant attention à ne pas les casser. Pendant ce temps, utilisez deux fourchettes pour effilocher les cuisses de poulet confites. ",
-            "instructionsHTML": "<p>Faites chauffer 1 cs de beurre par personne dans la même poêle que celle utilisée pour le poulet. Faites-y revenir l&#39;ail et la sauge 1 à 2 minutes. Ajoutez les morceaux de portobello et faites cuire 3 à 4 minutes. Ajoutez les tomates et poursuivez la cuisson 2 minutes supplémentaires. Ajoutez les ravioli et mélangez bien, en faisant attention à ne pas les casser. Pendant ce temps, utilisez deux fourchettes pour effilocher les cuisses de poulet confites. </p>",
-            "instructionsMarkdown": "<p>Faites chauffer 1 cs de beurre par personne dans la même poêle que celle utilisée pour le poulet. Faites-y revenir l&#39;ail et la sauge 1 à 2 minutes. Ajoutez les morceaux de portobello et faites cuire 3 à 4 minutes. Ajoutez les tomates et poursuivez la cuisson 2 minutes supplémentaires. Ajoutez les ravioli et mélangez bien, en faisant attention à ne pas les casser. Pendant ce temps, utilisez deux fourchettes pour effilocher les cuisses de poulet confites. </p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a791f779cb827204ac847/step-6db30d40.jpg",
-                    "path": "/5f2a791f779cb827204ac847/step-6db30d40.jpg",
-                    "caption": "Incorporer les raviolis"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Disposez la salade dans des assiettes et déposez les ravioli par-dessus. Ajoutez le poulet confit effiloché par-dessus ainsi que les lardons. Saupoudrez enfin avec le pecorino et ajustez l’assaisonnement si nécessaire.",
-            "instructionsHTML": "<p>Disposez la salade dans des assiettes et déposez les ravioli par-dessus. Ajoutez le poulet confit effiloché par-dessus ainsi que les lardons. Saupoudrez enfin avec le pecorino et ajustez l’assaisonnement si nécessaire.</p>",
-            "instructionsMarkdown": "<p>Disposez la salade dans des assiettes et déposez les ravioli par-dessus. Ajoutez le poulet confit effiloché par-dessus ainsi que les lardons. Saupoudrez enfin avec le pecorino et ajustez l’assaisonnement si nécessaire.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f2a791f779cb827204ac847/step-5873f950.jpg",
-                    "path": "/5f2a791f779cb827204ac847/step-5873f950.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [],
-    "totalTime": "PT30M",
-    "uniqueRecipeCode": "PNL01841547-1",
-    "updatedAt": "2023-10-13T10:40:02+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "882ed329-665f-43e3-b48c-75815ae972b3",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/cuisse-de-poulet-confite-and-ravioli-aux-petits-pois-5f2a791f779cb827204ac847",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe6af4af6d531d50d2f",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ed1df6297bb5beef2a1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf96af4af6d531d50c27",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf42b9d07cd5d38d79f7",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe6af4af6d531d50d2f",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ed1df6297bb5beef2a1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf96af4af6d531d50c27",
-                    "amount": 280,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf42b9d07cd5d38d79f7",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe6af4af6d531d50d2f",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ed1df6297bb5beef2a1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf96af4af6d531d50c27",
-                    "amount": 420,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf42b9d07cd5d38d79f7",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe6af4af6d531d50d2f",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ed1df6297bb5beef2a1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf96af4af6d531d50c27",
-                    "amount": 560,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf42b9d07cd5d38d79f7",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe6af4af6d531d50d2f",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ed1df6297bb5beef2a1",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf96af4af6d531d50c27",
-                    "amount": 700,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf42b9d07cd5d38d79f7",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf20af4af6d531d50a61",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfdbb0da1947779863df",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfe6af4af6d531d50d2f",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf34b0da1947779861aa",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd5b0da1947779863d3",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ed1df6297bb5beef2a1",
-                    "amount": 240,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf96af4af6d531d50c27",
-                    "amount": 840,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf42b9d07cd5d38d79f7",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122a81b4b295e66f025d",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Faites chauffer une poêle à sec et faites revenir les lardons 3 à 4 minutes à feu moyen-vif, jusqu'à ce qu'ils soient légèrement dorés. Réservez hors de la poêle. ",
+        "Portez un grand volume d'eau à ébullition dans une casserole avec couvercle pour les ravioli. Pressez ou émincez finement l'ail. Effeuillez la sauge et ciselez finement les feuilles. Coupez les tomates en deux. Coupez le portobello en fines tranches.",
+        "Dans la même poêle que celle utilisée pour les lardons, conservez le jus de cuisson et faites-y revenir la cuisse de poulet confite 2 à 3 minutes de chaque côté à feu moyen-vif. Réservez hors de la poêle. CONSEIL: Vous pouvez également faire revenir le poulet dans la graisse qui l'entoure mais attention aux éclaboussures !",
+        "Pendant ce temps, dans un saladier, préparez la vinaigrette en mélangeant le vinaigre balsamique blanc et l'huile d'olive extra vierge. Ajoutez la salade, salez et poivrez selon votre goût et mélangez bien. Lorsque l'eau est à ébullition, faites cuire les ravioli 2 à 4 minutes. Egouttez-les et réservez à couvert. ",
+        "Faites chauffer 1 cs de beurre par personne dans la même poêle que celle utilisée pour le poulet. Faites-y revenir l'ail et la sauge 1 à 2 minutes. Ajoutez les morceaux de portobello et faites cuire 3 à 4 minutes. Ajoutez les tomates et poursuivez la cuisson 2 minutes supplémentaires. Ajoutez les ravioli et mélangez bien, en faisant attention à ne pas les casser. Pendant ce temps, utilisez deux fourchettes pour effilocher les cuisses de poulet confites. ",
+        "Disposez la salade dans des assiettes et déposez les ravioli par-dessus. Ajoutez le poulet confit effiloché par-dessus ainsi que les lardons. Saupoudrez enfin avec le pecorino et ajustez l’assaisonnement si nécessaire."
     ]
 }

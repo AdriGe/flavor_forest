@@ -1,939 +1,114 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f6",
-            "name": "Œuf",
-            "type": "egg",
-            "slug": "oeuf",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "RNL0633-7",
-    "country": "FR",
-    "createdAt": "2020-05-20T09:30:08+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "Pakjes en zakjes zijn nergens voor nodig, een lasagne maken met zelfgemaakte roomsaus is namelijk niet moeilijk. De basis van deze roomsaus is een roux van bouillon en bloem, waaraan je spinazie, rozemarijn en oude kaas toevoegt. Voor nog meer smaak kun je deze lasagne ook een dag van tevoren maken - zo wordt de saus minder vloeibaar en trekken alle smaken er nog beter in.",
-    "descriptionHTML": "<p>Pakjes en zakjes zijn nergens voor nodig, een lasagne maken met zelfgemaakte roomsaus is namelijk niet moeilijk. De basis van deze roomsaus is een roux van bouillon en bloem, waaraan je spinazie, rozemarijn en oude kaas toevoegt. Voor nog meer smaak kun je deze lasagne ook een dag van tevoren maken - zo wordt de saus minder vloeibaar en trekken alle smaken er nog beter in.</p>",
-    "descriptionMarkdown": "Pakjes en zakjes zijn nergens voor nodig, een lasagne maken met zelfgemaakte roomsaus is namelijk niet moeilijk. De basis van deze roomsaus is een roux van bouillon en bloem, waaraan je spinazie, rozemarijn en oude kaas toevoegt. Voor nog meer smaak kun je deze lasagne ook een dag van tevoren maken - zo wordt de saus minder vloeibaar en trekken alle smaken er nog beter in.",
     "difficulty": 2,
     "favoritesCount": 417,
     "headline": "préparées avec une sauce béchamel maison",
-    "id": "5ec4f89f2df2ac54db00c488",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF170529_R03_W26_NL_Main_low-cba24e6e.jpg",
-    "imagePath": "/image/HF170529_R03_W26_NL_Main_low-cba24e6e.jpg",
+    "name": "Lasagne à la courgette & épinards",
+    "prepTime": 55,
+    "totalTime": 35,
+    "image_id": "5ec4f89f2df2ac54db00c488",
+    "id": "c184a9e3-6936-4fda-8d85-954a5d0a4cf6",
+    "nutrition": {
+        "kcal": 678,
+        "fat": 31.43,
+        "saturated_fat": 14.44,
+        "carbohydrate": 75.85,
+        "sugars": 13.47,
+        "protein": 19.16,
+        "sodium": 2.82
+    },
+    "tags": [
+        "Végétarien",
+        "À faire rapidement",
+        "Famille"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Sauteuse",
+        "Plat à four"
+    ],
     "ingredients": [
         {
-            "id": "6405bf8bb9d07cd5d38d7b0c",
-            "uuid": "08fdabb8-8ea0-53a6-9f44-85127ada6c27",
-            "name": "Courgette",
-            "type": "zucchini",
-            "slug": "courgette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "imagePath": "/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "e32aa012-a822-4ee2-b710-904dd001de92",
+            "portion_id": "c10ecad4-abae-4fff-a410-4bbcabbc1abd",
+            "image_id": "6405bf8bb9d07cd5d38d7b0c"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfb7b9d07cd5d38d7ba8",
-            "uuid": "6777a437-f8b2-507d-84ed-9315e80a4a28",
-            "name": "Origan",
-            "type": "oregano",
-            "slug": "origan",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb7b9d07cd5d38d7ba8-6d77b401.png",
-            "imagePath": "/ingredient/6405bfb7b9d07cd5d38d7ba8-6d77b401.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "841cbf88-fc69-4e1c-8ed3-1a6f37f1ab0c"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acf",
-            "uuid": "8336bf50-6c44-57e6-ac7f-af74134d934f",
-            "name": "Épinards",
-            "type": "spinach",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "bc85a87e-d578-42a9-892f-877ca1d6c94a"
         },
         {
-            "id": "6405bfc1b0da19477798638c",
-            "uuid": "1900d2d4-2bd6-5097-a7bb-a815555b5b14",
-            "name": "Crème liquide",
-            "type": "cooking-cream",
-            "slug": "creme-liquide",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "imagePath": "/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "1b7371ba-3a94-4a04-a1ab-f38b6ccbd569"
         },
         {
-            "id": "6405bf55b9d07cd5d38d7a49",
-            "uuid": "af88993d-f4ff-436e-9a41-bcf39ece5a46",
-            "name": "Gruyère et emmental râpé",
-            "type": "grated-gruyere-and-emmentaler",
-            "slug": "gruyere-et-emmental-rape",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf55b9d07cd5d38d7a49-b46bf086.png",
-            "imagePath": "/ingredient/6405bf55b9d07cd5d38d7a49-b46bf086.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "38aa993c-8fed-40fa-b654-c646449f7dbf"
         },
         {
-            "id": "64073c06683721c9a32b07a8",
-            "uuid": "182c9d78-d773-4e63-a065-48568e94eee9",
-            "name": "Feuilles de lasagne fraîches",
-            "type": "fresh-lasagne-sheets",
-            "slug": "feuilles-de-lasagne-fraiches",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf98af4af6d531d50c2f-86da92a3.png",
-            "imagePath": "/ingredient/6405bf98af4af6d531d50c2f-86da92a3.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f6",
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 190,
+            "unit": "g",
+            "ingredient_id": "415c399e-e455-4ade-9f75-c96803081357"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 500,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5123581b4b295e66f0261",
-            "uuid": "23b757d4-43a1-4078-a566-5d8331da930b",
-            "name": "Farine",
-            "type": "farine-cs",
-            "slug": "farine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "imagePath": "/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "9be5f238-91b9-43ef-9654-5e4a8976e90f",
+            "portion_id": "7d49eeda-c831-40be-bf44-3b8d5006773e",
+            "image_id": "63e5123581b4b295e66f0261"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5ec4f89f2df2ac54db00c488",
-    "name": "Lasagne à la courgette & épinards",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 678,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2837,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 31.43,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 14.44,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 75.85,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 13.47,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 19.16,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.82,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT55M",
-    "promotion": null,
-    "ratingsCount": 109,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 720,
-    "slug": "lasagne-a-la-courgette-and-epinards",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 220 degrés et préparez le bouillon. Coupez la courgette en rondelles de ½ cm d’épaisseur au maximum.",
-            "instructionsHTML": "<p>Préchauffez le four à 220 degrés et préparez le bouillon. Coupez la courgette en rondelles de ½ cm d’épaisseur au maximum.</p>",
-            "instructionsMarkdown": "<p>Préchauffez le four à 220 degrés et préparez le bouillon. Coupez la courgette en rondelles de ½ cm d’épaisseur au maximum.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ec4f89f2df2ac54db00c488/step-4abaf000.jpg",
-                    "path": "/5ec4f89f2df2ac54db00c488/step-4abaf000.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Disposez la courgette sur la plaque recouverte de papier sulfurisé et arrosez-la de l’huile d’olive. Salez et poivrez. Enfournez 10 minutes. Pendant ce temps, émincez finement l’oignon et écrasez ou émincez l’ail. Ciselez les feuilles d’origan.",
-            "instructionsHTML": "<p>Disposez la courgette sur la plaque recouverte de papier sulfurisé et arrosez-la de l’huile d’olive. Salez et poivrez. Enfournez 10 minutes. Pendant ce temps, émincez finement l’oignon et écrasez ou émincez l’ail. Ciselez les feuilles d’origan.</p>",
-            "instructionsMarkdown": "<p>Disposez la courgette sur la plaque recouverte de papier sulfurisé et arrosez-la de l’huile d’olive. Salez et poivrez. Enfournez 10 minutes. Pendant ce temps, émincez finement l’oignon et écrasez ou émincez l’ail. Ciselez les feuilles d’origan.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ec4f89f2df2ac54db00c488/step-b5740810.jpg",
-                    "path": "/5ec4f89f2df2ac54db00c488/step-b5740810.jpg",
-                    "caption": "Cuire et préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, faites fondre 1/2 cs de beurre par personne dans la sauteuse et faites revenir l’oignon et l’ail 2 minutes à feu moyen-vif. Ajoutez la farine et mélangez au fouet 2 minutes. Ajoutez 1⁄3 du bouillon et mélangez jusqu’à ce qu'il soit incorporé. Répétez cette opération deux fois avec le reste du bouillon jusqu’à obtenir une sauce homogène, puis portez à ébullition et faites cuire 1 minute de plus. Poivrez.CONSEIL: CONSEIL : Pour le roux, veillez à bien respecter les proportions. S’il y a trop de farine, le mélange sera trop épais et farineux ; s’il n’y en a pas assez, la sauce restera trop liquide. Utiliser une balance, c'est plus sûr !",
-            "instructionsHTML": "<p>Pendant ce temps, faites fondre 1/2 cs de beurre par personne dans la sauteuse et faites revenir l’oignon et l’ail 2 minutes à feu moyen-vif. Ajoutez la farine et mélangez au fouet 2 minutes. Ajoutez 1⁄3 du bouillon et mélangez jusqu’à ce qu&#39;il soit incorporé. Répétez cette opération deux fois avec le reste du bouillon jusqu’à obtenir une sauce homogène, puis portez à ébullition et faites cuire 1 minute de plus. Poivrez.</p><p>CONSEIL: CONSEIL : Pour le roux, veillez à bien respecter les proportions. S’il y a trop de farine, le mélange sera trop épais et farineux ; s’il n’y en a pas assez, la sauce restera trop liquide. Utiliser une balance, c&#39;est plus sûr !</p>",
-            "instructionsMarkdown": "<p>Pendant ce temps, faites fondre 1/2 cs de beurre par personne dans la sauteuse et faites revenir l’oignon et l’ail 2 minutes à feu moyen-vif. Ajoutez la farine et mélangez au fouet 2 minutes. Ajoutez 1⁄3 du bouillon et mélangez jusqu’à ce qu&#39;il soit incorporé. Répétez cette opération deux fois avec le reste du bouillon jusqu’à obtenir une sauce homogène, puis portez à ébullition et faites cuire 1 minute de plus. Poivrez.</p><p>CONSEIL: CONSEIL : Pour le roux, veillez à bien respecter les proportions. S’il y a trop de farine, le mélange sera trop épais et farineux ; s’il n’y en a pas assez, la sauce restera trop liquide. Utiliser une balance, c&#39;est plus sûr !</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ec4f89f2df2ac54db00c488/step-e8f17020.jpg",
-                    "path": "/5ec4f89f2df2ac54db00c488/step-e8f17020.jpg",
-                    "caption": "Préparer le roux"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Ajoutez l’origan et les épinards à la sauce et laissez réduire en remuant. Ajoutez enfin la crème liquide et ⅓ du fromage, puis salez et poivrez. Graissez le plat à four avec un peu d’huile d’olive ou de beurre. Coupez les feuilles de lasagnes selon la forme de votre plat à four.CONSEIL: CONSEIL : Ce plat est calorique. Si vous surveillez votre apport, remplacez la moitié de la crème liquide par la même quantité de bouillon et saupoudrez les lasagnes de la moitié du fromage râpé.",
-            "instructionsHTML": "<p>Ajoutez l’origan et les épinards à la sauce et laissez réduire en remuant. Ajoutez enfin la crème liquide et ⅓ du fromage, puis salez et poivrez. Graissez le plat à four avec un peu d’huile d’olive ou de beurre. Coupez les feuilles de lasagnes selon la forme de votre plat à four.</p><p>CONSEIL: CONSEIL : Ce plat est calorique. Si vous surveillez votre apport, remplacez la moitié de la crème liquide par la même quantité de bouillon et saupoudrez les lasagnes de la moitié du fromage râpé.</p>",
-            "instructionsMarkdown": "<p>Ajoutez l’origan et les épinards à la sauce et laissez réduire en remuant. Ajoutez enfin la crème liquide et ⅓ du fromage, puis salez et poivrez. Graissez le plat à four avec un peu d’huile d’olive ou de beurre. Coupez les feuilles de lasagnes selon la forme de votre plat à four.</p><p>CONSEIL: CONSEIL : Ce plat est calorique. Si vous surveillez votre apport, remplacez la moitié de la crème liquide par la même quantité de bouillon et saupoudrez les lasagnes de la moitié du fromage râpé.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ec4f89f2df2ac54db00c488/step-87c3ad30.jpg",
-                    "path": "/5ec4f89f2df2ac54db00c488/step-87c3ad30.jpg",
-                    "caption": "Préparer la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Versez une fine couche de sauce dans le plat. Couvrez avec des feuilles de lasagne et appuyez fermement. Disposez ensuite quelques tranches de courgette par-dessus, puis à nouveau une couche de sauce. Répétez ces opérations jusqu’à épuiser les ingrédients, mais gardez un peu de sauce pour la dernière couche. Vous n'utilisez pas beaucoup de sauce par couche car vous cuisinez avec des lasagnes fraîches.",
-            "instructionsHTML": "<p>Versez une fine couche de sauce dans le plat. Couvrez avec des feuilles de lasagne et appuyez fermement. Disposez ensuite quelques tranches de courgette par-dessus, puis à nouveau une couche de sauce. Répétez ces opérations jusqu’à épuiser les ingrédients, mais gardez un peu de sauce pour la dernière couche. Vous n&#39;utilisez pas beaucoup de sauce par couche car vous cuisinez avec des lasagnes fraîches.</p>",
-            "instructionsMarkdown": "<p>Versez une fine couche de sauce dans le plat. Couvrez avec des feuilles de lasagne et appuyez fermement. Disposez ensuite quelques tranches de courgette par-dessus, puis à nouveau une couche de sauce. Répétez ces opérations jusqu’à épuiser les ingrédients, mais gardez un peu de sauce pour la dernière couche. Vous n&#39;utilisez pas beaucoup de sauce par couche car vous cuisinez avec des lasagnes fraîches.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ec4f89f2df2ac54db00c488/step-e73d3a40.jpg",
-                    "path": "/5ec4f89f2df2ac54db00c488/step-e73d3a40.jpg",
-                    "caption": "Former les lasagnes"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT35M",
-    "uniqueRecipeCode": "RNL0633-7",
-    "updatedAt": "2023-12-28T01:52:32+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        }
-    ],
-    "uuid": "d8259f7d-ffe4-40e2-a412-d529d3dc9fd2",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/lasagne-a-la-courgette-and-epinards-5ec4f89f2df2ac54db00c488",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb7b9d07cd5d38d7ba8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c06683721c9a32b07a8",
-                    "amount": 95,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 1,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb7b9d07cd5d38d7ba8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c06683721c9a32b07a8",
-                    "amount": 190,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 2,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb7b9d07cd5d38d7ba8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c06683721c9a32b07a8",
-                    "amount": 280,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 750,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 3,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb7b9d07cd5d38d7ba8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c06683721c9a32b07a8",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 4,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb7b9d07cd5d38d7ba8",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c06683721c9a32b07a8",
-                    "amount": 470,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1250,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 7.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 5,
-                    "unit": "cs"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb7b9d07cd5d38d7ba8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfc1b0da19477798638c",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf55b9d07cd5d38d7a49",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073c06683721c9a32b07a8",
-                    "amount": 560,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 9,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 6,
-                    "unit": "cs"
-                }
-            ]
-        }
+        "Préchauffez le four à 220 degrés et préparez le bouillon. Coupez la courgette en rondelles de ½ cm d’épaisseur au maximum.",
+        "Disposez la courgette sur la plaque recouverte de papier sulfurisé et arrosez-la de l’huile d’olive. Salez et poivrez. Enfournez 10 minutes. Pendant ce temps, émincez finement l’oignon et écrasez ou émincez l’ail. Ciselez les feuilles d’origan.",
+        "Pendant ce temps, faites fondre 1/2 cs de beurre par personne dans la sauteuse et faites revenir l’oignon et l’ail 2 minutes à feu moyen-vif. Ajoutez la farine et mélangez au fouet 2 minutes. Ajoutez 1⁄3 du bouillon et mélangez jusqu’à ce qu'il soit incorporé. Répétez cette opération deux fois avec le reste du bouillon jusqu’à obtenir une sauce homogène, puis portez à ébullition et faites cuire 1 minute de plus. Poivrez.CONSEIL: CONSEIL : Pour le roux, veillez à bien respecter les proportions. S’il y a trop de farine, le mélange sera trop épais et farineux ; s’il n’y en a pas assez, la sauce restera trop liquide. Utiliser une balance, c'est plus sûr !",
+        "Ajoutez l’origan et les épinards à la sauce et laissez réduire en remuant. Ajoutez enfin la crème liquide et ⅓ du fromage, puis salez et poivrez. Graissez le plat à four avec un peu d’huile d’olive ou de beurre. Coupez les feuilles de lasagnes selon la forme de votre plat à four.CONSEIL: CONSEIL : Ce plat est calorique. Si vous surveillez votre apport, remplacez la moitié de la crème liquide par la même quantité de bouillon et saupoudrez les lasagnes de la moitié du fromage râpé.",
+        "Versez une fine couche de sauce dans le plat. Couvrez avec des feuilles de lasagne et appuyez fermement. Disposez ensuite quelques tranches de courgette par-dessus, puis à nouveau une couche de sauce. Répétez ces opérations jusqu’à épuiser les ingrédients, mais gardez un peu de sauce pour la dernière couche. Vous n'utilisez pas beaucoup de sauce par couche car vous cuisinez avec des lasagnes fraîches."
     ]
 }

@@ -1,987 +1,127 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fc",
-            "name": "Céleri",
-            "type": "celery",
-            "slug": "celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "RFR16681706-1",
-    "country": "FR",
-    "createdAt": "2020-07-15T14:54:01+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 2,
     "favoritesCount": 196,
     "headline": "avec des légumes fondants et du fromage italien râpé",
-    "id": "5f0f18872379086f4167483a",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF200626_R209_W32_FR_RFR16681706-1_KB_Main_low-720f264c.jpg",
-    "imagePath": "/image/HF200626_R209_W32_FR_RFR16681706-1_KB_Main_low-720f264c.jpg",
+    "name": "Rigatoni à la saucisse façon bolognaise",
+    "prepTime": 35,
+    "totalTime": 20,
+    "image_id": "5f0f18872379086f4167483a",
+    "id": "aa9e4dd8-8010-45cd-86ab-4e3220721031",
+    "nutrition": {
+        "kcal": 624,
+        "fat": 48.3,
+        "saturated_fat": 18.23,
+        "carbohydrate": 19.18,
+        "sugars": 13.89,
+        "protein": 25.59,
+        "sodium": 3.56
+    },
+    "tags": [
+        "À faire rapidement",
+        "Famille"
+    ],
+    "utensils": [
+        "Râpe",
+        "Wok ou sauteuse avec couvercle",
+        "Casserole avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "64073bcb9c6d10cd16eab644",
-            "uuid": "6433c5d9-b9ca-5292-b793-90a1bcd567ff",
-            "name": "Céleri-branche",
-            "type": "celery-stick",
-            "slug": "celeri-branche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6b9d07cd5d38d7c79-43e308d6.png",
-            "imagePath": "/ingredient/6405bff6b9d07cd5d38d7c79-43e308d6.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fc"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "tige(s)",
+            "ingredient_id": "2505383d-7765-4545-8c57-5068e4f6694a",
+            "portion_id": "602e9e55-c4cc-41a0-a106-b4decfdea2c6",
+            "image_id": "64073bcb9c6d10cd16eab644"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bf68af4af6d531d50b98",
-            "uuid": "b86a6b9f-a519-4ac9-a2a3-9ffd7cdbfba8",
-            "name": "Saucisse de porc, marjolaine et ail",
-            "type": "pork-sausage-with-marjoran",
-            "slug": "saucisse-de-porc-marjolaine-et-ail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf68af4af6d531d50b98-dc62f786.png",
-            "imagePath": "/ingredient/6405bf68af4af6d531d50b98-dc62f786.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "e85a484b-98d1-41ca-a2c1-87f58db378f2",
+            "portion_id": "6d4e47c4-60c8-4233-8901-5e4fee84e93f",
+            "image_id": "6405bf68af4af6d531d50b98"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93",
+            "portion_id": "0da30959-c785-43dc-9138-9b35fd2901e9",
+            "image_id": "6405bfefb9d07cd5d38d7c59"
         },
         {
-            "id": "6405bfd2af4af6d531d50cf8",
-            "uuid": "a0635c57-61b9-4663-92f6-c21defa14bb3",
-            "name": "Fenouil moulu",
-            "type": "ground-fennel-seeds",
-            "slug": "fenouil-moulu",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd2af4af6d531d50cf8-b61ac5e8.png",
-            "imagePath": "/ingredient/6405bfd2af4af6d531d50cf8-b61ac5e8.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "6d1b3767-3869-436d-9d93-345bf40c1e4b",
+            "portion_id": "e3c5cf9e-af2e-4c4a-98ca-6be312097490",
+            "image_id": "6405bfd2af4af6d531d50cf8"
         },
         {
-            "id": "6405bf21af4af6d531d50a64",
-            "uuid": "e20204d9-67bd-5351-a602-b284967157cf",
-            "name": "Rigatoni",
-            "type": "rigatoni",
-            "slug": "rigatoni",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf21af4af6d531d50a64-e429976e.png",
-            "imagePath": "/ingredient/6405bf21af4af6d531d50a64-e429976e.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 180,
+            "unit": "g",
+            "ingredient_id": "689ead43-4b8b-4d1a-b1d3-5006e2bf4ecd"
         },
         {
-            "id": "64073ba5df6297bb5beef0f3",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "1e8131fd-d846-473c-8276-ba8d0dc471e2"
         },
         {
-            "id": "63e5120dbc1d64f7b96e26fe",
-            "uuid": "8cbbf443-dfd3-4073-9af0-db31867cf660",
-            "name": "Bouillon de volaille",
-            "type": "bouillon-de-volaille-ml",
-            "slug": "bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "imagePath": "/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "ml",
+            "ingredient_id": "b533985b-5cae-4227-a9aa-9d8287f4d493"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122ea0a0603e5708dcc4",
-            "uuid": "d11348fc-54f2-4b29-888f-74c7e98d78bf",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-au-gout",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122ea0a0603e5708dcc4-008d8068.png",
-            "imagePath": "/ingredient/63e5122ea0a0603e5708dcc4-008d8068.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "b853fe97-35c9-45fe-bf24-818461489408",
+            "portion_id": "5c913e2b-bbac-4b45-9059-a8bf27c7fe13",
+            "image_id": "63e5122ea0a0603e5708dcc4"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5f0f18872379086f4167483a",
-    "name": "Rigatoni à la saucisse façon bolognaise",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 624,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2611,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 48.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 18.23,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 19.18,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 13.89,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 25.59,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.56,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 134,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 472,
-    "slug": "rigatoni-a-la-saucisse-facon-bolognaise",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préparez le bouillon avec de l'eau chaude. Lavez ou épluchez les carottes. Retirez les extrémités du céleri. Hachez finement l’oignon, l’ail, le céleri et les carottes (vous pouvez aussi râper les carottes pour aller plus vite). Découpez la peau de la saucisse pour l’ouvrir et retirez la chair.CONSEIL: Si vous avez un robot culinaire, utilisez-le pour hacher finement l'oignon, les carottes, le céleri et l'ail. Attention, le céleri a un goût assez prononcé, si vous n'appréciez pas son goût, vous pouvez réduire sa quantité dans le plat.",
-            "instructionsHTML": "<p>Préparez le bouillon avec de l&#39;eau chaude. Lavez ou épluchez les carottes. Retirez les extrémités du céleri. Hachez finement l’oignon, l’ail, le céleri et les carottes (vous pouvez aussi râper les carottes pour aller plus vite). Découpez la peau de la saucisse pour l’ouvrir et retirez la chair.</p><p>CONSEIL: Si vous avez un robot culinaire, utilisez-le pour hacher finement l&#39;oignon, les carottes, le céleri et l&#39;ail. Attention, le céleri a un goût assez prononcé, si vous n&#39;appréciez pas son goût, vous pouvez réduire sa quantité dans le plat.</p>",
-            "instructionsMarkdown": "<p>Préparez le bouillon avec de l&#39;eau chaude. Lavez ou épluchez les carottes. Retirez les extrémités du céleri. Hachez finement l’oignon, l’ail, le céleri et les carottes (vous pouvez aussi râper les carottes pour aller plus vite). Découpez la peau de la saucisse pour l’ouvrir et retirez la chair.</p><p>CONSEIL: Si vous avez un robot culinaire, utilisez-le pour hacher finement l&#39;oignon, les carottes, le céleri et l&#39;ail. Attention, le céleri a un goût assez prononcé, si vous n&#39;appréciez pas son goût, vous pouvez réduire sa quantité dans le plat.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0f18872379086f4167483a/step-b95e4f00.jpg",
-                    "path": "/5f0f18872379086f4167483a/step-b95e4f00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Dans un wok ou une grande sauteuse, faites chauffer l’huile d’olive à feu vif et ajoutez l’oignon, l’ail, le céleri et les carottes. Émiettez la saucisse par-dessus, puis faites saisir le tout 5 à 6 minutes en remuant régulièrement. Salez et poivrez.CONSEIL: Les ingrédients peuvent brunir légèrement, cela apportera beaucoup de goût à votre sauce. Attention toutefois à ce qu'ils ne brûlent pas !",
-            "instructionsHTML": "<p>Dans un wok ou une grande sauteuse, faites chauffer l’huile d’olive à feu vif et ajoutez l’oignon, l’ail, le céleri et les carottes. Émiettez la saucisse par-dessus, puis faites saisir le tout 5 à 6 minutes en remuant régulièrement. Salez et poivrez.</p><p>CONSEIL: Les ingrédients peuvent brunir légèrement, cela apportera beaucoup de goût à votre sauce. Attention toutefois à ce qu&#39;ils ne brûlent pas !</p>",
-            "instructionsMarkdown": "<p>Dans un wok ou une grande sauteuse, faites chauffer l’huile d’olive à feu vif et ajoutez l’oignon, l’ail, le céleri et les carottes. Émiettez la saucisse par-dessus, puis faites saisir le tout 5 à 6 minutes en remuant régulièrement. Salez et poivrez.</p><p>CONSEIL: Les ingrédients peuvent brunir légèrement, cela apportera beaucoup de goût à votre sauce. Attention toutefois à ce qu&#39;ils ne brûlent pas !</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0f18872379086f4167483a/step-c7575c10.jpg",
-                    "path": "/5f0f18872379086f4167483a/step-c7575c10.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Portez une large quantité d'eau (environ 500 ml par personne) à ébullition dans une casserole pour les rigatoni. Pendant ce temps, ajoutez au contenu du wok le concentré de tomates et le fenouil moulu, puis faites-les revenir 2 minutes. Versez ensuite le bouillon par-dessus en grattant bien le fond de la sauteuse avec une cuillère en bois afin de récupérer et dissoudre l’ensemble des sucs. Laissez mijoter le ragù 15 minutes.",
-            "instructionsHTML": "<p>Portez une large quantité d&#39;eau (environ 500 ml par personne) à ébullition dans une casserole pour les rigatoni. Pendant ce temps, ajoutez au contenu du wok le concentré de tomates et le fenouil moulu, puis faites-les revenir 2 minutes. Versez ensuite le bouillon par-dessus en grattant bien le fond de la sauteuse avec une cuillère en bois afin de récupérer et dissoudre l’ensemble des sucs. Laissez mijoter le ragù 15 minutes.</p>",
-            "instructionsMarkdown": "<p>Portez une large quantité d&#39;eau (environ 500 ml par personne) à ébullition dans une casserole pour les rigatoni. Pendant ce temps, ajoutez au contenu du wok le concentré de tomates et le fenouil moulu, puis faites-les revenir 2 minutes. Versez ensuite le bouillon par-dessus en grattant bien le fond de la sauteuse avec une cuillère en bois afin de récupérer et dissoudre l’ensemble des sucs. Laissez mijoter le ragù 15 minutes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0f18872379086f4167483a/step-d059e820.jpg",
-                    "path": "/5f0f18872379086f4167483a/step-d059e820.jpg",
-                    "caption": "Faire mijoter"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Ajoutez les rigatoni à la casserole qui bout et faites-les cuire à couvert 12 à 14 minutes. Égouttez-les tout en conservant un peu d’eau de cuisson des pâtes. Vous vous en servirez pour lier votre sauce.",
-            "instructionsHTML": "<p>Ajoutez les rigatoni à la casserole qui bout et faites-les cuire à couvert 12 à 14 minutes. Égouttez-les tout en conservant un peu d’eau de cuisson des pâtes. Vous vous en servirez pour lier votre sauce.</p>",
-            "instructionsMarkdown": "<p>Ajoutez les rigatoni à la casserole qui bout et faites-les cuire à couvert 12 à 14 minutes. Égouttez-les tout en conservant un peu d’eau de cuisson des pâtes. Vous vous en servirez pour lier votre sauce.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0f18872379086f4167483a/step-de950e30.jpg",
-                    "path": "/5f0f18872379086f4167483a/step-de950e30.jpg",
-                    "caption": "Cuire les rigatoni"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Versez les pâtes égouttées directement dans le wok avec le ragù. Ajoutez la moitié du fromage râpé et un filet d’eau des pâtes, puis mélangez bien. Si vous trouvez la sauce trop sèche, rajoutez un peu d’eau de cuisson et mélangez jusqu'à obtenir la consistance désirée.",
-            "instructionsHTML": "<p>Versez les pâtes égouttées directement dans le wok avec le ragù. Ajoutez la moitié du fromage râpé et un filet d’eau des pâtes, puis mélangez bien. Si vous trouvez la sauce trop sèche, rajoutez un peu d’eau de cuisson et mélangez jusqu&#39;à obtenir la consistance désirée.</p>",
-            "instructionsMarkdown": "<p>Versez les pâtes égouttées directement dans le wok avec le ragù. Ajoutez la moitié du fromage râpé et un filet d’eau des pâtes, puis mélangez bien. Si vous trouvez la sauce trop sèche, rajoutez un peu d’eau de cuisson et mélangez jusqu&#39;à obtenir la consistance désirée.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0f18872379086f4167483a/step-c3b46940.jpg",
-                    "path": "/5f0f18872379086f4167483a/step-c3b46940.jpg",
-                    "caption": "Incorporer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les rigatoni au ragù dans des assiettes creuses puis garnissez avec le reste du fromage râpé. Vous pouvez également ajouter un filet d’huile d’olive vierge extra par-dessus et ajuster l’assaisonnement si nécessaire.",
-            "instructionsHTML": "<p>Servez les rigatoni au ragù dans des assiettes creuses puis garnissez avec le reste du fromage râpé. Vous pouvez également ajouter un filet d’huile d’olive vierge extra par-dessus et ajuster l’assaisonnement si nécessaire.</p>",
-            "instructionsMarkdown": "<p>Servez les rigatoni au ragù dans des assiettes creuses puis garnissez avec le reste du fromage râpé. Vous pouvez également ajouter un filet d’huile d’olive vierge extra par-dessus et ajuster l’assaisonnement si nécessaire.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5f0f18872379086f4167483a/step-29b28850.jpg",
-                    "path": "/5f0f18872379086f4167483a/step-29b28850.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR16681706-1",
-    "updatedAt": "2023-10-13T10:40:00+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff53b",
-            "type": null,
-            "name": "Wok ou sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        }
-    ],
-    "uuid": "5f67c65e-1b43-420d-a87b-f996cf112698",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/rigatoni-a-la-saucisse-facon-bolognaise-5f0f18872379086f4167483a",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 1,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf68af4af6d531d50b98",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd2af4af6d531d50cf8",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 2.5,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf68af4af6d531d50b98",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd2af4af6d531d50cf8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 4,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf68af4af6d531d50b98",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd2af4af6d531d50cf8",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 270,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 5,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf68af4af6d531d50b98",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd2af4af6d531d50cf8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 360,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 6.5,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf68af4af6d531d50b98",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 2.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd2af4af6d531d50cf8",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 8,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf68af4af6d531d50b98",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 3,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bfd2af4af6d531d50cf8",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf21af4af6d531d50a64",
-                    "amount": 540,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122ea0a0603e5708dcc4",
-                    "amount": null,
-                    "unit": "selon le goût"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préparez le bouillon avec de l'eau chaude. Lavez ou épluchez les carottes. Retirez les extrémités du céleri. Hachez finement l’oignon, l’ail, le céleri et les carottes (vous pouvez aussi râper les carottes pour aller plus vite). Découpez la peau de la saucisse pour l’ouvrir et retirez la chair.CONSEIL: Si vous avez un robot culinaire, utilisez-le pour hacher finement l'oignon, les carottes, le céleri et l'ail. Attention, le céleri a un goût assez prononcé, si vous n'appréciez pas son goût, vous pouvez réduire sa quantité dans le plat.",
+        "Dans un wok ou une grande sauteuse, faites chauffer l’huile d’olive à feu vif et ajoutez l’oignon, l’ail, le céleri et les carottes. Émiettez la saucisse par-dessus, puis faites saisir le tout 5 à 6 minutes en remuant régulièrement. Salez et poivrez.CONSEIL: Les ingrédients peuvent brunir légèrement, cela apportera beaucoup de goût à votre sauce. Attention toutefois à ce qu'ils ne brûlent pas !",
+        "Portez une large quantité d'eau (environ 500 ml par personne) à ébullition dans une casserole pour les rigatoni. Pendant ce temps, ajoutez au contenu du wok le concentré de tomates et le fenouil moulu, puis faites-les revenir 2 minutes. Versez ensuite le bouillon par-dessus en grattant bien le fond de la sauteuse avec une cuillère en bois afin de récupérer et dissoudre l’ensemble des sucs. Laissez mijoter le ragù 15 minutes.",
+        "Ajoutez les rigatoni à la casserole qui bout et faites-les cuire à couvert 12 à 14 minutes. Égouttez-les tout en conservant un peu d’eau de cuisson des pâtes. Vous vous en servirez pour lier votre sauce.",
+        "Versez les pâtes égouttées directement dans le wok avec le ragù. Ajoutez la moitié du fromage râpé et un filet d’eau des pâtes, puis mélangez bien. Si vous trouvez la sauce trop sèche, rajoutez un peu d’eau de cuisson et mélangez jusqu'à obtenir la consistance désirée.",
+        "Servez les rigatoni au ragù dans des assiettes creuses puis garnissez avec le reste du fromage râpé. Vous pouvez également ajouter un filet d’huile d’olive vierge extra par-dessus et ajuster l’assaisonnement si nécessaire."
     ]
 }

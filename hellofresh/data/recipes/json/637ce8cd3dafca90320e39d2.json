@@ -1,871 +1,109 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": "64073f3b683721c9a32b08df",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/poulet-a-la-creme-de-poireau-and-muscade-64073f3b683721c9a32b08df",
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "QFR20161847-7",
-    "country": "FR",
-    "createdAt": "2022-11-22T15:20:46+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "Les choses les plus simples sont souvent les meilleures, et ce plat de poulet à la crème accompagné de riz et de poireau ne va pas faire mentir le proverbe ! Prête en une petite demi-heure, cette recette se déguste aussi bien en solo, en duo ou en famille.",
-    "descriptionHTML": "<p>Les choses les plus simples sont souvent les meilleures, et ce plat de poulet à la crème accompagné de riz et de poireau ne va pas faire mentir le proverbe ! Prête en une petite demi-heure, cette recette se déguste aussi bien en solo, en duo ou en famille.</p>",
-    "descriptionMarkdown": "Les choses les plus simples sont souvent les meilleures, et ce plat de poulet à la crème accompagné de riz et de poireau ne va pas faire mentir le proverbe ! Prête en une petite demi-heure, cette recette se déguste aussi bien en solo, en duo ou en famille.",
     "difficulty": 1,
     "favoritesCount": 450,
     "headline": "avec du fromage italien & du riz",
-    "id": "637ce8cd3dafca90320e39d2",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF211008_R217_W47_FR_QFR20161847-1_MB_Main_low-e4d94d3d.jpg",
-    "imagePath": "/image/HF211008_R217_W47_FR_QFR20161847-1_MB_Main_low-e4d94d3d.jpg",
+    "name": "Poulet à la crème, poireaux & muscade",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "637ce8cd3dafca90320e39d2",
+    "id": "0adf8ecc-b198-4396-83f3-ad1d05843c25",
+    "nutrition": {
+        "kcal": 745,
+        "fat": 32.86,
+        "saturated_fat": 17.59,
+        "carbohydrate": 70.09,
+        "sugars": 7.34,
+        "protein": 42.37,
+        "sodium": 0.89
+    },
+    "tags": [
+        "<30 min",
+        "Famille"
+    ],
+    "utensils": [
+        "Casserole",
+        "Wok ou sauteuse avec couvercle",
+        "Râpe"
+    ],
     "ingredients": [
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405bf80af4af6d531d50be2",
-            "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
-            "name": "Riz",
-            "type": "basmati-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "imagePath": "/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "c21a2845-afc7-40be-8240-4f67b9d7045d"
         },
         {
-            "id": "64073ba7df6297bb5beef0ff",
-            "uuid": "f51f9566-994f-53b8-8618-557a8b86e26a",
-            "name": "Filet de poulet",
-            "type": "chicken-fillet",
-            "slug": "filet-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "imagePath": "/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "62cc417a2f15d58ec3559423",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "bb7fea40-a448-408d-822f-4ca1c9ce78cc",
+            "portion_id": "0d9e7911-da10-4172-8390-468c093e34a0",
+            "image_id": "64073ba7df6297bb5beef0ff"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfbab9d07cd5d38d7bae",
-            "uuid": "c8f498ab-c95c-567d-99ba-937761d5e658",
-            "name": "Persil",
-            "type": "parsley-curled",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "imagePath": "/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "g",
+            "ingredient_id": "6c31fdcb-bec9-4b81-aafb-88242b45475e"
         },
         {
-            "id": "64073ba6df6297bb5beef0f4",
-            "uuid": "1900d2d4-2bd6-5097-a7bb-a815555b5b14",
-            "name": "Crème liquide",
-            "type": "cooking-cream",
-            "slug": "creme-liquide",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "imagePath": "/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "ml",
+            "ingredient_id": "002d9025-90de-45f4-95ea-04c36ca1e75b"
         },
         {
-            "id": "64073ba5df6297bb5beef0f3",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "1e8131fd-d846-473c-8276-ba8d0dc471e2"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/637ce8cd3dafca90320e39d2",
-    "name": "Poulet à la crème, poireaux & muscade",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 745,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3116,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 32.86,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 17.59,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 70.09,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 7.34,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 42.37,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.89,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 789,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 407,
-    "slug": "poulet-a-la-creme-poireaux-and-muscade",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d'eau salée à ébullition pour le riz.Coupez le poireau en deux dans l'épaisseur, lavez-le bien, puis taillez-le en très fines demi-lunes. Faites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le sans couvercle.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Portez une casserole d&#39;eau salée à ébullition pour le riz.</li><li>Coupez le poireau en deux dans l&#39;épaisseur, lavez-le bien, puis taillez-le en très fines demi-lunes. </li><li>Faites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le sans couvercle.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Portez une casserole d&#39;eau salée à ébullition pour le riz.</li><li>Coupez le poireau en deux dans l&#39;épaisseur, lavez-le bien, puis taillez-le en très fines demi-lunes. </li><li>Faites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le sans couvercle.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637ce8cd3dafca90320e39d2/step-270a4400.jpg",
-                    "path": "/637ce8cd3dafca90320e39d2/step-270a4400.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Coupez le poulet en dés de 2 cm.Faites chauffer un filet d’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3-4 min sur tous les côtés, ou jusqu'à ce qu'ils soit doré : il ne doit pas encore être totalement cuit à ce stade. Salez et poivrez. Réservez-le hors du wok.",
-            "instructionsHTML": "<ul><li>Coupez le poulet en dés de 2 cm.</li><li>Faites chauffer un filet d’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3-4 min sur tous les côtés, ou jusqu&#39;à ce qu&#39;ils soit doré : il <span>ne doit pas encore être totalement cuit à ce stade. </span>Salez et poivrez. </li><li>Réservez-le hors du wok.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Coupez le poulet en dés de 2 cm.</li><li>Faites chauffer un filet d’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3-4 min sur tous les côtés, ou jusqu&#39;à ce qu&#39;ils soit doré : il <span>ne doit pas encore être totalement cuit à ce stade. </span>Salez et poivrez. </li><li>Réservez-le hors du wok.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff53b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637ce8cd3dafca90320e39d2/step-28ef9510.jpg",
-                    "path": "/637ce8cd3dafca90320e39d2/step-28ef9510.jpg",
-                    "caption": "Dorer la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Remettez le wok à feu moyen-vif et faites-y fondre une noix de beurre. Ajoutez le poireau, salez et poivrez. Baissez le feu à moyen, couvrez et faites cuire 8-10 min de plus, ou jusqu'à ce qu'il soit fondant.Pendant ce temps, ciselez l’ail. Effeuillez et ciselez le persil.",
-            "instructionsHTML": "<ul><li>Remettez le wok à feu moyen-vif et faites-y fondre une noix de beurre. Ajoutez le poireau, salez et poivrez. Baissez le feu à moyen, couvrez et faites cuire 8-10 min de plus, ou jusqu&#39;à ce qu&#39;il soit fondant.</li><li>Pendant ce temps, ciselez l’ail. </li><li>Effeuillez et ciselez le persil.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Remettez le wok à feu moyen-vif et faites-y fondre une noix de beurre. Ajoutez le poireau, salez et poivrez. Baissez le feu à moyen, couvrez et faites cuire 8-10 min de plus, ou jusqu&#39;à ce qu&#39;il soit fondant.</li><li>Pendant ce temps, ciselez l’ail. </li><li>Effeuillez et ciselez le persil.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637ce8cd3dafca90320e39d2/step-683d1e20.jpg",
-                    "path": "/637ce8cd3dafca90320e39d2/step-683d1e20.jpg",
-                    "caption": "Cuire le poireau"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Une fois le poireau cuit, ajoutez le poulet, l’ail, la crème et la moitié du fromage râpé au wok.Râpez un peu de noix de muscade (selon votre goût), mélangez et laissez réduire 5 min à feu doux. Servez le riz dans les assiettes et nappez du poulet à la crème par-dessus.Saupoudrez de persil et du reste de fromage râpé.",
-            "instructionsHTML": "<ul><li>Une fois le poireau cuit, ajoutez le poulet, l’ail, la crème et la moitié du fromage râpé au wok.</li><li>Râpez un peu de noix de muscade (selon votre goût), mélangez et laissez réduire 5 min <span>à feu doux</span>. </li><li>Servez le riz dans les assiettes et nappez du poulet à la crème par-dessus.</li><li>Saupoudrez de persil et <span>du reste de fromage râpé.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Une fois le poireau cuit, ajoutez le poulet, l’ail, la crème et la moitié du fromage râpé au wok.</li><li>Râpez un peu de noix de muscade (selon votre goût), mélangez et laissez réduire 5 min <span>à feu doux</span>. </li><li>Servez le riz dans les assiettes et nappez du poulet à la crème par-dessus.</li><li>Saupoudrez de persil et <span>du reste de fromage râpé.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/637ce8cd3dafca90320e39d2/step-290f7230.jpg",
-                    "path": "/637ce8cd3dafca90320e39d2/step-290f7230.jpg",
-                    "caption": "Finir et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QFR20161847-7",
-    "updatedAt": "2023-12-08T11:08:25+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff53b",
-            "type": null,
-            "name": "Wok ou sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        }
-    ],
-    "uuid": "113dd74b-5be1-4989-8d3d-7d4ca3e1d354",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/poulet-a-la-creme-poireaux-and-muscade-637ce8cd3dafca90320e39d2",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 1.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 3.75,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 6.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 600,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d'eau salée à ébullition pour le riz.Coupez le poireau en deux dans l'épaisseur, lavez-le bien, puis taillez-le en très fines demi-lunes. Faites cuire le riz 12-14 min dans la casserole. Égouttez-le et réservez-le sans couvercle.",
+        "Coupez le poulet en dés de 2 cm.Faites chauffer un filet d’huile d’olive dans un wok ou une sauteuse à feu moyen-vif. Faites-y cuire le poulet 3-4 min sur tous les côtés, ou jusqu'à ce qu'ils soit doré : il ne doit pas encore être totalement cuit à ce stade. Salez et poivrez. Réservez-le hors du wok.",
+        "Remettez le wok à feu moyen-vif et faites-y fondre une noix de beurre. Ajoutez le poireau, salez et poivrez. Baissez le feu à moyen, couvrez et faites cuire 8-10 min de plus, ou jusqu'à ce qu'il soit fondant.Pendant ce temps, ciselez l’ail. Effeuillez et ciselez le persil.",
+        "Une fois le poireau cuit, ajoutez le poulet, l’ail, la crème et la moitié du fromage râpé au wok.Râpez un peu de noix de muscade (selon votre goût), mélangez et laissez réduire 5 min à feu doux. Servez le riz dans les assiettes et nappez du poulet à la crème par-dessus.Saupoudrez de persil et du reste de fromage râpé."
     ]
 }

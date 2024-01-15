@@ -1,1050 +1,140 @@
 {
-    "active": true,
-    "allergens": [],
-    "averageRating": 3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "QNL0100-8",
-    "country": "FR",
-    "createdAt": "2020-05-27T16:15:08+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053af",
-            "type": "mexican",
-            "name": "Mexicaine",
-            "slug": "mexican",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
-        }
+        "Mexicaine"
     ],
     "description": null,
-    "descriptionHTML": null,
-    "descriptionMarkdown": null,
     "difficulty": 1,
     "favoritesCount": 391,
     "headline": "aux épices, poivrons, oignons, sauce tomate et coriandre",
-    "id": "5ece920baf39e3208746b15c",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF190722_R03_W35_NL_Q0100_Main_low-3c303443.jpg",
-    "imagePath": "/image/HF190722_R03_W35_NL_Q0100_Main_low-3c303443.jpg",
+    "name": "Chili sin carne & guacamole maison",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "5ece920baf39e3208746b15c",
+    "id": "b46d8328-65ae-4290-8dd3-03e31b49a54f",
+    "nutrition": {
+        "kcal": 504,
+        "fat": 33.63,
+        "saturated_fat": 6.4,
+        "carbohydrate": 32.47,
+        "sugars": 15.59,
+        "protein": 12.82,
+        "sodium": 1.37
+    },
+    "tags": [
+        "Quick & easy",
+        "Végétarien",
+        "Famille"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Sauteuse avec couvercle",
+        "Bol"
+    ],
     "ingredients": [
         {
-            "id": "6405bfb8b9d07cd5d38d7baa",
-            "uuid": "a5db2a64-2925-5bc2-bdef-cec329b11eb6",
-            "name": "Riz cargo",
-            "type": "brown-rice",
-            "slug": "riz-cargo",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb8b9d07cd5d38d7baa-5eae915b.png",
-            "imagePath": "/ingredient/6405bfb8b9d07cd5d38d7baa-5eae915b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 170,
+            "unit": "g",
+            "ingredient_id": "c7d922e0-d6ac-4738-87bb-15465d3e711a"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bfceb0da1947779863ba",
-            "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
-            "name": "Oignon rouge",
-            "type": "red-onion",
-            "slug": "oignon-rouge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "imagePath": "/ingredient/6405bfceb0da1947779863ba-fb495964.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "a54e4958-cfe2-4c32-ab86-e731ccc8b6d4",
+            "portion_id": "f6874caa-27a1-4fe4-a617-f1280c865700",
+            "image_id": "6405bfceb0da1947779863ba"
         },
         {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "id": "6405bf2caf4af6d531d50a9c",
-            "uuid": "7c3fcc0d-d339-508a-96e6-082699b85d49",
-            "name": "Poivron jaune",
-            "type": "yellow-bell-pepper",
-            "slug": "poivron-jaune",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf2caf4af6d531d50a9c-dfb88145.png",
-            "imagePath": "/ingredient/6405bf2caf4af6d531d50a9c-dfb88145.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "38eeda8d-892e-4eeb-aaf1-a1b0b3ee3b69",
+            "portion_id": "76e4f5c4-bb8b-4eb7-9239-99af5cecc157",
+            "image_id": "6405bf2caf4af6d531d50a9c"
         },
         {
-            "id": "6405bf35af4af6d531d50ab8",
-            "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
-            "name": "Coriandre",
-            "type": "coriander",
-            "slug": "coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "imagePath": "/ingredient/6405bf35af4af6d531d50ab8-bb328201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "8516cfaa-1729-4f1f-936a-86756878946d"
         },
         {
-            "id": "6405bffdb0da194777986456",
-            "uuid": "401d0e06-b4bd-421f-be94-7b681db0d1c8",
-            "name": "Haricots rouges",
-            "type": "red-beans",
-            "slug": "haricots-rouges",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bffdb0da194777986456-ce22d3d7.png",
-            "imagePath": "/ingredient/6405bffdb0da194777986456-ce22d3d7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.67,
+            "unit": "paquet(s)",
+            "ingredient_id": "7c68a0b9-dd2b-44f2-87e5-b56d486a0134",
+            "portion_id": "ceb54fd9-9539-4e19-a744-5d71de1fbe09",
+            "image_id": "6405bffdb0da194777986456"
         },
         {
-            "id": "6405bfd0b0da1947779863c0",
-            "uuid": "a9702fdb-e742-5fe0-b221-974c1ea5db87",
-            "name": "Épices mexicaines",
-            "type": "mexican-spice",
-            "slug": "epices-mexicaines",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "imagePath": "/ingredient/6405bfd0b0da1947779863c0-991429e6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": "sachet(s)",
+            "ingredient_id": "ae75e647-2ef5-4079-a851-ebba5dcc2f18",
+            "portion_id": "0cd9e5cd-396b-4f6d-afe0-5435899f4adb",
+            "image_id": "6405bfd0b0da1947779863c0"
         },
         {
-            "id": "6405bfdcaf4af6d531d50d0e",
-            "uuid": "54f50019-1750-589b-a12c-b8f2e59a3233",
-            "name": "Chair de tomates",
-            "type": "chopped-tomatoes",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdcaf4af6d531d50d0e-8721012d.png",
-            "imagePath": "/ingredient/6405bfdcaf4af6d531d50d0e-8721012d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "594d9d1d-f73a-426b-826c-83e454a561ab",
+            "portion_id": "a325f635-8528-43d2-a098-e1951a78b738",
+            "image_id": "6405bfdcaf4af6d531d50d0e"
         },
         {
-            "id": "6405bf9fb9d07cd5d38d7b57",
-            "uuid": "4842611c-bce4-5a00-9f96-af40c63b6310",
-            "name": "Avocat",
-            "type": "avocado",
-            "slug": "avocat",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "imagePath": "/ingredient/6405bf9fb9d07cd5d38d7b57-0d4d4a47.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "6b8e6560-a4cd-4dae-bb41-25d38d8bdb4c",
+            "portion_id": "673a042b-e8bd-447e-b9b5-8edc4ad2da58",
+            "image_id": "6405bf9fb9d07cd5d38d7b57"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "6405bf70af4af6d531d50baf",
-            "uuid": "c00fbece-48b7-5e14-b827-db38a6f68484",
-            "name": "Crème aigre",
-            "type": "sour-cream",
-            "slug": "creme-aigre",
-            "country": "FR",
-            "imageLink": null,
-            "imagePath": null,
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "3c5d0d1d-e59f-4aef-bf0f-154f9e142271"
         },
         {
-            "id": "63e51230bc1d64f7b96e270e",
-            "uuid": "757efb09-ead2-4a6b-904d-862ca4f5ccf6",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "imagePath": "/ingredient/63e51230bc1d64f7b96e270e-24c7b904.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "413155cf-2a70-434d-b671-b44fe46200b8",
+            "portion_id": "384dfdd2-69c8-4787-8214-f42569e3ec77",
+            "image_id": "63e51230bc1d64f7b96e270e"
         },
         {
-            "id": "63e5121abc1d64f7b96e2703",
-            "uuid": "992bdbaa-769c-4a52-b731-ce297a918575",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cc",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "imagePath": "/ingredient/63e5121abc1d64f7b96e2703-e97642dc.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "10cd97e4-3773-42b6-9da4-8b6260f1fc71",
+            "portion_id": "0c44c896-35b6-40ce-8afc-1d171821add9",
+            "image_id": "63e5121abc1d64f7b96e2703"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": {
-        "text": "RAPIDO",
-        "handle": "rapid",
-        "foregroundColor": "#FFFFFF",
-        "backgroundColor": "#2771E8",
-        "displayLabel": true
-    },
-    "link": "https://hellofresh.com/recipes/5ece920baf39e3208746b15c",
-    "name": "Chili sin carne & guacamole maison",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 504,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2107,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 33.63,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 6.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 32.47,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 15.59,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 12.82,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.37,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 107,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 567,
-    "slug": "chili-sin-carne-and-guacamole-maison",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Portez 250 ml d’eau par personne à ébullition dans une casserole avec couvercle. Faites cuire le riz à couvert 12 à 15 minutes à feu doux.Émincez ou écrasez l’ail. Taillez l’oignon rouge en demi-rondelles. Épépinez et émincez le piment rouge. Taillez le poivron jaune en fines lanières et hachez grossièrement la coriandre. Égouttez les haricots rouges.CONSEIL: Pour épépiner le piment, coupez le chapeau, retournez-le et roulez-le entre vos mains pour faire sortir les graines.",
-            "instructionsHTML": "<ul><li>Portez 250 ml d’eau par personne à ébullition dans une casserole avec couvercle. Faites cuire le riz à couvert 12 à 15 minutes à feu doux.</li><li><span>Émincez ou écrasez l’ail. Taillez l’oignon rouge en demi-rondelles. </span></li><li><span>Épépinez et émincez le piment rouge. </span></li><li><span>Taillez le poivron jaune en fines lanières et hachez grossièrement la coriandre. </span></li><li><span>Égouttez les haricots rouges.</span></li></ul><p>CONSEIL: Pour épépiner le piment, coupez le chapeau, retournez-le et roulez-le entre vos mains pour faire sortir les graines.</p>",
-            "instructionsMarkdown": "<ul><li>Portez 250 ml d’eau par personne à ébullition dans une casserole avec couvercle. Faites cuire le riz à couvert 12 à 15 minutes à feu doux.</li><li><span>Émincez ou écrasez l’ail. Taillez l’oignon rouge en demi-rondelles. </span></li><li><span>Épépinez et émincez le piment rouge. </span></li><li><span>Taillez le poivron jaune en fines lanières et hachez grossièrement la coriandre. </span></li><li><span>Égouttez les haricots rouges.</span></li></ul><p>CONSEIL: Pour épépiner le piment, coupez le chapeau, retournez-le et roulez-le entre vos mains pour faire sortir les graines.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ece920baf39e3208746b15c/step-5bb44900.jpg",
-                    "path": "/5ece920baf39e3208746b15c/step-5bb44900.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer l’huile d’olive dans une sauteuse et faites revenir l’oignon rouge, les épices mexicaines, la moitié de l’ail et les 3/4 du piment rouge 1 à 2 minutes à feu moyen.Ajoutez le poivron jaune et poursuivez la cuisson 2 minutes.Déglacez avec le vinaigre balsamique blanc. Ajoutez les tomates pelées, les haricots et la moitié de la coriandre à la sauteuse. Laissez mijoter 5 à 6 minutes à couvert.CONSEIL: SI vous n'avez pas de vinaigre balsamique blanc, vous pouvez utilisez du vinaigre balsamique noir.",
-            "instructionsHTML": "<ul><li><span>Faites chauffer l’huile d’olive dans une sauteuse et faites revenir l’oignon rouge, les épices mexicaines, la moitié de l’ail et les 3/4 du piment rouge 1 à 2 minutes à feu moyen.</span></li><li><span>Ajoutez le poivron jaune et poursuivez la cuisson 2 minutes.</span></li><li><span>Déglacez avec le vinaigre balsamique blanc. Ajoutez les tomates pelées, les haricots et la moitié de la coriandre à la sauteuse. Laissez mijoter 5 à 6 minutes à couvert.</span></li></ul><p>CONSEIL: SI vous n&#39;avez pas de vinaigre balsamique blanc, vous pouvez utilisez du vinaigre balsamique noir.</p>",
-            "instructionsMarkdown": "<ul><li><span>Faites chauffer l’huile d’olive dans une sauteuse et faites revenir l’oignon rouge, les épices mexicaines, la moitié de l’ail et les 3/4 du piment rouge 1 à 2 minutes à feu moyen.</span></li><li><span>Ajoutez le poivron jaune et poursuivez la cuisson 2 minutes.</span></li><li><span>Déglacez avec le vinaigre balsamique blanc. Ajoutez les tomates pelées, les haricots et la moitié de la coriandre à la sauteuse. Laissez mijoter 5 à 6 minutes à couvert.</span></li></ul><p>CONSEIL: SI vous n&#39;avez pas de vinaigre balsamique blanc, vous pouvez utilisez du vinaigre balsamique noir.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ece920baf39e3208746b15c/step-91c0c810.jpg",
-                    "path": "/5ece920baf39e3208746b15c/step-91c0c810.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Videz la chair de l’avocat à la cuillère et coupez-la en petits morceaux. Pressez la moitié du citron vert et taillez l’autre en quartiers. Dans un bol, mélangez 1 cs de jus de citron vert par personne, l’avocat ainsi que le reste d’ail et de piment rouge. Salez et poivrez.",
-            "instructionsHTML": "<ul><li>Videz la chair de l’avocat à la cuillère et coupez-la en petits morceaux. </li><li>Pressez la moitié du citron vert et taillez l’autre en quartiers. </li><li>Dans un bol, mélangez 1 cs de jus de citron vert par personne, l’avocat ainsi que le reste d’ail et de piment rouge. Salez et poivrez.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Videz la chair de l’avocat à la cuillère et coupez-la en petits morceaux. </li><li>Pressez la moitié du citron vert et taillez l’autre en quartiers. </li><li>Dans un bol, mélangez 1 cs de jus de citron vert par personne, l’avocat ainsi que le reste d’ail et de piment rouge. Salez et poivrez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ece920baf39e3208746b15c/step-6062b220.jpg",
-                    "path": "/5ece920baf39e3208746b15c/step-6062b220.jpg",
-                    "caption": "Préparer le guacamole"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Servez le riz et disposez le chili sin carne par-dessus. Accompagnez le tout du guacamole et de la crème aigre et garnissez le plat avec le reste de la coriandre et les quartiers de citron vert.",
-            "instructionsHTML": "<ul><li>Servez le riz et disposez le chili sin carne par-dessus. </li><li>Accompagnez le tout du guacamole et de la crème aigre et garnissez le plat avec le reste de la coriandre et les quartiers de citron vert.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez le riz et disposez le chili sin carne par-dessus. </li><li>Accompagnez le tout du guacamole et de la crème aigre et garnissez le plat avec le reste de la coriandre et les quartiers de citron vert.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5ece920baf39e3208746b15c/step-daaee730.jpg",
-                    "path": "/5ece920baf39e3208746b15c/step-daaee730.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b30530e",
-            "type": "under-30-minutes",
-            "name": "Quick & easy",
-            "slug": "quick-easy",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "QNL0100-8",
-    "updatedAt": "2023-10-13T10:39:55+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        }
-    ],
-    "uuid": "1468bf63-e896-49bf-a032-02a8d62a870f",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/chili-sin-carne-and-guacamole-maison-5ece920baf39e3208746b15c",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 85,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 0.33,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 170,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 0.67,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 0.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 335,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 1.33,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.33,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 420,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 1.67,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 1.66,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfb8b9d07cd5d38d7baa",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfceb0da1947779863ba",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf2caf4af6d531d50a9c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf35af4af6d531d50ab8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bffdb0da194777986456",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bfd0b0da1947779863c0",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bfdcaf4af6d531d50d0e",
-                    "amount": 4,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bf9fb9d07cd5d38d7b57",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf70af4af6d531d50baf",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e51230bc1d64f7b96e270e",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121abc1d64f7b96e2703",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Portez 250 ml d’eau par personne à ébullition dans une casserole avec couvercle. Faites cuire le riz à couvert 12 à 15 minutes à feu doux.Émincez ou écrasez l’ail. Taillez l’oignon rouge en demi-rondelles. Épépinez et émincez le piment rouge. Taillez le poivron jaune en fines lanières et hachez grossièrement la coriandre. Égouttez les haricots rouges.CONSEIL: Pour épépiner le piment, coupez le chapeau, retournez-le et roulez-le entre vos mains pour faire sortir les graines.",
+        "Faites chauffer l’huile d’olive dans une sauteuse et faites revenir l’oignon rouge, les épices mexicaines, la moitié de l’ail et les 3/4 du piment rouge 1 à 2 minutes à feu moyen.Ajoutez le poivron jaune et poursuivez la cuisson 2 minutes.Déglacez avec le vinaigre balsamique blanc. Ajoutez les tomates pelées, les haricots et la moitié de la coriandre à la sauteuse. Laissez mijoter 5 à 6 minutes à couvert.CONSEIL: SI vous n'avez pas de vinaigre balsamique blanc, vous pouvez utilisez du vinaigre balsamique noir.",
+        "Videz la chair de l’avocat à la cuillère et coupez-la en petits morceaux. Pressez la moitié du citron vert et taillez l’autre en quartiers. Dans un bol, mélangez 1 cs de jus de citron vert par personne, l’avocat ainsi que le reste d’ail et de piment rouge. Salez et poivrez.",
+        "Servez le riz et disposez le chili sin carne par-dessus. Accompagnez le tout du guacamole et de la crème aigre et garnissez le plat avec le reste de la coriandre et les quartiers de citron vert."
     ]
 }

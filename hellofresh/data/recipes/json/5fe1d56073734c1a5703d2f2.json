@@ -1,1041 +1,136 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.1,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b2",
-        "name": "Veggie",
-        "type": "veggie",
-        "slug": "veggie"
-    },
-    "clonedFrom": null,
-    "comment": "R20161792-1-FR",
-    "country": "FR",
-    "createdAt": "2020-12-22T11:15:46+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b8",
-            "type": "mediterranean",
-            "name": "Mediterranean",
-            "slug": "mediterranean",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b8-f04aa19c.jpg"
-        }
+        "Mediterranean"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 442,
     "headline": "avec du pain pita et une salade de chou râpé",
-    "id": "5fe1d56073734c1a5703d2f2",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF201207_R213_W04_FR_R20161792-1_MB_Main_low-9a6e9709.jpg",
-    "imagePath": "/image/HF201207_R213_W04_FR_R20161792-1_MB_Main_low-9a6e9709.jpg",
+    "name": "Croquettes de pois chiches sauce yaourt à la grecque",
+    "prepTime": 45,
+    "totalTime": 40,
+    "image_id": "5fe1d56073734c1a5703d2f2",
+    "id": "b55ab46e-1922-4361-abf5-89022010c645",
+    "nutrition": {
+        "kcal": 676,
+        "fat": 49.02,
+        "saturated_fat": 7.31,
+        "carbohydrate": 38.4,
+        "sugars": 6.83,
+        "protein": 15.94,
+        "sodium": 0.47
+    },
+    "tags": [
+        "Végétarien"
+    ],
+    "utensils": [
+        "Essuie-tout",
+        "Mixeur ou blender",
+        "Presse-purée",
+        "Saladier",
+        "Bol",
+        "Plaque de cuisson recouverte de papier sulfurisé"
+    ],
     "ingredients": [
         {
-            "id": "6405bfcdb9d07cd5d38d7be7",
-            "uuid": "81ee030d-c41d-5521-acb8-338b9e877fca",
-            "name": "Pois chiches",
-            "type": "chickpeas",
-            "slug": "pois-chiches",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfcdb9d07cd5d38d7be7-d183ad84.png",
-            "imagePath": "/ingredient/6405bfcdb9d07cd5d38d7be7-d183ad84.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "fd0d9a39-1fed-4f2c-b5bd-ed0d8f4257c8",
+            "portion_id": "d7f41b70-f2e7-4d49-ba9f-9778b368635f",
+            "image_id": "6405bfcdb9d07cd5d38d7be7"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405c011af4af6d531d50dcc",
-            "uuid": "0cdb14e0-dc4c-4a49-860f-5f6933ffed3e",
-            "name": "Persil plat et coriandre",
-            "type": "fresh-leaf-parsley-and-coriander",
-            "slug": "persil-plat-et-coriandre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcc-b3b38e08.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcc-b3b38e08.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "g",
+            "ingredient_id": "1940dbac-6021-4592-9398-1aae21b1ae82"
         },
         {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
         },
         {
-            "id": "6405bf7daf4af6d531d50bdd",
-            "uuid": "ae95225f-9805-5f92-afa8-0649e7e90122",
-            "name": "Cumin en poudre",
-            "type": "ground-cumin",
-            "slug": "cumin-en-poudre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf7daf4af6d531d50bdd-999a1fac.png",
-            "imagePath": "/ingredient/6405bf7daf4af6d531d50bdd-999a1fac.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "a63ccc94-ca2d-4976-a0db-137f9bef5748",
+            "portion_id": "2a689171-8df3-47e4-963e-8db1909b18a7",
+            "image_id": "6405bf7daf4af6d531d50bdd"
         },
         {
-            "id": "64073ba8df6297bb5beef100",
-            "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
-            "name": "Yaourt à la grecque",
-            "type": "greek-style-natural-yoghurt",
-            "slug": "yaourt-a-la-grecque",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "107478ae-efe4-4776-9dba-0f0481e3dc68",
+            "portion_id": "185229fb-6004-485d-a622-e5f3207f3aa0",
+            "image_id": "64073ba8df6297bb5beef100"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "6405bf5caf4af6d531d50b68",
-            "uuid": "3a2601e7-2650-4eda-bff1-57617535716d",
-            "name": "Chou rouge et carotte râpés",
-            "type": "red-cabbage-and-carrot",
-            "slug": "chou-rouge-et-carotte-rapes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5caf4af6d531d50b68-154b5b43.png",
-            "imagePath": "/ingredient/6405bf5caf4af6d531d50b68-154b5b43.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "9e696287-2c99-4f75-b16e-a75b365cc03c"
         },
         {
-            "id": "6405bf41af4af6d531d50aec",
-            "uuid": "d727dac9-25b4-5d73-9417-ad3f0ca215fd",
-            "name": "Pain pita",
-            "type": "pita-bread",
-            "slug": "pain-pita",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41af4af6d531d50aec-eed641b7.png",
-            "imagePath": "/ingredient/6405bf41af4af6d531d50aec-eed641b7.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "fce1aeda-68c4-4548-a820-72d610c927df",
+            "portion_id": "f4255794-38a3-435a-bb5a-3603823446b1",
+            "image_id": "6405bf41af4af6d531d50aec"
         },
         {
-            "id": "63e5123581b4b295e66f0261",
-            "uuid": "23b757d4-43a1-4078-a566-5d8331da930b",
-            "name": "Farine",
-            "type": "farine-cs",
-            "slug": "farine",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "imagePath": "/ingredient/63e5123581b4b295e66f0261-0495e0c4.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 4,
+            "unit": "cs",
+            "ingredient_id": "9be5f238-91b9-43ef-9654-5e4a8976e90f",
+            "portion_id": "7d49eeda-c831-40be-bf44-3b8d5006773e",
+            "image_id": "63e5123581b4b295e66f0261"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5120f81b4b295e66f024c",
-            "uuid": "b4e35b51-11dd-40c7-ad89-298e1a7e2589",
-            "name": "Huile de tournesol",
-            "type": "huile-de-tournesol-cs",
-            "slug": "huile-de-tournesol",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "imagePath": "/ingredient/63e5120f81b4b295e66f024c-65554524.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 6,
+            "unit": "cs",
+            "ingredient_id": "a06e5c2f-acd2-4770-8fac-0bdb4343cae2",
+            "portion_id": "4dfe1a5d-34c3-434a-bb66-b3d4f21cc3ad",
+            "image_id": "63e5120f81b4b295e66f024c"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5fe1d56073734c1a5703d2f2",
-    "name": "Croquettes de pois chiches sauce yaourt à la grecque",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 676,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2826,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 49.02,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 7.31,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 38.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 6.83,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 15.94,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 0.47,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT45M",
-    "promotion": null,
-    "ratingsCount": 433,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 331,
-    "slug": "croquettes-de-pois-chiches-sauce-yaourt-a-la-grecque",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200°C si vous n’avez pas de grille-pain. Égouttez, puis déposez les pois chiches sur du papier essuie-tout et laissez-les sécher 5 minutes.Pendant ce temps, émincez l’oignon et pressez ou ciselez l’ail. Ciselez le persil et la coriandre.Pressez le jus de 1/4 de citron par personne. CONSEIL: Pour une meilleure friture, tamponnez bien les pois chiches à l'aide de papier essuie-tout : cela permet d'enlever l'humidité.",
-            "instructionsHTML": "<ul><li>Préchauffez le four à 200°C si vous n’avez pas de grille-pain. </li><li>Égouttez, puis déposez les pois chiches sur du papier essuie-tout et laissez-les sécher 5 minutes.</li><li>Pendant ce temps, émincez l’oignon et pressez ou ciselez l’ail. Ciselez le persil et la coriandre.</li><li>Pressez le jus de 1/4 de citron par personne. </li></ul><p>CONSEIL: Pour une meilleure friture, tamponnez bien les pois chiches à l&#39;aide de papier essuie-tout : cela permet d&#39;enlever l&#39;humidité.</p>",
-            "instructionsMarkdown": "<ul><li>Préchauffez le four à 200°C si vous n’avez pas de grille-pain. </li><li>Égouttez, puis déposez les pois chiches sur du papier essuie-tout et laissez-les sécher 5 minutes.</li><li>Pendant ce temps, émincez l’oignon et pressez ou ciselez l’ail. Ciselez le persil et la coriandre.</li><li>Pressez le jus de 1/4 de citron par personne. </li></ul><p>CONSEIL: Pour une meilleure friture, tamponnez bien les pois chiches à l&#39;aide de papier essuie-tout : cela permet d&#39;enlever l&#39;humidité.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe1d56073734c1a5703d2f2/step-9e12ab00.jpg",
-                    "path": "/5fe1d56073734c1a5703d2f2/step-9e12ab00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Dans un saladier, mixez les pois chiches, l'oignon et 2/3 de l'ail au mixeur plongeant ou au blender jusqu'à obtenir un mélange homogène. Vous pouvez aussi écraser les pois chiches au presse-purée.Ajoutez les 2/3 du persil et de la coriandre ainsi que 1 cc de cumin par personne, du sel et du poivre, puis mixez à nouveau. Ajoutez la farine et mélangez.Réservez au réfrigérateur jusqu'à la cuisson.CONSEIL: Pour des croquettes plus légères, ajoutez 1/2 cc de levure chimique ou de bicarbonate alimentaire.",
-            "instructionsHTML": "<ul><li>Dans un saladier, mixez <span>les pois chiches, l&#39;oignon et 2/3 de l&#39;ail au </span>mixeur plongeant ou au blender jusqu&#39;à obtenir un mélange homogène. Vous pouvez aussi écraser les pois chiches au presse-purée.</li><li>Ajoutez les 2/3 du persil et de la coriandre ainsi que 1 cc de cumin par personne, du sel et du poivre, puis mixez à nouveau. </li><li>Ajoutez la farine et mélangez.</li><li>Réservez au réfrigérateur jusqu&#39;à la cuisson.</li></ul><p>CONSEIL: Pour des croquettes plus légères,  ajoutez 1/2 cc de levure chimique ou de bicarbonate alimentaire.</p>",
-            "instructionsMarkdown": "<ul><li>Dans un saladier, mixez <span>les pois chiches, l&#39;oignon et 2/3 de l&#39;ail au </span>mixeur plongeant ou au blender jusqu&#39;à obtenir un mélange homogène. Vous pouvez aussi écraser les pois chiches au presse-purée.</li><li>Ajoutez les 2/3 du persil et de la coriandre ainsi que 1 cc de cumin par personne, du sel et du poivre, puis mixez à nouveau. </li><li>Ajoutez la farine et mélangez.</li><li>Réservez au réfrigérateur jusqu&#39;à la cuisson.</li></ul><p>CONSEIL: Pour des croquettes plus légères,  ajoutez 1/2 cc de levure chimique ou de bicarbonate alimentaire.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536c",
-                "57e2674fb7e8697d4b305393",
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe1d56073734c1a5703d2f2/step-de79c810.jpg",
-                    "path": "/5fe1d56073734c1a5703d2f2/step-de79c810.jpg",
-                    "caption": "Mixer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans un bol, mélangez le yaourt à la grecque, le reste d'ail, de persil et de coriandre. Ajoutez, par personne, 1/2 cs de jus de citron, 1/2 cc de cumin et mélangez. Salez et poivrez.Réservez au frais jusqu'au moment de servir. Dans un saladier, mélangez par personne, 1/2 cs d'huile d'olive, 1/2 cs de jus de citron et 1/2 cc de cumin.Ajoutez le mesclun ainsi que le mélange de chou et de carottes râpées. Mélangez.",
-            "instructionsHTML": "<ul><li>Dans un bol, mélangez le yaourt à la grecque, le reste d&#39;ail, de<span> persil et de coriandre. Ajoutez,</span> par personne, 1/2 cs de jus de citron, 1/2 cc de cumin et mélangez. Salez et poivrez.</li><li>Réservez au frais jusqu&#39;au moment de servir. </li><li>Dans un saladier, mélangez par personne, 1/2 cs d&#39;huile d&#39;olive, 1/2 cs de jus de citron et 1/2 cc de cumin.</li><li>Ajoutez <span>le mesclun ainsi que le mélange de chou et de carottes râpées. Mélangez.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Dans un bol, mélangez le yaourt à la grecque, le reste d&#39;ail, de<span> persil et de coriandre. Ajoutez,</span> par personne, 1/2 cs de jus de citron, 1/2 cc de cumin et mélangez. Salez et poivrez.</li><li>Réservez au frais jusqu&#39;au moment de servir. </li><li>Dans un saladier, mélangez par personne, 1/2 cs d&#39;huile d&#39;olive, 1/2 cs de jus de citron et 1/2 cc de cumin.</li><li>Ajoutez <span>le mesclun ainsi que le mélange de chou et de carottes râpées. Mélangez.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369",
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe1d56073734c1a5703d2f2/step-4d582020.jpg",
-                    "path": "/5fe1d56073734c1a5703d2f2/step-4d582020.jpg",
-                    "caption": "Faire la sauce et la vinaigrette"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Enfournez les pains pitas sur une plaque de cuisson recouverte de papier sulfurisé 4 à 6 minutes ou toastez-les au grille-pain.",
-            "instructionsHTML": "<ul><li>Enfournez les pains pitas sur une plaque de cuisson recouverte de papier sulfurisé 4 à 6 minutes ou toastez-les au grille-pain.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Enfournez les pains pitas sur une plaque de cuisson recouverte de papier sulfurisé 4 à 6 minutes ou toastez-les au grille-pain.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe1d56073734c1a5703d2f2/step-f5005630.jpg",
-                    "path": "/5fe1d56073734c1a5703d2f2/step-f5005630.jpg",
-                    "caption": "Enfourner les pitas"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Sortez la pâte du réfrigérateur et formez de petites boulettes rondes avec vos mains. Placez de l'essuie-tout sur une assiette pour y déposer les croquettes après cuisson.Faites chauffer 5 cs d’huile de tournesol par personne dans une poêle de taille moyenne à feu moyen-vif. Lorsque l’huile est bien chaude, faites-y cuire les croquettes 3 à 4 minutes de chaque côté ou jusqu'à ce qu'elles soient bien dorées.",
-            "instructionsHTML": "<ul><li>Sortez la pâte du réfrigérateur et formez de petites boulettes rondes avec vos mains. </li><li>Placez de l&#39;essuie-tout sur une assiette pour y déposer les croquettes après cuisson.</li><li>Faites chauffer 5 cs d’huile de tournesol par personne dans une poêle de taille moyenne à feu moyen-vif. </li><li>Lorsque l’huile est bien chaude, faites-y cuire les croquettes 3 à 4 minutes de chaque côté ou jusqu&#39;à ce qu&#39;elles soient bien dorées.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Sortez la pâte du réfrigérateur et formez de petites boulettes rondes avec vos mains. </li><li>Placez de l&#39;essuie-tout sur une assiette pour y déposer les croquettes après cuisson.</li><li>Faites chauffer 5 cs d’huile de tournesol par personne dans une poêle de taille moyenne à feu moyen-vif. </li><li>Lorsque l’huile est bien chaude, faites-y cuire les croquettes 3 à 4 minutes de chaque côté ou jusqu&#39;à ce qu&#39;elles soient bien dorées.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe1d56073734c1a5703d2f2/step-479e0340.jpg",
-                    "path": "/5fe1d56073734c1a5703d2f2/step-479e0340.jpg",
-                    "caption": "Cuire les croquettes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les croquettes dans les pains pita avec la salade et la sauce au yaourt à la grecque.CONSEIL: Vous pouvez également déguster les croquettes uniquement avec la sauce au yaourt ou le mélange de salade, et garder le pain pita à côté pour le tremper dans la sauce.",
-            "instructionsHTML": "<ul><li>Servez les croquettes dans les pains pita avec la salade et la sauce au yaourt à la grecque.</li></ul><p>CONSEIL: Vous pouvez également déguster les croquettes uniquement avec la sauce au yaourt ou le mélange de salade, et garder le pain pita à côté pour le tremper dans la sauce.</p>",
-            "instructionsMarkdown": "<ul><li>Servez les croquettes dans les pains pita avec la salade et la sauce au yaourt à la grecque.</li></ul><p>CONSEIL: Vous pouvez également déguster les croquettes uniquement avec la sauce au yaourt ou le mélange de salade, et garder le pain pita à côté pour le tremper dans la sauce.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5fe1d56073734c1a5703d2f2/step-da4afc50.jpg",
-                    "path": "/5fe1d56073734c1a5703d2f2/step-da4afc50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "5dd59eac54c6937e2472f602",
-            "type": "vegetarian",
-            "name": "Végétarien",
-            "slug": "vegetarien",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT40M",
-    "uniqueRecipeCode": "R20161792-1",
-    "updatedAt": "2023-10-13T10:40:26+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536c",
-            "type": "foodprocessor",
-            "name": "Mixeur ou blender"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305393",
-            "type": "potato-masher",
-            "name": "Presse-purée"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        }
-    ],
-    "uuid": "f3df0c2d-a6cb-42ba-8ac6-627957705988",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/croquettes-de-pois-chiches-sauce-yaourt-a-la-grecque-5fe1d56073734c1a5703d2f2",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 0.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcc",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 0.6,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcc",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcc",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1.9,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcc",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 8,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 2.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 7.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcc",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 2.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2.9,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 10,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 14,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfcdb9d07cd5d38d7be7",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 9,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcc",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf7daf4af6d531d50bdd",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 3.8,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf5caf4af6d531d50b68",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41af4af6d531d50aec",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "63e5123581b4b295e66f0261",
-                    "amount": 12,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5120f81b4b295e66f024c",
-                    "amount": 16,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200°C si vous n’avez pas de grille-pain. Égouttez, puis déposez les pois chiches sur du papier essuie-tout et laissez-les sécher 5 minutes.Pendant ce temps, émincez l’oignon et pressez ou ciselez l’ail. Ciselez le persil et la coriandre.Pressez le jus de 1/4 de citron par personne. CONSEIL: Pour une meilleure friture, tamponnez bien les pois chiches à l'aide de papier essuie-tout : cela permet d'enlever l'humidité.",
+        "Dans un saladier, mixez les pois chiches, l'oignon et 2/3 de l'ail au mixeur plongeant ou au blender jusqu'à obtenir un mélange homogène. Vous pouvez aussi écraser les pois chiches au presse-purée.Ajoutez les 2/3 du persil et de la coriandre ainsi que 1 cc de cumin par personne, du sel et du poivre, puis mixez à nouveau. Ajoutez la farine et mélangez.Réservez au réfrigérateur jusqu'à la cuisson.CONSEIL: Pour des croquettes plus légères, ajoutez 1/2 cc de levure chimique ou de bicarbonate alimentaire.",
+        "Dans un bol, mélangez le yaourt à la grecque, le reste d'ail, de persil et de coriandre. Ajoutez, par personne, 1/2 cs de jus de citron, 1/2 cc de cumin et mélangez. Salez et poivrez.Réservez au frais jusqu'au moment de servir. Dans un saladier, mélangez par personne, 1/2 cs d'huile d'olive, 1/2 cs de jus de citron et 1/2 cc de cumin.Ajoutez le mesclun ainsi que le mélange de chou et de carottes râpées. Mélangez.",
+        "Enfournez les pains pitas sur une plaque de cuisson recouverte de papier sulfurisé 4 à 6 minutes ou toastez-les au grille-pain.",
+        "Sortez la pâte du réfrigérateur et formez de petites boulettes rondes avec vos mains. Placez de l'essuie-tout sur une assiette pour y déposer les croquettes après cuisson.Faites chauffer 5 cs d’huile de tournesol par personne dans une poêle de taille moyenne à feu moyen-vif. Lorsque l’huile est bien chaude, faites-y cuire les croquettes 3 à 4 minutes de chaque côté ou jusqu'à ce qu'elles soient bien dorées.",
+        "Servez les croquettes dans les pains pita avec la salade et la sauce au yaourt à la grecque.CONSEIL: Vous pouvez également déguster les croquettes uniquement avec la sauce au yaourt ou le mélange de salade, et garder le pain pita à côté pour le tremper dans la sauce."
     ]
 }

@@ -1,895 +1,115 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": "https://hellofresh.com/recipecards/card/schelvisfilet-met-ontbijtspek-en-citroen-5b645d7fae08b57e4d50f743-dc135978.pdf",
-    "category": null,
-    "clonedFrom": "5b645a6730006c5b7750cdd2",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2018-08-03T13:49:51+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": "Associés à du poisson blanc, l'acidité du citron et le salé du lard créent le parfait équilibre. Proche cousin du cabillaud, l'églefin a un goût légèrement plus prononcé et sa chair est plus tendre. Ce filet d'églefin est certifié MSC et donc issu d'une pêche durable labelisée. Pour en apprendre davantage sur l'églefin, plongez dans notre blog !",
-    "descriptionHTML": "<p>Associés à du poisson blanc, l'acidité du citron et le salé du lard créent le parfait équilibre. Proche cousin du cabillaud, l'églefin a un goût légèrement plus prononcé et sa chair est plus tendre. Ce filet d'églefin est certifié MSC et donc issu d'une pêche durable labelisée. Pour en apprendre davantage sur l'églefin, plongez dans notre blog !</p>",
-    "descriptionMarkdown": "Associés à du poisson blanc, l'acidité du citron et le salé du lard créent le parfait équilibre. Proche cousin du cabillaud, l'églefin a un goût légèrement plus prononcé et sa chair est plus tendre. Ce filet d'églefin est certifié MSC et donc issu d'une pêche durable labelisée. Pour en apprendre davantage sur l'églefin, plongez dans notre blog !",
     "difficulty": 2,
     "favoritesCount": 15,
     "headline": "Avec une purée estivale aux épinards et aux tomates",
-    "id": "5b645d7fae08b57e4d50f743",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5b645d7fae08b57e4d50f743-667ec0ae.jpg",
-    "imagePath": "/image/5b645d7fae08b57e4d50f743-667ec0ae.jpg",
+    "name": "Filet d'églefin au citron et au lard",
+    "prepTime": 30,
+    "totalTime": null,
+    "image_id": "5b645d7fae08b57e4d50f743",
+    "id": "d2e2fee0-7419-4b67-83d6-aff4c58e359e",
+    "nutrition": {
+        "kcal": 679,
+        "fat": 31,
+        "saturated_fat": 12.3,
+        "carbohydrate": 62,
+        "sugars": 6.5,
+        "protein": 31,
+        "sodium": 1
+    },
+    "tags": [
+        "À faire rapidement"
+    ],
+    "utensils": [
+        "Casserole avec couvercle",
+        "Éplucheur",
+        "Râpe",
+        "Wok",
+        "Poêle",
+        "Presse-purée"
+    ],
     "ingredients": [
         {
-            "id": "5b14e99330006c122f6c9246",
-            "uuid": "5b404e62-02fa-5351-ab16-09e8b5c9e1e4",
-            "name": "Pommes de terre Franceline",
-            "type": "QDOC-PHF-10-16286-4",
-            "slug": "pommes-de-terre-franceline",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5b14e2af30006c0cf002b562-d5b74be4.png",
-            "imagePath": "/ingredient/5b14e2af30006c0cf002b562-d5b74be4.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 600,
+            "unit": "g",
+            "ingredient_id": "2b1d2708-39bc-409d-81fb-cdf5f701662a"
         },
         {
-            "id": "5c950d77c445fa28926e8832",
-            "uuid": "f726152b-cf71-5275-b4ad-8d1cd402ff98",
-            "name": "Citron jaune",
-            "type": "qdoc-phf-10-16721-4",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c950d77c445fa28926e8832-ae27442b.png",
-            "imagePath": "/ingredient/5c950d77c445fa28926e8832-ae27442b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbc5",
-                "uuid": "3f3c3cbb-7960-5dcd-be95-cdb72d76e1a1",
-                "name": "citron",
-                "slug": "citron",
-                "type": "lemon",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "abf8438c-b53a-4f3c-8d92-1a524d4783ab",
+            "portion_id": "512b1513-0f41-4aef-a7bd-53efe928281b",
+            "image_id": "5c950d77c445fa28926e8832"
         },
         {
-            "id": "5af2be9aae08b5194415a37c",
-            "uuid": "dab797f3-4d99-5cce-be45-ef3344b5fbbc",
-            "name": "Filet d'églefin sans peau",
-            "type": "QDOC-PTN-10-11149-4",
-            "slug": "filet-d-eglefin-sans-peau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredients/58de11c9043c3c247164d5a2-c0fcb352.png",
-            "imagePath": "/ingredients/58de11c9043c3c247164d5a2-c0fcb352.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc29",
-                "uuid": "b0d9dcaa-bdfb-553e-817d-006d4d0f4e1e",
-                "name": "fruits de mer",
-                "slug": "fruits-de-mer",
-                "type": "seafood",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "g",
+            "ingredient_id": "73bf90ff-62c5-4764-a5ec-599977f9b1dc"
         },
         {
-            "id": "5af2be9dae08b5194415a386",
-            "uuid": "d1391476-5de8-54bc-8568-80998f2889ca",
-            "name": "Lard",
-            "type": "QDOC-PTN-10-10680-4",
-            "slug": "lard",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredients/58fbc8dfc9fd081347734653-64c94f04.png",
-            "imagePath": "/ingredients/58fbc8dfc9fd081347734653-64c94f04.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 4,
+            "unit": "tranche(s)",
+            "ingredient_id": "01dbf904-632b-46a6-a18c-d50e10f5bd68",
+            "portion_id": "30ad7a5f-a3ef-440d-b7cf-18aa21920391",
+            "image_id": "5af2be9dae08b5194415a386"
         },
         {
-            "id": "5af2be50ae08b5194415a267",
-            "uuid": "0703e2e3-6c52-5210-b3d2-85df634f1445",
-            "name": "Tomate",
-            "type": "QDOC-PHF-10-16081-4",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a55334dab71626c8b4570.png",
-            "imagePath": "/image/554a55334dab71626c8b4570.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "5cdd452e-588c-406c-a378-93ca85346178",
+            "portion_id": "07f947f6-61be-46ad-b8ff-2023624d048c",
+            "image_id": "5af2be50ae08b5194415a267"
         },
         {
-            "id": "5c8bcd9de3f33973480ec962",
-            "uuid": "2a70261c-ee65-514b-9142-7e4e6d9035d9",
-            "name": "Gousse d'ail",
-            "type": "qdoc-phf-10-16851-4",
-            "slug": "ail-gousse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "imagePath": "/ingredient/5c8bcd9de3f33973480ec962-3a8e669d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fba4",
-                "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
-                "name": "ail",
-                "slug": "ail",
-                "type": "garlic",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "7b4e9ae1-f33a-4935-9557-720bcdd0ac89",
+            "portion_id": "74d6ed1b-2dda-4433-8a59-436a479a028d",
+            "image_id": "5c8bcd9de3f33973480ec962"
         },
         {
-            "id": "5af2be60ae08b5194415a2a2",
-            "uuid": "57a12037-b35c-5236-a06b-982e4aad7fd7",
-            "name": "Épinards",
-            "type": "QDOC-PHF-10-16077-4",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a53a4f8b25e1c268b456e.png",
-            "imagePath": "/image/554a53a4f8b25e1c268b456e.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": null
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "1d57e44a-bcc6-4537-b6ac-4132d1876cec"
         },
         {
-            "id": "5c8bcd9be3f3397358648c92",
-            "uuid": "9ee0d86f-1a50-54cc-9108-8ac7ea81a416",
-            "name": "Huile d'olive",
-            "type": "zt-olijfolie",
-            "slug": "huile-d-olive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbeb",
-                "uuid": "7c98f5ea-c7e6-530f-a8f7-837099e95a74",
-                "name": "huile",
-                "slug": "huile",
-                "type": "olive-oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "4ad6ce62-92c2-4612-8824-4fa5ed85fb05",
+            "portion_id": "d41c3d6a-8812-46d6-9e43-7327b8440275",
+            "image_id": "5c8bcd9be3f3397358648c92"
         },
         {
-            "id": "5c8bcd9ce3f3397358648c95",
-            "uuid": "19d86b63-a223-5129-8979-a429c1d5d94a",
-            "name": "Beurre",
-            "type": "zt-roomboter",
-            "slug": "beurre-non-sale",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "imagePath": "/ingredient/5c8bcd9ce3f3397358648c95-9d60c002.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb5b",
-                "uuid": "e1a21c36-6c62-5638-9364-d39039f0b218",
-                "name": "beurre",
-                "slug": "beurre",
-                "type": "butter",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "10202ca7-aba7-48a2-b8ce-1bbf5ab3bf02",
+            "portion_id": "4c0e14e1-a159-4138-aa12-f9ce440d3a23",
+            "image_id": "5c8bcd9ce3f3397358648c95"
         },
         {
-            "id": "5af2be5aae08b5194415a28a",
-            "uuid": "13538fd1-fdb5-5c80-ad7e-70582b967fac",
-            "name": "Moutarde",
-            "type": "zt-mosterd",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a54ac4dab71636c8b4573.png",
-            "imagePath": "/image/554a54ac4dab71636c8b4573.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbdf",
-                "uuid": "0ea834fb-414e-5a5e-9a21-78dfb810042b",
-                "name": "moutarde",
-                "slug": "moutarde",
-                "type": "mustard",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "cc",
+            "ingredient_id": "5633114e-7198-4a79-9c9f-92cd54cdc351",
+            "portion_id": "04fc5d92-30c2-4645-bbe7-71c4a660d6b9",
+            "image_id": "5af2be5aae08b5194415a28a"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5b645d7fae08b57e4d50f743",
-    "name": "Filet d'églefin au citron et au lard",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2841,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 679,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 31,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 12.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 62,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 6.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 31,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 6,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 667,
-    "slug": "filet-deglefin-au-citron-et-au-lard",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Épluchez les pommes de terre et coupez-les grossièrement. Dans la casserole, versez de l’eau à hauteur des pommes de terre. Portez à ébullition et faites cuire 12 à 15 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.",
-            "instructionsHTML": "<p>Épluchez les pommes de terre et coupez-les grossièrement. Dans la casserole, versez de l’eau à hauteur des pommes de terre. Portez à ébullition et faites cuire 12 à 15 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.</p>",
-            "instructionsMarkdown": "Épluchez les pommes de terre et coupez-les grossièrement. Dans la casserole, versez de l’eau à hauteur des pommes de terre. Portez à ébullition et faites cuire 12 à 15 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.",
-            "ingredients": [
-                "5b14e99330006c122f6c9246"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b",
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire les pommes de terre à couvert",
-                    "duration": "PT15M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b645d7fae08b57e4d50f743/step-677e70ca.jpg",
-                    "path": "/5b645d7fae08b57e4d50f743/step-677e70ca.jpg",
-                    "caption": "Pommes de terre"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Prélevez le zeste du citron, puis taillez-le en quartiers. Saupoudrez le filet d’églefin de 1/4 cc de zeste de citron par personne, puis salez et poivrez. Enroulez chaque filet d’églefin dans 2 tranches de lard.",
-            "instructionsHTML": "<p>Prélevez le zeste du citron, puis taillez-le en quartiers. Saupoudrez le filet d’églefin de 1/4 cc de zeste de citron par personne, puis salez et poivrez. Enroulez chaque filet d’églefin dans 2 tranches de lard.</p>",
-            "instructionsMarkdown": "Prélevez le zeste du citron, puis taillez-le en quartiers. Saupoudrez le filet d’églefin de 1/4 cc de zeste de citron par personne, puis salez et poivrez. Enroulez chaque filet d’églefin dans 2 tranches de lard.",
-            "ingredients": [
-                "5c950d77c445fa28926e8832",
-                "5af2be9dae08b5194415a386",
-                "5af2be9aae08b5194415a37c"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b645d7fae08b57e4d50f743/step-07292ed5.jpg",
-                    "path": "/5b645d7fae08b57e4d50f743/step-07292ed5.jpg",
-                    "caption": "Préparer poisson"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Coupez les tomates en dés et écrasez ou émincez l’ail. Faites chauffer la moitié de l’huile d’olive dans le wok ou la sauteuse et faites revenir l’ail et les épinards 4 à 5 minutes, éventuellement en plusieurs fois. Ajoutez les dés de tomates et poursuivez la cuisson 2 à 3 minutes.",
-            "instructionsHTML": "<p>Coupez les tomates en dés et écrasez ou émincez l’ail. Faites chauffer la moitié de l’huile d’olive dans le wok ou la sauteuse et faites revenir l’ail et les épinards 4 à 5 minutes, éventuellement en plusieurs fois. Ajoutez les dés de tomates et poursuivez la cuisson 2 à 3 minutes.</p>",
-            "instructionsMarkdown": "Coupez les tomates en dés et écrasez ou émincez l’ail. Faites chauffer la moitié de l’huile d’olive dans le wok ou la sauteuse et faites revenir l’ail et les épinards 4 à 5 minutes, éventuellement en plusieurs fois. Ajoutez les dés de tomates et poursuivez la cuisson 2 à 3 minutes.",
-            "ingredients": [
-                "5c8bcd9de3f33973480ec962",
-                "5c8bcd9be3f3397358648c92",
-                "5af2be60ae08b5194415a2a2",
-                "5af2be50ae08b5194415a267"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305387"
-            ],
-            "timers": [
-                {
-                    "name": "Faites revenir l’ail et les épinards",
-                    "duration": "PT05M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                },
-                {
-                    "name": "Ajoutez les dés de tomates",
-                    "duration": "PT03M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b645d7fae08b57e4d50f743/step-684f0667.jpg",
-                    "path": "/5b645d7fae08b57e4d50f743/step-684f0667.jpg",
-                    "caption": "Groenten bakken"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Dans la poêle, chauffez le reste d’huile d’olive à feu moyen-vif et faites cuire l’églefin 2 à 3 minutes de chaque côté.",
-            "instructionsHTML": "<p>Dans la poêle, chauffez le reste d’huile d’olive à feu moyen-vif et faites cuire l’églefin 2 à 3 minutes de chaque côté.</p>",
-            "instructionsMarkdown": "Dans la poêle, chauffez le reste d’huile d’olive à feu moyen-vif et faites cuire l’églefin 2 à 3 minutes de chaque côté.",
-            "ingredients": [
-                "5af2be9aae08b5194415a37c"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [
-                {
-                    "name": "Cuire le poisson de chaque côté",
-                    "duration": "PT03M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b645d7fae08b57e4d50f743/step-eacce10d.jpg",
-                    "path": "/5b645d7fae08b57e4d50f743/step-eacce10d.jpg",
-                    "caption": "Cuire le poisson"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Écrasez les pommes de terre, le beurre et la moutarde à l’aide du presse-purée. Ajoutez les épinards et les tomates, versez la graisse de cuisson du poisson sur le tout, puis salez et poivrez.",
-            "instructionsHTML": "<p>Écrasez les pommes de terre, le beurre et la moutarde à l’aide du presse-purée. Ajoutez les épinards et les tomates, versez la graisse de cuisson du poisson sur le tout, puis salez et poivrez.</p>",
-            "instructionsMarkdown": "Écrasez les pommes de terre, le beurre et la moutarde à l’aide du presse-purée. Ajoutez les épinards et les tomates, versez la graisse de cuisson du poisson sur le tout, puis salez et poivrez.",
-            "ingredients": [
-                "5c8bcd9ce3f3397358648c95",
-                "5af2be5aae08b5194415a28a",
-                "5c8bcd9be3f3397358648c93"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305393"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b645d7fae08b57e4d50f743/step-3851c5b4.jpg",
-                    "path": "/5b645d7fae08b57e4d50f743/step-3851c5b4.jpg",
-                    "caption": "Purée"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez l’églefin avec la purée aux épinards et les quartiers de citron.",
-            "instructionsHTML": "<p>Servez l’églefin avec la purée aux épinards et les quartiers de citron.</p>",
-            "instructionsMarkdown": "Servez l’églefin avec la purée aux épinards et les quartiers de citron.",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5b645d7fae08b57e4d50f743/step-19a05aa6.jpg",
-                    "path": "/5b645d7fae08b57e4d50f743/step-19a05aa6.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-13T10:38:59+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305387",
-            "type": "wok",
-            "name": "Wok"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305393",
-            "type": "potato-masher",
-            "name": "Presse-purée"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/filet-deglefin-au-citron-et-au-lard-5b645d7fae08b57e4d50f743",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5b14e99330006c122f6c9246",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be9aae08b5194415a37c",
-                    "amount": 1,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be9dae08b5194415a386",
-                    "amount": 2,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5b14e99330006c122f6c9246",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be9aae08b5194415a37c",
-                    "amount": 2,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be9dae08b5194415a386",
-                    "amount": 4,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5b14e99330006c122f6c9246",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be9aae08b5194415a37c",
-                    "amount": 3,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be9dae08b5194415a386",
-                    "amount": 6,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 4.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5b14e99330006c122f6c9246",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be9aae08b5194415a37c",
-                    "amount": 4,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be9dae08b5194415a386",
-                    "amount": 8,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5b14e99330006c122f6c9246",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be9aae08b5194415a37c",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be9dae08b5194415a386",
-                    "amount": 10,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 7.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5b14e99330006c122f6c9246",
-                    "amount": 1800,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c950d77c445fa28926e8832",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be9aae08b5194415a37c",
-                    "amount": 6,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be9dae08b5194415a386",
-                    "amount": 12,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "5af2be50ae08b5194415a267",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5c8bcd9de3f33973480ec962",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2be60ae08b5194415a2a2",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9ce3f3397358648c95",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5af2be5aae08b5194415a28a",
-                    "amount": 9,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Épluchez les pommes de terre et coupez-les grossièrement. Dans la casserole, versez de l’eau à hauteur des pommes de terre. Portez à ébullition et faites cuire 12 à 15 minutes à couvert. Ensuite, égouttez et réservez sans couvercle.",
+        "Prélevez le zeste du citron, puis taillez-le en quartiers. Saupoudrez le filet d’églefin de 1/4 cc de zeste de citron par personne, puis salez et poivrez. Enroulez chaque filet d’églefin dans 2 tranches de lard.",
+        "Coupez les tomates en dés et écrasez ou émincez l’ail. Faites chauffer la moitié de l’huile d’olive dans le wok ou la sauteuse et faites revenir l’ail et les épinards 4 à 5 minutes, éventuellement en plusieurs fois. Ajoutez les dés de tomates et poursuivez la cuisson 2 à 3 minutes.",
+        "Dans la poêle, chauffez le reste d’huile d’olive à feu moyen-vif et faites cuire l’églefin 2 à 3 minutes de chaque côté.",
+        "Écrasez les pommes de terre, le beurre et la moutarde à l’aide du presse-purée. Ajoutez les épinards et les tomates, versez la graisse de cuisson du poisson sur le tout, puis salez et poivrez.",
+        "Servez l’églefin avec la purée aux épinards et les quartiers de citron."
     ]
 }

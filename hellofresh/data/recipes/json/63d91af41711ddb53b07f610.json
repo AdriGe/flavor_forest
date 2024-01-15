@@ -1,1099 +1,139 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": "638f696b610939ff34060400",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/lieu-and-legumes-dhiver-gratines-au-parmesan-638f696b610939ff34060400",
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039b1",
-        "name": "Seafood",
-        "type": "seafood",
-        "slug": "Seafood"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804349-2",
-    "country": "FR",
-    "createdAt": "2023-01-31T13:43:17+00:00",
     "cuisines": [],
     "description": "Connaissez-vous le panais, mystérieux cousin de la carotte ? De couleur blanc ivoire et au goût légèrement sucré, il souffre des préjugés : on ne saurait ni le reconnaître, ni le préparer ! Pourtant, on trouve désormais partout ce légume ancien peu cher et facile à cuisiner. La preuve avec ce délicieux gratin de lieu au parmesan, accompagné d'une salade bien fraîche ! Le fromage utilisé dans ce plat contient de la présure animale. ",
-    "descriptionHTML": "<p>Connaissez-vous le panais, mystérieux cousin de la carotte ? De couleur blanc ivoire et au goût légèrement sucré, il souffre des préjugés : on ne saurait ni le reconnaître, ni le préparer ! Pourtant, on trouve désormais partout ce légume ancien peu cher et facile à cuisiner. La preuve avec ce délicieux gratin de lieu au parmesan, accompagné d'une salade bien fraîche ! Le fromage utilisé dans ce plat contient de la présure animale.\t\t\t</p>",
-    "descriptionMarkdown": "Connaissez-vous le panais, mystérieux cousin de la carotte ? De couleur blanc ivoire et au goût légèrement sucré, il souffre des préjugés : on ne saurait ni le reconnaître, ni le préparer ! Pourtant, on trouve désormais partout ce légume ancien peu cher et facile à cuisiner. La preuve avec ce délicieux gratin de lieu au parmesan, accompagné d'une salade bien fraîche ! Le fromage utilisé dans ce plat contient de la présure animale.\t\t\t",
     "difficulty": 2,
     "favoritesCount": 345,
     "headline": "avec une salade vinaigrée",
-    "id": "63d91af41711ddb53b07f610",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF221114_R215_W01_FR_RFR29804349-1_KB_Main_low-c12c1602.jpg",
-    "imagePath": "/image/HF221114_R215_W01_FR_RFR29804349-1_KB_Main_low-c12c1602.jpg",
+    "name": "Lieu & légumes d'hiver gratinés au parmesan",
+    "prepTime": 40,
+    "totalTime": 30,
+    "image_id": "63d91af41711ddb53b07f610",
+    "id": "fb6f3942-20a4-496f-8c08-799d68b4604c",
+    "nutrition": {
+        "kcal": 633,
+        "fat": 40.48,
+        "saturated_fat": 22.34,
+        "carbohydrate": 31.46,
+        "sugars": 16.58,
+        "protein": 33.85,
+        "sodium": 1.1
+    },
+    "tags": [
+        "<30g glucides",
+        "<650 Kcal"
+    ],
+    "utensils": [
+        "Râpe",
+        "Éplucheur",
+        "Casserole",
+        "Saladier",
+        "Plat à four"
+    ],
     "ingredients": [
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bfe8af4af6d531d50d34",
-            "uuid": "f591cc12-e408-52ec-9321-c73329bc2aa2",
-            "name": "Panais",
-            "type": "parsnip",
-            "slug": "panais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfe8af4af6d531d50d34-47815d39.png",
-            "imagePath": "/ingredient/6405bfe8af4af6d531d50d34-47815d39.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "50e5eae2-e98f-4d8e-b25f-30e607e2e717"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "64073bba683721c9a32b074e",
-            "uuid": "f6f00d5f-d551-5f8b-a935-a440152af609",
-            "name": "Parmigiano Reggiano AOP",
-            "type": "parmigiano-reggiano",
-            "slug": "parmigiano-reggiano-aop",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf52af4af6d531d50b30-f4d8c00f.png",
-            "imagePath": "/ingredient/6405bf52af4af6d531d50b30-f4d8c00f.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "d154a79b-5635-4fee-9d45-31c52103638d",
+            "portion_id": "03c6d457-3b59-45a1-a004-4b41b542bbd6",
+            "image_id": "64073bba683721c9a32b074e"
         },
         {
-            "id": "6405bf48b9d07cd5d38d7a14",
-            "uuid": "cf5787dc-613d-510e-988e-2a2d5c1e2fe9",
-            "name": "Thym séché",
-            "type": "dried-thyme",
-            "slug": "thym-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "imagePath": "/ingredient/6405bf48b9d07cd5d38d7a14-1a7ae6d0.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "2c3977d4-a9c0-44d5-9edc-db5856a2c6bd",
+            "portion_id": "53b48a62-b026-4d46-8b15-5b913151a9d3",
+            "image_id": "6405bf48b9d07cd5d38d7a14"
         },
         {
-            "id": "64073ba6df6297bb5beef0f4",
-            "uuid": "1900d2d4-2bd6-5097-a7bb-a815555b5b14",
-            "name": "Crème liquide",
-            "type": "cooking-cream",
-            "slug": "creme-liquide",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "imagePath": "/ingredient/6405bfc1b0da19477798638c-a43442fb.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "ml",
+            "ingredient_id": "002d9025-90de-45f4-95ea-04c36ca1e75b"
         },
         {
-            "id": "64073bab9c6d10cd16eab61c",
-            "uuid": "0ab41eb7-9a04-5673-b375-aa760aab119f",
-            "name": "Filet de lieu noir",
-            "type": "pollock",
-            "slug": "filet-de-lieu-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb1b0da194777986354-a8b0bfee.png",
-            "imagePath": "/ingredient/6405bfb1b0da194777986354-a8b0bfee.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "044d3121-ed88-40a2-9dd1-16a7d2c6b095",
+            "portion_id": "4240bed6-0c28-4b7a-825e-1be9df2f7da1",
+            "image_id": "64073bab9c6d10cd16eab61c"
         },
         {
-            "id": "6405bfb6b9d07cd5d38d7ba3",
-            "uuid": "a6e1c36d-10e9-50a3-9b14-b914bda64151",
-            "name": "Noix de muscade",
-            "type": "nutmeg",
-            "slug": "noix-de-muscade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "imagePath": "/ingredient/6405bfb6b9d07cd5d38d7ba3-f84dd11d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 10,
+            "unit": "pincée(s)",
+            "ingredient_id": "eea37b97-9ba3-47db-89eb-d00559899bdc",
+            "portion_id": "35093b46-fecb-4158-b41d-3579166bb027",
+            "image_id": "6405bfb6b9d07cd5d38d7ba3"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e51229bc1d64f7b96e270b",
-            "uuid": "a0b0fc8e-2f68-472b-b727-cfae8306a2c4",
-            "name": "Lait",
-            "type": "lait-ml",
-            "slug": "lait",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51229bc1d64f7b96e270b-65046296.png",
-            "imagePath": "/ingredient/63e51229bc1d64f7b96e270b-65046296.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 50,
+            "unit": "ml",
+            "ingredient_id": "6f9e620a-3d17-42f7-a11a-e1484c355fff"
         },
         {
-            "id": "63e51223bc1d64f7b96e2708",
-            "uuid": "493382b6-298f-4b49-8ab9-1d70a8a1b139",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cs",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51223bc1d64f7b96e2708-8d6e8bd0.png",
-            "imagePath": "/ingredient/63e51223bc1d64f7b96e2708-8d6e8bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "0c31878c-82e8-457c-a231-63113e45336e",
+            "portion_id": "397810c8-a209-49ce-9d61-0c0c54f05ca2",
+            "image_id": "63e51223bc1d64f7b96e2708"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/63d91af41711ddb53b07f610",
-    "name": "Lieu & légumes d'hiver gratinés au parmesan",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 633,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2649,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 40.48,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 22.34,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 31.46,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 16.58,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 33.85,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.1,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 1090,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 487,
-    "slug": "lieu-and-legumes-dhiver-gratines-au-parmesan",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !*Épluchez et coupez la carotte et le panais en fines demi-lunes de 5 mm.*Ciselez l'ail. Râpez le parmesan.",
-            "instructionsHTML": "<p><span>*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></p><p><span>*É</span>pluchez et coupez la carotte et le panais en fines demi-lunes de 5 mm.</p><p>*Ciselez l&#39;ail. Râpez le parmesan.</p>",
-            "instructionsMarkdown": "<p><span>*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></p><p><span>*É</span>pluchez et coupez la carotte et le panais en fines demi-lunes de 5 mm.</p><p>*Ciselez l&#39;ail. Râpez le parmesan.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e",
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63d91af41711ddb53b07f610/step-ba8f4200.jpg",
-                    "path": "/63d91af41711ddb53b07f610/step-ba8f4200.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "*Faites chauffer une noix de beurre et un léger filet d'huile d'olive dans une casserole à feu moyen-vif. Faites-y revenir la carotte, le panais et l’ail 3-5 min.*Ajoutez ½ cc de thym séché par personne, la quantité indiquée de crème et le lait. Salez, poivrez et portez à ébullition.*Réduisez le feu et laissez mijoter 15-20 min à feu moyen-doux, ou jusqu'à ce que la pointe d'un couteau rentre facilement dans les légumes et que la sauce épaississe.",
-            "instructionsHTML": "<p>*Faites chauffer une noix de beurre et un léger filet d&#39;huile d&#39;olive dans une casserole à feu moyen-vif. Faites-y revenir la carotte, le panais et l’ail 3-5 min.</p><p>*Ajoutez <span>½</span> cc de thym séché par personne, la quantité indiquée de crème et le lait. Salez, poivrez et portez à ébullition.</p><p>*Réduisez le feu et laissez mijoter 15-20 min à feu moyen-doux, <span>ou jusqu&#39;à ce que la pointe d&#39;un couteau rentre facilement dans les légumes et que la sauce épaississe.</span></p>",
-            "instructionsMarkdown": "<p>*Faites chauffer une noix de beurre et un léger filet d&#39;huile d&#39;olive dans une casserole à feu moyen-vif. Faites-y revenir la carotte, le panais et l’ail 3-5 min.</p><p>*Ajoutez <span>½</span> cc de thym séché par personne, la quantité indiquée de crème et le lait. Salez, poivrez et portez à ébullition.</p><p>*Réduisez le feu et laissez mijoter 15-20 min à feu moyen-doux, <span>ou jusqu&#39;à ce que la pointe d&#39;un couteau rentre facilement dans les légumes et que la sauce épaississe.</span></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305375"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63d91af41711ddb53b07f610/step-90148f10.jpg",
-                    "path": "/63d91af41711ddb53b07f610/step-90148f10.jpg",
-                    "caption": "Cuire les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "*Pendant ce temps, préchauffez le four à 210°C en mode grill.*Dans un saladier, faites une vinaigrette en mélangeant un filet d'huile d'olive et de vinaigre de vin avec une pointe de moutarde, du sel et du poivre.*Coupez le lieu noir en dés de 2 cm et assaisonnez-le avec du sel et du poivre.",
-            "instructionsHTML": "<p>*Pendant ce temps, préchauffez le four à 210°C en mode grill.</p><p>*Dans un saladier, faites une vinaigrette en mélangeant un filet d&#39;huile d&#39;olive et de vinaigre de vin avec une pointe de moutarde, du sel et du poivre.</p><p>*Coupez le lieu noir en dés de 2 cm et assaisonnez-le avec du sel et du poivre.</p>",
-            "instructionsMarkdown": "<p>*Pendant ce temps, préchauffez le four à 210°C en mode grill.</p><p>*Dans un saladier, faites une vinaigrette en mélangeant un filet d&#39;huile d&#39;olive et de vinaigre de vin avec une pointe de moutarde, du sel et du poivre.</p><p>*Coupez le lieu noir en dés de 2 cm et assaisonnez-le avec du sel et du poivre.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63d91af41711ddb53b07f610/step-a6e5f220.jpg",
-                    "path": "/63d91af41711ddb53b07f610/step-a6e5f220.jpg",
-                    "caption": "Faire la vinaigrette"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "*Beurrez légèrement un plat à four.*Ajoutez le lieu à la casserole et ½ cc de moutarde par personne. Râpez un peu de noix de muscade par-dessus (selon votre goût) et mélangez.*Versez le lieu et les légumes en sauce dans le plat à four. Saupoudrez de parmesan.*Enfournez 10-15 min, ou jusqu'à ce que le fromage soit bien gratiné.",
-            "instructionsHTML": "<p>*Beurrez légèrement un plat à four.</p><p>*Ajoutez le lieu <span>à la casserole et </span><span>½</span> cc de moutarde par personne. Râpez un peu de noix de muscade par-dessus (selon votre goût) et mélangez.</p><p>*Versez le lieu et les légumes en sauce dans le plat à four. Saupoudrez de parmesan.</p><p>*Enfournez 10-15 min, ou jusqu&#39;à ce que le fromage soit bien gratiné.</p>",
-            "instructionsMarkdown": "<p>*Beurrez légèrement un plat à four.</p><p>*Ajoutez le lieu <span>à la casserole et </span><span>½</span> cc de moutarde par personne. Râpez un peu de noix de muscade par-dessus (selon votre goût) et mélangez.</p><p>*Versez le lieu et les légumes en sauce dans le plat à four. Saupoudrez de parmesan.</p><p>*Enfournez 10-15 min, ou jusqu&#39;à ce que le fromage soit bien gratiné.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305386"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63d91af41711ddb53b07f610/step-ec573330.jpg",
-                    "path": "/63d91af41711ddb53b07f610/step-ec573330.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "*Ajoutez la salade au saladier contenant la vinaigrette.*Mélangez bien.",
-            "instructionsHTML": "<p>*Ajoutez la salade au saladier contenant la vinaigrette.</p><p>*Mélangez bien.</p>",
-            "instructionsMarkdown": "<p>*Ajoutez la salade au saladier contenant la vinaigrette.</p><p>*Mélangez bien.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63d91af41711ddb53b07f610/step-45aa8440.jpg",
-                    "path": "/63d91af41711ddb53b07f610/step-45aa8440.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "*Servez les légumes d'hiver gratinés dans les assiettes.*Ajoutez la salade à côté.",
-            "instructionsHTML": "<p>*Servez les légumes d&#39;hiver gratinés dans les assiettes.</p><p>*Ajoutez la salade à côté.</p>",
-            "instructionsMarkdown": "<p>*Servez les légumes d&#39;hiver gratinés dans les assiettes.</p><p>*Ajoutez la salade à côté.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63d91af41711ddb53b07f610/step-0db90050.jpg",
-                    "path": "/63d91af41711ddb53b07f610/step-0db90050.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305316",
-            "type": "low-carb",
-            "name": "<30g glucides",
-            "slug": "<30g-glucides",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT30M",
-    "uniqueRecipeCode": "RFR29804349-2",
-    "updatedAt": "2024-01-04T23:17:09+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305375",
-            "type": "pan",
-            "name": "Casserole"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305386",
-            "type": "ovendish",
-            "name": "Plat à four"
-        }
-    ],
-    "uuid": "a995ffd7-c155-4f83-86aa-d1188d7bcaa1",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/lieu-and-legumes-dhiver-gratines-au-parmesan-63d91af41711ddb53b07f610",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe8af4af6d531d50d34",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bba683721c9a32b074e",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 75,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bab9c6d10cd16eab61c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 25,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe8af4af6d531d50d34",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bba683721c9a32b074e",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bab9c6d10cd16eab61c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 50,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe8af4af6d531d50d34",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bba683721c9a32b074e",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bab9c6d10cd16eab61c",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 75,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe8af4af6d531d50d34",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bba683721c9a32b074e",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 255,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bab9c6d10cd16eab61c",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 10,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 100,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe8af4af6d531d50d34",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bba683721c9a32b074e",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 350,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bab9c6d10cd16eab61c",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 140,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 125,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfe8af4af6d531d50d34",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bba683721c9a32b074e",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf48b9d07cd5d38d7a14",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba6df6297bb5beef0f4",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bab9c6d10cd16eab61c",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfb6b9d07cd5d38d7ba3",
-                    "amount": 20,
-                    "unit": "pincée(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 160,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51229bc1d64f7b96e270b",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e51223bc1d64f7b96e2708",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "*Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !*Épluchez et coupez la carotte et le panais en fines demi-lunes de 5 mm.*Ciselez l'ail. Râpez le parmesan.",
+        "*Faites chauffer une noix de beurre et un léger filet d'huile d'olive dans une casserole à feu moyen-vif. Faites-y revenir la carotte, le panais et l’ail 3-5 min.*Ajoutez ½ cc de thym séché par personne, la quantité indiquée de crème et le lait. Salez, poivrez et portez à ébullition.*Réduisez le feu et laissez mijoter 15-20 min à feu moyen-doux, ou jusqu'à ce que la pointe d'un couteau rentre facilement dans les légumes et que la sauce épaississe.",
+        "*Pendant ce temps, préchauffez le four à 210°C en mode grill.*Dans un saladier, faites une vinaigrette en mélangeant un filet d'huile d'olive et de vinaigre de vin avec une pointe de moutarde, du sel et du poivre.*Coupez le lieu noir en dés de 2 cm et assaisonnez-le avec du sel et du poivre.",
+        "*Beurrez légèrement un plat à four.*Ajoutez le lieu à la casserole et ½ cc de moutarde par personne. Râpez un peu de noix de muscade par-dessus (selon votre goût) et mélangez.*Versez le lieu et les légumes en sauce dans le plat à four. Saupoudrez de parmesan.*Enfournez 10-15 min, ou jusqu'à ce que le fromage soit bien gratiné.",
+        "*Ajoutez la salade au saladier contenant la vinaigrette.*Mélangez bien.",
+        "*Servez les légumes d'hiver gratinés dans les assiettes.*Ajoutez la salade à côté."
     ]
 }

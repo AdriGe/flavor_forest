@@ -1,1023 +1,128 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.6,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039af",
-        "name": "Pork",
-        "type": "pork",
-        "slug": "pork"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804493-1",
-    "country": "FR",
-    "createdAt": "2023-02-07T16:54:09+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b2",
-            "type": "spanish",
-            "name": "Espagnole",
-            "slug": "spanish",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b2-b3f4f4d2.jpg"
-        }
+        "Espagnole"
     ],
     "description": "Laissez-vous tenter par une délicieuse soupe de lentilles au chorizo, agrémentée d’un peu de jus de citron frais et d’un mélange d’épices péruviennes. Simple et rapide à préparer, elle est parfaite que ce soit pour un déjeuner ou une soirée détente à la maison. Essayez-la dès maintenant et laissez-vous transporter par ses arômes réconfortants !",
-    "descriptionHTML": "<p>Laissez-vous tenter par une délicieuse soupe de lentilles au chorizo, agrémentée d’un peu de jus de citron frais et d’un mélange d’épices péruviennes. Simple et rapide à préparer, elle est parfaite que ce soit pour un déjeuner ou une soirée détente à la maison. Essayez-la dès maintenant et laissez-vous transporter par ses arômes réconfortants !</p>",
-    "descriptionMarkdown": "Laissez-vous tenter par une délicieuse soupe de lentilles au chorizo, agrémentée d’un peu de jus de citron frais et d’un mélange d’épices péruviennes. Simple et rapide à préparer, elle est parfaite que ce soit pour un déjeuner ou une soirée détente à la maison. Essayez-la dès maintenant et laissez-vous transporter par ses arômes réconfortants !",
     "difficulty": 2,
     "favoritesCount": 346,
     "headline": "avec des épices péruviennes & des épinards",
-    "id": "63e28230c4228ebef60d12ea",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R217_W10_FR_RFR29804493-1_Main_low-69426386.jpg",
-    "imagePath": "/image/HF_Y23_R217_W10_FR_RFR29804493-1_Main_low-69426386.jpg",
+    "name": "Soupe citronnée de lentilles au chorizo",
+    "prepTime": 25,
+    "totalTime": 20,
+    "image_id": "63e28230c4228ebef60d12ea",
+    "id": "90673e6b-99b3-4957-85a4-d2726f675032",
+    "nutrition": {
+        "kcal": 801,
+        "fat": 36.5,
+        "saturated_fat": 11.4,
+        "carbohydrate": 67,
+        "sugars": 10.4,
+        "protein": 41.5,
+        "sodium": 7.52
+    },
+    "tags": [
+        "<30 min",
+        "Épicé",
+        "Moins de CO2"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Marmite à soupe ou grande casserole avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "649463052417a80cb660ba9e",
-            "uuid": "85c45981-51eb-5688-8659-b3f9bbf4116b",
-            "name": "Tortillas",
-            "type": "flour-tortillas",
-            "slug": "tortillas",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f3-f1c0b834.png",
-            "shipped": true,
-            "allergens": [
-                "60368d89cdbdf450236ad8cd"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "e1942dba-603f-4058-9f64-2adab119a1f9",
+            "portion_id": "a5a79fe3-2238-45fa-a8fc-939c53b869d7",
+            "image_id": "649463052417a80cb660ba9e"
         },
         {
-            "id": "6405bf8db0da1947779862e2",
-            "uuid": "9bcd0897-d822-4f07-8474-e4c19bff7776",
-            "name": "Dés de chorizo",
-            "type": "chorizo-diced",
-            "slug": "des-de-chorizo",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8db0da1947779862e2-3f87eaf2.png",
-            "imagePath": "/ingredient/6405bf8db0da1947779862e2-3f87eaf2.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "811850db-20dd-4568-a47f-41d4e08b2861"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.66,
+            "unit": null,
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93"
         },
         {
-            "id": "6405bf26b9d07cd5d38d7996",
-            "uuid": "b7babe3c-cc52-481e-9f26-9eafa348f172",
-            "name": "Mélange d'épices péruviennes",
-            "type": "peruvian-spice-mix",
-            "slug": "melange-depices-peruviennes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf26b9d07cd5d38d7996-1a919c87.png",
-            "imagePath": "/ingredient/6405bf26b9d07cd5d38d7996-1a919c87.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "9299250e-12a9-465a-8629-a7b618d1e689",
+            "portion_id": "bef6f3c4-9b63-4420-9c8c-5a5434fb969a",
+            "image_id": "6405bf26b9d07cd5d38d7996"
         },
         {
-            "id": "646ff6d60c1e02e39244a39d",
-            "uuid": "ba19ceca-e32c-5d62-bfb8-0b3341603e7a",
-            "name": "Lentilles corail",
-            "type": "red-split-lentils",
-            "slug": "lentilles-corail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8db9d07cd5d38d7b10-654c36a0.png",
-            "imagePath": "/ingredient/6405bf8db9d07cd5d38d7b10-654c36a0.png",
-            "shipped": true,
-            "allergens": [
-                "62cc417a2f15d58ec3559423",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "g",
+            "ingredient_id": "32ebdca5-6486-413d-bd56-074227a9e8ec"
         },
         {
-            "id": "6405bf95b0da1947779862f8",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "4e0da705-5d5e-4e70-a595-83e43cce7d2e",
+            "portion_id": "15d1cae6-b30a-4469-896b-e112d76a6119",
+            "image_id": "6405bf95b0da1947779862f8"
         },
         {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acf",
-            "uuid": "8336bf50-6c44-57e6-ac7f-af74134d934f",
-            "name": "Épinards",
-            "type": "spinach",
-            "slug": "epinards",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acf-e0f404aa.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "bc85a87e-d578-42a9-892f-877ca1d6c94a"
         },
         {
-            "id": "63e5121081b4b295e66f024d",
-            "uuid": "4ced7170-b1b5-4f4b-a392-c98a5cd3dc0f",
-            "name": "Bouillon de légumes",
-            "type": "bouillon-de-legumes-ml",
-            "slug": "bouillon-de-legumes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "imagePath": "/ingredient/63e5121081b4b295e66f024d-176ac1aa.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 700,
+            "unit": "ml",
+            "ingredient_id": "2c79a58e-27de-462e-823f-01ae1498189c"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/63e28230c4228ebef60d12ea",
-    "name": "Soupe citronnée de lentilles au chorizo",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 801,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3350,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 36.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 11.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 67,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 10.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 41.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 7.52,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT25M",
-    "promotion": null,
-    "ratingsCount": 644,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 692,
-    "slug": "soupe-citronnee-de-lentilles-au-chorizo",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !_Préchauffez le four à 200°C (180°C chaleur tournante). Préparez le bouillon avec de l’eau chaude. _Ciselez finement l’oignon et l’ail. _Coupez les tortillas en 8 triangles (comme des parts de pizza). Placez-les sur une plaque recouverte de papier sulfurisé, arrosez-les d'huile d'olive, salez et poivrez et mélangez pour les enrober (vous pouvez aussi utiliser un pinceau). _Enfournez-les 7-9 min, ou jusqu'à ce qu'elles soient dorées et croustillantes.",
-            "instructionsHTML": "<p>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</p><p>_Préchauffez le four à 200°C (180°C chaleur tournante). <span>Préparez le bouillon avec de l’eau chaude. </span></p><p><span>_Ciselez finement l’oignon et l’ail. </span></p><p>_Coupez les tortillas en 8 triangles (comme des parts de pizza). Placez-les sur une plaque recouverte de papier sulfurisé, arrosez-les d&#39;huile d&#39;olive, salez et poivrez et mélangez pour les enrober (vous pouvez aussi utiliser un pinceau). </p><p>_Enfournez-les 7-9 min, ou jusqu&#39;à ce qu&#39;elles soient dorées et croustillantes.</p>",
-            "instructionsMarkdown": "<p>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</p><p>_Préchauffez le four à 200°C (180°C chaleur tournante). <span>Préparez le bouillon avec de l’eau chaude. </span></p><p><span>_Ciselez finement l’oignon et l’ail. </span></p><p>_Coupez les tortillas en 8 triangles (comme des parts de pizza). Placez-les sur une plaque recouverte de papier sulfurisé, arrosez-les d&#39;huile d&#39;olive, salez et poivrez et mélangez pour les enrober (vous pouvez aussi utiliser un pinceau). </p><p>_Enfournez-les 7-9 min, ou jusqu&#39;à ce qu&#39;elles soient dorées et croustillantes.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63e28230c4228ebef60d12ea/step-ea34ae00.jpg",
-                    "path": "/63e28230c4228ebef60d12ea/step-ea34ae00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "_Pendant ce temps, faites chauffer une marmite à feu moyen-vif._Faites-y revenir le chorizo 2 min. _Ajoutez ensuite l’oignon, l'ail, le sucre, le concentré de tomates (⅓ de boîte par personne) et 1 cc d'épices péruviennes par personne (ça pique ! Dosez-les selon votre goût) et prolongez la cuisson de 1 min._À feu moyen, ajoutez les lentilles et le bouillon. Salez, poivrez et mélangez. Faites mijoter 10-12 min à couvert, ou jusqu’à ce que les lentilles soient cuites. Remuez régulièrement pour qu’elles n’accrochent pas.",
-            "instructionsHTML": "<p>_Pendant ce temps, faites chauffer une marmite à feu moyen-vif.</p><p>_Faites-y revenir le chorizo 2 min. </p><p>_Ajoutez ensuite l’oignon, l&#39;ail, le sucre, le concentré de tomates (<span>⅓</span> de boîte par personne) et 1 cc d&#39;épices péruviennes par personne (ça pique ! Dosez-les selon votre goût) et prolongez la cuisson de 1 min.</p><p>_<span>À</span> feu moyen, ajoutez les lentilles et le bouillon. Salez, poivrez et mélangez. Faites mijoter 10-12 min à couvert, ou jusqu’à ce que les lentilles soient cuites. Remuez régulièrement pour qu’elles n’accrochent pas.</p>",
-            "instructionsMarkdown": "<p>_Pendant ce temps, faites chauffer une marmite à feu moyen-vif.</p><p>_Faites-y revenir le chorizo 2 min. </p><p>_Ajoutez ensuite l’oignon, l&#39;ail, le sucre, le concentré de tomates (<span>⅓</span> de boîte par personne) et 1 cc d&#39;épices péruviennes par personne (ça pique ! Dosez-les selon votre goût) et prolongez la cuisson de 1 min.</p><p>_<span>À</span> feu moyen, ajoutez les lentilles et le bouillon. Salez, poivrez et mélangez. Faites mijoter 10-12 min à couvert, ou jusqu’à ce que les lentilles soient cuites. Remuez régulièrement pour qu’elles n’accrochent pas.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24efcf61c18c30ff537"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63e28230c4228ebef60d12ea/step-5f1f6010.jpg",
-                    "path": "/63e28230c4228ebef60d12ea/step-5f1f6010.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "_Pendant ce temps, effeuillez et ciselez le persil._Coupez le citron en 4, voire en 6 si vous êtes nombreux._Ajoutez les épinards à la marmite._Prolongez la cuisson de 1-2 min sans couvercle, ou jusqu'à ce qu'ils soient flétris. Écrasez légèrement les lentilles avec une fourchette pour obtenir une consistance plus épaisse (voir CONSEIL).CONSEIL: Si vous souhaitez en revanche une soupe plus liquide, ajoutez un peu plus de bouillon.",
-            "instructionsHTML": "<p>_Pendant ce temps, effeuillez et ciselez le persil.</p><p>_Coupez le citron en 4, voire en 6 si vous êtes nombreux.</p><p>_Ajoutez les épinards à la marmite.</p><p>_Prolongez la cuisson de 1-2 min sans couvercle, ou jusqu&#39;à ce qu&#39;ils soient flétris. Écrasez légèrement les lentilles avec une fourchette pour obtenir une consistance plus épaisse (voir CONSEIL).</p><p>CONSEIL: Si vous souhaitez en revanche une soupe plus liquide, ajoutez un peu plus de bouillon.</p>",
-            "instructionsMarkdown": "<p>_Pendant ce temps, effeuillez et ciselez le persil.</p><p>_Coupez le citron en 4, voire en 6 si vous êtes nombreux.</p><p>_Ajoutez les épinards à la marmite.</p><p>_Prolongez la cuisson de 1-2 min sans couvercle, ou jusqu&#39;à ce qu&#39;ils soient flétris. Écrasez légèrement les lentilles avec une fourchette pour obtenir une consistance plus épaisse (voir CONSEIL).</p><p>CONSEIL: Si vous souhaitez en revanche une soupe plus liquide, ajoutez un peu plus de bouillon.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63e28230c4228ebef60d12ea/step-a3124c20.jpg",
-                    "path": "/63e28230c4228ebef60d12ea/step-a3124c20.jpg",
-                    "caption": "Terminer la cuisson"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "_Servez la soupe dans les assiettes avec les chips de tortillas._Saupoudrez de persil._Pressez quelques gouttes de jus de citron par-dessus pour apporter un peu de fraîcheur.",
-            "instructionsHTML": "<p>_Servez la soupe dans les assiettes avec les chips de tortillas.</p><p>_Saupoudrez de persil.</p><p>_Pressez quelques gouttes de jus de citron par-dessus pour apporter un peu de fraîcheur.</p>",
-            "instructionsMarkdown": "<p>_Servez la soupe dans les assiettes avec les chips de tortillas.</p><p>_Saupoudrez de persil.</p><p>_Pressez quelques gouttes de jus de citron par-dessus pour apporter un peu de fraîcheur.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/63e28230c4228ebef60d12ea/step-e87bdc30.jpg",
-                    "path": "/63e28230c4228ebef60d12ea/step-e87bdc30.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "594be44bc6243b76f8440332",
-            "type": "quick",
-            "name": "<30 min",
-            "slug": "30-min",
-            "colorHandle": "quickPrep",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR29804493-1",
-    "updatedAt": "2023-11-16T18:06:01+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "5e3ad24efcf61c18c30ff537",
-            "type": null,
-            "name": "Marmite à soupe ou grande casserole avec couvercle"
-        }
-    ],
-    "uuid": "910261ac-23da-48c1-a007-1fda8d271f7f",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/soupe-citronnee-de-lentilles-au-chorizo-63e28230c4228ebef60d12ea",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "649463052417a80cb660ba9e",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.33,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf26b9d07cd5d38d7996",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "646ff6d60c1e02e39244a39d",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "649463052417a80cb660ba9e",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.66,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf26b9d07cd5d38d7996",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "646ff6d60c1e02e39244a39d",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "649463052417a80cb660ba9e",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf26b9d07cd5d38d7996",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "646ff6d60c1e02e39244a39d",
-                    "amount": 225,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "649463052417a80cb660ba9e",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.33,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf26b9d07cd5d38d7996",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "646ff6d60c1e02e39244a39d",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "649463052417a80cb660ba9e",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.66,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf26b9d07cd5d38d7996",
-                    "amount": 2.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "646ff6d60c1e02e39244a39d",
-                    "amount": 375,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 1700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "649463052417a80cb660ba9e",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8db0da1947779862e2",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 2,
-                    "unit": null
-                },
-                {
-                    "id": "6405bf26b9d07cd5d38d7996",
-                    "amount": 3,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "646ff6d60c1e02e39244a39d",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acf",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121081b4b295e66f024d",
-                    "amount": 2000,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !_Préchauffez le four à 200°C (180°C chaleur tournante). Préparez le bouillon avec de l’eau chaude. _Ciselez finement l’oignon et l’ail. _Coupez les tortillas en 8 triangles (comme des parts de pizza). Placez-les sur une plaque recouverte de papier sulfurisé, arrosez-les d'huile d'olive, salez et poivrez et mélangez pour les enrober (vous pouvez aussi utiliser un pinceau). _Enfournez-les 7-9 min, ou jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "_Pendant ce temps, faites chauffer une marmite à feu moyen-vif._Faites-y revenir le chorizo 2 min. _Ajoutez ensuite l’oignon, l'ail, le sucre, le concentré de tomates (⅓ de boîte par personne) et 1 cc d'épices péruviennes par personne (ça pique ! Dosez-les selon votre goût) et prolongez la cuisson de 1 min._À feu moyen, ajoutez les lentilles et le bouillon. Salez, poivrez et mélangez. Faites mijoter 10-12 min à couvert, ou jusqu’à ce que les lentilles soient cuites. Remuez régulièrement pour qu’elles n’accrochent pas.",
+        "_Pendant ce temps, effeuillez et ciselez le persil._Coupez le citron en 4, voire en 6 si vous êtes nombreux._Ajoutez les épinards à la marmite._Prolongez la cuisson de 1-2 min sans couvercle, ou jusqu'à ce qu'ils soient flétris. Écrasez légèrement les lentilles avec une fourchette pour obtenir une consistance plus épaisse (voir CONSEIL).CONSEIL: Si vous souhaitez en revanche une soupe plus liquide, ajoutez un peu plus de bouillon.",
+        "_Servez la soupe dans les assiettes avec les chips de tortillas._Saupoudrez de persil._Pressez quelques gouttes de jus de citron par-dessus pour apporter un peu de fraîcheur."
     ]
 }

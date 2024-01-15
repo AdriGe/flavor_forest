@@ -1,924 +1,116 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": "5d244e0cdc20da00160632bf",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/portobellos-farcis-a-la-feta-et-salade-5d244e0cdc20da00160632bf",
-    "cardLink": "https://hellofresh.com/recipecards/card/gevulde-portobello-met-feta-en-salade-5c0e9f9dc445fa194a6a3aa2-fed79440.pdf",
-    "category": null,
-    "clonedFrom": "5c091bfbe3f3395b261673a2",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2018-12-10T17:17:17+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b4",
-            "type": "fusion",
-            "name": "Fusion",
-            "slug": "fusion",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b4-38aecbd9.jpg"
-        }
+        "Fusion"
     ],
     "description": "Les portobellos sont de grands champignons blonds dont la taille se prête parfaitement à la farce — aujourd’hui, vous allez utiliser de la feta. La salade mixte apporte au plat une belle fraîcheur.",
-    "descriptionHTML": "<p>Les portobellos sont de grands champignons blonds dont la taille se prête parfaitement à la farce — aujourd’hui, vous allez utiliser de la feta. La salade mixte apporte au plat une belle fraîcheur.</p>",
-    "descriptionMarkdown": "Les portobellos sont de grands champignons blonds dont la taille se prête parfaitement à la farce — aujourd’hui, vous allez utiliser de la feta. La salade mixte apporte au plat une belle fraîcheur.",
     "difficulty": 2,
     "favoritesCount": 29,
     "headline": "Avec de la roquette, de la mâche, des patates douces et des lentilles",
-    "id": "5c0e9f9dc445fa194a6a3aa2",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/5c0e9f9dc445fa194a6a3aa2-323ffaec.jpg",
-    "imagePath": "/image/5c0e9f9dc445fa194a6a3aa2-323ffaec.jpg",
+    "name": "Portobellos farcis à la feta et salade",
+    "prepTime": 35,
+    "totalTime": null,
+    "image_id": "5c0e9f9dc445fa194a6a3aa2",
+    "id": "f7e1296a-b69a-4425-bec1-f31b6bc4a223",
+    "nutrition": {
+        "kcal": 739,
+        "fat": 34,
+        "saturated_fat": 8.4,
+        "carbohydrate": 80,
+        "sugars": 21.6,
+        "protein": 18,
+        "sodium": 1.4
+    },
+    "tags": [
+        "À faire rapidement",
+        "Végétarien"
+    ],
+    "utensils": [
+        "Four",
+        "Casserole avec couvercle",
+        "Papier sulfurisé",
+        "Plaque de cuisson",
+        "Planche à découper",
+        "Couteau à fruits",
+        "Saladier",
+        "Assiette"
+    ],
     "ingredients": [
         {
-            "id": "5af2bdeaae08b5194415a0e5",
-            "uuid": "0cf653c6-1687-5c5a-a5c7-8b154e6823b7",
-            "name": "Lentilles vertes",
-            "type": "QDOC-DRY-10-17102-1",
-            "slug": "lentilles-vertes",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredients/555f4a5bf8b25eae018b4568-751f1371.png",
-            "imagePath": "/ingredients/555f4a5bf8b25eae018b4568-751f1371.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "34763deb-4887-4a96-b6ba-aa95b135877f"
         },
         {
-            "id": "5af2be5dae08b5194415a299",
-            "uuid": "9de0c022-67a1-5e8f-a68a-d477d57a900f",
-            "name": "Patate douce",
-            "type": "qdoc-phf-10-16245-4",
-            "slug": "patates-douces",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/555f4a66fd2cb969168b4567.png",
-            "imagePath": "/image/555f4a66fd2cb969168b4567.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc13",
-                "uuid": "ca8b304f-9b83-5252-b006-937f4cc644c2",
-                "name": "pomme de terre",
-                "slug": "pomme-de-terre",
-                "type": "potatoes",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 600,
+            "unit": "g",
+            "ingredient_id": "f5f3edff-b82e-478f-bc9a-72268395ba28"
         },
         {
-            "id": "5af2bdf8ae08b5194415a11c",
-            "uuid": "9400df11-aa9a-5f70-9bdc-4a229558bd55",
-            "name": "Thym séché",
-            "type": "QDOC-SPI-10-45405-4",
-            "slug": "thym-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/568fa2cd4dab7117348b4567.png",
-            "imagePath": "/image/568fa2cd4dab7117348b4567.png",
-            "shipped": true,
-            "allergens": [],
-            "family": null
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "94fc3f93-504f-4546-834f-e1145359be4f",
+            "portion_id": "876c0f63-410e-4f3c-bcab-c5c5ed25200f",
+            "image_id": "5af2bdf8ae08b5194415a11c"
         },
         {
-            "id": "5af2be69ae08b5194415a2c5",
-            "uuid": "6cd84ddb-c9c4-5025-a8f4-f48aa5499e34",
-            "name": "Poireau",
-            "type": "remps-phf-10-16053-4",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "imagePath": "/ingredient/5af2be69ae08b5194415a2c5-643d144f.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbc4",
-                "uuid": "9689a917-d30a-5486-bbdf-01ce173a3ce2",
-                "name": "poireau",
-                "slug": "poireau",
-                "type": "leek",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "121a4815-934f-499d-9780-2e3af5162cfc",
+            "portion_id": "78267979-3647-4a83-9ce2-75a1a93925d3",
+            "image_id": "5af2be69ae08b5194415a2c5"
         },
         {
-            "id": "5af2bdedae08b5194415a0f5",
-            "uuid": "57a8afbc-5fe3-51b2-bd0c-2dc8553e1b37",
-            "name": "Feta",
-            "type": "qdoc-dai-10-15223-4",
-            "slug": "feta",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554a546a4dab71716c8b4572.png",
-            "imagePath": "/image/554a546a4dab71716c8b4572.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fb68",
-                "uuid": "a560b77e-37ae-5c55-82df-579a3d1d37de",
-                "name": "fromage",
-                "slug": "fromage",
-                "type": "cheese",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 75,
+            "unit": "g",
+            "ingredient_id": "a2eb05a4-780f-4fe6-a11b-45842098dc93"
         },
         {
-            "id": "5d725d970dcef1000e487d7b",
-            "uuid": "57a8358c-7315-5d5b-8076-89a9e362b80f",
-            "name": "Portobello",
-            "type": "qdoc-phf-10-16970-4",
-            "slug": "portobello",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5d725d970dcef1000e487d7b-b039febe.png",
-            "imagePath": "/ingredient/5d725d970dcef1000e487d7b-b039febe.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbde",
-                "uuid": "4d4e9c74-f094-555b-b132-6edacc2fd433",
-                "name": "champignons",
-                "slug": "champignons",
-                "type": "mushrooms",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "959c2e4c-f57a-48ea-9250-c08dbc43f865",
+            "portion_id": "c215c036-8afe-4814-a63b-820b84055c87",
+            "image_id": "5d725d970dcef1000e487d7b"
         },
         {
-            "id": "5f365e7f5a32cc237c7bd926",
-            "uuid": "51c0078f-662d-5046-a54e-771df290e4f1",
-            "name": "Mélange de salades",
-            "type": "melange-de-salades",
-            "slug": "melange-de-salades",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5f365e7f5a32cc237c7bd926-245f6201.png",
-            "imagePath": "/ingredient/5f365e7f5a32cc237c7bd926-245f6201.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc23",
-                "uuid": "06221a75-8a7a-5ff7-9ca8-5609bc4b900f",
-                "name": "mélange de salade",
-                "slug": "mélange-de-salade",
-                "type": "salad-mix",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 60,
+            "unit": "g",
+            "ingredient_id": "f368ae18-f594-4d0a-8a92-65b4663f1224"
         },
         {
-            "id": "5c8bcd9be3f3397358648c92",
-            "uuid": "9ee0d86f-1a50-54cc-9108-8ac7ea81a416",
-            "name": "Huile d'olive",
-            "type": "zt-olijfolie",
-            "slug": "huile-d-olive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c92-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbeb",
-                "uuid": "7c98f5ea-c7e6-530f-a8f7-837099e95a74",
-                "name": "huile",
-                "slug": "huile",
-                "type": "olive-oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "4ad6ce62-92c2-4612-8824-4fa5ed85fb05",
+            "portion_id": "d41c3d6a-8812-46d6-9e43-7327b8440275",
+            "image_id": "5c8bcd9be3f3397358648c92"
         },
         {
-            "id": "5c8bcda5e3f33973013052b3",
-            "uuid": "c284e636-d8ed-5be5-97ca-9419a004ad29",
-            "name": "Vinaigre balsamique noir",
-            "type": "zt-zwarte-balsamicoazijn",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcda5e3f33973013052b3-34c502d3.png",
-            "imagePath": "/ingredient/5c8bcda5e3f33973013052b3-34c502d3.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc30",
-                "uuid": "3673d814-9d2d-5ac1-bf62-1a0c1f93102a",
-                "name": "sauce",
-                "slug": "sauce",
-                "type": "soy-sauce",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "3e4bc5c2-6c1d-4680-b221-62add7b58baa",
+            "portion_id": "3f39b43f-a508-4209-8fac-e451424c379a",
+            "image_id": "5c8bcda5e3f33973013052b3"
         },
         {
-            "id": "5ca75c90e3f339258a36e9f2",
-            "uuid": "a36b3941-dd55-5a83-b575-bc270f878041",
-            "name": "Huile d'olive vierge extra",
-            "type": "zt-extra-vierge-olijfolie",
-            "slug": "huile-d-olive-extra-vierge",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5ca75c90e3f339258a36e9f2-2e1bc6b6.png",
-            "imagePath": "/ingredient/5ca75c90e3f339258a36e9f2-2e1bc6b6.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fbe8",
-                "uuid": "40e34e55-5e6b-5d7d-bc35-bf898efa8c03",
-                "name": "huile",
-                "slug": "huile",
-                "type": "oil",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "754f3da3-6524-4e75-9561-dc2807c9348e",
+            "portion_id": "0881c6a6-8c33-43d0-b095-fdb38ae3b274",
+            "image_id": "5ca75c90e3f339258a36e9f2"
         },
         {
-            "id": "5c8bcd9be3f3397358648c93",
-            "uuid": "4de65d0b-719b-5234-bf46-16082d9985ff",
-            "name": "Poivre et sel",
-            "type": "zt-peper-en-zout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "imagePath": "/ingredient/5c8bcd9be3f3397358648c93-5eaccae0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "58877cf3ed71a76e9c03fc07",
-                "uuid": "69206917-2dbb-543a-ba93-948b536854a2",
-                "name": "mélange d'épices",
-                "slug": "mélange-d'épices",
-                "type": "pepper-and-salt",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "4fb95990-4b0e-4936-8a28-8e209e8b661b",
+            "portion_id": "e62945f2-5dce-4a02-b82d-5cbfb499109b",
+            "image_id": "5c8bcd9be3f3397358648c93"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/5c0e9f9dc445fa194a6a3aa2",
-    "name": "Portobellos farcis à la feta et salade",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3092,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 739,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 34,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 8.4,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 80,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 21.6,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 18,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.4,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT35M",
-    "promotion": null,
-    "ratingsCount": 2,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 592,
-    "slug": "portobellos-farcis-a-la-feta-et-salade",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Préchauffez le four à 200 degrés. Dans la casserole, mélangez les lentilles vertes à 200 ml d’eau par personne ainsi qu’une pincée de sel. À couvert, portez à ébullition et laissez mijoter à feu doux pendant 25 à 30 minutes. Ajoutez de l'eau si elle s'évapore trop vite. Égouttez.",
-            "instructionsHTML": "<p>Préchauffez le four à 200 degrés. Dans la casserole, mélangez les lentilles vertes à 200 ml d’eau par personne ainsi qu’une pincée de sel. À couvert, portez à ébullition et laissez mijoter à feu doux pendant 25 à 30 minutes. Ajoutez de l'eau si elle s'évapore trop vite. Égouttez.</p>",
-            "instructionsMarkdown": "Préchauffez le four à 200 degrés. Dans la casserole, mélangez les lentilles vertes à 200 ml d’eau par personne ainsi qu’une pincée de sel. À couvert, portez à ébullition et laissez mijoter à feu doux pendant 25 à 30 minutes. Ajoutez de l'eau si elle s'évapore trop vite. Égouttez.",
-            "ingredients": [
-                "5af2bdeaae08b5194415a0e5"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305374",
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [
-                {
-                    "name": "Faire mijoter à couvert à feu doux.",
-                    "duration": "PT30M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5c0e9f9dc445fa194a6a3aa2/step-6bdc4b7b.jpg",
-                    "path": "/5c0e9f9dc445fa194a6a3aa2/step-6bdc4b7b.jpg",
-                    "caption": "Cuire les lentilles"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Épluchez les patates douces et taillez-les en cubes de 1 cm. Disposez les patates douces sur une moitié de la plaque recouverte de papier sulfurisé, arrosez avec la moitié de l’huile d’olive, saupoudrez de thym, puis salez et poivrez. Enfournez ensuite 20 minutes en retournant à mi-cuisson.",
-            "instructionsHTML": "<p>Épluchez les patates douces et taillez-les en cubes de 1 cm. Disposez les patates douces sur une moitié de la plaque recouverte de papier sulfurisé, arrosez avec la moitié de l’huile d’olive, saupoudrez de thym, puis salez et poivrez. Enfournez ensuite 20 minutes en retournant à mi-cuisson.</p>",
-            "instructionsMarkdown": "Épluchez les patates douces et taillez-les en cubes de 1 cm. Disposez les patates douces sur une moitié de la plaque recouverte de papier sulfurisé, arrosez avec la moitié de l’huile d’olive, saupoudrez de thym, puis salez et poivrez. Enfournez ensuite 20 minutes en retournant à mi-cuisson.",
-            "ingredients": [
-                "5af2be5dae08b5194415a299",
-                "5af2bdf8ae08b5194415a11c",
-                "5c8bcd9be3f3397358648c92",
-                "5c8bcd9be3f3397358648c93"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b305377",
-                "57e2674fb7e8697d4b305368",
-                "57e2674fb7e8697d4b30538f",
-                "57e2674fb7e8697d4b305378"
-            ],
-            "timers": [
-                {
-                    "name": "Enfourner les patates douces.",
-                    "duration": "PT25M",
-                    "temperature": null,
-                    "temperatureUnit": null
-                }
-            ],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5c0e9f9dc445fa194a6a3aa2/step-a50af0f3.jpg",
-                    "path": "/5c0e9f9dc445fa194a6a3aa2/step-a50af0f3.jpg",
-                    "caption": "Préparer les patates douces"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, épépinez le poivron rouge et détaillez-le. Émiettez la feta et utilisez-en une partie pour farcir le portobello. Arrosez le poivron et le portobello avec le reste d’huile d’olive, puis salez et poivrez. Enfournez les portobellos et les poivrons avec les patates douces pendant les 15 dernières minutes de cuisson de celles-ci.",
-            "instructionsHTML": "<p>Pendant ce temps, épépinez le poivron rouge et détaillez-le. Émiettez la feta et utilisez-en une partie pour farcir le portobello. Arrosez le poivron et le portobello avec le reste d’huile d’olive, puis salez et poivrez. Enfournez les portobellos et les poivrons avec les patates douces pendant les 15 dernières minutes de cuisson de celles-ci.</p>",
-            "instructionsMarkdown": "Pendant ce temps, épépinez le poivron rouge et détaillez-le. Émiettez la feta et utilisez-en une partie pour farcir le portobello. Arrosez le poivron et le portobello avec le reste d’huile d’olive, puis salez et poivrez. Enfournez les portobellos et les poivrons avec les patates douces pendant les 15 dernières minutes de cuisson de celles-ci.",
-            "ingredients": [
-                "5af2bdedae08b5194415a0f5",
-                "5c8bcd9be3f3397358648c92",
-                "5c8bcd9be3f3397358648c93",
-                "5d725d970dcef1000e487d7b",
-                "5af2be69ae08b5194415a2c5"
-            ],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5c0e9f9dc445fa194a6a3aa2/step-fdaa6a27.jpg",
-                    "path": "/5c0e9f9dc445fa194a6a3aa2/step-fdaa6a27.jpg",
-                    "caption": "Préparer les portobellos"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, dans le saladier, mélangez la salade mixte au vinaigre balsamique noir et à l’huile d’olive vierge extra.",
-            "instructionsHTML": "<p>Pendant ce temps, dans le saladier, mélangez la salade mixte au vinaigre balsamique noir et à l’huile d’olive vierge extra.</p>",
-            "instructionsMarkdown": "Pendant ce temps, dans le saladier, mélangez la salade mixte au vinaigre balsamique noir et à l’huile d’olive vierge extra.",
-            "ingredients": [
-                "5ca75c90e3f339258a36e9f2",
-                "5f365e7f5a32cc237c7bd926",
-                "5c8bcda5e3f33973013052b3"
-            ],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5c0e9f9dc445fa194a6a3aa2/step-37c9eda3.jpg",
-                    "path": "/5c0e9f9dc445fa194a6a3aa2/step-37c9eda3.jpg",
-                    "caption": "Préparer la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Dans le saladier, mélangez le poivron, les patates douces et les lentilles à la salade, puis salez et poivrez.",
-            "instructionsHTML": "<p>Dans le saladier, mélangez le poivron, les patates douces et les lentilles à la salade, puis salez et poivrez.</p>",
-            "instructionsMarkdown": "Dans le saladier, mélangez le poivron, les patates douces et les lentilles à la salade, puis salez et poivrez.",
-            "ingredients": [
-                "5c8bcd9be3f3397358648c93"
-            ],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5c0e9f9dc445fa194a6a3aa2/step-ed6ab642.jpg",
-                    "path": "/5c0e9f9dc445fa194a6a3aa2/step-ed6ab642.jpg",
-                    "caption": "Mélanger la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez la salade sur les assiettes, disposez le portobello par-dessus et garnissez avec le reste de feta.",
-            "instructionsHTML": "<p>Servez la salade sur les assiettes, disposez le portobello par-dessus et garnissez avec le reste de feta.</p>",
-            "instructionsMarkdown": "Servez la salade sur les assiettes, disposez le portobello par-dessus et garnissez avec le reste de feta.",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30537b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/5c0e9f9dc445fa194a6a3aa2/step-f3792ea4.jpg",
-                    "path": "/5c0e9f9dc445fa194a6a3aa2/step-f3792ea4.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305317",
-            "type": "veggie",
-            "name": "Végétarien",
-            "slug": "veggie",
-            "colorHandle": "veggie",
-            "preferences": [
-                "Végétarien"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": null,
-    "uniqueRecipeCode": null,
-    "updatedAt": "2023-10-10T10:18:52+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305374",
-            "type": "stove",
-            "name": "Four"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305377",
-            "type": "parchmentpaper",
-            "name": "Papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305368",
-            "type": "bakingsheet",
-            "name": "Plaque de cuisson"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538f",
-            "type": "cuttingboard",
-            "name": "Planche à découper"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305378",
-            "type": "paringknife",
-            "name": "Couteau à fruits"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30537b",
-            "type": "plate",
-            "name": "Assiette"
-        }
-    ],
-    "uuid": null,
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/portobellos-farcis-a-la-feta-et-salade-5c0e9f9dc445fa194a6a3aa2",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "5af2bdeaae08b5194415a0e5",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be5dae08b5194415a299",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdedae08b5194415a0f5",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "5d725d970dcef1000e487d7b",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5f365e7f5a32cc237c7bd926",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b3",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "5af2bdeaae08b5194415a0e5",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be5dae08b5194415a299",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdedae08b5194415a0f5",
-                    "amount": 75,
-                    "unit": "g"
-                },
-                {
-                    "id": "5d725d970dcef1000e487d7b",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5f365e7f5a32cc237c7bd926",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b3",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "5af2bdeaae08b5194415a0e5",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be5dae08b5194415a299",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdedae08b5194415a0f5",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5d725d970dcef1000e487d7b",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5f365e7f5a32cc237c7bd926",
-                    "amount": 90,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b3",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "5af2bdeaae08b5194415a0e5",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be5dae08b5194415a299",
-                    "amount": 1200,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdedae08b5194415a0f5",
-                    "amount": 125,
-                    "unit": "g"
-                },
-                {
-                    "id": "5d725d970dcef1000e487d7b",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5f365e7f5a32cc237c7bd926",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b3",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "5af2bdeaae08b5194415a0e5",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be5dae08b5194415a299",
-                    "amount": 1500,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdedae08b5194415a0f5",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "5d725d970dcef1000e487d7b",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5f365e7f5a32cc237c7bd926",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b3",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "5af2bdeaae08b5194415a0e5",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2be5dae08b5194415a299",
-                    "amount": 1800,
-                    "unit": "g"
-                },
-                {
-                    "id": "5af2bdf8ae08b5194415a11c",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5af2be69ae08b5194415a2c5",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5af2bdedae08b5194415a0f5",
-                    "amount": 175,
-                    "unit": "g"
-                },
-                {
-                    "id": "5d725d970dcef1000e487d7b",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "5f365e7f5a32cc237c7bd926",
-                    "amount": 180,
-                    "unit": "g"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c92",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcda5e3f33973013052b3",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "5ca75c90e3f339258a36e9f2",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "5c8bcd9be3f3397358648c93",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Préchauffez le four à 200 degrés. Dans la casserole, mélangez les lentilles vertes à 200 ml d’eau par personne ainsi qu’une pincée de sel. À couvert, portez à ébullition et laissez mijoter à feu doux pendant 25 à 30 minutes. Ajoutez de l'eau si elle s'évapore trop vite. Égouttez.",
+        "Épluchez les patates douces et taillez-les en cubes de 1 cm. Disposez les patates douces sur une moitié de la plaque recouverte de papier sulfurisé, arrosez avec la moitié de l’huile d’olive, saupoudrez de thym, puis salez et poivrez. Enfournez ensuite 20 minutes en retournant à mi-cuisson.",
+        "Pendant ce temps, épépinez le poivron rouge et détaillez-le. Émiettez la feta et utilisez-en une partie pour farcir le portobello. Arrosez le poivron et le portobello avec le reste d’huile d’olive, puis salez et poivrez. Enfournez les portobellos et les poivrons avec les patates douces pendant les 15 dernières minutes de cuisson de celles-ci.",
+        "Pendant ce temps, dans le saladier, mélangez la salade mixte au vinaigre balsamique noir et à l’huile d’olive vierge extra.",
+        "Dans le saladier, mélangez le poivron, les patates douces et les lentilles à la salade, puis salez et poivrez.",
+        "Servez la salade sur les assiettes, disposez le portobello par-dessus et garnissez avec le reste de feta."
     ]
 }

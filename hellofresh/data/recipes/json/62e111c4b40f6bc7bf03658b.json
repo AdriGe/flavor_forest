@@ -1,977 +1,129 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fc",
-            "name": "Céleri",
-            "type": "celery",
-            "slug": "celeri",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.3,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29804224-1",
-    "country": "FR",
-    "createdAt": "2022-07-27T10:21:57+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 113,
     "headline": "avec du céleri, de la tomate & du basilic",
-    "id": "62e111c4b40f6bc7bf03658b",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220708_R215_W34_FR_RFR29804224-1_KB_Main_High-3e28f537.jpg",
-    "imagePath": "/image/HF220708_R215_W34_FR_RFR29804224-1_KB_Main_High-3e28f537.jpg",
+    "name": "One pot de dinde & haricots mijotés",
+    "prepTime": 40,
+    "totalTime": 20,
+    "image_id": "62e111c4b40f6bc7bf03658b",
+    "id": "a53c968b-3260-4e20-bbd9-7834ed179c25",
+    "nutrition": {
+        "kcal": 476,
+        "fat": 15.93,
+        "saturated_fat": 2.94,
+        "carbohydrate": 30.22,
+        "sugars": 13.06,
+        "protein": 50.38,
+        "sodium": 3.17
+    },
+    "tags": [
+        "<30g glucides",
+        "One Pot",
+        "<650 Kcal"
+    ],
+    "utensils": [
+        "Passoire",
+        "Sauteuse avec couvercle"
+    ],
     "ingredients": [
         {
-            "id": "6405bf3baf4af6d531d50ad2",
-            "uuid": "180dba5b-4f37-51f9-80a9-efb9c27c5351",
-            "name": "Haricots blancs",
-            "type": "cannellini-beans",
-            "slug": "haricots-blancs",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "imagePath": "/ingredient/6405bf3baf4af6d531d50ad2-6cb1a0c9.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "paquet(s)",
+            "ingredient_id": "7eb761d2-2217-46a8-9c3e-8757b406a84c",
+            "portion_id": "2cb2071e-e6f0-47fb-b8ed-b251be1af667",
+            "image_id": "6405bf3baf4af6d531d50ad2"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "64073bcb9c6d10cd16eab644",
-            "uuid": "6433c5d9-b9ca-5292-b793-90a1bcd567ff",
-            "name": "Céleri-branche",
-            "type": "celery-stick",
-            "slug": "celeri-branche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6b9d07cd5d38d7c79-43e308d6.png",
-            "imagePath": "/ingredient/6405bff6b9d07cd5d38d7c79-43e308d6.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fc"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1.5,
+            "unit": "tige(s)",
+            "ingredient_id": "2505383d-7765-4545-8c57-5068e4f6694a",
+            "portion_id": "602e9e55-c4cc-41a0-a106-b4decfdea2c6",
+            "image_id": "64073bcb9c6d10cd16eab644"
         },
         {
-            "id": "6405bfc3b9d07cd5d38d7bcb",
-            "uuid": "9e1d590f-1201-4c56-9e9a-1d9eec58f630",
-            "name": "Poivron",
-            "type": "pointed-bell-pepper-red",
-            "slug": "poivron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfc3b9d07cd5d38d7bcb-febe5585.png",
-            "imagePath": "/ingredient/6405bfc3b9d07cd5d38d7bcb-febe5585.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "596306de-5c4b-404a-9c88-a4dc8b23e939",
+            "portion_id": "22dc3706-2da5-40ab-a09e-40e071b98ab8",
+            "image_id": "6405bfc3b9d07cd5d38d7bcb"
         },
         {
-            "id": "6405bff3b0da194777986433",
-            "uuid": "2a486e38-5998-51dd-b175-8383b12a3ec3",
-            "name": "Tomate",
-            "type": "tomato",
-            "slug": "tomate",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b0da194777986433-af108835.png",
-            "imagePath": "/ingredient/6405bff3b0da194777986433-af108835.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "3a59005f-4649-49c7-9be4-1c2ca22d9f1a",
+            "portion_id": "0c1f557a-3079-42ee-b32c-f0c552fe9730",
+            "image_id": "6405bff3b0da194777986433"
         },
         {
-            "id": "6405bf5eb0da19477798622e",
-            "uuid": "baa663e0-e893-417c-b668-42ed7d70d0fa",
-            "name": "Escalope de dinde",
-            "type": "slices-of-turkey-fillet",
-            "slug": "escalope-de-dinde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5eb0da19477798622e-45a3cb6d.png",
-            "imagePath": "/ingredient/6405bf5eb0da19477798622e-45a3cb6d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "a4eb3e2a-882c-4c79-95b8-614c543c4765",
+            "portion_id": "4b3561b8-c671-4af0-9c42-7fa30e1dbbbf",
+            "image_id": "6405bf5eb0da19477798622e"
         },
         {
-            "id": "6405bfefb9d07cd5d38d7c59",
-            "uuid": "0b1ab386-218a-4b86-999c-3cde3104340e",
-            "name": "Concentré de tomates",
-            "type": "tomato-concentrate",
-            "slug": "concentre-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "imagePath": "/ingredient/6405bfefb9d07cd5d38d7c59-253467d6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pot(s)",
+            "ingredient_id": "d959f7a2-294c-498a-94f3-bc4a4b490d93",
+            "portion_id": "0da30959-c785-43dc-9138-9b35fd2901e9",
+            "image_id": "6405bfefb9d07cd5d38d7c59"
         },
         {
-            "id": "6405bff4b0da194777986437",
-            "uuid": "fae5ea17-1d10-5a79-acab-118ec738e69e",
-            "name": "Basilic",
-            "type": "basil",
-            "slug": "basilic",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "imagePath": "/ingredient/6405bff4b0da194777986437-8215279a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "e29e9e3f-9daf-4dff-b252-287381f45620"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "64062eb8b9d07cd5d38d7cd9",
-            "uuid": "bb12fd69-9f5a-4659-9d23-651581e27c01",
-            "name": "Sucre",
-            "type": "sucre-cc",
-            "slug": "sucre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "imagePath": "/ingredient/64062eb8b9d07cd5d38d7cd9-30981fbb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "7e696fda-84ed-4ca4-9a21-0c8514b6977b",
+            "portion_id": "bb82b442-8d2c-4eeb-91a7-678af187635a",
+            "image_id": "64062eb8b9d07cd5d38d7cd9"
         },
         {
-            "id": "63e5120dbc1d64f7b96e26fe",
-            "uuid": "8cbbf443-dfd3-4073-9af0-db31867cf660",
-            "name": "Bouillon de volaille",
-            "type": "bouillon-de-volaille-ml",
-            "slug": "bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "imagePath": "/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 300,
+            "unit": "ml",
+            "ingredient_id": "b533985b-5cae-4227-a9aa-9d8287f4d493"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/62e111c4b40f6bc7bf03658b",
-    "name": "One pot de dinde & haricots mijotés",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 476,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1993,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 15.93,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 2.94,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 30.22,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 13.06,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 50.38,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.17,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 161,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 649,
-    "slug": "one-pot-de-dinde-and-haricots-mijotes",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! Rincez les haricots blancs dans une passoire et laissez-les s’égoutter. Hachez finement l’oignon, l’ail, le céleri, le poivron et la tomate. Plus les morceaux seront petits, plus la sauce cuira rapidement. ",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></li><li><span>Rincez les haricots blancs dans une passoire et laissez-les s’égoutter. </span></li><li><span>Hachez finement l’oignon, l’ail, le céleri, le poivron et la tomate. Plus les morceaux seront petits, plus la sauce cuira rapidement. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! </span></li><li><span>Rincez les haricots blancs dans une passoire et laissez-les s’égoutter. </span></li><li><span>Hachez finement l’oignon, l’ail, le céleri, le poivron et la tomate. Plus les morceaux seront petits, plus la sauce cuira rapidement. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305382"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62e111c4b40f6bc7bf03658b/step-11c36100.jpg",
-                    "path": "/62e111c4b40f6bc7bf03658b/step-11c36100.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Coupez la dinde en morceaux de taille égale d’environ 1-2 cm. Faites chauffer un filet d’huile d’olive dans une marmite ou une grande sauteuse à feu vif et faites-y dorer la dinde 2-3 min : les morceaux ne devraient pas encore être cuits à ce stade. Salez et poivrez.",
-            "instructionsHTML": "<ul><li><span>Coupez la dinde en morceaux de taille égale d’environ 1-2 cm. </span></li><li><span>Faites chauffer un filet d’huile d’olive dans une marmite ou une grande sauteuse à feu vif et faites-y dorer la dinde 2-3 min : les morceaux ne devraient pas encore être cuits à ce stade. Salez et poivrez.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Coupez la dinde en morceaux de taille égale d’environ 1-2 cm. </span></li><li><span>Faites chauffer un filet d’huile d’olive dans une marmite ou une grande sauteuse à feu vif et faites-y dorer la dinde 2-3 min : les morceaux ne devraient pas encore être cuits à ce stade. Salez et poivrez.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305389"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62e111c4b40f6bc7bf03658b/step-dd770310.jpg",
-                    "path": "/62e111c4b40f6bc7bf03658b/step-dd770310.jpg",
-                    "caption": "Dorer la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Retirez la dinde de la sauteuse puis ajoutez-y l’oignon, l’ail, le céleri, le poivron et la tomate. Ajoutez de nouveau un filet d’huile d’olive si le mélange commence à accrocher. ﻿Faites suer environ 5 min à feu moyen en remuant régulièrement. Salez.",
-            "instructionsHTML": "<ul><li><span>Retirez la dinde de la sauteuse puis ajoutez-y l’oignon, l’ail, le céleri, le poivron et la tomate. Ajoutez de nouveau un filet d’huile d’olive si le mélange commence à accrocher. </span></li><li><span>﻿Faites suer environ 5 min à feu moyen en remuant régulièrement. Salez.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Retirez la dinde de la sauteuse puis ajoutez-y l’oignon, l’ail, le céleri, le poivron et la tomate. Ajoutez de nouveau un filet d’huile d’olive si le mélange commence à accrocher. </span></li><li><span>﻿Faites suer environ 5 min à feu moyen en remuant régulièrement. Salez.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62e111c4b40f6bc7bf03658b/step-48a72020.jpg",
-                    "path": "/62e111c4b40f6bc7bf03658b/step-48a72020.jpg",
-                    "caption": "Faire suer les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Ajoutez le concentré de tomates et le sucre (pour casser l’acidité de la tomate) puis faites revenir 5 min supplémentaires. Pendant ce temps, préparez le bouillon avec de l’eau chaude.",
-            "instructionsHTML": "<ul><li><span>Ajoutez le concentré de tomates et le sucre (pour casser l’acidité de la tomate) puis faites revenir 5 min supplémentaires. </span></li><li><span>Pendant ce temps, préparez le bouillon avec de l’eau chaude.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Ajoutez le concentré de tomates et le sucre (pour casser l’acidité de la tomate) puis faites revenir 5 min supplémentaires. </span></li><li><span>Pendant ce temps, préparez le bouillon avec de l’eau chaude.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62e111c4b40f6bc7bf03658b/step-dccb1630.jpg",
-                    "path": "/62e111c4b40f6bc7bf03658b/step-dccb1630.jpg",
-                    "caption": "Ajouter le concentré"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Ajoutez le bouillon au contenu de la sauteuse en grattant bien les sucs collés au fond. Portez à ébullition et laissez réduire 10-15 min à feu moyen-doux ou jusqu'à ce que la sauce épaississe et devienne nappante.Ajoutez la dinde lorsqu'il reste 3 min de cuisson et mélangez bien. Coupez le feu lorsqu'elle n'est plus rosée à cœur.",
-            "instructionsHTML": "<ul><li><span>Ajoutez le bouillon au contenu de la sauteuse en grattant bien les sucs collés au fond. </span></li><li><span>Portez à ébullition et laissez réduire 10-15 min à feu moyen-doux ou jusqu&#39;à ce que la sauce épaississe et devienne nappante.</span></li><li><span>Ajoutez la dinde lorsqu&#39;il reste 3 min de cuisson et mélangez bien. Coupez le feu lorsqu&#39;elle n&#39;est plus rosée à c</span>œur<span>.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Ajoutez le bouillon au contenu de la sauteuse en grattant bien les sucs collés au fond. </span></li><li><span>Portez à ébullition et laissez réduire 10-15 min à feu moyen-doux ou jusqu&#39;à ce que la sauce épaississe et devienne nappante.</span></li><li><span>Ajoutez la dinde lorsqu&#39;il reste 3 min de cuisson et mélangez bien. Coupez le feu lorsqu&#39;elle n&#39;est plus rosée à c</span>œur<span>.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62e111c4b40f6bc7bf03658b/step-41841940.jpg",
-                    "path": "/62e111c4b40f6bc7bf03658b/step-41841940.jpg",
-                    "caption": "Mijoter"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Lorsque la sauce a fini de réduire, ajoutez les haricots blancs et mélangez délicatement pour les incorporer. Salez et poivrez. Couvrez et laissez au chaud jusqu'au service. Effeuillez le basilic. Servez le mijoté dans des assiettes creuses, arrosez d’un filet d’huile d'olive et déchirez les feuilles de basilic par-dessus.",
-            "instructionsHTML": "<ul><li><span>Lorsque la sauce a fini de réduire, ajoutez les haricots blancs et mélangez délicatement pour les incorporer. Salez et poivrez. Couvrez et laissez au chaud jusqu&#39;au service. </span></li><li><span>Effeuillez le basilic. </span></li><li><span>Servez le mijoté dans des assiettes creuses, arrosez d’un filet d’huile d&#39;olive et déchirez les feuilles de basilic par-dessus.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Lorsque la sauce a fini de réduire, ajoutez les haricots blancs et mélangez délicatement pour les incorporer. Salez et poivrez. Couvrez et laissez au chaud jusqu&#39;au service. </span></li><li><span>Effeuillez le basilic. </span></li><li><span>Servez le mijoté dans des assiettes creuses, arrosez d’un filet d’huile d&#39;olive et déchirez les feuilles de basilic par-dessus.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62e111c4b40f6bc7bf03658b/step-4ad45a50.jpg",
-                    "path": "/62e111c4b40f6bc7bf03658b/step-4ad45a50.jpg",
-                    "caption": "Finir et servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305316",
-            "type": "low-carb",
-            "name": "<30g glucides",
-            "slug": "<30g-glucides",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "57d13370b7e8697d4b305312",
-            "type": "one-pot",
-            "name": "One Pot",
-            "slug": "one-pot",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR29804224-1",
-    "updatedAt": "2023-11-09T09:41:33+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305382",
-            "type": "strainer",
-            "name": "Passoire"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305389",
-            "type": "casserole-lid",
-            "name": "Sauteuse avec couvercle"
-        }
-    ],
-    "uuid": "9ca3b9a1-6469-418b-a25d-313c6277fc39",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/one-pot-de-dinde-and-haricots-mijotes-62e111c4b40f6bc7bf03658b",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 0.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 0.8,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf5eb0da19477798622e",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 1,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 1.5,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf5eb0da19477798622e",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 300,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 1.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 2.5,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf5eb0da19477798622e",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 0.75,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 2,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 3,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf5eb0da19477798622e",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 500,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 2.5,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 4,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf5eb0da19477798622e",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.25,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 700,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf3baf4af6d531d50ad2",
-                    "amount": 3,
-                    "unit": "paquet(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073bcb9c6d10cd16eab644",
-                    "amount": 5,
-                    "unit": "tige(s)"
-                },
-                {
-                    "id": "6405bfc3b9d07cd5d38d7bcb",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff3b0da194777986433",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf5eb0da19477798622e",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfefb9d07cd5d38d7c59",
-                    "amount": 1.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bff4b0da194777986437",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "64062eb8b9d07cd5d38d7cd9",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 800,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! Rincez les haricots blancs dans une passoire et laissez-les s’égoutter. Hachez finement l’oignon, l’ail, le céleri, le poivron et la tomate. Plus les morceaux seront petits, plus la sauce cuira rapidement. ",
+        "Coupez la dinde en morceaux de taille égale d’environ 1-2 cm. Faites chauffer un filet d’huile d’olive dans une marmite ou une grande sauteuse à feu vif et faites-y dorer la dinde 2-3 min : les morceaux ne devraient pas encore être cuits à ce stade. Salez et poivrez.",
+        "Retirez la dinde de la sauteuse puis ajoutez-y l’oignon, l’ail, le céleri, le poivron et la tomate. Ajoutez de nouveau un filet d’huile d’olive si le mélange commence à accrocher. ﻿Faites suer environ 5 min à feu moyen en remuant régulièrement. Salez.",
+        "Ajoutez le concentré de tomates et le sucre (pour casser l’acidité de la tomate) puis faites revenir 5 min supplémentaires. Pendant ce temps, préparez le bouillon avec de l’eau chaude.",
+        "Ajoutez le bouillon au contenu de la sauteuse en grattant bien les sucs collés au fond. Portez à ébullition et laissez réduire 10-15 min à feu moyen-doux ou jusqu'à ce que la sauce épaississe et devienne nappante.Ajoutez la dinde lorsqu'il reste 3 min de cuisson et mélangez bien. Coupez le feu lorsqu'elle n'est plus rosée à cœur.",
+        "Lorsque la sauce a fini de réduire, ajoutez les haricots blancs et mélangez délicatement pour les incorporer. Salez et poivrez. Couvrez et laissez au chaud jusqu'au service. Effeuillez le basilic. Servez le mijoté dans des assiettes creuses, arrosez d’un filet d’huile d'olive et déchirez les feuilles de basilic par-dessus."
     ]
 }

@@ -1,1081 +1,132 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052f7",
-            "name": "Poisson",
-            "type": "fish",
-            "slug": "poisson",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "5acf97b7ae08b54d88061162",
-            "name": "Lait (contient du lactose)",
-            "type": "traces-of-milk",
-            "slug": "traces-of-lait-contient-du-lactose",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "62cc417a2f15d58ec3559423",
-            "name": "Gluten",
-            "type": "traces-of-gluten",
-            "slug": "traces-of-gluten",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": true
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f3",
-            "name": "Peut contenir des traces d'allergènes",
-            "type": "maycontaintracesofallergens",
-            "slug": "peut-contenir-des-traces-dallergenes",
-            "iconPath": null,
-            "triggersTracesOf": true,
-            "tracesOf": true
-        }
-    ],
-    "averageRating": 3.5,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "RFR20161917-4",
-    "country": "FR",
-    "createdAt": "2022-11-16T10:08:54+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b3",
-            "type": "thai",
-            "name": "Thaï",
-            "slug": "thai",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b3-3b2b2add.jpg"
-        }
+        "Thaï"
     ],
     "description": "Dans cette recette, cuisinez en papillote ! Cette méthode permet de cuire à la vapeur sans assécher le produit, et en conservant les nutriments et les saveurs. Ici, retrouvez du poulet qui cuit dans une sauce au lait de coco et basilic thaï. Il est accompagné de carottes et de patates douces rôties, équilibrant ce plat haut en couleurs et en goûts.",
-    "descriptionHTML": "<p>Dans cette recette, cuisinez en papillote ! Cette méthode permet de cuire à la vapeur sans assécher le produit, et en conservant les nutriments et les saveurs. Ici, retrouvez du poulet qui cuit dans une sauce au lait de coco et basilic thaï. Il est accompagné de carottes et de patates douces rôties, équilibrant ce plat haut en couleurs et en goûts.</p>",
-    "descriptionMarkdown": "Dans cette recette, cuisinez en papillote ! Cette méthode permet de cuire à la vapeur sans assécher le produit, et en conservant les nutriments et les saveurs. Ici, retrouvez du poulet qui cuit dans une sauce au lait de coco et basilic thaï. Il est accompagné de carottes et de patates douces rôties, équilibrant ce plat haut en couleurs et en goûts.",
     "difficulty": 2,
     "favoritesCount": 416,
     "headline": "avec des légumes rôtis & du basilic thaï",
-    "id": "6374b6b546dc2e55b1010c03",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210601_R209_W29_FR_RFR20161917-1_MB_Main_low-942183b3.jpg",
-    "imagePath": "/image/HF210601_R209_W29_FR_RFR20161917-1_MB_Main_low-942183b3.jpg",
+    "name": "Poulet en papillote à la citronnelle",
+    "prepTime": 40,
+    "totalTime": 20,
+    "image_id": "6374b6b546dc2e55b1010c03",
+    "id": "9bb80688-0413-44a3-82d2-550c4d33e734",
+    "nutrition": {
+        "kcal": 610,
+        "fat": 21,
+        "saturated_fat": 8.8,
+        "carbohydrate": 72.1,
+        "sugars": 30.5,
+        "protein": 34.3,
+        "sodium": 3.44
+    },
+    "tags": [
+        "Épicé",
+        "<650 Kcal",
+        "Worldwide"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Éplucheur",
+        "Râpe",
+        "Bol"
+    ],
     "ingredients": [
         {
-            "id": "6405bf6fb9d07cd5d38d7aa9",
-            "uuid": "0372d7d1-4123-416c-936f-a922d2abd931",
-            "name": "Patate douce",
-            "type": "sweet-potatoes",
-            "slug": "patate-douce",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf6fb9d07cd5d38d7aa9-75b98e59.png",
-            "imagePath": "/ingredient/6405bf6fb9d07cd5d38d7aa9-75b98e59.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 450,
+            "unit": "g",
+            "ingredient_id": "fc203d5e-2336-4d3e-80c8-e27c2fdb9899"
         },
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf3aaf4af6d531d50acd",
-            "uuid": "230d08ff-162f-5b15-bf19-bbf3ef5e6210",
-            "name": "Gingembre frais",
-            "type": "ginger",
-            "slug": "gingembre-frais",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "imagePath": "/ingredient/6405bf3aaf4af6d531d50acd-bf470703.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "cm",
+            "ingredient_id": "cce6636d-af2c-4a6d-9463-243866e1abc7",
+            "portion_id": "4f76cd6c-50a4-4899-a67b-51c2b6791808",
+            "image_id": "6405bf3aaf4af6d531d50acd"
         },
         {
-            "id": "6405bf30af4af6d531d50aac",
-            "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
-            "name": "Citron vert",
-            "type": "lime",
-            "slug": "citron-vert",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "imagePath": "/ingredient/6405bf30af4af6d531d50aac-46bfa875.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "146601bd-c1e2-43ec-a4d6-bde0dca50d61",
+            "portion_id": "0dbee63d-ec1f-46df-81a4-eb177bb7efa7",
+            "image_id": "6405bf30af4af6d531d50aac"
         },
         {
-            "id": "6405bf99b9d07cd5d38d7b3c",
-            "uuid": "71078bc4-eb6d-514d-aa2c-812439523042",
-            "name": "Piment",
-            "type": "red-pepper",
-            "slug": "piment",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "imagePath": "/ingredient/6405bf99b9d07cd5d38d7b3c-cdef73d3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.25,
+            "unit": "pièce(s)",
+            "ingredient_id": "b3e2427a-0187-42c5-9a56-f0f81b1d82fb",
+            "portion_id": "7c5c6fac-32ff-4ab9-9651-a07d249d398e",
+            "image_id": "6405bf99b9d07cd5d38d7b3c"
         },
         {
-            "id": "6405bf80b0da1947779862ad",
-            "uuid": "3e5cdd7d-69de-54fe-ab40-04f8585b4c81",
-            "name": "Basilic thaï",
-            "type": "fresh-thai-basil",
-            "slug": "basilic-thai",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80b0da1947779862ad-4ab7fa6a.png",
-            "imagePath": "/ingredient/6405bf80b0da1947779862ad-4ab7fa6a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 3,
+            "unit": "g",
+            "ingredient_id": "c4ae2b0f-86d5-4bc6-a56c-0679e992c6cd"
         },
         {
-            "id": "6405bfdfb0da1947779863ee",
-            "uuid": "4be57e09-204f-50f6-abf5-a91e4a8099db",
-            "name": "Lait de coco",
-            "type": "coconut-milk",
-            "slug": "lait-de-coco",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "imagePath": "/ingredient/6405bfdfb0da1947779863ee-d2e9f455.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 80,
+            "unit": "ml",
+            "ingredient_id": "76aac1fa-8a19-4830-b297-778d46f6f9ea"
         },
         {
-            "id": "64073bacdf6297bb5beef105",
-            "uuid": "f78bf1e3-df5a-54be-a5e7-0df07eea4c4e",
-            "name": "Sauce poisson",
-            "type": "fish-sauce",
-            "slug": "sauce-poisson",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bffab9d07cd5d38d7c82-472f793b.png",
-            "imagePath": "/ingredient/6405bffab9d07cd5d38d7c82-472f793b.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f7"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "ml",
+            "ingredient_id": "a1bab825-4485-461c-bd58-3c31bea90563"
         },
         {
-            "id": "6405bf5daf4af6d531d50b71",
-            "uuid": "26b934db-2410-4d62-aa9c-b6647a00d769",
-            "name": "Citronnelle moulue",
-            "type": "ground-lemongrass",
-            "slug": "citronnelle-moulue",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf5daf4af6d531d50b71-9a8e0c44.png",
-            "imagePath": "/ingredient/6405bf5daf4af6d531d50b71-9a8e0c44.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "219bbd47-d055-4956-91b9-a6a800f042c3",
+            "portion_id": "eca50c29-442f-4f1c-8484-ac4d410ad16a",
+            "image_id": "6405bf5daf4af6d531d50b71"
         },
         {
-            "id": "64073ba7df6297bb5beef0ff",
-            "uuid": "f51f9566-994f-53b8-8618-557a8b86e26a",
-            "name": "Filet de poulet",
-            "type": "chicken-fillet",
-            "slug": "filet-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "imagePath": "/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "shipped": true,
-            "allergens": [
-                "5acf97b7ae08b54d88061162",
-                "62cc417a2f15d58ec3559423",
-                "57962a07b7e8697d4b3052f3"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "bb7fea40-a448-408d-822f-4ca1c9ce78cc",
+            "portion_id": "0d9e7911-da10-4172-8390-468c093e34a0",
+            "image_id": "64073ba7df6297bb5beef0ff"
         },
         {
-            "id": "6405bfd8b0da1947779863d9",
-            "uuid": "7a108e48-7055-504e-be58-b2df98b60529",
-            "name": "Noix de cajou concassées",
-            "type": "cashew-nuts",
-            "slug": "noix-de-cajou-concassees",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd8b0da1947779863d9-df300d9e.png",
-            "imagePath": "/ingredient/6405bfd8b0da1947779863d9-df300d9e.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "6cd82a36-5957-4efe-8989-efffbd49743d"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6374b6b546dc2e55b1010c03",
-    "name": "Poulet en papillote à la citronnelle",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 610,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2553,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 21,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 8.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 72.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 30.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 34.3,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 3.44,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 837,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 658,
-    "slug": "poulet-en-papillote-a-la-citronnelle",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 210°C (190°C chaleur tournante).Épluchez et coupez la patate douce en très fines tranches.Épluchez et coupez les carottes en bâtonnets.Disposez-les avec la patate douce sur une plaque recouverte de papier sulfurisé et versez ½ cs d'huile d'olive par personne au-dessus. Salez, poivrez et mélangez.",
-            "instructionsHTML": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 210°C (190°C chaleur tournante).</li><li><span>É</span>pluchez et coupez la patate douce en très fines tranches.</li><li>Épluchez et coupez les carottes en bâtonnets.</li><li><span>Disposez-les avec la patate douce sur une plaque recouverte de papier sulfurisé et versez ½ cs d&#39;huile d&#39;olive par personne au-dessus. </span>Salez, poivrez et mélangez.</li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</span></li><li>Préchauffez le four à 210°C (190°C chaleur tournante).</li><li><span>É</span>pluchez et coupez la patate douce en très fines tranches.</li><li>Épluchez et coupez les carottes en bâtonnets.</li><li><span>Disposez-les avec la patate douce sur une plaque recouverte de papier sulfurisé et versez ½ cs d&#39;huile d&#39;olive par personne au-dessus. </span>Salez, poivrez et mélangez.</li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522",
-                "57e2674fb7e8697d4b305379"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6374b6b546dc2e55b1010c03/step-f5891e00.jpg",
-                    "path": "/6374b6b546dc2e55b1010c03/step-f5891e00.jpg",
-                    "caption": "Préparer les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Ciselez l'ail.Râpez le gingembre (avec la peau si vous le souhaitez).Lavez bien le citron vert et prélevez-en le zeste avec une râpe, puis coupez-le en quartiers.Épépinez et émincez finement le piment (ça pique ! Dosez-le selon votre goût).Effeuillez le basilic thaï et déchirez les plus grandes feuilles à la main.",
-            "instructionsHTML": "<ul><li>Ciselez l&#39;ail.</li><li>Râpez le gingembre (avec la peau si vous le souhaitez).</li><li>Lavez bien le citron vert et prélevez-en le zeste avec une râpe, puis coupez-le en quartiers.</li><li><span>É</span>pépinez et émincez finement le piment (ça pique ! Dosez-le selon votre goût).</li><li>Effeuillez le basilic thaï et <span>déchirez les plus grandes feuilles à la main.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Ciselez l&#39;ail.</li><li>Râpez le gingembre (avec la peau si vous le souhaitez).</li><li>Lavez bien le citron vert et prélevez-en le zeste avec une râpe, puis coupez-le en quartiers.</li><li><span>É</span>pépinez et émincez finement le piment (ça pique ! Dosez-le selon votre goût).</li><li>Effeuillez le basilic thaï et <span>déchirez les plus grandes feuilles à la main.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30536e"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6374b6b546dc2e55b1010c03/step-a4e1e710.jpg",
-                    "path": "/6374b6b546dc2e55b1010c03/step-a4e1e710.jpg",
-                    "caption": "Couper"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Dans un bol, mélangez le lait de coco avec la sauce poisson (voir CONSEIL), l’ail, le gingembre, le piment et les zestes de citron vert. Ajoutez la moitié du basilic thaï et, par personne : 1 cc de citronnelle moulue et le jus de ¼ de citron vert.CONSEIL: Vous pouvez réduire la quantité de sauce poisson si vous le souhaitez afin que la marinade ne soit pas trop forte.",
-            "instructionsHTML": "<ul><li>Dans un bol, mélangez le lait de coco avec la sauce poisson (voir CONSEIL), l’ail, le gingembre, le piment et les zestes de citron vert. </li><li>Ajoutez la moitié du basilic thaï et, par personne : 1 cc de citronnelle moulue et le jus de <span>¼ </span>de citron vert.</li></ul><p>CONSEIL: Vous pouvez réduire la quantité de sauce poisson si vous le souhaitez afin que la marinade ne soit pas trop forte.</p>",
-            "instructionsMarkdown": "<ul><li>Dans un bol, mélangez le lait de coco avec la sauce poisson (voir CONSEIL), l’ail, le gingembre, le piment et les zestes de citron vert. </li><li>Ajoutez la moitié du basilic thaï et, par personne : 1 cc de citronnelle moulue et le jus de <span>¼ </span>de citron vert.</li></ul><p>CONSEIL: Vous pouvez réduire la quantité de sauce poisson si vous le souhaitez afin que la marinade ne soit pas trop forte.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6374b6b546dc2e55b1010c03/step-457f1a20.jpg",
-                    "path": "/6374b6b546dc2e55b1010c03/step-457f1a20.jpg",
-                    "caption": "Faire la marinade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Enfournez la patate douce et les carottes 18-23 min, ou jusqu'à ce qu'elles soient fondantes.Remuez à mi-cuisson.CONSEIL: Contrôlez la cuisson de la patate douce et de la carotte avec la pointe d’un couteau afin qu’elles soient cuites en même temps que le poulet.",
-            "instructionsHTML": "<ul><li>Enfournez la patate douce et les carottes 18-23 min, ou jusqu&#39;à ce qu&#39;elles soient fondantes.</li><li>Remuez à mi-cuisson.</li></ul><p>CONSEIL: Contrôlez la cuisson de la patate douce et de la carotte avec la pointe d’un couteau afin qu’elles soient cuites en même temps que le poulet.</p>",
-            "instructionsMarkdown": "<ul><li>Enfournez la patate douce et les carottes 18-23 min, ou jusqu&#39;à ce qu&#39;elles soient fondantes.</li><li>Remuez à mi-cuisson.</li></ul><p>CONSEIL: Contrôlez la cuisson de la patate douce et de la carotte avec la pointe d’un couteau afin qu’elles soient cuites en même temps que le poulet.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6374b6b546dc2e55b1010c03/step-50244830.jpg",
-                    "path": "/6374b6b546dc2e55b1010c03/step-50244830.jpg",
-                    "caption": "Enfourner les légumes"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Disposez les filets de poulet au centre d’un rectangle de papier sulfurisé.Arrosez-les avec 1 cs de marinade au lait de coco et repliez les bords du papier sulfurisé, puis pincez-les pour former une papillote bien fermée.Enfournez-les 15-20 min sur une autre plaque de cuisson, ou jusqu’à ce que la chair du poulet ne soit plus rosée à cœur.",
-            "instructionsHTML": "<ul><li>Disposez les filets de poulet au centre d’un rectangle de papier sulfurisé.</li><li>Arrosez-les avec 1 cs de marinade au lait de coco et repliez les bords du papier sulfurisé, puis pincez-les pour former une papillote bien fermée.</li><li>Enfournez-les 15-20 min sur une autre plaque de cuisson, ou jusqu’à ce que la chair du poulet ne soit plus rosée à cœur.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Disposez les filets de poulet au centre d’un rectangle de papier sulfurisé.</li><li>Arrosez-les avec 1 cs de marinade au lait de coco et repliez les bords du papier sulfurisé, puis pincez-les pour former une papillote bien fermée.</li><li>Enfournez-les 15-20 min sur une autre plaque de cuisson, ou jusqu’à ce que la chair du poulet ne soit plus rosée à cœur.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6374b6b546dc2e55b1010c03/step-6db3d840.jpg",
-                    "path": "/6374b6b546dc2e55b1010c03/step-6db3d840.jpg",
-                    "caption": "Enfourner la viande"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Sortez le poulet des papillotes et servez-le dans les assiettes. Disposez les légumes rôtis à côté.Nappez la viande et les légumes du reste de marinade. Saupoudrez ensuite de noix de cajou et du reste de basilic thaï.Ajustez l'assaisonnement en sel et en poivre.",
-            "instructionsHTML": "<ul><li>Sortez le poulet des papillotes et servez-le dans les assiettes. <span>Disposez les légumes rôtis à côté.</span></li><li>Nappez la viande et les légumes du reste de marinade. Saupoudrez ensuite de noix de cajou et du reste de basilic thaï.</li><li>Ajustez l&#39;assaisonnement en sel et en poivre.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Sortez le poulet des papillotes et servez-le dans les assiettes. <span>Disposez les légumes rôtis à côté.</span></li><li>Nappez la viande et les légumes du reste de marinade. Saupoudrez ensuite de noix de cajou et du reste de basilic thaï.</li><li>Ajustez l&#39;assaisonnement en sel et en poivre.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6374b6b546dc2e55b1010c03/step-f6097750.jpg",
-                    "path": "/6374b6b546dc2e55b1010c03/step-f6097750.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305319",
-            "type": "spicy",
-            "name": "Épicé",
-            "slug": "spicy",
-            "colorHandle": "spicy",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "63651421ff03d610fe0d2ae0",
-            "type": "worldwide",
-            "name": "Worldwide",
-            "slug": "worldwide",
-            "colorHandle": "text",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": false
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR20161917-4",
-    "updatedAt": "2023-12-20T18:49:31+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305379",
-            "type": "peeler",
-            "name": "Éplucheur"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30536e",
-            "type": "grater",
-            "name": "Râpe"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        }
-    ],
-    "uuid": "57bcc50c-7516-42a4-9e17-7843a66a6d8e",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/poulet-en-papillote-a-la-citronnelle-6374b6b546dc2e55b1010c03",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 210,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 1.25,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80b0da1947779862ad",
-                    "amount": 2,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 45,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bacdf6297bb5beef105",
-                    "amount": 10,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 450,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 2.5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80b0da1947779862ad",
-                    "amount": 3,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 80,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bacdf6297bb5beef105",
-                    "amount": 20,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 690,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 3.75,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.33,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80b0da1947779862ad",
-                    "amount": 4,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 135,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bacdf6297bb5beef105",
-                    "amount": 30,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 900,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80b0da1947779862ad",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 190,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bacdf6297bb5beef105",
-                    "amount": 40,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 1140,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 6.25,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.58,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80b0da1947779862ad",
-                    "amount": 7,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 215,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bacdf6297bb5beef105",
-                    "amount": 50,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf6fb9d07cd5d38d7aa9",
-                    "amount": 1380,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf3aaf4af6d531d50acd",
-                    "amount": 7.5,
-                    "unit": "cm"
-                },
-                {
-                    "id": "6405bf30af4af6d531d50aac",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf99b9d07cd5d38d7b3c",
-                    "amount": 0.66,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80b0da1947779862ad",
-                    "amount": 8,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bfdfb0da1947779863ee",
-                    "amount": 270,
-                    "unit": "ml"
-                },
-                {
-                    "id": "64073bacdf6297bb5beef105",
-                    "amount": 60,
-                    "unit": "ml"
-                },
-                {
-                    "id": "6405bf5daf4af6d531d50b71",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073ba7df6297bb5beef0ff",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfd8b0da1947779863d9",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 210°C (190°C chaleur tournante).Épluchez et coupez la patate douce en très fines tranches.Épluchez et coupez les carottes en bâtonnets.Disposez-les avec la patate douce sur une plaque recouverte de papier sulfurisé et versez ½ cs d'huile d'olive par personne au-dessus. Salez, poivrez et mélangez.",
+        "Ciselez l'ail.Râpez le gingembre (avec la peau si vous le souhaitez).Lavez bien le citron vert et prélevez-en le zeste avec une râpe, puis coupez-le en quartiers.Épépinez et émincez finement le piment (ça pique ! Dosez-le selon votre goût).Effeuillez le basilic thaï et déchirez les plus grandes feuilles à la main.",
+        "Dans un bol, mélangez le lait de coco avec la sauce poisson (voir CONSEIL), l’ail, le gingembre, le piment et les zestes de citron vert. Ajoutez la moitié du basilic thaï et, par personne : 1 cc de citronnelle moulue et le jus de ¼ de citron vert.CONSEIL: Vous pouvez réduire la quantité de sauce poisson si vous le souhaitez afin que la marinade ne soit pas trop forte.",
+        "Enfournez la patate douce et les carottes 18-23 min, ou jusqu'à ce qu'elles soient fondantes.Remuez à mi-cuisson.CONSEIL: Contrôlez la cuisson de la patate douce et de la carotte avec la pointe d’un couteau afin qu’elles soient cuites en même temps que le poulet.",
+        "Disposez les filets de poulet au centre d’un rectangle de papier sulfurisé.Arrosez-les avec 1 cs de marinade au lait de coco et repliez les bords du papier sulfurisé, puis pincez-les pour former une papillote bien fermée.Enfournez-les 15-20 min sur une autre plaque de cuisson, ou jusqu’à ce que la chair du poulet ne soit plus rosée à cœur.",
+        "Sortez le poulet des papillotes et servez-le dans les assiettes. Disposez les légumes rôtis à côté.Nappez la viande et les légumes du reste de marinade. Saupoudrez ensuite de noix de cajou et du reste de basilic thaï.Ajustez l'assaisonnement en sel et en poivre."
     ]
 }

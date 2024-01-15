@@ -1,1087 +1,138 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.7,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ae",
-        "name": "Beef",
-        "type": "beef",
-        "slug": "beef"
-    },
-    "clonedFrom": null,
-    "comment": "RFR29803814-1",
-    "country": "FR",
-    "createdAt": "2022-04-12T20:04:08+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053b8",
-            "type": "mediterranean",
-            "name": "Mediterranean",
-            "slug": "mediterranean",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b8-f04aa19c.jpg"
-        }
+        "Mediterranean"
     ],
     "description": "Légume peut rimer avec gourmandise, cette recette en atteste ! Du poivron farçi avec une préparation à base de courgette, d'oignon et de viande hachée en sauce tomate : autant de savoureuses associations qui vous feront apprécier votre repas en toute sérénité.\nLe petit plus : la sauce aux herbes qui vient napper le tout. Bonne dégustation !",
-    "descriptionHTML": "<p>Légume peut rimer avec gourmandise, cette recette en atteste ! Du poivron farçi avec une préparation à base de courgette, d'oignon et de viande hachée en sauce tomate : autant de savoureuses associations qui vous feront apprécier votre repas en toute sérénité.\nLe petit plus : la sauce aux herbes qui vient napper le tout. Bonne dégustation !</p>",
-    "descriptionMarkdown": "Légume peut rimer avec gourmandise, cette recette en atteste ! Du poivron farçi avec une préparation à base de courgette, d'oignon et de viande hachée en sauce tomate : autant de savoureuses associations qui vous feront apprécier votre repas en toute sérénité.\nLe petit plus : la sauce aux herbes qui vient napper le tout. Bonne dégustation !",
     "difficulty": 2,
     "favoritesCount": 421,
     "headline": "avec du fromage râpé, de l'origan & une salade",
-    "id": "6255db36605c621e79607130",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF220325_R215_W19_FR_RFR29803814-1_MB_Main_low-fde7e25a.jpg",
-    "imagePath": "/image/HF220325_R215_W19_FR_RFR29803814-1_MB_Main_low-fde7e25a.jpg",
+    "name": "Poivrons farcis au bœuf haché & sauce aux herbes",
+    "prepTime": 50,
+    "totalTime": 20,
+    "image_id": "6255db36605c621e79607130",
+    "id": "78ef6e6d-4855-4e6a-8fd8-83e65b4cf09b",
+    "nutrition": {
+        "kcal": 556,
+        "fat": 34.27,
+        "saturated_fat": 11.78,
+        "carbohydrate": 18.04,
+        "sugars": 14.87,
+        "protein": 30.95,
+        "sodium": 1.67
+    },
+    "tags": [
+        "<30g glucides",
+        "<650 Kcal"
+    ],
+    "utensils": [
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Poêle",
+        "Bol",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bff3b9d07cd5d38d7c6b",
-            "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
-            "name": "Poivron",
-            "type": "bell-pepper",
-            "slug": "poivron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff3b9d07cd5d38d7c6b-3435490a.png",
-            "imagePath": "/ingredient/6405bff3b9d07cd5d38d7c6b-3435490a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "50b0709b-9821-4df3-8e5d-85ee19cdf8b2",
+            "portion_id": "030858e1-ea9f-4f3a-a243-5a0b66fa341b",
+            "image_id": "6405bff3b9d07cd5d38d7c6b"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf8bb9d07cd5d38d7b0c",
-            "uuid": "08fdabb8-8ea0-53a6-9f44-85127ada6c27",
-            "name": "Courgette",
-            "type": "zucchini",
-            "slug": "courgette",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "imagePath": "/ingredient/6405bf8bb9d07cd5d38d7b0c-8062cd96.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.25,
+            "unit": "pièce(s)",
+            "ingredient_id": "e32aa012-a822-4ee2-b710-904dd001de92",
+            "portion_id": "c10ecad4-abae-4fff-a410-4bbcabbc1abd",
+            "image_id": "6405bf8bb9d07cd5d38d7b0c"
         },
         {
-            "id": "6405bf95b0da1947779862f8",
-            "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
-            "name": "Persil",
-            "type": "flat-leaf-parsley",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "imagePath": "/ingredient/6405bf95b0da1947779862f8-979b29e3.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 5,
+            "unit": "g",
+            "ingredient_id": "4e0da705-5d5e-4e70-a595-83e43cce7d2e"
         },
         {
-            "id": "6405bf9faf4af6d531d50c4b",
-            "uuid": "4f1d94af-58f4-5656-b457-8b82823bbe81",
-            "name": "Viande hachée au bœuf",
-            "type": "ground-beef",
-            "slug": "viande-hachee-au-boeuf",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "imagePath": "/ingredient/6405bf9faf4af6d531d50c4b-abfb8545.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 200,
+            "unit": "g",
+            "ingredient_id": "5991acc9-c23a-487a-8980-d8d095deb8b6"
         },
         {
-            "id": "6405bf41b0da1947779861d8",
-            "uuid": "27bdf929-2223-5877-8919-3bd93eb85c24",
-            "name": "Chair de tomates",
-            "type": "tomato-passata",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "imagePath": "/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "d1d9c648-1d96-428b-8010-1f8136dfe501"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "6405bf39b0da1947779861bf",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 25,
+            "unit": "g",
+            "ingredient_id": "61d47fda-51f7-4500-80ec-6130cc334a70"
         },
         {
-            "id": "64073ba8df6297bb5beef100",
-            "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
-            "name": "Yaourt à la grecque",
-            "type": "greek-style-natural-yoghurt",
-            "slug": "yaourt-a-la-grecque",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "imagePath": "/ingredient/6405bf92b0da1947779862f1-4a4244bc.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "107478ae-efe4-4776-9dba-0f0481e3dc68",
+            "portion_id": "185229fb-6004-485d-a622-e5f3207f3aa0",
+            "image_id": "64073ba8df6297bb5beef100"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 40,
+            "unit": "g",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122dbc1d64f7b96e270c",
-            "uuid": "3e74f16b-fd54-4f86-bc50-7ce802b6320e",
-            "name": "Cassonade",
-            "type": "cassonade-cc",
-            "slug": "cassonade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "imagePath": "/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "a1021713-ae59-44e5-a855-c171837e293e",
+            "portion_id": "61782b7f-090b-4597-b697-9b5071397f73",
+            "image_id": "63e5122dbc1d64f7b96e270c"
         },
         {
-            "id": "63e51234bc1d64f7b96e270f",
-            "uuid": "ac8d33b2-78ef-4f52-b824-15fa3e994a5f",
-            "name": "Vinaigre de vin rouge ou de cidre",
-            "type": "vinaigre-de-vin-rouge-ou-de-cidre-cc",
-            "slug": "vinaigre-de-vin-rouge-ou-de-cidre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "imagePath": "/ingredient/63e51234bc1d64f7b96e270f-83a81218.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cc",
+            "ingredient_id": "1b964d57-61fe-4bb0-8bf7-237b29cb476b",
+            "portion_id": "c9104a39-f2ae-4c15-9ccb-78df20cef937",
+            "image_id": "63e51234bc1d64f7b96e270f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/6255db36605c621e79607130",
-    "name": "Poivrons farcis au bœuf haché & sauce aux herbes",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 556,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 2327,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 34.27,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 11.78,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 18.04,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 14.87,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 30.95,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.67,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT50M",
-    "promotion": null,
-    "ratingsCount": 618,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 505,
-    "slug": "poivrons-farcis-au-boeuf-hache-and-sauce-aux-herbes",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C sur grill.Coupez les poivrons en deux et évidez-les. Sur une plaque recouverte de papier sulfurisé, côté bombé vers le haut, badigeonnez-les d'huile d'olive. Enfournez-les immédiatement 10-15 min.Ciselez l’oignon, l’ail et le persil.Coupez la courgette en petits dés de 5 mm.",
-            "instructionsHTML": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li><span>Préchauffez le four à 220°C sur grill.</span></li><li><span>Coupez les poivrons en deux et évidez-les. Sur une plaque recouverte de papier sulfurisé, côté bombé vers le haut, badigeonnez-les d&#39;huile d&#39;olive. Enfournez-les immédiatement 10-15 min.</span></li><li><span>Ciselez</span><span> l’oignon, l’ail et le persil.</span></li><li><span>Coupez la courgette en petits dés de 5 mm.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li><li><span>Préchauffez le four à 220°C sur grill.</span></li><li><span>Coupez les poivrons en deux et évidez-les. Sur une plaque recouverte de papier sulfurisé, côté bombé vers le haut, badigeonnez-les d&#39;huile d&#39;olive. Enfournez-les immédiatement 10-15 min.</span></li><li><span>Ciselez</span><span> l’oignon, l’ail et le persil.</span></li><li><span>Coupez la courgette en petits dés de 5 mm.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255db36605c621e79607130/step-14686600.jpg",
-                    "path": "/6255db36605c621e79607130/step-14686600.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une poêle. Faites-y revenir l’oignon et la courgette 2-3 min. Salez.Ajoutez la viande hachée, la majorité de l'ail (gardez-en l’équivalent de la pointe d’un couteau pour la sauce), la quantité indiquée de passata et 1 cc d'origan séché par personne. Ajoutez la cassonade, un filet d'eau, salez et poivrez. Faites revenir 2-4 min de plus.",
-            "instructionsHTML": "<ul><li><span>Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une poêle. Faites-y revenir l’oignon et la courgette 2-3 min. Salez.</span></li><li><span>Ajoutez la viande hachée, la majorité de l&#39;ail (gardez-en l’équivalent de la pointe d’un couteau pour la sauce), la quantité indiquée de passata et </span><span>1 cc d&#39;origan séché par personne. </span></li><li><span>Ajoutez la cassonade, un filet d&#39;eau, salez et poivrez. F</span><span>aites revenir 2-4 min de plus.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une poêle. Faites-y revenir l’oignon et la courgette 2-3 min. Salez.</span></li><li><span>Ajoutez la viande hachée, la majorité de l&#39;ail (gardez-en l’équivalent de la pointe d’un couteau pour la sauce), la quantité indiquée de passata et </span><span>1 cc d&#39;origan séché par personne. </span></li><li><span>Ajoutez la cassonade, un filet d&#39;eau, salez et poivrez. F</span><span>aites revenir 2-4 min de plus.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305383"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255db36605c621e79607130/step-7a072510.jpg",
-                    "path": "/6255db36605c621e79607130/step-7a072510.jpg",
-                    "caption": "Cuire"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Hors du feu, ajoutez la moitié du persil et le fromage italien râpé. Mélangez.Garnissez les poivrons de farce. Arrosez-les d’un filet d’huile d’olive et enfournez 15-20 min ou jusqu’à ce que la pointe d’un couteau rentre facilement dans la chair du poivron. S'il vous reste de la farce, servez-la en accompagnement du plat à l'étape 6.CONSEIL: Selon la puissance de votre four, la cuisson des légumes farcis peut parfois prendre plus de temps qu'annoncé : prolongez la cuisson de quelques minutes si nécessaire.",
-            "instructionsHTML": "<ul><li><span>Hors du feu, ajoutez la moitié du persil et le fromage italien râpé. Mélangez.</span></li><li><span>Garnissez les poivrons de farce. Arrosez-les d’un filet d’huile d’olive et enfournez 15-20 min ou jusqu’à ce que la pointe d’un couteau rentre facilement dans la chair du poivron. S&#39;il vous reste de la farce, servez-la en accompagnement du plat à l&#39;étape 6.</span></li></ul><p>CONSEIL: Selon la puissance de votre four, la cuisson des légumes farcis peut parfois prendre plus de temps qu&#39;annoncé : prolongez la cuisson de quelques minutes si nécessaire.</p>",
-            "instructionsMarkdown": "<ul><li><span>Hors du feu, ajoutez la moitié du persil et le fromage italien râpé. Mélangez.</span></li><li><span>Garnissez les poivrons de farce. Arrosez-les d’un filet d’huile d’olive et enfournez 15-20 min ou jusqu’à ce que la pointe d’un couteau rentre facilement dans la chair du poivron. S&#39;il vous reste de la farce, servez-la en accompagnement du plat à l&#39;étape 6.</span></li></ul><p>CONSEIL: Selon la puissance de votre four, la cuisson des légumes farcis peut parfois prendre plus de temps qu&#39;annoncé : prolongez la cuisson de quelques minutes si nécessaire.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255db36605c621e79607130/step-bf7fa020.jpg",
-                    "path": "/6255db36605c621e79607130/step-bf7fa020.jpg",
-                    "caption": "Farcir"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Pendant ce temps, dans un bol, mélangez le reste de persil avec le yaourt à la grecque, un filet d'huile d'olive, la pincée d’ail réservée (voir CONSEIL), du sel et du poivre. Ajoutez un mince filet d’eau pour fluidifier la sauce si besoin. CONSEIL: Si vous n'aimez pas l'ail cru, n'en ajoutez pas dans la sauce.",
-            "instructionsHTML": "<ul><li><span>Pendant ce temps, dans un bol, mélangez le reste de persil avec </span><span>le yaourt à la grecque, </span><span>un filet d&#39;huile d&#39;olive, la pincée d’ail réservée (voir CONSEIL), du sel et du poivre. </span></li><li><span>Ajoutez un mince filet d’eau pour fluidifier la sauce si besoin. </span></li></ul><p>CONSEIL: Si vous n&#39;aimez pas l&#39;ail cru, n&#39;en ajoutez pas dans la sauce.</p>",
-            "instructionsMarkdown": "<ul><li><span>Pendant ce temps, dans un bol, mélangez le reste de persil avec </span><span>le yaourt à la grecque, </span><span>un filet d&#39;huile d&#39;olive, la pincée d’ail réservée (voir CONSEIL), du sel et du poivre. </span></li><li><span>Ajoutez un mince filet d’eau pour fluidifier la sauce si besoin. </span></li></ul><p>CONSEIL: Si vous n&#39;aimez pas l&#39;ail cru, n&#39;en ajoutez pas dans la sauce.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255db36605c621e79607130/step-0b498430.jpg",
-                    "path": "/6255db36605c621e79607130/step-0b498430.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin rouge pour faire une vinaigrette. Juste avant de servir, ajoutez le mélange de jeunes pousses. Salez, poivrez et mélangez. ",
-            "instructionsHTML": "<ul><li><span>Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin rouge pour faire une vinaigrette. </span></li><li><span>Juste avant de servir, ajoutez le mélange de jeunes pousses. Salez, poivrez et mélangez. </span></li></ul><p><br></p>",
-            "instructionsMarkdown": "<ul><li><span>Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin rouge pour faire une vinaigrette. </span></li><li><span>Juste avant de servir, ajoutez le mélange de jeunes pousses. Salez, poivrez et mélangez. </span></li></ul><p><br></p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255db36605c621e79607130/step-b7d10040.jpg",
-                    "path": "/6255db36605c621e79607130/step-b7d10040.jpg",
-                    "caption": "Faire la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez les poivrons farcis dans les assiettes. Nappez-les de sauce aux herbes. Présentez la salade en accompagnement.﻿",
-            "instructionsHTML": "<ul><li><span>Servez les poivrons farcis dans les assiettes. N</span><span>appez-les de sauce aux herbes. </span></li><li><span>Présentez la salade en accompagnement.﻿</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Servez les poivrons farcis dans les assiettes. N</span><span>appez-les de sauce aux herbes. </span></li><li><span>Présentez la salade en accompagnement.﻿</span></li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6255db36605c621e79607130/step-0b96d450.jpg",
-                    "path": "/6255db36605c621e79607130/step-0b96d450.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305316",
-            "type": "low-carb",
-            "name": "<30g glucides",
-            "slug": "<30g-glucides",
-            "colorHandle": "calorieSmart",
-            "preferences": [
-                "Calorie Smart"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "619f65dae9aadf39547f9f65",
-            "type": "under-650-calories",
-            "name": "<650 Kcal",
-            "slug": "650-kcal",
-            "colorHandle": "calorieSmart",
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT20M",
-    "uniqueRecipeCode": "RFR29803814-1",
-    "updatedAt": "2024-01-03T02:28:00+00:00",
-    "utensils": [
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305383",
-            "type": "tallsidedpan",
-            "name": "Poêle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "4a7078fe-7c61-45cb-9b5c-628b8243c1bf",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/poivrons-farcis-au-boeuf-hache-and-sauce-aux-herbes-6255db36605c621e79607130",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.13,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 0.5,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 25,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 1.8,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 4,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 12.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 65,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 2.8,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bff3b9d07cd5d38d7c6b",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf8bb9d07cd5d38d7b0c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf95b0da1947779862f8",
-                    "amount": 15,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf9faf4af6d531d50c4b",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "6405bf39b0da1947779861bf",
-                    "amount": 80,
-                    "unit": "g"
-                },
-                {
-                    "id": "64073ba8df6297bb5beef100",
-                    "amount": 3.6,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 120,
-                    "unit": "g"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 6,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51234bc1d64f7b96e270f",
-                    "amount": 6,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C sur grill.Coupez les poivrons en deux et évidez-les. Sur une plaque recouverte de papier sulfurisé, côté bombé vers le haut, badigeonnez-les d'huile d'olive. Enfournez-les immédiatement 10-15 min.Ciselez l’oignon, l’ail et le persil.Coupez la courgette en petits dés de 5 mm.",
+        "Faites chauffer un filet d’huile d’olive à feu moyen-vif dans une poêle. Faites-y revenir l’oignon et la courgette 2-3 min. Salez.Ajoutez la viande hachée, la majorité de l'ail (gardez-en l’équivalent de la pointe d’un couteau pour la sauce), la quantité indiquée de passata et 1 cc d'origan séché par personne. Ajoutez la cassonade, un filet d'eau, salez et poivrez. Faites revenir 2-4 min de plus.",
+        "Hors du feu, ajoutez la moitié du persil et le fromage italien râpé. Mélangez.Garnissez les poivrons de farce. Arrosez-les d’un filet d’huile d’olive et enfournez 15-20 min ou jusqu’à ce que la pointe d’un couteau rentre facilement dans la chair du poivron. S'il vous reste de la farce, servez-la en accompagnement du plat à l'étape 6.CONSEIL: Selon la puissance de votre four, la cuisson des légumes farcis peut parfois prendre plus de temps qu'annoncé : prolongez la cuisson de quelques minutes si nécessaire.",
+        "Pendant ce temps, dans un bol, mélangez le reste de persil avec le yaourt à la grecque, un filet d'huile d'olive, la pincée d’ail réservée (voir CONSEIL), du sel et du poivre. Ajoutez un mince filet d’eau pour fluidifier la sauce si besoin. CONSEIL: Si vous n'aimez pas l'ail cru, n'en ajoutez pas dans la sauce.",
+        "Dans un saladier, mélangez un filet d’huile d’olive et de vinaigre de vin rouge pour faire une vinaigrette. Juste avant de servir, ajoutez le mélange de jeunes pousses. Salez, poivrez et mélangez. ",
+        "Servez les poivrons farcis dans les assiettes. Nappez-les de sauce aux herbes. Présentez la salade en accompagnement.﻿"
     ]
 }

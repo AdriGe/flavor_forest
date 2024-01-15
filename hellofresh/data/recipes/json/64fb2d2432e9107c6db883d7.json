@@ -1,1014 +1,130 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "57962a07b7e8697d4b3052f5",
-            "name": "Gluten",
-            "type": "gluten",
-            "slug": "gluten",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        },
-        {
-            "id": "60368d89cdbdf450236ad8cd",
-            "name": "Blé",
-            "type": "wheat",
-            "slug": "ble",
-            "iconPath": null,
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": null,
-    "canonicalLink": null,
-    "cardLink": null,
-    "category": null,
-    "clonedFrom": "64f0369f7048962116ef119f",
-    "comment": null,
-    "country": "FR",
-    "createdAt": "2023-10-13T10:44:13+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053ac",
-            "type": "italian",
-            "name": "Italienne",
-            "slug": "italian",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
-        }
+        "Italienne"
     ],
     "description": "Connaissez-vous les panzerotti, ces petits chaussons fourrés à la tomate et à la mozzarella, originaires de la région des Pouilles en Italie ? Contrairement à leur cousine la pizza calzone, ils sont la plupart du temps frits... Dégustez notre version garnie de mozzarella, jambon blanc et tomates. Quant à la cuisson, libre à vous de la faire au four, ou dans une généreuse dose d’huile. Buon appetito!",
-    "descriptionHTML": "<p>Connaissez-vous les panzerotti, ces petits chaussons fourrés à la tomate et à la mozzarella, originaires de la région des Pouilles en Italie ? Contrairement à leur cousine la pizza calzone, ils sont la plupart du temps frits... Dégustez notre version garnie de mozzarella, jambon blanc et tomates. Quant à la cuisson, libre à vous de la faire au four, ou dans une généreuse dose d’huile. Buon appetito!</p>",
-    "descriptionMarkdown": "Connaissez-vous les panzerotti, ces petits chaussons fourrés à la tomate et à la mozzarella, originaires de la région des Pouilles en Italie ? Contrairement à leur cousine la pizza calzone, ils sont la plupart du temps frits... Dégustez notre version garnie de mozzarella, jambon blanc et tomates. Quant à la cuisson, libre à vous de la faire au four, ou dans une généreuse dose d’huile. Buon appetito!",
     "difficulty": 2,
     "favoritesCount": 32,
     "headline": "avec une farce à la tomate & une salade",
-    "id": "64fb2d2432e9107c6db883d7",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R226_W45_FR_QFR29803866-3_Mainhigh-576e203d.jpg",
-    "imagePath": "/image/HF_Y23_R226_W45_FR_QFR29803866-3_Mainhigh-576e203d.jpg",
+    "name": "Chaussons mozza & jambon façon panzerotti",
+    "prepTime": 30,
+    "totalTime": 15,
+    "image_id": "64fb2d2432e9107c6db883d7",
+    "id": "c33392a8-f067-440b-9a12-73444f8d65f6",
+    "nutrition": {
+        "kcal": 786,
+        "fat": 48.8,
+        "saturated_fat": 26.1,
+        "carbohydrate": 56,
+        "sugars": 6.8,
+        "protein": 29.5,
+        "sodium": 2.75
+    },
+    "tags": [
+        "Moins de CO2",
+        "Famille",
+        "Peu de cuisine"
+    ],
+    "utensils": [
+        "Bol",
+        "Plaque de cuisson recouverte de papier sulfurisé",
+        "Saladier"
+    ],
     "ingredients": [
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bf9caf4af6d531d50c45",
-            "uuid": "9955fa99-4af7-5add-b525-9c6ccbc8c479",
-            "name": "Jambon blanc",
-            "type": "sliced-cooked-ham",
-            "slug": "jambon-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf9caf4af6d531d50c45-5807b7cb.png",
-            "imagePath": "/ingredient/6405bf9caf4af6d531d50c45-5807b7cb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "tranche(s)",
+            "ingredient_id": "17c13c5d-103a-45cc-aef3-fc45dcfb5b5c",
+            "portion_id": "e7348f56-f1c2-431a-9349-752166c42b53",
+            "image_id": "6405bf9caf4af6d531d50c45"
         },
         {
-            "id": "64073ba59c6d10cd16eab614",
-            "uuid": "d88011a7-fa15-5b37-94b9-adf6f044d69d",
-            "name": "Mozzarella",
-            "type": "mozzarella",
-            "slug": "mozzarella",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfd2b0da1947779863c6-0cf132f0.png",
-            "imagePath": "/ingredient/6405bfd2b0da1947779863c6-0cf132f0.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "e8c5fc02-9ba3-4add-9973-bc91b9b297d1",
+            "portion_id": "7cb63b03-9b3b-48ac-98a9-360ea0a4b3cf",
+            "image_id": "64073ba59c6d10cd16eab614"
         },
         {
-            "id": "6405bf41b0da1947779861d8",
-            "uuid": "27bdf929-2223-5877-8919-3bd93eb85c24",
-            "name": "Chair de tomates",
-            "type": "tomato-passata",
-            "slug": "chair-de-tomates",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "imagePath": "/ingredient/6405bf41b0da1947779861d8-8b0c6134.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 100,
+            "unit": "g",
+            "ingredient_id": "d1d9c648-1d96-428b-8010-1f8136dfe501"
         },
         {
-            "id": "6405bff0af4af6d531d50d4b",
-            "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
-            "name": "Origan séché",
-            "type": "dried-oregano",
-            "slug": "origan-seche",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "imagePath": "/ingredient/6405bff0af4af6d531d50d4b-04178990.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "sachet(s)",
+            "ingredient_id": "5c1bfef0-e1ef-4288-91b0-ad92145ba534",
+            "portion_id": "4138cead-4f14-41a8-8461-d76994a954b4",
+            "image_id": "6405bff0af4af6d531d50d4b"
         },
         {
-            "id": "64073bc8683721c9a32b0762",
-            "uuid": "2acd7733-5a85-4e18-a008-35cb32efea42",
-            "name": "Pâte à tarte",
-            "type": "shortcrust-pastry",
-            "slug": "pate-a-tarte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf32b9d07cd5d38d79c0-fa21ee2f.png",
-            "imagePath": "/ingredient/6405bf32b9d07cd5d38d79c0-fa21ee2f.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052f5",
-                "60368d89cdbdf450236ad8cd",
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "38e24982-7037-44c9-900a-0c197756527e",
+            "portion_id": "dd5b5cd1-9203-4bc6-863c-cb0ef2ce0371",
+            "image_id": "64073bc8683721c9a32b0762"
         },
         {
-            "id": "64073ba5df6297bb5beef0f3",
-            "uuid": "4c12a999-5352-40ea-8629-ebab7ec30f04",
-            "name": "Fromage râpé à l'italienne",
-            "type": "grated-italian-cheese",
-            "slug": "fromage-rape-a-litalienne",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "imagePath": "/ingredient/6405bf39b0da1947779861bf-d585b925.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 20,
+            "unit": "g",
+            "ingredient_id": "1e8131fd-d846-473c-8276-ba8d0dc471e2"
         },
         {
-            "id": "6405bf36b0da1947779861b1",
-            "uuid": "b4029194-68ed-4ba6-88dc-305337acec0d",
-            "name": "Salade",
-            "type": "salad",
-            "slug": "salade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "imagePath": "/ingredient/6405bf36b0da1947779861b1-99895bbf.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "sachet(s)",
+            "ingredient_id": "51803d3b-1634-47f6-8ef0-e6291dc2b112",
+            "portion_id": "0d2111ea-29b5-4a2f-b6a2-745c9cba33b6",
+            "image_id": "6405bf36b0da1947779861b1"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5122dbc1d64f7b96e270c",
-            "uuid": "3e74f16b-fd54-4f86-bc50-7ce802b6320e",
-            "name": "Cassonade",
-            "type": "cassonade-cc",
-            "slug": "cassonade",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "imagePath": "/ingredient/63e5122dbc1d64f7b96e270c-3df35551.jpeg",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "a1021713-ae59-44e5-a855-c171837e293e",
+            "portion_id": "61782b7f-090b-4597-b697-9b5071397f73",
+            "image_id": "63e5122dbc1d64f7b96e270c"
         },
         {
-            "id": "63e51230a0a0603e5708dcc5",
-            "uuid": "12c880c0-6af9-41a3-8c36-4069162255d8",
-            "name": "Moutarde",
-            "type": "moutarde-cc",
-            "slug": "moutarde",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "imagePath": "/ingredient/63e51230a0a0603e5708dcc5-1290b276.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cc",
+            "ingredient_id": "5efa45e3-90eb-4aa8-be5d-6cb5abd2514b",
+            "portion_id": "5240e83f-eedb-4921-9336-3318de481c14",
+            "image_id": "63e51230a0a0603e5708dcc5"
         },
         {
-            "id": "63e5123281b4b295e66f025f",
-            "uuid": "9c2f577f-2aa0-4423-afb3-cf6719abe6ff",
-            "name": "Vinaigre balsamique noir",
-            "type": "vinaigre-balsamique-noir-cs",
-            "slug": "vinaigre-balsamique-noir",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "imagePath": "/ingredient/63e5123281b4b295e66f025f-7567b744.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "2c058c4d-c70a-4bb0-b00d-8d7518367db7",
+            "portion_id": "b4a8bde1-c111-4e53-9bad-b935ba096597",
+            "image_id": "63e5123281b4b295e66f025f"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/64fb2d2432e9107c6db883d7",
-    "name": "Chaussons mozza & jambon façon panzerotti",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 3289,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 786,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 48.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 26.1,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 56,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 6.8,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 29.5,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 2.75,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT30M",
-    "promotion": null,
-    "ratingsCount": 124,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 296,
-    "slug": "chaussons-mozza-and-jambon-facon-panzerotti",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 250°C (ou 230°C chaleur tournante). Conservez la pâte au réfrigérateur jusqu'à utilisation.\nCiselez l’ail. Coupez chaque tranche de jambon en deux.\nÉgouttez la mozzarella, puis coupez-la en dés de 1 cm. Essuyez-les bien avec de l'essuie-tout pour en ôter l'eau.\n",
-            "instructionsHTML": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 250°C (ou 230°C chaleur tournante). Conservez la pâte au réfrigérateur jusqu&#39;à utilisation.</li>\n<li>Ciselez l’ail. Coupez chaque tranche de jambon en deux.</li>\n<li>Égouttez la mozzarella, puis coupez-la en dés de 1 cm. Essuyez-les bien avec de l&#39;essuie-tout pour en ôter l&#39;eau.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !</li>\n<li>Préchauffez le four à 250°C (ou 230°C chaleur tournante). Conservez la pâte au réfrigérateur jusqu&#39;à utilisation.</li>\n<li>Ciselez l’ail. Coupez chaque tranche de jambon en deux.</li>\n<li>Égouttez la mozzarella, puis coupez-la en dés de 1 cm. Essuyez-les bien avec de l&#39;essuie-tout pour en ôter l&#39;eau.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d2432e9107c6db883d7/step-86804a00.jpg",
-                    "path": "/64fb2d2432e9107c6db883d7/step-86804a00.jpg",
-                    "caption": "Préparer"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "\nDans un bol, mélangez l’ail avec un filet d’huile d’olive. \nAjoutez, par personne : 50 g de chair de tomates, ¼ sachet d’origan séché et ½ cc de cassonade. Salez, poivrez et mélangez.\n",
-            "instructionsHTML": "<ul>\n<li><span>Dans un bol, mélangez l’ail avec un filet d’huile d’olive. </span></li>\n<li><span>Ajoutez, par personne : 50 g de chair de tomates, ¼ sachet d’origan séché et ½ cc de cassonade. Salez, poivrez et mélangez.</span></li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li><span>Dans un bol, mélangez l’ail avec un filet d’huile d’olive. </span></li>\n<li><span>Ajoutez, par personne : 50 g de chair de tomates, ¼ sachet d’origan séché et ½ cc de cassonade. Salez, poivrez et mélangez.</span></li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305369"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d2432e9107c6db883d7/step-f4010d10.jpg",
-                    "path": "/64fb2d2432e9107c6db883d7/step-f4010d10.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "\nÉtalez la pâte sur une plaque recouverte de papier sulfurisé et coupez-la en quatre parts. \nVeillez à laisser un rebord de 0,5-1 cm puis, saupoudrez le fromage râpé sur chaque morceau de pâte.\nDisposez ½ tranche de jambon, un peu de sauce tomate et quelques dés de mozzarella par-dessus. Salez et poivrez.\nRepliez la pâte de manière à former un chausson triangulaire. Scellez-les avec une fourchette pour contenir la garniture.\n\nCONSEIL: Si vous avez trop de farce, gardez quelques dés de mozzarella et ajoutez-les à la salade.",
-            "instructionsHTML": "<ul>\n<li><span>Étalez la pâte sur une plaque recouverte de papier sulfurisé et coupez-la en quatre parts. </span></li>\n<li>Veillez à laisser un rebord de 0,5-1 cm puis, saupoudrez le fromage râpé sur chaque morceau de pâte.</li>\n<li>Disposez ½ tranche de jambon, un peu de sauce tomate et quelques dés de mozzarella par-dessus. Salez et poivrez.</li>\n<li>Repliez la pâte de manière à former un chausson triangulaire. Scellez-les avec une fourchette pour contenir la garniture.</li>\n</ul>\n<p>CONSEIL: Si vous avez trop de farce, gardez quelques dés de mozzarella et ajoutez-les à la salade.</p>",
-            "instructionsMarkdown": "<ul>\n<li><span>Étalez la pâte sur une plaque recouverte de papier sulfurisé et coupez-la en quatre parts. </span></li>\n<li>Veillez à laisser un rebord de 0,5-1 cm puis, saupoudrez le fromage râpé sur chaque morceau de pâte.</li>\n<li>Disposez ½ tranche de jambon, un peu de sauce tomate et quelques dés de mozzarella par-dessus. Salez et poivrez.</li>\n<li>Repliez la pâte de manière à former un chausson triangulaire. Scellez-les avec une fourchette pour contenir la garniture.</li>\n</ul>\n<p>CONSEIL: Si vous avez trop de farce, gardez quelques dés de mozzarella et ajoutez-les à la salade.</p>",
-            "ingredients": [],
-            "utensils": [
-                "5e3ad24dfcf61c18c30ff522"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d2432e9107c6db883d7/step-92773220.jpg",
-                    "path": "/64fb2d2432e9107c6db883d7/step-92773220.jpg",
-                    "caption": "Monter les panzerotti"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "\nBadigeonnez les panzerotti d’huile d’olive.\nEnfournez-les 12-15 min, ou jusqu’à ce qu’ils soient dorés. \n\nCONSEIL: Si vous souhaitez cuire les panzerotti comme en Italie : faites chauffer environ 2 mm d'huile de tournesol dans une grande poêle à feu vif et faites-y revenir les panzerotti 3-4 min de chaque côté, ou jusqu'à ce qu'ils soient dorés.",
-            "instructionsHTML": "<ul>\n<li>Badigeonnez les panzerotti d’huile d’olive.</li>\n<li>Enfournez-les 12-15 min, ou jusqu’à ce qu’ils soient dorés. </li>\n</ul>\n<p>CONSEIL: Si vous souhaitez cuire les panzerotti comme en Italie : faites chauffer environ 2 mm d&#39;huile de tournesol dans une grande poêle à feu vif et faites-y revenir les panzerotti 3-4 min de chaque côté, ou jusqu&#39;à ce qu&#39;ils soient dorés.</p>",
-            "instructionsMarkdown": "<ul>\n<li>Badigeonnez les panzerotti d’huile d’olive.</li>\n<li>Enfournez-les 12-15 min, ou jusqu’à ce qu’ils soient dorés. </li>\n</ul>\n<p>CONSEIL: Si vous souhaitez cuire les panzerotti comme en Italie : faites chauffer environ 2 mm d&#39;huile de tournesol dans une grande poêle à feu vif et faites-y revenir les panzerotti 3-4 min de chaque côté, ou jusqu&#39;à ce qu&#39;ils soient dorés.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d2432e9107c6db883d7/step-60254630.jpg",
-                    "path": "/64fb2d2432e9107c6db883d7/step-60254630.jpg",
-                    "caption": "Enfourner"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "\nPendant ce temps, dans un saladier, faites une vinaigrette en mélangeant la moutarde avec un filet d’huile d’olive et de vinaigre balsamique. Salez et poivrez.\nJuste avant de servir, ajoutez la salade au saladier, puis mélangez.\n",
-            "instructionsHTML": "<ul>\n<li>Pendant ce temps, dans un saladier, faites une vinaigrette en mélangeant la moutarde avec un filet d’huile d’olive et de vinaigre balsamique. Salez et poivrez.</li>\n<li>Juste avant de servir, ajoutez la salade au saladier, puis mélangez.</li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Pendant ce temps, dans un saladier, faites une vinaigrette en mélangeant la moutarde avec un filet d’huile d’olive et de vinaigre balsamique. Salez et poivrez.</li>\n<li>Juste avant de servir, ajoutez la salade au saladier, puis mélangez.</li>\n</ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538d"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d2432e9107c6db883d7/step-efcbb540.jpg",
-                    "path": "/64fb2d2432e9107c6db883d7/step-efcbb540.jpg",
-                    "caption": "Assaisonner la salade"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "\nServez deux panzerotti par personne dans les assiettes.\nPrésentez la salade à côté des panzerotti. \n",
-            "instructionsHTML": "<ul>\n<li>Servez deux panzerotti par personne dans les assiettes.</li>\n<li>Présentez la salade à côté des panzerotti. </li>\n</ul>",
-            "instructionsMarkdown": "<ul>\n<li>Servez deux panzerotti par personne dans les assiettes.</li>\n<li>Présentez la salade à côté des panzerotti. </li>\n</ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64fb2d2432e9107c6db883d7/step-7cc77c50.jpg",
-                    "path": "/64fb2d2432e9107c6db883d7/step-7cc77c50.jpg",
-                    "caption": "Servir"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "62e009b325792b35bf0b8556",
-            "type": "less-carbon",
-            "name": "Moins de CO2",
-            "slug": "moins-de-co2",
-            "colorHandle": "vegan",
-            "preferences": [
-                "Végétarien",
-                "Classique",
-                "Flexitarien",
-                "Original",
-                "Rapido",
-                "Calorie Smart",
-                "Poisson & Légumes",
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        },
-        {
-            "id": "5ed7c2835744cb08f60b5d8d",
-            "type": "quick-prep",
-            "name": "Peu de cuisine",
-            "slug": "peu-de-cuisine",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT15M",
-    "uniqueRecipeCode": "QFR29803866-5",
-    "updatedAt": "2024-01-08T19:36:25+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305369",
-            "type": "bowl",
-            "name": "Bol"
-        },
-        {
-            "id": "5e3ad24dfcf61c18c30ff522",
-            "type": null,
-            "name": "Plaque de cuisson recouverte de papier sulfurisé"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538d",
-            "type": "saladbowl",
-            "name": "Saladier"
-        }
-    ],
-    "uuid": "5fbd2398-42c3-4ed6-bfe6-440dc00c520b",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/chaussons-mozza-and-jambon-facon-panzerotti-64fb2d2432e9107c6db883d7",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 1,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 10,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 0.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 2,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 100,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 20,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 3,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 150,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 0.75,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 30,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 1.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 4,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 200,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 40,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 1,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 5,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.25,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 50,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 2.5,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf9caf4af6d531d50c45",
-                    "amount": 6,
-                    "unit": "tranche(s)"
-                },
-                {
-                    "id": "64073ba59c6d10cd16eab614",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf41b0da1947779861d8",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bff0af4af6d531d50d4b",
-                    "amount": 1.5,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "64073bc8683721c9a32b0762",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5df6297bb5beef0f3",
-                    "amount": 60,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf36b0da1947779861b1",
-                    "amount": 2,
-                    "unit": "sachet(s)"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 4,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122dbc1d64f7b96e270c",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e51230a0a0603e5708dcc5",
-                    "amount": 3,
-                    "unit": "cc"
-                },
-                {
-                    "id": "63e5123281b4b295e66f025f",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "\nVeillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !\nPréchauffez le four à 250°C (ou 230°C chaleur tournante). Conservez la pâte au réfrigérateur jusqu'à utilisation.\nCiselez l’ail. Coupez chaque tranche de jambon en deux.\nÉgouttez la mozzarella, puis coupez-la en dés de 1 cm. Essuyez-les bien avec de l'essuie-tout pour en ôter l'eau.\n",
+        "\nDans un bol, mélangez l’ail avec un filet d’huile d’olive. \nAjoutez, par personne : 50 g de chair de tomates, ¼ sachet d’origan séché et ½ cc de cassonade. Salez, poivrez et mélangez.\n",
+        "\nÉtalez la pâte sur une plaque recouverte de papier sulfurisé et coupez-la en quatre parts. \nVeillez à laisser un rebord de 0,5-1 cm puis, saupoudrez le fromage râpé sur chaque morceau de pâte.\nDisposez ½ tranche de jambon, un peu de sauce tomate et quelques dés de mozzarella par-dessus. Salez et poivrez.\nRepliez la pâte de manière à former un chausson triangulaire. Scellez-les avec une fourchette pour contenir la garniture.\n\nCONSEIL: Si vous avez trop de farce, gardez quelques dés de mozzarella et ajoutez-les à la salade.",
+        "\nBadigeonnez les panzerotti d’huile d’olive.\nEnfournez-les 12-15 min, ou jusqu’à ce qu’ils soient dorés. \n\nCONSEIL: Si vous souhaitez cuire les panzerotti comme en Italie : faites chauffer environ 2 mm d'huile de tournesol dans une grande poêle à feu vif et faites-y revenir les panzerotti 3-4 min de chaque côté, ou jusqu'à ce qu'ils soient dorés.",
+        "\nPendant ce temps, dans un saladier, faites une vinaigrette en mélangeant la moutarde avec un filet d’huile d’olive et de vinaigre balsamique. Salez et poivrez.\nJuste avant de servir, ajoutez la salade au saladier, puis mélangez.\n",
+        "\nServez deux panzerotti par personne dans les assiettes.\nPrésentez la salade à côté des panzerotti. \n"
     ]
 }

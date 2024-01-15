@@ -1,1080 +1,139 @@
 {
-    "active": true,
-    "allergens": [
-        {
-            "id": "57962a07b7e8697d4b3052fa",
-            "name": "Lait (contient du lactose)",
-            "type": "milk",
-            "slug": "lait-contient-du-lactose",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
-            "triggersTracesOf": false,
-            "tracesOf": false
-        }
-    ],
-    "averageRating": 3.4,
-    "canonical": "616e9c7634d4c71049513890",
-    "canonicalLink": "https://www.hellofresh.fr/recipes/blanquette-de-poulet-aux-poireaux-616e9c7634d4c71049513890",
-    "cardLink": null,
-    "category": {
-        "id": "5bd6f0ef19c55bee469039ad",
-        "name": "Poultry",
-        "type": "poultry",
-        "slug": "poultry"
-    },
-    "clonedFrom": null,
-    "comment": "RFR20161803-2",
-    "country": "FR",
-    "createdAt": "2021-05-11T11:11:22+00:00",
     "cuisines": [
-        {
-            "id": "57ebbc17b7e8697d4b3053a8",
-            "type": "french",
-            "name": "Française",
-            "slug": "french",
-            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
-        }
+        "Française"
     ],
     "description": "-",
-    "descriptionHTML": "<p>-</p>",
-    "descriptionMarkdown": "-",
     "difficulty": 2,
     "favoritesCount": 352,
     "headline": "avec des champignons et du riz basmati",
-    "id": "609a6658600627697d6d39fe",
-    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF201208_R208_W04_FR_RFR20161803-1-FR_MB_Main_low-94829199.jpg",
-    "imagePath": "/image/HF201208_R208_W04_FR_RFR20161803-1-FR_MB_Main_low-94829199.jpg",
+    "name": "Blanquette de poulet aux poireaux",
+    "prepTime": 40,
+    "totalTime": 35,
+    "image_id": "609a6658600627697d6d39fe",
+    "id": "d5ad961c-d407-4c49-bec0-155f7f6a60fa",
+    "nutrition": {
+        "kcal": 396,
+        "fat": 28.81,
+        "saturated_fat": 15.13,
+        "carbohydrate": 25.53,
+        "sugars": 17.63,
+        "protein": 7.48,
+        "sodium": 1.04
+    },
+    "tags": [
+        "À faire rapidement",
+        "Famille"
+    ],
+    "utensils": [
+        "Essuie-tout",
+        "Casserole avec couvercle",
+        "Sauteuse"
+    ],
     "ingredients": [
         {
-            "id": "6405bfbfb0da194777986386",
-            "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
-            "name": "Carotte",
-            "type": "carrot",
-            "slug": "carotte",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "imagePath": "/ingredient/6405bfbfb0da194777986386-b45fe3da.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2,
+            "unit": "pièce(s)",
+            "ingredient_id": "0e363991-67ac-48c2-91f3-5a39eab419ab",
+            "portion_id": "ca6eebcb-1833-4faf-af1b-b4b95eb15ef0",
+            "image_id": "6405bfbfb0da194777986386"
         },
         {
-            "id": "6405bf62b9d07cd5d38d7a7d",
-            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
-            "name": "Gousse d'ail",
-            "type": "garlic",
-            "slug": "gousse-dail",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "imagePath": "/ingredient/6405bf62b9d07cd5d38d7a7d-f3d3c7f6.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "c62b89dc-d875-4d73-9b9a-9c0e9071c52b",
+            "portion_id": "a8058dce-b626-4b1e-bd22-b59775ce5268",
+            "image_id": "6405bf62b9d07cd5d38d7a7d"
         },
         {
-            "id": "6405bff8b0da194777986443",
-            "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
-            "name": "Oignon",
-            "type": "onion",
-            "slug": "oignon",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "imagePath": "/ingredient/6405bff8b0da194777986443-5934536a.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "f0ef4881-e75f-4a70-8b9c-41e95d629887",
+            "portion_id": "05f315d0-ffac-45bc-a419-ce6b2ed3c74d",
+            "image_id": "6405bff8b0da194777986443"
         },
         {
-            "id": "6405bfbab9d07cd5d38d7bae",
-            "uuid": "c8f498ab-c95c-567d-99ba-937761d5e658",
-            "name": "Persil",
-            "type": "parsley-curled",
-            "slug": "persil",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "imagePath": "/ingredient/6405bfbab9d07cd5d38d7bae-da1909eb.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 2.5,
+            "unit": "g",
+            "ingredient_id": "6c31fdcb-bec9-4b81-aafb-88242b45475e"
         },
         {
-            "id": "6405bf28b0da194777986184",
-            "uuid": "4328be73-b086-5d16-b287-33bce92c2fb4",
-            "name": "Champignons de Paris",
-            "type": "mushrooms",
-            "slug": "champignons-de-paris",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "imagePath": "/ingredient/6405bf28b0da194777986184-4df4be4d.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 250,
+            "unit": "g",
+            "ingredient_id": "b2201e5a-2fc7-46ed-99e2-d0a9b3a80231"
         },
         {
-            "id": "6405bf76af4af6d531d50bc7",
-            "uuid": "029ef3d7-a6d9-5458-86fb-6d437b3a3d7f",
-            "name": "Poireau",
-            "type": "leek",
-            "slug": "poireau",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "imagePath": "/ingredient/6405bf76af4af6d531d50bc7-07e60678.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "2c289dab-e0cb-434f-b8e3-47b94e35fa00",
+            "portion_id": "8311090f-0268-4be9-a779-a806b1dfd6c3",
+            "image_id": "6405bf76af4af6d531d50bc7"
         },
         {
-            "id": "6405c011af4af6d531d50dcd",
-            "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
-            "name": "Citron",
-            "type": "lemon",
-            "slug": "citron",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "imagePath": "/ingredient/6405c011af4af6d531d50dcd-95734094.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 0.5,
+            "unit": "pièce(s)",
+            "ingredient_id": "b6c4bf85-606b-4a66-bf9c-487e0eddd44b",
+            "portion_id": "1624f247-523f-46e7-97dc-5fa21872865b",
+            "image_id": "6405c011af4af6d531d50dcd"
         },
         {
-            "id": "6405bf80af4af6d531d50be2",
-            "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
-            "name": "Riz",
-            "type": "basmati-rice",
-            "slug": "riz",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "imagePath": "/ingredient/6405bf80af4af6d531d50be2-7454d256.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 170,
+            "unit": "g",
+            "ingredient_id": "c21a2845-afc7-40be-8240-4f67b9d7045d"
         },
         {
-            "id": "6405bf28b9d07cd5d38d799c",
-            "uuid": "f51f9566-994f-53b8-8618-557a8b86e26a",
-            "name": "Filet de poulet",
-            "type": "chicken-fillet",
-            "slug": "filet-de-poulet",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "imagePath": "/ingredient/6405bf28b9d07cd5d38d799c-b867629b.png",
-            "shipped": true,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pièce(s)",
+            "ingredient_id": "2eea9903-b29d-496e-8162-acf10295f8d1",
+            "portion_id": "3ed4c2a8-6adc-463d-9896-7f3589f3024d",
+            "image_id": "6405bf28b9d07cd5d38d799c"
         },
         {
-            "id": "64073ba5683721c9a32b0730",
-            "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
-            "name": "Crème épaisse",
-            "type": "creme-fraiche",
-            "slug": "creme-epaisse",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "imagePath": "/ingredient/6405bff6af4af6d531d50d66-176bcfb7.png",
-            "shipped": true,
-            "allergens": [
-                "57962a07b7e8697d4b3052fa"
-            ],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "pot(s)",
+            "ingredient_id": "bc37be5e-6677-41e0-8731-34a554849d01",
+            "portion_id": "2bd20717-2bbe-4705-8c80-f36486974785",
+            "image_id": "64073ba5683721c9a32b0730"
         },
         {
-            "id": "63e5120dbc1d64f7b96e26fe",
-            "uuid": "8cbbf443-dfd3-4073-9af0-db31867cf660",
-            "name": "Bouillon de volaille",
-            "type": "bouillon-de-volaille-ml",
-            "slug": "bouillon-de-volaille",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "imagePath": "/ingredient/63e5120dbc1d64f7b96e26fe-306a23ed.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 150,
+            "unit": "ml",
+            "ingredient_id": "b533985b-5cae-4227-a9aa-9d8287f4d493"
         },
         {
-            "id": "63e5121cbc1d64f7b96e2705",
-            "uuid": "fe199493-3f2b-420e-91f5-6574fc9989c9",
-            "name": "Beurre",
-            "type": "beurre-cs",
-            "slug": "beurre",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "imagePath": "/ingredient/63e5121cbc1d64f7b96e2705-1e928bd0.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b9e4df0-3740-4ae7-9bb1-7526e2fb3a62",
+            "portion_id": "de3763a3-9d7c-451a-9a15-267a3165bf13",
+            "image_id": "63e5121cbc1d64f7b96e2705"
         },
         {
-            "id": "63e5121881b4b295e66f0251",
-            "uuid": "2b075344-0190-4141-b2bb-b9bce25abcd1",
-            "name": "Huile d'olive",
-            "type": "huile-dolive-extra-vierge-cs",
-            "slug": "huile-dolive",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "imagePath": "/ingredient/63e5121881b4b295e66f0251-09f084eb.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "1e1f5c80-29de-4a46-9be1-d80189a66667",
+            "portion_id": "d313427a-efc6-4e5c-8d67-2241abe13a6f",
+            "image_id": "63e5121881b4b295e66f0251"
         },
         {
-            "id": "63e5123381b4b295e66f0260",
-            "uuid": "06cc03c2-cb53-410a-b25b-6f183a4ccaf0",
-            "name": "Vinaigre de vin blanc",
-            "type": "vinaigre-de-vin-blanc-cs",
-            "slug": "vinaigre-de-vin-blanc",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "imagePath": "/ingredient/63e5123381b4b295e66f0260-7561a89a.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": 1,
+            "unit": "cs",
+            "ingredient_id": "6b8a7ee4-2b73-44f4-94c2-74027993111c",
+            "portion_id": "7cfe1a36-fea1-424f-8f2b-8e7a2c26eda0",
+            "image_id": "63e5123381b4b295e66f0260"
         },
         {
-            "id": "63e5122b81b4b295e66f025e",
-            "uuid": "9481dcd8-7825-4a7a-8b7f-1d2171de985d",
-            "name": "Poivre et sel",
-            "type": "poivre-et-sel-au-gout",
-            "slug": "poivre-et-sel",
-            "country": "FR",
-            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "imagePath": "/ingredient/63e5122b81b4b295e66f025e-b135bada.png",
-            "shipped": false,
-            "allergens": [],
-            "family": {
-                "id": "6299e0f4f7cd25bc1c024384",
-                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
-                "name": "none",
-                "slug": "none",
-                "type": "none",
-                "priority": 0,
-                "iconLink": null,
-                "iconPath": null
-            }
+            "amount": null,
+            "unit": "selon le goût",
+            "ingredient_id": "fe238304-c9c6-47c4-b9f1-e2f4215e2a8c",
+            "portion_id": "f91e44d5-8ab6-4cee-832b-ff3b2e1f3590",
+            "image_id": "63e5122b81b4b295e66f025e"
         }
     ],
-    "isAddon": false,
-    "isComplete": null,
-    "label": null,
-    "link": "https://hellofresh.com/recipes/609a6658600627697d6d39fe",
-    "name": "Blanquette de poulet aux poireaux",
-    "nutrition": [
-        {
-            "type": "57b42a48b7e8697d4b305304",
-            "name": "Énergie (kcal)",
-            "amount": 396,
-            "unit": "kcal"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530d",
-            "name": "Énergie (kJ)",
-            "amount": 1657,
-            "unit": "kJ"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305307",
-            "name": "Matières grasses",
-            "amount": 28.81,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305308",
-            "name": "dont acides gras saturés",
-            "amount": 15.13,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305305",
-            "name": "Glucides",
-            "amount": 25.53,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305306",
-            "name": "dont sucres",
-            "amount": 17.63,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b305309",
-            "name": "Protéines",
-            "amount": 7.48,
-            "unit": "g"
-        },
-        {
-            "type": "57b42a48b7e8697d4b30530b",
-            "name": "Sel",
-            "amount": 1.04,
-            "unit": "g"
-        }
-    ],
-    "prepTime": "PT40M",
-    "promotion": null,
-    "ratingsCount": 486,
-    "seoDescription": null,
-    "seoName": null,
-    "servingSize": 578,
-    "slug": "blanquette-de-poulet-aux-poireaux",
     "steps": [
-        {
-            "index": 1,
-            "instructions": "Épluchez et coupez la carotte en deux puis en fines demi-lunes.Ciselez l'ail et l'oignon finement. Équeutez et ciselez le persil frisé. Essuyez les champignons avec un essuie-tout humide et taillez-les en tranches épaisses.Coupez le poireau en deux dans l'épaisseur, puis ciselez-le finement. Coupez le citron en quartiers.",
-            "instructionsHTML": "<ul><li><span>Épluchez et coupez la carotte en deux puis en fines demi-lunes.</span></li><li><span>Ciselez l&#39;ail et l&#39;oignon finement. Équeutez et ciselez le persil frisé. </span></li><li><span>Essuyez les champignons avec un essuie-tout humide et taillez-les en tranches épaisses.</span></li><li><span>Coupez le poireau en deux dans l&#39;épaisseur, puis ciselez-le finement. Coupez le citron en quartiers.</span></li></ul>",
-            "instructionsMarkdown": "<ul><li><span>Épluchez et coupez la carotte en deux puis en fines demi-lunes.</span></li><li><span>Ciselez l&#39;ail et l&#39;oignon finement. Équeutez et ciselez le persil frisé. </span></li><li><span>Essuyez les champignons avec un essuie-tout humide et taillez-les en tranches épaisses.</span></li><li><span>Coupez le poireau en deux dans l&#39;épaisseur, puis ciselez-le finement. Coupez le citron en quartiers.</span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b305376"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/609a6658600627697d6d39fe/step-c5c21c00.jpg",
-                    "path": "/609a6658600627697d6d39fe/step-c5c21c00.jpg",
-                    "caption": "Préparation"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 2,
-            "instructions": "Préparez le bouillon avec de l'eau chaude. Portez une grande casserole d'eau salée avec couvercle à ébullition. Faites cuire le riz basmati à couvert 12-14 minutes à feu doux.Égouttez et réservez sans couvercle. ",
-            "instructionsHTML": "<ul><li>Préparez le bouillon avec de l&#39;eau chaude. </li><li><span>Portez une grande casserole d&#39;eau salée avec couvercle à ébullition. Faites cuire le riz basmati à couvert 12-14 minutes à feu doux.</span></li><li><span>Égouttez et réservez sans couvercle. </span></li></ul>",
-            "instructionsMarkdown": "<ul><li>Préparez le bouillon avec de l&#39;eau chaude. </li><li><span>Portez une grande casserole d&#39;eau salée avec couvercle à ébullition. Faites cuire le riz basmati à couvert 12-14 minutes à feu doux.</span></li><li><span>Égouttez et réservez sans couvercle. </span></li></ul>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538b"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/609a6658600627697d6d39fe/step-2916f810.jpg",
-                    "path": "/609a6658600627697d6d39fe/step-2916f810.jpg",
-                    "caption": "Cuire le riz"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 3,
-            "instructions": "Pendant ce temps, dans une grande sauteuse, faites chauffer ½ cs de beurre et ½ cs d’huile d’olive par personne, à feu moyen-vif. Faites-y revenir les champignons et les filets de poulet 1-2 minutes de chaque côté. Salez et poivrez.Réservez les champignons et le poulet dans une assiette après cuisson.CONSEIL: Le saviez-vous ? Marquer en cuisson permet d'avoir une belle coloration pour la viande et surtout de concentrer les goûts.",
-            "instructionsHTML": "<ul><li>Pendant ce temps, dans une grande sauteuse, faites chauffer <span>½</span> cs de beurre et <span>½</span> cs d’huile d’olive<span> par personne,</span> à feu moyen-vif. </li><li>Faites-y revenir les champignons et les filets de poulet 1-2 minutes de chaque côté. Salez et poivrez.</li><li>Réservez les champignons et le poulet dans une assiette après cuisson.</li></ul><p>CONSEIL: Le saviez-vous ? Marquer en cuisson permet d&#39;avoir une belle coloration pour la viande et surtout de concentrer les goûts.</p>",
-            "instructionsMarkdown": "<ul><li>Pendant ce temps, dans une grande sauteuse, faites chauffer <span>½</span> cs de beurre et <span>½</span> cs d’huile d’olive<span> par personne,</span> à feu moyen-vif. </li><li>Faites-y revenir les champignons et les filets de poulet 1-2 minutes de chaque côté. Salez et poivrez.</li><li>Réservez les champignons et le poulet dans une assiette après cuisson.</li></ul><p>CONSEIL: Le saviez-vous ? Marquer en cuisson permet d&#39;avoir une belle coloration pour la viande et surtout de concentrer les goûts.</p>",
-            "ingredients": [],
-            "utensils": [
-                "57e2674fb7e8697d4b30538a"
-            ],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/609a6658600627697d6d39fe/step-6ad89e20.jpg",
-                    "path": "/609a6658600627697d6d39fe/step-6ad89e20.jpg",
-                    "caption": "Marquer le poulet"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 4,
-            "instructions": "Ajoutez l’oignon, la carotte, l’ail et le poireau à la sauteuse. Salez et poivrez.Faites revenir l’ensemble 6-7 minutes à feu moyen-vif et à couvert en remuant régulièrement.Déglacez avec ½ cs de vinaigre de vin blanc par personne. Mélangez jusqu’à évaporation du vinaigre.",
-            "instructionsHTML": "<ul><li>Ajoutez l’oignon, la carotte, l’ail et le poireau à la sauteuse. Salez et poivrez.</li><li>Faites revenir l’ensemble 6-7 minutes à feu moyen-vif et à couvert en remuant régulièrement.</li><li>Déglacez avec <span>½</span> cs de vinaigre de vin blanc par personne. Mélangez jusqu’à évaporation du vinaigre.</li></ul>",
-            "instructionsMarkdown": "<ul><li>Ajoutez l’oignon, la carotte, l’ail et le poireau à la sauteuse. Salez et poivrez.</li><li>Faites revenir l’ensemble 6-7 minutes à feu moyen-vif et à couvert en remuant régulièrement.</li><li>Déglacez avec <span>½</span> cs de vinaigre de vin blanc par personne. Mélangez jusqu’à évaporation du vinaigre.</li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/609a6658600627697d6d39fe/step-b23e9e30.jpg",
-                    "path": "/609a6658600627697d6d39fe/step-b23e9e30.jpg",
-                    "caption": "Cuire à couvert"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 5,
-            "instructions": "Remettez les champignons et le poulet dans la sauteuse. Puis, ajoutez le tiers du persil, la crème ainsi que le bouillon. Laissez mijoter à couvert 5-6 minutes.Retirez le couvercle et laissez mijoter 3 minutes supplémentaires à feu moyen-vif. CONSEIL: Veillez à réduire le temps de cuisson si la sauce vient à manquer et à l'augmenter si la sauce est trop liquide.",
-            "instructionsHTML": "<ul><li>Remettez les champignons et le poulet dans la sauteuse. </li><li>Puis, ajoutez le tiers du persil, la crème ainsi que le bouillon. Laissez mijoter à couvert 5-6 minutes.</li><li>Retirez le couvercle et laissez mijoter 3 minutes supplémentaires à feu moyen-vif.  </li></ul><p> </p><p>CONSEIL: Veillez à réduire le temps de cuisson si la sauce vient à manquer et à l&#39;augmenter si la sauce est trop liquide.</p>",
-            "instructionsMarkdown": "<ul><li>Remettez les champignons et le poulet dans la sauteuse. </li><li>Puis, ajoutez le tiers du persil, la crème ainsi que le bouillon. Laissez mijoter à couvert 5-6 minutes.</li><li>Retirez le couvercle et laissez mijoter 3 minutes supplémentaires à feu moyen-vif.  </li></ul><p> </p><p>CONSEIL: Veillez à réduire le temps de cuisson si la sauce vient à manquer et à l&#39;augmenter si la sauce est trop liquide.</p>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/609a6658600627697d6d39fe/step-6f6fa840.jpg",
-                    "path": "/609a6658600627697d6d39fe/step-6f6fa840.jpg",
-                    "caption": "Faire la sauce"
-                }
-            ],
-            "videos": []
-        },
-        {
-            "index": 6,
-            "instructions": "Servez le riz basmati dans des assiettes creuses.Ajoutez le poulet, les légumes et nappez de sauce.Garnissez avec le reste de persil. Pressez le jus de ¼ de citron par personne sur chaque assiette (attention aux pépins).Ajustez l'assaisonnement en sel et en poivre. ",
-            "instructionsHTML": "<ul><li>Servez le riz basmati dans des assiettes creuses.</li><li>Ajoutez le poulet, les légumes et nappez de sauce.</li><li>Garnissez avec le reste de persil. Pressez le jus de <span>¼</span> de citron par personne sur chaque assiette (attention aux pépins).</li><li>Ajustez l&#39;assaisonnement en sel et en poivre. </li></ul>",
-            "instructionsMarkdown": "<ul><li>Servez le riz basmati dans des assiettes creuses.</li><li>Ajoutez le poulet, les légumes et nappez de sauce.</li><li>Garnissez avec le reste de persil. Pressez le jus de <span>¼</span> de citron par personne sur chaque assiette (attention aux pépins).</li><li>Ajustez l&#39;assaisonnement en sel et en poivre. </li></ul>",
-            "ingredients": [],
-            "utensils": [],
-            "timers": [],
-            "images": [
-                {
-                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/609a6658600627697d6d39fe/step-d9f50150.jpg",
-                    "path": "/609a6658600627697d6d39fe/step-d9f50150.jpg",
-                    "caption": "Comment est votre blanquette ?"
-                }
-            ],
-            "videos": []
-        }
-    ],
-    "tags": [
-        {
-            "id": "57d13370b7e8697d4b305314",
-            "type": "cook-me-first",
-            "name": "À faire rapidement",
-            "slug": "à-faire-rapidement",
-            "colorHandle": null,
-            "preferences": [],
-            "displayLabel": true
-        },
-        {
-            "id": "5efb7686bd5c0d38b0058739",
-            "type": "family-friendly",
-            "name": "Famille",
-            "slug": "famille",
-            "colorHandle": "familyFriendly",
-            "preferences": [
-                "Famille"
-            ],
-            "displayLabel": true
-        }
-    ],
-    "totalTime": "PT35M",
-    "uniqueRecipeCode": "RFR20161803-2",
-    "updatedAt": "2023-10-13T10:40:48+00:00",
-    "utensils": [
-        {
-            "id": "57e2674fb7e8697d4b305376",
-            "type": "papertowel",
-            "name": "Essuie-tout"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538b",
-            "type": "pan-lid",
-            "name": "Casserole avec couvercle"
-        },
-        {
-            "id": "57e2674fb7e8697d4b30538a",
-            "type": "casserole",
-            "name": "Sauteuse"
-        }
-    ],
-    "uuid": "5dfcb501-fda3-4d62-9e5c-ec95c5e9cc91",
-    "videoLink": null,
-    "websiteUrl": "https://www.hellofresh.fr/recipes/blanquette-de-poulet-aux-poireaux-609a6658600627697d6d39fe",
-    "yields": [
-        {
-            "yields": 1,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 1.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 190,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 85,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b9d07cd5d38d799c",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 0.6,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 75,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 0.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 2,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 2.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 170,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b9d07cd5d38d799c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 150,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 3,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 3.75,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 300,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 0.75,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 250,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b9d07cd5d38d799c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 1.9,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 200,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 1.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 4,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 4,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 400,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 335,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b9d07cd5d38d799c",
-                    "amount": 1,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 240,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 5,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 2.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 6.25,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 550,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.25,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 420,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b9d07cd5d38d799c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 2.9,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 350,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 2.5,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        },
-        {
-            "yields": 6,
-            "ingredients": [
-                {
-                    "id": "6405bfbfb0da194777986386",
-                    "amount": 6,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf62b9d07cd5d38d7a7d",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bff8b0da194777986443",
-                    "amount": 3,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bfbab9d07cd5d38d7bae",
-                    "amount": 7.5,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b0da194777986184",
-                    "amount": 600,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf76af4af6d531d50bc7",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405c011af4af6d531d50dcd",
-                    "amount": 1.5,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "6405bf80af4af6d531d50be2",
-                    "amount": 500,
-                    "unit": "g"
-                },
-                {
-                    "id": "6405bf28b9d07cd5d38d799c",
-                    "amount": 2,
-                    "unit": "pièce(s)"
-                },
-                {
-                    "id": "64073ba5683721c9a32b0730",
-                    "amount": 3.8,
-                    "unit": "pot(s)"
-                },
-                {
-                    "id": "63e5120dbc1d64f7b96e26fe",
-                    "amount": 400,
-                    "unit": "ml"
-                },
-                {
-                    "id": "63e5121cbc1d64f7b96e2705",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5121881b4b295e66f0251",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5123381b4b295e66f0260",
-                    "amount": 3,
-                    "unit": "cs"
-                },
-                {
-                    "id": "63e5122b81b4b295e66f025e",
-                    "amount": null,
-                    "unit": "selon le goût"
-                }
-            ]
-        }
+        "Épluchez et coupez la carotte en deux puis en fines demi-lunes.Ciselez l'ail et l'oignon finement. Équeutez et ciselez le persil frisé. Essuyez les champignons avec un essuie-tout humide et taillez-les en tranches épaisses.Coupez le poireau en deux dans l'épaisseur, puis ciselez-le finement. Coupez le citron en quartiers.",
+        "Préparez le bouillon avec de l'eau chaude. Portez une grande casserole d'eau salée avec couvercle à ébullition. Faites cuire le riz basmati à couvert 12-14 minutes à feu doux.Égouttez et réservez sans couvercle. ",
+        "Pendant ce temps, dans une grande sauteuse, faites chauffer ½ cs de beurre et ½ cs d’huile d’olive par personne, à feu moyen-vif. Faites-y revenir les champignons et les filets de poulet 1-2 minutes de chaque côté. Salez et poivrez.Réservez les champignons et le poulet dans une assiette après cuisson.CONSEIL: Le saviez-vous ? Marquer en cuisson permet d'avoir une belle coloration pour la viande et surtout de concentrer les goûts.",
+        "Ajoutez l’oignon, la carotte, l’ail et le poireau à la sauteuse. Salez et poivrez.Faites revenir l’ensemble 6-7 minutes à feu moyen-vif et à couvert en remuant régulièrement.Déglacez avec ½ cs de vinaigre de vin blanc par personne. Mélangez jusqu’à évaporation du vinaigre.",
+        "Remettez les champignons et le poulet dans la sauteuse. Puis, ajoutez le tiers du persil, la crème ainsi que le bouillon. Laissez mijoter à couvert 5-6 minutes.Retirez le couvercle et laissez mijoter 3 minutes supplémentaires à feu moyen-vif. CONSEIL: Veillez à réduire le temps de cuisson si la sauce vient à manquer et à l'augmenter si la sauce est trop liquide.",
+        "Servez le riz basmati dans des assiettes creuses.Ajoutez le poulet, les légumes et nappez de sauce.Garnissez avec le reste de persil. Pressez le jus de ¼ de citron par personne sur chaque assiette (attention aux pépins).Ajustez l'assaisonnement en sel et en poivre. "
     ]
 }
