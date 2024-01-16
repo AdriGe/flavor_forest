@@ -46,6 +46,7 @@ CREATE TABLE recipes (
     fiber FLOAT,
     sodium FLOAT,
     steps TEXT[],
+    steps_images_url TEXT[],
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
