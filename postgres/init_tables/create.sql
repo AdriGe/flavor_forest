@@ -94,7 +94,7 @@ CREATE TABLE recipe_foods (
 );
 
 
-CREATE TYPE tag_category_enum AS ENUM ('Durée de préparation', 'Type de cuisine', 'Régime alimentaire', 'Saison');
+CREATE TYPE tag_category_enum AS ENUM ('culinary_style', 'dietary_regime', 'meal_type');
 
 -- Tag Table
 CREATE TABLE tags (
