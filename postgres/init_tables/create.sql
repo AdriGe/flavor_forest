@@ -34,6 +34,8 @@ CREATE TABLE recipes (
     total_time INT,
     prep_time INT,
     difficulty INT,
+    created_at TIMESTAMP WITHOUT TIME ZONE,
+    updated_at TIMESTAMP WITHOUT TIME ZONE,
     utensils VARCHAR(255)[],
     image_url TEXT,
     favorites_count INT,
