@@ -6,7 +6,7 @@ from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDet
 from sqlalchemy import func
 import unidecode
 from typing import List, Optional
-
+from datetime import datetime
 
 def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
     # Traitement des détails de chaque ingrédient de la recette
@@ -24,14 +24,24 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
     recipe_detail = RecipeDetail(
         recipe_id=recipe.recipe_id,
         user_id=recipe.user_id,
-        title=recipe.title,
+        name=recipe.name,
+        headline=recipe.headline,
         description=recipe.description,
         total_time=recipe.total_time,
         prep_time=recipe.prep_time,
         difficulty=recipe.difficulty,
-        ustensils=recipe.ustensils,
+        utensils=recipe.utensils,
         image_url=recipe.image_url,
+        kcal=recipe.kcal,
+        fat=recipe.fat,
+        saturated_fat=recipe.saturated_fat,
+        carbohydrate=recipe.carbohydrate,
+        sugars=recipe.sugars,
+        protein=recipe.protein,
+        fiber=recipe.fiber,
+        sodium=recipe.sodium,
         steps=recipe.steps,
+        steps_images_url=recipe.steps_images_url,
         foods=enriched_foods,
         tags=[TagDetail(tag_id=tag.tag_id, name=tag.name) for tag in recipe.tags]
     )
@@ -101,15 +111,28 @@ def get_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
 def create_recipe(recipe: RecipeCreate, db: SessionLocal = Depends(get_db)):
     # Création de la nouvelle recette
     new_recipe = Recipe(
-        title=recipe.title,
+        user_id=None,
+        name=recipe.name,
+        headline=recipe.headline,
         description=recipe.description,
         total_time=recipe.total_time,
         prep_time=recipe.prep_time,
         difficulty=recipe.difficulty,
-        ustensils=recipe.ustensils,
+        created_at=datetime.now(),
+        updated_at=datetime.now(),
+        utensils=recipe.utensils,
         image_url=recipe.image_url,
-        user_id=recipe.user_id,
+        favorites_count=0,
+        kcal=recipe.kcal,
+        fat=recipe.fat,
+        saturated_fat=recipe.saturated_fat,
+        carbohydrate=recipe.carbohydrate,
+        sugars=recipe.sugars,
+        protein=recipe.protein,
+        fiber=recipe.fiber,
+        sodium=recipe.sodium,
         steps=recipe.steps,
+        steps_images_url=recipe.steps_images_url,
         tags=[db.query(Tag).filter(Tag.tag_id == tag_id).first() for tag_id in recipe.tags],
         foods=[RecipeFood(food_id=food.food_id, quantity=food.quantity, portion_id=food.portion_id) for food in recipe.foods]
     )

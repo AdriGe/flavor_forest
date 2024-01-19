@@ -19,7 +19,6 @@ class RecipeCreate(BaseModel):
     difficulty: Optional[int] = None
     utensils: Optional[List[str]] = None
     image_url: Optional[str] = None
-    user_id: Optional[uuid.UUID] = None
     kcal: Optional[int] = None
     fat: Optional[float] = None
     saturated_fat: Optional[float] = None
@@ -29,6 +28,7 @@ class RecipeCreate(BaseModel):
     fiber: Optional[float] = None
     sodium: Optional[float] = None
     steps: List[str]
+    steps_images_url: List[str]
     tags: List[uuid.UUID]
     foods: List[RecipeFoodCreate]
 
