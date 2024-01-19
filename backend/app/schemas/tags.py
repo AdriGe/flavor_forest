@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from enum import Enum
+from typing import Optional
 import uuid
 
 class TagCategoryEnum(str, Enum):
@@ -18,4 +19,4 @@ class TagCreate(BaseModel):
 
 class TagUpdate(BaseModel):
     name: str
-    category: TagCategoryEnum
+    category: Optional[TagCategoryEnum] = None
