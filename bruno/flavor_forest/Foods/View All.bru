@@ -5,13 +5,14 @@ meta {
 }
 
 get {
-  url: 127.0.0.1:8000/foods?brand=hello fresh
+  url: 127.0.0.1:8000/foods?brand=hello fresh&page_size=100
   body: none
   auth: none
 }
 
 query {
   brand: hello fresh
+  page_size: 100
 }
 
 body:json {

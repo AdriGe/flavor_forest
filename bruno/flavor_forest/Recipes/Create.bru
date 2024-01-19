@@ -12,41 +12,35 @@ post {
 
 body:json {
   {
-      "user_id": 1,
-      "title": "Salade César Poulet",
-      "description": "Une salade classique avec du poulet, de la laitue et des croutons",
-      "total_time": 25,
-      "prep_time": 10,
-      "difficulty": "Facile",
-      "ustensils": ["Couteau", "Poele"],
-      "image_url": "Some Path",
-      "steps": [
-          {
-            "step_number": 1, 
-            "description": [
-              "Couper la laitue", 
-              "Cuire le poulet"]
-          },
-          {
-            "step_number": 2, 
-            "description": [
-              "Assembler les ingrédients", 
-              "Ajouter la sauce"
-            ]
-          }
-      ],
-      "tags": [1,2],
+      "name": "TestName",
+      "headline": "TestHeadline",
+      "description": "TestDescription",
+      "total_time": 30,
+      "prep_time": 15,
+      "difficulty": 1,
+      "utensils": ["Poele", "Four"],
+      "image_url": "image1.jpg",
+      "kcal": 11,
+      "fat": 22.22,
+      "saturated_fat": 33.33,
+      "carbohydrate": 44.44,
+      "sugars": 55.55,
+      "protein": 66.66,
+      "fiber": 77.77,
+      "sodium": 88.88,
+      "steps": ["Step1", "Step2", "Step3"],
+      "steps_images_url": ["step1.jpg", "step2.jpg", "step3.jpg"],
+      "tags": ["65151ce0-71d7-4707-bed6-953e2f11fc37", "3c23000f-0a73-4d04-9f3c-241e09f2a0bc"],
       "foods": [
           {
-            "food_id": 1, 
-            "quantity": 100
+              "food_id": "179604cd-9f4d-4d4a-8fcf-833bc1d1dcc2",
+              "quantity": 1.5
           },
           {
-            "food_id": 2, 
-            "quantity": 150, 
-            "portion_id": 4
+              "food_id": "e4be6197-8a1a-4dce-a4c7-5c213fd5bcbd",
+              "quantity": 3.2,
+              "portion_id": "0e5e5d2d-43cb-4de2-927d-366c10bbbb41"
           }
       ]
   }
-  
 }

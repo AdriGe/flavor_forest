@@ -5,19 +5,25 @@ meta {
 }
 
 put {
-  url: 127.0.0.1:8000/foods/2
+  url: 127.0.0.1:8000/foods/408aa504-aead-4cf3-a8b6-24a689ce2680
   body: json
   auth: none
 }
 
 body:json {
   {
-      "name": "Boulette thaï améliorée",
-      "brand": "Hello Fresh",
-      "calories": 230.0,
-      "fats": 11.5,
-      "carbohydrates": 17.5,
-      "unit_id": 1
+      "name": "Test Aliment",
+      "brand": "TestBrand",
+      "kcal": 11.11,
+      "fat": 22.22,
+      "saturated_fat": 33.33,
+      "carbohydrate": 44.44,
+      "sugars": 55.55,
+      "fiber": 66.66,
+      "protein": 77.77,
+      "sodium": 88.88,
+      "unit_id": "4e427164-c134-4753-bd5b-e9ea22e67245",
+      "portions": [
+      ]
   }
-  
 }
