@@ -101,7 +101,7 @@ CREATE TYPE tag_category_enum AS ENUM ('culinary_style', 'dietary_regime', 'meal
 -- Tag Table
 CREATE TABLE tags (
     tag_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    category tag_category_enum,
+    category tag_category_enum NOT NULL,
     name VARCHAR(100) NOT NULL
 );
 
@@ -113,15 +113,3 @@ CREATE TABLE recipe_tags (
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
     FOREIGN KEY (tag_id) REFERENCES tags(tag_id)
 );
-
-INSERT INTO users (user_id, username, email, hashed_password, is_admin)
-VALUES (1, 'Foor Bar', 'food@bar.com', 'hashed_password', true);
-
--- Insert units used in the recipe
-INSERT INTO units (unit_id, name)
-VALUES 
-    (1, 'gramme'), 
-    (2, 'ml'),
-    (3, 'cl'),
-    (4, 'litre')
-; -- Add more as needed

@@ -1,6 +1,6 @@
 -- User Table
 CREATE TABLE users (
-    user_id SERIAL PRIMARY KEY,
+    user_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     username VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     hashed_password TEXT NOT NULL,
@@ -8,9 +8,9 @@ CREATE TABLE users (
 );
 
 CREATE TABLE refresh_tokens (
-    id SERIAL PRIMARY KEY,
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     jti VARCHAR(255) NOT NULL,
-    user_id INTEGER NOT NULL,
+    user_id UUID NOT NULL,
     revoked BOOLEAN DEFAULT FALSE,
     expires_at TIMESTAMP WITHOUT TIME ZONE NOT NULL,
     CONSTRAINT fk_user
@@ -20,49 +20,64 @@ CREATE TABLE refresh_tokens (
 
 -- Unit Table
 CREATE TABLE units (
-    unit_id SERIAL PRIMARY KEY,
+    unit_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     name VARCHAR(50) NOT NULL
 );
 
 -- Recipe Table
 CREATE TABLE recipes (
-    recipe_id SERIAL PRIMARY KEY,
-    user_id INT,
-    title VARCHAR(255) NOT NULL,
+    recipe_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID DEFAULT NULL,
+    name VARCHAR(255) NOT NULL,
+    headline VARCHAR(255),
     description TEXT,
     total_time INT,
     prep_time INT,
-    difficulty VARCHAR(50),
-    ustensils VARCHAR(255)[],
+    difficulty INT,
+    created_at TIMESTAMP WITHOUT TIME ZONE,
+    updated_at TIMESTAMP WITHOUT TIME ZONE,
+    utensils VARCHAR(255)[],
     image_url TEXT,
+    favorites_count INT,
+    kcal INT,
+    fat FLOAT,
+    saturated_fat FLOAT,
+    carbohydrate FLOAT,
+    sugars FLOAT,
+    protein FLOAT,
+    fiber FLOAT,
+    sodium FLOAT,
+    steps TEXT[],
+    steps_images_url TEXT[],
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
 -- Food Table
 CREATE TABLE foods (
-    food_id SERIAL PRIMARY KEY,
-    user_id INT,
+    food_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID,
     name VARCHAR(255) NOT NULL,
     brand VARCHAR(255),
-    calories DECIMAL,
-    fats DECIMAL,
-    saturated_fats DECIMAL,
-    carbohydrates DECIMAL,
+    kcal DECIMAL,
+    fat DECIMAL,
+    saturated_fat DECIMAL,
+    carbohydrate DECIMAL,
     sugars DECIMAL,
-    fibers DECIMAL,
-    proteins DECIMAL,
+    fiber DECIMAL,
+    protein DECIMAL,
     sodium DECIMAL,
-    unit_id INT NOT NULL,
+    unit_id UUID NOT NULL,
+    image_url TEXT,
     FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE SET NULL,
     FOREIGN KEY (unit_id) REFERENCES units(unit_id)
 );
 
 -- Portion Table
 CREATE TABLE portions (
-    portion_id SERIAL PRIMARY KEY,
-    food_id INT NOT NULL,
+    portion_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    food_id UUID NOT NULL,
     name VARCHAR(255),
-    size DECIMAL NOT NULL,
+    size FLOAT NOT NULL,
     FOREIGN KEY (food_id) REFERENCES foods(food_id)
 );
 
@@ -70,39 +85,30 @@ CREATE TABLE portions (
 
 -- RecipeFood Table
 CREATE TABLE recipe_foods (
-    recipe_id INT,
-    food_id INT,
-    quantity DECIMAL,
-    portion_id INT,
+    recipe_id UUID,
+    food_id UUID,
+    quantity FLOAT,
+    portion_id UUID,
     PRIMARY KEY (recipe_id, food_id),
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
     FOREIGN KEY (food_id) REFERENCES foods(food_id),
-    FOREIGN KEY (portion_id) REFERENCES portions(portion_id),
+    FOREIGN KEY (portion_id) REFERENCES portions(portion_id)
 );
 
--- Step Table
-CREATE TABLE steps (
-    recipe_id INT NOT NULL,
-    step_number INT NOT NULL,
-    description TEXT,
-    image_url TEXT,
-    PRIMARY KEY(recipe_id, step_number),
-    FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
-);
 
-CREATE TYPE tag_category_enum AS ENUM ('Durée de préparation', 'Type de cuisine', 'Régime alimentaire', 'Saison');
+CREATE TYPE tag_category_enum AS ENUM ('culinary_style', 'dietary_regime', 'meal_type');
 
 -- Tag Table
 CREATE TABLE tags (
-    tag_id SERIAL PRIMARY KEY,
+    tag_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     category tag_category_enum,
     name VARCHAR(100) NOT NULL
 );
 
 -- RecipeTag Table
 CREATE TABLE recipe_tags (
-    recipe_id INT,
-    tag_id INT,
+    recipe_id UUID,
+    tag_id UUID,
     PRIMARY KEY (recipe_id, tag_id),
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
     FOREIGN KEY (tag_id) REFERENCES tags(tag_id)

@@ -1,4 +1,5 @@
 from pydantic import BaseModel, EmailStr
+import uuid
 
 class UserCreate(BaseModel):
     username: str
@@ -11,7 +12,7 @@ class RefreshTokenRequest(BaseModel):
 
 
 class UserResponse(BaseModel):
-    user_id: int
+    user_id: uuid.UUID
     username: str
     email: str
 

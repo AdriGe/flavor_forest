@@ -1,83 +1,98 @@
 from pydantic import BaseModel
 from typing import List, Optional
 from schemas.tags import TagDetail
-
-
-class StepCreate(BaseModel):
-    step_number: int
-    description: List[str]
-
+import uuid
+from datetime import datetime
 
 class RecipeFoodCreate(BaseModel):
-    food_id: int
+    food_id: uuid.UUID
     quantity: float
-    portion_id: Optional[int] = None
+    portion_id: Optional[uuid.UUID] = None
 
 
 class RecipeCreate(BaseModel):
-    title: str
+    name: str
+    headline: Optional[str] = None
     description: Optional[str] = None
     total_time: Optional[int] = None
     prep_time: Optional[int] = None
-    difficulty: Optional[str] = None
-    ustensils: Optional[List[str]] = None
+    difficulty: Optional[int] = None
+    utensils: Optional[List[str]] = None
     image_url: Optional[str] = None
-    user_id: Optional[int] = None
-    steps: List[StepCreate]
-    tags: List[int]
+    user_id: Optional[uuid.UUID] = None
+    kcal: Optional[int] = None
+    fat: Optional[float] = None
+    saturated_fat: Optional[float] = None
+    carbohydrate: Optional[float] = None
+    sugars: Optional[float] = None
+    protein: Optional[float] = None
+    fiber: Optional[float] = None
+    sodium: Optional[float] = None
+    steps: List[str]
+    tags: List[uuid.UUID]
     foods: List[RecipeFoodCreate]
 
 
-class StepDetail(BaseModel):
-    step_number: int
-    description: List[str]
-    image_url: Optional[str] = None
-
-
 class RecipeFoodDetail(BaseModel):
-    food_id: int
+    food_id: uuid.UUID
     food_name: str
     quantity: float
     measurement: str
 
 
 class RecipeDetail(BaseModel):
-    recipe_id: int
-    user_id: int
-    title: str
+    recipe_id: uuid.UUID
+    user_id: uuid.UUID
+    name: str
+    headline: Optional[str]
     description: Optional[str]
     total_time: Optional[int]
     prep_time: Optional[int]
-    difficulty: Optional[str]
-    ustensils: Optional[List[str]]
+    difficulty: Optional[int]
+    created_at: Optional[datetime]
+    updated_at: Optional[datetime]
+    utensils: Optional[List[str]]
     image_url: Optional[str]
-    steps: List[StepDetail]
+    favorites_count: Optional[int]
+    kcal: Optional[int]
+    fat: Optional[float]
+    saturated_fat: Optional[float]
+    carbohydrate: Optional[float]
+    sugars: Optional[float]
+    protein: Optional[float]
+    fiber: Optional[float]
+    sodium: Optional[float]
+    steps: List[str]
     foods: List[RecipeFoodDetail]
     tags: List[TagDetail]
 
 
 class RecipeUpdate(BaseModel):
-    user_id: Optional[int] = None
-    title: Optional[str] = None
+    user_id: Optional[uuid.UUID] = None
+    name: Optional[str] = None
+    headline: Optional[str] = None
     description: Optional[str] = None
     total_time: Optional[int] = None
     prep_time: Optional[int] = None
-    difficulty: Optional[str] = None
-    ustensils: Optional[List[str]] = None
+    difficulty: Optional[int] = None
+    utensils: Optional[List[str]] = None
     image_url: Optional[str] = None
+    favorites_count: Optional[int] = None
+    kcal: Optional[int] = None
+    fat: Optional[float] = None
+    saturated_fat: Optional[float] = None
+    carbohydrate: Optional[float] = None
+    sugars: Optional[float] = None
+    protein: Optional[float] = None
+    fiber: Optional[float] = None
+    sodium: Optional[float] = None
+    steps: Optional[List[str]] = None
+    tags: Optional[List[uuid.UUID]] = None
+    image_url: Optional[str] = None
+
 
 class RecipeTagsUpdate(BaseModel):
-    tags: List[int]
-
-
-class StepUpdate(BaseModel):
-    step_number: int
-    description: List[str]
-    image_url: Optional[str] = None
-
-
-class RecipeStepsUpdate(BaseModel):
-    steps: List[StepUpdate]
+    tags: List[uuid.UUID]
 
 
 class RecipeListResponse(BaseModel):

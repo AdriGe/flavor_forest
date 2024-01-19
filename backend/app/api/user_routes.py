@@ -6,7 +6,7 @@ from dependencies import get_db, SessionLocal
 from schemas.users import UserCreate, UserResponse, UserUpdate, RefreshTokenRequest
 from core.security import create_access_token, create_refresh_token, hash_password, verify_password, decode_token, extract_jti, REFRESH_TOKEN_EXPIRE_DAYS
 from datetime import datetime, timedelta
-
+import uuid
 from core.security import oauth2_scheme
 
 router = APIRouter()
@@ -88,7 +88,7 @@ async def refresh_token(request: RefreshTokenRequest, db: SessionLocal = Depends
 
 
 @router.get("/{user_id}", response_model=UserResponse)
-async def read_user(user_id: int, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
+async def read_user(user_id: uuid.UUID, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
     if current_user.user_id != user_id and not current_user.is_admin:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to access this user's information")
 
@@ -99,7 +99,7 @@ async def read_user(user_id: int, current_user: User = Depends(get_current_user)
 
 
 @router.put("/{user_id}")
-async def update_user(user_id: int, user_update: UserUpdate, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
+async def update_user(user_id: uuid.UUID, user_update: UserUpdate, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
     if current_user.user_id != user_id:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to update this user")
 
@@ -128,7 +128,7 @@ async def update_user(user_id: int, user_update: UserUpdate, current_user: User 
 
 
 @router.delete("/{user_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def delete_user(user_id: int, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
+async def delete_user(user_id: uuid.UUID, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
     if current_user.user_id != user_id and not current_user.is_admin:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to delete this user")
 

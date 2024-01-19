@@ -2,8 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from dependencies import get_db, SessionLocal, model_to_dict
 from models.recipes import Recipe, RecipeFood, RecipeTag
 from models.tags import Tag
-from models.steps import Step
-from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, StepDetail, RecipeUpdate, RecipeTagsUpdate, RecipeStepsUpdate, RecipeListResponse
+from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, RecipeUpdate, RecipeTagsUpdate, RecipeListResponse
 from sqlalchemy import func
 import unidecode
 from typing import List, Optional
@@ -32,7 +31,7 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
         difficulty=recipe.difficulty,
         ustensils=recipe.ustensils,
         image_url=recipe.image_url,
-        steps=[StepDetail(**model_to_dict(step)) for step in recipe.steps],
+        steps=recipe.steps,
         foods=enriched_foods,
         tags=[TagDetail(tag_id=tag.tag_id, name=tag.name) for tag in recipe.tags]
     )
@@ -110,7 +109,7 @@ def create_recipe(recipe: RecipeCreate, db: SessionLocal = Depends(get_db)):
         ustensils=recipe.ustensils,
         image_url=recipe.image_url,
         user_id=recipe.user_id,
-        steps=[Step(**step.dict()) for step in recipe.steps],
+        steps=recipe.steps,
         tags=[db.query(Tag).filter(Tag.tag_id == tag_id).first() for tag_id in recipe.tags],
         foods=[RecipeFood(food_id=food.food_id, quantity=food.quantity, portion_id=food.portion_id) for food in recipe.foods]
     )
@@ -146,8 +145,7 @@ def update_recipe(recipe_id: int, recipe_data: RecipeUpdate, db: SessionLocal = 
 def delete_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
     db.query(RecipeTag).filter(RecipeTag.recipe_id == recipe_id).delete(synchronize_session=False)
     db.query(RecipeFood).filter(RecipeFood.recipe_id == recipe_id).delete(synchronize_session=False)
-    db.query(Step).filter(Step.recipe_id == recipe_id).delete(synchronize_session=False)
-    
+
     # Supprimer la recette
     db_recipe = db.query(Recipe).get(recipe_id)
     if db_recipe is None:
@@ -183,22 +181,3 @@ def update_recipe_tags(recipe_id: int, tags_data: RecipeTagsUpdate, db: SessionL
     db.commit()
 
     return {"detail": "Recipe tags updated successfully"}
-
-
-@router.put("/{recipe_id}/steps")
-def update_recipe_steps(recipe_id: int, steps_data: RecipeStepsUpdate, db: SessionLocal = Depends(get_db)):
-    # Trouver la recette par son ID
-    recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
-    if not recipe:
-        raise HTTPException(status_code=404, detail="Recipe not found")
-
-    # Supprimer les anciennes étapes
-    db.query(Step).filter(Step.recipe_id == recipe_id).delete()
-
-    # Ajouter les nouvelles étapes
-    new_steps = [Step(recipe_id=recipe_id, **step.dict()) for step in steps_data.steps]
-    db.add_all(new_steps)
-
-    db.commit()
-
-    return {"detail": "Recipe steps updated successfully"}

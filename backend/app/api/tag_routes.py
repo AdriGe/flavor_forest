@@ -1,7 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends, status, Response
-from models.tags import Tag
+from models.tags import Tag, TagCategoryEnum
 from schemas.tags import TagDetail, TagCreate, TagUpdate
 from dependencies import get_db, SessionLocal
+from sqlalchemy import and_
 from typing import List
 
 router = APIRouter()
@@ -28,7 +29,8 @@ def get_tag(tag_id: int, db: SessionLocal = Depends(get_db)):
 @router.post("", response_model=TagDetail)
 def create_tag(tag_data: TagCreate, db: SessionLocal = Depends(get_db)):
     # Vérifier si le tag existe déjà
-    existing_tag = db.query(Tag).filter(Tag.name == tag_data.name).first()
+    existing_tag = db.query(Tag).filter(and_(Tag.name == tag_data.name, Tag.category == tag_data.category)).first()
+
     if existing_tag:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -36,7 +38,10 @@ def create_tag(tag_data: TagCreate, db: SessionLocal = Depends(get_db)):
         )
 
     # Créer le nouveau tag
-    new_tag = Tag(name=tag_data.name)
+    new_tag = Tag(
+        name=tag_data.name,
+        category=tag_data.category
+    )
     db.add(new_tag)
     db.commit()
     db.refresh(new_tag)
