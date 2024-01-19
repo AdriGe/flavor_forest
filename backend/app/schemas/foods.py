@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional, List, Union
 from schemas.portions import PortionCreate, PortionResponse, PortionDetail
 import uuid
 
@@ -22,21 +22,12 @@ class FoodCreate(FoodBase):
 
 class FoodResponse(FoodBase):
     food_id: uuid.UUID
-    user_id: Optional[uuid.UUID] = None
-    portions: List[PortionResponse]
+    user_id: Union[uuid.UUID, None]
+    portions: List[PortionCreate]
 
-class FoodUpdate(BaseModel):
-    name: Optional[str] = None
-    brand: Optional[str] = None
-    kcal: Optional[float] = None
-    fat: Optional[float] = None
-    saturated_fat: Optional[float] = None
-    carbohydrate: Optional[float] = None
-    sugars: Optional[float] = None
-    fiber: Optional[float] = None
-    protein: Optional[float] = None
-    sodium: Optional[float] = None
-    unit_id: Optional[uuid.UUID] = None
+class FoodUpdate(FoodBase):
+    portions: Optional[List[PortionCreate]] = None
+
 
 class FoodDetail(BaseModel):
     food_id: uuid.UUID

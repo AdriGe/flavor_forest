@@ -8,7 +8,7 @@ class PortionCreate(BaseModel):
 
 class PortionResponse(BaseModel):
     portion_id: uuid.UUID
-    food_id: int
+    food_id: uuid.UUID
     name: str
     size: float
 

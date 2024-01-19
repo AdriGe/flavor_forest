@@ -9,6 +9,7 @@ from schemas.portions import PortionDetail
 from dependencies import get_db, SessionLocal, model_to_dict
 from typing import Optional
 import unidecode
+import uuid
 
 router = APIRouter()
 
@@ -17,7 +18,7 @@ def cast_food_to_food_details(food: Food) -> FoodDetail:
         food_id=food.food_id,
         name=food.name,
         brand=food.brand,
-        calories=food.calories,
+        kcal=food.kcal,
         fat=food.fat,
         saturated_fat=food.saturated_fat,
         carbohydrate=food.carbohydrate,
@@ -65,27 +66,27 @@ def get_foods(
 
 
 @router.get("/{food_id}", response_model=FoodResponse)
-async def get_food(food_id: int, db: SessionLocal = Depends(get_db)):
+async def get_food(food_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
     db_food = db.query(Food).filter(Food.food_id == food_id).first()
     if db_food is None:
         raise HTTPException(status_code=404, detail="Food not found")
     return db_food
 
 
-@router.post("", response_model=FoodCreate)
+@router.post("", response_model=FoodResponse)
 async def create_food(food: FoodCreate, db: SessionLocal = Depends(get_db)):
     try:
         new_food = Food(
             user_id=food.user_id,
             name=food.name,
             brand=food.brand,
-            calories=food.calories,
-            fats=food.fats,
-            saturated_fats=food.saturated_fats,
+            kcal=food.kcal,
+            fat=food.fat,
+            saturated_fat=food.saturated_fat,
             carbohydrate=food.carbohydrate,
             sugars=food.sugars,
-            fibers=food.fibers,
-            proteins=food.proteins,
+            fiber=food.fiber,
+            protein=food.protein,
             sodium=food.sodium,
             unit_id=food.unit_id
         )
@@ -106,15 +107,28 @@ async def create_food(food: FoodCreate, db: SessionLocal = Depends(get_db)):
 
 
 @router.put("/{food_id}", response_model=FoodResponse)
-async def update_food(food_id: int, food_data: FoodUpdate, db: SessionLocal = Depends(get_db)):
+async def update_food(food_id: uuid.UUID, food_data: FoodUpdate, db: SessionLocal = Depends(get_db)):
     db_food = db.query(Food).filter(Food.food_id == food_id).first()
     if not db_food:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Food not found")
 
-    # Mise à jour des champs de l'aliment
-    for var, value in vars(food_data).items():
-        if value is not None:
-            setattr(db_food, var, value)
+    # Mise à jour des champs de l'aliment, en ignorant les portions
+    food_attrs = {k: v for k, v in vars(food_data).items() if v is not None and k != 'portions'}
+    for var, value in food_attrs.items():
+        setattr(db_food, var, value)
+
+    # Mise à jour des portions associées
+    if food_data.portions is not None:
+        for portion_data in food_data.portions:
+            # Recherchez une portion existante ou créez-en une nouvelle
+            db_portion = db.query(Portion).filter(Portion.food_id == food_id, Portion.name == portion_data.name).first()
+            if not db_portion:
+                db_portion = Portion(food_id=food_id, **portion_data.dict())
+                db.add(db_portion)
+            else:
+                for var, value in vars(portion_data).items():
+                    setattr(db_portion, var, value)
+
 
     db.commit()
     db.refresh(db_food)
