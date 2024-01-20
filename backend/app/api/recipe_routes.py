@@ -3,10 +3,13 @@ from dependencies import get_db, SessionLocal, model_to_dict
 from models.recipes import Recipe, RecipeFood, RecipeTag
 from models.tags import Tag
 from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, RecipeUpdate, RecipeTagsUpdate, RecipeListResponse
+from models.foods import Food
+from models.portions import Portion
 from sqlalchemy import func
 import unidecode
 from typing import List, Optional
 from datetime import datetime
+import uuid
 
 def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
     # Traitement des détails de chaque ingrédient de la recette
@@ -16,7 +19,8 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
             food_id=food.food_id,
             food_name=food.food.name,
             quantity=food.quantity,
-            measurement=food.portion.name if food.portion else food.food.unit.name
+            portion_id=food.portion_id,
+            unit=food.portion.name if food.portion else food.food.unit.name
         )
         enriched_foods.append(enriched_food)
 
@@ -30,8 +34,11 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
         total_time=recipe.total_time,
         prep_time=recipe.prep_time,
         difficulty=recipe.difficulty,
+        created_at=recipe.created_at,
+        updated_at=recipe.updated_at,
         utensils=recipe.utensils,
         image_url=recipe.image_url,
+        favorites_count=recipe.favorites_count,
         kcal=recipe.kcal,
         fat=recipe.fat,
         saturated_fat=recipe.saturated_fat,
@@ -43,7 +50,7 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
         steps=recipe.steps,
         steps_images_url=recipe.steps_images_url,
         foods=enriched_foods,
-        tags=[TagDetail(tag_id=tag.tag_id, name=tag.name) for tag in recipe.tags]
+        tags=[TagDetail(tag_id=tag.tag_id, name=tag.name, category=tag.category) for tag in recipe.tags]
     )
 
     return recipe_detail
@@ -55,7 +62,7 @@ def get_recipes(
     tags: Optional[List[str]] = Query(None),
     difficulty: Optional[str] = None,
     preparation_time: Optional[int] = None,
-    title: Optional[str] = None,
+    name: Optional[str] = None,
     page: int = 1,
     page_size: int = 10,
     db: SessionLocal = Depends(get_db)
@@ -72,16 +79,13 @@ def get_recipes(
         query = query.filter(Recipe.difficulty == difficulty)
     if preparation_time:
         query = query.filter(Recipe.preparation_time <= preparation_time)
-    if title:
-        search_words = title.split()
+    if name:
+        search_words = name.split()
         for word in search_words:
             normalized_word = unidecode.unidecode(word)  # Normalisation des accents
-            query = query.filter(func.lower(Recipe.title).like(f"%{normalized_word.lower()}%"))
-
+            query = query.filter(func.lower(Recipe.name).like(f"%{normalized_word.lower()}%"))
 
     recipes = query.all()
-
-    
 
     total_recipes = query.count()  # Nombre total de recettes répondant aux filtres
     total_pages = (total_recipes + page_size - 1) // page_size  # Calcul du nombre total de pages
@@ -98,7 +102,7 @@ def get_recipes(
 
 
 @router.get("/{recipe_id}", response_model=RecipeDetail)
-def get_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
+def get_recipe(recipe_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
 
     db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
 
@@ -146,26 +150,66 @@ def create_recipe(recipe: RecipeCreate, db: SessionLocal = Depends(get_db)):
 
 
 @router.put("/{recipe_id}", response_model=RecipeDetail)
-def update_recipe(recipe_id: int, recipe_data: RecipeUpdate, db: SessionLocal = Depends(get_db)):
+def update_recipe(recipe_id: uuid.UUID, recipe_data: RecipeUpdate, db: SessionLocal = Depends(get_db)):
     # Trouver la recette par ID
     db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
     if not db_recipe:
         raise HTTPException(status_code=404, detail="Recipe not found")
 
     # Mise à jour des champs de la recette
-    for key, value in recipe_data.dict(exclude_unset=True).items():
+    for key, value in recipe_data.dict(exclude_unset=True, exclude={"tags", "foods"}).items():
         setattr(db_recipe, key, value)
+
+    # Mise à jour des tags
+    if recipe_data.tags is not None:
+        for tag_id in recipe_data.tags:
+            existing_tag = db.query(Tag).filter(Tag.tag_id == tag_id).first()
+            if not existing_tag:
+                raise HTTPException(status_code=404, detail=f"Tag with ID {tag_id} not found")
+       
+        # Supprimez tous les tags existants pour cette recette
+        db.query(RecipeTag).filter(RecipeTag.recipe_id == recipe_id).delete()
+        # Ajoutez les nouveaux tags
+        for tag_id in recipe_data.tags:
+            new_recipe_tag = RecipeTag(recipe_id=recipe_id, tag_id=tag_id)
+            db.add(new_recipe_tag)
+
+    # Mise à jour des foods et portions
+    if recipe_data.foods is not None:
+        for food_data in recipe_data.foods:
+        # Vérifiez si le food_id existe
+            existing_food = db.query(Food).filter(Food.food_id == food_data.food_id).first()
+            if not existing_food:
+                raise HTTPException(status_code=404, detail=f"Food with ID {food_data.food_id} not found")
+
+            # Vérifiez si le portion_id existe (si fourni)
+            if food_data.portion_id:
+                existing_portion = db.query(Portion).filter(Portion.portion_id == food_data.portion_id).first()
+                if not existing_portion:
+                    raise HTTPException(status_code=404, detail=f"Portion with ID {food_data.portion_id} not found")
+
+        # Supprimez toutes les associations de foods existantes pour cette recette
+        db.query(RecipeFood).filter(RecipeFood.recipe_id == recipe_id).delete()
+
+        # Ajoutez les nouvelles associations de foods
+        for food_data in recipe_data.foods:
+            new_recipe_food = RecipeFood(
+                recipe_id=recipe_id,
+                food_id=food_data.food_id,
+                quantity=food_data.quantity,
+                portion_id=getattr(food_data, 'portion_id', None)
+            )
+            db.add(new_recipe_food)
 
     db.commit()
     db.refresh(db_recipe)
 
     recipe_detail = cast_recipe_to_recipe_detail(db_recipe)
-
     return recipe_detail
 
 
 @router.delete("/{recipe_id}")
-def delete_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
+def delete_recipe(recipe_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
     db.query(RecipeTag).filter(RecipeTag.recipe_id == recipe_id).delete(synchronize_session=False)
     db.query(RecipeFood).filter(RecipeFood.recipe_id == recipe_id).delete(synchronize_session=False)
 
@@ -179,28 +223,3 @@ def delete_recipe(recipe_id: int, db: SessionLocal = Depends(get_db)):
 
     return {"detail": "Recipe successfully deleted"}
 
-
-@router.put("/{recipe_id}/tags")
-def update_recipe_tags(recipe_id: int, tags_data: RecipeTagsUpdate, db: SessionLocal = Depends(get_db)):
-    # Trouver la recette
-    db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
-    if not db_recipe:
-        raise HTTPException(status_code=404, detail="Recipe not found")
-
-    # Vérifier l'existence de chaque tag
-    for tag_id in tags_data.tags:
-        existing_tag = db.query(Tag).filter(Tag.tag_id == tag_id).first()
-        if not existing_tag:
-            raise HTTPException(status_code=404, detail=f"Tag with id {tag_id} not found")
-
-    # Mise à jour des tags associés à la recette
-    # Supprimer tous les enregistrements existants de recipe_tags pour cette recette
-    db.query(RecipeTag).filter(RecipeTag.recipe_id == recipe_id).delete(synchronize_session="fetch")
-
-    # Ajouter les nouveaux enregistrements de tags
-    new_tags = [RecipeTag(recipe_id=recipe_id, tag_id=tag_id) for tag_id in tags_data.tags]
-    db.add_all(new_tags)
-
-    db.commit()
-
-    return {"detail": "Recipe tags updated successfully"}

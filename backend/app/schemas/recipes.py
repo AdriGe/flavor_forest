@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import List, Optional, Union
 from schemas.tags import TagDetail
 import uuid
 from datetime import datetime
@@ -36,13 +36,14 @@ class RecipeCreate(BaseModel):
 class RecipeFoodDetail(BaseModel):
     food_id: uuid.UUID
     food_name: str
-    quantity: float
-    measurement: str
+    quantity: Optional[float] = None
+    portion_id: Optional[uuid.UUID] = None
+    unit: str
 
 
 class RecipeDetail(BaseModel):
     recipe_id: uuid.UUID
-    user_id: uuid.UUID
+    user_id: Union[uuid.UUID, None]
     name: str
     headline: Optional[str]
     description: Optional[str]
@@ -63,6 +64,7 @@ class RecipeDetail(BaseModel):
     fiber: Optional[float]
     sodium: Optional[float]
     steps: List[str]
+    steps_images_url: List[str]
     foods: List[RecipeFoodDetail]
     tags: List[TagDetail]
 
@@ -87,8 +89,9 @@ class RecipeUpdate(BaseModel):
     fiber: Optional[float] = None
     sodium: Optional[float] = None
     steps: Optional[List[str]] = None
+    steps_images_url: Optional[List[str]] = None
+    foods: Optional[List[RecipeFoodCreate]] = None
     tags: Optional[List[uuid.UUID]] = None
-    image_url: Optional[str] = None
 
 
 class RecipeTagsUpdate(BaseModel):
