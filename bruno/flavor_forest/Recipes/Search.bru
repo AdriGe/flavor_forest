@@ -5,16 +5,17 @@ meta {
 }
 
 get {
-  url: 127.0.0.1:8000/recipes?tags=<30 Minutes&tags=Végétarien&page=3&page_size=10
+  url: 127.0.0.1:8000/recipes?tags=Asiatique&tags=Indien&tags=Faible en calories&difficulty=1&name=bowl
   body: none
   auth: none
 }
 
 query {
-  tags: <30 Minutes
-  tags: Végétarien
-  page: 3
-  page_size: 10
+  tags: Asiatique
+  tags: Indien
+  tags: Faible en calories
+  difficulty: 1
+  name: bowl
 }
 
 body:json {

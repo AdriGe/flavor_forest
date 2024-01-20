@@ -5,16 +5,42 @@ meta {
 }
 
 put {
-  url: 127.0.0.1:8000/recipes/22
+  url: 127.0.0.1:8000/recipes/73147278-932e-4dea-a430-3f6134d4686b
   body: json
   auth: none
 }
 
 body:json {
   {
-      "total_time": 300,
-      "difficulty": "Difficile",
-      "ustensils": ["Couteau", "Poele", "Baguettes"]
+      "name": "TestName3",
+      "headline": "TestHeadline",
+      "description": "TestDescription",
+      "total_time": 30,
+      "prep_time": 15,
+      "difficulty": 1,
+      "utensils": ["Poele", "Four"],
+      "image_url": "image55.jpg",
+      "kcal": 11,
+      "fat": 22.22,
+      "saturated_fat": 33.33,
+      "carbohydrate": 44.44,
+      "sugars": 55.55,
+      "protein": 66.66,
+      "fiber": 77.77,
+      "sodium": 88.88,
+      "steps": ["Step1", "Step2", "Step3"],
+      "steps_images_url": ["step1.jpg", "step2.jpg", "step3.jpg"],
+      "tags": ["010be26c-b960-4b57-9012-382b90052521", "3c23000f-0a73-4d04-9f3c-241e09f2a0bc"],
+      "foods": [
+          {
+              "food_id": "179604cd-9f4d-4d4a-8fcf-833bc1d1dcc2",
+              "quantity": 1.5
+          },
+          {
+              "food_id": "e4be6197-8a1a-4dce-a4c7-5c213fd5bcbd",
+              "quantity": 3.6,
+              "portion_id": "0e5e5d2d-43cb-4de2-927d-366c10bbbb41"
+          }
+      ]
   }
-  
 }
