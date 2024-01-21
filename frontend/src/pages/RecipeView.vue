@@ -18,15 +18,15 @@
             </v-parallax>
             <v-card-item>
                 <v-row no-gutters class="ma-2">
-                    <v-col cols="12" sm="3">
+                    <v-col cols="12" sm="3" v-if="recipe.total_time">
                         <span class="basic-info-header">Temps total</span>
                         <span class="basic-info-value">{{ recipe.total_time }} minutes</span>
                     </v-col>
-                    <v-col cols="12" sm="3">
+                    <v-col cols="12" sm="3" v-if="recipe.kcal">
                         <span class="basic-info-header">Calories</span>
                         <span class="basic-info-value">{{ recipe.kcal }} kcal</span>
                     </v-col>
-                    <v-col cols="12" sm="3">
+                    <v-col cols="12" sm="3" v-if="recipe.difficulty">
                         <span class="basic-info-header">Difficulté</span>
                         <span class="basic-info-value">{{ getDifficultyString(recipe.difficulty) }}</span>
                     </v-col>
@@ -58,7 +58,7 @@
                                 <v-img :src="'/src/assets/images/recipes/'+food.image_url" height="50px" class="ml-auto"></v-img>
                             </v-col>
                             <v-col sm="10">
-                                <span class="food-quantity">{{ food.quantity }} {{ food.unit}}</span>
+                                <span class="food-quantity">{{ qtyMapper(food.quantity) }} {{ food.unit}}</span>
                                 <span class="food-name">{{ food.food_name }}</span>
                             </v-col>
                         </v-row>
@@ -96,7 +96,7 @@
             <v-divider></v-divider>
             <v-card-item>
                 <h2>Valeurs nutritionnelles</h2>
-                <v-data-table :items="items" :headers="headers" density="compact" :hover="true" :items-per-page="99">
+                <v-data-table :items="nutritionalFacts" :headers="nutritionalFactsHeader" density="compact" :hover="true" :items-per-page="99">
                     <template v-slot:header.nutrient="{ column }">
                         <span class="nutritional-facts-header">
                             {{ column.title }}
@@ -121,7 +121,7 @@
 
 <script setup>
 
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 import { useRecipesStore } from '@/stores/recipes';
 import { useRoute } from 'vue-router';
 import api from '@/services/api';
@@ -166,22 +166,17 @@ watch(route, async (newRoute) => {
 });
 
 const getDifficultyString = (difficultyInt) => {
-    // Define logic to determine the color of the tag based on its value
-    // Example:
     switch (difficultyInt) {
-        // Dietary Regime
-        case 1: return 'Facile'; // Darker Green
-        case 2: return 'Intermédiaire'; // Sea Green
-        case 3: return 'Difficile'; // Dark Goldenrod
-        default: return '-'; // Black
+        case 1: return 'Facile';
+        case 2: return 'Intermédiaire';
+        case 3: return 'Difficile';
+        default: return '-';
     }
 };
 
 const getTagColor = (tag) => {
-    // Define logic to determine the color of the tag based on its value
-    // Example:
+
     switch (tag) {
-        // Dietary Regime
         case 'Végétarien': return '#004d00'; // Darker Green
         case 'Vegan': return '#2e8b57'; // Sea Green
         case 'Sans gluten': return '#996515'; // Dark Goldenrod
@@ -237,23 +232,54 @@ const getTagColor = (tag) => {
     }
 };
 
+const qtyMapper = (qty) => {
+    switch (qty) {
+        case 0.25: return '¼';
+        case 0.33: return '⅓';
+        case 0.34: return '⅓';
+        case 0.5: return '½';
+        case 0.66: return '⅔';
+        case 0.67: return '⅔';
+        default: return qty;
+    }
+};
 
-const items = [
-    { nutrient: "Énergie (kcal)", perPortion: "797kcal", per100g: "281kcal" },
-    { nutrient: "Matières grasses", perPortion: "42.1g", per100g: "14.82g" },
-    { nutrient: "dont acides gras saturés", perPortion: "13.4g", per100g: "4.72g" },
-    { nutrient: "Glucides", perPortion: "77.8g", per100g: "27.39g" },
-    { nutrient: "dont sucres", perPortion: "10g", per100g: "3.52g" },
-    { nutrient: "Protéines", perPortion: "20.3g", per100g: "7.15g" },
-    { nutrient: "Sel", perPortion: "2.61g", per100g: "0.92g" }
-]
+const nutritionalFacts = computed(() => {
+  if (!recipe) {
+    return [];
+  }
 
+  return [
+    { nutrient: "Énergie (kcal)", perPortion: recipe.value.kcal+"kcal", per100g: Math.round(calculatePer100g(recipe.value.serving_size, recipe.value.kcal))+"kcal" },
+    { nutrient: "Matières grasses", perPortion: recipe.value.fat+"g", per100g: calculatePer100g(recipe.value.serving_size, recipe.value.fat)+"g" },
+    { nutrient: "dont acides gras saturés", perPortion: recipe.value.saturated_fat+"g", per100g: calculatePer100g(recipe.value.serving_size, recipe.value.saturated_fat)+"g" },
+    { nutrient: "Glucides", perPortion: recipe.value.carbohydrate+"g", per100g: calculatePer100g(recipe.value.serving_size, recipe.value.carbohydrate)+"g" },
+    { nutrient: "dont sucres", perPortion: recipe.value.sugars+"g", per100g: calculatePer100g(recipe.value.serving_size, recipe.value.sugars)+"g" },
+    { nutrient: "Protéines", perPortion: recipe.value.protein+"g", per100g: calculatePer100g(recipe.value.serving_size, recipe.value.protein)+"g" },
+    { nutrient: "Sel", perPortion: recipe.value.sodium+"g", per100g: calculatePer100g(recipe.value.serving_size, recipe.value.sodium)+"g" }
+  ];
+});
 
-const headers = [
+const nutritionalFactsHeader = computed(() => {
+  if (!recipe) {
+    return [];
+  }
+
+  return [
     { title: 'Nutriments', value: 'nutrient' },
-    { title: 'Par portion (284g)', value: 'perPortion' },
+    { title: 'Par portion ('+recipe.value.serving_size+'g)', value: 'perPortion' },
     { title: 'Pour 100g', value: 'per100g' }
-]
+  ];
+});
+
+const calculatePer100g = (servingSize, nutrient) => {
+  if (!servingSize || !nutrient) {
+    return '';
+  }
+  return `${(nutrient / servingSize * 100).toFixed(2)}`;
+};
+
+
 </script>
 
 <style scoped>
