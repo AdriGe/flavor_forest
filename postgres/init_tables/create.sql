@@ -47,6 +47,7 @@ CREATE TABLE recipes (
     protein FLOAT,
     fiber FLOAT,
     sodium FLOAT,
+    serving_size INT,
     steps TEXT[],
     steps_images_url TEXT[],
     FOREIGN KEY (user_id) REFERENCES users(user_id)

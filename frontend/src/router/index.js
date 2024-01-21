@@ -19,7 +19,7 @@ const router = createRouter({
     { path: '/foods/:id', name: 'food_view', component: FoodView },
     { path: '/foods/add', name: 'food_add', component: FoodAdd },
     { path: '/recipes', name: 'recipes', component: RecipesList },
-    { path: '/recipes/:id', name: 'recipe_view', component: RecipeView },
+    { path: '/recipes/:recipe_id', name: 'recipe_view', component: RecipeView },
     { path: '/recipes/add', name: 'recipe_add', component: RecipeAdd },
     { path: '/tracking', name: 'tracking', component: TrackingJournal },
   ]
