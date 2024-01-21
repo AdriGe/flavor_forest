@@ -29,6 +29,7 @@ class Recipe(Base):
     protein = Column(Float)
     fiber = Column(Float)
     sodium = Column(Float)
+    serving_size = Column(Integer)
     steps = Column(ARRAY(Text))
     steps_images_url = Column(ARRAY(Text))
 

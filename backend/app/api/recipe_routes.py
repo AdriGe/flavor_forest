@@ -47,6 +47,7 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
         protein=recipe.protein,
         fiber=recipe.fiber,
         sodium=recipe.sodium,
+        serving_size=recipe.serving_size,
         steps=recipe.steps,
         steps_images_url=recipe.steps_images_url,
         foods=enriched_foods,

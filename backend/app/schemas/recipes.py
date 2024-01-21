@@ -63,6 +63,7 @@ class RecipeDetail(BaseModel):
     protein: Optional[float]
     fiber: Optional[float]
     sodium: Optional[float]
+    serving_size: Optional[int]
     steps: List[str]
     steps_images_url: List[str]
     foods: List[RecipeFoodDetail]
