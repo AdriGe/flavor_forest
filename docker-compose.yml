@@ -5,6 +5,9 @@ services:
     build: ./frontend
     volumes:
       - ./frontend:/app
+      - ./data/images/recipes:/app/src/assets/images/recipes
+      - ./data/images/foods:/app/src/assets/images/foods
+      - ./data/images/steps:/app/src/assets/images/steps
       - /app/node_modules
     ports:
       - "5173:5173"
