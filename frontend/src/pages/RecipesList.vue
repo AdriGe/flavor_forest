@@ -2,50 +2,58 @@
     <recipe-filters></recipe-filters>
 
     <div id="content">
-        <v-row no-gutters>
-            <v-col cols="12" sm="4" class="pa-2" v-for="recipe in recipes" :key="recipe.id" :recipe="recipe">
-                <recipe-card></recipe-card>
+        <div v-if="loading">Loading...</div>
+        <div v-if="error">Error: {{ error.message }}</div>
+
+        <v-row no-gutters v-if="data">
+            <v-col cols="12" sm="4" class="pa-2" v-for="[recipeId, recipeInfo] in Object.entries(recipes)" :key="recipeId">
+                <recipe-card
+                    :recipe_id="recipeInfo.data.recipe_id"
+                    :name="recipeInfo.data.name"
+                    :headline="recipeInfo.data.headline"
+                    :image_url="recipeInfo.data.image_url"
+                    :tags="recipeInfo.data.tags"
+                ></recipe-card>
             </v-col>
         </v-row>
     </div>
 </template>
 
-<script>
-import { ref, watch } from 'vue';
-import RecipeFilters from '../components/recipes/RecipeFilters.vue';
-import RecipeCard from '../components/recipes/RecipeCard.vue';
-import RecipeView from '../pages/RecipeView.vue';
+<script setup>
+import { ref, onMounted, computed } from 'vue';
+import api from '@/services/api'; // Adjust the path according to your project structure
+import { useRecipesStore } from '@/stores/recipes';
+import RecipeFilters from '@/components/recipes/RecipeFilters.vue';
+import RecipeCard from '@/components/recipes/RecipeCard.vue';
 
-export default {
-    name: 'RecipesList',
-    components: {
-        RecipeFilters,
-        RecipeCard,
-        RecipeView,
+const data = ref(null);
+const error = ref(null);
+const loading = ref(false);
+const recipesStore = useRecipesStore();
 
-    },
-    setup() {
-        const recipes = ref([
-            { id: 1, title: 'Recipe 1' },
-            { id: 2, title: 'Recipe 2' },
-            { id: 3, title: 'Recipe 3' },
-            { id: 4, title: 'Recipe 4' },
-            { id: 5, title: 'Recipe 5' },
-            { id: 6, title: 'Recipe 6' },
-            { id: 7, title: 'Recipe 7' },
-            { id: 8, title: 'Recipe 8' },
-            { id: 9, title: 'Recipe 9' },
-            { id: 10, title: 'Recipe 10' }
-        ]);
+const recipes = computed(() => recipesStore.recipes);
 
-        
+const fetchData = async () => {
+  loading.value = true;
+  error.value = null;
+  try {
+    const response = await api.get('/recipes?page_size=12');
+    data.value = response.data;
+    recipesStore.addRecipes(data.value.recipes);
 
-
-        return {
-            recipes
-        };
-    }
+  } catch (err) {
+    error.value = err;
+  } finally {
+    loading.value = false;
+  }
 };
+
+
+
+onMounted(() => {
+  fetchData();
+});
+
 </script>
 
 <style scoped>
