@@ -90,7 +90,7 @@ class RecipeUpdate(BaseModel):
     sodium: Optional[float] = None
     steps: Optional[List[str]] = None
     steps_images_url: Optional[List[str]] = None
-    foods: Optional[List[RecipeFoodCreate]] = None
+    foods: Optional[List[RecipeFoodDetail]] = None
     tags: Optional[List[uuid.UUID]] = None
 
 
