@@ -2,7 +2,7 @@
 <template>
     <v-select 
         rounded
-        variant="underlined"
+        variant="outlined"
         clearable
         v-model="value" 
         :items="items" 
@@ -22,8 +22,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 
+const emit = defineEmits(['update:selected']);
 
 const props = defineProps({
     maxElements: {
@@ -33,25 +34,37 @@ const props = defineProps({
 });
 
 const items = ref([
+    "Africain",
+    "Américain",
     "Asiatique",
-    "Américaine",
-    "Italienne",
-    "Française",
-    "Méditerranéenne",
-    "Indienne",
-    "Mexicaine",
-    "Chinoise",
-    "Japonaise",
-    "Thaïlandaise",
-    "Africaine",
-    "Caraïbéenne",
-    "Moyen-Orientale",
+    "Britannique",
+    "Chinois",
+    "Coréenne",
+    "Espagnol",
+    "Européen",
+    "Français",
+    "Grec",
+    "Indien",
+    "Internationale",
+    "Italien",
+    "Japonais",
     "Latino-Américaine",
-    "Vietnamienne",
-    "Espagnole",
-    "Grecque",
-    "Scandinave"
+    "Libanaise",
+    "Marocain",
+    "Méditerranéen",
+    "Mexicain",
+    "Moyen-Orient",
+    "Scandinave",
+    "Thaï",
+    "Turc",
+    "Végétarien",
+    "Vietnamienne"
 ]);
+
 const value = ref([]);
+
+watch(value, (newValue) => {
+  emit('update:selected', newValue);
+});
 
 </script>

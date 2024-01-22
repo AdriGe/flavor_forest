@@ -1,6 +1,6 @@
 
 <template>
-    <v-select rounded variant="underlined" clearable v-model="value" :items="items" label="Régime alimentaire" density="compact"
+    <v-select rounded variant="outlined" clearable v-model="value" :items="items" label="Régime alimentaire" density="compact"
         multiple>
         <template v-slot:selection="{ item, index }">
             <v-chip v-if="index < maxElements">
@@ -14,8 +14,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 
+const emit = defineEmits(['update:selected']);
 
 const props = defineProps({
     maxElements: {
@@ -38,6 +39,11 @@ const items = ref([
     "Pescétarien",
     "Flexitarien"
 ]);
+
 const value = ref([]);
+
+watch(value, (newValue) => {
+  emit('update:selected', newValue);
+});
 
 </script>

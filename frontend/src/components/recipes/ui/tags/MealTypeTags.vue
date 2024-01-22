@@ -1,6 +1,6 @@
 
 <template>
-    <v-select rounded variant="underlined" clearable v-model="value" :items="items" label="Type de plat" density="compact"
+    <v-select rounded variant="outlined" clearable v-model="value" :items="items" label="Type de plat" density="compact"
         multiple>
         <template v-slot:selection="{ item, index }">
             <v-chip v-if="index < maxElements">
@@ -14,8 +14,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
+import { ref, watch } from 'vue';
 
 const props = defineProps({
     maxElements: {
@@ -24,18 +23,25 @@ const props = defineProps({
     }
 });
 
+const emit = defineEmits(['update:selected']);
+
+const value = ref([]);
+
 const items = ref([
     "Entrée",
     "Plat Principal",
     "Dessert",
-    "Apéritif",
     "Accompagnement",
-    "Soupe",
+    "Amuse-bouche",
+    "Apéritif",
+    "Boisson",
     "Salade",
     "Snack",
-    "Petit-déjeuner",
-    "Boisson"
+    "Soupe"
 ]);
-const value = ref([]);
+
+watch(value, (newValue) => {
+  emit('update:selected', newValue);
+});
 
 </script>

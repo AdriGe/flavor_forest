@@ -1,5 +1,5 @@
 <template>
-  <recipe-filters></recipe-filters>
+  <recipe-filters @update:selected="handleFilterChange"></recipe-filters>
 
   <div id="content">
     <div v-if="loading">Loading...</div>
@@ -71,6 +71,14 @@ watch(currentPage, (newPage) => {
   router.replace({ query: { ...route.query, page: newPage }}).catch(err => {});
   fetchData(newPage);
 });
+
+const filters = ref({
+});
+
+function handleFilterChange(selectedFilters) {
+  filters.value = { ...filters.value, ...newFilters };
+  fetchData();
+}
 </script>
 
 <style scoped>

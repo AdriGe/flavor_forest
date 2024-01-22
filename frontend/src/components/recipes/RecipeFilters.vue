@@ -3,8 +3,8 @@
         <v-row align="center" no-gutters>
             <v-spacer></v-spacer>
             <v-col cols="10" sm="6">
-                <v-text-field rounded density="compact" variant="outlined" v-model="searchText"
-                    label="Rechercher une recette" hide-details="true">
+                <v-text-field rounded density="compact" variant="outlined" clearable :value="selectedFilters.searchText"
+                    @input="handleSearchTextChange" label="Rechercher une recette" hide-details="true">
                     <template v-slot:append>
                         <v-btn icon="mdi-magnify"></v-btn>
                         <v-btn prepend-icon="mdi-filter-variant" @click="handleAppBarExtended">Filtrer</v-btn>
@@ -24,16 +24,16 @@
             <v-row align="center" class="mt-6" no-gutters>
                 <v-spacer></v-spacer>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <culinary-styles-tags :max-elements="1"></culinary-styles-tags>
+                    <culinary-styles-tags :max-elements="1" @update:selected="handleCulinaryStyleUpdate"></culinary-styles-tags>
                 </v-col>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <dietary-regime-tags :max-elements="1"></dietary-regime-tags>
+                    <dietary-regime-tags :max-elements="1" @update:selected="handleDietaryRegimeUpdate"></dietary-regime-tags>
                 </v-col>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <meal-type-tags :max-elements="1"></meal-type-tags>
+                    <meal-type-tags :max-elements="1" @update:selected="handleMealTypeUpdate"></meal-type-tags>
                 </v-col>
                 <v-col cols="10" sm="2">
-                    <total-time-tags></total-time-tags>
+                    <total-time-tags @update:selected="handleTotalTimeUpdate"></total-time-tags>
                 </v-col>
                 <v-spacer></v-spacer>
             </v-row>
@@ -42,18 +42,51 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import CulinaryStylesTags from './ui/tags/CulinaryStylesTags.vue';
 import DietaryRegimeTags from './ui/tags/DietaryRegimeTags.vue';
 import MealTypeTags from './ui/tags/MealTypeTags.vue';
 import TotalTimeTags from './ui/tags/TotalTimeTags.vue';
-
-let searchText = ref('');
 
 let isAppBarExtended = ref(false);
 function handleAppBarExtended() {
     isAppBarExtended.value = !isAppBarExtended.value;
 
 }
+const emit = defineEmits(['update:selected']);
+
+let selectedFilters = ref({
+    searchText: '',
+    culinaryStyles: [],
+    dietaryRegimes: [],
+    mealTypes: [],
+    totalTime: null
+});
+
+const handleSearchTextChange = (event) => {
+    selectedFilters.value = { ...selectedFilters.value, searchText: event.target.value };
+};
+
+function handleMealTypeUpdate(selected) {
+    selectedFilters.value = { ...selectedFilters.value, mealTypes: selected };
+}
+
+function handleDietaryRegimeUpdate(selected) {
+    selectedFilters.value = { ...selectedFilters.value, dietaryRegimes: selected };
+}
+
+function handleCulinaryStyleUpdate(selected) {
+    selectedFilters.value = { ...selectedFilters.value, culinaryStyles: selected };
+}
+
+function handleTotalTimeUpdate(selected) {
+    selectedFilters.value = { ...selectedFilters.value, totalTime: selected };
+}
+
+watch(selectedFilters, (newSelectedFilters) => {
+    console.log('newSelectedFilters', newSelectedFilters);
+  emit('update:selected', newSelectedFilters);
+});
+
 
 </script>
