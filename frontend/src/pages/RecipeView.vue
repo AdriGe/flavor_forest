@@ -55,7 +55,7 @@
                     <v-col v-for="food in recipe.foods" :key="food.food_id" cols="12" sm="6" class="mb-4">
                         <v-row>
                             <v-col cols="12" sm="2">
-                                <v-img :src="'/src/assets/images/recipes/'+food.image_url" height="50px" class="ml-auto"></v-img>
+                                <v-img :src="'/src/assets/images/foods/'+food.image_url+'.jpg'" height="50px" class="ml-auto"></v-img>
                             </v-col>
                             <v-col sm="10">
                                 <span class="food-quantity">{{ qtyMapper(food.quantity) }} {{ food.unit}}</span>
