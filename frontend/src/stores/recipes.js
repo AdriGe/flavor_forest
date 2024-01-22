@@ -3,7 +3,10 @@ import { defineStore } from 'pinia';
 
 export const useRecipesStore = defineStore('recipes', {
   state: () => ({
-    recipes: {} // This will store recipes with their IDs as keys
+    recipes: {}, // This will store recipes with their IDs as keys
+    currentPageRecipes: [],
+    currentPage: 1,
+    totalPages: 0,
   }),
   actions: {
     addRecipe(recipe) {
@@ -22,6 +25,11 @@ export const useRecipesStore = defineStore('recipes', {
       for (const recipe of recipesArray) {
         this.addRecipe(recipe);
       }
-    }
+    },
+    updateCurrentPageData(page, recipes, total) {
+      this.currentPage = page;
+      this.currentPageRecipes = recipes;
+      this.totalPages = total;
+    },
   }
 });
