@@ -39,6 +39,7 @@ class RecipeFoodDetail(BaseModel):
     quantity: Optional[float] = None
     portion_id: Optional[uuid.UUID] = None
     unit: str
+    image_url: Optional[str] = None
 
 
 class RecipeDetail(BaseModel):

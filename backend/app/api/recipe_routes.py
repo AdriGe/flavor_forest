@@ -20,7 +20,8 @@ def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
             food_name=food.food.name,
             quantity=food.quantity,
             portion_id=food.portion_id,
-            unit=food.portion.name if food.portion else food.food.unit.name
+            unit=food.portion.name if food.portion else food.food.unit.name,
+            image_url=food.food.image_url
         )
         enriched_foods.append(enriched_food)
 
