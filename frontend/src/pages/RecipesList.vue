@@ -69,7 +69,7 @@ const lastUsedFilters = ref('');
 const fetchData = async (page) => {
   const currentFiltersString = constructQueryString(filters.value);
   if (recipesStore.currentPage === page && lastUsedFilters.value === currentFiltersString) {
-    return; // Data for this page with the same filters is already available, no need to refetch
+    return; // No need to refetch
   }
 
   lastUsedFilters.value = currentFiltersString;
@@ -77,8 +77,7 @@ const fetchData = async (page) => {
   error.value = null;
 
   try {
-    const queryString = `${currentFiltersString}`;
-    const response = await api.get(`/recipes?page=${page}&${queryString}`);
+    const response = await api.get(`/recipes?page=${page}&${currentFiltersString}`);
     recipesStore.updateCurrentPageData(page, response.data.recipes, response.data.total_pages);
     window.scrollTo(0, 0);
   } catch (err) {
@@ -110,9 +109,31 @@ const filters = ref({
 
 function handleFilterChange(newFilters) {
   filters.value = { ...filters.value, ...newFilters };
-  currentPage.value = 1;
+  
+  // Update URL query parameters
+  updateQueryParams();
+
+  // Fetch data with the current page and updated filters
   fetchData(currentPage.value);
 }
+
+function updateQueryParams() {
+  const queryParams = {};
+
+  if (filters.value.searchText) {
+    queryParams['name'] = filters.value.searchText;
+  }
+
+  ['culinaryStyles', 'dietaryRegimes', 'mealTypes'].forEach(key => {
+    if (filters.value[key] && filters.value[key].length) {
+      queryParams[key] = filters.value[key].join(';');
+    }
+  });
+
+  router.replace({ path: '/recipes', query: queryParams }).catch(err => {});
+}
+
+
 </script>
 
 <style scoped>
