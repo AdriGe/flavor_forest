@@ -44,14 +44,41 @@ const loading = ref(false);
 const error = ref(null);
 const currentPage = ref(recipesStore.currentPage);
 
-const fetchData = async (page) => {
-  if (recipesStore.currentPage === page && recipesStore.currentPageRecipes.length > 0) {
-    return; // Data for this page is already available, no need to refetch
+const constructQueryString = (filters) => {
+  let queryParams = new URLSearchParams();
+
+  queryParams.append('page_size', 12);
+
+  // Add searchText if it exists
+  if (filters.searchText) {
+    queryParams.append('name', filters.searchText);
   }
+
+  // Add tags from all arrays
+  ['culinaryStyles', 'dietaryRegimes', 'mealTypes'].forEach(key => {
+    if (filters[key] && filters[key].length) {
+      filters[key].forEach(tag => queryParams.append('tags', tag));
+    }
+  });
+
+  return queryParams.toString();
+};
+
+const lastUsedFilters = ref('');
+
+const fetchData = async (page) => {
+  const currentFiltersString = constructQueryString(filters.value);
+  if (recipesStore.currentPage === page && lastUsedFilters.value === currentFiltersString) {
+    return; // Data for this page with the same filters is already available, no need to refetch
+  }
+
+  lastUsedFilters.value = currentFiltersString;
   loading.value = true;
   error.value = null;
+
   try {
-    const response = await api.get(`/recipes?page=${page}&page_size=12`);
+    const queryString = `${currentFiltersString}`;
+    const response = await api.get(`/recipes?page=${page}&${queryString}`);
     recipesStore.updateCurrentPageData(page, response.data.recipes, response.data.total_pages);
     window.scrollTo(0, 0);
   } catch (err) {
@@ -60,6 +87,8 @@ const fetchData = async (page) => {
     loading.value = false;
   }
 };
+
+
 
 onMounted(() => {
   const pageFromQuery = parseInt(route.query.page, 10) || 1;
@@ -73,11 +102,16 @@ watch(currentPage, (newPage) => {
 });
 
 const filters = ref({
+  searchText: '',
+  culinaryStyles: [],
+  dietaryRegimes: [],
+  mealTypes: []
 });
 
-function handleFilterChange(selectedFilters) {
+function handleFilterChange(newFilters) {
   filters.value = { ...filters.value, ...newFilters };
-  fetchData();
+  currentPage.value = 1;
+  fetchData(currentPage.value);
 }
 </script>
 
