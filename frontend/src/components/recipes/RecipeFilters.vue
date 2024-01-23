@@ -84,8 +84,7 @@ function handleTotalTimeUpdate(selected) {
 }
 
 watch(selectedFilters, (newSelectedFilters) => {
-    console.log('newSelectedFilters', newSelectedFilters);
-  emit('update:selected', newSelectedFilters);
+    emit('update:selected', newSelectedFilters);
 });
 
 
