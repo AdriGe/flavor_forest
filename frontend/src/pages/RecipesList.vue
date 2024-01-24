@@ -90,9 +90,17 @@ const fetchData = async (page) => {
 
 
 onMounted(() => {
-  const pageFromQuery = parseInt(route.query.page, 10) || 1;
-  currentPage.value = pageFromQuery;
-  fetchData(pageFromQuery);
+  const queryParams = route.query;
+  currentPage.value = parseInt(queryParams.page, 10) || 1;
+
+  filters.value = {
+    searchText: queryParams.name || '',
+    culinaryStyles: queryParams.culinaryStyles ? queryParams.culinaryStyles.split(';') : [],
+    dietaryRegimes: queryParams.dietaryRegimes ? queryParams.dietaryRegimes.split(';') : [],
+    mealTypes: queryParams.mealTypes ? queryParams.mealTypes.split(';') : []
+  };
+
+  fetchData(currentPage.value);
 });
 
 watch(currentPage, (newPage) => {
@@ -109,6 +117,7 @@ const filters = ref({
 
 function handleFilterChange(newFilters) {
   filters.value = { ...filters.value, ...newFilters };
+  currentPage.value = 1;
   
   // Update URL query parameters
   updateQueryParams();
