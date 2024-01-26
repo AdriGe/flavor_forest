@@ -3,13 +3,20 @@
         <v-row align="center" no-gutters>
             <v-spacer></v-spacer>
             <v-col cols="10" sm="6">
-                <v-text-field rounded density="compact" variant="outlined" clearable :value="selectedFilters.searchText"
-                    @input="handleSearchTextChange" label="Rechercher une recette" hide-details="true">
+                <v-text-field 
+                    rounded 
+                    density="compact" 
+                    variant="outlined" 
+                    clearable 
+                    v-model="selectedFilters.searchText"
+                    @input="handleSearchTextChange" 
+                    label="Rechercher une recette" 
+                    hide-details="true"
+                >
                     <template v-slot:append>
                         <v-btn icon="mdi-magnify"></v-btn>
                         <v-btn prepend-icon="mdi-filter-variant" @click="handleAppBarExtended">Filtrer</v-btn>
                     </template>
-
                 </v-text-field>
             </v-col>
             <v-col cols="10" sm="2" class="d-flex">
@@ -48,25 +55,39 @@ import DietaryRegimeTags from './ui/tags/DietaryRegimeTags.vue';
 import MealTypeTags from './ui/tags/MealTypeTags.vue';
 import TotalTimeTags from './ui/tags/TotalTimeTags.vue';
 
-let isAppBarExtended = ref(false);
-function handleAppBarExtended() {
-    isAppBarExtended.value = !isAppBarExtended.value;
-
-}
 const emit = defineEmits(['update:selected']);
 
 const props = defineProps({
     initialValue: {
         type: Object,
-        default: {
+        default: () => ({
             searchText: '',
             culinaryStyles: [],
             dietaryRegimes: [],
             mealTypes: [],
             totalTime: null
-        }
+        })
     }
 });
+
+const isNonDefaultInitialValue = (initialValue) => {
+    const defaultValues = {
+        searchText: '',
+        culinaryStyles: [],
+        dietaryRegimes: [],
+        mealTypes: [],
+        totalTime: null
+    };
+
+    return Object.keys(defaultValues).some(key => {
+        if (Array.isArray(defaultValues[key])) {
+            return initialValue[key].length !== defaultValues[key].length;
+        }
+        return initialValue[key] !== defaultValues[key];
+    });
+};
+
+let isAppBarExtended = ref(isNonDefaultInitialValue(props.initialValue));
 
 let selectedFilters = ref(props.initialValue);
 
@@ -94,5 +115,8 @@ watch(selectedFilters, (newSelectedFilters) => {
     emit('update:selected', newSelectedFilters);
 });
 
-
+function handleAppBarExtended() {
+    isAppBarExtended.value = !isAppBarExtended.value;
+}
 </script>
+
