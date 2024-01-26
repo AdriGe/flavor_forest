@@ -30,8 +30,14 @@ const props = defineProps({
     maxElements: {
         type: Number,
         default: 2
+    },
+    initialValue: {
+        type: Array,
+        default: []
     }
 });
+
+const value = ref(props.initialValue);
 
 const items = ref([
     "Africain",
@@ -61,7 +67,6 @@ const items = ref([
     "Vietnamienne"
 ]);
 
-const value = ref([]);
 
 watch(value, (newValue) => {
   emit('update:selected', newValue);

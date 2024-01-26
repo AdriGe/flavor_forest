@@ -24,16 +24,16 @@
             <v-row align="center" class="mt-6" no-gutters>
                 <v-spacer></v-spacer>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <culinary-styles-tags :max-elements="1" @update:selected="handleCulinaryStyleUpdate"></culinary-styles-tags>
+                    <culinary-styles-tags :max-elements="1" :initial-value="selectedFilters.culinaryStyles" @update:selected="handleCulinaryStyleUpdate"></culinary-styles-tags>
                 </v-col>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <dietary-regime-tags :max-elements="1" @update:selected="handleDietaryRegimeUpdate"></dietary-regime-tags>
+                    <dietary-regime-tags :max-elements="1" :initial-value="selectedFilters.dietaryRegimes" @update:selected="handleDietaryRegimeUpdate"></dietary-regime-tags>
                 </v-col>
                 <v-col cols="10" sm="2" class="pr-2">
-                    <meal-type-tags :max-elements="1" @update:selected="handleMealTypeUpdate"></meal-type-tags>
+                    <meal-type-tags :max-elements="1" :initial-value="selectedFilters.mealTypes" @update:selected="handleMealTypeUpdate"></meal-type-tags>
                 </v-col>
                 <v-col cols="10" sm="2">
-                    <total-time-tags @update:selected="handleTotalTimeUpdate"></total-time-tags>
+                    <total-time-tags :initial-value="selectedFilters.totalTime" @update:selected="handleTotalTimeUpdate"></total-time-tags>
                 </v-col>
                 <v-spacer></v-spacer>
             </v-row>
@@ -55,13 +55,20 @@ function handleAppBarExtended() {
 }
 const emit = defineEmits(['update:selected']);
 
-let selectedFilters = ref({
-    searchText: '',
-    culinaryStyles: [],
-    dietaryRegimes: [],
-    mealTypes: [],
-    totalTime: null
+const props = defineProps({
+    initialValue: {
+        type: Object,
+        default: {
+            searchText: '',
+            culinaryStyles: [],
+            dietaryRegimes: [],
+            mealTypes: [],
+            totalTime: null
+        }
+    }
 });
+
+let selectedFilters = ref(props.initialValue);
 
 const handleSearchTextChange = (event) => {
     selectedFilters.value = { ...selectedFilters.value, searchText: event.target.value };

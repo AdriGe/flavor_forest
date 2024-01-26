@@ -20,12 +20,16 @@ const props = defineProps({
     maxElements: {
         type: Number,
         default: 2
+    },
+    initialValue: {
+        type: Array,
+        default: []
     }
 });
 
 const emit = defineEmits(['update:selected']);
 
-const value = ref([]);
+const value = ref(props.initialValue);
 
 const items = ref([
     "Entrée",

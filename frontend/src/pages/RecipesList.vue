@@ -1,5 +1,5 @@
 <template>
-  <recipe-filters @update:selected="handleFilterChange"></recipe-filters>
+  <recipe-filters :initial-value="getInitialValueFilters()" @update:selected="handleFilterChange"></recipe-filters>
 
   <div id="content">
     <div v-if="loading">Loading...</div>
@@ -54,6 +54,10 @@ const constructQueryString = (filters) => {
     queryParams.append('name', filters.searchText);
   }
 
+  if (filters.totalTime) {
+    queryParams.append('total_time', filters.totalTime);
+  }
+
   // Add tags from all arrays
   ['culinaryStyles', 'dietaryRegimes', 'mealTypes'].forEach(key => {
     if (filters[key] && filters[key].length) {
@@ -65,6 +69,17 @@ const constructQueryString = (filters) => {
 };
 
 const lastUsedFilters = ref('');
+
+const getInitialValueFilters = () => {
+  const queryParams = route.query;
+  return {
+    searchText: queryParams.name || '',
+    totalTime: parseInt(queryParams.totalTime, 10) || null,
+    culinaryStyles: queryParams.culinaryStyles ? queryParams.culinaryStyles.split(';') : [],
+    dietaryRegimes: queryParams.dietaryRegimes ? queryParams.dietaryRegimes.split(';') : [],
+    mealTypes: queryParams.mealTypes ? queryParams.mealTypes.split(';') : []
+  };
+};
 
 const fetchData = async (page) => {
   const currentFiltersString = constructQueryString(filters.value);
@@ -95,6 +110,7 @@ onMounted(() => {
 
   filters.value = {
     searchText: queryParams.name || '',
+    totalTime: queryParams.totalTime || '',
     culinaryStyles: queryParams.culinaryStyles ? queryParams.culinaryStyles.split(';') : [],
     dietaryRegimes: queryParams.dietaryRegimes ? queryParams.dietaryRegimes.split(';') : [],
     mealTypes: queryParams.mealTypes ? queryParams.mealTypes.split(';') : []
@@ -112,13 +128,13 @@ const filters = ref({
   searchText: '',
   culinaryStyles: [],
   dietaryRegimes: [],
-  mealTypes: []
+  mealTypes: [],
+  totalTime: null
 });
 
 function handleFilterChange(newFilters) {
   filters.value = { ...filters.value, ...newFilters };
   currentPage.value = 1;
-  
   // Update URL query parameters
   updateQueryParams();
 
@@ -138,6 +154,10 @@ function updateQueryParams() {
       queryParams[key] = filters.value[key].join(';');
     }
   });
+
+  if (filters.value.totalTime) {
+    queryParams['totalTime'] = filters.value.totalTime;
+  }
 
   router.replace({ path: '/recipes', query: queryParams }).catch(err => {});
 }
