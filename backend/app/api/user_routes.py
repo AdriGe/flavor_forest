@@ -3,7 +3,7 @@ from fastapi import Depends, HTTPException, status, APIRouter, Response
 from fastapi.security import OAuth2PasswordRequestForm
 from models.user import User, RefreshToken
 from dependencies import get_db, SessionLocal
-from schemas.users import UserCreate, UserResponse, UserUpdate, RefreshTokenRequest
+from schemas.users import UserCreate, UserResponse, RefreshTokenRequest
 from core.security import create_access_token, create_refresh_token, hash_password, verify_password, decode_token, extract_jti, REFRESH_TOKEN_EXPIRE_DAYS
 from datetime import datetime, timedelta
 import uuid
@@ -99,7 +99,7 @@ async def read_user(user_id: uuid.UUID, current_user: User = Depends(get_current
 
 
 @router.put("/{user_id}")
-async def update_user(user_id: uuid.UUID, user_update: UserUpdate, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
+async def update_user(user_id: uuid.UUID, user_update: UserCreate, current_user: User = Depends(get_current_user), db: SessionLocal = Depends(get_db)):
     if current_user.user_id != user_id:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to update this user")
 
