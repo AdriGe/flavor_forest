@@ -66,7 +66,7 @@ class RecipeDetail(BaseModel):
     sodium: Optional[float]
     serving_size: Optional[int]
     steps: List[str]
-    steps_images_url: List[str]
+    steps_images_url: List[Union[str, None]]
     foods: List[RecipeFoodDetail]
     tags: List[TagDetail]
 
