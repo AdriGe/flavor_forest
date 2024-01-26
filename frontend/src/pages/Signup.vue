@@ -36,7 +36,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-
+import api from '@/services/api';
 
 let form = ref(false);
 let email = ref(null);
@@ -50,12 +50,31 @@ const usernameError = ref('');
 const passwordError = ref('');
 const passwordConfirmationError = ref('');
 
-function onSubmit() {
-    if (!this.form) return
+async function registerUser(userData) {
+    try {
+        const response = await api.post('/users/register', userData);
+        console.log(response.data);
+        // Handle success - e.g., show success message, redirect, etc.
+    } catch (error) {
+        console.error(error.response.data);
+        // Handle error - e.g., show error message
+    }
+}
 
-    loading.value = true
+async function onSubmit() {
+    if (!form.value) return;
+    
+    loading.value = true;
 
-    setTimeout(() => (loading.value = false), 2000)
+    const userData = {
+        email: email.value,
+        username: username.value,
+        password: password.value
+    };
+
+    await registerUser(userData);
+
+    loading.value = false;
 }
 
 function required(v) {
