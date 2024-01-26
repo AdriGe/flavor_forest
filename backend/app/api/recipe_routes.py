@@ -64,6 +64,7 @@ def get_recipes(
     tags: Optional[List[str]] = Query(None),
     difficulty: Optional[str] = None,
     preparation_time: Optional[int] = None,
+    total_time: Optional[int] = None,
     name: Optional[str] = None,
     page: int = 1,
     page_size: int = 10,
@@ -81,6 +82,8 @@ def get_recipes(
         query = query.filter(Recipe.difficulty == difficulty)
     if preparation_time:
         query = query.filter(Recipe.preparation_time <= preparation_time)
+    if total_time:
+        query = query.filter(Recipe.total_time <= total_time)
     if name:
         search_words = name.split()
         for word in search_words:
