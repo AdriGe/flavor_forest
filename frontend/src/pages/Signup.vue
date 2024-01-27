@@ -31,12 +31,16 @@
                 </v-btn>
             </v-form>
         </v-card>
+        <v-snackbar v-model="snackbar" :color="snackbarColor" :timeout="snackbarTimeout" min-width="0">
+                {{ snackbarMessage }}
+        </v-snackbar>
     </v-sheet>
 </template>
 
 <script setup>
 import { ref, computed } from 'vue';
 import api from '@/services/api';
+import { useRouter } from 'vue-router';
 
 let form = ref(false);
 let email = ref(null);
@@ -50,14 +54,40 @@ const usernameError = ref('');
 const passwordError = ref('');
 const passwordConfirmationError = ref('');
 
+const router = useRouter(); // Create a router instance
+
+let snackbar = ref(false);
+let snackbarMessage = ref('');
+let snackbarTimeout = ref(5000);
+let snackbarColor = ref('gray');
+
+function extractErrorMessage(error) {
+    if (error.response && error.response.data) {
+        if (typeof error.response.data.detail === 'string') {
+            return error.response.data.detail;
+        } else if (Array.isArray(error.response.data.detail)) {
+            return error.response.data.detail.join(', ');
+        } else {
+            return JSON.stringify(error.response.data);
+        }
+    }
+    return 'An error occurred';
+}
+
 async function registerUser(userData) {
     try {
         const response = await api.post('/users/register', userData);
-        console.log(response.data);
-        // Handle success - e.g., show success message, redirect, etc.
+        snackbarMessage.value = "Inscription réussie! Redirection en cours...";
+        snackbarColor.value = 'green';
+        snackbar.value = true;
+
+        setTimeout(() => {
+            router.push('/login');
+        }, 2000);
     } catch (error) {
-        console.error(error.response.data);
-        // Handle error - e.g., show error message
+        snackbarMessage.value = extractErrorMessage(error);
+        snackbarColor.value = 'red';
+        snackbar.value = true;
     }
 }
 
