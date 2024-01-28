@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Login from '../pages/Login.vue'
-import Signup from '../pages/Signup.vue'
+import Register from '../pages/Register.vue'
 import RecipesList from '../pages/RecipesList.vue'
 import RecipeView from '../pages/RecipeView.vue'
 import RecipeAdd from '../pages/RecipeAdd.vue'
@@ -14,7 +14,7 @@ const router = createRouter({
   routes: [
     { path: '/', name: 'home', component: RecipesList },
     { path: '/login', name: 'login', component: Login },
-    { path: '/signup', name: 'signup', component: Signup },
+    { path: '/register', name: 'register', component: Register },
     { path: '/foods', name: 'foods', component: FoodsList },
     { path: '/foods/:id', name: 'food_view', component: FoodView },
     { path: '/foods/add', name: 'food_add', component: FoodAdd },
@@ -24,5 +24,18 @@ const router = createRouter({
     { path: '/tracking', name: 'tracking', component: TrackingJournal },
   ]
 })
+
+router.beforeEach((to, from, next) => {
+  const publicPages = ['/login', '/register']; // Les routes qui ne nécessitent pas d'authentification
+  const authRequired = !publicPages.includes(to.path);
+  const loggedIn = localStorage.getItem('access_token'); // Ou utilisez votre logique de store pour vérifier si l'utilisateur est connecté
+
+  // Rediriger vers la page de login si l'authentification est nécessaire et l'utilisateur n'est pas connecté
+  if (authRequired && !loggedIn) {
+      return next('/login');
+  }
+
+  next();
+});
 
 export default router
