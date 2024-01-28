@@ -66,14 +66,12 @@ function prev() {
     if (step.value > 1) {
         step.value--;
     }
-    console.log(step.value);
 }
 
 function next() {
     if (step.value < items.value.length) {
         step.value++;
     }
-    console.log(step.value);
 }
 
 function handleSnackbar({ message, color }) {
