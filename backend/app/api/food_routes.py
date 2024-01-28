@@ -10,6 +10,8 @@ from dependencies import get_db, SessionLocal, model_to_dict
 from typing import Optional
 import unidecode
 import uuid
+from api.user_routes import get_current_user
+from models.user import User
 
 router = APIRouter()
 
@@ -39,7 +41,8 @@ def get_foods(
     brand: Optional[str] = None,
     page: int = 1,
     page_size: int = 10,
-    db: SessionLocal = Depends(get_db)
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
 ):
     if page < 1 or page_size < 1 or page_size > 100:
         raise HTTPException(status_code=400, detail="Invalid pagination parameters")
@@ -66,7 +69,11 @@ def get_foods(
 
 
 @router.get("/{food_id}", response_model=FoodResponse)
-async def get_food(food_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
+async def get_food(
+    food_id: uuid.UUID, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     db_food = db.query(Food).filter(Food.food_id == food_id).first()
     if db_food is None:
         raise HTTPException(status_code=404, detail="Food not found")
@@ -74,7 +81,11 @@ async def get_food(food_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
 
 
 @router.post("", response_model=FoodResponse)
-async def create_food(food: FoodCreate, db: SessionLocal = Depends(get_db)):
+async def create_food(
+    food: FoodCreate, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     try:
         new_food = Food(
             user_id=food.user_id,
@@ -107,7 +118,12 @@ async def create_food(food: FoodCreate, db: SessionLocal = Depends(get_db)):
 
 
 @router.put("/{food_id}", response_model=FoodResponse)
-async def update_food(food_id: uuid.UUID, food_data: FoodUpdate, db: SessionLocal = Depends(get_db)):
+async def update_food(
+    food_id: uuid.UUID, 
+    food_data: FoodUpdate, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     db_food = db.query(Food).filter(Food.food_id == food_id).first()
     if not db_food:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Food not found")

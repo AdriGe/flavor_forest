@@ -5,11 +5,16 @@ from dependencies import get_db, SessionLocal
 from sqlalchemy import and_
 from typing import List
 import uuid
+from api.user_routes import get_current_user
+from models.user import User
 
 router = APIRouter()
 
 @router.get("", response_model=List[TagDetail])
-def get_all_tags(db: SessionLocal = Depends(get_db)):
+def get_all_tags(
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     # Récupérer tous les tags
     tags = db.query(Tag).all()
     
@@ -18,7 +23,11 @@ def get_all_tags(db: SessionLocal = Depends(get_db)):
 
 
 @router.get("/{tag_id}", response_model=TagDetail)
-def get_tag(tag_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
+def get_tag(
+    tag_id: uuid.UUID, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     # Trouver le tag par son ID
     tag = db.query(Tag).filter(Tag.tag_id == tag_id).first()
     if not tag:
@@ -28,7 +37,11 @@ def get_tag(tag_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
 
 
 @router.post("", response_model=TagDetail)
-def create_tag(tag_data: TagCreate, db: SessionLocal = Depends(get_db)):
+def create_tag(
+    tag_data: TagCreate, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     # Vérifier si le tag existe déjà
     existing_tag = db.query(Tag).filter(and_(Tag.name == tag_data.name, Tag.category == tag_data.category)).first()
 
@@ -51,7 +64,12 @@ def create_tag(tag_data: TagCreate, db: SessionLocal = Depends(get_db)):
 
 
 @router.put("/{tag_id}", response_model=TagDetail)
-def update_tag(tag_id: uuid.UUID, tag_data: TagUpdate, db: SessionLocal = Depends(get_db)):
+def update_tag(
+    tag_id: uuid.UUID, 
+    tag_data: TagUpdate, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     # Trouver le tag par son ID
     tag = db.query(Tag).filter(Tag.tag_id == tag_id).first()
     if not tag:
@@ -75,7 +93,11 @@ def update_tag(tag_id: uuid.UUID, tag_data: TagUpdate, db: SessionLocal = Depend
     return tag
 
 @router.delete("/{tag_id}")
-def delete_tag(tag_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
+def delete_tag(
+    tag_id: uuid.UUID, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     # Trouver le tag par son ID
     tag = db.query(Tag).filter(Tag.tag_id == tag_id).first()
     if not tag:

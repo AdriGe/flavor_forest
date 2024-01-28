@@ -3,6 +3,7 @@ from dependencies import get_db, SessionLocal, model_to_dict
 from models.recipes import Recipe, RecipeFood, RecipeTag
 from models.tags import Tag
 from schemas.recipes import RecipeCreate, RecipeDetail, RecipeFoodDetail, TagDetail, RecipeUpdate, RecipeTagsUpdate, RecipeListResponse
+from models.user import User
 from models.foods import Food
 from models.portions import Portion
 from sqlalchemy import func
@@ -10,6 +11,7 @@ import unidecode
 from typing import List, Optional
 from datetime import datetime
 import uuid
+from api.user_routes import get_current_user
 
 def cast_recipe_to_recipe_detail(recipe: Recipe) -> RecipeDetail:
     # Traitement des détails de chaque ingrédient de la recette
@@ -68,7 +70,8 @@ def get_recipes(
     name: Optional[str] = None,
     page: int = 1,
     page_size: int = 10,
-    db: SessionLocal = Depends(get_db)
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
 ):
     if page < 1 or page_size < 1 or page_size > 100:
         raise HTTPException(status_code=400, detail="Invalid page or page_size parameters")
@@ -107,7 +110,11 @@ def get_recipes(
 
 
 @router.get("/{recipe_id}", response_model=RecipeDetail)
-def get_recipe(recipe_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
+def get_recipe(
+    recipe_id: uuid.UUID, 
+    db: SessionLocal = Depends(get_db), 
+    current_user: User = Depends(get_current_user)
+):
 
     db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
 
@@ -155,7 +162,12 @@ def create_recipe(recipe: RecipeCreate, db: SessionLocal = Depends(get_db)):
 
 
 @router.put("/{recipe_id}", response_model=RecipeDetail)
-def update_recipe(recipe_id: uuid.UUID, recipe_data: RecipeUpdate, db: SessionLocal = Depends(get_db)):
+def update_recipe(
+    recipe_id: uuid.UUID, 
+    recipe_data: RecipeUpdate, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     # Trouver la recette par ID
     db_recipe = db.query(Recipe).filter(Recipe.recipe_id == recipe_id).first()
     if not db_recipe:
@@ -214,7 +226,11 @@ def update_recipe(recipe_id: uuid.UUID, recipe_data: RecipeUpdate, db: SessionLo
 
 
 @router.delete("/{recipe_id}")
-def delete_recipe(recipe_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
+def delete_recipe(
+    recipe_id: uuid.UUID, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     db.query(RecipeTag).filter(RecipeTag.recipe_id == recipe_id).delete(synchronize_session=False)
     db.query(RecipeFood).filter(RecipeFood.recipe_id == recipe_id).delete(synchronize_session=False)
 

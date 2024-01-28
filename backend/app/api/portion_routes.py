@@ -5,11 +5,18 @@ from models.portions import Portion
 from schemas.portions import PortionCreate, PortionUpdate, PortionResponse
 from dependencies import get_db, SessionLocal
 import uuid
+from api.user_routes import get_current_user
+from models.user import User
 
 router = APIRouter()
 
 @router.post("/{food_id}/portions", response_model=PortionResponse)
-async def add_portion(food_id: uuid.UUID, portion_data: PortionCreate, db: SessionLocal = Depends(get_db)):
+async def add_portion(
+    food_id: uuid.UUID, 
+    portion_data: PortionCreate, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     # Vérifiez d'abord si l'aliment existe
     food = db.query(Food).filter(Food.food_id == food_id).first()
     if not food:
@@ -30,7 +37,13 @@ async def add_portion(food_id: uuid.UUID, portion_data: PortionCreate, db: Sessi
 
 
 @router.put("/{food_id}/portions/{portion_id}", response_model=PortionResponse)
-async def update_portion(food_id: uuid.UUID, portion_id: uuid.UUID, portion_data: PortionUpdate, db: SessionLocal = Depends(get_db)):
+async def update_portion(
+    food_id: uuid.UUID, 
+    portion_id: uuid.UUID, 
+    portion_data: PortionUpdate, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     db_portion = db.query(Portion).filter(Portion.food_id == food_id, Portion.portion_id == portion_id).first()
     if not db_portion:
         raise HTTPException(status_code=404, detail="Portion not found")
@@ -52,7 +65,12 @@ async def update_portion(food_id: uuid.UUID, portion_id: uuid.UUID, portion_data
 
 
 @router.delete("/{food_id}/portions/{portion_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def delete_portion(food_id: uuid.UUID, portion_id: uuid.UUID, db: SessionLocal = Depends(get_db)):
+async def delete_portion(
+    food_id: uuid.UUID, 
+    portion_id: uuid.UUID, 
+    db: SessionLocal = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
     db.query(Portion).filter(Portion.food_id == food_id, Portion.portion_id == portion_id).delete()
     db.commit()
     return Response(status_code=status.HTTP_204_NO_CONTENT)
