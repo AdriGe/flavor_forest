@@ -4,7 +4,7 @@ from fastapi.security import OAuth2PasswordRequestForm
 from models.user import User, RefreshToken
 from dependencies import get_db, SessionLocal
 from schemas.users import UserCreate, UserResponse, RefreshTokenRequest
-from core.security import create_access_token, create_refresh_token, hash_password, verify_password, decode_token, extract_jti, REFRESH_TOKEN_EXPIRE_DAYS
+from core.security import create_access_token, create_refresh_token, hash_password, verify_password, decode_token, extract_jti, REFRESH_TOKEN_EXPIRE_DAYS, ACCESS_TOKEN_EXPIRE_MINUTES
 from datetime import datetime, timedelta
 import uuid
 from core.security import oauth2_scheme
@@ -63,7 +63,13 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: SessionLoc
     db_refresh_token = RefreshToken(jti=jti, user_id=user.user_id, expires_at=datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS))
     db.add(db_refresh_token)
     db.commit()
-    return {"access_token": access_token, "token_type": "bearer", "refresh_token": refresh_token}
+    return {
+        "token_type": "bearer", 
+        "access_token": access_token, 
+        "access_token_expires_minutes": ACCESS_TOKEN_EXPIRE_MINUTES * 60,
+        "refresh_token": refresh_token,
+        "refresh_token_expires_minutes": REFRESH_TOKEN_EXPIRE_DAYS * 24 * 60
+    }
 
 
 @router.post("/refresh-token")
@@ -84,7 +90,10 @@ async def refresh_token(request: RefreshTokenRequest, db: SessionLocal = Depends
         raise HTTPException(status_code=401, detail="User not found")
 
     new_access_token = create_access_token(data={"sub": user.user_id})
-    return {"access_token": new_access_token}
+    return {
+        "access_token": new_access_token,
+        "access_token_expires_minutes": ACCESS_TOKEN_EXPIRE_MINUTES * 60
+    }
 
 
 @router.get("/{user_id}", response_model=UserResponse)
